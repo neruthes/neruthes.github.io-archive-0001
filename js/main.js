@@ -30,8 +30,6 @@ var jsonMeta = ajaxMetaData.responseText;
 
 blogMetaData = eval("(" + jsonMeta + ")");
 var total = blogMetaData.totalPosts;
-var ghUser = blogMetaData.ghUser;
-var ghRepo = blogMetaData.ghRepo;
 var blogName = blogMetaData.blogName;
 var url = purl();
 

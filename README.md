@@ -1,13 +1,11 @@
-# NeopBlog v0.9.0 Beta #
-
-## Meta Info ##
+# NeopBlog v0.9.1 Beta #
 
 <table>
 	<tr>
 		<th>Key</th><th>Value</th>
 	</tr>
 	<tr>
-		<td>Version</td><td>0.9.0</td>
+		<td>Version</td><td>0.9.1</td>
 	</tr>
 	<tr>
 		<td>Build</td><td>100A42</td>
@@ -16,8 +14,6 @@
 		<td>Status</td><td>Beta</td>
 	</tr>
 </table>
-
-(The content below is not applicable currently, but will be in short future. Now you are still supposed to have a web host or server.)
 
 NeopBlog is a light blog CMS initially developed by Joy Neop, with a feature that it’s easy to build a simple blog with only static files and visitors access the posts via AJAX and JSON. This help the blog owner a easy way to post, but disadvantages are too apparent to make NeopBlog meet all bloggers’ demand.
 
@@ -37,9 +33,17 @@ In advance, as a user, instead of a developer, you should know how to:
 
 Find the file named `meta.json` and edit it, to set how many posts do you have. Notice that your first post’s ID is 0, and `totalPosts` is equal to the ID of your latest plus 1. It it not recommended to start a blog with NeopBlog, because you must have at least 11 posts or unknown bug may appear.
 
-And you push to your repository, and I recommend not to change the name of the repository which you want to use for NeopBlog. Just use default value `NeopBlogData` is quite good.
-
 Then edit `index.html`, the only HTML document of NeopBlog. You can change the content of elements whose class are `global`, which is the only way to configure your blog.
+
+#### Installing On GitHub ####
+
+Firstly you are supposed to create a repository. For example, since my GitHub username is `JoyNeop`, my repository should be named `joyneop.github.io`. And the you need to set up DNS record. For me, I want to use `blog.joyneop.com` for this, I am supposed to set a `CNAME` record which refer `blog.joyneop.com` to `joyneop.github.io`. If you want to use root domain, follow the official instruction at `https://help.github.com/articles/setting-up-a-custom-domain-with-pages`.
+
+Then, find the file `CNAME` in root directory and edit it. There should be one line content disclaiming your domain.
+
+#### Installing On Independent Web Host ####
+
+I think you know what to do, as same as how you install WordPress or MediaWiki, though no need to configure database settings.
 
 ### Posting ###
 
