@@ -27,7 +27,7 @@ function loadPost(pid, localport, ifPageTitle) {
 		document.getElementById("post" + localport + "h2").style.display = "none";
 	} else {
 		document.getElementById("post" + localport + "title").innerHTML = postContent.postTitle;
-		document.getElementById("post" + localport + "title").href = "/?p=" + pid;
+		document.getElementById("post" + localport + "title").href = "./?p=" + pid;
 	}
 	if (postContent.postText == undefined) {
 		document.getElementById("post" + localport + "text").style.display = "none";
@@ -35,7 +35,7 @@ function loadPost(pid, localport, ifPageTitle) {
 		document.getElementById("post" + localport + "text").innerHTML = postContent.postText;
 	}
 	document.getElementById("post" + localport + "link").innerHTML = postContent.postDate;
-	document.getElementById("post" + localport + "link").href = "/?p=" + pid;
+	document.getElementById("post" + localport + "link").href = "./?p=" + pid;
 	document.getElementById("post" + localport).style.display = "block";
 	if (ifPageTitle == 1 && postContent.postTitle != undefined) {
 		document.getElementById("page-title").innerHTML = postContent.postTitle + " — " + blogName;
@@ -48,16 +48,16 @@ function loadPost(pid, localport, ifPageTitle) {
 
 function fillNav(previd, nextid, ifprev, ifnext, type) {
 	if (ifprev == 1) {
-		document.getElementById("prevlink").href = "/?" + type + "=" + previd;
+		document.getElementById("prevlink").href = "./?" + type + "=" + previd;
 		document.getElementById("prevlink").innerHTML = "&lt; Prev";
 		document.getElementById("prevlink").style.visibility = "visible";
 	}
 	if (ifnext == 1) {
 
 		if (nextid == 1 && type == "page") {
-			document.getElementById("nextlink").href = "/";
+			document.getElementById("nextlink").href = "./";
 		} else {
-			document.getElementById("nextlink").href = "/?" + type + "=" + nextid;
+			document.getElementById("nextlink").href = "./?" + type + "=" + nextid;
 		}
 		document.getElementById("nextlink").innerHTML = "Next &gt;";
 		document.getElementById("nextlink").style.visibility = "visible";
