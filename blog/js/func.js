@@ -18,28 +18,27 @@ Copyright info:
 ----------------------------------------*/
 
 function loadPost(pid, localport, ifPageTitle) {
-	ajaxContent.open("GET", "db/" + pid + ".json", false);
+	ajaxContent.open("GET", "db/" + pid + ".txt", false);
 	ajaxContent.send();
 	jsonPost = ajaxContent.responseText;
-	postContent = eval("(" + jsonPost + ")");
 
-	if (postContent.postTitle == undefined) {
+	if (postIndex.list[pid].postTitle == undefined) {
 		document.getElementById("post" + localport + "h2").style.display = "none";
 	} else {
-		document.getElementById("post" + localport + "title").innerHTML = postContent.postTitle;
+		document.getElementById("post" + localport + "title").innerHTML = postIndex.list[pid].postTitle;
 		document.getElementById("post" + localport + "title").href = "./?p=" + pid;
 	}
 	if (postContent.postText == undefined) {
 		document.getElementById("post" + localport + "text").style.display = "none";
 	} else {
-		document.getElementById("post" + localport + "text").innerHTML = postContent.postText;
+		document.getElementById("post" + localport + "text").innerHTML = jsonPost;
 	}
-	document.getElementById("post" + localport + "link").innerHTML = postContent.postDate;
+	document.getElementById("post" + localport + "link").innerHTML = postIndex.list[pid].postDate;
 	document.getElementById("post" + localport + "link").href = "./?p=" + pid;
 	document.getElementById("post" + localport).style.display = "block";
-	if (ifPageTitle == 1 && postContent.postTitle != undefined) {
+	if (ifPageTitle == 1 && postIndex.list[pid].postTitle != undefined) {
 		document.getElementById("page-title").innerHTML = postContent.postTitle + " — " + blogName;
-	} else if (ifPageTitle == 1 && postContent.postTitle == undefined) {
+	} else if (ifPageTitle == 1 && postIndex.list[pid].postTitle == undefined) {
 		document.getElementById("page-title").innerHTML = "Post #" + pid + " — " + blogName;
 	} else {
 		document.getElementById("page-title").innerHTML = blogName;

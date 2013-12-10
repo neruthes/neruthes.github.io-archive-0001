@@ -26,6 +26,13 @@ ajaxMetaData = new XMLHttpRequest();
 ajaxMetaData.open("GET", "./meta.json", false);
 ajaxMetaData.send();
 
+var ajaxList;
+ajaxList = new XMLHttpRequest();
+ajaxList.open("GET", "./list.json", false);
+ajaxList.send();
+var backList = ajaxList.responseText;
+var postIndex = eval("(" + backList + ")");
+
 var jsonMeta = ajaxMetaData.responseText;
 
 blogMetaData = eval("(" + jsonMeta + ")");
