@@ -24,7 +24,7 @@ body {
 	transition: all 300ms ease;
 }
 
-#cont > section.post {
+section.post {
 	padding: 20px 60px 45px;
 	margin-top: 30px;
 	margin-bottom: 80px;
@@ -74,4 +74,13 @@ nav.prevandnext span.prev {
 nav.prevandnext span.next {
 	float: right;
 	text-align: right;
+}
+
+div#comment-container {
+	display: none;
+	visibility: hidden;
+	padding: 20px 60px 45px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	display: none;
 }

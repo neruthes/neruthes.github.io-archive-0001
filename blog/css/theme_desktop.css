@@ -91,4 +91,8 @@ Copyright info:
 		max-width: 762px;
 		margin: 0 auto;
 	}
+	.comment-container {
+		width: 640px;
+		margin: 30px auto 80px auto;
+	}
 }

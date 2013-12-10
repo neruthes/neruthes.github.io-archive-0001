@@ -72,6 +72,8 @@ if (postId == undefined && pageId != undefined && cateName == undefined) {
 	}
 } else if (postId != undefined && pageId == undefined && cateName == undefined) {
 	loadPost(postId, 10, 1);
+	document.getElementById("comment-container").style.display = "block";
+	document.getElementById("comment-container").style.visibility = "visible";
 	var prevpost = Number(postId)-1;
 	var nextpost = Number(postId)+1;
 	if (nextpost == total) {

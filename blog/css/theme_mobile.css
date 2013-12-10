@@ -84,4 +84,9 @@ Copyright info:
 	nav.prevandnext {
 		margin: 30px 30px 30px 30px;
 	}
+
+	.comment-container {
+		margin: 30px 30px 30px 30px;
+		padding: 20px 60px 60px;
+	}
 }
