@@ -28,7 +28,7 @@ function loadPost(pid, localport, ifPageTitle) {
 		document.getElementById("post" + localport + "title").innerHTML = postIndex.list[pid].postTitle;
 		document.getElementById("post" + localport + "title").href = "./?p=" + pid;
 	}
-	if (postContent.postText == undefined) {
+	if (jsonPost == undefined) {
 		document.getElementById("post" + localport + "text").style.display = "none";
 	} else {
 		document.getElementById("post" + localport + "text").innerHTML = jsonPost;
