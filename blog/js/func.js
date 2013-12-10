@@ -37,7 +37,7 @@ function loadPost(pid, localport, ifPageTitle) {
 	document.getElementById("post" + localport + "link").href = "./?p=" + pid;
 	document.getElementById("post" + localport).style.display = "block";
 	if (ifPageTitle == 1 && postIndex.list[pid].postTitle != undefined) {
-		document.getElementById("page-title").innerHTML = postContent.postTitle + " — " + blogName;
+		document.getElementById("page-title").innerHTML = postIndex.list[pid].postTitle + " — " + blogName;
 	} else if (ifPageTitle == 1 && postIndex.list[pid].postTitle == undefined) {
 		document.getElementById("page-title").innerHTML = "Post #" + pid + " — " + blogName;
 	} else {
@@ -52,7 +52,6 @@ function fillNav(previd, nextid, ifprev, ifnext, type) {
 		document.getElementById("prevlink").style.visibility = "visible";
 	}
 	if (ifnext == 1) {
-
 		if (nextid == 1 && type == "page") {
 			document.getElementById("nextlink").href = "./";
 		} else {
