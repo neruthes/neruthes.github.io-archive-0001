@@ -3,7 +3,7 @@ Core file of NeopBlog
 ------------------------------------------
 File meta info:
 	File Name: main.js
-	File Version: 0.9.0
+	File Version: 0.9.2
 	File Status: Beta
 	File Branch: Master
 ------------------------------------------
@@ -72,8 +72,10 @@ if (postId == undefined && pageId != undefined && cateName == undefined) {
 	}
 } else if (postId != undefined && pageId == undefined && cateName == undefined) {
 	loadPost(postId, 10, 1);
-	document.getElementById("comment-container").style.display = "block";
-	document.getElementById("comment-container").style.visibility = "visible";
+	if (blogMetaData.comments == "on") {
+		document.getElementById("comment-container").style.display = "block";
+		document.getElementById("comment-container").style.visibility = "visible";
+	}
 	var prevpost = Number(postId)-1;
 	var nextpost = Number(postId)+1;
 	if (nextpost == total) {
