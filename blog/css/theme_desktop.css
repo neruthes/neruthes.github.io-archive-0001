@@ -76,15 +76,6 @@ Copyright info:
 		max-width: 512px;
 	}
 
-	section.post footer {
-		opacity: 0.5;
-		transition: all 300ms ease;
-	}
-
-	section.post:hover footer {
-		opacity: 1;
-	}
-
 	nav.prevandnext {
 		max-width: 762px;
 		margin: 0 auto;
