@@ -2,8 +2,8 @@
 Theme designed for NeopBlog
 ------------------------------------------
 Theme meta info:
-	Theme Name: JN Softpaper
-	Theme Page: https://github.com/JoyNeop/JN-Softpaper
+	Theme Name: JN Aqua
+	Theme Page: https://github.com/JoyNeop/JN-Aqua
 	Theme Version: 0.9.0
 	Theme status: Beta
 ------------------------------------------
@@ -24,20 +24,20 @@ Copyright info:
 ----------------------------------------*/
 
 body {
-	background: #333;
+	background: #2d6ca3;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
-	font-family: 'Ovo', Times New Roman, Times, Georgia, serif, 'Songti SC';
+	font-family: 'Open Sans', Lucida Grande, Helvetica, Arial, sans-serif, 'STHeiti', 'Hiragino Sans GB';
 	font-weight: 400;
 }
 
 body, h3, h4, h5, h6, p {
-	color: #444;
+	color: #FCFCFC;
 }
 
 h1, h2 {
-	color: #09a4ef;
+	color: #FFF;
 }
 
 h1 {
@@ -46,7 +46,7 @@ h1 {
 
 p {
 	font-size: 17px;
-	text-shadow: 0 1px 2px rgba(255, 255, 255, 0.85);
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 p em {
@@ -55,22 +55,23 @@ p em {
 }
 
 a:link, a:visited, a:hover, a:active {
-	color: #30bbfe;
+	color: #FFFFFF;
 	text-decoration: underline;
 }
 
 .global {
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .global a {
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+	text-decoration: none;
 }
 
 section.post {
-	background: #FEFEFE url(/pic/bg.png) top scroll repeat;
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-	border-bottom: 5px solid #257ce4;
+	background: rgba(0, 0, 0, 0.45);
+	box-shadow: 0 0 28px rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(0, 0, 0, 0.03);
+	border-radius: 4px;
 }
 
 section.post > h2 {
@@ -116,17 +117,18 @@ section.post > h2 {
 
 section.post > footer {
 	font-weight: 400;
-	text-align: right;
+	text-align: center;
 	margin: 60px 0 0 0;
 }
 
 nav.prevandnext span a {
 	font-weight: 400;
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .comment-container {
-	background: #FEFEFE url(/pic/bg.png);
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.45);
+	box-shadow: 0 0 28px rgba(0, 0, 0, 0.3);
 	border: 1px solid rgba(0, 0, 0, 0.03);
+	border-radius: 4px;
 }
