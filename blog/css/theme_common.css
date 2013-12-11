@@ -70,7 +70,7 @@ a:link, a:visited, a:hover, a:active {
 section.post {
 	background: #FEFEFE url(/pic/bg.png) top scroll repeat;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-	border-bottom: 5px solid #ffff55;
+	border-bottom: 5px solid #257ce4;
 }
 
 section.post > h2 {
