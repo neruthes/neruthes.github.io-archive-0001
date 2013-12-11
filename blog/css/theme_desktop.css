@@ -26,7 +26,9 @@ Copyright info:
 	.global {
 		text-align: center;
 		width: 760px;
-		margin-bottom: 60px 0px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 60px;
 	}
 
 	#global-header {
