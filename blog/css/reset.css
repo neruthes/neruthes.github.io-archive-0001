@@ -40,11 +40,13 @@ footer.global {
 
 h1 {
 	font-size: 40px;
+	text-decoration: none;
 	padding: 0;
 	margin: 26px 0 35px;
 }
 
 .global h2 {
+	text-decoration: none;
 	font-size: 15px;
 	margin: 18px 0;
 }
