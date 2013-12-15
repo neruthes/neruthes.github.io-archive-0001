@@ -40,8 +40,8 @@ var total = blogMetaData.totalPosts;
 var blogName = blogMetaData.blogName;
 var url = purl();
 
-var postId = Number(url.param("p"));
-var pageId = Number(url.param("page"));
+var postId = url.param("p");
+var pageId = url.param("page");
 var cateName = url.param("category");
 
 var lastPage;
@@ -80,11 +80,11 @@ if (postId == undefined && pageId != undefined && cateName == undefined) {
 	var nextpost = Number(postId)+1;
 	if (nextpost == total) {
 		fillNav(prevpost, nextpost, 1, 0, "p");
-	} else if (postId == 0) {
+	} else if (Number(postId) == 0) {
 		fillNav(prevpost, nextpost, 0, 1, "p");
-	} else if (postId < 0) {
+	} else if (Number(postId) < 0) {
 		httpError("404");
-	} else if (postId > theLatestPostId) {
+	} else if (Number(postId) > theLatestPostId) {
 		httpError("404");
 	} else {
 		fillNav(prevpost, nextpost, 1, 1, "p");

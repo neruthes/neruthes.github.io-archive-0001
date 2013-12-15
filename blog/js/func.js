@@ -77,6 +77,8 @@ function httpError(ecode) {
 	document.getElementById("post10title").innerHTML = "HTTP " + ecode;
 	document.getElementById("post10link").innerHTML = "";
 	document.getElementById("prevandnext").innerHTML = "";
+	document.getElementById("comment-container").innerHTML = "";
+	document.getElementById("comment-container").style.display = "none";
 	var info = "Unknown Issue...";
 	document.getElementById("post10").style.display = "block";
 	if (ecode == "404") {
