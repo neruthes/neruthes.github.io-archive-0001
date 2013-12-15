@@ -40,8 +40,8 @@ var total = blogMetaData.totalPosts;
 var blogName = blogMetaData.blogName;
 var url = purl();
 
-var postId = url.param("p");
-var pageId = url.param("page");
+var postId = Number(url.param("p"));
+var pageId = Number(url.param("page"));
 var cateName = url.param("category");
 
 var lastPage;

@@ -73,14 +73,15 @@ function loadPage(pageId, postsToLoad) {
 	}
 }
 
-function httpError(code) {
-	alert("HTTP" + code);
-	document.getElementById("post10title").innerHTML = "HTTP" + code;
+function httpError(ecode) {
+	document.getElementById("post10title").innerHTML = "HTTP " + ecode;
+	document.getElementById("post10link").innerHTML = "";
+	document.getElementById("prevandnext").innerHTML = "";
 	var info = "Unknown Issue...";
 	document.getElementById("post10").style.display = "block";
-	if (code == 404) {
+	if (ecode == "404") {
 		info = "The content you are requesting does not exist. Check your request please."
-	} else if (code == 403) {
+	} else if (ecode == "403") {
 		info = "Firbidden. You are not allowed to see this."
 	}
 	document.getElementById("post10text").innerHTML = info;
