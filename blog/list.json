@@ -19,9 +19,21 @@
 	{ "postDate" : "Aug 27, 2012", "postCate" : "Design", "postTitle" : "Avatar B&W Version 1" },
 	{ "postDate" : "Aug 28, 2012", "postCate" : "Memories" },
 	{ "postDate" : "Aug 30, 2012", "postCate" : "Memories", "postTitle" : "希望" },
-	{ "postDate" : "Apr 30, 2012", "postCate" : "Design" },
+	{ "postDate" : "Aug 30, 2012", "postCate" : "Design", "postTitle" : "Flower Sketch" },
 	{ "postDate" : "Sep 4, 2012", "postCate" : "Memories", "postTitle" : "秋雨" },
 	{ "postDate" : "Sep 7, 2012", "postCate" : "Memories", "postTitle" : "物不再是，人也已非" },
-	{ "postDate" : "Sep 8, 2012", "postCate" : "Memories", "postTitle" : "命の意味" }
+	{ "postDate" : "Sep 8, 2012", "postCate" : "Memories", "postTitle" : "命の意味" },
+	{ "postDate" : "Sep 14, 2012", "postCate" : "Memories", "postTitle" : "單程" },
+	{ "postDate" : "Sep 22, 2012", "postCate" : "Memories", "postTitle" : "落葉堆成你的名字" },
+	{ "postDate" : "Sep 24, 2012", "postCate" : "Memories", "postTitle" : "秋夜靜思" },
+	{ "postDate" : "Oct 2, 2012", "postCate" : "Design", "postTitle" : "BBS Signature Line: Think Different" },
+	{ "postDate" : "Oct 19, 2012", "postCate" : "Design", "postTitle" : "BBS Signature Line: Thought Different" },
+	{ "postDate" : "Oct 31, 2012", "postCate" : "Memories", "postTitle" : "Insignificative" },
+	{ "postDate" : "Nov 4, 2012", "postCate" : "Design", "postTitle" : "iPad Wallpaper: Colorful Apple Logo" },
+	{ "postDate" : "Nov 9, 2012", "postCate" : "Design", "postTitle" : "Avatar B&W Version 2" },
+	{ "postDate" : "Nov 10, 2012", "postCate" : "Photography" },
+	{ "postDate" : "Nov 17, 2012", "postCate" : "Memories", "postTitle" : "沉入无比澄澈的水中" },
+	{ "postDate" : "Nov 24, 2012", "postCate" : "Poetries", "postTitle" : "鎮魂曲" },
+	{ "postDate" : "Dec 7, 2012", "postCate" : "Memories", "postTitle" : "寒冬" },
 ]
 }
