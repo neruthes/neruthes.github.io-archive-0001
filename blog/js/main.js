@@ -71,13 +71,15 @@ if (postId == undefined && pageId != undefined && cateName == undefined) {
 		loadPage(pageId, 10)
 	}
 } else if (postId != undefined && pageId == undefined && cateName == undefined) {
-	loadPost(postId, 10, 1);
 	if (blogMetaData.comments == "on") {
 		document.getElementById("comment-container").style.display = "block";
 		document.getElementById("comment-container").style.visibility = "visible";
 	}
 	var prevpost = Number(postId)-1;
 	var nextpost = Number(postId)+1;
+	if (Number(postId) < total && Number(postId) >= 0) {
+		loadPost(postId, 10, 1);
+	}
 	if (nextpost == total) {
 		fillNav(prevpost, nextpost, 1, 0, "p");
 	} else if (Number(postId) == 0) {

@@ -86,5 +86,6 @@ function httpError(ecode) {
 	} else if (ecode == "403") {
 		info = "Firbidden. You are not allowed to see this."
 	}
+	document.getElementById("page-title").innerHTML = "HTTP" + ecode + "— " + blogName;
 	document.getElementById("post10text").innerHTML = info;
 }
