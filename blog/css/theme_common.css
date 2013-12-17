@@ -102,7 +102,7 @@ section.post > h2 {
 	margin-right: auto;
 }
 
-.post-textpost > code {
+.post-text > pre {
 	font-family: 'Menlo', sans-serif, condensed;
 	width: 80%;
 	margin-left: auto;
