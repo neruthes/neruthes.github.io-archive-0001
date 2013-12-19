@@ -84,7 +84,7 @@ section.post footer {
 	margin: 18px auto;
 }
 
-blockquote, code {
+blockquote, pre {
 	width: 80%;
 	margin-top: 18px;
 	margin-bottom: 18px;

@@ -1,5 +1,6 @@
 {
 "totalPosts" : 35,
 "blogName" : "Joy Neop",
-"comments" : "off"
-} 
+"comments" : "off",
+"rss" : "on"
+}
