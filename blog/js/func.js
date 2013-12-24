@@ -22,7 +22,7 @@ function loadPost(pid, localport, ifPageTitle) {
 	ajaxContent.send();
 	jsonPost = ajaxContent.responseText;
 
-	if (postIndex.list[pid].postTitle == undefined) {
+	if (postIndex.list[pid].postTitle == undefined || postIndex.list[pid].postTitle == "") {
 		document.getElementById("post" + localport + "h2").style.display = "none";
 	} else {
 		document.getElementById("post" + localport + "title").innerHTML = postIndex.list[pid].postTitle;
