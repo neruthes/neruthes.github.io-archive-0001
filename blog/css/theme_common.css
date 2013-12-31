@@ -2,14 +2,14 @@
 Theme designed for NeopBlog
 ------------------------------------------
 Theme meta info:
-	Theme Name: JN Aqua
-	Theme Page: https://github.com/JoyNeop/JN-Aqua
+	Theme Name: JN Softpaper
+	Theme Page: https://github.com/JoyNeop/JN-Softpaper
 	Theme Version: 0.9.0
 	Theme status: Beta
 ------------------------------------------
 File meta info:
 	File Name: theme_commons.css
-	File Version: 0.9.0
+	File Version: 0.9.1
 	File Status: Beta
 	File Branch: Master
 ------------------------------------------
@@ -24,29 +24,30 @@ Copyright info:
 ----------------------------------------*/
 
 body {
-	background: #2d6ca3;
+	background: #333;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
-	font-family: 'Open Sans', Lucida Grande, Helvetica, Arial, sans-serif, 'STHeiti', 'Hiragino Sans GB';
+	font-family: 'Ovo', Times New Roman, Times, Georgia, serif, 'Songti SC';
 	font-weight: 400;
 }
 
 body, h3, h4, h5, h6, p {
-	color: #FCFCFC;
+	color: #444;
 }
 
 h1, h2 {
-	color: #FFF;
+	color: #09a4ef;
 }
 
 h1 {
 	font-weight: 300;
+	text-decoration: none;
 }
 
 p {
 	font-size: 17px;
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	text-shadow: 0 1px 2px rgba(255, 255, 255, 0.85);
 }
 
 p em {
@@ -55,23 +56,23 @@ p em {
 }
 
 a:link, a:visited, a:hover, a:active {
-	color: #FFFFFF;
+	color: #30bbfe;
 	text-decoration: underline;
 }
 
 .global {
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 }
 
 .global a {
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 	text-decoration: none;
 }
 
 section.post {
-	background: rgba(0, 0, 0, 0.45);
-	box-shadow: 0 0 28px rgba(0, 0, 0, 0.3);
-	border: 1px solid rgba(0, 0, 0, 0.03);
-	border-radius: 4px;
+	background: #FEFEFE top scroll repeat;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+	border-bottom: 5px solid #257ce4;
 }
 
 section.post > h2 {
@@ -102,7 +103,7 @@ section.post > h2 {
 	margin-right: auto;
 }
 
-.post-text > pre {
+.post-textpost > code {
 	font-family: 'Menlo', sans-serif, condensed;
 	width: 80%;
 	margin-left: auto;
@@ -123,12 +124,11 @@ section.post > footer {
 
 nav.prevandnext span a {
 	font-weight: 400;
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 }
 
 .comment-container {
-	background: rgba(0, 0, 0, 0.45);
-	box-shadow: 0 0 28px rgba(0, 0, 0, 0.3);
+	background: #FEFEFE url(/pic/bg.png);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 	border: 1px solid rgba(0, 0, 0, 0.03);
-	border-radius: 4px;
 }
