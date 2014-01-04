@@ -77,7 +77,11 @@ div#cont.cont {
 section.post {
 	padding-top: 10px;
 	margin-bottom: 0;
-	border-bottom: 1px solid #E0E0E0;
+	border-top: 1px solid #E0E0E0;
+}
+
+section#post10.post {
+	border-top: none;
 }
 
 section.post > h2 {
