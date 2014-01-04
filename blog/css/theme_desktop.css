@@ -2,8 +2,8 @@
 Theme designed for NeopBlog
 ------------------------------------------
 Theme meta info:
-	Theme Name: JN Softpaper
-	Theme Page: https://github.com/JoyNeop/JN-Softpaper
+	Theme Name: JN SimpleZen
+	Theme Page: https://github.com/JoyNeop/JN-SimpleZen
 	Theme Version: 0.9.0
 	Theme status: Beta
 ------------------------------------------
@@ -53,13 +53,13 @@ Copyright info:
 		padding: 50px;
 	}
 
-	div.cont {
-		margin: 60px 0px;
+	div#cont.cont {
+		width: 760px;
+		margin: 60px auto;
 	}
 	
 	section.post {
 		width: 640px;
-		margin: 30px auto 80px auto;
 	}
 
 	section.addon {

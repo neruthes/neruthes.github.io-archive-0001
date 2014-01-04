@@ -2,8 +2,8 @@
 Theme designed for NeopBlog
 ------------------------------------------
 Theme meta info:
-	Theme Name: JN Softpaper
-	Theme Page: https://github.com/JoyNeop/JN-Softpaper
+	Theme Name: JN SimpleZen
+	Theme Page: https://github.com/JoyNeop/JN-SimpleZen
 	Theme Version: 0.9.0
 	Theme status: Beta
 ------------------------------------------
@@ -24,24 +24,24 @@ Copyright info:
 ----------------------------------------*/
 
 body {
-	background: #333;
+	background: #E2E0DA;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
-	font-family: 'Ovo', Times New Roman, Times, Georgia, serif, 'Songti SC';
-	font-weight: 400;
+	font-family: 'Iowan Old Style', Times New Roman, Times, Georgia, serif, 'Hiragino Mincho Pro','Songti SC';
+	font-weight: normal;
 }
 
 body, h3, h4, h5, h6, p {
-	color: #444;
+	color: #555;
 }
 
 h1, h2 {
-	color: #09a4ef;
+	color: #222;
 }
 
 h1 {
-	font-weight: 300;
+	font-weight: normal;
 	text-decoration: none;
 }
 
@@ -51,28 +51,33 @@ p {
 }
 
 p em {
-	font-weight: 500;
+	font-weight: bold;
 	text-decoration: underline;
 }
 
 a:link, a:visited, a:hover, a:active {
-	color: #30bbfe;
+	color: inherit;
 	text-decoration: underline;
 }
 
 .global {
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+	text-shadow: 0 1px 2px rgba(225, 225, 225, 0.55);
 }
 
 .global a {
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+	text-shadow: 0 1px 2px rgba(225, 225, 225, 0.55);
 	text-decoration: none;
 }
 
+div#cont.cont {
+	background: #FDFDFD;
+	box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+
 section.post {
-	background: #FEFEFE top scroll repeat;
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-	border-bottom: 5px solid #257ce4;
+	padding-top: 10px;
+	margin-bottom: 0;
+	border-bottom: 1px solid #E0E0E0;
 }
 
 section.post > h2 {
@@ -119,18 +124,16 @@ section.post > h2 {
 }
 
 section.post > footer {
-	font-weight: 400;
+	font-weight: normal;
 	text-align: center;
 	margin: 60px 0 0 0;
 }
 
 nav.prevandnext span a {
-	font-weight: 400;
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+	font-weight: normal;
 }
 
 .comment-container {
-	background: #FEFEFE url(/pic/bg.png);
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-	border: 1px solid rgba(0, 0, 0, 0.03);
+	background: #FDFDFD;
+	box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
 }
