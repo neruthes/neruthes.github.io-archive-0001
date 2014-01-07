@@ -80,6 +80,10 @@ section.post footer {
 	margin: 40px 0 0;
 }
 
+aside.sidebar {
+	display: none;
+}
+
 .post-text > img {
 	margin: 18px auto;
 }
