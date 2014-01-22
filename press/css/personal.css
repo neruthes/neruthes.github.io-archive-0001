@@ -1,0 +1,36 @@
+/*----------------------------------------
+With this file you are able to use additional CSS without editing theme.
+----------------------------------------*/
+
+a[href="http://zhuanlan.zhihu.com/voidgarden"] {
+	display: block;
+	float: right;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	font-weight: normal;
+	height: 26px;
+	padding: 3px 8px 1px;
+	margin: 6px 0 0 0;
+	box-shadow: rgba(255, 255, 255, 0.14902) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px;
+	background-color: rgb(97, 199, 136);
+	background-image: -webkit-linear-gradient(top, rgb(107, 200, 142), rgb(82, 199, 126));
+	border: 1px solid rgb(28, 172, 82);
+	border-radius: 4px;
+	box-shadow: rgba(255, 255, 255, 0.14902) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+a[href="http://blog.joyneop.com/"] {
+	display: block;
+	color: #BBB;
+	text-align: center;
+}
+
+body #cont.cont a {
+	text-decoration: none;
+}
+
+nav#prevandnext.prevandnext span a {
+	text-decoration: none;
+}

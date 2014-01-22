@@ -1,0 +1,26 @@
+/*----------------------------------------
+Core file of NeopBlog
+NeopBlog on GitHub: https://github.com/JoyNeop/NeopBlog
+------------------------------------------
+File meta info:
+	File Name: fonts.css
+	File Version: 0.9.0
+	File Status: Beta
+	File Branch: Master
+------------------------------------------
+NeopBlog developer meta info:
+	Developer Name: Joy Neop
+	Developer Website: http://www.joyneop.com/
+	Developer Twitter: @joyneop
+------------------------------------------
+Copyright info:
+	License Name: CC BY-NC-SA 4.0
+	License Link: http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US
+----------------------------------------*/
+
+/*----------------------------------------
+If you want to use fonts from web fonts providers such as Google Fonts and Typekit, you can insert the provided CSS code here.
+----------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Ovo);
