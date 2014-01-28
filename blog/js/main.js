@@ -17,7 +17,6 @@ Copyright info:
 	License Link: http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US
 ----------------------------------------*/
 
-var blogMetaData;
 var ajaxContent;
 ajaxContent = new XMLHttpRequest();
 
@@ -25,29 +24,25 @@ var ajaxMetaData;
 ajaxMetaData = new XMLHttpRequest();
 ajaxMetaData.open("GET", "./meta.json", false);
 ajaxMetaData.send();
+var blogMetaData = eval("(" + ajaxMetaData.responseText + ")");
 
 var ajaxList;
 ajaxList = new XMLHttpRequest();
 ajaxList.open("GET", "./list.json", false);
 ajaxList.send();
-var backList = ajaxList.responseText;
-var postIndex = eval("(" + backList + ")");
+var postIndex = eval("(" + ajaxList.responseText + ")");
 
-var jsonMeta = ajaxMetaData.responseText;
-
-blogMetaData = eval("(" + jsonMeta + ")");
 var total = postIndex.list.length;
 var blogName = blogMetaData.blogName;
 var url = purl();
 
 var postId = url.param("p");
 var pageId = url.param("page");
-var cateName = url.param("category");
 
 var lastPage;
 var theLatestPostId = total-1;
 
-if (postId == undefined && pageId != undefined && cateName == undefined) {
+if (postId == undefined && pageId != undefined) {
 	var prevpage = Number(pageId)+1;
 	var nextpage = Number(pageId)-1;
 	if (total%10 != 0) {
@@ -65,12 +60,12 @@ if (postId == undefined && pageId != undefined && cateName == undefined) {
 		loadPage(pageId, onLastPage);
 	} else if (1 == pageId && lastPage != pageId) {
 		fillNav(prevpage, nextpage, 1, 0, "page");
-		loadPage(pageId, 10)
+		loadPage(pageId, 10);
 	} else {
 		fillNav(prevpage, nextpage, 1, 1, "page");
-		loadPage(pageId, 10)
+		loadPage(pageId, 10);
 	}
-} else if (postId != undefined && pageId == undefined && cateName == undefined) {
+} else if (postId != undefined && pageId == undefined) {
 	if (blogMetaData.comments == "on") {
 		document.getElementById("comment-container").style.display = "block";
 		document.getElementById("comment-container").style.visibility = "visible";
@@ -91,12 +86,9 @@ if (postId == undefined && pageId != undefined && cateName == undefined) {
 	} else {
 		fillNav(prevpost, nextpost, 1, 1, "p");
 	}
-} else if (postId == undefined && pageId == undefined && cateName == undefined) {
+} else if (postId == undefined && pageId == undefined) {
 	loadPage(1, 10);
 	fillNav(2, 0, 1, 0, "page");
-} else if (postId == undefined && pageId == undefined && cateName != undefined) {
-	httpError("404");
 }
 
 var jsonPost;
-var ajaxContent;
