@@ -22,10 +22,10 @@ function loadPost(pid, localport, ifPageTitle) {
 	ajaxContent.send();
 	jsonPost = ajaxContent.responseText;
 
-	if (postIndex.list[pid].postTitle == "") {
+	if (postIndex.list[pid].Title == "") {
 		document.getElementById("post" + localport + "h2").style.display = "none";
 	} else {
-		document.getElementById("post" + localport + "title").innerHTML = postIndex.list[pid].postTitle;
+		document.getElementById("post" + localport + "title").innerHTML = postIndex.list[pid].Title;
 		document.getElementById("post" + localport + "title").href = "./?p=" + pid;
 	}
 	if (jsonPost == undefined) {
@@ -33,12 +33,12 @@ function loadPost(pid, localport, ifPageTitle) {
 	} else {
 		document.getElementById("post" + localport + "text").innerHTML = jsonPost;
 	}
-	document.getElementById("post" + localport + "link").innerHTML = postIndex.list[pid].postDate;
+	document.getElementById("post" + localport + "link").innerHTML = postIndex.list[pid].Time;
 	document.getElementById("post" + localport + "link").href = "./?p=" + pid;
 	document.getElementById("post" + localport).style.display = "block";
-	if (ifPageTitle == 1 && postIndex.list[pid].postTitle != undefined) {
-		document.getElementById("page-title").innerHTML = postIndex.list[pid].postTitle + " — " + blogName;
-	} else if (ifPageTitle == 1 && postIndex.list[pid].postTitle == undefined) {
+	if (ifPageTitle == 1 && postIndex.list[pid].Title != undefined) {
+		document.getElementById("page-title").innerHTML = postIndex.list[pid].Title + " — " + blogName;
+	} else if (ifPageTitle == 1 && postIndex.list[pid].Title == undefined) {
 		document.getElementById("page-title").innerHTML = "Post #" + pid + " — " + blogName;
 	} else {
 		document.getElementById("page-title").innerHTML = blogName;
