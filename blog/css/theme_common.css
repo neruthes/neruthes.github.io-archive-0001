@@ -2,8 +2,8 @@
 Theme designed for NeopBlog
 ------------------------------------------
 Theme meta info:
-	Theme Name: JN SimpleZen
-	Theme Page: https://github.com/JoyNeop/JN-SimpleZen
+	Theme Name: Void
+	Theme Page: https://github.com/JoyNeop/JN-Void
 	Theme Version: 0.9.0
 	Theme status: Beta
 ------------------------------------------
@@ -19,26 +19,24 @@ Designer meta info:
 	Designer Twitter: @joyneop
 ------------------------------------------
 Copyright info:
-	License Name: CC BY-NC-SA 4.0
-	License Link: http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US
+	All rights reserved.
 ----------------------------------------*/
 
 body {
-	background: #E2E0DA;
+	background: #111115;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
-	font-family: 'Iowan Old Style', Times New Roman, Times, Georgia, serif, 'Hiragino Mincho Pro', 'Songti SC';
+	font-family: 'Open Sans', Myriad Pro, Myriad Set, Myriad, Helvetica, Helvetica Neue, Lucida Grande, Lucida, Arial, 'Hiragino Sans GB', sans-serif;
 	font-weight: normal;
 }
 
 body, h3, h4, h5, h6, p {
-	color: #666;
+	color: #D3D3D3;
 }
 
-h1, h2 {
-	color: #555;
-	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.35);
+header.global h1, h2 {
+	color: #FFF;
 }
 
 h1 {
@@ -48,8 +46,8 @@ h1 {
 
 p {
 	font-size: 17px;
-	line-height: 27px;
-	text-shadow: 0 1px 2px rgba(255, 255, 255, 0.85);
+	line-height: 29px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 p em {
@@ -62,26 +60,15 @@ a:link, a:visited, a:hover, a:active {
 	text-decoration: inherit;
 }
 
-.global {
-}
-
 .global a {
 	text-decoration: none;
 }
 
-div#cont.cont {
-	background: #FDFDFD;
-	box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
-}
-
 section.post {
 	padding-top: 10px;
-	margin-bottom: 0;
-	border-top: 1px solid #E0E0E0;
-}
-
-section#post10.post {
-	border-top: none;
+	margin-bottom: 50px;
+	background: rgba(40, 40, 40, 0.65);
+	border: 1px solid #DDD;
 }
 
 section.post > h2 {
