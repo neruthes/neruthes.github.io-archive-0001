@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta id="mm" http-equiv="refresh" content="80;url=http://neop.me/">
+</head>
+<body>
+	<script type="text/javascript">
+	var pid = Number(window.location.href.slice(window.location.href.indexOf("?") + 3))
+	var jsonId = (pid-pid%100)/100
+	var num = pid%100
+	alert(jsonId)
+	var ajax = new XMLHttpRequest()
+	ajax.open("GET", "./" + jsonId + ".json", false)
+	ajax.send()
+	var json = eval("(" + ajax.responseText + ")")
+	document.getElementById("mm").content = "0;url=" + json.list[num].url
+	</script>
+</body>
+</html>
