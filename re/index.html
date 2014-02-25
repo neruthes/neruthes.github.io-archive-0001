@@ -5,7 +5,7 @@
 </head>
 <body>
 	<script type="text/javascript">
-	var pid = Number(window.location.href.slice(window.location.href.indexOf("?") + 3))
+	var pid = Number(window.location.href.slice(window.location.href.indexOf("?") + 1))
 	var jsonId = (pid-pid%100)/100
 	var num = pid%100
 	var ajax = new XMLHttpRequest()
