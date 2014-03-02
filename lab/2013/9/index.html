@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>.Somainer</title>
+	<link rel="apple-touch-icon" href="https://raw.github.com/JoyNeop/JN-Lab/master/other-images/somainer.png" />
+	<link rel="shortcut icon favicon" href="https://raw.github.com/JoyNeop/JN-Lab/master/other-images/somainer.png" />
+	<style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+	@-webkit-keyframes arrow {
+		0% {opacity: 0;}
+		40% {opacity: 0;}
+		45% {opacity: 0.01425;}
+		50% {opacity: 0.142625;}
+		55% {opacity: 0.271;}
+		60% {opacity: 0.385875;}
+		65% {opacity: 0.488;}
+		100% {opacity: 0.488;}
+	}
+	@-moz-keyframes arrow {
+		0% {opacity: 0;}
+		40% {opacity: 0;}
+		45% {opacity: 0.01425;}
+		50% {opacity: 0.142625;}
+		55% {opacity: 0.271;}
+		60% {opacity: 0.385875;}
+		65% {opacity: 0.488;}
+		100% {opacity: 0.488;}
+	}
+	@-ms-keyframes arrow {
+		0% {opacity: 0;}
+		40% {opacity: 0;}
+		45% {opacity: 0.01425;}
+		50% {opacity: 0.142625;}
+		55% {opacity: 0.271;}
+		60% {opacity: 0.385875;}
+		65% {opacity: 0.488;}
+		100% {opacity: 0.488;}
+	}
+	@keyframes arrow {
+		0% {opacity: 0;}
+		40% {opacity: 0;}
+		45% {opacity: 0.01425;}
+		50% {opacity: 0.142625;}
+		55% {opacity: 0.271;}
+		60% {opacity: 0.385875;}
+		65% {opacity: 0.488;}
+		100% {opacity: 0.488;}
+	}
+	* {
+		font-family: 'Open Sans', Helvetica, sans-serif;
+		font-weight: 300;
+		text-decoration: none;
+		-webkit-transition: all 250ms ease;
+		-moz-transition: all 250ms ease;
+		-ms-transition: all 250ms ease;
+		-o-transition: all 250ms ease;
+		transition: all 250ms ease;
+	}
+	body {
+		color: #FCFCFC;
+		margin: 0;
+		opacity: 0;
+		background: url(https://raw.github.com/JoyNeop/JN-Lab/master/other-images/paper-dark.png) top scroll repeat;
+	}
+	h1, h2, h3 {
+		text-align: center;
+		color: #FCFCFC;
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.75);
+	}
+	.area {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		-webkit-transition: all 0ms ease;
+		-moz-transition: all 0ms ease;
+		-ms-transition: all 0ms ease;
+		-o-transition: all 0ms ease;
+		transition: all 0ms ease;
+	}
+	.cont {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		height: 400px;
+		width: 600px;
+		margin-top: -200px;
+		margin-left: -300px;
+	}
+	#area-1 {
+		background: url(https://raw.github.com/JoyNeop/JN-Lab/master/other-images/paper-dark.png) top scroll repeat;
+	}
+	#area-1 .cont {
+		margin-top: -180px;
+	}
+	#area-1 h1 {
+		height: 220px;
+		font-size: 40px;
+		margin: 0;
+	}
+	#area-1 h1 a {
+		display: block;
+		color: #FCFCFC;
+	}
+	#area-1 h1 #border {
+		height: 140px;
+		width: 140px;
+		padding: 3px 3px 3px 3px;
+		margin-left: auto;
+		margin-right: auto;
+		background: #DDD;
+		background-image: -webkit-linear-gradient(top, #F0F0F0, #D0D0D0);
+		border-radius: 500px;
+		box-shadow: 0 0 18px rgba(0, 0, 0, 0.85);
+	}
+	#area-1 h1 #avatar {
+		height: 140px;
+		width: 140px;
+		border-radius: 500px;
+		background: url(https://raw.github.com/JoyNeop/JN-Lab/master/other-images/somainer.png) center no-repeat scroll;
+		background-size: cover;
+		background-clip: content-box;
+	}
+	#area-1 header {
+		font-size: 20px;
+		text-align: center;
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.65);
+	}
+	#arrow {
+		position: absolute;
+		opacity: 0;
+		display: block;
+		bottom: 0;
+		height: 140px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		background: url(https://raw.github.com/JoyNeop/JN-Lab/master/other-images/arrow-up.png) center no-repeat scroll;
+		cursor: pointer;
+		-webkit-animation: arrow 3s infinite;
+		-webkit-animation-direction: alternate;
+		-webkit-animation-delay: 1s;
+		-moz-animation: arrow 3s infinite;
+		-moz-animation-direction: alternate;
+		-moz-animation-delay: 1s;
+		-ms-animation: arrow 3s infinite;
+		-ms-animation-direction: alternate;
+		-ms-animation-delay: 1s;
+		animation: arrow 3s infinite;
+		animation-direction: alternate;
+		animation-delay: 1s;
+	}
+	#area-2 {
+		top: 100%;
+	}
+	h3 {
+		margin-top: 40px;
+		margin-bottom: 0;
+		color: #FCFCFC;
+		text-align: center;
+		font-size: 27px;
+	}
+	ul {
+		padding: 10px 0 0 0;
+		text-align: center;
+		margin-top: 10px;
+	}
+	li {
+		text-align: center;
+		display: block;
+		font-size: 20px;
+		height: 23px;
+		margin: 10px 30px 10px 30px;
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.65);
+	}
+	#area-2 a {
+		color: #FCFCFC;
+	}
+	#area-3 {
+		background: url(https://raw.github.com/JoyNeop/JN-Lab/master/other-images/somainer-grass.jpg) top fixed no-repeat;
+		background-size: cover;
+		box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.85);
+		top: 200%;
+	}
+	#area-3 .cont {
+		background: url(https://raw.github.com/JoyNeop/JN-Lab/master/other-images/paper-light.png) top scroll repeat;
+		box-shadow: 0 0 18px rgba(0, 0, 0, 0.85);
+		color: rgba(0, 0, 0, 0.7);
+	}
+	#area-3 * {
+		color: rgba(0, 0, 0, 0.7);
+		text-shadow: none;
+	}
+	#area-3 .cont a {
+		color: rgba(0, 0, 0, 0.7);
+	}
+	#area-3 .cont a:visited {
+		color: rgba(0, 0, 0, 0.7);
+	}
+	#area-3 .cont a:hover {
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.65);
+	}
+	#area-4 {
+		top: 300%;
+		color: #FCFCFC;
+	}
+	#area-4 a {
+		color: #FCFCFC;
+	}
+	#area-4 a:visited {
+		color: #FCFCFC;
+	}
+	#area-4 a:hover {
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.65);
+	}
+	#area-4 footer#copyright {
+		text-align: center;
+		position: absolute;
+		width: 100%;
+		font-size: 14px;
+		bottom: 0px;
+		margin-bottom: 10px;
+		color: #FCFCFC;
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.65);
+	}
+	#area-4 footer#copyright a {
+		color: #FCFCFC;
+		-webkit-transition: all 250ms ease;
+		-moz-transition: all 250ms ease;
+		-ms-transition: all 250ms ease;
+		-o-transition: all 250ms ease;
+		transition: all 250ms ease;
+	}
+	#area-4 footer#copyright:hover a {
+		color: #FFF;
+	}
+	</style>
+	<script type="text/javascript">
+	function smoothScrollTo() {
+		if (window.pageYOffset < window.innerHeight) {
+			window.scrollTo(0, window.pageYOffset+20);
+			setTimeout('smoothScrollTo()', 5);
+		} else {
+			scrollTo(0, window.innerHeight);
+			s = window.pageYOffset;
+		}
+	}
+	function load() {
+		document.getElementById("body").style.opacity = "1";
+		window.scrollTo(0, 0);
+	}
+	</script>
+</head>
+<body id="body" onload="load()">
+	<div id="area-1" class="area">
+		<div id="profile" class="cont">
+			<h1>
+				<a href="http://somainer.com/">
+					<div id="border">
+						<div id="avatar"></div>
+					</div>
+					Somainer
+				</a>
+			</h1>
+			<header>
+				Lost in the tests.
+			</header>
+		</div>
+		<div id="arrow" onclick="smoothScrollTo()"></div>
+	</div>
+	<div id="area-2" class="area">
+		<div class="cont">
+			<h3>Contact Me &gt;_&lt; </h3>
+			<ul>
+				<li><a href="https://twitter.com/somainer">Twitter</a></li>
+				<li><a href="https://www.facebook.com/somainer">Facebook</a></li>
+				<li><a href="mailto:i@somainer.com">Mail</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="area-3" class="area">
+		<div class="cont">
+			<h3>My Websites &gt;_&lt; </h3>
+			<ul>
+				<li><a href="http://blog.somainer.com/">Blog</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="area-4" class="area">
+		<div class="cont">
+			<h3>My Friends &gt;_&lt; </h3>
+			<ul>
+				<li><a href="http://jemery.co/" target="_blank">Jemery Wu</a></li>
+				<li><a href="http://www.joyneop.com/" target="_blank">Joy Neop</a></li>
+				<li><a href="http://xiamipi.info/" target="_blank">梦想竹蜻蜓</a></li>
+				<li><a href="http://satellitem.com/" target="_blank">Lighter</a></li>
+				<li><a href="http://sihenxie.com/" target="_blank">思很邪</a></li>
+				<li><a href="http://deef.eu/" target="_blank">Deef's Talk</a></li>
+			</ul>
+		</div>
+		<footer id="copyright">
+			&copy; 2014 All Rights Reserved by Somainer. <a href="http://www.joyneop.com/">Designed by Joy Neop.</a>
+		</footer>
+	</div>
+</body>
+</html>

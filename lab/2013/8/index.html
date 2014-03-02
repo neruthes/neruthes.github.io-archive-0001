@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>JN 123</title>
+	<base href="https://raw.github.com/JoyNeop/JN-Browser-Start-Page---Edition-A/gh-pages/master/"></base>
+	<link rel="shortcut icon favicon" href="http://www.joyneop.com/joyneop.ico">
+	<link rel="apple-touch-icon" href="http://www.joyneop.com/joyneop.png">
+	<style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+	.card {
+		opacity: 0;
+	}
+	@media screen and (max-width: 480px) {
+		/*  For iPhone */
+		#cont {
+			width: 100%;
+		}
+		.card {
+			height: 200px;
+			width: 300px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 20px;
+		}
+		.card a {
+			display: block;
+		}
+		.card a > div {
+			height: 180px;
+		}
+		.card a > div > div {
+			height: 180px;
+			width: 300px;
+		}
+		footer.copyright {
+			width: 100%;
+		}
+	}
+	@media screen and (min-width: 760px) {
+		/*  For iPad */
+		#cont {
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 20px;
+		}
+		.card {
+			display: inline-block;
+			height: 130px;
+			min-width: 180px;
+			width: 20%;
+			margin: 10px 5px 10px 5px;
+			position: relative;
+			overflow: visible;
+		}
+		.card a {
+			display: block;
+			height: 130px;
+			width: 180px;
+		}
+		.card a > div {
+			height: 102px;
+			width: 180px;
+		}
+		footer.copyright {
+			width: 700px;
+		}
+	}
+	@media screen and (min-width: 1024px) {
+		#cont {
+			width: 1200px;
+			padding: 0;
+			margin-top: 10px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.card {
+			display: inline-block;
+			height: 172px;
+			width: 240px;
+			margin: 10px 15px 0px 15px;
+			position: relative;
+			overflow: visible;
+		}
+		.card a {
+			height: 172px;
+			width: 240px;
+			display: block;
+		}
+		.card a > div {
+			height: 144px;
+			width: 240px;
+		}
+		.card a > div > div {
+			height: 144px;
+			width: 240px;
+		}
+		.card:hover a > div {
+			top: -10px;
+			box-shadow: 0 6px 16px rgba(0, 0, 0, 0.55);
+		}
+		footer.copyright {
+			width: 1062px;
+		}
+	}
+	* {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		text-align: center;
+		color: #444;
+		text-decoration: none;
+		-webkit-transition: all 240ms ease;
+		-moz-transition: all 240ms ease;
+		-ms-transition: all 240ms ease;
+		-o-transition: all 240ms ease;
+		transition: all 240ms ease;
+	}
+	body {
+		margin: 0;
+		background: #E6E6E6 url(bg.png) top scroll repeat;
+	}
+	.card a > div {
+		position: relative;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+		overflow: hidden;
+		background-size: cover;
+	}
+	.card a > div > div {
+		overflow: hidden;
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.18));
+	}
+	.card footer {
+		margin-top: 5px;
+	}
+	#twitter {
+		background-image: url(twitter.jpg);
+	}
+	#facebook {
+		background-image: url(facebook.jpg);
+	}
+	#gplus {
+		//background-image: url(gplus.jpg);
+	}
+	#weibo {
+		background-image: url(weibo.jpg);
+	}
+	#wikipedia {
+		background-image: url(wikipedia.jpg);
+	}
+	#zhihu {
+		background-image: url(zhihu.jpg);
+	}
+	#quora {
+		//background-image: url(quora.jpg);
+	}
+	#stackoverflow {
+		//background-image: url(stackoverflow.jpg);
+	}
+	#v2ex {
+		background-image: url(v2ex.jpg);
+	}
+	#guokr {
+		//background-image: url(guokr.jpg);
+	}
+	#macidea {
+		background-image: url(macidea.jpg);
+	}
+	#weiphone {
+		background-image: url(weiphone.jpg);
+	}
+	#dribbble {
+		background-image: url(dribbble.jpg);
+	}
+	#behance {
+		background-image: url(behance.jpg);
+	}
+	#flickr {
+		//background-image: url(flickr.jpg);
+	}
+	#github {
+		//background-image: url(github.jpg);
+	}
+	/*--------------------------------------------------------------------------------------*/
+	footer.copyright {
+		height: 100px;
+		text-align: left;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	</style>
+	<script type="text/javascript">
+	function show(num) {
+		//var kt[i] = setTimeout('document.getElementById("seq"' + i + ').style.opacity = "1"', 100);
+	}
+	function load() {
+		//var i = 1;
+		//for (var i = 1; i <= 16; i++) {
+		//	var kt = setTimeout('show(i)', 100);
+		//}
+		var kt1 = setTimeout('document.getElementById("seq1").style.opacity = "1"', 50);
+		var kt2 = setTimeout('document.getElementById("seq2").style.opacity = "1"', 100);
+		var kt3 = setTimeout('document.getElementById("seq3").style.opacity = "1"', 150);
+		var kt4 = setTimeout('document.getElementById("seq4").style.opacity = "1"', 200);
+		var kt5 = setTimeout('document.getElementById("seq5").style.opacity = "1"', 250);
+		var kt6 = setTimeout('document.getElementById("seq6").style.opacity = "1"', 300);
+		var kt7 = setTimeout('document.getElementById("seq7").style.opacity = "1"', 350);
+		var kt8 = setTimeout('document.getElementById("seq8").style.opacity = "1"', 400);
+		var kt9 = setTimeout('document.getElementById("seq9").style.opacity = "1"', 450);
+		var kt10 = setTimeout('document.getElementById("seq10").style.opacity = "1"', 500);
+		var kt11 = setTimeout('document.getElementById("seq11").style.opacity = "1"', 550);
+		var kt12 = setTimeout('document.getElementById("seq12").style.opacity = "1"', 600);
+		var kt13 = setTimeout('document.getElementById("seq13").style.opacity = "1"', 650);
+		var kt14 = setTimeout('document.getElementById("seq14").style.opacity = "1"', 700);
+		var kt15 = setTimeout('document.getElementById("seq15").style.opacity = "1"', 750);
+		var kt16 = setTimeout('document.getElementById("seq16").style.opacity = "1"', 800);
+	}
+	</script>
+</head>
+<body onload="load()">
+	<div id="cont">
+		<div class="card" id="seq1">
+			<a href="https://twitter.com/" rel="nofollow">
+				<div id="twitter">
+					<div></div>
+				</div>
+				<footer>Twitter</footer>
+			</a>
+		</div>
+		<div class="card" id="seq2">
+			<a href="https://www.facebook.com/" rel="nofollow">
+				<div id="facebook">
+					<div></div>
+				</div>
+				<footer>Facebook</footer>
+			</a>
+		</div>
+		<div class="card" id="seq3">
+			<a href="http://plus.google.com/" rel="nofollow">
+				<div id="gplus">
+					<div></div>
+				</div>
+				<footer>Google+</footer>
+			</a>
+		</div>
+		<div class="card" id="seq4">
+			<a href="http://weibo.com/" rel="nofollow">
+				<div id="weibo">
+					<div></div>
+				</div>
+				<footer>Sina Weibo</footer>
+			</a>
+		</div>
+		<div class="card" id="seq5">
+			<a href="http://zh.wikipedia.org/" rel="nofollow">
+				<div id="wikipedia">
+					<div></div>
+				</div>
+				<footer>Wikipedia</footer>
+			</a>
+		</div>
+		<div class="card" id="seq6">
+			<a href="http://www.zhihu.com/" rel="nofollow">
+				<div id="zhihu">
+					<div></div>
+				</div>
+				<footer>Zhihu</footer>
+			</a>
+		</div>
+		<div class="card" id="seq7">
+			<a href="http://www.quora.com/" rel="nofollow">
+				<div id="quora">
+					<div></div>
+				</div>
+				<footer>Quora</footer>
+			</a>
+		</div>
+		<div class="card" id="seq8">
+			<a href="http://stackoverflow.com/" rel="nofollow">
+				<div id="stackoverflow">
+					<div></div>
+				</div>
+				<footer>Stack Overflow</footer>
+			</a>
+		</div>
+		<div class="card" id="seq9">
+			<a href="https://www.v2ex.com/notifications" rel="nofollow">
+				<div id="v2ex">
+					<div></div>
+				</div>
+				<footer>V2EX</footer>
+			</a>
+		</div>
+		<div class="card" id="seq10">
+			<a href="http://www.guokr.com/" rel="nofollow">
+				<div id="guokr">
+					<div></div>
+				</div>
+				<footer>Guokr</footer>
+			</a>
+		</div>
+		<div class="card" id="seq11">
+			<a href="http://www.macidea.com/" rel="nofollow">
+				<div id="macidea">
+					<div></div>
+				</div>
+				<footer>MacIdea</footer>
+			</a>
+		</div>
+		<div class="card" id="seq12">
+			<a href="http://www.weiphone.com/" rel="nofollow">
+				<div id="weiphone">
+					<div></div>
+				</div>
+				<footer>WeiPhone</footer>
+			</a>
+		</div>
+		<div class="card" id="seq13">
+			<a href="http://www.dribbble.com/" rel="nofollow">
+				<div id="dribbble">
+					<div></div>
+				</div>
+				<footer>Dribbble</footer>
+			</a>
+		</div>
+		<div class="card" id="seq14">
+			<a href="http://www.behance.net/" rel="nofollow">
+				<div id="behance">
+					<div></div>
+				</div>
+				<footer>Behance</footer>
+			</a>
+		</div>
+		<div class="card" id="seq15">
+			<a href="http://www.flickr.com/" rel="nofollow">
+				<div id="flickr">
+					<div></div>
+				</div>
+				<footer>Flickr</footer>
+			</a>
+		</div>
+		<div class="card" id="seq16">
+			<a href="http://www.github.com/" rel="nofollow">
+				<div id="github">
+					<div></div>
+				</div>
+				<footer>GitHub</footer>
+			</a>
+		</div>
+		<footer class="copyright">
+			All images in floating cards, which are not mine, are copyrighted by their respective owners. Laws about trademarks are also applied here.<br>© 2014 123.joyneop.com &amp; <a href="http://neop.me/">Webpage Designed by Joy Neop</a>.
+		</footer>
+		<script type="text/javascript">
+		var end = setTimeout('load()', 1000);
+		</script>
+	</div>
+</body>
+</html>

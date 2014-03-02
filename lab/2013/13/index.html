@@ -10,19 +10,19 @@
 	* {
 		font-family: 'Open Sans', Lucida Grande, sans-serif;
 		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+		-webkit-transition: all 600ms ease;
+		-moz-transition: all 600ms ease;
+		-ms-transition: all 600ms ease;
+		-o-transition: all 600ms ease;
 		transition: all 600ms ease;
 	}
 	body {
 		overflow: hidden;
 		margin: 0 0 0 0;
-		background: #2d6ca3 url(http://joyneop.github.io/JN-Lab/other-images/glow.jpg) center fixed no-repeat;
+		background: #2f173f center fixed no-repeat;
+		background-image: -webkit-linear-gradient(20deg, #41203f 2%, #32183e 18%, #2c173b 50%, #3c224a 96%);
 		background-size: cover;
 		color: #FFF;
-	}
-	@media screen and (min-width: 1920px) {
-		body {
-			background: #2d6ca3 url(http://joyneop.github.io/JN-Lab/other-images/glow-2400.jpg) center fixed no-repeat;
-		}
 	}
 	#bg {
 		position: fixed;
@@ -34,7 +34,7 @@
 		width: 680px;
 		margin-top: -230px;
 		margin-left: -340px;
-		background: url(http://joyneop.github.io/JN-Lab/other-images/jn-opacity-460.png) center no-repeat scroll;
+		background: url(http://joyneop.github.io/JN-Lab/other-images/jn-gold-spark-opacity-460.png) center no-repeat scroll;
 		opacity: 0;
 	}
 	#navbar {

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>君は愛しですか</title>
+	<base href="http://l.joyneop.com/"></base>
+	<style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Ovo);
+	body {
+		font-family: 'Ovo', Georgia, 'Hiragino Mincho Pro', serif;
+		color: #FFF;
+		padding: 0;
+		margin: 0;
+		background: #000 center no-repeat fixed;
+		overflow: hidden;
+		background-size: cover;
+		text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95);
+		-webkit-transition: all 450ms ease;
+		-moz-transition: all 450ms ease;
+		transition: all 450ms ease;
+	}
+	@media screen and (max-width: 1920px) {
+		body {
+			background-image: url(http://joyneop.github.io/JN-Lab/other-images/lbg-middle.jpg);
+		}
+	}
+	@media screen and (min-width: 1922px) {
+		body {
+			background-image: url(http://joyneop.github.io/JN-Lab/other-images/lbg-large.jpg);
+		}
+	}
+	body > div {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		width: 160px;
+		height: 540px;
+		margin: -290px 0 0 -80px;
+		background: rgba(0, 0, 0, 0);
+	}
+	section {
+		position: relative;
+		width: 160px;
+		height: 160px;
+		padding: 0;
+		margin: 0 0 30px 0;
+		background: rgba(255, 255, 255, 0.09);
+		background-size: 50%;
+		border-radius: 400px;
+		box-shadow: inset 0 0 30px rgba(0, 0, 0, 1);
+		-webkit-transition: all 450ms ease;
+		-moz-transition: all 450ms ease;
+		transition: all 450ms ease;
+	}
+	h2 {
+		position: relative;
+		width: 600px;
+		font-family: 'Hiragino Mincho Pro', serif;
+		font-size: 40px;
+		font-weight: normal;
+		text-align: center;
+		padding: 50px 0 0 0;
+		margin: 0 0 0 -220px;
+		vertical-align: middle;
+		opacity: 0.35;
+		-webkit-transition: all 450ms ease;
+		-moz-transition: all 450ms ease;
+		transition: all 450ms ease;
+	}
+	section span {
+		display: inline-block;
+		padding: 0;
+		margin: 0;
+		-webkit-transition: opacity 450ms ease;
+		-moz-transition: opacity 450ms ease;
+		transition: opacity 450ms ease;
+	}
+	h2 .main {
+		width: 40px;
+		height: 60px;
+	}
+	h2 .invi {
+		max-width: 0;
+		height: 0;
+		overflow: hidden;
+		opacity: 0;
+	}
+	section:hover {
+		position: relative;
+		left: -220px;
+		width: 600px;
+		background: rgba(0, 0, 0, 0);
+		box-shadow: none;
+	}
+	section:hover h2 {
+		padding: 50px 0 0 0;
+		margin: 0 0 0 0;
+		opacity: 1;
+	}
+	section:hover .main {
+		max-width: 0;
+		height: 0;
+		overflow: hidden;
+		opacity: 0;
+	}
+	section:hover .invi {
+		max-width: 600px;
+		height: 60px;
+		opacity: 1;
+	}
+	footer {
+		font-weight: normal;
+		position: fixed;
+		bottom: 10px;
+		width: 100%;
+		text-align: center;
+		font-size: 14px;
+		opacity: 0.55;
+		-webkit-transition: all 450ms ease;
+		-moz-transition: all 450ms ease;
+		transition: all 450ms ease;
+	}
+	footer:hover {
+		opacity: 1;
+	}
+	a:link, a:visited, a:hover, a:active {
+		color: #FFF;
+		text-decoration: none;
+	}
+	</style>
+</head>
+<body>
+	<div>
+		<section id="kimi">
+			<h2><span class="main">君</span><span class="invi">君と生きた</span></h2>
+		</section>
+		<section id="hibi">
+			<h2><span class="main">日</span><span class="invi">日々のすべて</span></h2>
+		</section>
+		<section id="yasa">
+			<h2><span class="main">優</span><span class="invi">優しい歌</span></h2>
+		</section>
+	</div>
+	<footer><a href="http://neop.me/">&copy; Joy Neop の Web 設計 2014 すべての権利。</a><br />梶浦由記の曲です <em>To The Beginning</em> からの歌詞を引用。</footer>
+</body>
+</html>

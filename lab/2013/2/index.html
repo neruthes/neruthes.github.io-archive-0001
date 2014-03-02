@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+
+<title>.Jemery</title>
+
+<link rel="shortcut icon" href="http://pic.jemery.co/pi1.png" />
+
+<link rel="apple-touch-icon" href="http://pic.jemery.co/logo.png" />
+
+<style>
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+	font-family: Lucida Grande, 'Open Sans', Helvetica, sans-serif;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	-webkit-transition: background 190ms ease;
+	-moz-transition: background 190ms ease;
+	-o-transition: background 190ms ease;
+	transition: background 190ms ease;
+	-webkit-transition: opacity 300ms ease;
+	-moz-transition: opacity 300ms ease;
+	-o-transition: opacity 300ms ease;
+	transition: opacity 300ms ease;
+}
+
+body {
+	background: #555 url(http://img.ly/system/uploads/007/250/196/original_tile.jpg) repeat fixed top;
+}
+
+h2 {
+	font-weight: 100;
+	color: #FFF;
+	font-size: 24px;
+}
+
+h3 {
+	font-weight: 100;
+	color: #FFF;
+	font-size: 68px;
+	text-shadow: 0 5px 12px rgba(0, 0, 0, 1);
+	margin: 0;
+}
+
+a > h3 {
+	color: #FFF;
+	text-shadow: 0 5px 12px rgba(0, 0, 0, 1);
+	-webkit-transition: all 190ms ease;
+	-moz-transition: all 190ms ease;
+	-o-transition: all 190ms ease;
+	transition: all 190ms ease;
+}
+
+footer {
+	color: #FDFDFD;
+	font-size: 20px;
+	text-shadow: 0 5px 12px rgba(0, 0, 0, 1);
+	margin-top: 20px;
+}
+
+p {
+	color: #FFF;
+	font-size: 24px;
+	-webkit-transition: all 190ms ease;
+	-moz-transition: all 190ms ease;
+	-o-transition: all 190ms ease;
+	transition: all 190ms ease;
+	text-shadow: 0 0 12px rgba(0, 0, 0, 1);
+	text-shadow: 0 5px 12px rgba(0, 0, 0, 1);
+}
+
+a, a:visited, a:link {
+	color: #FFF;
+	text-decoration: none;
+	-webkit-transition: all 190ms ease;
+	-moz-transition: all 190ms ease;
+	-o-transition: all 190ms ease;
+	transition: all 190ms ease;
+}
+
+p:hover > a {
+	color: rgba(38, 123, 251, 1);
+	text-shadow: 0 0 2px rgba(111, 111, 111, 0.7);
+}
+
+a:hover {
+	color: rgba(38, 123, 251, 1);
+	text-shadow: 0 0 2px rgba(111, 111, 111, 0.7);
+}
+
+div.over {
+	position: fixed;
+	top: 0px;
+	height: 100%;
+	padding: auto;
+}
+
+#left {
+	left: 0px;
+	width: 25%;
+}
+
+#left-in {
+
+	width: 120px;
+	height: 346px;
+
+	margin: auto;
+	margin-top: 44%;
+
+	-webkit-transition: all 190ms ease;
+	-moz-transition: all 190ms ease;
+	-o-transition: all 190ms ease;
+	transition: all 190ms ease;
+}
+
+#logo {
+	height: 120px;
+	width: 120px;
+	border-radius: 14px;
+	margin-bottom: 30px;
+}
+
+.h2-out {
+	-webkit-transition: all 190ms ease;
+	-moz-transition: all 190ms ease;
+	-o-transition: all 190ms ease;
+	transition: all 190ms ease;
+}
+
+#right {
+	width: 75%;
+	left: 25%;
+	border-top-left-radius: 14px;
+	border-bottom-left-radius: 14px;
+	background: #FFF;
+	box-shadow: 0 0 42px rgba(0, 0, 0, 0.55);
+	overflow: hidden;
+	background: #BBB url(http://a.desktopprassets.com/wallpapers/efe78bac7b10622dc67f2c70403016e515458804/bridgebrownhue.jpg) left scroll no-repeat;
+	background-size: cover;
+}
+
+.right-in {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	padding-top: auto;
+	padding-bottom: auto;
+	visibility: hidden;
+	opacity: 0;
+}
+
+#jemery-r {
+	opacity: 1;
+	height: 100%;
+	width: 100%;
+	margin-top: -50%;
+	margin-left: -50%;
+	overflow: hidden;
+	border-top-left-radius: 14px;
+	border-bottom-left-radius: 14px;
+	-webkit-transition: all 190ms ease;
+	-moz-transition: all 190ms ease;
+	-o-transition: all 190ms ease;
+	transition: all 190ms ease;
+}
+
+.direct-square {
+	display: inline-block;
+	background-size: cover;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	-webkit-transition: all 190ms ease;
+	-moz-transition: all 190ms ease;
+	-o-transition: all 190ms ease;
+	transition: all 190ms ease;
+}
+
+.ds-in {
+	position: relative;
+	display: inline-block;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+#blog-rd {
+	background: #BBB url(http://a.desktopprassets.com/wallpapers/efe78bac7b10622dc67f2c70403016e515458804/bridgebrownhue.jpg) left scroll no-repeat;
+	border-top-left-radius: 14px;
+	border-bottom-left-radius: 14px;
+	width: 70%;
+}
+
+#wiki-rd {
+	background: #BBB url(http://pic.jemery.co/index/slate.png) center scroll no-repeat;
+	width: 15%;
+}
+
+#urls-rd {
+	background: #BBB url(http://img.ly/system/uploads/007/255/063/original_urls.png) center scroll no-repeat;
+	width: 15%;
+}
+
+.ds-in-title {
+	position: relative;
+	top: 45%;
+	left: 50%;
+	height: 80px;
+	width: 440px;
+	text-align: center;
+	overflow: visible;
+	margin-top: -32px;
+	margin-left: -220px;
+	margin-right: 0;
+	opacity: 0;
+}
+
+#blog-title {
+	opacity: 1;
+}
+
+#about-r {
+	height: 84px;
+	width: 768px;
+	margin-top: -42px;
+	margin-left: -384px;
+}
+
+#about-r > p {
+	margin: 0;
+}
+
+#touch-r {
+	height: 284px;
+	margin-top: -142px;
+	margin-left: -57px;
+}
+
+#touch-r > p {
+	width: 114px;
+	margin-right: 0;
+}
+
+#links-r {
+	height: 284px;
+	margin-top: -142px;
+	margin-left: -65px;
+}
+
+#links-r > p {
+	height: 28px;
+	width: 130px;
+	margin-right: 0;
+}
+
+.h2-out {
+	width: 120px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+</style>
+
+<style>
+
+#jemery {
+	
+}
+
+#jemery-r {
+	visibility: visible;
+}
+
+#jemery-out {
+	background: #AAA;
+}
+
+</style>
+
+<script>
+
+function focusBlog() {
+	document.getElementById("blog-rd").style.width="70%";
+	document.getElementById("wiki-rd").style.width="15%";
+	document.getElementById("urls-rd").style.width="15%";
+	document.getElementById("blog-title").style.opacity="1";
+	document.getElementById("wiki-title").style.opacity="0";
+	document.getElementById("urls-title").style.opacity="0";
+}
+
+function focusWiki() {
+	document.getElementById("blog-rd").style.width="15%";
+	document.getElementById("wiki-rd").style.width="70%";
+	document.getElementById("urls-rd").style.width="15%";
+	document.getElementById("blog-title").style.opacity="0";
+	document.getElementById("wiki-title").style.opacity="1";
+	document.getElementById("urls-title").style.opacity="0";
+}
+
+function focusUrls() {
+	document.getElementById("blog-rd").style.width="15%";
+	document.getElementById("wiki-rd").style.width="15%";
+	document.getElementById("urls-rd").style.width="70%";
+	document.getElementById("blog-title").style.opacity="0";
+	document.getElementById("wiki-title").style.opacity="0";
+	document.getElementById("urls-title").style.opacity="1";
+}
+
+function showJemery() {
+	document.getElementById("jemery-r").style.opacity="0";
+	document.getElementById("about-r").style.opacity="0";
+	document.getElementById("touch-r").style.opacity="0";
+	document.getElementById("links-r").style.opacity="0";
+
+	document.getElementById("jemery-r").style.visibility="hidden";
+	document.getElementById("about-r").style.visibility="hidden";
+	document.getElementById("touch-r").style.visibility="hidden";
+	document.getElementById("links-r").style.visibility="hidden";
+
+	document.getElementById("jemery-out").style.background="none";
+	document.getElementById("about-out").style.background ="none";
+	document.getElementById("touch-out").style.background ="none";
+	document.getElementById("links-out").style.background ="none";
+
+	document.getElementById("jemery-out").style.background="#AAA";
+	document.getElementById("jemery-r").style.visibility="visible";
+	document.getElementById("jemery-r").style.opacity="1";
+}
+
+function showAbout() {
+	document.getElementById("jemery-r").style.opacity="0";
+	document.getElementById("about-r").style.opacity="0";
+	document.getElementById("touch-r").style.opacity="0";
+	document.getElementById("links-r").style.opacity="0";
+
+	document.getElementById("jemery-r").style.visibility="hidden";
+	document.getElementById("about-r").style.visibility="hidden";
+	document.getElementById("touch-r").style.visibility="hidden";
+	document.getElementById("links-r").style.visibility="hidden";
+
+	document.getElementById("jemery-out").style.background="none";
+	document.getElementById("about-out").style.background ="none";
+	document.getElementById("touch-out").style.background ="none";
+	document.getElementById("links-out").style.background ="none";
+
+	document.getElementById("about-out").style.background="#AAA";
+	document.getElementById("about-r").style.visibility="visible";
+	document.getElementById("about-r").style.opacity="1";
+}
+
+function showTouch() {
+	document.getElementById("jemery-r").style.opacity="0";
+	document.getElementById("about-r").style.opacity="0";
+	document.getElementById("touch-r").style.opacity="0";
+	document.getElementById("links-r").style.opacity="0";
+
+	document.getElementById("jemery-r").style.visibility="hidden";
+	document.getElementById("about-r").style.visibility="hidden";
+	document.getElementById("touch-r").style.visibility="hidden";
+	document.getElementById("links-r").style.visibility="hidden";
+
+	document.getElementById("jemery-out").style.background="none";
+	document.getElementById("about-out").style.background ="none";
+	document.getElementById("touch-out").style.background ="none";
+	document.getElementById("links-out").style.background ="none";
+
+	document.getElementById("touch-out").style.background="#AAA";
+	document.getElementById("touch-r").style.visibility="visible";
+	document.getElementById("touch-r").style.opacity="1";
+}
+
+function showLinks() {
+	document.getElementById("jemery-r").style.opacity="0";
+	document.getElementById("about-r").style.opacity="0";
+	document.getElementById("touch-r").style.opacity="0";
+	document.getElementById("links-r").style.opacity="0";
+
+	document.getElementById("jemery-r").style.visibility="hidden";
+	document.getElementById("about-r").style.visibility="hidden";
+	document.getElementById("touch-r").style.visibility="hidden";
+	document.getElementById("links-r").style.visibility="hidden";
+
+	document.getElementById("jemery-out").style.background="none";
+	document.getElementById("about-out").style.background ="none";
+	document.getElementById("touch-out").style.background ="none";
+	document.getElementById("links-out").style.background ="none";
+
+	document.getElementById("links-out").style.background="#AAA";
+	document.getElementById("links-r").style.visibility="visible";
+	document.getElementById("links-r").style.opacity="1";
+}
+
+</script>
+
+</head>
+
+<body onload="showJemery">
+
+<div id="left" class="over">
+	<div id="left-in">
+		<img id="logo" src="http://wordpress.joyneop.com/res/wp-content/uploads/2013/04/jewu.png" />
+		<div id="jemery-out" class="h2-out" onclick="showJemery()"><h2 id="jemery"><span id="jemery-in" class="h2-in">&nbsp;&nbsp;.Jemery&nbsp;&nbsp;</span></h2></div>
+		<div id="about-out" class="h2-out" onclick="showAbout()"><h2 id="about"><span id="about-in" class="h2-in">&nbsp;&nbsp;About&nbsp;&nbsp;</span></h2></div>
+		<div id="touch-out" class="h2-out" onclick="showTouch()"><h2 id="touch"><span id="touch-in" class="h2-in">&nbsp;&nbsp;Touch&nbsp;&nbsp;</span></h2></div>
+		<div id="links-out" class="h2-out" onclick="showLinks()"><h2 id="links"><span id="links-in" class="h2-in">&nbsp;&nbsp;Links&nbsp;&nbsp;</span></h2></div>
+	</div> <!-- #left-in -->
+</div> <!-- #left -->
+
+<div id="right" class="over">
+	<div id="jemery-r" class="right-in">
+		<div id="blog-rd" class="direct-square" onmouseover="focusBlog()" onmouseout="focusBlog()">
+			<a href="http://blog.jemery.co/" title="">
+				<div id="blog-rd-in" class="ds-in">
+					<div id="blog-title" class="ds-in-title">
+						<h3>Blog</h3>
+						<footer>
+							I Am Boring!
+						</footer>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div id="wiki-rd" class="direct-square" onmouseover="focusWiki()" onmouseout="focusBlog()">
+			<a href="http://wiki.jemery.co/" title="">
+				<div id="wiki-rd-in" class="ds-in">
+					<div id="wiki-title" class="ds-in-title">
+						<h3>Wiki</h3>
+						<footer>
+							Open info and data exchange
+						</footer>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div id="urls-rd" class="direct-square" onmouseover="focusUrls()" onmouseout="focusBlog()">
+			<a href="http://jewu.tk/" title="">
+				<div id="urls-rd-in" class="ds-in">
+					<div id="urls-title" class="ds-in-title">
+						<h3>Jewu.tk</h3>
+						<footer>
+							Another choice to shorten URLs
+						</footer>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div> <!-- .right-in -->
+	<div id="about-r" class="right-in">
+		<p>98. 巨蟹第一天.#6.22 Dear♀Hao… 爱某人。 喜欢ままゆ,Ai.讨厌张玲. 喜欢日本/日语. 反正这不是140字可以形容的. 详情请访问<a href="http://www.gov.cn" title="" target="_blank">http://www.gov.cn</a>  ↖(￣▽￣)//</p>
+	</div> <!-- .right-in -->
+	<div id="touch-r" class="right-in">
+		<p><a href="https://twitter.com/JemeryWu" title="Twitter" target="_blank">Twitter</a></p>
+		<p><a href="https://www.facebook.com/jemerywu" title="Facebook" target="_blank">Facebook</a></p>
+		<p><a href="https://zh.wikipedia.org/wiki/User:JemeryWu" title="Wikipedia" target="_blank">Wikipedia</a></p>
+		<p><a href="http://lofter.jemery.co" title="LOFTER" target="_blank"> LOFTER </a></p>
+		<p><a href="mailto:i@jemery.co" title="Mail" target="_blank">Mail</a></p>
+	</div> <!-- .right-in -->
+	<div id="links-r" class="right-in">
+		<p><a href="http://xiamipi.info/" target="_blank">梦想竹蜻蜓</a></p>
+		<p><a href="http://satellitem.com/" target="_blank">Lighter</a></p>
+		<p><a href="http://sihenxie.com/" target="_blank">思很邪</a></p>
+		<p><a href="http://deef.eu/" target="_blank">Deef's Talk</a></p>
+		<p><a href="http://joyneop.com/" target="_blank">Joy Neop</a></p>
+	</div> <!-- .right-in -->
+</div> <!-- #right -->
+
+<script>
+
+</script>
+
+</body>
+
+</html>

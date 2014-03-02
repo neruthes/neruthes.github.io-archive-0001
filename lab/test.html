@@ -10,19 +10,31 @@
 	* {
 		font-family: 'Open Sans', Lucida Grande, sans-serif;
 		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+		-webkit-transition: all 600ms ease;
+		-moz-transition: all 600ms ease;
+		-ms-transition: all 600ms ease;
+		-o-transition: all 600ms ease;
 		transition: all 600ms ease;
 	}
-	body {
+	/*body {
 		overflow: hidden;
 		margin: 0 0 0 0;
-		background: #2d6ca3 url(http://joyneop.github.io/JN-Lab/other-images/glow.jpg) center fixed no-repeat;
+		background: #2f173f url(http://joyneop.github.io/JN-Lab/other-images/bright-flat-gradient.jpg) center fixed no-repeat;
 		background-size: cover;
 		color: #FFF;
 	}
 	@media screen and (min-width: 1920px) {
 		body {
-			background: #2d6ca3 url(http://joyneop.github.io/JN-Lab/other-images/glow-2400.jpg) center fixed no-repeat;
+			background: #2f173f url(http://joyneop.github.io/JN-Lab/other-images/bright-flat-gradient-2400.jpg) center fixed no-repeat;
 		}
+	}*/
+	body {
+		overflow: hidden;
+		margin: 0 0 0 0;
+		background: #00b7fb center fixed no-repeat;
+		background-image: -webkit-linear-gradient(-70deg, #00b7fb, #01bcfc, #00c2fb, #00d2c4, #00d2c4);
+		background-size: cover;
+		color: #FFF;
 	}
 	#bg {
 		position: fixed;
@@ -34,7 +46,7 @@
 		width: 680px;
 		margin-top: -230px;
 		margin-left: -340px;
-		background: url(http://joyneop.github.io/JN-Lab/other-images/jn-opacity-460.png) center no-repeat scroll;
+		background: url(jn-flat-blue-460.png) center no-repeat scroll;
 		opacity: 0;
 	}
 	#navbar {
@@ -61,8 +73,8 @@
 		width: 180px;
 		overflow: visible;
 		border-radius: 200px;
-		background: rgba(0, 0, 0, 0.32);
-		box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+		background: rgba(31, 97, 190, 0.4);
+		//box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
 		-webkit-transition: all 300ms ease;
 		-moz-transition: all 300ms ease;
 		-o-transition: all 300ms ease;
@@ -75,7 +87,6 @@
 		top: -15px;
 		height: 210px;
 		width: 210px;
-		box-shadow: 0 0 28px rgba(0, 0, 0, 0.4);
 	}
 	.circle-in {
 		display: block;
@@ -91,29 +102,22 @@
 		-moz-transition: all 300ms ease;
 		-o-transition: all 300ms ease;
 		transition: all 300ms ease;
-		box-shadow: inset 0 0 18px rgba(255, 255, 255, 0.4);
+		box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
 		cursor: pointer;
 	}
 	.circle-in:hover {
-		box-shadow: inset 0 0 44px rgba(255, 255, 255, 1);
 	}
 	.circle a {
 		display: block;
 		cursor: pointer;
 	}
 	#nav-blog-in {
-		background: url(http://joyneop.github.io/JN-Lab/other-images/nav-blog.jpg) scroll center;
 	}
 	#nav-lab-in {
-		background: rgb(177, 206, 277) scroll center;
-		background-image: linear-gradient(rgb(31, 97, 190), rgb(177, 206, 227));
 	}
 	#nav-about-in {
-		background: #ffdb29 scroll center;
-		background-image: linear-gradient(rgb(255, 138, 5), rgb(255, 219, 41));
 	}
 	#nav-links-in {
-		background: url(http://joyneop.github.io/JN-Lab/other-images/nav-links.jpg) scroll center;
 	}
 	.circle-in > h2 {
 		position: relative;
@@ -146,12 +150,14 @@
 		opacity: 1;
 	}
 	footer {
+		color: #444;
 		font-weight: normal;
 		position: fixed;
 		bottom: 10px;
 		width: 100%;
 		text-align: center;
 		font-size: 14px;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.6);
 	}
 	.box {
 		position: fixed;
@@ -160,11 +166,10 @@
 		margin-top: -90px;
 		margin-left: -291px;
 		z-index: 913;
-		overflow-y: scroll;
+		overflow: scroll;
 		height: 220px;
 		width: 500px;
 		background: rgba(0, 0, 0, 0.45);
-		box-shadow: 0 0 28px rgba(0, 0, 0, 0.5);
 		border: 1px solid rgba(0, 0, 0, 0.03);
 		border-radius: 4px;
 		padding-top: 50px;
@@ -389,7 +394,7 @@
 			</li>
 		</ul>
 	</div>
-	<footer>&copy; Copyright 2014 All Rights Reserved by Joy Neop</footer>
+	<footer>&copy; Copyright 2013 All Rights Reserved by Joy Neop</footer>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

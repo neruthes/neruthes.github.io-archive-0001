@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Joy Neop — Designer, Photographer, Freelancer, Multi-skill Creator.</title>
+	<link rel="favicon shortcut icon" href="http://joyneop.github.io/joyneop.png">
+	<link rel="apple-touch-icon" href="http://joyneop.github.io/joyneop.png">
+	<style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+	body {
+		font-family: 'Open Sans', Lucida Grande, Helvetica, arial， sans-serif;
+		font-size: 18px;
+		font-weight: 300;
+		color: #FFF;
+		padding: 0;
+		margin: 0;
+		background: #666 url(http://joyneop.github.io/JN-Lab/other-images/paper-dark.png) center scroll repeat;
+		background-size: 100px;
+	}
+	header a:link, header a:visited, header a:hover, header a:active, footer a {
+		color: inherit;
+		text-decoration: inherit;
+	}
+	header {
+		height: 640px;
+		padding: 10px 0;
+		margin: 0;
+		background: #666 url(http://joyneop.github.io/JN-Lab/other-images/grass-underwall.jpg) center scroll no-repeat;
+		background-size: cover;
+	}
+	header > div {
+		margin-left: 50%;
+		color: #FFF;
+		width: 50%;
+		height: 100%;
+	}
+	header > div > a {
+		display: block;
+		padding: 25px 50px;
+		margin: 340px 0 0 80px;
+		background: rgba(20, 162, 255, 0.6);
+		text-shadow: rgba(0, 0, 0, 0.55) 0 1px 2px;
+		transition: padding 130ms linear 70ms, margin 130ms linear 70ms, background 200ms linear;
+	}
+	header > div:hover > a {
+		background: rgba(20, 162, 255, 0.8);
+	}
+	header h1, header h2 {
+		font-weight: 300;
+		padding: 10px;
+		margin: 0;
+	}
+	header h1 {
+		font-size: 38px;
+		text-transform: uppercase;
+	}
+	header h2 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	section {
+		min-height: 100px;
+		padding: 0 0 120px;
+		margin: 0 auto;
+	}
+	section h2 {
+		max-width: 50%;
+		font-size: 30px;
+		font-weight: 300;
+		line-height: 42px;
+		color: #FFF;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 8px 0;
+		margin: 0 0 70px 0;
+		background: rgba(20, 162, 255, 0.35);
+		text-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px;
+		transition: all 200ms linear;
+	}
+	section:hover h2 {
+		max-width: 100%;
+		background: rgba(20, 162, 255, 0.6);
+	}
+	section p {
+		font-size: 22px;
+		line-height: 38px;
+		color: #666;
+		width: 580px;
+		padding: 9px 20px 9px;
+		margin: 0 auto;
+		background: rgba(255, 255, 255, 0.9);
+	}
+	section p a {
+		color: rgba(20, 162, 255, 0.8);
+		text-decoration: none;
+		transition: all 100ms linear;
+	}
+	section p a:hover {
+		color: #FFF;
+		background: rgba(20, 162, 255, 0.8);
+		text-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px;
+	}
+	section ul {
+		padding: 0;
+		margin: 40px auto;
+		background-color: #EEE;
+		box-shadow: rgba(0, 0, 0, 0.75) 0 2px 8px;
+	}
+	section ul.matrix {
+		width: 720px;
+		height: 720px;
+	}
+	section ul.list {
+		font-size: 24px;
+		width: 400px;
+		box-shadow: rgba(0, 0, 0, 0.5) 0 2px 8px;
+		//border-radius: 3px;
+		overflow: hidden;
+	}
+	li {
+		display: block;
+		margin: 0;
+		text-shadow: rgba(0, 0, 0, 0.15) 0 1px 2px;
+		transition: padding 130ms linear 70ms, background 200ms linear;
+	}
+	.matrix li {
+		float: left;
+		color: #666;
+		text-align: center;
+		width: 180px;
+		height: 180px;
+		background-color: rgba(255, 255, 255, 0.4);
+		background-size: 180px;
+		text-shadow: none;
+	}
+	.list li {
+		text-align: left;
+		height: 34px;
+		padding: 8px 20px;
+		background: rgba(64, 64, 64, 0.7) right no-repeat scroll;
+		background-size: 1px 1px;
+	}
+	.list li a {
+		display: block;
+		color: inherit;
+		text-decoration: none;
+	}
+	.list li:hover {
+		background-color: rgba(64, 64, 64, 0.9);
+		padding-left: 40px;
+	}
+	.link li:hover {
+		background-image: url(http://joyneop.github.io/JN-Lab/other-images/link-arrow-right.png);
+	}
+	li.ok {
+		background: rgba(80, 200, 60, 0.5) right no-repeat scroll;
+	}
+	li.ok:hover {
+		background: rgba(100, 220, 80, 1) right no-repeat scroll;
+		background-image: url(http://joyneop.github.io/JN-Lab/other-images/ok.png);
+	}
+	li.no:hover {
+		background: rgba(247, 98, 80, 1) right no-repeat scroll;
+		background-image: url(http://joyneop.github.io/JN-Lab/other-images/no.png);
+	}
+	.list li:hover {
+		background-size: 35px 22px;
+	}
+	body > footer {
+		font-size: 14px;
+		color: #777;
+		text-align: center;
+		padding: 20px 0;
+		margin: 20px 0 0 0;
+		background: #FFF;
+		box-shadow: rgba(0, 0, 0, 0.05) 0 1px 8px;
+		border-top: 1px solid #DADADA;
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<div>
+			<a href="./">
+				<h1>Joy Neop</h1>
+				<h2>Designer, Photographer, Freelancer,<br />Multi-skill Creator.</h2>
+			</a>
+		</div>
+	</header>
+	<section id="work">
+		<h2>Portfolio</h2>
+		<ul class="matrix">
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x0.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x1.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x2.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x3.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x4.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x5.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x6.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x7.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x8.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x9.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0xa.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0xb.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0xc.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0xd.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0xe.jpg);"></li>
+			<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0xf.jpg);"></li>
+		</ul>
+	</section>
+	<section id="hire">
+		<h2>Availability</h2>
+		<ul class="list">
+			<li class="ok">Non-profit invitation</li>
+			<li class="no">Commercial contract</li>
+			<li class="ok">Design Competition</li>
+			<li class="no">Part-time studio work</li>
+			<li class="no">Full-time studio work</li>
+			<li class="no">Remote work</li>
+		</ul>
+	</section>
+	<section id="business">
+		<h2>Business</h2>
+		<ul class="list">
+			<li class="ok"><a href="mailto:i@joyneop.com">Reserve long-term contract</a></li>
+			<li class="no">Place a single order</li>
+			<li class="ok"><a href="http://photo.joyneop.com/" target="_blank">Buy photo license</a></li>
+			<li class="ok"><a href="http://500px.com/joyneop" target="_blank">Buy photo print</a></li>
+			<li class="ok"><a href="mailto:i@joyneop.com">Non-profit invitation</a></li>
+			<li class="ok"><a href="mailto:i@joyneop.com">Hire as advisor</a></li>
+		</ul>
+	</section>
+	<section id="touch">
+		<h2>Contact</h2>
+		<p>
+			<a href="mailto:i@joyneop.com">Contact me</a> for business, see my full <a href="http://www.behance.net/joyneop">portfolio</a>, my <a href="http://lab.joyneop.com/">web lab</a>, or touch my <a href="http://neop.me/">personal life.</a> Feel free to get in touch with me online or offline.
+		</p>
+	</section>
+	<section id="now">
+		<h2>Participations</h2>
+		<ul class="list link">
+			<li><a href="http://blog.joyneop.com/">NeopBlog</a></li>
+			<li><a href="http://www.voidgarden.com/">Void Garden</a></li>
+			<li><a href="http://unworsable.com/">Unworsable</a></li>
+			<li>Project LYRICS</li>
+		</ul>
+	</section>
+	<section id="old">
+		<h2>Previously</h2>
+		<ul class="list link">
+			<li><a href="http://lbsocial.com/" rel="nofollow">LBSocial</a></li>
+		</ul>
+	</section>
+	<footer>
+		&copy; 2014 All Rights Reserved by <a href="http://neop.me/">Joy Neop</a>
+	</footer>
+</body>
+</html>

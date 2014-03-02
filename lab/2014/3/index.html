@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Everlyrics DB</title>
+	<link rel="favicon shortcut icon" href="">
+	<link rel="apple-touch-icon" href="">
+	<style type="text/css">
+	body {
+		font-family: 'Open Sans', Helvetica, 'Hiragino', 'Hiragino Sans GB', sans-serif;
+		color: #333;
+		padding: 0;
+		margin: 0;
+		background: #FFF;
+	}
+	a:link, a:visited, a:hover {
+		color: inherit;
+		text-decoration: inherit;
+	}
+	header {
+		font-weight: normal;
+		color: #FEFEFE;
+		height: 350px;
+		background: #000 url(http://joyneop.github.io/JN-Lab/other-images/music_top.png) top no-repeat scroll;
+		background-size: 300px 350px;
+	}
+	header > a {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	header div {
+		position: absolute;
+		left: 50%;
+		width: 400px;
+		color: rgba(255, 255, 255, 0);
+		letter-spacing: 2px;
+		zoom: 1.2;
+		transition: all 900ms ease;
+	}
+	header #ever {
+		font-variant: small-caps;
+		text-align: right;
+		padding: 100px 0 0 0;
+		margin: 0 0 0 -600px;
+	}
+	header #sekai {
+		text-align: left;
+		padding: 120px 0 0 0;
+		margin: 0 0 0 200px;
+	}
+	header h1 {
+		height: 110px;
+		font-size: 80px;
+		font-weight: normal;
+		margin: 0;
+	}
+	#ever h2 {
+		font-size: 30px;
+		font-weight: normal;
+		margin: 0;
+	}
+	#sekai h2 {
+		font-size: 42px;
+		font-weight: normal;
+	}
+	body nav {
+		position: absolute;
+		top: 350px;
+		width: 100%;
+		font-variant: small-caps;
+		text-align: center;
+		padding: 20px 0;
+		opacity: 0;
+		zoom: 1.1;
+		transition: all 900ms ease;
+	}
+	body nav a {
+		display: inline-block;
+		font-size: 22px;
+		letter-spacing: 2px;
+		padding: 4px 10px;
+		margin: 5px 100px;
+	}
+	body nav a::before {
+		color: #CCC;
+		content: "- [ ";
+	}
+	body nav a::after {
+		color: #CCC;
+		content: " ] -";
+	}
+	section#about {
+		padding-top: 120px;
+		background: #FFF url(http://joyneop.github.io/JN-Lab/other-images/music_sub.png) top no-repeat scroll;
+		background-size: 300px 150px;
+	}
+	section {
+		padding-bottom: 40px;
+	}
+	section h2 {
+		font-size: 24px;
+		font-weight: normal;
+		font-variant: small-caps;
+		letter-spacing: 2px;
+		max-width: 640px;
+		padding: 0 20px;
+		margin: 21px auto;
+		border-left: 5px solid #AAA;
+		border-right: 5px solid #FFF;
+	}
+	section p {
+		font-size: 17px;
+		line-height: 26px;
+		color: #666;
+		max-width: 640px;
+		padding: 0 20px;
+		margin: 19px auto;
+	}
+	body > footer {
+		font-size: 14px;
+		color: #666;
+		text-align: center;
+		padding: 20px 0;
+		background: #FAFAFA;
+		border-top: 1px solid #DADADA;
+	}
+	body > footer > a {
+		color: #DDD;
+	}
+	</style>
+	<script type="text/javascript">
+	function load() {
+		document.getElementById("ever").style.marginLeft = "-500px"
+		document.getElementById("ever").style.color = "rgba(255, 255, 255, 1)"
+		document.getElementById("ever").style.zoom = "1"
+		document.getElementById("sekai").style.marginLeft = "100px"
+		document.getElementById("sekai").style.color = "rgba(255, 255, 255, 1)"
+		document.getElementById("sekai").style.zoom = "1"
+		document.getElementById("nav").style.opacity = "1"
+		document.getElementById("nav").style.zoom = "1"
+	}
+	</script>
+</head>
+<body onload="load()">
+	<header>
+		<a href="./">
+			<div id="ever">
+				<h1>Everlyrics</h1>
+				<h2>Database</h2>
+			</div>
+			<div id="sekai">
+				<h2>世界の曲と歌詞</h2>
+			</div>
+		</a>
+	</header>
+	<nav id="nav">
+		<a href="#about">About</a>
+		<a href="#join">Join us</a>
+	</nav>
+	<section id="about">
+		<h2>About</h2>
+		<p>
+			There are vast songs written in various languages, yet there is no Babel for lyrics. People have to search lyrics and their translation from many different websites, and nobody can make sure which version is most correct. Therefore, we are establishing an encyclopedia for lyrics in <strong>all languages</strong> and maintain translated version in <strong>all languages</strong>, to make <strong>all lyrics</strong> accessible for <strong>everyone</strong> with no barrier.
+		</p>
+	</section>
+	<section id="join">
+		<h2>Join us</h2>
+		<p>
+			We will need volunteers to collect and translate lyrics in <strong>all languages</strong> by <strong>all artists</strong>, without <strong>any payment</strong>. When this website is technically built, we also need people to spread our idea around the Internet, where this project exists significantly. We need your power.
+		</p>
+	</section>
+	<footer>
+		&copy; 2014 Project LYRICS. <a href="http://dimpurr.com/">Founded by Dimpurr</a>. <a href="http://neop.me/">Designed by Joy Neop.</a>
+	</footer>
+	<script type="text/javascript">
+	var lol = setTimeout('load()', 1000)
+	</script>
+</body>
+</html>

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<!-- verson 1.0.1 -->
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Anonswer</title>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.0.js"></script>
+	<style type="text/css" id="trans">
+	</style>
+	<style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+	* {
+		font-family: Lucida Grande, 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+		font-weight: 100;
+		letter-spacing: 2px;
+		color: #FFF;
+		text-decoration: none;
+		//-webkit-transition: all 220ms linear;
+		-moz-transition: all 220ms linear;
+		-o-transition: all 220ms linear;
+		transition: all 220ms linear;
+	}
+	body {
+		position: fixed;
+		background: -webkit-linear-gradient(bottom, #5CD0FC, #3274A3) no-repeat center fixed;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding-top: auto;
+		padding-bottom: auto;
+	}
+	h1 {
+		text-align: center;
+	}
+	h1 a:hover {
+		color: inherit;
+		text-shadow: 0 2px 8px rgba(255, 255, 255, 0.5);
+	}
+	h2 {
+		font-size: 38px;
+		text-align: center;
+		margin-top: 80px;
+		margin-bottom: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 5px;
+		width: 300px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+		-webkit-transition: all 120ms linear;
+		-moz-transition: all 120ms linear;
+		-o-transition: all 120ms linear;
+		transition: all 120ms linear;
+	}
+	h2 span {
+		text-align: center;
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	h2:hover {
+		width: 400px;
+	}
+	a:hover {
+		text-shadow: 0 2px 4px #2EA9DF;
+		color: #006284;
+		text-transform: 0 -3px;
+	}
+	#cont {
+		height: 600px;
+		width: 1000px;
+		margin: auto;
+		padding: 0;
+		//position: fixed;
+		//top: 50%;
+		//left: 50%;
+		//margin-top: -300px;
+		//margin-left: -500px;
+		overflow: hidden;
+	}
+	#content {
+		height: 570px;
+		width: 4010px;
+		opacity: 0;
+		margin-left: 1000px;
+		-webkit-transition: all 400ms linear;
+		-moz-transition: all 400ms linear;
+		-o-transition: all 400ms linear;
+		transition: all 400ms linear;
+	}
+	.pages {
+		float: left;
+		height: 570px;
+		width: 1000px;
+		opacity: 0;
+		-webkit-transition: all 400ms linear;
+		-moz-transition: all 400ms linear;
+		-o-transition: all 400ms linear;
+		transition: all 400ms linear;
+	}
+	#home {
+		//background: red;
+	}
+	#avatar {
+		width: 180px;
+		height: 180px;
+		margin-top: 194px;
+		margin-left: 100px;
+		border: 1px solid #EEE;
+		border-radius: 150px;
+		box-shadow: 0 0 28px rgba(45, 45, 45, 0.65);
+		background: #FFF url(http://img.ly/system/uploads/007/657/373/original_ans.jpg) scroll center no-repeat;
+		background-size: cover;
+		float: left;
+	}
+	.back {
+		height: 100%;
+		width: 100%;
+	}
+	#box {
+		width: 430px;
+		padding-left: 24px;
+		padding-right: 24px;
+		margin-top: 183px;
+		margin-right: 100px;
+		float: right;
+		background: rgba(0, 0, 0, 0.45);
+		box-shadow: 0 0 28px rgba(45, 45, 45, 0.65);
+		border-radius: 4px;
+	}
+	#direct {
+		//background: blue;
+	}
+	#blog {
+		margin-left: 400px;
+	}
+	#contact {
+		//background: green;
+	}
+	.touchme {
+		float: left;
+		height: 300px;
+		width: 200px;
+		text-align: center;
+		-webkit-transition: all 200ms linear 40ms;
+		-moz-transition: all 200ms linear 40ms;
+		-o-transition: all 200ms linear 40ms;
+		transition: all 200ms linear 40ms;
+	}
+	.touchme:hover {
+		margin-top: -30px;
+	}
+	.touchme footer {
+		margin-top: 60px;
+		opacity: 0;
+		-webkit-transition: all 200ms linear;
+		-moz-transition: all 200ms linear;
+		-o-transition: all 200ms linear;
+		transition: all 200ms linear;
+	}
+	.touchme:hover footer {
+		font-size: 20px;
+		margin-top: 0px;
+		opacity: 1;
+	}
+	.touchme a {
+		height: 200px;
+		width: 200px;
+		margin: 0 0 0 0;
+		border: none;
+		text-align: center;
+	}
+	.icon {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		height: 200px;
+		width: 200px;
+	}
+	#tie {
+		font-size: 76px;
+		height: 138px;
+		width: 200px;
+		padding-top: 62px;
+	}
+	.touchme img {
+		//height: 100px;
+		width: 100px;
+		//margin-top: 50px;
+		//margin-left: 50px;
+		border: none;
+		text-align: center;
+	}
+	#links {
+		//background: yellow;
+		//text-align: center;
+	}
+	#links > table {
+		margin: 0 auto 0 auto;
+		padding: 0;
+	}
+	td {
+		text-align: center;
+	}
+	.link {
+		font-size: 22px;
+	}
+	#navbar {
+		//position: absolute;
+		bottom: 0px;
+		height: 20px;
+		width: 1000px;
+		text-align: center;
+	}
+	ul {
+		display: inline-block;
+		padding: 0;
+		margin: 0;
+	}
+	li {
+		display: inline-block;
+	}
+	.navpoint {
+		display: inline-block;
+		height: 14px;
+		width: 14px;
+		margin-left: 15px;
+		margin-right: 15px;
+		border-radius: 30px;
+		background: rgba(0, 0, 0, 1);
+		opacity: 0.3;
+	}
+	.navpoint:hover {
+		opacity: 1;
+	}
+	#copyright {
+		text-align: center;
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		padding-bottom: 10px;
+		font-size: 13px;
+		background: none;
+	}
+	#copyright a {
+		opacity: 0.3;
+		box-shadow: 0 0 8px rgba(255, 255, 255, 1);
+		background: rgba(255, 255, 255, 0.5);
+		border-radius: 9px;
+		padding-left: 15px;
+		padding-right: 15px;
+		color: rgba(0, 0, 0, 0);
+	}
+	#copyright:hover {
+		color: #FFF;
+		box-shadow: none;
+	}
+	#copyright:hover a {
+		opacity: 1;
+		color: #FFF;
+		box-shadow: none;
+		background: none;
+	}
+	//---------------------------------------------------------------------
+	#navbar, #nav, #home {
+		opacity: 0;
+	}
+	</style>
+	<style type="text/css" id="fade">
+	.pages { -webkit-transition: all 60ms linear 10ms; }
+	</style>
+	<script type="text/javascript">
+	var current = 1;
+	function ready() {
+		document.getElementById("content").style.opacity = "1";
+		document.getElementById("navbar").style.opacity = "1";
+		show1();
+	}
+	function show1(){
+		document.getElementById("fade").innerHTML = ".pages { -webkit-transition: all 60ms linear 10ms; }";
+		document.getElementById("home").style.opacity = "0";
+		document.getElementById("direct").style.opacity = "0";
+		document.getElementById("contact").style.opacity = "0";
+		document.getElementById("links").style.opacity = "0";
+		document.getElementById("fade").innerHTML = ".pages { -webkit-transition: all 1000ms linear 0ms; }";
+		$(".navpoint").animate({
+			opacity: '0.3'
+		});
+		$("#screen1").animate({
+			opacity: '0.85'
+		});
+		/*
+		$("#home").animate({
+			opacity: '1'
+		});*/
+		document.getElementById("home").style.opacity = "1";
+		document.getElementById("content").style.marginLeft = 0 + "px";
+		current = 1;
+	}
+	function show2(){
+		document.getElementById("fade").innerHTML = ".pages { -webkit-transition: all 60ms linear 0ms; }";
+		document.getElementById("home").style.opacity = "0";
+		document.getElementById("direct").style.opacity = "0";
+		document.getElementById("contact").style.opacity = "0";
+		document.getElementById("links").style.opacity = "0";
+		document.getElementById("fade").innerHTML = ".pages { -webkit-transition: all 1000ms linear 0ms; }";
+		$(".navpoint").animate({
+			opacity: '0.3'
+		});
+		$("#screen2").animate({
+			opacity: '0.85'
+		});
+		/*
+		$("#direct").animate({
+			opacity: '1'
+		});*/
+		document.getElementById("direct").style.opacity = "1";
+		document.getElementById("content").style.marginLeft = -1000 + "px";
+		current = 2;
+	}
+	function show3(){
+		document.getElementById("fade").innerHTML = ".pages { -webkit-transition: all 60ms linear 0ms; }";
+		document.getElementById("home").style.opacity = "0";
+		document.getElementById("direct").style.opacity = "0";
+		document.getElementById("contact").style.opacity = "0";
+		document.getElementById("links").style.opacity = "0";
+		document.getElementById("fade").innerHTML = ".pages { -webkit-transition: all 1000ms linear 0ms; }";
+		$(".navpoint").animate({
+			opacity: '0.3'
+		});
+		$("#screen3").animate({
+			opacity: '0.85'
+		});
+		/*
+		$("#contact").animate({
+			opacity: '1'
+		});*/
+		document.getElementById("contact").style.opacity = "1";
+		document.getElementById("content").style.marginLeft = -2000 + "px";
+		current = 3;
+	}
+	function show4(){
+		document.getElementById("fade").innerHTML = ".pages { -webkit-transition: all 60ms linear 0ms; }";
+		document.getElementById("home").style.opacity = "0";
+		document.getElementById("direct").style.opacity = "0";
+		document.getElementById("contact").style.opacity = "0";
+		document.getElementById("links").style.opacity = "0";
+		document.getElementById("fade").innerHTML = ".pages { -webkit-transition: all 1000ms linear 0ms; }";
+		$(".navpoint").animate({
+			opacity: '0.3'
+		});
+		$("#screen4").animate({
+			opacity: '0.85'
+		});
+		/*
+		$("#links").animate({
+			opacity: '1'
+		});*/
+		document.getElementById("links").style.opacity = "1";
+		document.getElementById("content").style.marginLeft = -3000 + "px";
+		current = 4;
+	}
+	</script>
+</head>
+<body onload="ready()">
+	<div id="cont">
+	<ul id="content">
+		<li id="home" class="pages slides">
+			<div id="avatar">
+				<a class="back" href="/"></a>
+			</div>
+			<div id="box">
+				<h1><a href="/">Anonswer</a></h1>
+				<p id="bio">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id enim non erat molestie mollis. Integer auctor non nulla sed laoreet. Nunc tellus ligula, pellentesque eget congue non, sagittis sed massa. Morbi vehicula feugiat nullam.
+				</p>
+			</div>
+		</li>
+		<li id="direct" class="pages slides">
+			<h2><span>Direct</span></h2>
+			<div id="blog" class="touchme">
+				<a href="http://blog.anonswer.com/">
+					<div class="icon" style="background-image: url(http://img.ly/system/uploads/007/657/550/original_articles.png);"></div>
+					<footer>Blog</footer>
+				</a>
+			</div>
+			<!--
+			<div id="mail" class="touchme">
+				<a href="mailto:anonswer@gmail.com">
+					<div class="icon" style="background-image: url();"></div>
+					<footer>Mail</footer>
+				</a>
+			</div>
+			<div id="tb" class="touchme">
+				<a href="http://www.baidu.com/p/Anonswer?from=tieba">
+					<div class="icon" style="background-image: url();"></div>
+					<footer>Tieba</footer>
+				</a>
+			</div>
+			<div id="fb" class="touchme">
+				<a href="">
+					<div class="icon" style="background-image: url();"></div>
+					<footer>Facebook</footer>
+				</a>
+			</div>
+			<div id="tw" class="touchme">
+				<a href="https://twitter.com/anonswer">
+					<div class="icon" style="background-image: url();"></div>
+					<footer>Twitter</footer>
+				</a>
+			</div>
+			-->
+		</li>
+		<li id="contact" class="pages slides">
+			<h2><span>Contact</span></h2>
+			<div id="qq" class="touchme">
+				<a href="http://335958006.qzone.qq.com/">
+					<div class="icon" style="background-image: url(http://img.ly/system/uploads/007/657/513/original_qq%20100.png);"></div>
+					<footer>QQ</footer>
+				</a>
+			</div>
+			<div id="mail" class="touchme">
+				<a href="mailto:anonswer@gmail.com">
+					<div class="icon" style="background-image: url(http://img.ly/system/uploads/007/657/508/original_Email%20100.png);"></div>
+					<footer>Mail</footer>
+				</a>
+			</div>
+			<div id="tb" class="touchme">
+				<a href="http://www.baidu.com/p/Anonswer?from=tieba">
+					<div id="tie" class="icon">贴</div>
+					<footer>Tieba</footer>
+				</a>
+			</div>
+			<div id="fb" class="touchme">
+				<a href="">
+					<div class="icon" style="background-image: url(http://img.ly/system/uploads/007/657/530/original_Facebook%20100.png);"></div>
+					<footer>Facebook</footer>
+				</a>
+			</div>
+			<div id="tw" class="touchme">
+				<a href="https://twitter.com/anonswer">
+					<div class="icon" style="background-image: url(http://img.ly/system/uploads/007/657/480/original_Twitter%20Icon%20copy.png);"></div>
+					<footer>Twitter</footer>
+				</a>
+			</div>
+		</li>
+		<li id="links" class="pages slides">
+			<h2>Links</h2>
+			<table id="linkslist">
+				<tbody>
+				<td class="link"><a href="http://www.joyneop.com/">Joy Neop</a></td>
+				</tbody>
+			</table>
+		</li>
+	</ul> <!-- #content -->
+	<footer id="navbar">
+			<ul class="nav">
+				<li id="screen1" class="navpoint" onclick="show1()"></li>
+				<li id="screen2" class="navpoint" onclick="show2()"></li>
+				<li id="screen3" class="navpoint" onclick="show3()"></li>
+				<li id="screen4" class="navpoint" onclick="show4()"></li>
+			</ul>
+		</footer>
+	</div> <!-- #cont -->
+	<footer id="copyright">
+		<a href="http://www.joyneop.com/">&copy; Copyright 2013 All Rights Reserved by Joy Neop</a>
+	</footer>
+</body>
+</html>
