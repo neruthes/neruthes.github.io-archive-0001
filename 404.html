@@ -5,14 +5,13 @@
 	<title>HTTP 404 — Joy Neop</title>
 	<script type="text/javascript">
 	function w() {
-		document.write("~" + window.location.pathname)
+		document.write("~" + window.location.pathname + window.location.search)
 	}
-	setTimeout('window.location.replace("/")', 100000)
+	setTimeout('window.location.replace("/")', 13750)
 	</script>
 	<style type="text/css">
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 	body {
-		overflow: hidden;
 		font-family: 'Open Sans', Myriad Pro, Myriad Set, Myriad, Lucida Grande, Helvetica, Arial, sans-serif;
 		color: #DDD;
 		padding: 0;
@@ -20,12 +19,7 @@
 		background: #000;
 	}
 	div {
-		position: absolute;
-		left: 50%;
-		width: 700px;
 		height: 100%;
-		padding: 70px;
-		margin: 0 0 0 -350px;
 		box-sizing: border-box;
 		background: rgba(40, 40, 40, 0.65);
 		border-left: solid 1px #DDD;
@@ -42,7 +36,7 @@
 		margin: 20px 0;
 	}
 	p::before {
-		content: "~ JN$ ";
+		content: "~ JN$";
 		font-family: Courier, Menlo, monospace;
 		color: #2FFF6F;
 	}
@@ -57,21 +51,77 @@
 		font-family: Courier, Menlo, monospace;
 		font-size: 15px;
 		color: #FFF;
+		word-break: break-word;
 		padding: 1px 3px;
 		margin: 0 1px;
 		border: 1px solid rgba(50, 255, 130, 0.5);
 		border-radius: 3px;
 	}
 	footer {
-		position: fixed;
-		bottom: 15px;
-		width: 100%;
 		font-size: 14px;
 		text-align: center;
 	}
 	footer a {
 		color: inherit;
 		text-decoration: none;
+	}
+	@media screen and (min-width: 740px) {
+		body {
+			overflow: hidden;
+		}
+		div {
+			position: absolute;
+			left: 50%;
+			width: 700px;
+			height: 100%;
+			padding: 70px;
+			margin: 0 0 0 -350px;
+			background: rgba(40, 40, 40, 0.65);
+			border-left: solid 1px #DDD;
+			border-right: solid 1px #DDD;
+		}
+		code {
+			font-family: Courier, Menlo, monospace;
+			font-size: 15px;
+			color: #FFF;
+			padding: 1px 3px;
+			margin: 0 1px;
+			border: 1px solid rgba(50, 255, 130, 0.5);
+			border-radius: 3px;
+		}
+		footer {
+			position: fixed;
+			bottom: 15px;
+			left: 50%;
+			width: 700px;
+			font-size: 14px;
+			text-align: center;
+			margin: 0 0 0 -350px;
+		}
+		footer a {
+			color: inherit;
+			text-decoration: none;
+		}
+	}
+	@media screen and (max-width: 738px) {
+		body {
+			padding: 0;
+			margin: 0;
+		}
+		div {
+			position: absolute;
+			height: 100%;
+			padding: 10px;
+			margin: 0 20px;
+		}
+		footer {
+			font-size: 14px;
+			margin: 100px 0 0 0;
+		}
+		footer a {
+			color: inherit;
+			text-decoration: none;
+		}
 	}
 	</style>
 </head>
@@ -91,11 +141,11 @@
 			Oops! <code>~/blob/master/404.html</code> not found!
 		</p>
 		<p>
-			Sorry neither your request nor <code>~/blob/master/404.html</code> has been found. You can only see this : (
+			Sorry, neither your request nor <code>~/blob/master/404.html</code> has been found. You can only see this : (
 		</p>
+		<footer>
+			<a href="/">&copy; 2014 All Rights Reserved by Joy Neop</a>
+		</footer>
 	</div>
-	<footer>
-		<a href="/">&copy; 2014 All Rights Reserved by Joy Neop</a>
-	</footer>
 </body>
 </html>
