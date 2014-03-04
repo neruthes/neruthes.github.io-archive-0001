@@ -18,74 +18,74 @@ Copyright info:
 ----------------------------------------*/
 
 function loadPost(pid, localport, ifPageTitle) {
-	ajaxContent.open("GET", "db/" + pid + ".txt", false);
-	ajaxContent.send();
-	jsonPost = ajaxContent.responseText;
+	ajaxContent.open("GET", "db/" + pid + ".txt", false)
+	ajaxContent.send()
+	jsonPost = ajaxContent.responseText
 
 	if (postIndex.list[pid].Title == "") {
-		document.getElementById("post" + localport + "h2").style.display = "none";
+		document.getElementById("post" + localport + "h2").style.display = "none"
 	} else {
-		document.getElementById("post" + localport + "title").innerHTML = postIndex.list[pid].Title;
-		document.getElementById("post" + localport + "title").href = "./?p=" + pid;
+		document.getElementById("post" + localport + "title").innerHTML = postIndex.list[pid].Title
+		document.getElementById("post" + localport + "title").href = "./?p=" + pid
 	}
 	if (jsonPost == undefined) {
-		document.getElementById("post" + localport + "text").style.display = "none";
+		document.getElementById("post" + localport + "text").style.display = "none"
 	} else {
-		document.getElementById("post" + localport + "text").innerHTML = jsonPost;
+		document.getElementById("post" + localport + "text").innerHTML = jsonPost
 	}
-	document.getElementById("post" + localport + "link").innerHTML = postIndex.list[pid].Time;
-	document.getElementById("post" + localport + "link").href = "./?p=" + pid;
-	document.getElementById("post" + localport).style.display = "block";
+	document.getElementById("post" + localport + "link").innerHTML = postIndex.list[pid].Time
+	document.getElementById("post" + localport + "link").href = "./?p=" + pid
+	document.getElementById("post" + localport).style.display = "block"
 	if (ifPageTitle == 1 && postIndex.list[pid].Title != undefined) {
-		document.getElementById("page-title").innerHTML = postIndex.list[pid].Title + " — " + blogName;
+		document.getElementById("page-title").innerHTML = postIndex.list[pid].Title + " — " + blogName
 	} else if (ifPageTitle == 1 && postIndex.list[pid].Title == undefined) {
-		document.getElementById("page-title").innerHTML = "Post #" + pid + " — " + blogName;
+		document.getElementById("page-title").innerHTML = "Post #" + pid + " — " + blogName
 	} else {
-		document.getElementById("page-title").innerHTML = blogName;
+		document.getElementById("page-title").innerHTML = blogName
 	}
 }
 
 function fillNav(previd, nextid, ifprev, ifnext, type) {
 	if (ifprev == 1) {
-		document.getElementById("prevlink").href = "./?" + type + "=" + previd;
-		document.getElementById("prevlink").innerHTML = "&lt; Prev";
-		document.getElementById("prevlink").style.visibility = "visible";
+		document.getElementById("prevlink").href = "./?" + type + "=" + previd
+		document.getElementById("prevlink").innerHTML = "&lt; Prev"
+		document.getElementById("prevlink").style.visibility = "visible"
 	}
 	if (ifnext == 1) {
 		if (nextid == 1 && type == "page") {
-			document.getElementById("nextlink").href = "./";
+			document.getElementById("nextlink").href = "./"
 		} else {
-			document.getElementById("nextlink").href = "./?" + type + "=" + nextid;
+			document.getElementById("nextlink").href = "./?" + type + "=" + nextid
 		}
-		document.getElementById("nextlink").innerHTML = "Next &gt;";
-		document.getElementById("nextlink").style.visibility = "visible";
+		document.getElementById("nextlink").innerHTML = "Next &gt;"
+		document.getElementById("nextlink").style.visibility = "visible"
 	}
 }
 
 function loadPage(pageId, postsToLoad) {
-	var topPostOnPage = total-1-10*(pageId-1);
-	var postOnLoad = 10;
-	postOnLoad = topPostOnPage;
-	var bottomPort = 11-postsToLoad;
+	var topPostOnPage = total-1-10*(pageId-1)
+	var postOnLoad = 10
+	postOnLoad = topPostOnPage
+	var bottomPort = 11-postsToLoad
 	for (var i = 10; i >= bottomPort; i--) {
-		loadPost(postOnLoad, i, 0);
-		postOnLoad--;
+		loadPost(postOnLoad, i, 0)
+		postOnLoad--
 	}
 }
 
 function httpError(ecode) {
-	document.getElementById("post10title").innerHTML = "HTTP " + ecode;
-	document.getElementById("post10link").innerHTML = "";
-	document.getElementById("prevandnext").innerHTML = "";
-	document.getElementById("comment-container").innerHTML = "";
-	document.getElementById("comment-container").style.display = "none";
-	var info = "Unknown Issue...";
-	document.getElementById("post10").style.display = "block";
+	document.getElementById("post10title").innerHTML = "HTTP " + ecode
+	document.getElementById("post10link").innerHTML = ""
+	document.getElementById("prevandnext").innerHTML = ""
+	document.getElementById("comment-container").innerHTML = ""
+	document.getElementById("comment-container").style.display = "none"
+	var info = "Unknown Issue..."
+	document.getElementById("post10").style.display = "block"
 	if (ecode == "404") {
 		info = "The content you are requesting does not exist. Check your request please."
 	} else if (ecode == "403") {
 		info = "Firbidden. You are not allowed to see this."
 	}
-	document.getElementById("page-title").innerHTML = "HTTP " + ecode + "— " + blogName;
-	document.getElementById("post10text").innerHTML = info;
+	document.getElementById("page-title").innerHTML = "HTTP " + ecode + "— " + blogName
+	document.getElementById("post10text").innerHTML = info
 }
