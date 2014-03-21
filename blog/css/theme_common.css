@@ -2,8 +2,8 @@
 Theme designed for NeopBlog
 ------------------------------------------
 Theme meta info:
-	Theme Name: Void
-	Theme Page: https://github.com/JoyNeop/JN-Void
+	Theme Name: Pond
+	Theme Page: https://github.com/JoyNeop/Pond
 	Theme Version: 0.9.0
 	Theme status: Beta
 ------------------------------------------
@@ -23,11 +23,11 @@ Copyright info:
 ----------------------------------------*/
 
 body {
-	background: #111115;
+	background: rgb(36, 92, 19);
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
-	font-family: 'Open Sans', Myriad Pro, Myriad Set, Myriad, Helvetica, Helvetica Neue, Lucida Grande, Lucida, Arial, 'Hiragino Sans GB', sans-serif;
+	font-family: Iowan Old Style, 'Ovo', Georgia, Times, serif;
 	font-weight: normal;
 }
 
@@ -46,7 +46,7 @@ h1 {
 
 p {
 	font-size: 17px;
-	line-height: 29px;
+	line-height: 32px;
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 
@@ -65,10 +65,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 section.post {
-	padding-top: 10px;
-	margin-bottom: 50px;
-	background: rgba(40, 40, 40, 0.65);
-	border: 1px solid #DDD;
+	padding-top: 20px;
+	margin-bottom: 90px;
+	background: rgb(33, 33, 33) url(slate.jpg) top repeat scroll;
+	background-size: 200px;
+	box-shadow: rgba(0, 0, 0, 0.55) 0 5px 16px;
 }
 
 section.post > h2 {
@@ -121,7 +122,9 @@ section.post > footer {
 }
 
 nav.prevandnext span a {
+	font-size: 20px;
 	font-weight: normal;
+	color: #FDFDFD;
 }
 
 .comment-container {
