@@ -84,12 +84,12 @@ function loadMultiPosts(pid) {
 }
 
 function fillNav(previd, nextid, ifprev, ifnext) {
-	if (ifprev == 1 && type == "p") {
+	if (ifprev == 1) {
 		document.getElementById("prevlink").href = "./?p=" + previd
 		document.getElementById("prevlink").innerHTML = "&lt; Prev"
 		document.getElementById("prevlink").style.visibility = "visible"
 	}
-	if (ifnext == 1 && type == "p") {
+	if (ifnext == 1) {
 		if (nextid == 1) {
 			document.getElementById("nextlink").href = "./"
 		} else {
