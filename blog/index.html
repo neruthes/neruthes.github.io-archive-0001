@@ -19,8 +19,15 @@
 	<link rel="favicon shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="favicon.png">
 	<script type="text/javascript" src="js/func.js"></script>
+	<script type="text/javascript">
+	function load() {
+		if (window.innerWidth * window.devicePixelRatio >= 1920) {
+			document.getElementById("body").style.backgroundImage = "url(css/bg2.jpg)"
+		}
+	}
+	</script>
 </head>
-<body id="body" onscroll="loadMore()" onload="document.body.style.backgroundImage = 'url(css/bg2.jpg)'">
+<body id="body" onscroll="loadMore()">
 	<header id="global-header" class="global">
 		<h1><a href="./">Joy Neop</a></h1>
 		<h2>Do what you want to do. Be what you want to be.</h2>
@@ -48,5 +55,6 @@
 		ga('create', 'UA-41022772-1', 'joyneop.com');
 		ga('send', 'pageview');
 	</script>
+	<img src="css/bg.jpg" id="bg2x" onload="document.getElementById('bg2x').style.display = 'none'; load();">
 </body>
 </html>
