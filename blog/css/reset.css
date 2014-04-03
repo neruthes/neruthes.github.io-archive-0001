@@ -95,6 +95,10 @@ blockquote, pre {
 	margin-right: auto;
 }
 
+blockquote cite {
+	padding: 0 8px;
+}
+
 section.post > footer {
 	margin-top: 30px;
 }
