@@ -41,6 +41,7 @@ function createSection(pid) {
 }
 
 function loadPost(pid) {
+	var ajaxContent = new XMLHttpRequest()
 	ajaxContent.open("GET", "db/" + pid + ".txt", false)
 	ajaxContent.send()
 	var receivedPostText = ajaxContent.responseText
@@ -75,11 +76,9 @@ function loadMore() {
 }
 
 function loadMultiPosts(pid) {
-	for (var i = pid; i > pid-10; i--) {
-		if (loadedOldestPostId != 0) {
-			createSection(i)
-			loadPost(i)
-		}
+	for (var i = pid; i > pid-10 && loadedOldestPostId != 0; i--) {
+		createSection(i)
+		loadPost(i)
 	}
 }
 

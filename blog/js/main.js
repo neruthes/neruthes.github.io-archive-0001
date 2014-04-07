@@ -17,8 +17,6 @@ Copyright info:
 	License Link: http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US
 ----------------------------------------*/
 
-var ajaxContent = new XMLHttpRequest()
-
 var ajaxMetaData = new XMLHttpRequest()
 ajaxMetaData.open("GET", "./meta.json", false)
 ajaxMetaData.send()
@@ -72,11 +70,9 @@ if (postId != "NULL") {
 	}
 } else if (postId == "NULL") {
 	var ifSinglePost = 0
-	for (var i = total - 1; i >= total-10; i--) {
-		if (i >= 0) {
-			createSection(i)
-			loadPost(i)
-		}
+	for (var i = total - 1; i >= total-10 && i >= 0; i--) {
+		createSection(i)
+		loadPost(i)
 	}
 	loadMultiPosts(loadedOldestPostId-1)
 }
