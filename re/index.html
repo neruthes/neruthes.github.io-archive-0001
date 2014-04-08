@@ -5,13 +5,13 @@
 <body>
 	<script type="text/javascript">
 	var pid = Number(window.location.href.slice(window.location.href.indexOf("#") + 1))
-	var jsonId = (pid-pid%100)/100
+	var TxtId = (pid-pid%100)/100
 	var num = pid%100
 	var ajax = new XMLHttpRequest()
-	ajax.open("GET", "./" + jsonId + ".json", false)
+	ajax.open("GET", "./" + TxtId + ".txt", false)
 	ajax.send()
-	var json = eval("(" + ajax.responseText + ")")
-	window.location.replace(json.list[num].url)
+	var arr = ajax.responseText.split("\n")
+	window.location.replace(arr[num])
 	</script>
 </body>
 </html>
