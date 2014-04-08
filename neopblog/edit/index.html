@@ -70,10 +70,27 @@
 	p span:first-child, p span:last-child {
 		color: #BBB;
 	}
+	footer {
+		position: absolute;
+		bottom: 0;
+		font-family: 'Open Sans', Lucida Grande, Lucida, Helvetica, sans-serif;
+		font-size: 14px;
+		color: #DDD;
+		text-align: center;
+		width: 100%;
+	}
+	footer a {
+		display: block;
+		color: inherit;
+		text-decoration: inherit;
+	}
+	footer a:visited {
+		color: inherit;
+	}
 	</style>
 	<script type="text/javascript">
 	// © Copyright 2014 All Rights Reserved by Joy Neop || Website: http://neop.me || Email: i@joyneop.com
-	var joyneop = ""
+	var tempRaw = ""
 	function JNUpdatePreview() {
 		var raw = document.getElementById("text").value
 		var middle = raw
@@ -108,6 +125,7 @@
 			<div id="preview"></div>
 		</div>
 	</div>
+	<footer><a href="/">&copy; 2014 Joy Neop</a></footer>
 	<script type="text/javascript">
 	var JNUP = window.setInterval("JNUpdatePreview()", 75)
 	</script>
