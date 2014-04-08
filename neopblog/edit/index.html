@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Pure Text to HTML DOM</title>
-	<link rel="favicon shortcut icon" type="" href="/joyenop.ico">
-	<link rel="apple-touch-icon" type="" href="/joyenop.png">
+	<link rel="favicon shortcut icon" href="/joyneop.ico">
+	<link rel="apple-touch-icon" href="/joyneop.png">
 	<style type="text/css">
 	body {
 		font-family: Helvetica, sans-serif;
@@ -35,12 +35,13 @@
 		float: right;
 	}
 	h2 {
-		font-family: 'Open Sans', Helvetica, sans-serif;
+		font-family: 'Open Sans', Lucida Grande, Lucida, Helvetica, sans-serif;
 		font-weight: normal;
 		color: #CCC;
 		margin: 0 0 15px;
 	}
 	#text {
+		font-family: Helvetica, sans-serif;
 		color: #555556;
 		font-size: 18px;
 		line-height: 29px;
@@ -63,6 +64,7 @@
 		overflow-y: scroll;
 	}
 	p {
+		font-family: Helvetica, sans-serif;
 		margin: 0 0 10px;
 	}
 	p span:first-child, p span:last-child {
@@ -71,7 +73,7 @@
 	</style>
 	<script type="text/javascript">
 	// © Copyright 2014 All Rights Reserved by Joy Neop || Website: http://neop.me || Email: i@joyneop.com
-	var tempRaw = ""
+	var joyneop = ""
 	function JNUpdatePreview() {
 		var raw = document.getElementById("text").value
 		var middle = raw
