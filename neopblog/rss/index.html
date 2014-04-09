@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NeopBlog RSS Generator</title>
+	<link rel="favicon shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="favicon.png">
+	<style type="text/css">
+	body {
+		font-family: Myriad Pro, Myriad, Myriad Set, 'Open Sans', Helvetica, Arial, sans-serif;
+		background: #FFF;
+		padding: 0;
+		margin: 0;
+	}
+	header, footer {
+		text-align: center;
+		font-weight: normal;
+		padding: 60px 0;
+	}
+	header {
+		color: #666;
+	}
+	footer {
+		color: #AAA;
+	}
+	header a {
+		color: inherit;
+		text-decoration: none;
+	}
+	footer a {
+		color: inherit;
+		text-decoration: none;
+	}
+	h1 {
+		color: inherit;
+		font-weight: 300;
+		text-align: center;
+		font-size: 40px;
+		padding: 0;
+		margin: 0;
+	}
+	#cont {
+		font-weight: 400;
+		min-height: 50px;
+		padding: 50px 70px;
+		margin: 0;
+		border: 1px solid #BBB;
+		border-radius: 4px;
+	}
+	@media screen and (min-width: 1100px) {
+		#cont {
+			width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	@media screen and (max-width: 1098px) {
+		#cont {
+			margin-left: 80px;
+			margin-right: 80px;
+		}
+	}
+	form div {
+		font-size: 22px;
+		color: #777;
+		text-align: center;
+		padding: 10px 0;
+	}
+	form div label {
+		display: inline-block;
+		font-weight: normal;
+		text-align: left;
+		width: 130px;
+	}
+	form div input[type="text"] {
+		display: inline-block;
+		font-family: inherit;
+		font-size: 20px;
+		font-weight: normal;
+		color: #999;
+		width: 460px;
+		height: 40px;
+		padding: 4px 20px;
+		border: 1px solid #DDD;
+		border-radius: 4px;
+		box-shadow: none;
+	}
+	form div input[type="submit"] {
+		font-family: inherit;
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 18px;
+		color: #333333;
+		text-align: center;
+		padding: 9px 24px;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+		vertical-align: middle;
+		background-color: #f5f5f5;
+		background-image: linear-gradient(#ffffff, #e6e6e6);
+		border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+		border: 1px solid #cccccc;
+		border-bottom-color: #b3b3b3;
+		border-radius: 4px;
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+		cursor: pointer;
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<h1><a href="./">NeopBlog RSS Generator</a></h1>
+	</header>
+	<div id="cont">
+		<form action="http://app.joyneop.com/nb-rss/" method="get">
+			<div><label for="domain">Domain</label><input type="text" id="domain" name="domain" placeholder="Your blog domain"></div>
+			<div><label for="dir">Directory</label><input type="text" id="dir" name="dir" placeholder="Leave blank if you don't use sub directory"></div>
+			<div><input type="submit" value="Submit"></div>
+		</form>
+	</div>
+	<footer>
+		<a href="http://neop.me/">&copy; Copyright 2014 All Rights Reserved by Joy Neop</a>
+	</footer>
+</body>
+</html>

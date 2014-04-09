@@ -5,7 +5,7 @@
 	<title>NeopBlog — Mini Blog Engine</title>
 	<link rel="favicon shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="favicon.png">
-	<base href="http://blog.joyneop.com/"></base>
+	<base href="http://www.joyneop.com/neopblog/"></base>
 	<style type="text/css">
 	body {
 		font-family: 'Iowan Old Style', 'Ovo', Georgia, Times, serif;
@@ -160,7 +160,7 @@
 			</p>
 			<h3>Installing On GitHub</h3>
 			<p>
-				Firstly you are supposed to create a repository. For example, since my GitHub username is <code>JoyNeop</code>, my repository should be named <code>joyneop.github.io</code>. And the you need to set up <code>DNS</code> record. For me, I want to use <code>blog.joyneop.com</code> for this, I am supposed to set a <code>CNAME</code> record which refer <code>blog.joyneop.com</code> to <code>joyneop.github.io</code>. If you want to use root domain, follow the <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages" target="_blank" rel="nofollow">GitHub official document</a>.
+				Firstly you are supposed to create a repository. For example, since my GitHub username is <code>JoyNeop</code>, my repository should be named <code>joyneop.github.io</code>. And then you need to set up <code>DNS</code> record. For me, I want to use <code>blog.joyneop.com</code> for this, I am supposed to set a <code>CNAME</code> record which refer <code>blog.joyneop.com</code> to <code>joyneop.github.io</code>. If you want to use root domain, follow the <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages" target="_blank" rel="nofollow">GitHub official document</a>.
 			</p>
 			<p>
 				Then, find the file CNAME in root directory and edit it. There should be one line content disclaiming your domain.
@@ -178,10 +178,10 @@
 			<p>
 				Inside of a TXT file of the post which is represented, for example, <code>0.txt</code> contains the HTML code.
 			</p>
-				Finally the value of key “postDate” is not analyzed so that you can write in any form. Both <code>Jan 24, 1984</code> and <code>1984/01/24</code> are okay. Even you can give up insisting a single form. Strictly, this it not quite limited to set a date, instead, it can be used as a highly customized post footer.
+				Finally the value of key <code>Time</code> is not analyzed so that you can write in any form. Both <code>Jan 24, 1984</code> and <code>1984/01/24</code> are okay. Even you can give up insisting a single form. Strictly, this it not quite limited to set a date, instead, it can be used as a highly customized post footer.
 			</p>
 			<p>
-				BTW, the value of key <code>postTitle</code> will be filled into an <code>&lt;h2&gt;</code> element so there is no need to write <code>&lt;h2&gt;</code> and <code>&lt;/h2&gt;</code> and the beginning and the end of the value.
+				BTW, the value of key <code>Title</code> will be filled into an <code>&lt;h2&gt;</code> element so there is no need to write <code>&lt;h2&gt;</code> and <code>&lt;/h2&gt;</code> and the beginning and the end of the value.
 			</p>
 		</div>
 	</section>
@@ -202,9 +202,9 @@
 			</p>
 		</div>
 		<div>
-			<h2>RSS Generator</h2>
+			<h2>RSS</h2>
 			<p>
-				<a href="http://neop.me/">Joy Neop</a> is writing an external RSS Generator with PHP and <a href="http://www.zhihu.com/people/zhu-huan-jie">James Swineson</a> contributes by debuging. More news about this will come out later.
+				<a href="http://neop.me/">Joy Neop</a> wrote a beta version <a href="./rss/">RSS generator</a>. Use <code>Jan 24, 1984</code> format of post date if you want to use this.
 			</p>
 		</div>
 	</section>
