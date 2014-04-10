@@ -3,7 +3,7 @@ Core file of NeopBlog
 ------------------------------------------
 File meta info:
 	File Name: func.js
-	File Version: 0.9.4
+	File Version: 0.9.5
 	File Status: Beta
 	File Branch: Master
 ------------------------------------------
@@ -59,9 +59,9 @@ function loadPost(pid) {
 	}
 	document.getElementById("post" + pid + "link").innerHTML = postIndex.list[pid].Time
 	document.getElementById("post" + pid + "link").href = "./?p=" + pid
-	if (ifSinglePost == 1 && postIndex.list[pid].Title != "") {
+	if (postId != "NULL" && postIndex.list[pid].Title != "") {
 		document.getElementById("page-title").innerHTML = postIndex.list[pid].Title + " — " + blogName
-	} else if (ifSinglePost == 1 && postIndex.list[pid].Title == "") {
+	} else if (postId != "NULL" && postIndex.list[pid].Title == "") {
 		document.getElementById("page-title").innerHTML = "Post #" + pid + " — " + blogName
 	} else {
 		document.getElementById("page-title").innerHTML = blogName

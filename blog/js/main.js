@@ -3,7 +3,7 @@ Core file of NeopBlog
 ------------------------------------------
 File meta info:
 	File Name: main.js
-	File Version: 0.9.4
+	File Version: 0.9.5
 	File Status: Beta
 	File Branch: Master
 ------------------------------------------
@@ -46,7 +46,6 @@ var sectionsCreated = 0
 var cont = document.getElementById("cont")
 
 if (postId != "NULL") {
-	var ifSinglePost = 1
 	if (blogMetaData.comments == "on") {
 		document.getElementById("comment-container").style.display = "block"
 		document.getElementById("comment-container").style.visibility = "visible"
@@ -69,7 +68,6 @@ if (postId != "NULL") {
 		fillNav(prevpost, nextpost, 1, 1)
 	}
 } else if (postId == "NULL") {
-	var ifSinglePost = 0
 	for (var i = total - 1; i >= total-10 && i >= 0; i--) {
 		createSection(i)
 		loadPost(i)
