@@ -121,7 +121,7 @@
 	<div id="cont">
 		<div id="left">
 			<h2>Edit</h2>
-			<textarea id="text"></textarea>
+			<textarea id="text" oninput="JNUpdatePreview()"></textarea>
 		</div>
 		<div id="right">
 			<h2>Result</h2>
@@ -129,8 +129,5 @@
 		</div>
 	</div>
 	<footer><a href="/">&copy; 2014 Joy Neop</a></footer>
-	<script type="text/javascript">
-	var JNUP = window.setInterval("JNUpdatePreview()", 75)
-	</script>
 </body>
 </html>
