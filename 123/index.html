@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Starting Here</title>
+	<link rel="shortcut icon favicon" href="http://www.joyneop.com/joyneop.ico">
+	<link rel="apple-touch-icon" href="http://www.joyneop.com/joyneop.png">
+	<style type="text/css">
+	#cont > div {
+		opacity: 0;
+	}
+	@media screen and (max-width: 480px) {
+		/* For iPhone */
+		#cont {
+			width: 100%;
+		}
+		#cont > div {
+			height: 200px;
+			width: 300px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 20px;
+		}
+		#cont > div a {
+			display: block;
+		}
+		#cont > div a > div {
+			height: 180px;
+		}
+		#cont > div a > div > div {
+			height: 180px;
+			width: 300px;
+		}
+		footer.copyright {
+			width: 100%;
+		}
+	}
+	@media screen and (min-width: 760px) {
+		/* For iPad */
+		#cont {
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 20px;
+		}
+		#cont > div {
+			display: inline-block;
+			height: 130px;
+			min-width: 180px;
+			width: 20%;
+			margin: 10px 5px 10px 5px;
+			position: relative;
+			overflow: visible;
+		}
+		#cont > div a {
+			display: block;
+			height: 130px;
+			width: 180px;
+		}
+		#cont > div a > div {
+			height: 102px;
+			width: 180px;
+		}
+		footer.copyright {
+			width: 700px;
+		}
+	}
+	@media screen and (min-width: 1024px) {
+		#cont {
+			width: 1200px;
+			padding: 0;
+			margin-top: 10px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#cont > div {
+			display: inline-block;
+			height: 172px;
+			width: 240px;
+			margin: 10px 15px 0px 15px;
+			position: relative;
+			overflow: visible;
+		}
+		#cont > div a {
+			height: 172px;
+			width: 240px;
+			display: block;
+		}
+		#cont > div a > div {
+			height: 144px;
+			width: 240px;
+		}
+		#cont > div a > div > div {
+			height: 144px;
+			width: 240px;
+		}
+		#cont > div:hover a > div {
+			top: -10px;
+			box-shadow: 0 6px 16px rgba(0, 0, 0, 0.55);
+		}
+		footer.copyright {
+			width: 1062px;
+		}
+	}
+	* {
+		font-family: 'Open Sans', Helvetica Neue, Helvetica, Ubuntu, sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		text-align: center;
+		color: #444;
+		text-decoration: none;
+		-webkit-transition: all 240ms ease;
+		-moz-transition: all 240ms ease;
+		transition: all 240ms ease;
+	}
+	body {
+		margin: 0;
+		background: #E6E6E6 url(bg.png) top scroll repeat;
+	}
+	#cont > div a > div {
+		position: relative;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+		overflow: hidden;
+		background-size: cover;
+	}
+	#cont > div a > div > div {
+		overflow: hidden;
+		background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.18));
+	}
+	#cont > div footer {
+		margin-top: 5px;
+	}
+	#twitter {
+		background-image: url(twitter.jpg);
+	}
+	#facebook {
+		background-image: url(facebook.jpg);
+	}
+	#gplus {
+		background-image: url(gplus.jpg);
+	}
+	#weibo {
+		background-image: url(weibo.jpg);
+	}
+	#wikipedia {
+		background-image: url(wikipedia.jpg);
+	}
+	#zhihu {
+		background-image: url(zhihu.jpg);
+	}
+	#quora {
+		background-image: url(quora.jpg);
+	}
+	#stackoverflow {
+		background-image: url(stackoverflow.jpg);
+	}
+	#v2ex {
+		background-image: url(v2ex.jpg);
+	}
+	#guokr {
+		background-image: url(guokr.jpg);
+	}
+	#macidea {
+		background-image: url(macidea.jpg);
+	}
+	#weiphone {
+		background-image: url(weiphone.jpg);
+	}
+	#dribbble {
+		background-image: url(dribbble.jpg);
+	}
+	#behance {
+		background-image: url(behance.jpg);
+	}
+	#flickr {
+		background-image: url(flickr.jpg);
+	}
+	#github {
+		background-image: url(github.jpg);
+	}
+	/*--------------------------------------------------------------------------------------*/
+	footer.copyright {
+		height: 100px;
+		text-align: left;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	</style>
+</head>
+<body onload="load()">
+	<div id="cont">
+		<div>
+			<a href="https://twitter.com/" rel="nofollow">
+				<div id="twitter">
+					<div></div>
+				</div>
+				<footer>Twitter</footer>
+			</a>
+		</div>
+		<div>
+			<a href="https://www.facebook.com/" rel="nofollow">
+				<div id="facebook">
+					<div></div>
+				</div>
+				<footer>Facebook</footer>
+			</a>
+		</div>
+		<div>
+			<a href="http://plus.google.com/" rel="nofollow">
+				<div id="gplus">
+					<div></div>
+				</div>
+				<footer>Google+</footer>
+			</a>
+		</div>
+		<div>
+			<a href="http://weibo.com/" rel="nofollow">
+				<div id="weibo">
+					<div></div>
+				</div>
+				<footer>Sina Weibo</footer>
+			</a>
+		</div>
+		<div>
+			<a href="http://zh.wikipedia.org/" rel="nofollow">
+				<div id="wikipedia">
+					<div></div>
+				</div>
+				<footer>Wikipedia</footer>
+			</a>
+		</div>
+		<div>
+			<a href="http://www.zhihu.com/" rel="nofollow">
+				<div id="zhihu">
+					<div></div>
+				</div>
+				<footer>Zhihu</footer>
+			</a>
+		</div>
+		<div>
+			<a href="http://www.quora.com/" rel="nofollow">
+				<div id="quora">
+					<div></div>
+				</div>
+				<footer>Quora</footer>
+			</a>
+		</div>
+		<div>
+			<a href="http://stackoverflow.com/" rel="nofollow">
+				<div id="stackoverflow">
+					<div></div>
+				</div>
+				<footer>Stack Overflow</footer>
+			</a>
+		</div>
+		<div>
+			<a href="https://www.v2ex.com/notifications" rel="nofollow">
+				<div id="v2ex">
+					<div></div>
+				</div>
+				<footer>V2EX</footer>
+			</a>
+		</div>
+		<div>
+			<a href="http://www.guokr.com/" rel="nofollow">
+				<div id="guokr">
+					<div></div>
+				</div>
+				<footer>Guokr</footer>
+			</a>
+		</div>
+		<div>
+			<a href="http://www.macidea.com/" rel="nofollow">
+				<div id="macidea">
+					<div></div>
+				</div>
+				<footer>MacIdea</footer>
+			</a>
+		</div>
+		<div>
+			<a href="http://www.weiphone.com/" rel="nofollow">
+				<div id="weiphone">
+					<div></div>
+				</div>
+				<footer>WeiPhone</footer>
+			</a>
+		</div>
+		<div>
+			<a href="http://www.dribbble.com/" rel="nofollow">
+				<div id="dribbble">
+					<div></div>
+				</div>
+				<footer>Dribbble</footer>
+			</a>
+		</div>
+		<div>
+			<a href="http://www.behance.net/" rel="nofollow">
+				<div id="behance">
+					<div></div>
+				</div>
+				<footer>Behance</footer>
+			</a>
+		</div>
+		<div>
+			<a href="http://www.flickr.com/" rel="nofollow">
+				<div id="flickr">
+					<div></div>
+				</div>
+				<footer>Flickr</footer>
+			</a>
+		</div>
+		<div>
+			<a href="https://github.com/" rel="nofollow">
+				<div id="github">
+					<div></div>
+				</div>
+				<footer>GitHub</footer>
+			</a>
+		</div>
+		<footer class="copyright">
+			All images in floating cards, which are not mine, are copyrighted by their respective owners. Laws about trademarks are also applied here.<br>© 2013 123.joyneop.com &amp; <a href="http://neop.me/">Webpage Designed by Joy Neop</a>.
+		</footer>
+		<script type="text/javascript">
+		var end = setTimeout('load()', 750);
+		</script>
+	</div>
+</body>
+</html>
