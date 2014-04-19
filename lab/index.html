@@ -1,4 +1,4 @@
-<!-- Vsersion 1.7.5 -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,16 +6,14 @@
 	<title>JN Lab</title>
 	<link rel="shortcut icon" href="http://www.joyneop.com/joyneop.ico" />
 	<link rel="apple-touch-icon" href="http://www.joyneop.com/joyneop.png" />
-	<base href="http://joyneop.github.io/JN-Lab/img/"></base>
+	<base href="http://joyneop.github.io/"></base>
 	<style type="text/css">
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 	* {
-		font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif, 'Hiragino', 'Hiragino Sans GB', 'STHeiti', 'STHeiti SC';
+		font-family: Myriad Pro, Myriad Apple, Myriad Set, Myriad, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino', 'Hiragino Sans GB', 'STHeiti', 'STHeiti SC', sans-serif;
 		text-decoration: none;
 		-webkit-transition: all 200ms ease;
 		-moz-transition: all 200ms ease;
-		-o-transition: all 200ms ease;
-		-ms-transition: all 200ms ease;
 		transition: all 200ms ease;
 	}
 	body {
@@ -89,7 +87,7 @@
 		background: rgba(255, 255, 255, 0.4);
 		box-shadow: 0 2px 11px rgba(0, 0, 0, 0.4);
 	}
-	.year {
+	article {
 		overflow: auto;
 		width: 804px;
 		margin-top: 0px;
@@ -97,7 +95,7 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.single {
+	section {
 		float: left;
 		display: block;
 		height: 140px;
@@ -105,17 +103,20 @@
 		margin-left: 8px;
 		margin-right: 8px;
 		margin-bottom: 28px;
+		background-color: rgba(0, 0, 0, 0);
+		background-repeat: no-repeat;
+		background-size: cover;
 		border: 1px solid rgba(0, 0, 0, 0.35);
 		border-radius: 4px;
 		overflow: hidden;
 		box-shadow: 0 5px 11px rgba(0, 0, 0, 0.1);
 	}
-	.single > a {
+	section > a {
 		height: 100%;
 		width: 100%;
 		display: block;
 	}
-	.single h3 {
+	section h3 {
 		color: rgba(255, 255, 0, 0);
 		text-align: center;
 		font-size: 14px;
@@ -126,10 +127,10 @@
 		margin: 0;
 		text-shadow: none;
 	}
-	.single:hover h3 {
+	section:hover h3 {
 		color: #FFF;
 		background: rgba(0, 0, 0, 0.5);
-		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+		background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 		text-shadow: 0 1px 1px #000;
 	}
 	footer {
@@ -146,100 +147,103 @@
 	<div id="bg1"></div>
 	<div id="bg2">
 		<script type="text/javascript">
-			for (var i = 0; i <= 80; i++) {
-				document.write('<div class="c" style="top: ' + Math.random()*700 + 'px;' + 'left: ' + Math.random()*96 + '%;"></div>');
+			for (var i = 0; i <= 120; i++) {
+				var dot = document.createElement("div")
+				dot.setAttribute("class", "c")
+				dot.setAttribute("style", "top: " + Math.random()*700 + "px; left: " + Math.random()*96 + "%; opacity: " + (Math.random()/1.9+0.3) + "; width: " + (i%2+2) + "px; height: " + (i%2+2) + "px;")
+				document.getElementById("bg2").appendChild(dot)
 			}
 		</script>
-	</div> <!-- #bg2 -->
+	</div>
 	<div id="cont">
 		<header id="title">
 			<h1>
-				<a href="http://www.joyneop.com/lab/">
+				<a href="/lab/">
 					JN Lab
 				</a>
 			</h1>
-		</header> <!-- #title -->
+		</header>
 		<div id="content">
-			<article id="y-2014" class="year">
-				<section id="y-2014-1" class="y-2014-1 all-15 single" style="background: url(15.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2014/1/">
+			<article id="y2014">
+				<section>
+					<a href="/lab/2014/1/">
 						<h3>君を愛してる</h3>
 					</a>
-				</section> <!-- .single -->
+				</section>
 			</article>
-			<article id="y-2013" class="year">
-				<section id="y-2013-14" class="y-2014-14 all-14 single" style="background: url(14.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/14/">
+			<article id="y2013">
+				<section>
+					<a href="/lab/2013/14/">
 						<h3>Save Jailbreak</h3>
 					</a>
-				</section> <!-- .single -->
-				<section id="y-2013-13" class="y-2013-13 all-13 single" style="background: url(13.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/13/">
+				</section>
+				<section>
+					<a href="/lab/2013/13/">
 						<h3>My Homepage</h3>
 					</a>
-				</section> <!-- .single -->
-				<section id="y-2013-12" class="y-2013-12 all-12 single" style="background: url(12.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/12/">
+				</section>
+				<section>
+					<a href="/lab/2013/12/">
 						<h3>NeopBlog Website</h3>
 					</a>
-				</section> <!-- .single -->
-				<section id="y-2013-11" class="y-2013-11 all-11 single" style="background: url(11.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/11/">
+				</section>
+				<section>
+					<a href="/lab/2013/11/">
 						<h3>Homepage for NeOPSTEP</h3>
 					</a>
-				</section> <!-- .single -->
-				<section id="y-2013-10" class="y-2013-10 all-10 single" style="background: url(10.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/10/">
+				</section>
+				<section>
+					<a href="/lab/2013/10/">
 						<h3>Star Stalkers</h3>
 					</a>
-				</section> <!-- .single -->
-				<section id="y-2013-9" class="y-2013-9 all-9 single" style="background: url(9.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/9/">
+				</section>
+				<section>
+					<a href="/lab/2013/9/">
 						<h3>Homepage for Somainer</h3>
 					</a>
-				</section> <!-- .single -->
-				<section id="y-2013-8" class="y-2013-8 all-8 single" style="background: url(8.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/8/">
+				</section>
+				<section>
+					<a href="/lab/2013/8/">
 						<h3>Browser Start Page</h3>
 					</a>
-				</section> <!-- .single -->
-				<section id="y-2013-7" class="y-2013-7 all-7 single" style="background: url(7.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/7/">
+				</section>
+				<section>
+					<a href="/lab/2013/7/">
 						<h3>My Homepage</h3>
 					</a>
-				</section> <!-- .single -->
-				<section id="y-2013-6" class="y-2013-6 all-6 single" style="background: url(6.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/6/">
+				</section>
+				<section>
+					<a href="/lab/2013/6/">
 						<h3>Homepage for Anonswer</h3>
 					</a>
-				</section> <!-- .single -->
-				<section id="y-2013-5" class="y-2013-5 all-5 single" style="background: url(5.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/5/">
+				</section>
+				<section>
+					<a href="/lab/2013/5/">
 						<h3>Neop.me</h3>
 					</a>
-				</section> <!-- .single -->
-				<section id="y-2013-4" class="y-2013-4 all-4 single" style="background: url(4.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/4/">
+				</section>
+				<section>
+					<a href="/lab/2013/4/">
 						<h3>JN Lab</h3>
 					</a>
-				</section> <!-- .single -->
-				<section id="y-2013-3" class="y-2013-3 all-3 single" style="background: url(3.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/3/">
+				</section>
+				<section>
+					<a href="/lab/2013/3/">
 						<h3>Homepage For Jemery</h3>
 					</a>
-				</section> <!-- .single -->
-				<section id="y-2013-2" class="y-2013-2 all-2 single" style="background: url(2.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/2/">
+				</section>
+				<section>
+					<a href="/lab/2013/2/">
 						<h3>Homepage For Jemery</h3>
 					</a>
-				</section> <!-- .single -->
-				<div id="y-2013-1" class="y-2013-1 all-1 single" style="background: url(1.png) scroll no-repeat;">
-					<a href="http://www.joyneop.com/lab/2013/1/">
+				</section>
+				<section>
+					<a href="/lab/2013/1/">
 						<h3>My Homepage</h3>
 					</a>
-				</section> <!-- .single -->
-			</article> <!-- .year -->
-		</div> <!-- #content -->
+				</section>
+			</article>
+		</div>
 		<footer id="foot"><a href="http://www.joyneop.com/">&copy; Copyright 2014 All Rights Reserved by Joy Neop</a></footer>
 	</div>
 	<script>
@@ -249,6 +253,11 @@
 		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 		ga('create', 'UA-44174514-1', 'joyneop.com');
 		ga('send', 'pageview');
+	</script>
+	<script type="text/javascript">
+	for (var i = document.getElementsByTagName("section").length - 1; i >= 0; i--) {
+		document.getElementsByTagName("section")[i].style.backgroundImage = "url(/JN-Lab/img/" + i + ".png)"
+	}
 	</script>
 </body>
 </html>
