@@ -12,7 +12,6 @@ ajaxList.open("GET", "list.json", false)
 ajaxList.send()
 var postIndex = JSON.parse(ajaxList.responseText)
 var total = postIndex.list.length
-document.write('&lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"&gt;<br />')
 for (var i = total-1; i >= 0; i--) {
 	document.write('&lt;url&gt;<br />')
 	document.write('&lt;loc&gthttp://www.joyneop.com/blog/?p=' + i + '&lt;/loc&gt<br />')
@@ -20,7 +19,6 @@ for (var i = total-1; i >= 0; i--) {
 	document.write('&lt;priority&gt0.8&lt;/priority&gt<br />')
 	document.write('&lt;/url&gt<br />')
 }
-document.write('&lt;/urlset&gt;')
 </script>
 </body>
 </html>
