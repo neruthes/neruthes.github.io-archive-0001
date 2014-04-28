@@ -16,6 +16,12 @@
 		margin: 0;
 		background: #272727;
 	}
+	.wonb, li.ok, li.no, p a:hover {
+		text-shadow: rgba(0, 0, 0, 0.9) 0 1px 0;
+	}
+	.bonw, section h2, p, p a {
+		text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
+	}
 	header a:link, header a:visited, header a:hover, header a:active, footer a {
 		color: inherit;
 		text-decoration: inherit;
@@ -36,12 +42,12 @@
 	}
 	header > #title {
 		position: absolute;
-		width: 860px;
-		height: 340px;
+		width: 800px;
+		height: 310px;
 		top: 50%;
 		left: 50%;
-		margin-top: -170px;
-		margin-left: -430px;
+		margin-top: -155px;
+		margin-left: -400px;
 	}
 	header > #title > a {
 		position: absolute;
@@ -58,6 +64,9 @@
 	}
 	header > #title > div > div {
 		position: absolute;
+	}
+	header > #title > div > div > div {
+		position: absolute;
 		background-color: #CCC;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -65,27 +74,72 @@
 		background-size: cover;
 		border-radius: 2000px;
 		box-shadow: rgba(0, 0, 0, 0.65) 0 3px 8px;
+		transition: all 300ms ease;
+	}
+	header > #title > div > div:hover > div {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		transform: rotate(360deg);
 	}
 	#rec1 {
-		top: -140px;
-		left: 60px;
+		top: -40px;
+		left: 160px;
 		width: 200px;
 		height: 200px;
+		margin: -100px 0 0 -100px;
+	}
+	#rec1 div {
+		top: 100px;
+		left: 100px;
+		width: 200px;
+		height: 200px;
+		margin: -100px 0 0 -100px;
 		background-image: url(http://joyneop.github.io/JN-Lab/other-images/face1011.jpg);
 	}
+	#rec1:hover div {
+		width: 120px;
+		height: 120px;
+		margin: -60px 0 0 -60px;
+	}
 	#rec2 {
-		top: 0px;
-		left: 440px;
+		top: 25px;
+		left: 485px;
 		width: 90px;
 		height: 90px;
+		margin: -45px 0 0 -45px;
+	}
+	#rec2 div {
+		top: 45px;
+		left: 45px;
+		width: 90px;
+		height: 90px;
+		margin: -45px 0 0 -45px;
 		background-image: url(http://joyneop.github.io/JN-Lab/other-images/face1029.jpg);
 	}
+	#rec2:hover div {
+		width: 80px;
+		height: 80px;
+		margin: -40px 0 0 -40px;
+	}
 	#rec3 {
-		top: 200px;
-		left: -55px;
-		width: 155px;
-		height: 155px;
+		top: 277px;
+		left: 22px;
+		width: 154px;
+		height: 154px;
+		margin: -77px 0 0 -77px;
+	}
+	#rec3 div {
+		top: 77px;
+		left: 77px;
+		width: 154px;
+		height: 154px;
+		margin: -77px 0 0 -77px;
 		background-image: url(http://joyneop.github.io/joyneop.png);
+	}
+	#rec3:hover div {
+		width: 90px;
+		height: 90px;
+		margin: -45px 0 0 -45px;
 	}
 	header h1, header h2 {
 		font-weight: 300;
@@ -122,7 +176,6 @@
 		text-transform: uppercase;
 		padding: 8px 0 0;
 		margin: 0 0 12px 0;
-		text-shadow: rgba(255, 255, 255, 1) 0 1px 1px;
 		transition: all 200ms linear;
 	}
 	section p {
@@ -132,19 +185,19 @@
 		width: 580px;
 		padding: 9px 20px 9px;
 		margin: 0 auto;
-		text-shadow: rgba(255, 255, 255, 0.85) 0 1px 1px;
 	}
 	section p a {
-		display: inline-block;
-		color: rgba(20, 162, 255, 0.8);
+		display: inline;
+		color: rgba(20, 130, 227, 1);
 		text-decoration: none;
+		padding: 0 5px;
+		margin: 0 -5px;
 		border-radius: 3px;
 		transition: all 100ms linear;
 	}
 	section p a:hover {
 		color: #FFF;
-		background: rgba(20, 162, 255, 0.8);
-		text-shadow: rgba(6, 100, 199, 0.65) 0 1px 1px;
+		background: rgba(22, 144, 241, 1);
 	}
 	section ul {
 		padding: 0;
@@ -160,7 +213,7 @@
 	}
 	section ul.list {
 		width: 400px;
-		background: #666 url(http://joyneop.github.io/JN-Lab/other-images/paper-dark.png) center scroll repeat;
+		background: #444 url(http://joyneop.github.io/JN-Lab/other-images/paper-dark.png) center scroll repeat;
 		background-size: 100px;
 		box-shadow: inset rgba(0, 0, 0, 0.5) 0 3px 8px;
 	}
@@ -168,7 +221,6 @@
 		display: block;
 		font-weight: 300;
 		margin: 0;
-		text-shadow: rgba(0, 0, 0, 0.5) 0 1px 1px;
 		transition: padding 130ms linear 70ms, background 200ms linear;
 	}
 	.matrix li {
@@ -213,15 +265,16 @@
 	}
 	li.ok {
 		background: rgba(80, 200, 60, 0.5) right no-repeat scroll;
-		text-shadow: rgba(88, 203, 64, 0.9) 0 1px 1px;
 	}
 	li.ok:hover {
 		background: rgba(89, 210, 70, 1) right no-repeat scroll;
 		background-image: url(http://joyneop.github.io/JN-Lab/other-images/ok.png);
-		text-shadow: rgba(88, 203, 64, 0.9) 0 1px 1px;
+	}
+	li.no {
+		background: rgba(0, 0, 0, 0) right no-repeat scroll;
 	}
 	li.no:hover {
-		background: rgba(247, 98, 80, 1) right no-repeat scroll;
+		background: rgba(237, 98, 80, 1) right no-repeat scroll;
 		background-image: url(http://joyneop.github.io/JN-Lab/other-images/no.png);
 	}
 	.list li:hover {
@@ -229,27 +282,27 @@
 	}
 	body > div > footer {
 		font-size: 14px;
-		font-weight: 300;
-		color: #777;
+		font-weight: normal;
+		color: #555;
 		text-align: center;
 		padding: 20px 0;
 		margin: 20px 0 0 0;
-		background: #FFF;
+		background: #DDD url(http://joyneop.github.io/JN-Lab/other-images/paper-light.png) center scroll repeat;
 		box-shadow: rgba(0, 0, 0, 0.65) 0 1px 8px;
 	}
 	</style>
 </head>
 <body>
 	<header>
-		<div id="title">
+		<div id="title" class="wonb">
 			<a href="./">
 				<h1>Joy Neop</h1>
 				<h2>Desigrammer, Freelancer,<br />Cross-domain Creative.</h2>
 			</a>
 			<div>
-				<div id="rec1"></div>
-				<div id="rec2"></div>
-				<div id="rec3"></div>
+				<div id="rec1"><div></div></div>
+				<div id="rec2"><div></div></div>
+				<div id="rec3"><div></div></div>
 			</div>
 		</div>
 	</header>
@@ -310,8 +363,8 @@
 				<li><a href="http://joyneop.github.io/neopblog/"><span>Developer</span>NeopBlog</a></li>
 			</ul>
 		</section>
-		<footer>
-			&copy; 2014 All Rights Reserved by <a href="/">Joy Neop</a>
+		<footer class="bonw">
+			<a href="/">&copy; 2014 All Rights Reserved by Joy Neop</a>
 		</footer>
 	</div>
 </body>
