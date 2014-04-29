@@ -55,7 +55,6 @@
 		right: 0;
 		display: block;
 		padding: 225px 10px 25px 300px;
-		transition: padding 130ms linear 70ms, margin 130ms linear 70ms, background 200ms linear;
 	}
 	header > #title > div {
 		position: absolute;
@@ -74,6 +73,8 @@
 		background-size: cover;
 		border-radius: 2000px;
 		box-shadow: rgba(0, 0, 0, 0.65) 0 3px 8px;
+		-webkit-transition: all 300ms ease;
+		-moz-transition: all 300ms ease;
 		transition: all 300ms ease;
 	}
 	header > #title > div > div:hover > div {
@@ -176,7 +177,12 @@
 		text-transform: uppercase;
 		padding: 8px 0 0;
 		margin: 0 0 12px 0;
-		transition: all 200ms linear;
+		-webkit-transition: all 300ms ease;
+		-moz-transition: all 300ms ease;
+		transition: all 300ms ease;
+	}
+	section h2:hover {
+		text-shadow: ;
 	}
 	section p {
 		font-size: 22px;
@@ -186,7 +192,7 @@
 		padding: 9px 20px 9px;
 		margin: 0 auto;
 	}
-	section p a {
+	section p a, section p a:link, section p a:visited {
 		display: inline;
 		color: rgba(20, 130, 227, 1);
 		text-decoration: none;
@@ -195,7 +201,7 @@
 		border-radius: 3px;
 		transition: all 100ms linear;
 	}
-	section p a:hover {
+	section p a:hover, section p a:active {
 		color: #FFF;
 		background: rgba(22, 144, 241, 1);
 	}
