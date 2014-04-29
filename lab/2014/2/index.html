@@ -328,7 +328,7 @@
 		transition: all 260ms ease;
 	}
 	ul.link li:hover a {
-		background: rgba(0, 0, 0, 0.7);
+		background: rgba(0, 0, 0, 0.79);
 		opacity: 1;
 		-webkit-filter: none;
 		-moz-filter: none;
@@ -337,6 +337,10 @@
 	ul.link li a span {
 		display: block;
 		font-size: 0.71em;
+	}
+	ul.link li a span::after {
+		content: " of";
+		color: rgba(255, 255, 255, 0.82);
 	}
 	body > div > footer {
 		font-size: 14px;
@@ -409,11 +413,11 @@
 			</p>
 		</section>
 		<section id="now">
-			<h2>Participating</h2>
+			<h2>Enjoying</h2>
 			<ul class="link">
 				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/comlogo_voidgarden.jpg);"><a href="http://www.voidgarden.com/"><span>Writer</span>Void Garden</a></li>
 				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/comlogo_unworsable.jpg);"><a href="http://unworsable.com/"><span>Leader</span>Unworsable</a></li>
-				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/comlogo_rhytune.jpg);"><a href="http://rhytune.com"><span>Design Advisor</span>Rhytune</a></li>
+				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/comlogo_rhytune.jpg);"><a href="http://rhytune.com" rel="nofollow"><span>Design Advisor</span>Rhytune</a></li>
 			</ul>
 		</section>
 		<section id="old">

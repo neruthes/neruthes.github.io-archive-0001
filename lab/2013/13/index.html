@@ -6,100 +6,109 @@
 	<link rel="shortcut icon favicon" href="http://joyneop.github.io/joyneop.png"/>
 	<link rel="apple-touch-icon" href="http://joyneop.github.io/joyneop.png"/>
 	<style type="text/css">
-	@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 	* {
-		font-family: 'Open Sans', Lucida Grande, sans-serif;
+		font-family: Myriad Pro, Myriad Apple, Myriad, Myriad Set, 'Open Sans', Helvetica, Ubuntu, Arial, sans-serif;
 		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
-		-webkit-transition: all 600ms ease;
-		-moz-transition: all 600ms ease;
-		-ms-transition: all 600ms ease;
-		-o-transition: all 600ms ease;
 		transition: all 600ms ease;
 	}
 	body {
-		overflow: hidden;
+		color: #FFF;
 		margin: 0 0 0 0;
-		background: #2f173f center fixed no-repeat;
+		background: #2D6CA3;
 		background-image: -webkit-linear-gradient(20deg, #41203f 2%, #32183e 18%, #2c173b 50%, #3c224a 96%);
 		background-size: cover;
-		color: #FFF;
+		overflow: hidden;
 	}
 	#bg {
 		position: fixed;
 		display: block;
-		z-index: 80;
 		top: 50%;
 		left: 50%;
-		height: 460px;
 		width: 680px;
+		height: 460px;
 		margin-top: -230px;
 		margin-left: -340px;
 		background: url(http://joyneop.github.io/JN-Lab/other-images/jn-gold-spark-opacity-460.png) center no-repeat scroll;
 		opacity: 0;
+		z-index: 80;
 	}
 	#navbar {
-		font-weight: normal;
 		position: fixed;
 		top: 50%;
 		left: 50%;
-		margin-top: 0px;
-		margin-left: -600px;
-		height: 210px;
-		width: 1200px;
+		height: 250px;
+		width: 1000px;
+		font-weight: normal;
+		margin-top: -20px;
+		margin-left: -500px;
 		overflow: visible;
 		z-index: 900;
-		text-align: center;
+	}
+	.circle-out {
+		position: absolute;
+		top: 0;
+		width: 250px;
+		height: 250px;
+	}
+	.circle-out.c1 {
+		left: 0;
+	}
+	.circle-out.c2 {
+		left: 250px;
+	}
+	.circle-out.c3 {
+		left: 500px;
+	}
+	.circle-out.c4 {
+		left: 750px;
 	}
 	.circle {
-		position: relative;
-		padding: 0;
-		display: inline-block;
-		margin-top: 15px;
-		margin-left: 30px;
-		margin-right: 30px;
+		display: block;
 		height: 180px;
 		width: 180px;
-		overflow: visible;
-		border-radius: 200px;
+		padding: 0;
+		margin: 35px;
 		background: rgba(0, 0, 0, 0.32);
 		box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+		border-radius: 200px;
+		opacity: 0;
+		cursor: pointer;
+		overflow: visible;
+		visibility: hidden;
 		-webkit-transition: all 300ms ease;
 		-moz-transition: all 300ms ease;
 		-o-transition: all 300ms ease;
 		transition: all 300ms ease;
-		opacity: 0;
-		visibility: hidden;
-		cursor: pointer;
 	}
 	.circle:hover {
-		top: -15px;
 		height: 210px;
 		width: 210px;
+		margin: 20px;
 		box-shadow: 0 0 28px rgba(0, 0, 0, 0.4);
 	}
 	.circle-in {
 		display: block;
-		margin: 0;
-		border-radius: 105px;
+		width: 100%;
+		height: 100%;
+		text-align: center;
 		padding-left: auto;
 		padding-right: auto;
-		text-align: center;
+		margin: 0;
+		box-shadow: inset 0 0 18px rgba(255, 255, 255, 0.4);
+		border-radius: 105px;
+		cursor: pointer;
 		overflow: hidden;
-		height: 100%;
-		width: 100%;
 		-webkit-transition: all 300ms ease;
 		-moz-transition: all 300ms ease;
 		-o-transition: all 300ms ease;
 		transition: all 300ms ease;
-		box-shadow: inset 0 0 18px rgba(255, 255, 255, 0.4);
-		cursor: pointer;
 	}
 	.circle-in:hover {
 		box-shadow: inset 0 0 44px rgba(255, 255, 255, 1);
 	}
 	.circle a {
 		display: block;
-		cursor: pointer;
 	}
 	#nav-blog-in {
 		background: url(http://joyneop.github.io/JN-Lab/other-images/nav-blog.jpg) scroll center;
@@ -115,14 +124,15 @@
 	#nav-links-in {
 		background: url(http://joyneop.github.io/JN-Lab/other-images/nav-links.jpg) scroll center;
 	}
-	.circle-in > h2 {
+	.circle-in h2 {
 		position: relative;
 		top: 280px;
+		height: 40px;
 		font-size: 34px;
 		font-weight: normal;
-		height: 40px;
-		text-align: center;
 		color: rgba(240, 240, 240, 0);
+		text-align: center;
+		text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 		padding: 0;
 		margin: 0;
 		opacity: 0;
@@ -130,7 +140,6 @@
 		-moz-transition: all 300ms ease;
 		-o-transition: all 300ms ease;
 		transition: all 300ms ease;
-		text-shadow: 0 0 5px #BBB;
 	}
 	a, a:hover, a:visited, a:link {
 		color: #FFF;
@@ -141,47 +150,44 @@
 		transition: all 300ms ease;
 	}
 	.circle:hover h2 {
-		color: #FFF;
 		top: 85px;
+		color: #FFF;
 		opacity: 1;
 	}
 	footer {
-		font-weight: normal;
 		position: fixed;
 		bottom: 10px;
 		width: 100%;
-		text-align: center;
 		font-size: 14px;
+		font-weight: normal;
+		text-align: center;
 	}
 	.box {
 		position: fixed;
 		top: 250%;
 		left: 50%;
-		margin-top: -90px;
-		margin-left: -291px;
-		z-index: 913;
-		overflow-y: scroll;
+		font-weight: normal;
 		height: 220px;
 		width: 500px;
+		padding: 50px 40px;
+		margin-top: -90px;
+		margin-left: -291px;
 		background: rgba(0, 0, 0, 0.45);
 		box-shadow: 0 0 28px rgba(0, 0, 0, 0.5);
 		border: 1px solid rgba(0, 0, 0, 0.03);
 		border-radius: 4px;
-		padding-top: 50px;
-		padding-bottom: 50px;
-		padding-left: 40px;
-		padding-right: 40px;
-		font-weight: normal;
+		overflow-y: scroll;
+		z-index: 913;
 	}
 	.box h3 {
-		letter-spacing: 1px;
-		text-align: center;
 		font-size: 30px;
-		font-weight: normal;
+		font-weight: 300;
+		text-align: center;
 		margin: 0 0 23px 0;
 	}
 	.box p {
-		font-size: 21px;
+		font-size: 18px;
+		line-height: 33px;
 		margin: 20px 0 20px 0;
 	}
 	#links-list {
@@ -198,16 +204,16 @@
 		margin-top: 0;
 	}
 	ul.border-top {
-		border-top: 1px solid #CCC;
+		border-top: 1px solid rgba(255, 255, 255, 0.4);
 		margin-top: 40px;
 	}
 	li {
-		text-align: center;
 		display: block;
+		height: 23px;
 		font-size: 20px;
 		font-weight: normal;
-		height: 23px;
-		margin: 14px 30px 14px 30px;
+		text-align: center;
+		margin: 14px 30px;
 	}
 	</style>
 	<script type="text/javascript">
@@ -265,54 +271,45 @@
 	<a id="bg" href="/">
 	</a>
 	<div id="navbar">
-		<div id="nav-blog" class="circle">
-			<a href="/blog/" id="nav-blog-in" class="circle-in">
-				<h2>Blog</h2>
-			</a> <!-- .circle-in -->
-		</div> <!-- .circle -->
-		<div id="nav-lab" class="circle">
-			<a href="/lab/" id="nav-lab-in" class="circle-in">
-				<h2>Lab</h2>
-			</a> <!-- .circle-in -->
-		</div> <!-- .circle -->
-		<div id="nav-about" class="circle">
-			<a onclick="showAbout()" id="nav-about-in" class="circle-in">
-				<h2 id="h2-about">About</h2>
-			</a> <!-- .circle-in -->
-		</div> <!-- .circle -->
-		<div id="nav-links" class="circle">
-			<a onclick="showLinks()" id="nav-links-in" class="circle-in">
-				<h2>Links</h2>
-			</a> <!-- .circle-in -->
-		</div> <!-- .circle -->
-	</div> <!-- #navbar -->
+		<div class="circle-out c1">
+			<div id="nav-blog" class="circle">
+				<a href="/blog/" id="nav-blog-in" class="circle-in">
+					<h2>Blog</h2>
+				</a>
+			</div>
+		</div>
+		<div class="circle-out c2">
+			<div id="nav-lab" class="circle">
+				<a href="/lab/" id="nav-lab-in" class="circle-in">
+					<h2>Lab</h2>
+				</a>
+			</div>
+		</div>
+		<div class="circle-out c3">
+			<div id="nav-about" class="circle">
+				<a onclick="showAbout()" id="nav-about-in" class="circle-in">
+					<h2 id="h2-about">About</h2>
+				</a>
+			</div>
+		</div>
+		<div class="circle-out c4">
+			<div id="nav-links" class="circle">
+				<a onclick="showLinks()" id="nav-links-in" class="circle-in">
+					<h2>Links</h2>
+				</a>
+			</div>
+		</div>
+	</div>
 	<div id="about-list" class="box">
 		<h3>
 			Joy Neop
 		</h3>
 		<p>
-			♂, 1995, Han-Korean Hybrid, Gay, Skeuomorphist, (Fake) Graphic &amp; Web Designer.
-		</p>
-		<p>
-			Fan of Steve Jobs, Scott Forstall, Prometheus.
+			♂, 1995, Han-Korean Hybrid, Homosexual, Skeuomorphist, (Fake) Graphic &amp; Web Designer, (Half) Frontend Developer, Sci-Fi &amp; Fantasy Lover, Internet Resident.
 		</p>
 	</div>
 	<div id="links-list" class="box">
 		<ul class="no-border-top">
-			<li>
-				<a href="/neopblog" target="_blank">NeopBlog</a>
-			</li>
-			<li>
-				<a href="http://www.neopstep.com/" target="_blank">NeOPSTEP</a>
-			</li>
-			<li>
-				<a href="http://www.voidgarden.com/" target="_blank">Void Garden</a>
-			</li>
-			<li>
-				<a href="http://unworsable.com/" target="_blank">Unworsable</a>
-			</li>
-		</ul>
-		<ul class="border-top">
 			<li>
 				<a href="http://xiamipi.info/" target="_blank">梦想竹蜻蜓</a>
 			</li>
@@ -364,7 +361,7 @@
 				<a href="http://www.baidu.com/p/AppleJoyNeop" target="_blank" rel="nofollow">Tieba</a>
 			</li>
 			<li>
-				<a href="http://joyneop.tumblr.com/" target="_blank" rel="nofollow">Tumblr</a>
+				<a href="http://joyneop.tumblr.com/" target="_blank" rel="nofollow">LOFTER</a>
 			</li>
 			<li>
 				<a href="http://www.behance.net/joyneop" target="_blank" rel="nofollow">Behance</a>
