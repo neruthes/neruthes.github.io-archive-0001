@@ -5,6 +5,11 @@
 	<title>Joy Neop — Desigrammer, Freelancer, Cross-domain Creative.</title>
 	<link rel="favicon shortcut icon" href="http://joyneop.github.io/joyneop.png">
 	<link rel="apple-touch-icon" href="http://joyneop.github.io/joyneop.png">
+	<script type="text/javascript">
+	(function(){
+		console.log("I won't tell you that my blog is `http://joyneop.xyz/`");
+	})();
+	</script>
 	<style type="text/css">
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 	body {
@@ -16,7 +21,7 @@
 		margin: 0;
 		background: #272727;
 	}
-	.wonb, li.ok, li.no, p a:hover {
+	.wonb, li.ok, li.no, p a:hover, .circles a {
 		text-shadow: rgba(0, 0, 0, 0.9) 0 1px 0;
 	}
 	.bonw, section h2, p, p a {
@@ -182,7 +187,6 @@
 		transition: all 300ms ease;
 	}
 	section h2:hover {
-		text-shadow: ;
 	}
 	section p {
 		font-size: 22px;
@@ -210,10 +214,12 @@
 	section ul {
 		padding: 0;
 		margin: 40px auto;
-		background-color: #EEE;
-		box-shadow: inset rgba(0, 0, 0, 0.15) 0 3px 8px;
 		border-radius: 4px;
 		overflow: hidden;
+	}
+	ul.matrix, ul.list {
+		background-color: #EEE;
+		box-shadow: inset rgba(0, 0, 0, 0.15) 0 3px 8px;
 	}
 	section ul.matrix {
 		width: 480px;
@@ -271,7 +277,6 @@
 		padding-left: 40px;
 	}
 	.link li:hover {
-		background-image: url(http://joyneop.github.io/JN-Lab/other-images/link-arrow-right.png);
 	}
 	li.ok {
 		background: rgba(80, 200, 60, 0.5) right no-repeat scroll;
@@ -289,6 +294,49 @@
 	}
 	.list li:hover {
 		background-size: 35px 22px;
+	}
+	ul.link {
+		width: 570px;
+		height: auto;
+	}
+	ul.link li {
+		display: block;
+		float: left;
+		width: 170px;
+		height: 170px;
+		padding: 0;
+		margin: 10px;
+		background: #999;
+		background-size: cover;
+		border-radius: 1000px;
+		box-shadow: inset rgba(0, 0, 0, 0.45) 0 2px 6px;
+		overflow: hidden;
+	}
+	ul.link li a {
+		display: block;
+		width: 100%;
+		height: 60px;
+		color: #FFF;
+		text-align: center;
+		text-decoration: none;
+		padding: 55px 0;
+		border-radius: 1000px;
+		opacity: 0;
+		-webkit-filter: blur(4px);
+		-moz-filter: blur(4px);
+		filter: blur(4px);
+		transition: all 260ms ease;
+	}
+	ul.link li:hover a {
+		background: rgba(0, 0, 0, 0.7);
+		opacity: 1;
+		-webkit-filter: none;
+		-moz-filter: none;
+		filter: none;
+	}
+	ul.link li a span {
+		display: block;
+		font-size: 0.71em;
 	}
 	body > div > footer {
 		font-size: 14px;
@@ -335,9 +383,9 @@
 		<section id="hire">
 			<h2>Availability</h2>
 			<ul class="list">
-				<li class="ok">Non-profit project</li>
 				<li class="no">Commercial contract</li>
-				<li class="ok">Design Competition</li>
+				<li class="ok">Non-profit project</li>
+				<li class="no">Design Competition</li>
 				<li class="no">Part-time studio work</li>
 				<li class="no">Full-time studio work</li>
 				<li class="no">Remote work</li>
@@ -362,16 +410,17 @@
 		</section>
 		<section id="now">
 			<h2>Participating</h2>
-			<ul class="list link">
-				<li><a href="http://www.voidgarden.com/"><span>Writer</span>Void Garden</a></li>
-				<li><a href="http://unworsable.com/"><span>Leader</span>Unworsable</a></li>
-				<li><a href="http://rhytune.com"><span>Design Advisor</span>Rhytune</a></li>
+			<ul class="link">
+				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/comlogo_voidgarden.jpg);"><a href="http://www.voidgarden.com/"><span>Writer</span>Void Garden</a></li>
+				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/comlogo_unworsable.jpg);"><a href="http://unworsable.com/"><span>Leader</span>Unworsable</a></li>
+				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/comlogo_rhytune.jpg);"><a href="http://rhytune.com"><span>Design Advisor</span>Rhytune</a></li>
 			</ul>
 		</section>
 		<section id="old">
 			<h2>Experience</h2>
-			<ul class="list link">
-				<li><a href="http://joyneop.github.io/neopblog/"><span>Developer</span>NeopBlog</a></li>
+			<ul class="link">
+				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/comlogo_neopblog.jpg);"><a href="http://joyneop.github.io/neopblog/"><span>Developer</span>NeopBlog</a></li>
+				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/comlogo_jncolor.jpg);"><a href="http://joyneop.github.io/neopblog/"><span>Developer</span>NeopBlog</a></li>
 			</ul>
 		</section>
 		<footer class="bonw">

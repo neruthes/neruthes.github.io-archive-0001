@@ -20,14 +20,21 @@
 	body {
 		overflow: hidden;
 		margin: 0 0 0 0;
-		background: #FDFDFD url(https://raw.github.com/JoyNeop/Stars-Stalkers-Community/master/paper.png) top fixed repeat;
+		background: #FDFDFD url(http://joyneop.github.io/JN-Lab/other-images/paper-light.png) top fixed repeat;
+		background-size: 100px;
 		color: #FFF;
 	}
-	a {
+	a, a:link, a:visited, a:hover, a:active {
 		color: #FFF;
 	}
-	a:hover {
-		color: #FFF;
+	a, a:link, a:visited {
+		text-decoration: none;
+	}
+	.area a:hover {
+		text-decoration: underline;
+	}
+	a[href="/"]:hover, a[href="/"]:active {
+		text-decoration: none;
 	}
 	h1 {
 		font-weight: 300;
@@ -68,6 +75,11 @@
 		background-size: cover;
 		box-shadow: inset 0 8px 20px rgba(0, 0, 0, 0.75), inset 0 0 5px rgba(0, 0, 0, 0.4);
 	}
+	#avatar a {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
 	#box {
 		width: 430px;
 		height: 358px;
@@ -101,10 +113,11 @@
 <body>
 	<div id="cont">
 		<div id="avatar">
+		<a href="/"></a>
 		</div>
 		<div id="box">
 			<div id="intro" class="area">
-				<h1>Joy Neop</h1>
+				<h1><a href="/">Joy Neop</a></h1>
 				<p>
 					♂, 1995, Han-Korean Hybrid, Gay, Skeuomorphist, (Fake) Graphic &amp; Web Designer.
 				</p>
