@@ -113,7 +113,8 @@
 	}
 	body {
 		margin: 0;
-		background: #E6E6E6 url(bg.png) top scroll repeat;
+		background: #E6E6E6 url(http://joyneop.github.io/JN-Lab/other-images/paper-light.png) top scroll repeat;
+		background-size: 100px;
 	}
 	#cont > div a > div {
 		position: relative;
@@ -176,7 +177,6 @@
 	#github {
 		background-image: url(github.jpg);
 	}
-	/*--------------------------------------------------------------------------------------*/
 	footer.copyright {
 		height: 100px;
 		text-align: left;
@@ -184,6 +184,15 @@
 		margin-bottom: 10px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	footer.copyright span {
+		color: #888;
+	}
+	footer span::before {
+		content: "<";
+	}
+	footer span::after {
+		content: ">";
 	}
 	</style>
 </head>
@@ -318,11 +327,8 @@
 			</a>
 		</div>
 		<footer class="copyright">
-			All images in floating cards, which are not mine, are copyrighted by their respective owners. Laws about trademarks are also applied here.<br>© 2013 123.joyneop.com &amp; <a href="http://neop.me/">Webpage Designed by Joy Neop</a>.
+			All images in floating cards, which are not mine, are copyrighted by their respective owners. Laws about trademarks are also applied here.<br><a href="http://neop.me/">&copy; 2014 All Rights Reserved by Joy Neop</a>. <span>www.joyneop.com/123</span>
 		</footer>
-		<script type="text/javascript">
-		var end = setTimeout('load()', 750);
-		</script>
 	</div>
 </body>
 </html>
