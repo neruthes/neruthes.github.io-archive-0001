@@ -18,7 +18,7 @@
 	}
 	body {
 		margin: 0;
-		background: #b1cee3;
+		background: #B1CEE3;
 		font-weight: 400;
 	}
 	#bg1 {
@@ -255,9 +255,11 @@
 		ga('send', 'pageview');
 	</script>
 	<script type="text/javascript">
-	for (var i = document.getElementsByTagName("section").length - 1; i >= 0; i--) {
-		document.getElementsByTagName("section")[i].style.backgroundImage = "url(/JN-Lab/img/" + i + ".png)"
-	}
+	(function(x){
+		for (var i = 0; i <= x.length - 1; i++) {
+			x[i].style.backgroundImage = "url(/JN-Lab/img/" + (x.length - i) + ".png)";
+		}
+	})(document.getElementsByTagName("section"));
 	</script>
 </body>
 </html>
