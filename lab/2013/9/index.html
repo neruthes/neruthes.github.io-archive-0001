@@ -3,49 +3,39 @@
 <head>
 	<meta charset="utf-8">
 	<title>.Somainer</title>
-	<link rel="apple-touch-icon" href="https://raw.github.com/JoyNeop/JN-Lab/master/other-images/somainer.png" />
-	<link rel="shortcut icon favicon" href="https://raw.github.com/JoyNeop/JN-Lab/master/other-images/somainer.png" />
+	<link rel="apple-touch-icon" href="http://joyneop.github.io/JN-Lab/other-images/somainer.png" />
+	<link rel="shortcut icon favicon" href="http://joyneop.github.io/JN-Lab/other-images/somainer.png" />
 	<style type="text/css">
-	@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 	@-webkit-keyframes arrow {
-		0% {opacity: 0;}
-		40% {opacity: 0;}
-		45% {opacity: 0.01425;}
-		50% {opacity: 0.142625;}
-		55% {opacity: 0.271;}
-		60% {opacity: 0.385875;}
-		65% {opacity: 0.488;}
-		100% {opacity: 0.488;}
+		0% { opacity: 0; }
+		40% { opacity: 0; }
+		45% { opacity: 0.01425; }
+		50% { opacity: 0.142625; }
+		55% { opacity: 0.271; }
+		60% { opacity: 0.385875; }
+		65% { opacity: 0.488; }
+		100% { opacity: 0.488; }
 	}
 	@-moz-keyframes arrow {
-		0% {opacity: 0;}
-		40% {opacity: 0;}
-		45% {opacity: 0.01425;}
-		50% {opacity: 0.142625;}
-		55% {opacity: 0.271;}
-		60% {opacity: 0.385875;}
-		65% {opacity: 0.488;}
-		100% {opacity: 0.488;}
-	}
-	@-ms-keyframes arrow {
-		0% {opacity: 0;}
-		40% {opacity: 0;}
-		45% {opacity: 0.01425;}
-		50% {opacity: 0.142625;}
-		55% {opacity: 0.271;}
-		60% {opacity: 0.385875;}
-		65% {opacity: 0.488;}
-		100% {opacity: 0.488;}
+		0% { opacity: 0; }
+		40% { opacity: 0; }
+		45% { opacity: 0.01425; }
+		50% { opacity: 0.142625; }
+		55% { opacity: 0.271; }
+		60% { opacity: 0.385875; }
+		65% { opacity: 0.488; }
+		100% { opacity: 0.488; }
 	}
 	@keyframes arrow {
-		0% {opacity: 0;}
-		40% {opacity: 0;}
-		45% {opacity: 0.01425;}
-		50% {opacity: 0.142625;}
-		55% {opacity: 0.271;}
-		60% {opacity: 0.385875;}
-		65% {opacity: 0.488;}
-		100% {opacity: 0.488;}
+		0% { opacity: 0; }
+		40% { opacity: 0; }
+		45% { opacity: 0.01425; }
+		50% { opacity: 0.142625; }
+		55% { opacity: 0.271; }
+		60% { opacity: 0.385875; }
+		65% { opacity: 0.488; }
+		100% { opacity: 0.488; }
 	}
 	* {
 		font-family: 'Open Sans', Helvetica, sans-serif;
@@ -53,15 +43,14 @@
 		text-decoration: none;
 		-webkit-transition: all 250ms ease;
 		-moz-transition: all 250ms ease;
-		-ms-transition: all 250ms ease;
-		-o-transition: all 250ms ease;
 		transition: all 250ms ease;
 	}
 	body {
 		color: #FCFCFC;
 		margin: 0;
 		opacity: 0;
-		background: url(https://raw.github.com/JoyNeop/JN-Lab/master/other-images/paper-dark.png) top scroll repeat;
+		background: #555 url(http://joyneop.github.io/JN-Lab/other-images/paper-dark.png) top scroll repeat;
+		background-size: 100px;
 	}
 	h1, h2, h3 {
 		text-align: center;
@@ -72,11 +61,9 @@
 		position: absolute;
 		height: 100%;
 		width: 100%;
-		-webkit-transition: all 0ms ease;
-		-moz-transition: all 0ms ease;
-		-ms-transition: all 0ms ease;
-		-o-transition: all 0ms ease;
-		transition: all 0ms ease;
+		-webkit-transition: all 120ms ease;
+		-moz-transition: all 120ms ease;
+		transition: all 120ms ease;
 	}
 	.cont {
 		position: absolute;
@@ -88,7 +75,6 @@
 		margin-left: -300px;
 	}
 	#area-1 {
-		background: url(https://raw.github.com/JoyNeop/JN-Lab/master/other-images/paper-dark.png) top scroll repeat;
 	}
 	#area-1 .cont {
 		margin-top: -180px;
@@ -117,7 +103,7 @@
 		height: 140px;
 		width: 140px;
 		border-radius: 500px;
-		background: url(https://raw.github.com/JoyNeop/JN-Lab/master/other-images/somainer.png) center no-repeat scroll;
+		background: url(http://joyneop.github.io/JN-Lab/other-images/somainer.png) center no-repeat scroll;
 		background-size: cover;
 		background-clip: content-box;
 	}
@@ -135,7 +121,8 @@
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		background: url(https://raw.github.com/JoyNeop/JN-Lab/master/other-images/arrow-up.png) center no-repeat scroll;
+		background: url(http://joyneop.github.io/JN-Lab/other-images/arrow-up.png) center no-repeat scroll;
+		background-size: 90px 41px;
 		cursor: pointer;
 		-webkit-animation: arrow 3s infinite;
 		-webkit-animation-direction: alternate;
@@ -143,9 +130,6 @@
 		-moz-animation: arrow 3s infinite;
 		-moz-animation-direction: alternate;
 		-moz-animation-delay: 1s;
-		-ms-animation: arrow 3s infinite;
-		-ms-animation-direction: alternate;
-		-ms-animation-delay: 1s;
 		animation: arrow 3s infinite;
 		animation-direction: alternate;
 		animation-delay: 1s;
@@ -177,13 +161,13 @@
 		color: #FCFCFC;
 	}
 	#area-3 {
-		background: url(https://raw.github.com/JoyNeop/JN-Lab/master/other-images/somainer-grass.jpg) top fixed no-repeat;
+		background: url(http://joyneop.github.io/JN-Lab/other-images/paper-dark.png) top fixed no-repeat;
 		background-size: cover;
 		box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.85);
 		top: 200%;
 	}
 	#area-3 .cont {
-		background: url(https://raw.github.com/JoyNeop/JN-Lab/master/other-images/paper-light.png) top scroll repeat;
+		background: url(http://joyneop.github.io/JN-Lab/other-images/paper-light.png) top scroll repeat;
 		box-shadow: 0 0 18px rgba(0, 0, 0, 0.85);
 		color: rgba(0, 0, 0, 0.7);
 	}
@@ -227,27 +211,149 @@
 		color: #FCFCFC;
 		-webkit-transition: all 250ms ease;
 		-moz-transition: all 250ms ease;
-		-ms-transition: all 250ms ease;
-		-o-transition: all 250ms ease;
 		transition: all 250ms ease;
 	}
 	#area-4 footer#copyright:hover a {
 		color: #FFF;
 	}
+	#hei {
+		position: absolute;
+		top: 100%;
+	}
 	</style>
 	<script type="text/javascript">
+	window.smoothScroll = (function (window, document, undefined) {
+		var _defaults = {
+			speed: 500,
+			easing: 'easeInOutCubic',
+			offset: 0,
+			updateURL: false,
+			callbackBefore: function () {},
+			callbackAfter: function () {}
+		};
+		var _mergeObjects = function ( original, updates ) {
+			for (var key in updates) {
+				original[key] = updates[key];
+			}
+			return original;
+		};
+		var _easingPattern = function ( type, time ) {
+			return time * time;
+		};
+		var _getEndLocation = function ( anchor, headerHeight, offset ) {
+			var location = 0;
+			if (anchor.offsetParent) {
+				do {
+					location += anchor.offsetTop;
+					anchor = anchor.offsetParent;
+				} while (anchor);
+			}
+			location = location - headerHeight - offset;
+			if ( location >= 0 ) {
+				return location;
+			} else {
+				return 0;
+			}
+		};
+		var _getDocumentHeight = function () {
+			return Math.max(
+				document.body.scrollHeight, document.documentElement.scrollHeight,
+				document.body.offsetHeight, document.documentElement.offsetHeight,
+				document.body.clientHeight, document.documentElement.clientHeight
+			);
+		};
+		var _getDataOptions = function ( options ) {
+			if ( options === null || options === undefined  ) {
+				return {};
+			} else {
+				var settings = {};
+				options = options.split(';');
+				options.forEach( function(option) {
+					option = option.trim();
+					if ( option !== '' ) {
+						option = option.split(':');
+						settings[option[0]] = option[1].trim();
+					}
+				});
+				return settings;
+			}
+		};
+		var _updateURL = function ( anchor, url ) {
+			if ( (url === true || url === 'true') && history.pushState ) {
+				history.pushState( {pos:anchor.id}, '', anchor );
+			}
+		};
+		var animateScroll = function ( toggle, anchor, options, event ) {
+			options = _mergeObjects( _defaults, options || {} );
+			var overrides = _getDataOptions( toggle ? toggle.getAttribute('data-options') : null );
+			var speed = parseInt(overrides.speed || options.speed, 10);
+			var easing = overrides.easing || options.easing;
+			var offset = parseInt(overrides.offset || options.offset, 10);
+			var updateURL = overrides.updateURL || options.updateURL;
+			var fixedHeader = document.querySelector('[data-scroll-header]');
+			var headerHeight = fixedHeader === null ? 0 : (fixedHeader.offsetHeight + fixedHeader.offsetTop);
+			var startLocation = window.pageYOffset;
+			var endLocation = _getEndLocation( document.querySelector(anchor), headerHeight, offset );
+			var animationInterval;
+			var distance = endLocation - startLocation;
+			var documentHeight = _getDocumentHeight();
+			var timeLapsed = 0;
+			var percentage, position;
+			if ( toggle && toggle.tagName === 'A' && event ) {
+				event.preventDefault();
+			}
+			_updateURL(anchor, updateURL);
+			var _stopAnimateScroll = function (position, endLocation, animationInterval) {
+				var currentLocation = window.pageYOffset;
+				if ( position == endLocation || currentLocation == endLocation || ( (window.innerHeight + currentLocation) >= documentHeight ) ) {
+					clearInterval(animationInterval);
+					options.callbackAfter( toggle, anchor );
+				}
+			};
+			var _loopAnimateScroll = function () {
+				timeLapsed += 16;
+				percentage = ( timeLapsed / speed );
+				percentage = ( percentage > 1 ) ? 1 : percentage;
+				position = startLocation + ( distance * _easingPattern(easing, percentage) );
+				window.scrollTo( 0, Math.floor(position) );
+				_stopAnimateScroll(position, endLocation, animationInterval);
+			};
+			var _startAnimateScroll = function () {
+				options.callbackBefore( toggle, anchor );
+				animationInterval = setInterval(_loopAnimateScroll, 16);
+			};
+			if ( window.pageYOffset === 0 ) {
+				window.scrollTo( 0, 0 );
+			}
+			_startAnimateScroll();
+		};
+		var init = function ( options ) {
+			if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
+				options = _mergeObjects( _defaults, options || {} );
+				var toggles = document.querySelectorAll('[data-scroll]');
+				Array.prototype.forEach.call(toggles, function (toggle, index) {
+					toggle.addEventListener('click', animateScroll.bind( null, toggle, toggle.getAttribute('href'), options ), false);
+				});
+			}
+		};
+		return {
+			init: init,
+			animateScroll: animateScroll
+		};
+	})(window, document);
+
+
+
+
 	function smoothScrollTo() {
-		if (window.pageYOffset < window.innerHeight) {
-			window.scrollTo(0, window.pageYOffset+20);
-			setTimeout('smoothScrollTo()', 5);
-		} else {
-			scrollTo(0, window.innerHeight);
-			s = window.pageYOffset;
+		while (window.pageYOffset < window.innerHeight) {
+			setTimeout("scrollBy(0, 12)", 70);
 		}
+		scrollTo(0, window.innerHeight);
 	}
 	function load() {
 		document.getElementById("body").style.opacity = "1";
-		window.scrollTo(0, 0);
+		document.getElementById("area-3").style.backgroundImage = "url(http://joyneop.github.io/JN-Lab/other-images/somainer-grass.jpg)";
 	}
 	</script>
 </head>
@@ -266,7 +372,7 @@
 				Lost in the tests.
 			</header>
 		</div>
-		<div id="arrow" onclick="smoothScrollTo()"></div>
+		<a id="arrow" data-scroll href="#area-2"></a>
 	</div>
 	<div id="area-2" class="area">
 		<div class="cont">
@@ -302,5 +408,9 @@
 			&copy; 2014 All Rights Reserved by Somainer. <a href="http://www.joyneop.com/">Designed by Joy Neop.</a>
 		</footer>
 	</div>
+	<script type="text/javascript">
+	var documentDidLoad = setTimeout('document.getElementById("body").style.opacity = "1"', 420);
+	smoothScroll.init();
+	</script>
 </body>
 </html>
