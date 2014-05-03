@@ -3,7 +3,7 @@ Core file of NeopBlog
 ------------------------------------------
 File meta info:
 	File Name: func.js
-	File Version: 0.9.5
+	File Version: 0.9.6
 	File Status: Beta
 	File Branch: Master
 ------------------------------------------
@@ -60,11 +60,11 @@ function loadPost(pid) {
 	document.getElementById("post" + pid + "link").innerHTML = postIndex.list[pid].Time
 	document.getElementById("post" + pid + "link").href = "./?p=" + pid
 	if (postId != "NULL" && postIndex.list[pid].Title != "") {
-		document.getElementById("page-title").innerHTML = postIndex.list[pid].Title + " — " + blogName
+		document.title = postIndex.list[pid].Title + " — " + blogName
 	} else if (postId != "NULL" && postIndex.list[pid].Title == "") {
-		document.getElementById("page-title").innerHTML = "Post #" + pid + " — " + blogName
+		document.title = "Post #" + pid + " — " + blogName
 	} else {
-		document.getElementById("page-title").innerHTML = blogName
+		document.title = blogName
 	}
 	loadedOldestPostId--
 }
@@ -106,6 +106,6 @@ function httpError() {
 	document.getElementById("post" + postId + "link").style.display = "none"
 	document.getElementById("prevandnext").innerHTML = ""
 	document.getElementById("comment-container").style.display = "none"
-	document.getElementById("page-title").innerHTML = "HTTP 404 " + "— " + blogName
+	document.title = "HTTP 404 " + "— " + blogName
 	document.getElementById("post" + postId + "text").innerHTML = "Here is nothing you can see. Back to <em><a href='./'>homepage</a></em>?"
 }

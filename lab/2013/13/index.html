@@ -3,13 +3,15 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Joy Neop</title>
-	<link rel="shortcut icon favicon" href="http://joyneop.github.io/joyneop.png"/>
+	<link rel="shortcut icon favicon" href="http://joyneop.github.io/favicon.ico"/>
 	<link rel="apple-touch-icon" href="http://joyneop.github.io/joyneop.png"/>
 	<style type="text/css">
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 	* {
 		font-family: Myriad Pro, Myriad Apple, Myriad, Myriad Set, 'Open Sans', Helvetica, Ubuntu, Arial, sans-serif;
 		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+		-webkit-transition: all 600ms ease;
+		-moz-transition: all 600ms ease;
 		transition: all 600ms ease;
 	}
 	body {
@@ -26,12 +28,21 @@
 		top: 50%;
 		left: 50%;
 		width: 680px;
-		height: 460px;
-		margin-top: -230px;
+		height: 500px;
+		margin-top: -250px;
 		margin-left: -340px;
 		background: url(http://joyneop.github.io/JN-Lab/other-images/jn-gold-spark-opacity-460.png) center no-repeat scroll;
+		background-size: contain;
 		opacity: 0;
 		z-index: 80;
+		-webkit-transition: all 600ms ease;
+		-moz-transition: all 600ms ease;
+		transition: all 600ms ease;
+	}
+	#bg a {
+		display: block;
+		width: 100%;
+		height: 100%;
 	}
 	#navbar {
 		position: fixed;
@@ -44,6 +55,9 @@
 		margin-left: -500px;
 		overflow: visible;
 		z-index: 900;
+		-webkit-transition: all 600ms ease;
+		-moz-transition: all 600ms ease;
+		transition: all 600ms ease;
 	}
 	.circle-out {
 		position: absolute;
@@ -219,20 +233,24 @@
 	var sw2 = 0;
 	var sw3 = 0;
 	var sw4 = 0;
+	function show(x) {
+		document.getElementById(x).style.visibility = "visible";
+		document.getElementById(x).style.opacity = "1";
+	}
 	function showC1() {
-		var t1 = setTimeout('document.getElementById("nav-blog").style.visibility = "visible"; document.getElementById("nav-blog").style.opacity = "1"; showC2();', 600);
+		var t1 = setTimeout('show("nav-blog"); showC2();', 600);
 	}
 	function showC2() {
-		var t2 = setTimeout('document.getElementById("nav-lab").style.visibility = "visible"; document.getElementById("nav-lab").style.opacity = "1"; showC3();', 600);
+		var t2 = setTimeout('show("nav-lab"); showC3();', 600);
 	}
 	function showC3() {
-		var t3 = setTimeout('document.getElementById("nav-about").style.visibility = "visible"; document.getElementById("nav-about").style.opacity = "1"; showC4();', 600);
+		var t3 = setTimeout('show("nav-about"); showC4();', 600);
 	}
 	function showC4() {
-		var t4 = setTimeout('document.getElementById("nav-links").style.visibility = "visible"; document.getElementById("nav-links").style.opacity = "1";', 600);
+		var t4 = setTimeout('show("nav-links");', 600);
 	}
 	function load() {
-		var ta = setTimeout('document.getElementById("bg").style.opacity = "1"; showC1();', 600);
+		var ta = setTimeout('show("bg"); showC1();', 600);
 	}
 	function showLinks() {
 		if (sw3 == 0) {
@@ -257,7 +275,7 @@
 		}
 	}
 	function revert() {
-		document.getElementById("navbar").style.marginTop = "0px";
+		document.getElementById("navbar").style.marginTop = "-20px";
 		document.getElementById("links-list").style.top = "250%";
 		sw3 = 0;
 		document.getElementById("about-list").style.top = "250%";
@@ -266,8 +284,7 @@
 	</script>
 </head>
 <body onload="load()">
-	<a id="bg" href="/">
-	</a>
+	<h1 id="bg"><a href="/"></a></h1>
 	<div id="navbar">
 		<div class="circle-out c1">
 			<div id="nav-blog" class="circle">
@@ -334,6 +351,9 @@
 			</li>
 			<li>
 				<a href="http://im.dimpurr.com/" target="_blank">Dimpurr</a>
+			</li>
+			<li>
+				<a href="http://addams96.me/" target="_blank">Addams Chen</a>
 			</li>
 		</ul>
 		<ul class="border-top">
