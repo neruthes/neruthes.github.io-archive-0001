@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Grid</title>
+	<link rel="favicon shortcut icon" href="http://joyneop.github.io/favicon.ico">
+	<link rel="apple-touch-icon" href="http://joyneop.github.io/joyneop.png">
+	<style type="text/css">
+	body {
+		font-family: Myriad Pro, Myriad Apple, Myriad, Myriad Set, 'Open Sans', Helvetica, Arial, Ubuntu, sans-serif;
+		font-weight: normal;
+		font-size: 20px;
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+	}
+	#mini1, #mini2 {
+		display: none;
+		position: fixed;
+		width: 150px;
+		height: auto;
+		padding: 10px;
+		background: #FEFEFE;
+		box-shadow: rgba(0, 0, 0, 0.75) 0 2px 6px;
+		box-sizing: border-box;
+		z-index: 100;
+	}
+	#mini1 {
+		bottom: 12px;
+		left: 12px;
+	}
+	#mini2 {
+		top: 12px;
+		right: 12px;
+	}
+	#mini1 .jnbtn, #mini2 .jnbtn {
+		margin: 10px auto;
+	}
+	#pad {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		width: 600px;
+		height: auto;
+		padding: 30px 20px 20px;
+		margin: -190px 0 0 -300px;
+		background: #FEFEFE;
+		box-shadow: rgba(0, 0, 0, 0.75) 0 2px 6px;
+		box-sizing: border-box;
+		z-index: 400;
+	}
+	.jnbtn {
+		display: block;
+		width: 90px;
+		font-size: 0.86em;
+		color: #555;
+		text-align: center;
+		text-shadow: rgba(255, 255, 255, 0.92) 0 1px 0px;
+		padding: 3px 7px;
+		margin: 0 10px;
+		background: #EEE;
+		background-image: linear-gradient(#FAFAFA, #DCDCDC);
+		border: 1px solid #E2E2E2;
+		border-bottom-color: #BBB;
+		border-left-color: #CCC;
+		border-right-color: #CCC;
+		border-radius: 4px;
+		box-shadow: rgba(44, 44, 44, 0.17) 0 1px 2px;
+		cursor: pointer;
+	}
+	.jnbtn.left {
+		float: left;
+	}
+	.jnbtn.right {
+		float: right;
+	}
+	#pad div {
+		height: 31px;
+		padding: 10px 0;
+	}
+	#pad footer {
+		font-size: 13px;
+		text-shadow: #FFF 0 1px 0px;
+		padding: 0 10px;
+	}
+	#pad footer, #pad footer a {
+		color: #999;
+		text-decoration: none;
+	}
+	textarea {
+		display: block;
+		width: 540px;
+		height: 270px;
+		font-family: Myriad Pro, Myriad Apple, Myriad, Myriad Set, 'Open Sans', Helvetica, Arial, Ubuntu, sans-serif;
+		font-size: 0.7em;
+		padding: 10px 10px;
+		margin: 0 auto;
+		background: #FEFEFE;
+		box-shadow: inset rgba(44, 44, 44, 0.27) 0 1px 4px;
+		border: none;
+		resize: none;
+		box-sizing: border-box;
+	}
+	#cont {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+	}
+	#cont div {
+		float: left;
+		-webkit-transition: all 240ms ease;
+		-moz-transition: all 240ms ease;
+		transition: all 240ms ease;
+	}
+	</style>
+	<style type="text/css" id="dyn">
+	</style>
+	<script type="text/javascript">
+	var info = {
+		"seq" : [],
+		"columns" : 20,
+		"colors" : [ "#333333", "#999999", "#FFFFFF" ]
+	};
+	var w = window.innerWidth;
+	var h = window.innerHeight;
+	var columns = 0;
+	var a = 0;
+	var lines = 0;
+	function togg(x) {
+		var t = Number(x.replace("seq", ""));
+		if (info.seq[t] == info.colors.length-1) {
+			document.getElementById(x).style.backgroundColor = info.colors[0];
+			info.seq[t] = 0;
+		} else {
+			document.getElementById(x).style.backgroundColor = info.colors[(info.seq[t]+1)];
+			info.seq[t] = info.seq[t]+1;
+		}
+	}
+	function concli(event) {
+		var seq = Math.floor(event.clientY/a)*columns + Math.floor(event.clientX/a);
+		togg("seq" + seq);
+	}
+	function gridInit() {
+		columns = info.columns;
+		a = w/columns;
+		lines = Math.ceil(h/a);
+		var cssText = "#cont div { width: " + a + "px; height: " + a + "px; background: " + info.colors[0] + "; }";
+		document.getElementById("dyn").innerHTML = cssText;
+	}
+	function gridMake() {
+		for (var i = 0; i < lines*columns; i++) {
+			var div = document.createElement("div");
+			div.setAttribute("class", "block");
+			div.setAttribute("id", "seq" + i);
+			info.seq[i] = 0;
+			document.getElementById("cont").appendChild(div);
+		}
+	}
+	function openit() {
+		info = JSON.parse(document.getElementById("userin").value);
+		document.getElementById("cont").innerHTML = null;
+		gridInit();
+		gridMake();
+		info = JSON.parse(document.getElementById("userin").value);
+		for (var i = 0; i < info.seq.length; i++) {
+			document.getElementById("seq" + i).style.backgroundColor = info.colors[info.seq[i]];
+		}
+		pad();
+	}
+	function saveit() {
+		document.getElementById("userin").value = JSON.stringify(info);
+	}
+	function pad() {
+		if (p) {
+			// Close it
+			document.getElementById("pad").style.display = "none";
+			document.getElementById("mini" + minip).style.display = "block";
+			p = false;
+		} else {
+			// Open it
+			document.getElementById("pad").style.display = "block";
+			document.getElementById("mini" + minip).style.display = "none";
+			p = true;
+		}
+	}
+	function mini() {
+		if (minip == 1) {
+			document.getElementById("mini1").style.display = "none";
+			document.getElementById("mini2").style.display = "block";
+			minip = 2;
+		} else {
+			document.getElementById("mini2").style.display = "none";
+			document.getElementById("mini1").style.display = "block";
+			minip = 1;
+		}
+	}
+	</script>
+</head>
+<body>
+	<div id="cont" onclick="concli(event)">
+	</div>
+	<div id="mini1">
+		<span class="jnbtn" onclick="mini()">Move</span>
+		<span class="jnbtn" onclick="pad()">Board...</span>
+	</div>
+	<div id="mini2">
+		<span class="jnbtn" onclick="mini()">Move</span>
+		<span class="jnbtn" onclick="pad()">Board...</span>
+	</div>
+	<div id="pad">
+		<textarea id="userin" placeholder='Paste JSON text here and click "Open" to see the grid...'></textarea>
+		<div>
+			<span class="left jnbtn" onclick="pad()">Close</span>
+			<span class="right jnbtn" onclick="openit()">Open</span>
+			<span class="right jnbtn" onclick="saveit()">Save</span>
+		</div>
+		<footer>
+			Click "Save" to export the current grids as JSON.
+		</footer>
+		<footer>
+			<a href="http://neop.me/">&copy; 2014 All Rights Reserved by Joy Neop</a>
+		</footer>
+	</div>
+	<script type="text/javascript">
+	var p = true; // If the control pad visible
+	var minip = 1; // Which mini pad is visible
+	gridInit();
+	gridMake();
+	</script>
+</body>
+</html>
