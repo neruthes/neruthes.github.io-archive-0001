@@ -23,11 +23,11 @@ Copyright info:
 ----------------------------------------*/
 
 body {
-	background-color: rgb(36, 92, 19);
+	background-color: #2D6CA3;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
-	font-family: Iowan Old Style, Ovo, Marion, Georgia, Times, serif;
+	font-family: 'Iowan Old Style', Ovo, Marion, Georgia, Times, serif;
 	font-weight: normal;
 }
 
