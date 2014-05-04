@@ -32,7 +32,7 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 body, h3, h4, h5, h6, p {
-	color: #D3D3D3;
+	color: #EAEAEA;
 }
 
 header.global h1, h2 {
@@ -47,7 +47,6 @@ h1 {
 p {
 	font-size: 17px;
 	line-height: 32px;
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 p em {
@@ -65,11 +64,13 @@ a:link, a:visited, a:hover, a:active {
 }
 
 section.post {
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.92);
 	padding-top: 20px;
 	margin-bottom: 90px;
-	background: rgb(33, 33, 33) url(slate.jpg) top repeat scroll;
-	background-size: 200px;
-	box-shadow: rgba(0, 0, 0, 0.55) 0 5px 16px;
+	background: rgba(0, 0, 0, 0.6) url(slate.jpg) top repeat scroll;
+	background-size: 100px;
+	border-radius: 4px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0 4px 18px;
 }
 
 section.post > h2 {
@@ -102,7 +103,7 @@ section.post > h2 {
 }
 
 .post-textpost > pre {
-	font-family: 'Menlo', sans-serif, condensed;
+	font-family: 'Menlo', fixed-width;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
