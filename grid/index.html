@@ -101,14 +101,13 @@
 		resize: none;
 		box-sizing: border-box;
 	}
-	#cont {
+	#jn-grid-cont {
 		position: absolute;
 		width: 100%;
 		height: 100%;
 		z-index: 0;
 	}
-	#cont div {
-		float: left;
+	#jn-grid-cont div {
 		-webkit-transition: all 240ms ease;
 		-moz-transition: all 240ms ease;
 		transition: all 240ms ease;
@@ -127,44 +126,46 @@
 	var columns = 0;
 	var a = 0;
 	var lines = 0;
-	function togg(x) {
-		var t = Number(x.replace("seq", ""));
+	function concli(event) {
+		var t = Math.floor(event.clientY/a)*columns + Math.floor(event.clientX/a);
 		if (info.seq[t] == info.colors.length-1) {
-			document.getElementById(x).style.backgroundColor = info.colors[0];
+			document.getElementById("jn-grid-cont").getElementsByTagName("div")[t].style.backgroundColor = info.colors[0];
 			info.seq[t] = 0;
 		} else {
-			document.getElementById(x).style.backgroundColor = info.colors[(info.seq[t]+1)];
+			document.getElementById("jn-grid-cont").getElementsByTagName("div")[t].style.backgroundColor = info.colors[(info.seq[t]+1)];
 			info.seq[t] = info.seq[t]+1;
 		}
-	}
-	function concli(event) {
-		var seq = Math.floor(event.clientY/a)*columns + Math.floor(event.clientX/a);
-		togg("seq" + seq);
 	}
 	function gridInit() {
 		columns = info.columns;
 		a = w/columns;
 		lines = Math.ceil(h/a);
-		var cssText = "#cont div { width: " + a + "px; height: " + a + "px; background: " + info.colors[0] + "; }";
-		document.getElementById("dyn").innerHTML = cssText;
+		var cssText = "#jn-grid-cont div { float: left; width: " + a + "px; height: " + a + "px; background: " + info.colors[0] + "; }";
+		if (document.getElementById("dyn") == null) {
+			var st = document.createElement("style");
+			st.setAttribute("id", "dyn");
+			st.appendChild(document.createTextNode(cssText));
+			document.getElementsByTagName("head")[0].appendChild(st);
+		} else {
+			document.getElementById("dyn").innerHTML = cssText;
+		}
 	}
 	function gridMake() {
 		for (var i = 0; i < lines*columns; i++) {
 			var div = document.createElement("div");
 			div.setAttribute("class", "block");
-			div.setAttribute("id", "seq" + i);
 			info.seq[i] = 0;
-			document.getElementById("cont").appendChild(div);
+			document.getElementById("jn-grid-cont").appendChild(div);
 		}
 	}
 	function openit() {
 		info = JSON.parse(document.getElementById("userin").value);
-		document.getElementById("cont").innerHTML = null;
+		document.getElementById("jn-grid-cont").innerHTML = null;
 		gridInit();
 		gridMake();
 		info = JSON.parse(document.getElementById("userin").value);
 		for (var i = 0; i < info.seq.length; i++) {
-			document.getElementById("seq" + i).style.backgroundColor = info.colors[info.seq[i]];
+			document.getElementById("jn-grid-cont").getElementsByTagName("div")[i].style.backgroundColor = info.colors[info.seq[i]];
 		}
 		pad();
 	}
@@ -198,7 +199,7 @@
 	</script>
 </head>
 <body>
-	<div id="cont" onclick="concli(event)">
+	<div id="jn-grid-cont" onclick="concli(event)">
 	</div>
 	<div id="mini1">
 		<span class="jnbtn" onclick="mini()">Move</span>
@@ -227,6 +228,14 @@
 	var minip = 1; // Which mini pad is visible
 	gridInit();
 	gridMake();
+	</script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-41022772-1', 'joyneop.com');
+		ga('send', 'pageview');
 	</script>
 </body>
 </html>
