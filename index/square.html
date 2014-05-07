@@ -80,7 +80,7 @@
 		padding: 0;
 		margin: 35px;
 		box-sizing: border-box;
-		background: rgba(0, 0, 0, 0.01);
+		background: none;
 		opacity: 0;
 		cursor: pointer;
 		overflow: visible;
@@ -90,16 +90,32 @@
 		transition: all 300ms ease;
 	}
 	#nav-blog {
+		background: rgba(199, 182, 90, 0);
 		border-bottom: 8px solid rgb(199, 182, 90);
 	}
+	#nav-blog:hover {
+		background: rgba(199, 182, 90, 1);
+	}
 	#nav-lab {
+		background: rgba(73, 137, 227, 0);
 		border-bottom: 8px solid rgb(73, 137, 227);
 	}
+	#nav-lab:hover {
+		background: rgba(73, 137, 227, 1);
+	}
 	#nav-about {
+		background: rgba(253, 161, 46, 0);
 		border-bottom: 8px solid rgb(253, 161, 46);
 	}
+	#nav-about:hover {
+		background: rgba(253, 161, 46, 1);
+	}
 	#nav-links {
+		background: rgba(109, 108, 101, 0);
 		border-bottom: 8px solid rgb(109, 108, 101);
+	}
+	#nav-links:hover {
+		background: rgba(109, 108, 101, 1);
 	}
 	.circle:hover {
 		height: 210px;
@@ -116,8 +132,8 @@
 		padding-right: auto;
 		margin: 0;
 		cursor: pointer;
-		opacity: 0;
-		overflow: hidden;
+		opacity: 1;
+		overflow: visible;
 		-webkit-transition: all 300ms ease;
 		-moz-transition: all 300ms ease;
 		transition: all 300ms ease;
@@ -128,29 +144,17 @@
 	.circle a {
 		display: block;
 	}
-	#nav-blog-in {
-		background: rgb(199, 182, 90);
-	}
-	#nav-lab-in {
-		background: rgb(73, 137, 227);
-	}
-	#nav-about-in {
-		background: rgb(253, 161, 46);
-	}
-	#nav-links-in {
-		background: rgb(109, 108, 101);
-	}
 	.circle-in h2 {
 		position: relative;
-		top: 90px;
+		top: 130px;
 		height: 40px;
 		font-size: 34px;
 		font-weight: normal;
-		color: rgba(240, 240, 240, 0);
+		color: rgba(240, 240, 240, 1);
 		text-align: center;
 		padding: 0;
 		margin: 0;
-		opacity: 0;
+		opacity: 0.8;
 		-webkit-transition: all 300ms ease;
 		-moz-transition: all 300ms ease;
 		transition: all 300ms ease;
