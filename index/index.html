@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Portal Neop</title>
+	<base href="http://joyneop.github.io/"></base>
+	<link rel="favicon shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/joyneop.png">
+	<style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+	body {
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		font-weight: normal;
+		color: #555;
+		padding: 0;
+		margin: 0;
+		background: #000 url(http://portalneop-up.b0.upaiyun.com/img/bg.jpg) center no-repeat fixed;
+		background-size: cover;
+	}
+	body header nav {
+		position: absolute;
+		width: 100%;
+		height: 80px;
+		padding: 0 30px;
+		margin: 0;
+		color: #FFF;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+		box-sizing: border-box;
+	}
+	header {
+		width: 100%;
+		height: 400px;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+	}
+	#user-header-cont {
+		max-width: 520px;
+		height: 240px;
+		padding: 130px 0 0 50px;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	#user-header-cont a {
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		box-sizing: border-box;
+	}
+	#avatar {
+		float: left;
+		width: 140px;
+		height: 140px;
+		padding: 0;
+		margin: 0;
+		background: rgba(0, 0, 0, 0.5) url(http://portalneop-up.b0.upaiyun.com/img/icon_beta.png) center no-repeat scroll;
+		background-size: cover;
+		border-radius: 1000px;
+		box-shadow: rgba(0, 0, 0, 0.45) 0 2px 6px;
+		-webkit-transition: all 300ms ease;
+		-moz-transition: all 300ms ease;
+		transition: all 300ms ease;
+	}
+	.name {
+		padding: 20px 0 0 200px;
+	}
+	.name h1 {
+		color: #FFF;
+		font-size: 38px;
+		font-weight: 300;
+		margin: 0;
+		text-shadow: rgba(0, 0, 0, 0.75) 0 1px 2px;
+	}
+	#intro {
+		padding: 24px 0 0;
+	}
+	#intro span {
+		display: inline-block;
+		font-size: 14px;
+		color: #3050AA;
+		text-align: left;
+		text-shadow: rgba(255, 255, 255, 1) 0 1px 1px;
+		height: 26px;
+		padding: 3px 10px;
+		margin: 0;
+		box-sizing: border-box;
+		background: #FAFAFA;
+		background-image: linear-gradient(#FAFAFA, #F3F3F3);
+		box-shadow: rgba(0, 0, 0, 0.25) 0 1px 2px;
+	}
+	#main-cont {
+		min-height: 700px;
+		padding: 30px 0 0;
+		background: #FFF;
+		box-shadow: rgba(0, 0, 0, 0.45) 0 0 10px;
+	}
+	.user-boxes-cont {
+		max-width: 700px;
+		overflow: auto;
+		padding: 15px 0;
+		margin: 1px auto;
+	}
+	.ubox {
+		float: left;
+		font-size: 15px;
+		width: 40%;
+		height: 40px;
+		padding: 0;
+		margin: 10px 5%;
+		box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px;
+		overflow: hidden;
+	}
+	.ubox div:first-child {
+		float: left;
+		font-weight: normal;
+		color: #444;
+		text-align: center;
+		text-shadow: #EC3 0 1px 0;
+		width: 60px;
+		height: 40px;
+		background: #FFB712;
+	}
+	.ubox div:last-child {
+		float: left;
+		height: 40px;
+	}
+	.ubox div span {
+		display: block;
+		height: 40px;
+		padding: 10px 8px 0;
+		box-sizing: border-box;
+	}
+	.ubox a:link, .ubox a:visited, .ubox a:hover, .ubox a:active {
+		color: #2040FD;
+		text-decoration: none;
+	}
+	footer {
+		font-size: 14px;
+		line-height: 20px;
+		text-align: center;
+		padding: 20px 0;
+	}
+	footer a:link, footer a:visited, footer a:hover, footer a:active {
+		color: #20407D;
+		text-decoration: none;
+	}
+	footer a span {
+		font-size: 10px;
+		color: #BBB;
+	}
+	</style>
+</head>
+<body>
+<header id="background">
+	<div id="user-header-cont">
+		<a href="./">
+			<div id="avatar">
+			</div>
+			<div class="name">
+				<h1 id="h1">Portal Neop</h1>
+				<div id="intro">
+					<span>Living on the Earth</span>
+				</div>
+			</div>
+		</a>
+	</div>
+</header>
+<div id="main-cont">
+	<div class="user-boxes-cont">
+		<div class="ubox">
+			<div>
+				<span>♂</span>
+			</div>
+			<div>
+				<span>Male</span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>CN</span>
+			</div>
+			<div>
+				<span>Born in China</span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>00</span>
+			</div>
+			<div>
+				<span>Born in 2000</span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>♂♂</span>
+			</div>
+			<div>
+				<span>Homosexual</span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>RA</span>
+			</div>
+			<div>
+				<span>RAmen!</span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>Sci</span>
+			</div>
+			<div>
+				<span>Sci-Fi &amp; Fantasy Lover</span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>中二</span>
+			</div>
+			<div>
+				<span>Internet Resident</span>
+			</div>
+		</div>
+	</div>
+	<div class="user-boxes-cont">
+		<div class="ubox">
+			<div>
+				<span>Twi</span>
+			</div>
+			<div>
+				<span>Follow me on <a href="https://twitter.com/JoyNeop" target="_blank" rel="nofollow">Twitter</a></span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>FB</span>
+			</div>
+			<div>
+				<span>Be friends on <a href="https://www.facebook.com/joy.neop" target="_blank" rel="nofollow">Facebook</a></span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>Wei</span>
+			</div>
+			<div>
+				<span>Follow me on <a href="http://weibo.com/neopstep" target="_blank" rel="nofollow">Sina Weibo</a></span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>Ins</span>
+			</div>
+			<div>
+				<span>See what I see on <a href="http://instagram.com/joyneop" target="_blank" rel="nofollow">Instagram</a></span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>Tblr</span>
+			</div>
+			<div>
+				<span>Follow me on <a href="http://joyneop.tumblr.com/" target="_blank" rel="nofollow">Tumblr</a></span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>Be</span>
+			</div>
+			<div>
+				<span>My portfolio on <a href="https://www.behance.net/joyneop" target="_blank" rel="nofollow">Behance</a></span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>5∞</span>
+			</div>
+			<div>
+				<span>My photos on <a href="https://500px.com/neopstep" target="_blank" rel="nofollow">500px</a></span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>Git</span>
+			</div>
+			<div>
+				<span>Follow me on <a href="https://github.com/JoyNeop" target="_blank" rel="nofollow">GitHub</a></span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>Sound</span>
+			</div>
+			<div>
+				<span>Hear me on <a href="https://soundcloud.com/neopstep" target="_blank" rel="nofollow">SoundCloud</a></span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>V2</span>
+			</div>
+			<div>
+				<span>On the way to <a href="https://www.v2ex.com/member/joyneop" target="_blank" rel="nofollow">V2EX</a></span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>知</span>
+			</div>
+			<div>
+				<span>Sharing knowledge on <a href="http://www.zhihu.com/people/joyneop" target="_blank" rel="nofollow">Zhihu</a></span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>Quo</span>
+			</div>
+			<div>
+				<span>Follow me on <a href="http://www.quora.com/Joy-Neop" target="_blank" rel="nofollow">Quora</a></span>
+			</div>
+		</div>
+		<div class="ubox">
+			<div>
+				<span>Lin</span>
+			</div>
+			<div>
+				<span>See my resume on <a href="http://www.linkedin.com/in/joyneop" target="_blank" rel="nofollow">LinkedIn</a></span>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<a href="/">&copy; 2014 All Rights Reserved by Portal Neop.<br /><span>Designed by Joy Neop.</span></a>
+	</footer>
+</div>
+</body>
+</html>
