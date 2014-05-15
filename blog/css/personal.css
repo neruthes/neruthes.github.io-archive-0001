@@ -1,3 +1,8 @@
 /*----------------------------------------
 With this file you are able to use additional CSS without editing theme.
 ----------------------------------------*/
+
+header.global h2 span {
+	display: inline-block;
+	padding: 0 5px;
+}

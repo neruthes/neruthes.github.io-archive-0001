@@ -2,52 +2,170 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Kyouratsu — designed by Joy Neop</title>
+	<title>Kyouratsu 公式サイト — designed by Joy Neop</title>
+	<base href="http://joyneop.github.io/kyouratsu/"></base>
 	<link rel="favicon shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" href="/joyneop.png">
 	<style type="text/css">
 	body {
-		font-family: Helvetica, Arial, Ubuntu, sans-serif;
+		font-family: Tahoma, Arial, Ubuntu, 'Hiragino Kaku Gothic ProN', sans-serif;
 		font-weight: normal;
+		font-size: 16px;
+		padding: 0;
+		margin: 0;
 	}
 	h1 {
+		font-size: 2.4em;
 		font-weight: normal;
+		color: rgba(255, 255, 255, 0.94);
+		line-height: 1em;
 		text-align: center;
+		text-transform: uppercase;
+		text-shadow: rgba(176, 128, 48, 0.75) 0 1px 0px;
+		letter-spacing: 8px;
+		padding: 0;
+		margin: 0 0 25px;
+		background: #FE8A2A;
+		background-image: linear-gradient(#FF8C2C, #F08222);
+		box-shadow: rgba(0, 0, 0, 0.18) 0 0 4px;
 	}
-	ul, li {
+	h1 a {
 		display: block;
+		color: inherit;
+		padding: 36px 0;
+	}
+	h1 span {
+		display: block;
+		padding: 0 14px;
+	}
+	h1 span:last-child {
+		font-size: 0.46em;
+		color: #F2F2F2;
+	}
+	@media screen and (max-width: 718px) {
+		.cont {
+			margin: 0 auto;
+		}
+		li {
+			font-size: 1.42em;
+			margin: 0 auto;
+		}
+	}
+	@media screen and (min-width: 720px) {
+		.cont {
+			width: 720px;
+			margin: 0 auto;
+			overflow: auto;
+		}
+		li {
+			float: left;
+			font-size: 1em;
+			margin: 0 0;
+		}
+	}
+	ol, li {
+		display: block;
+		overflow: auto;
+	}
+	ol {
+		padding: 0;
+		margin: 0;
 	}
 	li {
-		max-width: 300px;
-		border-left: 3px solid #999;
-		padding: 0 20px;
-		margin: 30px auto;
+		width: 240px;
+		color: #FE8A2A;
+		text-align: center;
+		border-radius: 8px;
+		box-sizing: border-box;
+		-webkit-transition: all 100ms ease;
+		-moz-transition: all 100ms ease;
+		transition: all 100ms ease;
+	}
+	li:hover {
+		color: #FFF;
+		background: #FE8A2A;
+		background-image: linear-gradient(#FF8C2C, #F08222);
+		box-shadow: rgba(0, 0, 0, 0.18) 0 0 4px;
 	}
 	li a {
 		display: block;
-		max-width: 250px;
+		color: inherit;
+		line-height: 30px;
+		padding: 20px 0;
 		margin: 0 auto;
 	}
 	img {
 		display: block;
+		widows: 90px;
+		height: 90px;
+		margin: 0 auto;
+		background: #DDD;
+		border: 4px solid #CCC;
+		border-radius: 8px;
 	}
 	footer {
+		font-size: 14px;
+		color: #888;
 		text-align: center;
+		text-shadow: rgba(255, 255, 255, 0.75) 0 1px 0px;
 		padding: 20px;
-		margin: 20px;
+		margin: 20px 0 0;
+		background: #F4F4F4;
+		border-top: 1px solid #CCC;
+	}
+	footer a {
+		color: inherit;
+	}
+	a, a:link, a:visited, a:hover, a:active {
+		text-decoration: none;
 	}
 	</style>
 	<script type="text/javascript">
 	</script>
 </head>
 <body>
-<h1>Kyouratu</h1>
-<ol></ol>
+<h1><a href="./"><span>Kyouratsu</span><span>公式 サイト</span></a></h1>
+<div class="cont"><ol></ol></div>
 <footer>
-	<a href="/">&copy; 2014 All Rights Reserved by Joy Neop</a>
+	<a href="/">&copy; 2014 All Rights Reserved by Joy Neop</a> | <a href="mailto:i@joyneop.com">Contact</a>
 </footer>
 <script type="text/javascript">
 var x = 32;
+var cap = [
+	"Tilt eyes",
+	"Stunned",
+	"Grin",
+	"WTF",
+	"T_T",
+	"Arcane",
+	"O Ya Su Mi",
+	"Bao Qing Tian",
+	"Star Eyes",
+	"Emotionless",
+	"Doraemon",
+	"Naruto",
+	"Sun Glasses",
+	"Psyduck",
+	"Octocat",
+	"Money Money Money",
+	"&gt;_&lt;",
+	"Kiss",
+	"XD",
+	"Scared",
+	"Leave my vision",
+	"Have no idea",
+	"^ω^",
+	"Nothing to say",
+	"Psi",
+	"Oh no",
+	"Baka",
+	"Marvin",
+	"Sensei",
+	"Brother Buxie",
+	"Xiu~",
+	"Balloon",
+	"Jiong"
+];
 for (var i = 1; i <= x; i++) {
 	var li = document.createElement("li");
 	var a = document.createElement("a");
@@ -57,7 +175,7 @@ for (var i = 1; i <= x; i++) {
 	img.setAttribute("src", "Kyouratsu%20" + i + ".jpg");
 	a.appendChild(img);
 	a.appendChild(span);
-	span.appendChild(document.createTextNode("Kyouratsu #" + i));
+	span.innerHTML = "#" + i + "<br />" + cap[(i-1)];
 	li.appendChild(a);
 	document.getElementsByTagName("ol")[0].appendChild(li);
 };
