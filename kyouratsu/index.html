@@ -8,7 +8,7 @@
 	<link rel="apple-touch-icon" href="/joyneop.png">
 	<style type="text/css">
 	body {
-		font-family: Tahoma, Arial, Ubuntu, 'Hiragino Kaku Gothic ProN', sans-serif;
+		font-family: Tahoma, Helvetica, Arial, Ubuntu, 'Hiragino Kaku Gothic ProN', sans-serif;
 		font-weight: normal;
 		font-size: 16px;
 		padding: 0;
@@ -20,7 +20,6 @@
 		font-weight: normal;
 		color: rgba(255, 255, 255, 0.94);
 		line-height: 1.2em;
-		text-align: center;
 		text-transform: uppercase;
 		text-shadow: rgba(176, 128, 48, 0.75) 0 1px 0px;
 		padding: 0;
@@ -28,17 +27,17 @@
 		background: #FE8A2A;
 		background-image: linear-gradient(#FF8C2C, #F08222);
 		box-shadow: rgba(0, 0, 0, 0.18) 0 0 4px;
+		overflow: hidden;
 	}
 	h1 a {
 		display: block;
+		height: 220px;
 		color: inherit;
-		padding: 66px 0;
-		background: rgba(0, 0, 0, 0) url(bg1.png) center scroll no-repeat;
-		background-size: 316px;
+		margin: 0 auto;
+		box-sizing: border-box;
 	}
 	h1 span {
 		display: block;
-		padding: 0 14px;
 	}
 	h1 span:first-child {
 		letter-spacing: 10px;
@@ -49,15 +48,34 @@
 		letter-spacing: 7px;
 	}
 	@media screen and (max-width: 718px) {
+		h1 a {
+			text-align: center;
+			background: rgba(0, 0, 0, 0) url(bg1.png) center scroll no-repeat;
+			background-size: 290px;
+			padding: 66px 0;
+		}
 		.cont {
 			margin: 0 auto;
 		}
 		li {
 			font-size: 1.42em;
-			margin: 0 auto;
+			margin: 10px auto;
+		}
+		p {
+			padding: 0 20px;
 		}
 	}
 	@media screen and (min-width: 720px) {
+		h1 a {
+			max-width: 640px;
+			padding: 66px 40px;
+			background: rgba(0, 0, 0, 0) url(bg1.png) scroll no-repeat;
+			background-position: center left;
+			background-size: 290px;
+		}
+		h1 a span {
+			text-align: right;
+		}
 		.cont {
 			width: 720px;
 			margin: 0 auto;
@@ -85,7 +103,7 @@
 	}
 	li a {
 		display: block;
-		color: #FE8A2A;
+		color: #FF8C2C;
 		line-height: 30px;
 		padding: 20px 0;
 		margin: 0 auto;
@@ -97,7 +115,7 @@
 	}
 	li:hover a {
 		color: #FFF;
-		background: #FE8A2A;
+		background: #FF8C2C;
 		background-image: linear-gradient(#FF8C2C, #F38724);
 		box-shadow: rgba(0, 0, 0, 0.18) 0 0 4px;
 	}
@@ -109,6 +127,7 @@
 		background: #DDD;
 		border: 4px solid #CCC;
 		border-radius: 8px;
+		overflow: hidden;
 	}
 	p {
 		max-width: 580px;
@@ -123,7 +142,7 @@
 		color: #FE8A2A;
 		line-height: 20px;
 		text-align: center;
-		padding: 20px;
+		padding: 50px 0 20px;
 		margin: 20px 0 0;
 	}
 	footer span {
@@ -141,11 +160,14 @@
 		text-decoration: none;
 	}
 	</style>
-	<script type="text/javascript">
-	</script>
 </head>
 <body>
-<h1><a href="./"><span>Kyouratsu</span><span>キョウラツ 公式サイト</span></a></h1>
+<h1>
+	<a href="./">
+		<span>Kyouratsu</span>
+		<span>キョウラツ 公式サイト</span>
+	</a>
+</h1>
 <div class="cont"><ol></ol></div>
 <div class="cont">
 	<p>
@@ -208,7 +230,7 @@ for (var i = 1; i <= x; i++) {
 	span.innerHTML = "#" + i + "<br />" + cap[(i-1)];
 	li.appendChild(a);
 	document.getElementsByTagName("ol")[0].appendChild(li);
-};
+}
 </script>
 </body>
 </html>
