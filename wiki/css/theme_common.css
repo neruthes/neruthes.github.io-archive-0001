@@ -22,20 +22,33 @@ Copyright info:
 	All rights reserved.
 ----------------------------------------*/
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
 body {
-	background-color: #2D6CA3;
+	background: #2E2E2E url(slate.jpg) repeat top scroll;
+	background-size: 100px;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
-	font-family: 'Iowan Old Style', Ovo, Marion, Georgia, Times, serif;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: normal;
 }
 
 body, h3, h4, h5, h6, p {
-	color: #EAEAEA;
+	color: #CCC;
 }
 
-header.global h1, h2 {
+header.global {
+	font-family: 'Skia-Regular_Extended', Skia, Helvetica, Arial, sans-serif;
+	text-shadow: rgba(0, 0, 0, 0.23) 0 1px 2px;
+	padding-bottom: 10px;
+	background: #227FD2;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.13));
+	box-shadow: rgba(0, 0, 0, 0.7) 0 1px 5px 1px;
+}
+
+header.global h1 {
+	font-family: inherit;
 	color: #FFF;
 }
 
@@ -50,41 +63,51 @@ p {
 }
 
 p em {
-	font-weight: bold;
+	font-style: italic;
 	text-decoration: underline;
 }
 
-a:link, a:visited, a:hover, a:active {
-	color: inherit;
-	text-decoration: inherit;
-}
-
 .global a {
+	color: inherit;
 	text-decoration: none;
 }
 
 section.post {
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.92);
-	padding-top: 20px;
-	margin-bottom: 90px;
-	background: rgba(0, 0, 0, 0.6) url(slate.jpg) top repeat scroll;
+	padding-top: 0;
 	background-size: 100px;
 	border-radius: 4px;
-	box-shadow: rgba(0, 0, 0, 0.5) 0 4px 18px;
 }
 
 section.post > h2 {
+	position: relative;
+	left: -20px;
+	font-family: 'Skia-Regular_Extended', Skia, Helvetica, Arial, sans-serif;
 	font-size: 23px;
-	margin: 19px 0 22px;
+	color: #FFF;
+	margin: 12px 0 24px;
+}
+
+section.post > h2::before {
+	content: "> ";
+}
+
+section.post > h2 > a {
+	color: #429CF2;
+	text-decoration: none;
 }
 
 .post-text > h3 {
 	margin: 19px 0 20px;
-	text-align: center;
+	text-align: left;
 }
 
 .post-text > p {
 	margin: 17px 0;
+}
+
+.post-text > p > a {
+	color: #429CF2;
+	text-decoration: none;
 }
 
 .post-text > img {
@@ -115,25 +138,10 @@ section.post > h2 {
 	margin-right: auto;
 }
 
-section.post > footer {
-	color: #999;
-	font-weight: normal;
-	text-align: center;
-	margin: 60px 0 0 0;
-}
-
-nav.prevandnext span a {
-	font-size: 20px;
-	font-weight: normal;
-	color: #FDFDFD;
-}
-
-.comment-container {
-	background: #FDFDFD;
-	box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
-}
-
 footer.global {
+	font-family: 'Skia-Regular_Condensed', 'Ubuntu Condensed', Helvetica, Arial, sans-serif;
 	font-size: 15px;
-	text-align: center;
+	color: #999;
+	letter-spacing: 2px;
+	text-align: left;
 }
