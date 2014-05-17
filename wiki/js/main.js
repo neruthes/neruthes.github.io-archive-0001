@@ -68,4 +68,4 @@ function loadWiki() {
 
 loadWiki()
 
-var wikiReload = window.setInterval(loadWiki, 60)
+var wikiReload = window.setInterval(loadWiki, 30)
