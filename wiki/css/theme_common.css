@@ -38,6 +38,14 @@ body, h3, h4, h5, h6, p {
 	color: #CCC;
 }
 
+h3, h4, h5, h6 {
+	position: relative;
+	left: -15px;
+	color: #EEE;
+	padding-left: 10px;
+	border-left: 5px solid #429CF2;
+}
+
 header.global {
 	font-family: 'Skia-Regular_Extended', Skia, 'Open Sans', Helvetica, Arial, sans-serif;
 	text-shadow: rgba(0, 0, 0, 0.23) 0 1px 2px;
@@ -49,6 +57,7 @@ header.global {
 
 header.global h1 {
 	font-family: inherit;
+	font-size: 36px;
 	color: #FFF;
 }
 
@@ -82,7 +91,7 @@ section.post > h2 {
 	position: relative;
 	left: -20px;
 	font-family: 'Skia-Regular_Extended', Skia, 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 23px;
+	font-size: 25px;
 	color: #FFF;
 	margin: 12px 0 24px;
 }
@@ -106,7 +115,7 @@ section.post > h2 > a {
 	margin: 17px 0;
 }
 
-.post-text > p a {
+.post-text a {
 	color: #429CF2;
 	text-decoration: none;
 }
@@ -143,8 +152,8 @@ section.post > h2 > a {
 	padding: 20px 35px;
 	margin: 0 60px;
 	background: rgba(255, 255, 255, 0.09);
-	border-left: 3px solid #429CF2;
-	border-right: 3px solid #429CF2;
+	border-left: 2px solid #429CF2;
+	border-right: 2px solid #429CF2;
 }
 
 footer.global {

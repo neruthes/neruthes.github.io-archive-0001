@@ -49,10 +49,24 @@ function loadPost(pid) {
 		middle = middle.replace("\n\n", "")
 	}
 	var arr = middle.split("\n\n")
-	var preview = document.getElementById("wiki-text")
-	preview.innerHTML = ""
+	var wikiText = document.getElementById("wiki-text")
+	wikiText.innerHTML = ""
 	for (var i = 0; i < arr.length; i++) {
-		var wikiTemplates = arr[i]
+		var p
+		var wikiHeading = arr[i]
+		if (arr[i].indexOf("# ") == 0) {
+			p = document.createElement("h3")
+			wikiHeading = wikiHeading.replace("# ", "")
+		} else if (arr[i].indexOf("## ") == 0) {
+			p = document.createElement("h4")
+			wikiHeading = wikiHeading.replace("## ", "")
+		} else if (arr[i].indexOf("### ") == 0) {
+			p = document.createElement("h5")
+			wikiHeading = wikiHeading.replace("### ", "")
+		} else {
+			p = document.createElement("p")
+		}
+		var wikiTemplates = wikiHeading
 		while (wikiTemplates.indexOf("{{") != -1) {
 			var tempUrl = wikiTemplates.slice((wikiTemplates.indexOf("{{") + 2), wikiTemplates.indexOf("}}"))
 			var ajaxTemplate = new XMLHttpRequest()
@@ -73,24 +87,21 @@ function loadPost(pid) {
 			var linkUrl = wikiLinks.slice((wikiLinks.indexOf("[[") + 2), wikiLinks.indexOf("]]"))
 			wikiLinks = wikiLinks.replace("[[", '<a href="#' + linkUrl.replace(/ /g, "_") + '">').replace("]]", '</a>')
 		}
-		var p = document.createElement("p")
 		p.innerHTML = wikiLinks
-		preview.appendChild(p)
+		wikiText.appendChild(p)
 	}
 }
 
 function loadWiki() {
-	if (loc != window.location.href) {
-		document.getElementById("cont").style.opacity = 0
-		loc = window.location.href
-		if (loc.indexOf("#") != -1) {
-			postId = loc.slice(loc.indexOf("#") + 1)
-			loadPost(postId.split("")[0].toUpperCase() + postId.substring(1))
-		} else {
-			window.location.replace(window.location.href + "#Main_Page")
-		}
-		document.getElementById("cont").style.opacity = 1
+	document.getElementById("cont").style.display = "none"
+	loc = window.location.href
+	if (loc.indexOf("#") != -1) {
+		postId = loc.slice(loc.indexOf("#") + 1)
+		loadPost(postId.split("")[0].toUpperCase() + postId.substring(1))
+	} else {
+		window.location.replace(window.location.href + "#Main_Page")
 	}
+	document.getElementById("cont").style.display = "block"
 }
 
 loadWiki()

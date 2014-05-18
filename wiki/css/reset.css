@@ -1,6 +1,6 @@
 /*----------------------------------------
-Core file of NeopBlog
-NeopBlog on GitHub: https://github.com/JoyNeop/NeopBlog
+Core file of NeopWiki
+NeopWiki on GitHub: https://github.com/JoyNeop/NeopWiki
 ------------------------------------------
 File meta info:
 	File Name: reset.css
@@ -8,7 +8,7 @@ File meta info:
 	File Status: Beta
 	File Branch: Master
 ------------------------------------------
-NeopBlog developer meta info:
+NeopWiki developer meta info:
 	Developer Name: Joy Neop
 	Developer Website: http://www.joyneop.com/
 	Developer Twitter: @joyneop
@@ -65,8 +65,20 @@ section.post, .comment-container {
 }
 
 section.post h2 {
-	font-size: 23px;
+	font-size: 27px;
 	margin: 19px 0 22px;
+}
+
+section.post h3 {
+	font-size: 26px;
+}
+
+section.post h4 {
+	font-size: 20px;
+}
+
+section.post h5 {
+	font-size: 17px;
 }
 
 p {
