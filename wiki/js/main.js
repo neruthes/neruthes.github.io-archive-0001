@@ -74,7 +74,6 @@ function loadPost(pid) {
 		p.innerHTML = wikiLinks
 		preview.appendChild(p)
 	}
-	document.getElementsByTagName("body")[0].style.opacity = 1
 }
 
 function loadWiki() {
@@ -92,6 +91,7 @@ function loadWiki() {
 		} else {
 			window.location.replace(window.location.href + "#Main_Page")
 		}
+		document.getElementsByTagName("body")[0].style.opacity = 1
 	}
 }
 
