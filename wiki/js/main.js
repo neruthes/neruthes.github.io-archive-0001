@@ -71,7 +71,7 @@ function loadWiki() {
 		loc = window.location.href
 		if (loc.indexOf("#") != -1) {
 			postId = loc.slice(loc.indexOf("#") + 1)
-			loadPost(postId)
+			loadPost(postId.split("")[0].toUpperCase() + postId.substring(1))
 		} else {
 			window.location.replace(window.location.href + "#Main_Page")
 		}
