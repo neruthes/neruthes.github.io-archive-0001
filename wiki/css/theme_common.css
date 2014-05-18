@@ -102,10 +102,11 @@ section.post > h2 > a {
 }
 
 .post-text > p {
+	text-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
 	margin: 17px 0;
 }
 
-.post-text > p > a {
+.post-text > p a {
 	color: #429CF2;
 	text-decoration: none;
 }
@@ -136,6 +137,14 @@ section.post > h2 > a {
 	max-width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.post-text div {
+	padding: 20px 35px;
+	margin: 0 60px;
+	background: rgba(255, 255, 255, 0.09);
+	border-left: 3px solid #429CF2;
+	border-right: 3px solid #429CF2;
 }
 
 footer.global {

@@ -1,0 +1,3 @@
+<div>
+This wiki is managed by [[Joy Neop]].
+</div>

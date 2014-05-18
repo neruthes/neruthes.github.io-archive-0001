@@ -30,8 +30,7 @@ function loadPost(pid) {
 	document.getElementById("wiki-h2-a").href = "#" + pid
 	document.title = pid.replace(/_/g, " ") + " — " + blogName
 
-	var raw = receivedPostText
-	var middle = raw
+	var middle = receivedPostText
 	while (middle.indexOf("\n\n\n") != -1) {
 		middle = middle.replace("\n\n\n", "\n\n")
 	}
@@ -42,8 +41,22 @@ function loadPost(pid) {
 	var preview = document.getElementById("wiki-text")
 	preview.innerHTML = ""
 	for (var i = 0; i < arr.length; i++) {
+		var wikiTemplates = arr[i] //.replace(/\{\{/g, '<iframe src="').replace(/\}\}/g, '></iframe')
+		while (wikiTemplates.indexOf("{{") != -1) {
+			var tempUrl = wikiTemplates.slice((wikiTemplates.indexOf("{{") + 2), wikiTemplates.indexOf("}}"))
+			var ajaxTemplate = new XMLHttpRequest()
+			ajaxTemplate.open("GET", "db/Template_" + tempUrl + ".txt", false)
+			ajaxTemplate.send()
+			var rawTemplateText = ajaxTemplate.responseText
+			wikiTemplates = wikiTemplates.replace("{{" + tempUrl, rawTemplateText).replace("}}", '')
+		}
+		var wikiLinks = wikiTemplates
+		while (wikiLinks.indexOf("[[") != -1) {
+			var linkUrl = wikiLinks.slice((wikiLinks.indexOf("[[") + 2), wikiLinks.indexOf("]]"))
+			wikiLinks = wikiLinks.replace("[[", '<a href="#' + linkUrl.replace(/ /g, "_") + '">').replace("]]", '</a>')
+		}
 		var p = document.createElement("p")
-		p.innerHTML = arr[i]
+		p.innerHTML = wikiLinks
 		preview.appendChild(p)
 	}
 }
@@ -60,7 +73,6 @@ function loadWiki() {
 			postId = loc.slice(loc.indexOf("#") + 1)
 			loadPost(postId)
 		} else {
-			// postId = "Main_Page"
 			window.location.replace(window.location.href + "#Main_Page")
 		}
 	}
