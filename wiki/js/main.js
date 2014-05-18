@@ -45,7 +45,7 @@ function loadPost(pid) {
 		while (wikiTemplates.indexOf("{{") != -1) {
 			var tempUrl = wikiTemplates.slice((wikiTemplates.indexOf("{{") + 2), wikiTemplates.indexOf("}}"))
 			var ajaxTemplate = new XMLHttpRequest()
-			ajaxTemplate.open("GET", "db/Template_" + tempUrl + ".txt", false)
+			ajaxTemplate.open("GET", "db/Template_" + tempUrl.replace(/ /g, "_") + ".txt", false)
 			ajaxTemplate.send()
 			var rawTemplateText = ajaxTemplate.responseText
 			wikiTemplates = wikiTemplates.replace("{{" + tempUrl, rawTemplateText).replace("}}", '')
