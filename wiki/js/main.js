@@ -20,6 +20,11 @@ Copyright info:
 var postId = "NULL"
 var blogName = ""
 var loc = "_"
+var ajaxMetaData = new XMLHttpRequest()
+ajaxMetaData.open("GET", "./meta.json", false)
+ajaxMetaData.send()
+var blogMetaData = JSON.parse(ajaxMetaData.responseText)
+blogName = blogMetaData.blogName
 
 function loadPost(pid) {
 	var ajaxContent = new XMLHttpRequest()
@@ -77,11 +82,6 @@ function loadPost(pid) {
 function loadWiki() {
 	if (loc != window.location.href) {
 		document.getElementById("cont").style.opacity = 0
-		var ajaxMetaData = new XMLHttpRequest()
-		ajaxMetaData.open("GET", "./meta.json", false)
-		ajaxMetaData.send()
-		var blogMetaData = JSON.parse(ajaxMetaData.responseText)
-		blogName = blogMetaData.blogName
 		loc = window.location.href
 		if (loc.indexOf("#") != -1) {
 			postId = loc.slice(loc.indexOf("#") + 1)

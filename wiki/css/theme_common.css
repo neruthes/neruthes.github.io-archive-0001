@@ -148,7 +148,7 @@ section.post > h2 > a {
 }
 
 footer.global {
-	font-family: 'Skia-Regular_Condensed', 'Ubuntu Condensed', Helvetica, Arial, sans-serif;
+	font-family: 'Skia-Regular_Condensed', 'Ubuntu Condensed', 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	color: #999;
 	letter-spacing: 2px;
