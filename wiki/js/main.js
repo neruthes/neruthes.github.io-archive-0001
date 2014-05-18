@@ -20,6 +20,7 @@ Copyright info:
 var postId = "NULL"
 var blogName = ""
 var loc = "_"
+// document.getElementsByTagName("body")[0].style.opacity = 0.3
 
 function loadPost(pid) {
 	var ajaxContent = new XMLHttpRequest()
@@ -73,10 +74,12 @@ function loadPost(pid) {
 		p.innerHTML = wikiLinks
 		preview.appendChild(p)
 	}
+	document.getElementsByTagName("body")[0].style.opacity = 1
 }
 
 function loadWiki() {
 	if (loc != window.location.href) {
+		document.getElementsByTagName("body")[0].style.opacity = 0.3
 		var ajaxMetaData = new XMLHttpRequest()
 		ajaxMetaData.open("GET", "./meta.json", false)
 		ajaxMetaData.send()
