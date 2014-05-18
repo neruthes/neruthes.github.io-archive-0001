@@ -20,7 +20,6 @@ Copyright info:
 var postId = "NULL"
 var blogName = ""
 var loc = "_"
-// document.getElementsByTagName("body")[0].style.opacity = 0.3
 
 function loadPost(pid) {
 	var ajaxContent = new XMLHttpRequest()
@@ -34,8 +33,7 @@ function loadPost(pid) {
 		ajaxNotFound.send()
 		var receivedPostText = ajaxNotFound.responseText
 	}
-	document.getElementById("wiki-h2-a").innerHTML = pid.replace(/_/g, " ")
-	document.getElementById("wiki-h2-a").href = "#" + pid
+	document.getElementById("wiki-h2").innerHTML = pid.replace(/_/g, " ")
 	document.title = pid.replace(/_/g, " ") + " — " + blogName
 
 	var middle = receivedPostText
@@ -49,11 +47,11 @@ function loadPost(pid) {
 	var preview = document.getElementById("wiki-text")
 	preview.innerHTML = ""
 	for (var i = 0; i < arr.length; i++) {
-		var wikiTemplates = arr[i] //.replace(/\{\{/g, '<iframe src="').replace(/\}\}/g, '></iframe')
+		var wikiTemplates = arr[i]
 		while (wikiTemplates.indexOf("{{") != -1) {
 			var tempUrl = wikiTemplates.slice((wikiTemplates.indexOf("{{") + 2), wikiTemplates.indexOf("}}"))
 			var ajaxTemplate = new XMLHttpRequest()
-			ajaxTemplate.open("GET", "db/Template_" + tempUrl.replace(/ /g, "_") + ".txt", false)
+			ajaxTemplate.open("GET", "tem/" + tempUrl.replace(/ /g, "_") + ".txt", false)
 			ajaxTemplate.send()
 			if (ajaxTemplate.status != 404) {
 				var rawTemplateText = ajaxTemplate.responseText
@@ -78,7 +76,7 @@ function loadPost(pid) {
 
 function loadWiki() {
 	if (loc != window.location.href) {
-		document.getElementsByTagName("body")[0].style.opacity = 0.3
+		document.getElementById("cont").style.opacity = 0
 		var ajaxMetaData = new XMLHttpRequest()
 		ajaxMetaData.open("GET", "./meta.json", false)
 		ajaxMetaData.send()
@@ -91,10 +89,9 @@ function loadWiki() {
 		} else {
 			window.location.replace(window.location.href + "#Main_Page")
 		}
-		document.getElementsByTagName("body")[0].style.opacity = 1
+		document.getElementById("cont").style.opacity = 1
 	}
 }
 
 loadWiki()
-
-var wikiReload = window.setInterval(loadWiki, 30)
+window.onhashchange = function () { loadWiki() }
