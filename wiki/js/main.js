@@ -29,7 +29,7 @@ function loadPost(pid) {
 		var receivedPostText = ajaxContent.responseText
 	} else {
 		var ajaxNotFound = new XMLHttpRequest()
-		ajaxNotFound.open("GET", "nw/Template_NeopWiki404.txt", false)
+		ajaxNotFound.open("GET", "nw/NeopWiki404.txt", false)
 		ajaxNotFound.send()
 		var receivedPostText = ajaxNotFound.responseText
 	}
@@ -58,7 +58,7 @@ function loadPost(pid) {
 				var rawTemplateText = ajaxTemplate.responseText
 			} else {
 				var ajaxNotFound = new XMLHttpRequest()
-				ajaxNotFound.open("GET", "nw/Template_NeopWiki404.txt", false)
+				ajaxNotFound.open("GET", "nw/NeopWiki404.txt", false)
 				ajaxNotFound.send()
 				var rawTemplateText = ajaxNotFound.responseText
 			}
