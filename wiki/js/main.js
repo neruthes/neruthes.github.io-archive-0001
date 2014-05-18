@@ -25,7 +25,14 @@ function loadPost(pid) {
 	var ajaxContent = new XMLHttpRequest()
 	ajaxContent.open("GET", "db/" + pid + ".txt", false)
 	ajaxContent.send()
-	var receivedPostText = ajaxContent.responseText
+	if (ajaxContent.status != 404) {
+		var receivedPostText = ajaxContent.responseText
+	} else {
+		var ajaxNotFound = new XMLHttpRequest()
+		ajaxNotFound.open("GET", "db/Template_NeopWiki404.txt", false)
+		ajaxNotFound.send()
+		var receivedPostText = ajaxNotFound.responseText
+	}
 	document.getElementById("wiki-h2-a").innerHTML = pid.replace(/_/g, " ")
 	document.getElementById("wiki-h2-a").href = "#" + pid
 	document.title = pid.replace(/_/g, " ") + " — " + blogName
@@ -47,7 +54,14 @@ function loadPost(pid) {
 			var ajaxTemplate = new XMLHttpRequest()
 			ajaxTemplate.open("GET", "db/Template_" + tempUrl.replace(/ /g, "_") + ".txt", false)
 			ajaxTemplate.send()
-			var rawTemplateText = ajaxTemplate.responseText
+			if (ajaxTemplate.status != 404) {
+				var rawTemplateText = ajaxTemplate.responseText
+			} else {
+				var ajaxNotFound = new XMLHttpRequest()
+				ajaxNotFound.open("GET", "db/Template_NeopWiki404.txt", false)
+				ajaxNotFound.send()
+				var rawTemplateText = ajaxNotFound.responseText
+			}
 			wikiTemplates = wikiTemplates.replace("{{" + tempUrl, rawTemplateText).replace("}}", '')
 		}
 		var wikiLinks = wikiTemplates
