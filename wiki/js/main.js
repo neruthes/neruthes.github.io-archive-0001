@@ -94,4 +94,4 @@ function loadWiki() {
 }
 
 loadWiki()
-window.onhashchange = function () { loadWiki() }
+window.onhashchange = loadWiki
