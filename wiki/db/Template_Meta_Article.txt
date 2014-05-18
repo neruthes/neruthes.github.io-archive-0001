@@ -1,0 +1,3 @@
+<div>
+This article is a [[meta-article]] on this wiki.
+</div>
