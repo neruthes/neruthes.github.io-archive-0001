@@ -6,9 +6,7 @@
 	<link rel="favicon shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" href="/joyneop.png">
 	<script type="text/javascript">
-	(function(){
-		console.log("I won't tell you that my blog is `http://joyneop.xyz/`");
-	})();
+	console.log("I won't tell you that my blog is `http://joyneop.github.io/`");
 	</script>
 	<style type="text/css">
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
@@ -21,7 +19,7 @@
 		margin: 0;
 		background: #272727;
 	}
-	.wonb, li.ok, li.no, p a:hover, .circles a {
+	.wonb, li.ok, p a:hover, .circles a {
 		text-shadow: rgba(0, 0, 0, 0.9) 0 1px 0;
 	}
 	.bonw, section h2, p, p a {
@@ -246,9 +244,10 @@
 		width: 160px;
 		height: 160px;
 		margin: 0;
-		background-color: rgba(255, 255, 255, 0.4);
-		background-size: cover;
-		text-shadow: none;
+	}
+	.matrix li img {
+		width: 100%;
+		height: 100%;
 	}
 	.list li {
 		text-align: left;
@@ -263,15 +262,6 @@
 		vertical-align: top;
 		text-decoration: none;
 	}
-	.list li a span {
-		position: relative;
-		top: -2px;
-		font-size: 0.77em;
-		color: #CCC;
-	}
-	.list li a span::after {
-		content: " @ ";
-	}
 	.list li:hover {
 		background-color: rgba(64, 64, 64, 0.9);
 		padding-left: 40px;
@@ -279,17 +269,18 @@
 	.link li:hover {
 	}
 	li.ok {
-		background: rgba(80, 200, 60, 0.5) right no-repeat scroll;
+		background: rgba(0, 0, 0, 0) right no-repeat scroll;
 	}
 	li.ok:hover {
-		background: rgba(89, 210, 70, 1) right no-repeat scroll;
+		background: rgba(80, 200, 60, 0.5) right no-repeat scroll;
 		background-image: url(http://joyneop.github.io/JN-Lab/other-images/ok.png);
 	}
 	li.no {
+		color: #777;
 		background: rgba(0, 0, 0, 0) right no-repeat scroll;
 	}
 	li.no:hover {
-		background: rgba(237, 98, 80, 1) right no-repeat scroll;
+		background: rgba(237, 98, 80, 0) right no-repeat scroll;
 		background-image: url(http://joyneop.github.io/JN-Lab/other-images/no.png);
 	}
 	.list li:hover {
@@ -319,6 +310,7 @@
 		color: #FFF;
 		text-align: center;
 		text-decoration: none;
+		text-shadow: inherit;
 		padding: 55px 0;
 		border-radius: 1000px;
 		opacity: 0;
@@ -367,15 +359,15 @@
 		<section id="work">
 			<h2>Portfolio</h2>
 			<ul class="matrix">
-				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x0.jpg);"></li>
-				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x2.jpg);"></li>
-				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x7.jpg);"></li>
-				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x8.jpg);"></li>
-				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0x9.jpg);"></li>
-				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0xa.jpg);"></li>
-				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0xb.jpg);"></li>
-				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0xd.jpg);"></li>
-				<li style="background-image: url(http://joyneop.github.io/JN-Lab/other-images/0xe.jpg);"></li>
+				<li><img src="http://joyneop.github.io/JN-Lab/other-images/0x0.jpg"></li>
+				<li><img src="http://joyneop.github.io/JN-Lab/other-images/0x2.jpg"></li>
+				<li><img src="http://joyneop.github.io/JN-Lab/other-images/0x7.jpg"></li>
+				<li><img src="http://joyneop.github.io/JN-Lab/other-images/0x8.jpg"></li>
+				<li><img src="http://joyneop.github.io/JN-Lab/other-images/0x9.jpg"></li>
+				<li><img src="http://joyneop.github.io/JN-Lab/other-images/0xa.jpg"></li>
+				<li><img src="http://joyneop.github.io/JN-Lab/other-images/0xb.jpg"></li>
+				<li><img src="http://joyneop.github.io/JN-Lab/other-images/0xd.jpg"></li>
+				<li><img src="http://joyneop.github.io/JN-Lab/other-images/0xe.jpg"></li>
 			</ul>
 		</section>
 		<section id="hire">
