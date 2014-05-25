@@ -63,6 +63,9 @@ function loadPost(pid) {
 		} else if (arr[i].indexOf("### ") == 0) {
 			p = document.createElement("h5")
 			wikiHeading = wikiHeading.replace("### ", "")
+		} else if (arr[i].indexOf("---") == 0 || arr[i].indexOf("* * *") == 0) {
+			p = document.createElement("hr")
+			wikiHeading = ""
 		} else {
 			p = document.createElement("p")
 		}
