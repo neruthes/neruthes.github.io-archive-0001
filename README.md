@@ -1,1 +1,1 @@
-# Hello
+Hello, dear visitor. If you are reading this, you may have already known some about me.
