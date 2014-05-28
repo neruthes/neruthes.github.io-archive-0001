@@ -23,7 +23,7 @@
 	} else {
 		corner = "bottom: 15px; right: 15px;";
 	}
-	var preStyle = "#" + divId + " { position: " + position + "; " + corner + " max-width: 360px; font-size: 15px; } #" + divId + " span * { color: inherit; text-decoration: inherit; }";
+	var preStyle = "#" + divId + " { position: " + position + "; " + corner + " max-width: 360px; font-size: 15px; font-weight: 300; } #" + divId + " span * { color: inherit; text-decoration: inherit; }";
 	var es = "#JNALERTDIVID span:last-child { display: none; } #JNALERTDIVID:hover { opacity: 1; } #JNALERTDIVID:hover span:first-child { display: none; } #JNALERTDIVID:hover span:last-child { display: inline; }";
 	extraStyle = es.replace(/JNALERTDIVID/g, divId);
 	var styleTag = document.createElement("style");
