@@ -24,7 +24,7 @@
 		// if (quadrant == 4)
 		corner = "bottom: 15px; right: 15px;";
 	}
-	var preStyle = "#" + divId + " { position: " + position + "; " + corner + " z-index: 9999; box-sizing: border-box; max-width: 378px; font-size: 15px; font-weight: 400; } #" + divId + " span * { color: inherit; text-decoration: inherit; }";
+	var preStyle = "#" + divId + " { position: " + position + "; " + corner + " z-index: 9999; box-sizing: border-box; max-width: 390px; font-size: 15px; font-weight: 400; } #" + divId + " span * { color: inherit; text-decoration: inherit; }";
 	var es = "#JNALERTDIVID span:last-child { display: none; } #JNALERTDIVID:hover { opacity: 1; } #JNALERTDIVID:hover span:first-child { display: none; } #JNALERTDIVID:hover span:last-child { display: inline; }";
 	extraStyle = es.replace(/JNALERTDIVID/g, divId);
 	var styleTag = document.createElement("style");
