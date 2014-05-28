@@ -41,4 +41,4 @@
 	div.appendChild(s1);
 	div.appendChild(s2);
 	document.body.appendChild(div);
-})("I'm seeking 2015 summer internship...", "<a href='http://neopstudio.github.io/resume/' target='_blank'>Does your company have an internship program? Maybe I can be one in your company this summer? Click here to see my resume, thanks : )</a>", 4, "absolute");
+})("Hi, I'm seeking 2015 summer internship...", "<a href='http://neopstudio.github.io/resume/' target='_blank'>Does your company have an internship program? Maybe I can be one in your company this summer? Click here to see my resume, thanks : )</a>", 4, "absolute");
