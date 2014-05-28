@@ -40,4 +40,4 @@
 	div.appendChild(s1);
 	div.appendChild(s2);
 	document.body.appendChild(div);
-})("I'm seeking 2015 summer internship...", "<a href='http://neopstudio.github.io/resume/'>Does your company have a internship program? Maybe I can be one in your company this summer? Click here to see my resume, thanks : )</a>", 1, "absolute", "color: #FDFDFD; padding: 8px 14px; background: rgba(0, 0, 0, 0.55); border-radius: 3px; box-shadow: rgba(0, 0, 0, 0.35) 0 2px 10px; opacity: 0.7");
+})("I'm seeking 2015 summer internship...", "<a href='http://neopstudio.github.io/resume/'>Does your company have an internship program? Maybe I can be one in your company this summer? Click here to see my resume, thanks : )</a>", 1, "absolute", "color: #FDFDFD; padding: 8px 14px; background: rgba(0, 0, 0, 0.55); border-radius: 3px; box-shadow: rgba(0, 0, 0, 0.35) 0 2px 10px; opacity: 0.7");
