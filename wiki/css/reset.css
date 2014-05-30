@@ -25,18 +25,15 @@ body {
 }
 
 header.global {
-	padding-top: 50px;
-	margin-top: 0;
-	margin-bottom: 0;
+	padding: 0;
+	margin: 0;
 }
 
 footer.global {
 	font-size: 15px;
 	line-height: 22px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	margin-top: 0;
-	margin-bottom: 0;
+	padding: 50px 0 50px;
+	margin-top: 0 auto 0;
 }
 
 h1 {
@@ -60,8 +57,7 @@ h1 {
 
 section.post, .comment-container {
 	padding: 20px 60px 45px;
-	margin-top: 30px;
-	margin-bottom: 80px;
+	margin: 30px auto 80px;
 }
 
 section.post h2 {
@@ -101,10 +97,7 @@ aside.sidebar {
 
 blockquote, pre {
 	width: 80%;
-	margin-top: 18px;
-	margin-bottom: 18px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 18px auto;
 }
 
 blockquote cite {
@@ -112,7 +105,7 @@ blockquote cite {
 }
 
 section.post > footer {
-	margin-top: 30px;
+	margin: 30px 0 0;
 }
 
 nav.prevandnext {

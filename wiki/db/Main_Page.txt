@@ -2,8 +2,12 @@
 
 # Hello
 
-What do you get if you multiply [[Joy Neop]] by [[Eden Liu]]?
+> What do you get if you multiply [[Joy Neop]] by [[Eden Liu]]?
 
-## Lipsum
+## Lorem ipsum
 
-I jump over the fox; it doesn't hurt me.
+I jump over the lazy dog; it doesn't hurt me.
+
+## Code
+
+ (NSLog (@ 'Hello world!'))

@@ -54,18 +54,24 @@ function loadPost(pid) {
 	for (var i = 0; i < arr.length; i++) {
 		var p
 		var wikiHeading = arr[i]
-		if (arr[i].indexOf("# ") == 0) {
+		if (wikiHeading.indexOf("# ") == 0) {
 			p = document.createElement("h3")
 			wikiHeading = wikiHeading.replace("# ", "")
-		} else if (arr[i].indexOf("## ") == 0) {
+		} else if (wikiHeading.indexOf("## ") == 0) {
 			p = document.createElement("h4")
 			wikiHeading = wikiHeading.replace("## ", "")
-		} else if (arr[i].indexOf("### ") == 0) {
+		} else if (wikiHeading.indexOf("### ") == 0) {
 			p = document.createElement("h5")
 			wikiHeading = wikiHeading.replace("### ", "")
-		} else if (arr[i].indexOf("---") == 0 || arr[i].indexOf("* * *") == 0) {
+		} else if (wikiHeading.indexOf("---") == 0 || wikiHeading.indexOf("* * *") == 0) {
 			p = document.createElement("hr")
 			wikiHeading = ""
+		} else if (wikiHeading.indexOf(" ") == 0) {
+			p = document.createElement("pre")
+			wikiHeading = wikiHeading.slice(1)
+		} else if (wikiHeading.indexOf("> ") == 0) {
+			p = document.createElement("blockquote")
+			wikiHeading = wikiHeading.slice(2)
 		} else {
 			p = document.createElement("p")
 		}

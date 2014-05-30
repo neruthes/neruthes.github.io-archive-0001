@@ -2,12 +2,12 @@
 Theme designed for NeopBlog
 ------------------------------------------
 Theme meta info:
-	Theme Name: Clearity
+	Theme Name: Frontblue
 	Theme Version: 0.9.0
 	Theme status: Beta
 ------------------------------------------
 File meta info:
-	File Name: theme_desktop.css
+	File Name: theme_mobile.css
 	File Version: 0.9.0
 	File status: Beta
 ------------------------------------------
@@ -20,48 +20,41 @@ Copyright info:
 	All rights reserved.
 ----------------------------------------*/
 
-@media screen and (min-width: 1100px) {
+@media screen and (max-width: 1099px) {
 	.global {
 		text-align: left;
-		margin-bottom: 30px;
+		margin: 60px 0;
+		padding: 20px 60px 0;
 	}
 
 	#global-header {
-		padding-top: 10px;
-	}
-
-	#global-header > * {
-		max-width: 600px;
-		margin-left: auto;
-		margin-right: auto;
+		padding-top: 50px;
 	}
 	
 	.global h1 {
 		font-size: 40px;
+		text-align: left;
 		margin: 35px 0;
 	}
 	
 	.global h2 {
 		font-size: 18px;
+		text-align: left;
 		margin: 15px 0;
 	}
 
 	#global-footer {
-		max-width: 600px;
-		padding: 50px;
-		margin-left: auto;
-		margin-right: auto;
 	}
 
 	div#cont.cont {
-		width: 740px;
-		margin: 10px auto;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin: 60px 20px;
 	}
 	
 	section.post {
-		width: 600px;
-		margin-left: auto;
-		margin-right: auto;
+		margin: 30px 0 80px;
+		padding: 20px 30px 60px;
 	}
 
 	section.addon {
@@ -70,23 +63,6 @@ Copyright info:
 	}
 
 	.post-text > img {
-		max-width: 600px;
-	}
-
-	section.post footer {
-		transition: all 200ms ease;
-	}
-
-	section.post footer:hover {
-		color: #EEE;
-	}
-
-	nav.prevandnext {
-		max-width: 600px;
-		margin: 0 auto;
-	}
-	.comment-container {
-		width: 600px;
-		margin: 30px auto 80px auto;
+		max-width: 100%;
 	}
 }
