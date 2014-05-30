@@ -3,12 +3,13 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Joy Neop</title>
-	<link rel="shortcut icon favicon" href="http://joyneop.github.io/favicon.ico"/>
-	<link rel="apple-touch-icon" href="http://joyneop.github.io/joyneop.png"/>
+	<link rel="shortcut icon favicon" href="/favicon.ico"/>
+	<link rel="apple-touch-icon" href="/joyneop.png"/>
 	<style type="text/css">
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 	* {
-		font-family: 'Courier' 'Menlo', 'Monaco', Ubuntu, Consolas, Arial, sans-serif;
+		font-family: Myriad Pro, Myriad Apple, Myriad, Myriad Set, 'Open Sans', Helvetica, Ubuntu, Arial, sans-serif;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
 		-webkit-transition: all 600ms ease;
 		-moz-transition: all 600ms ease;
 		transition: all 600ms ease;
@@ -16,8 +17,15 @@
 	body {
 		color: #FFF;
 		margin: 0 0 0 0;
-		background: #333;
+		background: #2D6CA3 url(http://joyneop.github.io/JN-Lab/other-images/glow.jpg) center fixed no-repeat;
+		background-size: cover;
 		overflow: hidden;
+	}
+	@media screen and (min-width: 1920px) {
+		body {
+			background: #2D6CA3 url(http://joyneop.github.io/JN-Lab/other-images/glow-2400.jpg) center fixed no-repeat;
+			background-size: cover;
+		}
 	}
 	#bg {
 		position: fixed;
@@ -28,6 +36,7 @@
 		height: 500px;
 		margin-top: -250px;
 		margin-left: -340px;
+		background: url(http://joyneop.github.io/JN-Lab/other-images/jn-opacity-460.png) center no-repeat scroll;
 		background-size: contain;
 		opacity: 0;
 		z-index: 80;
@@ -79,8 +88,9 @@
 		width: 180px;
 		padding: 0;
 		margin: 35px;
-		box-sizing: border-box;
-		background: none;
+		background: rgba(0, 0, 0, 0.32);
+		box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+		border-radius: 200px;
 		opacity: 0;
 		cursor: pointer;
 		overflow: visible;
@@ -89,39 +99,11 @@
 		-moz-transition: all 300ms ease;
 		transition: all 300ms ease;
 	}
-	#nav-blog {
-		background: rgba(199, 182, 90, 0);
-		border-bottom: 8px solid rgb(199, 182, 90);
-	}
-	#nav-blog:hover {
-		background: rgba(199, 182, 90, 1);
-	}
-	#nav-lab {
-		background: rgba(73, 137, 227, 0);
-		border-bottom: 8px solid rgb(73, 137, 227);
-	}
-	#nav-lab:hover {
-		background: rgba(73, 137, 227, 1);
-	}
-	#nav-about {
-		background: rgba(253, 161, 46, 0);
-		border-bottom: 8px solid rgb(253, 161, 46);
-	}
-	#nav-about:hover {
-		background: rgba(253, 161, 46, 1);
-	}
-	#nav-links {
-		background: rgba(109, 108, 101, 0);
-		border-bottom: 8px solid rgb(109, 108, 101);
-	}
-	#nav-links:hover {
-		background: rgba(109, 108, 101, 1);
-	}
 	.circle:hover {
 		height: 210px;
 		width: 210px;
 		margin: 20px;
-		border: none;
+		box-shadow: 0 0 28px rgba(0, 0, 0, 0.4);
 	}
 	.circle-in {
 		display: block;
@@ -131,30 +113,48 @@
 		padding-left: auto;
 		padding-right: auto;
 		margin: 0;
+		box-shadow: inset 0 0 18px rgba(255, 255, 255, 0.4);
+		border-radius: 105px;
 		cursor: pointer;
-		opacity: 1;
-		overflow: visible;
+		overflow: hidden;
 		-webkit-transition: all 300ms ease;
 		-moz-transition: all 300ms ease;
 		transition: all 300ms ease;
 	}
 	.circle-in:hover {
-		opacity: 1;
+		box-shadow: inset 0 0 44px rgba(255, 255, 255, 1);
 	}
 	.circle a {
 		display: block;
 	}
+	#nav-blog-in {
+		background: url(http://joyneop.github.io/JN-Lab/other-images/nav-blog.jpg) scroll center;
+		background-size: 210px;
+	}
+	#nav-lab-in {
+		background: rgb(177, 206, 277) scroll center;
+		background-image: linear-gradient(rgb(31, 97, 190), rgb(177, 206, 227));
+	}
+	#nav-about-in {
+		background: #ffdb29 scroll center;
+		background-image: linear-gradient(rgb(255, 138, 5), rgb(255, 219, 41));
+	}
+	#nav-links-in {
+		background: url(http://joyneop.github.io/JN-Lab/other-images/nav-links.jpg) scroll center;
+		background-size: 210px;
+	}
 	.circle-in h2 {
 		position: relative;
-		top: 130px;
+		top: 280px;
 		height: 40px;
 		font-size: 34px;
 		font-weight: normal;
-		color: rgba(240, 240, 240, 1);
+		color: rgba(240, 240, 240, 0);
 		text-align: center;
+		text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 		padding: 0;
 		margin: 0;
-		opacity: 0.8;
+		opacity: 0;
 		-webkit-transition: all 300ms ease;
 		-moz-transition: all 300ms ease;
 		transition: all 300ms ease;
@@ -186,11 +186,13 @@
 		font-weight: normal;
 		height: 220px;
 		width: 500px;
-		padding: 50px 32px;
+		padding: 50px 40px;
 		margin-top: -90px;
-		margin-left: -290px;
-		background: #4C4C4C;
-		border: 8px solid #999;
+		margin-left: -291px;
+		background: rgba(0, 0, 0, 0.45);
+		box-shadow: 0 0 28px rgba(0, 0, 0, 0.5);
+		border: 1px solid rgba(0, 0, 0, 0.03);
+		border-radius: 4px;
 		overflow-y: scroll;
 		z-index: 913;
 	}
@@ -203,6 +205,7 @@
 	.box p {
 		font-size: 18px;
 		line-height: 33px;
+		text-align: center;
 		margin: 20px 0 20px 0;
 	}
 	#links-list {
@@ -219,7 +222,7 @@
 		margin-top: 0;
 	}
 	ul.border-top {
-		border-top: 8px solid #333;
+		border-top: 1px solid rgba(255, 255, 255, 0.4);
 		margin-top: 40px;
 	}
 	li {
@@ -229,16 +232,6 @@
 		font-weight: normal;
 		text-align: center;
 		margin: 14px 30px;
-	}
-	#jn-grid-cont {
-		position: fixed;
-		top: 50%;
-		left: 50%;
-		width: 480px;
-		height: 330px;
-		overflow: hidden;
-		margin: -200px 0 0 -240px;
-		z-index: 10;
 	}
 	</style>
 	<script type="text/javascript">
@@ -263,7 +256,7 @@
 		var t4 = setTimeout('show("nav-links");', 600);
 	}
 	function load() {
-		showC1();
+		var ta = setTimeout('show("bg"); showC1();', 600);
 	}
 	function showLinks() {
 		if (sw3 == 0) {
@@ -297,7 +290,6 @@
 	</script>
 </head>
 <body onload="load()">
-	<div id="jn-grid-cont"></div>
 	<h1 id="bg"><a href="/"></a></h1>
 	<div id="navbar">
 		<div class="circle-out c1">
@@ -417,30 +409,9 @@
 	</div>
 	<footer>&copy; Copyright 2014 All Rights Reserved by Joy Neop</footer>
 	<script type="text/javascript">
-	(function(info){
-		var columns = info.columns;
-		var a = 30;
-		var lines = 11;
-		var cssText = "#jn-grid-cont div { float: left; width: " + a + "px; height: " + a + "px; background: " + info.colors[0] + "; }";
-		if (document.getElementById("dyn") == null) {
-			var st = document.createElement("style");
-			st.setAttribute("id", "dyn");
-			st.appendChild(document.createTextNode(cssText));
-			document.getElementsByTagName("head")[0].appendChild(st);
-		} else {
-			document.getElementById("dyn").innerHTML = cssText;
-		}
-		for (var i = 0; i < lines*columns; i++) {
-			var div = document.createElement("div");
-			div.setAttribute("class", "block");
-			document.getElementById("jn-grid-cont").appendChild(div);
-		}
-		for (var i = 0; i < info.seq.length; i++) {
-			document.getElementById("jn-grid-cont").getElementsByTagName("div")[i].style.backgroundColor = info.colors[info.seq[i]];
-		}
-	})({"seq":[0,0,0,1,2,2,0,0,0,2,1,0,0,1,2,2,0,0,0,0,1,2,0,0,0,2,2,1,0,0,1,2,0,0,0,0,0,2,0,0,0,2,2,2,0,0,0,2,0,0,0,0,0,2,0,0,0,2,0,2,1,0,0,2,0,0,0,0,0,2,0,0,0,2,0,2,2,0,0,2,0,0,0,0,0,2,0,0,0,2,0,0,2,0,0,2,0,0,0,0,0,2,0,0,0,2,0,0,2,2,0,2,0,0,0,0,0,2,0,0,0,2,0,0,1,2,0,2,2,2,1,0,0,2,0,0,0,2,0,0,0,2,2,2,2,1,0,0,0,2,0,0,0,2,1,0,0,1,2,2,2,2,2,2,2,2,0,0,0,2,2,1,0,0,1,2],"columns":16,"colors":["#333333","#999999","#FFFFFF"]});
 	var end = setTimeout('load();', 1000);
 	</script>
 	<script type="text/javascript" src="http://joyneop.github.io/jn-analy-personal.js"></script>
+	<script type="text/javascript" src="http://joyneop.github.io/jn-alert-view.js"></script>
 </body>
 </html>
