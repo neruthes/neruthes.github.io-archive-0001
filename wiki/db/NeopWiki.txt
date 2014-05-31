@@ -1,0 +1,3 @@
+{{Beta}}
+
+NeopWiki is a lightweight static wiki CMS derived from [[NeopBlog]], both named after [[Joy Neop]]. Now you are viewing a website organized with NeopWiki.

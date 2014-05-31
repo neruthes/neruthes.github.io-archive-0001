@@ -94,26 +94,22 @@
 	</style>
 	<script type="text/javascript">
 	// © Copyright 2014 All Rights Reserved by Joy Neop || Website: http://neop.me || Email: i@joyneop.com
-	var tempRaw = ""
 	function JNUpdatePreview() {
 		var raw = document.getElementById("text").value
 		var middle = raw
-		if (tempRaw != raw) {
-			while (middle.indexOf("\n\n") != -1) {
-				middle = middle.replace("\n\n", "\n")
-			}
-			while (middle.indexOf("\n") == 0) {
-				middle = middle.replace("\n", "")
-			}
-			var arr = middle.split("\n")
-			var preview = document.getElementById("preview")
-			preview.innerHTML = null
-			for (var i = 0; i < arr.length; i++) {
-				var p = document.createElement("p")
-				p.innerHTML = "<span>&lt;p&gt;</span>" + arr[i] + "<span>&lt;/p&gt;</span>"
-				preview.appendChild(p)
-			}
-			tempRaw = raw
+		while (middle.indexOf("\n\n") != -1) {
+			middle = middle.replace("\n\n", "\n")
+		}
+		while (middle.indexOf("\n") == 0) {
+			middle = middle.replace("\n", "")
+		}
+		var arr = middle.split("\n")
+		var preview = document.getElementById("preview")
+		preview.innerHTML = null
+		for (var i = 0; i < arr.length; i++) {
+			var p = document.createElement("p")
+			p.innerHTML = "<span>&lt;p&gt;</span>" + arr[i] + "<span>&lt;/p&gt;</span>"
+			preview.appendChild(p)
 		}
 	}
 	</script>

@@ -1,13 +1,11 @@
 {{Owner}}
 
-# Hello
-
 > What do you get if you multiply [[Joy Neop]] by [[Eden Liu]]?
 
-## Lorem ipsum
+# Hello
 
 I jump over the lazy dog; it doesn't hurt me.
 
-## Code
+Now testing use this [[NeopWiki|wiki]] as a [[blog]].
 
  (NSLog (@ 'Hello world!'))

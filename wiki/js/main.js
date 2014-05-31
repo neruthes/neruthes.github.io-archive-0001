@@ -38,8 +38,8 @@ function loadPost(pid) {
 		ajaxNotFound.send()
 		var receivedPostText = ajaxNotFound.responseText
 	}
-	document.getElementById("wiki-h2").innerHTML = pid.replace(/_/g, " ")
-	document.title = pid.replace(/_/g, " ") + " — " + blogName
+	document.getElementById("wiki-h2").innerHTML = decodeURI(pid.replace(/_/g, " "))
+	document.title = decodeURI(pid.replace(/_/g, " ") + " — " + blogName)
 
 	var middle = receivedPostText
 	while (middle.indexOf("\n\n\n") != -1) {
@@ -72,6 +72,14 @@ function loadPost(pid) {
 		} else if (wikiHeading.indexOf("> ") == 0) {
 			p = document.createElement("blockquote")
 			wikiHeading = wikiHeading.slice(2)
+		} else if (wikiHeading.indexOf("- ") == 0) {
+			p = document.createElement("ul")
+			var list = wikiHeading.split("\n")
+			wikiHeading = ""
+			for (var j = 0; j < list.length; j++) {
+				list[j] = list[j].slice(2)
+				wikiHeading = wikiHeading + "<li>" + list[j] + "</li>"
+			}
 		} else {
 			p = document.createElement("p")
 		}
@@ -94,7 +102,13 @@ function loadPost(pid) {
 		var wikiLinks = wikiTemplates
 		while (wikiLinks.indexOf("[[") != -1) {
 			var linkUrl = wikiLinks.slice((wikiLinks.indexOf("[[") + 2), wikiLinks.indexOf("]]"))
-			wikiLinks = wikiLinks.replace("[[", '<a href="#' + linkUrl.replace(/ /g, "_") + '">').replace("]]", '</a>')
+			if (linkUrl.indexOf("|") == -1) {
+				wikiLinks = wikiLinks.replace("[[", '<a href="#' + linkUrl.replace(/ /g, "_") + '">').replace("]]", '</a>')
+			} else {
+				var wikiLinkText = wikiLinks.slice(wikiLinks.indexOf("|") + 1, wikiLinks.indexOf("]]"))
+				var wikiLinkHref = wikiLinks.slice(wikiLinks.indexOf("[[") + 2, wikiLinks.indexOf("|"))
+				wikiLinks = wikiLinks.replace("[[", '<a href="#' + wikiLinkHref.replace(/ /g, "_") + '">').replace(wikiLinkHref + "|" + wikiLinkText + "]]", wikiLinkText + '</a>')
+			}
 		}
 		p.innerHTML = wikiLinks
 		wikiText.appendChild(p)
@@ -102,7 +116,7 @@ function loadPost(pid) {
 }
 
 function loadWiki() {
-	document.getElementById("cont").style.display = "none"
+	scrollTo(0, 0)
 	loc = window.location.href
 	if (loc.indexOf("#") != -1) {
 		postId = loc.slice(loc.indexOf("#") + 1)
@@ -110,7 +124,6 @@ function loadWiki() {
 	} else {
 		window.location.replace(window.location.href + "#Main_Page")
 	}
-	document.getElementById("cont").style.display = "block"
 }
 
 loadWiki()

@@ -32,8 +32,8 @@ header.global {
 footer.global {
 	font-size: 15px;
 	line-height: 22px;
-	padding: 50px 0 50px;
-	margin-top: 0 auto 0;
+	padding: 50px 0;
+	margin: 0 auto;
 }
 
 h1 {
@@ -51,38 +51,39 @@ h1 {
 	text-decoration: none;
 }
 
-#cont {
+.cont {
 	margin: 60px 0;
 }
 
-section.post, .comment-container {
+.post, .comment-container {
 	padding: 20px 60px 45px;
 	margin: 30px auto 80px;
 }
 
-section.post h2 {
+.post h2 {
 	font-size: 27px;
 	margin: 19px 0 22px;
 }
 
-section.post h3 {
+.post h3 {
 	font-size: 26px;
 }
 
-section.post h4 {
+.post h4 {
 	font-size: 20px;
 }
 
-section.post h5 {
+.post h5 {
 	font-size: 17px;
 }
 
 p {
 	font-size: 17px;
 	margin: 18px 0;
+	overflow: auto;
 }
 
-section.post footer {
+.post footer {
 	font-size: 16px;
 	margin: 40px 0 0;
 }
@@ -95,6 +96,10 @@ aside.sidebar {
 	margin: 18px auto;
 }
 
+.post-text img {
+	max-width: 100%;
+}
+
 blockquote, pre {
 	width: 80%;
 	margin: 18px auto;
@@ -104,32 +109,32 @@ blockquote cite {
 	padding: 0 8px;
 }
 
-section.post > footer {
+.post > footer {
 	margin: 30px 0 0;
 }
 
-nav.prevandnext {
+.prevandnext {
 	height: 50px;
 	padding: 30px 0;
 }
 
-nav.prevandnext span {
+.prevandnext span {
 	display: block;
 	width: 40%;
 	height: 40px;
 }
 
-nav.prevandnext a {
+.prevandnext a {
 	font-size: 15px;
 	visibility: hidden;
 }
 
-nav.prevandnext span.prev {
+.prevandnext span.prev {
 	float: left;
 	text-align: left;
 }
 
-nav.prevandnext span.next {
+.prevandnext span.next {
 	float: right;
 	text-align: right;
 }
