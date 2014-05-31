@@ -21,13 +21,13 @@ Copyright info:
 ----------------------------------------*/
 
 @media screen and (min-width: 1100px) {
-	.global {
+	header.global, footer.global {
 		text-align: left;
 		margin-bottom: 30px;
 	}
 
 	#global-header {
-		padding-top: 10px;
+		padding: 10px 60px 30px;
 	}
 
 	#global-header > * {
@@ -53,18 +53,18 @@ Copyright info:
 		margin-right: auto;
 	}
 
-	div#cont.cont {
+	.cont {
 		width: 740px;
 		margin: 10px auto;
 	}
 	
-	section.post {
-		width: 600px;
+	.post {
+		width: 620px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-	section.addon {
+	.addon {
 		display: none;
 		visibility: hidden;
 	}
@@ -73,15 +73,15 @@ Copyright info:
 		max-width: 600px;
 	}
 
-	section.post footer {
+	.post footer {
 		transition: all 200ms ease;
 	}
 
-	section.post footer:hover {
+	.post footer:hover {
 		color: #EEE;
 	}
 
-	nav.prevandnext {
+	.prevandnext {
 		max-width: 600px;
 		margin: 0 auto;
 	}

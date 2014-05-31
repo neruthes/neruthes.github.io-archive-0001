@@ -47,7 +47,7 @@ h3, h4, h5, h6 {
 
 header.global {
 	color: #444;
-	padding-bottom: 10px;
+	padding: 10px 60px 30px;
 	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 5px;
 }
 
@@ -76,13 +76,13 @@ p em {
 	text-decoration: none;
 }
 
-section.post {
+.post {
 	padding-top: 0;
 	background-size: 100px;
 	border-radius: 4px;
 }
 
-section.post > h2 {
+.post > h2 {
 	position: relative;
 	left: -20px;
 	font-size: 25px;
@@ -90,11 +90,11 @@ section.post > h2 {
 	margin: 12px 0 24px;
 }
 
-section.post > h2::before {
+.post > h2::before {
 	content: "> ";
 }
 
-section.post > h2 > a {
+.post > h2 > a {
 	color: #429CF2;
 	text-decoration: none;
 }
