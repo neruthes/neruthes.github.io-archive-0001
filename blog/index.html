@@ -10,11 +10,28 @@
 	<link rel="stylesheet" type="text/css" href="css/personal.css">
 	<link rel="favicon shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" href="/joyneop.png">
+	<style type="text/css">
+	#bg2x {
+		position: fixed;
+		top: -10px;
+		left: -10px;
+		width: 1px;
+		height: 1px;
+		opacity: 0;
+	}
+	</style>
 	<script type="text/javascript" src="js/func.js"></script>
 	<script type="text/javascript">
-	function load() {
+	function retinaDidLoad() {
+		document.getElementById("body").style.backgroundImage = "url(css/bg2.jpg)"
+	}
+	function docDidLoad() {
 		if (window.innerWidth * window.devicePixelRatio >= 1920) {
-			document.getElementById("body").style.backgroundImage = "url(css/bg2.jpg)"
+			var img = document.createElement("img")
+			img.setAttribute("id", "bg2x")
+			img.setAttribute("src", "css/bg2.jpg")
+			img.setAttribute("onload", "retinaDidLoad()")
+			document.body.appendChild(img)
 		}
 	}
 	</script>
@@ -37,7 +54,6 @@
 	<footer id="global-footer" class="global">
 		<a href="/">&copy; Copyright 2014 All Rights Reserved by Joy Neop</a>
 	</footer>
-	<img src="css/bg2.jpg" id="bg2x" style="display: none;"; onload="load();">
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="http://joyneop.github.io/jn-analy-personal.js"></script>
 </body>
