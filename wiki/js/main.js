@@ -116,7 +116,6 @@ function loadPost(pid) {
 }
 
 function loadWiki() {
-	scrollTo(0, 0)
 	loc = window.location.href
 	if (loc.indexOf("#") != -1) {
 		postId = loc.slice(loc.indexOf("#") + 1)
@@ -124,6 +123,7 @@ function loadWiki() {
 	} else {
 		window.location.replace(window.location.href + "#Main_Page")
 	}
+	scrollTo(0, 0)
 }
 
 loadWiki()
