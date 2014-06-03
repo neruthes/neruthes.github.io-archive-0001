@@ -16,6 +16,7 @@
 	var sizeText = [ "width: " + size[0] + "px; height: " + size[1] + "px; ", "width: " + size[2] + "px; height: " + size[3] + "px; "];
 	var ran = Math.round(Math.random()*200)+500;
 	var divId = "jn-alert-" + ran;
+	window.jnalert.divId = "jn-alert-" + ran;
 	var styleText = "#" + divId + " { " + style + " }";
 	var corner;
 	if (quadrant == 1) {
@@ -28,7 +29,7 @@
 		// if (quadrant == 4)
 		corner = "bottom: 15px; right: 15px;";
 	}
-	var preStyle = "#" + divId + " { position: " + position + "; " + corner + sizeText[0] + " z-index: 9999; box-sizing: border-box; max-width: 390px; font-size: 15px; overflow: hidden; font-weight: 400; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; transition: all 300ms ease; } #" + divId + " span * { color: inherit; text-decoration: inherit; }";
+	var preStyle = "#" + divId + " { position: " + position + "; " + corner + sizeText[0] + " z-index: 9999; box-sizing: border-box; max-width: 390px; font-size: 15px; overflow: hidden; font-weight: 400; opacity: 0.2; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; transition: all 300ms ease; } #" + divId + " span * { color: inherit; text-decoration: inherit; }";
 	var es = "#JNALERTDIVID span:last-child { display: none; } #JNALERTDIVID:hover { opacity: 1; " + sizeText[1] + " } #JNALERTDIVID:hover span:first-child { display: none; } #JNALERTDIVID:hover span:last-child { display: inline; }";
 	extraStyle = es.replace(/JNALERTDIVID/g, divId);
 	var styleTag = document.createElement("style");
@@ -45,4 +46,14 @@
 	div.appendChild(s1);
 	div.appendChild(s2);
 	document.body.appendChild(div);
+
+	// Time
+	window.jnalert.show = function () {
+		document.getElementById(window.jnalert.divid).style.opacity = "1";
+	};
+	window.jnalert.dim = function () {
+		document.getElementById(window.jnalert.divid).style.opacity = "0.2";
+	};
+	window.setTimeout(window.jnalert.show, 4);
+	window.setTimeout(window.jnalert.dim, 3000);
 })("Hi, I'm seeking 2015 summer internship...", "<a href='http://neopstudio.github.io/resume/' target='_blank'>Does your company have an internship program? Maybe I can be one in your company this summer? Click here to see my resume, thanks : )</a>", 1, "absolute", null, [ 317, 32, 390, 72 ]);
