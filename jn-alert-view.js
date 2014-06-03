@@ -14,9 +14,8 @@
 
 	// CSS
 	var sizeText = [ "width: " + size[0] + "px; height: " + size[1] + "px; ", "width: " + size[2] + "px; height: " + size[3] + "px; "];
-	var ran = Math.round(Math.random()*200)+500;
-	var divId = "jn-alert-" + ran;
-	window.jnalert.divId = "jn-alert-" + ran;
+	var divId = "jn-alert-3389";
+	window.jnalert.divId = "jn-alert-3389";
 	var styleText = "#" + divId + " { " + style + " }";
 	var corner;
 	if (quadrant == 1) {
