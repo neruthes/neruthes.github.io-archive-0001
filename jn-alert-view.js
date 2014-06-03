@@ -1,4 +1,6 @@
 (function(alert, text, quadrant, position, style, size){
+	window.jnalert = {};
+
 	if (quadrant == undefined || quadrant == null) {
 		quadrant = 1;
 	}
