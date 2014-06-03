@@ -8,7 +8,7 @@
 		position = "absolute";
 	}
 	if (style == undefined || style == null) {
-		style = "color: #FAFAFA; padding: 6px 14px; background: rgba(0, 0, 0, 0.273); border-radius: 3px; opacity: 1;";
+		style = "color: #FAFAFA; padding: 6px 14px; background: rgba(0, 0, 0, 0.173); border-radius: 3px; opacity: 1;";
 	}
 	if (size == undefined || size == null) {
 		size = [ 320, 32, 362, 60 ];
@@ -30,11 +30,13 @@
 		// if (quadrant == 4)
 		corner = "bottom: 15px; right: 15px;";
 	}
-	var preStyle = "#" + divId + " { position: " + position + "; " + corner + sizeText[0] + " z-index: 9999; box-sizing: border-box; max-width: 390px; font-size: 15px; overflow: hidden; font-weight: 400; opacity: 0.2; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; transition: all 300ms ease; } #" + divId + " span * { color: inherit; text-decoration: inherit; }";
+	var preStyle = "#" + divId + " { position: " + position + "; " + corner + sizeText[0] + " z-index: 9999; box-sizing: border-box; max-width: 390px; font-size: 15px; overflow: hidden; font-weight: 400; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; transition: all 300ms ease; } #" + divId + " span * { color: inherit; text-decoration: inherit; }";
 	var es = "#JNALERTDIVID span:last-child { display: none; } #JNALERTDIVID:hover { opacity: 1; " + sizeText[1] + " } #JNALERTDIVID:hover span:first-child { display: none; } #JNALERTDIVID:hover span:last-child { display: inline; }";
 	extraStyle = es.replace(/JNALERTDIVID/g, divId);
 	var styleTag = document.createElement("style");
-	styleTag.appendChild(document.createTextNode(preStyle + styleText + extraStyle));
+	styleTag.setAttribute("id", divId + "style");
+	window.jnalert.styleTagContent = preStyle + styleText + extraStyle;
+	styleTag.appendChild(document.createTextNode(window.jnalert.styleTagContent));
 	document.getElementsByTagName("head")[0].appendChild(styleTag);
 
 	// DOM
@@ -50,11 +52,13 @@
 
 	// Time
 	window.jnalert.show = function () {
-		document.getElementById(window.jnalert.divId).style.opacity = "1";
+		document.getElementById(window.jnalert.divId + "style").innerHTML = window.jnalert.styleTagContent + "#" + window.jnalert.divId + " { opacity: 1; }";
 	};
 	window.jnalert.dim = function () {
-		document.getElementById(window.jnalert.divId).style.opacity = "0.2";
+		document.getElementById(window.jnalert.divId + "style").innerHTML = window.jnalert.styleTagContent + "#" + window.jnalert.divId + " { opacity: 0.2; }";
 	};
 	window.setTimeout(window.jnalert.show, 4);
 	window.setTimeout(window.jnalert.dim, 3000);
+	console.log(alert);
+	console.log(text);
 })("Hi, I'm seeking 2015 summer internship...", "<a href='http://neopstudio.github.io/resume/' target='_blank'>Does your company have an internship program? Maybe I can be one in your company this summer? Click here to see my resume, thanks : )</a>", 1, "absolute", null, [ 317, 32, 390, 72 ]);
