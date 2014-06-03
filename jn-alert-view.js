@@ -8,7 +8,7 @@
 		position = "absolute";
 	}
 	if (style == undefined || style == null) {
-		style = "color: #FAFAFA; padding: 6px 14px; background: rgba(0, 0, 0, 0.173); border-radius: 3px; opacity: 1;";
+		style = "color: #FFF; padding: 6px 14px; background: rgba(0, 0, 0, 0.173); border-radius: 3px; opacity: 1;";
 	}
 	if (size == undefined || size == null) {
 		size = [ 320, 32, 362, 60 ];
@@ -58,7 +58,7 @@
 		document.getElementById(window.jnalert.divId + "style").innerHTML = window.jnalert.styleTagContent + "#" + window.jnalert.divId + " { opacity: 0.2; }";
 	};
 	window.setTimeout(window.jnalert.show, 4);
-	window.setTimeout(window.jnalert.dim, 3000);
+	window.setTimeout(window.jnalert.dim, 2200);
 	console.log(alert);
 	console.log(text);
 })("Hi, I'm seeking 2015 summer internship...", "<a href='http://neopstudio.github.io/resume/' target='_blank'>Does your company have an internship program? Maybe I can be one in your company this summer? Click here to see my resume, thanks : )</a>", 1, "absolute", null, [ 317, 32, 390, 72 ]);
