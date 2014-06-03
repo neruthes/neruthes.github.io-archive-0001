@@ -55,7 +55,7 @@
 		document.getElementById(window.jnalert.divId + "style").innerHTML = window.jnalert.styleTagContent + "#" + window.jnalert.divId + " { opacity: 1; }";
 	};
 	window.jnalert.dim = function () {
-		document.getElementById(window.jnalert.divId + "style").innerHTML = window.jnalert.styleTagContent + "#" + window.jnalert.divId + " { opacity: 0.2; }";
+		document.getElementById(window.jnalert.divId + "style").innerHTML = window.jnalert.styleTagContent + "#" + window.jnalert.divId + " { opacity: 0.1; }";
 	};
 	window.setTimeout(window.jnalert.show, 4);
 	window.setTimeout(window.jnalert.dim, 2200);
