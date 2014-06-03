@@ -50,10 +50,10 @@
 
 	// Time
 	window.jnalert.show = function () {
-		document.getElementById(window.jnalert.divid).style.opacity = "1";
+		document.getElementById(window.jnalert.divId).style.opacity = "1";
 	};
 	window.jnalert.dim = function () {
-		document.getElementById(window.jnalert.divid).style.opacity = "0.2";
+		document.getElementById(window.jnalert.divId).style.opacity = "0.2";
 	};
 	window.setTimeout(window.jnalert.show, 4);
 	window.setTimeout(window.jnalert.dim, 3000);
