@@ -6,6 +6,6 @@
 
 I jump over the lazy dog; it doesn't hurt me.
 
-Now testing use this [[NeopWiki|wiki]] as a [[blog]].
+An online demo of [[NeopWiki|wiki]].
 
  (NSLog (@ 'Hello world!'))
