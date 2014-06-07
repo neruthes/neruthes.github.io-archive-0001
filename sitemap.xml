@@ -4,6 +4,10 @@
 <priority>0.8</priority>
 </url>
 <url>
+<loc>http://www.joyneop.com/wiki/</loc>
+<priority>0.1</priority>
+</url>
+<url>
 <loc>http://www.joyneop.com/neopblog/</loc>
 <priority>0.8</priority>
 </url>
