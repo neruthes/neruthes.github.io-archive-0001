@@ -46,6 +46,7 @@
 	var s2 = document.createElement("span");
 	s2.innerHTML = text;
 	div.setAttribute("id", divId);
+	div.setAttribute("style", "font-size: 15px;");
 	div.appendChild(s1);
 	div.appendChild(s2);
 	document.body.appendChild(div);
@@ -61,4 +62,4 @@
 	window.setTimeout(window.jnalert.dim, 2200);
 	console.log(alert);
 	console.log(text);
-})("Hi, I'm seeking 2015 summer internship...", "<a href='http://neopstudio.github.io/resume/' target='_blank'>Does your company have an internship program? Maybe I can be one in your company this summer? Click here to see my resume, thanks : )</a>", 1, "absolute", null, [ 317, 32, 390, 72 ]);
+})("Hi, I'm seeking 2015 summer internship...", "<a href='http://neopstudio.github.io/resume/' style='display: block;' target='_blank'>Does your company have an internship program? Maybe I can be one in your company this summer? Click here to see my resume, thanks : )</a>", 1, "absolute", null, [ 320, 32, 390, 72 ]);
