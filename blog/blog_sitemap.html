@@ -5,6 +5,10 @@
 	<title>Sitemap Generator</title>
 </head>
 <body>
+&lt;url&gt;<br />
+&lt;loc&gt;http://www.joyneop.com/blog/archive.html&lt;/loc&gt;<br />
+&lt;priority&gt;0.8&lt;/priority&gt;<br />
+&lt;/url&gt;<br />
 <script type="text/javascript">
 var ajaxList = new XMLHttpRequest()
 ajaxList.open("GET", "list.json", false)
@@ -13,7 +17,7 @@ var postIndex = JSON.parse(ajaxList.responseText)
 var total = postIndex.list.length
 for (var i = total-1; i >= 0; i--) {
 	document.write('&lt;url&gt;<br />')
-	document.write('&lt;loc&gthttp://www.joyneop.com/blog/?p=' + i + '&lt;/loc&gt<br />')
+	document.write('&lt;loc&gthttp://joyneop.xyz/blog/?p=' + i + '&lt;/loc&gt<br />')
 	document.write('&lt;lastmod&gt' + postIndex.list[i].Time + '&lt;/lastmod&gt<br />')
 	document.write('&lt;priority&gt0.8&lt;/priority&gt<br />')
 	document.write('&lt;/url&gt<br />')
