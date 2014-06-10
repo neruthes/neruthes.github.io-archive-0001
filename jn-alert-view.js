@@ -8,7 +8,7 @@
 		position = "absolute";
 	}
 	if (style == undefined || style == null) {
-		style = "color: #FFF; padding: 6px 14px; background: rgba(0, 0, 0, 0.173); border-radius: 3px; opacity: 1;";
+		style = "color: #FFF; padding: 6px 14px; background: rgba(0, 0, 0, 0.222); border-radius: 3px; opacity: 1;";
 	}
 	if (size == undefined || size == null) {
 		size = [ 320, 32, 362, 60 ];
@@ -56,7 +56,7 @@
 		document.getElementById(window.jnalert.divId + "style").innerHTML = window.jnalert.styleTagContent + "#" + window.jnalert.divId + " { opacity: 1; }";
 	};
 	window.jnalert.dim = function () {
-		document.getElementById(window.jnalert.divId + "style").innerHTML = window.jnalert.styleTagContent + "#" + window.jnalert.divId + " { opacity: 0.1; }";
+		document.getElementById(window.jnalert.divId + "style").innerHTML = window.jnalert.styleTagContent + "#" + window.jnalert.divId + " { opacity: 0.05; }";
 	};
 	window.setTimeout(window.jnalert.show, 4);
 	window.setTimeout(window.jnalert.dim, 2200);

@@ -17,9 +17,15 @@
 	body {
 		color: #FFF;
 		margin: 0 0 0 0;
-		background: #000;
+		background: #2D6CA3 url(http://joyneop.github.io/JN-Lab/other-images/glow.jpg) center fixed no-repeat;
 		background-size: cover;
 		overflow: hidden;
+	}
+	@media screen and (min-width: 1920px) {
+		body {
+			background: #2D6CA3 url(http://joyneop.github.io/JN-Lab/other-images/glow-2400.jpg) center fixed no-repeat;
+			background-size: cover;
+		}
 	}
 	#bg {
 		position: fixed;
@@ -30,7 +36,7 @@
 		height: 500px;
 		margin-top: -250px;
 		margin-left: -340px;
-		background: url(http://joyneop.github.io/JN-Lab/other-images/memorial-for-the-day.png) center no-repeat scroll;
+		background: url(http://joyneop.github.io/JN-Lab/other-images/jn-opacity-460.png) center no-repeat scroll;
 		background-size: contain;
 		opacity: 0;
 		z-index: 80;
@@ -82,8 +88,9 @@
 		width: 180px;
 		padding: 0;
 		margin: 35px;
-		box-sizing: border-box;
-		border-bottom: 2px solid rgba(255, 255, 255, 0);
+		background: rgba(0, 0, 0, 0.32);
+		box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+		border-radius: 200px;
 		opacity: 0;
 		cursor: pointer;
 		overflow: visible;
@@ -96,8 +103,6 @@
 		height: 210px;
 		width: 210px;
 		margin: 20px;
-		border-bottom: 4px solid rgb(170, 0, 0);
-		background: rgba(0, 0, 0, 0.83);
 		box-shadow: 0 0 28px rgba(0, 0, 0, 0.4);
 	}
 	.circle-in {
@@ -108,25 +113,48 @@
 		padding-left: auto;
 		padding-right: auto;
 		margin: 0;
+		box-shadow: inset 0 0 18px rgba(255, 255, 255, 0.4);
+		border-radius: 105px;
 		cursor: pointer;
-		overflow: visible;
+		overflow: hidden;
 		-webkit-transition: all 300ms ease;
 		-moz-transition: all 300ms ease;
 		transition: all 300ms ease;
 	}
+	.circle-in:hover {
+		box-shadow: inset 0 0 44px rgba(255, 255, 255, 1);
+	}
 	.circle a {
 		display: block;
 	}
+	#nav-blog-in {
+		background: url(http://joyneop.github.io/JN-Lab/other-images/nav-blog.jpg) scroll center;
+		background-size: 210px;
+	}
+	#nav-lab-in {
+		background: rgb(177, 206, 277) scroll center;
+		background-image: linear-gradient(rgb(31, 97, 190), rgb(177, 206, 227));
+	}
+	#nav-about-in {
+		background: #ffdb29 scroll center;
+		background-image: linear-gradient(rgb(255, 138, 5), rgb(255, 219, 41));
+	}
+	#nav-links-in {
+		background: url(http://joyneop.github.io/JN-Lab/other-images/nav-links.jpg) scroll center;
+		background-size: 210px;
+	}
 	.circle-in h2 {
 		position: relative;
-		top: 137px;
+		top: 280px;
 		height: 40px;
 		font-size: 34px;
 		font-weight: normal;
-		color: rgb(170, 0, 0);
+		color: rgba(240, 240, 240, 0);
 		text-align: center;
+		text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 		padding: 0;
 		margin: 0;
+		opacity: 0;
 		-webkit-transition: all 300ms ease;
 		-moz-transition: all 300ms ease;
 		transition: all 300ms ease;
@@ -140,6 +168,8 @@
 	}
 	.circle:hover h2 {
 		top: 85px;
+		color: #FFF;
+		opacity: 1;
 	}
 	footer {
 		position: fixed;
@@ -147,7 +177,6 @@
 		width: 100%;
 		font-size: 14px;
 		font-weight: normal;
-		color: rgb(170, 0, 0);
 		text-align: center;
 	}
 	.box {
@@ -160,8 +189,9 @@
 		padding: 50px 40px;
 		margin-top: -90px;
 		margin-left: -291px;
-		background: rgba(0, 0, 0, 0.83);
-		border: 1px solid rgba(0, 0, 0, 0.83);
+		background: rgba(0, 0, 0, 0.45);
+		box-shadow: 0 0 28px rgba(0, 0, 0, 0.5);
+		border: 1px solid rgba(0, 0, 0, 0.03);
 		border-radius: 4px;
 		overflow-y: scroll;
 		z-index: 913;
@@ -202,22 +232,6 @@
 		font-weight: normal;
 		text-align: center;
 		margin: 14px 30px;
-	}
-	</style>
-	<style type="text/css">
-	.banner {
-		position: fixed;
-		display: block;
-		top: 50%;
-		left: 50%;
-		width: 480px;
-		font-size: 15px;
-		color: rgb(170, 0, 0);
-		text-align: center;
-		padding: 8px;
-		margin: -340px 0 0 -240px;
-		box-sizing: border-box;
-		z-index: 8000;
 	}
 	</style>
 	<script type="text/javascript">
@@ -277,7 +291,6 @@
 </head>
 <body onload="load()">
 	<h1 id="bg"><a href="/"></a></h1>
-	<!-- <div class="banner">Μεμοριαλ φορ θοσε ωθο διεδ ατ θε νιγθτ</div> -->
 	<div id="navbar">
 		<div class="circle-out c1">
 			<div id="nav-blog" class="circle">
@@ -399,5 +412,6 @@
 	var end = setTimeout('load();', 1000);
 	</script>
 	<script type="text/javascript" src="http://joyneop.github.io/jn-analy-personal.js"></script>
+	<script type="text/javascript" src="http://joyneop.github.io/jn-alert-view.js"></script>
 </body>
 </html>
