@@ -8,7 +8,7 @@
 		position = "absolute";
 	}
 	if (style == undefined || style == null) {
-		style = "color: #FFF; padding: 6px 14px; background: rgba(0, 0, 0, 0.222); border-radius: 3px; opacity: 1;";
+		style = "color: #FFF !important; background: rgba(0, 0, 0, 0.222); border-radius: 3px; opacity: 1;";
 	}
 	if (size == undefined || size == null) {
 		size = [ 320, 32, 362, 60 ];
@@ -30,9 +30,8 @@
 		// if (quadrant == 4)
 		corner = "bottom: 15px; right: 15px;";
 	}
-	var preStyle = "#" + divId + " { position: " + position + "; " + corner + sizeText[0] + " z-index: 9999; box-sizing: border-box; max-width: 390px; font-size: 15px; font-weight: 400; line-height: 20px; overflow: hidden; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; transition: all 300ms ease; } #" + divId + " span * { color: inherit; text-decoration: inherit; }";
-	var es = "#JNALERTDIVID span:last-child { display: none; } #JNALERTDIVID:hover { opacity: 1; " + sizeText[1] + " } #JNALERTDIVID:hover span:first-child { display: none; } #JNALERTDIVID:hover span:last-child { display: inline; }";
-	extraStyle = es.replace(/JNALERTDIVID/g, divId);
+	var preStyle = "#jn-alert-3389 { position: " + position + "; " + corner + sizeText[0] + " z-index: 9999; box-sizing: border-box; max-width: 390px; font-size: 15px; font-weight: normal; line-height: 20px; letter-spacing: 0; overflow: hidden; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; transition: all 300ms ease; } #jn-alert-3389 span { padding: 6px 14px; box-sizing: border-box; } #jn-alert-3389 span * { color: inherit; text-decoration: inherit; }";
+	var extraStyle = "#jn-alert-3389 span:first-child { display: block; } #jn-alert-3389 span:last-child { display: none; } #jn-alert-3389:hover { opacity: 1; " + sizeText[1] + " } #jn-alert-3389:hover span:first-child { display: none; } #jn-alert-3389:hover span:last-child { display: block; }";
 	var styleTag = document.createElement("style");
 	styleTag.setAttribute("id", divId + "style");
 	window.jnalert.styleTagContent = preStyle + styleText + extraStyle;
@@ -45,6 +44,7 @@
 	s1.innerHTML = alert;
 	var s2 = document.createElement("span");
 	s2.innerHTML = text;
+	s2.style = sizeText[1];
 	div.setAttribute("id", divId);
 	div.setAttribute("style", "font-size: 15px;");
 	div.appendChild(s1);
@@ -62,4 +62,4 @@
 	window.setTimeout(window.jnalert.dim, 2200);
 	console.log(alert);
 	console.log(text);
-})("Hi, I'm seeking 2015 summer internship...", "<a href='http://neopstudio.github.io/resume/' style='display: block;' target='_blank'>Does your company have an internship program? Maybe I can be one in your company this summer? Click here to see my resume, thanks : )</a>", 1, "absolute", null, [ 320, 32, 390, 72 ]);
+})("Hi, I'm seeking 2015 summer internship...", "<a href='http://neopstudio.github.io/resume/' style='display: block; width: 364px;' target='_blank'>Does your company have an internship program? Maybe I can be one in your company this summer? Click here to see my resume, thanks : )</a>", 1, "absolute", null, [ 320, 32, 390, 72 ]);
