@@ -1,4 +1,12 @@
 (function(alert, text, quadrant, position, style, size){
+	/*
+	@Author Joy Neop
+	@Website http://www.joyneop.com/
+	@GitHub https://github.com/JoyNeop
+	@Twitter https://twitter.com/JoyNeop
+	@Email i@joyneop.com
+	© 2014 Joy Neop. All rights reserved.
+	*/
 	window.jnalert = {};
 
 	if (quadrant == undefined || quadrant == null) {
