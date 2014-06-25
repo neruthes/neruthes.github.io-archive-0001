@@ -21,11 +21,11 @@ Copyright info:
 ----------------------------------------*/
 
 body {
+	font-family: 'Iowan Old Style', Ovo, Charter, Marion, Georgia, Times, 'Hiragino Mincho ProN', 'Songti TC', 'Songti SC', serif;
 	background-color: #2D6CA3;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
-	font-family: 'Iowan Old Style', Ovo, Charter, Marion, Georgia, Times, 'Hiragino Mincho ProN', 'Songti TC', 'Songti SC', serif;
 	font-weight: normal;
 }
 
@@ -61,7 +61,7 @@ a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 }
 
-section.post {
+.post {
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.92);
 	padding-top: 20px;
 	margin-bottom: 90px;
@@ -71,7 +71,19 @@ section.post {
 	box-shadow: rgba(0, 0, 0, 0.5) 0 4px 18px;
 }
 
-section.post > h2 {
+.post [lang="en"] {
+	font-family: 'Iowan Old Style', Ovo, Charter, Marion, Georgia, Times, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', 'Songti TC', 'Songti SC', serif;
+}
+
+.post [lang="ja"] {
+	font-family: 'Iowan Old Style', Ovo, Charter, Marion, Georgia, Times, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', 'Songti TC', 'Songti SC', serif;
+}
+
+.post [lang="zh"] {
+	font-family: 'Iowan Old Style', Ovo, Charter, Marion, Georgia, Times, 'Songti TC', 'Songti SC', 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', serif;
+}
+
+.post > h2 {
 	font-size: 23px;
 	margin: 19px 0 22px;
 }
