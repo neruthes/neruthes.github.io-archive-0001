@@ -2,8 +2,7 @@ body {
 	font-family: Tahoma, Verdana, Ubuntu, Arial, 'Hiragino Sans GB', sans-serif !important;
 	padding: 0 !important;
 	margin: 0 !important;
-	background-color: #C0DEED !important;
-	background-image: url(http://img.ly/system/uploads/008/407/259/original_bg.png) top no-repeat fixed !important;
+	background: #C0DEED url(http://img.ly/system/uploads/008/407/259/original_bg.png) top no-repeat fixed !important;
 }
 
 .m-header {
