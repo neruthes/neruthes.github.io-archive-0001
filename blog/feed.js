@@ -1,6 +1,8 @@
 /*
-Blog RSS generator
+
+Blog RSS Generator
 (c) Copyright 2014 All Rights Reserved by Joy Neop
+
 */
 
 var xmlTemplate = '<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">\n<channel>\n<title>Joy Neop</title>\n<atom:link href="http://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />\n<link>http://joyneop.xyz/blog/</link>\n<description>Do what you want to do. Be what you want to be.</description>\n<lastBuildDate>{{DATE}} 09:41:00 +0000</lastBuildDate>\n<language>en-US</language>\n<sy:updatePeriod>hourly</sy:updatePeriod>\n<sy:updateFrequency>1</sy:updateFrequency>\n<generator>http://joyneop.github.io/blog/</generator>{{ITEMS}}</channel>\n</rss>';

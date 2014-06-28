@@ -1,22 +1,3 @@
-/*----------------------------------------
-Core file of NeopBlog
-------------------------------------------
-File meta info:
-	File Name: func.js
-	File Version: 0.9.6
-	File Status: Beta
-	File Branch: Master
-------------------------------------------
-NeopBlog developer meta info:
-	Developer Name: Joy Neop
-	Developer Website: http://www.joyneop.com/
-	Developer Twitter: @joyneop
-------------------------------------------
-Copyright info:
-	License Name: CC BY-NC-SA 4.0
-	License Link: http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US
-----------------------------------------*/
-
 function createSection(pid) {
 	var section = document.createElement("section");
 	var h2 = document.createElement("h2");

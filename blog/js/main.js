@@ -1,22 +1,3 @@
-/*----------------------------------------
-Core file of NeopBlog
-------------------------------------------
-File meta info:
-	File Name: main.js
-	File Version: 0.9.5
-	File Status: Beta
-	File Branch: Master
-------------------------------------------
-NeopBlog developer meta info:
-	Developer Name: Joy Neop
-	Developer Website: http://www.joyneop.com/
-	Developer Twitter: @joyneop
-------------------------------------------
-Copyright info:
-	License Name: CC BY-NC-SA 4.0
-	License Link: http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US
-----------------------------------------*/
-
 var ajaxMetaData = new XMLHttpRequest();
 ajaxMetaData.open("GET", "./meta.json", false);
 ajaxMetaData.send();
