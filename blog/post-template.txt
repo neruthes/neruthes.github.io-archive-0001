@@ -1,0 +1,15 @@
+Post #__neop.postId__
+__neop.date__
+
+__neop.postTitle__
+
+
+__neop.postText__
+
+
+
+-----------------------------------------------
+
+
+
+
