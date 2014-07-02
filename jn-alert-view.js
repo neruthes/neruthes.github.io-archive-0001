@@ -70,4 +70,4 @@
 	window.setTimeout(window.jnalert.dim, 2200);
 	console.log(alert);
 	console.log(text);
-})("Hi, I'm seeking 2015 summer internship...", "<a href='http://neopstudio.github.io/resume/' style='display: block; width: 364px;' target='_blank'>Does your company have an internship program? Maybe I can be one in your company this summer? Click here to see my resume, thanks : )</a>", 1, "absolute", null, [ 320, 32, 390, 72 ]);
+})("Hi, I'm seeking 2015 summer internship...", "<a href='http://neopstudio.github.io/resume/' style='display: block; width: 364px;' target='_blank'>Does your company have an internship program? Maybe I can be one in your company this summer? Click here to see my résumé, thanks : )</a>", 1, "absolute", null, [ 320, 32, 390, 72 ]);
