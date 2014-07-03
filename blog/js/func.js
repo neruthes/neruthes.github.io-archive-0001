@@ -68,7 +68,7 @@ function loadMultiPosts(pid) {
 function fillNav(previd, nextid, ifprev, ifnext) {
 	if (ifprev == 1) {
 		document.getElementById("prevlink").href = "./?p=" + previd;
-		document.getElementById("prevlink").innerHTML = "&lt; Prev";
+		document.getElementById("prevlink").innerHTML = "Prev »";
 		document.getElementById("prevlink").style.visibility = "visible";
 	}
 	if (ifnext == 1) {
@@ -77,7 +77,7 @@ function fillNav(previd, nextid, ifprev, ifnext) {
 		} else {
 			document.getElementById("nextlink").href = "./?p=" + nextid;
 		}
-		document.getElementById("nextlink").innerHTML = "Next &gt;";
+		document.getElementById("nextlink").innerHTML = "« Next";
 		document.getElementById("nextlink").style.visibility = "visible";
 	}
 }

@@ -97,13 +97,13 @@ nav.prevandnext a {
 }
 
 nav.prevandnext span.prev {
-	float: left;
-	text-align: left;
+	float: right;
+	text-align: right;
 }
 
 nav.prevandnext span.next {
-	float: right;
-	text-align: right;
+	float: left;
+	text-align: left;
 }
 
 div#comment-container {
