@@ -21,7 +21,7 @@ Copyright info:
 	All rights reserved.
 ----------------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);*/
 
 body {
 	background: #FFF;
@@ -29,7 +29,7 @@ body {
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
-	font-family: 'Open Sans', Helvetica, Lucida Grande, Lucida Sans, Arial, 'Hiragino Kaku ProN', Hiragino, 'Heiti TC', 'Heiti SC', 'Lantinghei TC', 'Lantinghei SC', Hei, sans-serif;
+	font-family: 'Seravek-Light', 'Open Sans', Helvetica, Lucida Grande, Lucida Sans, Arial, 'Hiragino Kaku ProN', Hiragino, 'Heiti TC', 'Heiti SC', 'Lantinghei TC', 'Lantinghei SC', Hei, sans-serif;
 	font-weight: normal;
 }
 
