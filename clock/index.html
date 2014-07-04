@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Hue Clock</title>
+	<link rel="shortcut icon favicon" href="/favicon.ico"/>
+	<link rel="apple-touch-icon" href="/joyneop.png"/>
+	<style type="text/css">
+	/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);*/
+	body {
+		font-family: 'Seravek-Light', 'Myriad Pro', 'Myriad Apple', Myriad, 'Myriad Set Pro', 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Ubuntu, Arial, 'Arial Black', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', 'STHeiti', sans-serif;
+		color: #FFF;
+		background: #000;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+		margin: 0 0 0 0;
+		overflow: hidden;
+	}
+	a, a:hover, a:visited, a:link {
+		color: #FFF;
+		text-decoration: none;
+		-webkit-transition: all 300ms ease;
+		-moz-transition: all 300ms ease;
+		transition: all 300ms ease;
+	}
+	#cont {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		font-weight: normal;
+		height: 300px;
+		width: 300px;
+		box-sizing: border-box;
+		margin-top: -150px;
+		margin-left: -150px;
+		overflow: visible;
+		z-index: 42;
+	}
+	#clock {
+		position: absolute;
+		top: 0;
+		left: 0px;
+		width: 300px;
+		height: 300px;
+		margin: 0;
+		background: rgba(255, 255, 255, 0.22);
+		border-radius: 6000px;
+		box-shadow: rgba(0, 0, 0, 0.5) 0 2px 7px;
+		opacity: 0;
+		transition: all 300ms ease;
+	}
+	#hp, #mp, #sp {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 300px;
+		height: 300px;
+		box-sizing: border-box;
+	}
+	#hp {
+		padding: 65px 145px 140px;
+	}
+	#hp div {
+		height: 95px;
+		background: #38F;
+		z-index: 130;
+	}
+	#mp {
+		padding: 30px 148px 135px;
+	}
+	#mp div {
+		height: 135px;
+		background: #FF3;
+		z-index: 140;
+	}
+	#sp {
+		padding: 8px 149px 122px;
+	}
+	#sp div {
+		height: 170px;
+		background: #8FB;
+		z-index: 150;
+	}
+	#cen {
+		position: absolute;
+		top: 150px;
+		left: 150px;
+		width: 10px;
+		height: 10px;
+		margin: -5px 0 0 -5px;
+		background: #EEE linear-gradient(#EEE, #AAA);
+		border-radius: 800px;
+		box-shadow: rgba(0, 0, 0, 0.95) 0 0 3px;
+		z-index: 101;
+	}
+	#clock > div > div {
+		border-radius: 800px;
+		box-shadow: rgba(0, 0, 0, 0.35) 0 0 3px;
+	}
+	#title {
+		padding: 50px 0 0;
+	}
+	h1 {
+		font-size: 20px;
+		font-weight: normal;
+		text-align: center;
+		margin: 0;
+		z-index: 100;
+	}
+	#time {
+		font-family: 'Menlo', 'Srouce Code Pro', 'PT Mono', monospace;
+		font-size: 20px;
+		text-align: center;
+		text-shadow: rgba(0, 0, 0, 0.35) 0 1px 2px;
+		padding: 120px 0 0;
+		z-index: 900;
+	}
+	footer {
+		position: fixed;
+		bottom: 10px;
+		width: 100%;
+		font-size: 14px;
+		font-weight: normal;
+		text-align: center;
+	}
+	</style>
+	<style type="text/css" id="clock-rotate">
+	#hp {
+		-webkit-transform: rotate(_HP_deg);
+	}
+	#mp {
+		-webkit-transform: rotate(_MP_deg);
+	}
+	#sp {
+		-webkit-transform: rotate(_SP_deg);
+	}
+	</style>
+	<script type="text/javascript">
+	function JNClock(raw) {
+		var da = new Date();
+		var h = da.getHours();
+		var m = da.getMinutes();
+		var s = da.getSeconds();
+
+		var hpDeg = (h%12)*30+m*0.5+s*(1/120);
+		var mpDeg = m*6+s*0.1;
+		var spDeg = s*6;
+		
+		var bodyH = m*6;
+		var bodyS = 20+0.8*(50-(Math.abs(((h%12)*100/12)-50)));
+		var bodyL = 30+0.7*(50-(Math.abs((s*100/59)-50)));
+
+		h = da.getHours().toString();
+		m = da.getMinutes().toString();
+		s = da.getSeconds().toString();
+
+		if (m.length == 1) {
+			m = "0" + m;
+		}
+		if (s.length == 1) {
+			s = "0" + s;
+		}
+
+		document.getElementById("time").innerHTML = h + ":" + m + ":" + s;
+		document.getElementById("clock-rotate").innerHTML = raw.replace("_HP_", hpDeg).replace("_MP_", mpDeg).replace("_SP_", spDeg);
+		document.getElementById("clock").style.opacity = 1;
+		document.body.style.backgroundColor = "hsl(" + bodyH + ", " + bodyS + "%, " + bodyL + "%)";
+	}
+	</script>
+</head>
+<body>
+	<div id="cont">
+		<div id="clock">
+			<div id="hp">
+				<div></div>
+			</div>
+			<div id="mp">
+				<div></div>
+			</div>
+			<div id="sp">
+				<div></div>
+			</div>
+			<div id="cen"></div>
+		</div>
+		<div id="title"><h1>Hue Clock</h1></div>
+		<div id="time">9:41:00</div>
+	</div>
+	<footer>&copy; Copyright 2014 All Rights Reserved by Joy Neop</footer>
+	<script type="text/javascript">
+	var rawStyleTag = document.getElementById("clock-rotate").innerHTML;
+	var yooo = window.setInterval(JNClock, 1000);
+	</script>
+	<script type="text/javascript" src="http://joyneop.github.io/jn-analy-personal.js"></script>
+</body>
+</html>
