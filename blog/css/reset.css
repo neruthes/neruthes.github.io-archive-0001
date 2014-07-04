@@ -35,7 +35,7 @@ h1 {
 	margin: 60px 0;
 }
 
-.post, .comment-container {
+.post {
 	padding: 20px 60px 45px;
 	margin: 30px auto 80px;
 }
@@ -104,10 +104,4 @@ nav.prevandnext span.prev {
 nav.prevandnext span.next {
 	float: left;
 	text-align: left;
-}
-
-div#comment-container {
-	display: none;
-	visibility: hidden;
-	display: none;
 }

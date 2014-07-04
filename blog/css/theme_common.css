@@ -1,25 +1,3 @@
-/*----------------------------------------
-Theme designed for NeopBlog
-------------------------------------------
-Theme meta info:
-	Theme Version: 0.9.0
-	Theme status: Beta
-------------------------------------------
-File meta info:
-	File Name: theme_commons.css
-	File Version: 0.9.1
-	File Status: Beta
-	File Branch: Master
-------------------------------------------
-Designer meta info:
-	Designer Name: Joy Neop
-	Designer Website: http://www.joyneop.com/
-	Designer Twitter: @joyneop
-------------------------------------------
-Copyright info:
-	All rights reserved.
-----------------------------------------*/
-
 body {
 	font-family: 'Iowan Old Style', Ovo, Charter, Marion, Georgia, Times, 'Hiragino Mincho ProN', 'Songti TC', 'Songti SC', serif;
 	background-color: #2D6CA3;
@@ -136,11 +114,6 @@ nav.prevandnext span a {
 	font-size: 20px;
 	font-weight: normal;
 	color: #FDFDFD;
-}
-
-.comment-container {
-	background: #FDFDFD;
-	box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
 }
 
 footer.global {

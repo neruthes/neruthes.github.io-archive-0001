@@ -88,7 +88,6 @@ function httpError() {
 	document.getElementById("post" + postId + "title").style.display = "block";
 	document.getElementById("post" + postId + "link").style.display = "none";
 	document.getElementById("prevandnext").innerHTML = "";
-	document.getElementById("comment-container").style.display = "none";
 	document.title = "HTTP 404 " + "— " + blogName;
 	document.getElementById("post" + postId + "text").innerHTML = "Here is nothing you can see. Back to <em><a href='./'>homepage</a></em>?";
 }

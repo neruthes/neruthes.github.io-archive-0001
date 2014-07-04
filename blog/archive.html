@@ -46,29 +46,30 @@
 		<section class="post">
 			<ul id="list">
 				<script type="text/javascript">
-				var ajaxList = new XMLHttpRequest()
-				ajaxList.open("GET", "./list.json", false)
-				ajaxList.send()
-				var postIndex = JSON.parse(ajaxList.responseText)
-				var total = postIndex.list.length
+				var ajaxList = new XMLHttpRequest();
+				ajaxList.open("GET", "./list.json", false);
+				ajaxList.send();
+				var postIndex = JSON.parse(ajaxList.responseText);
+				var total = postIndex.list.length;
 				for (var i = total-1; i >= 0; i--) {
-					var li = document.createElement("li")
-					var a = document.createElement("a")
-					var footer = document.createElement("footer")
-					var fa = document.createElement("a")
-					var div = document.createElement("div")
+					var li = document.createElement("li");
+					var a = document.createElement("a");
+					var footer = document.createElement("footer");
+					var fa = document.createElement("a");
+					var div = document.createElement("div");
 					if (postIndex.list[i].Title == "") {
-						a.innerHTML = "> Untitled post"
+						a.innerHTML = "> Untitled post";
 					} else {
-						a.innerHTML = postIndex.list[i].Title
+						a.innerHTML = postIndex.list[i].Title;
 					}
-					a.setAttribute("href", "./?p=" + i)
-					fa.setAttribute("href", "./?p=" + i)
-					fa.innerHTML = postIndex.list[i].Time
-					footer.appendChild(fa)
-					li.appendChild(a)
-					li.appendChild(footer)
-					document.getElementById("list").appendChild(li)
+					li.setAttribute("lang", postIndex.list[i].Lang[0]);
+					a.setAttribute("href", "./?p=" + i);
+					fa.setAttribute("href", "./?p=" + i);
+					fa.innerHTML = postIndex.list[i].Time;
+					footer.appendChild(fa);
+					li.appendChild(a);
+					li.appendChild(footer);
+					document.getElementById("list").appendChild(li);
 				}
 				</script>
 			</ul>
