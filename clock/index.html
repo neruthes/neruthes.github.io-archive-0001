@@ -182,12 +182,12 @@
 			<div id="cen"></div>
 		</div>
 		<div id="title"><h1>Hue Clock</h1></div>
-		<div id="time">9:41:00</div>
+		<div id="time"></div>
 	</div>
 	<footer>&copy; Copyright 2014 All Rights Reserved by Joy Neop</footer>
 	<script type="text/javascript">
 	var rawStyleTag = document.getElementById("clock-rotate").innerHTML;
-	var yooo = window.setInterval(JNClock, 1000);
+	var yooo = window.setInterval("JNClock(rawStyleTag)", 1000);
 	</script>
 	<script type="text/javascript" src="http://joyneop.github.io/jn-analy-personal.js"></script>
 </body>
