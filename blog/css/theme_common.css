@@ -57,7 +57,7 @@ a:link, a:visited, a:hover, a:active {
 	font-family: 'Iowan Old Style', Ovo, Charter, Marion, Georgia, Times, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', 'Songti TC', 'Songti SC', serif;
 }
 
-.post [lang="zh"] {
+.post [lang="zh-Hant"] {
 	font-family: 'Iowan Old Style', Ovo, Charter, Marion, Georgia, Times, 'Songti TC', 'Songti SC', 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', serif;
 }
 
