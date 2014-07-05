@@ -101,6 +101,7 @@
 	{ "Lang" : [ "en", "en" ], "Time" : "February 11, 2014", "Title" : "Starting AP" },
 	{ "Lang" : [ "en", "en" ], "Time" : "February 27, 2014", "Title" : "Way To 42" },
 	{ "Lang" : [ "en", "en" ], "Time" : "April 25, 2014", "Title" : "Mortality" },
-	{ "Lang" : [ "en", "zh" ], "Time" : "June 24, 2014", "Title" : "Freshness" }
+	{ "Lang" : [ "en", "zh" ], "Time" : "June 24, 2014", "Title" : "Freshness" },
+	{ "Lang" : [ "en", "en" ], "Time" : "July 5, 2014", "Title" : "Auromna" }
 ]
 }

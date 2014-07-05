@@ -14,12 +14,10 @@ var blogPath = '/Users/JoyNeop/Developer/joyneop.github.io/blog';
 
 var htmlTemplate = fs.readFileSync(blogPath + '/index-template.txt').toString();
 var postTemplate = fs.readFileSync(blogPath + '/post-template.txt').toString();
-var metaJson;
 var listJson;
 var accumulate = '';
 var entireHtml = '';
 
-metaJson = JSON.parse(fs.readFileSync(blogPath + '/meta.json', 'utf8').toString());
 listJson = JSON.parse(fs.readFileSync(blogPath + '/list.json', 'utf8').toString());
 
 for (var i = 0; i < listJson.list.length; i++) {
