@@ -102,6 +102,9 @@
 	{ "Lang" : [ "en", "en" ], "Time" : "February 27, 2014", "Title" : "Way To 42" },
 	{ "Lang" : [ "en", "en" ], "Time" : "April 25, 2014", "Title" : "Mortality" },
 	{ "Lang" : [ "en", "zh-Hant" ], "Time" : "June 24, 2014", "Title" : "Freshness" },
-	{ "Lang" : [ "en", "en" ], "Time" : "July 5, 2014", "Title" : "Auromna" }
+	{ "Lang" : [ "en", "en" ], "Time" : "June 24, 2014", "Title" : "Pink Wall" },
+	{ "Lang" : [ "en", "en" ], "Time" : "June 25, 2014", "Title" : "Rainy Lily" },
+	{ "Lang" : [ "en", "en" ], "Time" : "July 5, 2014", "Title" : "Auromna" },
+	{ "Lang" : [ "en", "en" ], "Time" : "July 10, 2014", "Title" : "Visionary" }
 ]
 }
