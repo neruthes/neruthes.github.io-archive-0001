@@ -10,19 +10,31 @@
 		font-family: 'Open Sans', Helvetica Neue, Helvetica, Ubuntu, sans-serif;
 		font-size: 40px;
 		font-weight: 300;
+		color: #666;
 		padding: 0;
 		margin: 0;
+	}
+	.head, textarea {
+		height: 130px;
+	}
+	.main {
+		position: fixed;
+		top: 130px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		box-shadow: rgba(0, 0, 0, 0.35) 0 5px 7px 5px;
 	}
 	textarea {
 		box-sizing: border-box;
 		width: 100%;
-		/*height: 130px;*/
 		font-family: inherit;
 		font-size: inherit;
+		font-weight: inherit;
 		color: #FFF;
-		padding: 10px;
+		padding: 10px 40px;
 		margin: 0;
-		background: #999;
+		background: #C0C0C0;
 		border: none;
 		outline: none;
 		resize: none;
@@ -30,10 +42,23 @@
 	pre {
 		font-size: 10px;
 		padding: 10px 40px;
+		margin: 0;
+	}
+	footer {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		text-align: center;
+	}
+	a, a:link, a:visited, a:hover, a:focus {
+		font-size: 10px;
+		color: inherit;
+		text-decoration: none;
 	}
 	</style>
 	<script type="text/javascript">
-	var alphabetRaw = "---AA---=--AAAA--=-AA--AA-=-AA--AA-=AAAAAAAA=AA----AA=AA----AA____BBBBBBB-=BB----BB=BB----BB=BBBBBBB-=BB----BB=BB----BB=BBBBBBB-____-CCCCCC-=CC----CC=CC------=CC------=CC------=CC----CC=-CCCCCC-____DDDDDDD-=DD----DD=DD----DD=DD----DD=DD----DD=DD----DD=DDDDDDD-____EEEEEEEE=EE------=EE------=EEEEEEEE=EE------=EE------=EEEEEEEE____FFFFFFFF=FF------=FF------=FFFFFFFF=FF------=FF------=FF------____-GGGGGG-=GG----GG=GG------=GG---GGG=GG----GG=GG----GG=-GGGGGG-____HH----HH=HH----HH=HH----HH=HHHHHHHH=HH----HH=HH----HH=HH----HH____II=II=II=II=II=II=II____-----JJJ=------JJ=------JJ=------JJ=JJ----JJ=JJ----JJ=-JJJJJJ-____KK----KK=KK---KK-=KK--KK--=KKKKK---=KK--KK--=KK---KK-=KK----KK____LL------=LL------=LL------=LL------=LL------=LL------=LLLLLLLL____M------M=MM----MM=MMM--MMM=MM-MM-MM=MM----MM=MM----MM=MM----MM____NNN---NN=NNNN--NN=NN-N--NN=NN-NN-NN=NN--M-NN=NN--NNNN=NN---NNN____-OOOOOO-=OO----OO=OO----OO=OO----OO=OO----OO=OO----OO=-OOOOOO-____PPPPPPP-=PP----PP=PP----PP=PPPPPPP-=PP------=PP------=PP------____-QQQQQQ-=QQ----QQ=Q------Q=Q------Q=Q---Q--Q=QQ--QQQ-=-QQQQ-QQ____RRRRRRR-=RR----RR=RR----RR=RRRRRRR-=RR--RR--=RR---RR-=RR----RR____-SSSSSS-=SS----SS=SS------=--SSSS--=------SS=SS----SS=-SSSSSS-____TTTTTTTT=---TT---=---TT---=---TT---=---TT---=---TT---=---TT---____UU----UU=UU----UU=UU----UU=UU----UU=UU----UU=UU----UU=-UUUUUU-____VV----VV=VV----VV=VV----VV=-VV--VV-=-VV--VV-=--VVVV--=---VV---____WW----WW=WW----WW=WW----WW=WW-WW-WW=WWW--WWW=WW----WW=W------W____XX----XX=XX----XX=-XX--XX-=---XX---=-XX--XX-=XX----XX=XX----XX____YY----YY=-YY--YY-=--YYYY--=---YY---=---YY---=---YY---=---YY---____ZZZZZZZZ=-----ZZ-=----ZZ--=---ZZ---=--ZZ----=-ZZ-----=ZZZZZZZZ";
+	var alphabetRaw = "   AA   \n  AAAA  \n AA  AA \n AA  AA \nAAAAAAAA\nAA    AA\nAA    AA____BBBBBBB \nBB    BB\nBB    BB\nBBBBBBB \nBB    BB\nBB    BB\nBBBBBBB ____ CCCCCC \nCC    CC\nCC      \nCC      \nCC      \nCC    CC\n CCCCCC ____DDDDDDD \nDD    DD\nDD    DD\nDD    DD\nDD    DD\nDD    DD\nDDDDDDD ____EEEEEEEE\nEE      \nEE      \nEEEEEEEE\nEE      \nEE      \nEEEEEEEE____FFFFFFFF\nFF      \nFF      \nFFFFFFFF\nFF      \nFF      \nFF      ____ GGGGGG \nGG    GG\nGG      \nGG   GGG\nGG    GG\nGG    GG\n GGGGGG ____HH    HH\nHH    HH\nHH    HH\nHHHHHHHH\nHH    HH\nHH    HH\nHH    HH____II\nII\nII\nII\nII\nII\nII____     JJJ\n      JJ\n      JJ\n      JJ\nJJ    JJ\nJJ    JJ\n JJJJJJ ____KK    KK\nKK   KK \nKK  KK  \nKKKKK   \nKK  KK  \nKK   KK \nKK    KK____LL      \nLL      \nLL      \nLL      \nLL      \nLL      \nLLLLLLLL____M      M\nMM    MM\nMMM  MMM\nMM MM MM\nMM    MM\nMM    MM\nMM    MM____NNN   NN\nNNNN  NN\nNN N  NN\nNN NN NN\nNN  M NN\nNN  NNNN\nNN   NNN____ OOOOOO \nOO    OO\nOO    OO\nOO    OO\nOO    OO\nOO    OO\n OOOOOO ____PPPPPPP \nPP    PP\nPP    PP\nPPPPPPP \nPP      \nPP      \nPP      ____ QQQQQQ \nQQ    QQ\nQ      Q\nQ      Q\nQ   Q  Q\nQQ  QQQ \n QQQQ QQ____RRRRRRR \nRR    RR\nRR    RR\nRRRRRRR \nRR  RR  \nRR   RR \nRR    RR____ SSSSSS \nSS    SS\nSS      \n  SSSS  \n      SS\nSS    SS\n SSSSSS ____TTTTTTTT\n   TT   \n   TT   \n   TT   \n   TT   \n   TT   \n   TT   ____UU    UU\nUU    UU\nUU    UU\nUU    UU\nUU    UU\nUU    UU\n UUUUUU ____VV    VV\nVV    VV\nVV    VV\n VV  VV \n VV  VV \n  VVVV  \n   VV   ____WW    WW\nWW    WW\nWW    WW\nWW WW WW\nWWW  WWW\nWW    WW\nW      W____XX    XX\nXX    XX\n XX  XX \n   XX   \n XX  XX \nXX    XX\nXX    XX____YY    YY\n YY  YY \n  YYYY  \n   YY   \n   YY   \n   YY   \n   YY   ____ZZZZZZZZ\n     ZZ \n    ZZ  \n   ZZ   \n  ZZ    \n ZZ     \nZZZZZZZZ";
 	var alphabet = alphabetRaw.split("____");
 	var letters = {
 		"A" : alphabet[0],
@@ -62,7 +87,45 @@
 		"X" : alphabet[23],
 		"Y" : alphabet[24],
 		"Z" : alphabet[25],
-		" " : "     =     =     =     =     =     =     "
+		"~" : "        \n        \n  ~~    \n~~ ~~ ~~\n     ~~ \n        \n        ",
+		"0" : " 000000 \n00    00\n00   000\n00 00 00\n000   00\n00    00\n 000000 ",
+		"1" : "  1111 \n 11 11 \n    11 \n    11 \n    11 \n    11 \n1111111\n",
+		"2" : " 22222  \n22   22 \n      22\n     22 \n    22  \n  22    \n22222222\n",
+		"3" : " 33333  \n33   33 \n      33\n    333 \n      33\n33   33 \n 33333  \n",
+		"4" : "    444 \n  44 44 \n 44  44 \n44   44 \n44444444\n     44 \n     44 \n",
+		"5" : " 55     \n 5555555\n 55     \n 555555 \n      55\n55    55\n 555555 ",
+		"6" : "  66666 \n 66   66\n66      \n6666666 \n66    66\n66    66\n 666666 ",
+		"7" : "77777777\n     77 \n    77  \n   77   \n  77    \n 77     \n77      \n",
+		"8" : " 888888 \n88    88\n88    88\n  8888  \n88    88\n88    88\n 888888 ",
+		"9" : " 999999 \n99    99\n99    99\n 999999 \n    99  \n   99   \n9999    ",
+		"[" : "[[[[[[\n[[    \n[[    \n[[    \n[[    \n[[    \n[[[[[[\n",
+		"]" : "]]]]]]\n    ]]\n    ]]\n    ]]\n    ]]\n    ]]\n]]]]]]\n",
+		" " : "     \n     \n     \n     \n     \n     \n     ",
+		"," : "     \n     \n     \n     \n     \n,,   \n ,   ",
+		"." : "     \n     \n     \n     \n     \n..   \n..   ",
+		"<" : "     \n     \n     \n  << \n<<   \n  << \n     ",
+		">" : "     \n     \n     \n >>  \n   >>\n >>  \n     ",
+		";" : "     \n     \n;;   \n;;   \n     \n;;   \n ;   ",
+		":" : "     \n     \n::   \n::   \n     \n::   \n::   ",
+		"?" : "     \n ??  \n?  ? \n  ?  \n  ?  \n     \n  ?  ",
+		"!" : "     \n !!  \n !!  \n !!  \n !!  \n     \n !!  ",
+		"@" : "       \n  @@@@ \n @ @@ @\n@ @ @ @\n @ @@@ \n  @@@@@\n       ",
+		"#" : "      \n #  # \n######\n #  # \n######\n #  # \n      ",
+		"$" : "  $  \n $$$$\n$ $  \n $$$ \n  $ $\n$$$$ \n  $  ",
+		"%" : " %%%  %%\n%  % %% \n%%% %%  \n   %%   \n  %% %%%\n %% %  %\n%%  %%% \n",
+		"^" : "  ^^  \n ^^^^ \n^^  ^^\n      \n      \n      \n      ",
+		"&" : "  &&&  \n &&  & \n&&  &  \n & &  &\n&   && \n&   && \n &&& &&",
+		"*" : "   **   \n** ** **\n ****** \n  ****  \n ****** \n** ** **\n   **   ",
+		"(" : "  ((\n (( \n((  \n((  \n((  \n (( \n  ((",
+		"{" : "))  \n )) \n  ))\n  ))\n  ))\n )) \n))  \n",
+		"}" : "  ((\n (( \n((  \n((  \n((  \n (( \n  ((",
+		")" : "))  \n )) \n  ))\n  ))\n  ))\n )) \n))  \n",
+		"-" : "    \n    \n    \n----\n    \n    \n    \n",
+		"=" : "    \n    \n====\n    \n====\n    \n    \n",
+		"_" : "    \n    \n    \n    \n    \n    \n____",
+		"+" : "     \n  +  \n  +  \n+++++\n  +  \n  +  \n     ",
+		"/" : "      //\n     // \n    //  \n   //   \n  //    \n //     \n//      \n",
+		"\\" : "\\\\      \n \\\\     \n  \\\\    \n   \\\\   \n    \\\\  \n     \\\\ \n      \\\\"
 	};
 	
 	var seq;
@@ -73,7 +136,9 @@
 		var theTemp = "";
 		for (var i = 0; i < 7; i++) {
 			for (var k = 0; k < seq.length; k++) {
-				theTemp = theTemp + letters[seq[k]].split("=")[i].replace(/-/g, "&nbsp;") + "&nbsp;&nbsp;&nbsp;&nbsp;";
+				if ((/[0-9A-Z~,.<>;:?!@#$%^&*\(\)\-=_+\ \\\/\[\]\{\}]/).test(seq[k])) {
+					theTemp = theTemp + letters[seq[k]].replace(/ /g, "&nbsp;").split("\n")[i] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+				};
 			};
 			theTemp = theTemp + "<br />";
 		};
@@ -82,11 +147,14 @@
 	</script>
 </head>
 <body onload="updateText()">
-	<div>
+	<div class="head">
 		<textarea id="text" oninput="updateText()" autofocus>Type Here</textarea>
 	</div>
-	<div>
+	<div class="main">
 		<pre id="pre"></pre>
 	</div>
+	<footer>
+		<a href="/">© 2014 Joy Neop</a>
+	</footer>
 </body>
 </html>
