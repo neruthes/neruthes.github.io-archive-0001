@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Char ART</title>
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/favicon.png">
+	<style type="text/css">
+	body {
+		font-family: 'Open Sans', Helvetica Neue, Helvetica, Ubuntu, sans-serif;
+		font-size: 40px;
+		font-weight: 300;
+		padding: 0;
+		margin: 0;
+	}
+	textarea {
+		box-sizing: border-box;
+		width: 100%;
+		/*height: 130px;*/
+		font-family: inherit;
+		font-size: inherit;
+		color: #FFF;
+		padding: 10px;
+		margin: 0;
+		background: #999;
+		border: none;
+		outline: none;
+		resize: none;
+	}
+	pre {
+		font-size: 10px;
+		padding: 10px 40px;
+	}
+	</style>
+	<script type="text/javascript">
+	var alphabetRaw = "---AA---=--AAAA--=-AA--AA-=-AA--AA-=AAAAAAAA=AA----AA=AA----AA____BBBBBBB-=BB----BB=BB----BB=BBBBBBB-=BB----BB=BB----BB=BBBBBBB-____-CCCCCC-=CC----CC=CC------=CC------=CC------=CC----CC=-CCCCCC-____DDDDDDD-=DD----DD=DD----DD=DD----DD=DD----DD=DD----DD=DDDDDDD-____EEEEEEEE=EE------=EE------=EEEEEEEE=EE------=EE------=EEEEEEEE____FFFFFFFF=FF------=FF------=FFFFFFFF=FF------=FF------=FF------____-GGGGGG-=GG----GG=GG------=GG---GGG=GG----GG=GG----GG=-GGGGGG-____HH----HH=HH----HH=HH----HH=HHHHHHHH=HH----HH=HH----HH=HH----HH____II=II=II=II=II=II=II____-----JJJ=------JJ=------JJ=------JJ=JJ----JJ=JJ----JJ=-JJJJJJ-____KK----KK=KK---KK-=KK--KK--=KKKKK---=KK--KK--=KK---KK-=KK----KK____LL------=LL------=LL------=LL------=LL------=LL------=LLLLLLLL____M------M=MM----MM=MMM--MMM=MM-MM-MM=MM----MM=MM----MM=MM----MM____NNN---NN=NNNN--NN=NN-N--NN=NN-NN-NN=NN--M-NN=NN--NNNN=NN---NNN____-OOOOOO-=OO----OO=OO----OO=OO----OO=OO----OO=OO----OO=-OOOOOO-____PPPPPPP-=PP----PP=PP----PP=PPPPPPP-=PP------=PP------=PP------____-QQQQQQ-=QQ----QQ=Q------Q=Q------Q=Q---Q--Q=QQ--QQQ-=-QQQQ-QQ____RRRRRRR-=RR----RR=RR----RR=RRRRRRR-=RR--RR--=RR---RR-=RR----RR____-SSSSSS-=SS----SS=SS------=--SSSS--=------SS=SS----SS=-SSSSSS-____TTTTTTTT=---TT---=---TT---=---TT---=---TT---=---TT---=---TT---____UU----UU=UU----UU=UU----UU=UU----UU=UU----UU=UU----UU=-UUUUUU-____VV----VV=VV----VV=VV----VV=-VV--VV-=-VV--VV-=--VVVV--=---VV---____WW----WW=WW----WW=WW----WW=WW-WW-WW=WWW--WWW=WW----WW=W------W____XX----XX=XX----XX=-XX--XX-=---XX---=-XX--XX-=XX----XX=XX----XX____YY----YY=-YY--YY-=--YYYY--=---YY---=---YY---=---YY---=---YY---____ZZZZZZZZ=-----ZZ-=----ZZ--=---ZZ---=--ZZ----=-ZZ-----=ZZZZZZZZ";
+	var alphabet = alphabetRaw.split("____");
+	var letters = {
+		"A" : alphabet[0],
+		"B" : alphabet[1],
+		"C" : alphabet[2],
+		"D" : alphabet[3],
+		"E" : alphabet[4],
+		"F" : alphabet[5],
+		"G" : alphabet[6],
+		"H" : alphabet[7],
+		"I" : alphabet[8],
+		"J" : alphabet[9],
+		"K" : alphabet[10],
+		"L" : alphabet[11],
+		"M" : alphabet[12],
+		"N" : alphabet[13],
+		"O" : alphabet[14],
+		"P" : alphabet[15],
+		"Q" : alphabet[16],
+		"R" : alphabet[17],
+		"S" : alphabet[18],
+		"T" : alphabet[19],
+		"U" : alphabet[20],
+		"V" : alphabet[21],
+		"W" : alphabet[22],
+		"X" : alphabet[23],
+		"Y" : alphabet[24],
+		"Z" : alphabet[25],
+		" " : "     =     =     =     =     =     =     "
+	};
+	
+	var seq;
+
+	var updateText = function () {
+		var theInput = document.getElementById("text").value.toUpperCase();
+		seq = theInput.split("");
+		var theTemp = "";
+		for (var i = 0; i < 7; i++) {
+			for (var k = 0; k < seq.length; k++) {
+				theTemp = theTemp + letters[seq[k]].split("=")[i].replace(/-/g, "&nbsp;") + "&nbsp;&nbsp;&nbsp;&nbsp;";
+			};
+			theTemp = theTemp + "<br />";
+		};
+		document.getElementById("pre").innerHTML = theTemp;
+	};
+	</script>
+</head>
+<body onload="updateText()">
+	<div>
+		<textarea id="text" oninput="updateText()" autofocus>Type Here</textarea>
+	</div>
+	<div>
+		<pre id="pre"></pre>
+	</div>
+</body>
+</html>
