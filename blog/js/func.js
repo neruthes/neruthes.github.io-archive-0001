@@ -1,3 +1,7 @@
+function retinaDidLoad() {
+	document.getElementById("body").style.backgroundImage = "url(css/bg2.jpg)";
+}
+
 function createSection(pid) {
 	var section = document.createElement("section");
 	var h2 = document.createElement("h2");
@@ -22,47 +26,66 @@ function createSection(pid) {
 }
 
 function loadPost(pid) {
-	var ajaxContent = new XMLHttpRequest();
-	ajaxContent.open("GET", "db/" + pid + ".txt", false);
-	ajaxContent.send();
-	var receivedPostText = ajaxContent.responseText;
-
-	if (postIndex.list[pid].Title == "") {
-		document.getElementById("post" + pid + "h2").style.display = "none";
-	} else {
-		document.getElementById("post" + pid + "title").innerHTML = postIndex.list[pid].Title;
-		document.getElementById("post" + pid + "title").href = "./?p=" + pid;
-	}
-	if (receivedPostText == "") {
-		document.getElementById("post" + pid + "text").style.display = "none";
-	} else {
-		document.getElementById("post" + pid + "text").innerHTML = receivedPostText;
-	}
-	document.getElementById("post" + pid + "h2").lang = postIndex.list[pid].Lang[0];
-	document.getElementById("post" + pid + "text").lang = postIndex.list[pid].Lang[1];
-	document.getElementById("post" + pid + "link").innerHTML = postIndex.list[pid].Time;
-	document.getElementById("post" + pid + "link").href = "./?p=" + pid;
-	if (postId != "NULL" && postIndex.list[pid].Title != "") {
-		document.title = postIndex.list[pid].Title + " — " + blogName;
-	} else if (postId != "NULL" && postIndex.list[pid].Title == "") {
-		document.title = "Post #" + pid + " — " + blogName;
-	} else {
-		document.title = blogName;
-	}
-	loadedOldestPostId--;
+	var thisId = sectionsCreated-1;
+	ajaxContent[thisId] = new XMLHttpRequest();
+	ajaxContent[thisId].open("GET", "db/" + pid + ".txt", true);
+	ajaxContent[thisId].send();
+	ajaxContent[thisId].onload = function () {
+		var receivedPostText = ajaxContent[thisId].responseText;
+		if (postIndex.list[pid].Title == "") {
+			document.getElementById("post" + pid + "h2").remove();
+		} else {
+			document.getElementById("post" + pid + "title").innerHTML = postIndex.list[pid].Title;
+			document.getElementById("post" + pid + "title").href = "./?p=" + pid;
+		}
+		if (receivedPostText == "") {
+			document.getElementById("post" + pid + "text").remove();
+		} else {
+			document.getElementById("post" + pid + "text").innerHTML = receivedPostText;
+		}
+		document.getElementById("post" + pid + "h2").lang = postIndex.list[pid].Lang[0];
+		document.getElementById("post" + pid + "text").lang = postIndex.list[pid].Lang[1];
+		document.getElementById("post" + pid + "link").innerHTML = postIndex.list[pid].Time;
+		document.getElementById("post" + pid + "link").href = "./?p=" + pid;
+		if (postId != "NULL" && postIndex.list[pid].Title != "") {
+			document.title = postIndex.list[pid].Title + " — " + blogName;
+		} else if (postId != "NULL" && postIndex.list[pid].Title == "") {
+			document.title = "Post #" + pid + " — " + blogName;
+		} else {
+			document.title = blogName;
+		}
+		loadedOldestPostId--;
+	};
 }
 
-function loadMore() {
-	if (postId == "NULL" && document.height-window.pageYOffset-window.innerHeight < 900) {
-		loadMultiPosts(loadedOldestPostId-1);
+function listOutPreviousPosts() {
+	var section = document.createElement("section");
+	var ul = document.createElement("ul");
+	section.setAttribute("class", "post more");
+	section.setAttribute("id", "more-posts");
+	ul.setAttribute("class", "list");
+	for (var i = total-11; i >= 0; i--) {
+		var li = document.createElement("li");
+		var a = document.createElement("a");
+		var footer = document.createElement("footer");
+		var fa = document.createElement("a");
+		var div = document.createElement("div");
+		if (postIndex.list[i].Title == "") {
+			a.innerHTML = "> Untitled post";
+		} else {
+			a.innerHTML = postIndex.list[i].Title;
+		}
+		li.setAttribute("lang", postIndex.list[i].Lang[0]);
+		a.setAttribute("href", "./?p=" + i);
+		fa.setAttribute("href", "./?p=" + i);
+		fa.innerHTML = postIndex.list[i].Time;
+		footer.appendChild(fa);
+		li.appendChild(a);
+		li.appendChild(footer);
+		ul.appendChild(li);
 	}
-}
-
-function loadMultiPosts(pid) {
-	for (var i = pid; i > pid-10 && loadedOldestPostId != 0; i--) {
-		createSection(i);
-		loadPost(i);
-	}
+	section.appendChild(ul);
+	cont.appendChild(section);
 }
 
 function fillNav(previd, nextid, ifprev, ifnext) {

@@ -105,3 +105,26 @@ nav.prevandnext span.next {
 	float: left;
 	text-align: left;
 }
+
+.post.more > ul.list {
+	padding: 0;
+	margin: 20px 0;
+}
+.post.more > ul.list > li {
+	display: block;
+	text-align: left;
+	padding: 0;
+	margin: 25px 0;
+}
+.post.more > ul.list > li > a {
+	display: block;
+	font-size: 23px;
+}
+.post.more > ul.list > li > footer {
+	text-align: left;
+	padding: 0;
+	margin: 0 0;
+}
+.post.more > ul.list > li > footer > a {
+	color: #999;
+}

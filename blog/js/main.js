@@ -5,6 +5,7 @@ var postIndex = JSON.parse(ajaxList.responseText);
 
 var total = postIndex.list.length;
 var blogName = "Joy Neop";
+var ajaxContent = [];
 
 var postId = "NULL";
 
@@ -41,5 +42,5 @@ if (postId != "NULL") {
 		createSection(i);
 		loadPost(i);
 	}
-	loadMultiPosts(loadedOldestPostId-1);
+	listOutPreviousPosts();
 }

@@ -108,7 +108,7 @@ a:link, a:visited, a:hover, a:active {
 	margin-right: auto;
 }
 
-section.post > footer {
+.post > footer {
 	color: #999;
 	font-weight: normal;
 	text-align: center;

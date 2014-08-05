@@ -34,26 +34,21 @@
 		margin: 60px auto;
 	}
 	
-	section.post {
+	.post {
 		width: 600px;
 		margin-left: auto;
 		margin-right: auto;
-	}
-
-	section.addon {
-		display: none;
-		visibility: hidden;
 	}
 
 	.post-text > img {
 		max-width: 600px;
 	}
 
-	section.post footer {
+	.post footer {
 		transition: all 200ms ease;
 	}
 
-	section.post footer:hover {
+	.post footer:hover {
 		color: #EEE;
 	}
 
