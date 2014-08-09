@@ -107,6 +107,7 @@
 	{ "Lang" : [ "en", "en" ], "Time" : "June 25, 2014", "Title" : "Rainy Lily" },
 	{ "Lang" : [ "en", "en" ], "Time" : "July 5, 2014", "Title" : "Auromna" },
 	{ "Lang" : [ "en", "en" ], "Time" : "July 10, 2014", "Title" : "Visionary" },
-	{ "Lang" : [ "zh-Hant", "en" ], "Time" : "July 12, 2014", "Title" : "青春路上" }
+	{ "Lang" : [ "zh-Hant", "en" ], "Time" : "July 12, 2014", "Title" : "青春路上" },
+	{ "Lang" : [ "en", "en" ], "Time" : "July 30, 2014", "Title" : "Woodstocky" }
 ]
 }
