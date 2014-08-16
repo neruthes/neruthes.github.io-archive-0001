@@ -14,12 +14,12 @@
 	#global-header {
 		padding-top: 50px;
 	}
-	
+
 	.global h1 {
 		font-size: 40px;
 		margin: 35px 0;
 	}
-	
+
 	.global h2 {
 		font-size: 18px;
 		margin: 15px 0;
@@ -33,7 +33,7 @@
 		width: 740px;
 		margin: 60px auto;
 	}
-	
+
 	.post {
 		width: 600px;
 		margin-left: auto;
