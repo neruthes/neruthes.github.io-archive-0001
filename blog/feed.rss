@@ -5,11 +5,23 @@
         <atom:link href="http://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />
         <link>http://joyneop.xyz/blog/</link>
         <description>Do what you want to do. Be what you want to be.</description>
-        <lastBuildDate>July 12, 2014 09:41:00 +0000</lastBuildDate>
+        <lastBuildDate>July 30, 2014 09:41:00 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
         <generator>http://joyneop.github.io/blog/</generator>
+        <item>
+            <title>Woodstocky</title>
+            <link>http://joyneop.xyz/blog/?p=108</link>
+            <pubDate>July 30, 2014 09:41:00 +0000</pubDate>
+            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
+            <guid isPermaLink="false">http://joyneop.xyz/blog/?p=108</guid>
+            <content:encoded>
+<![CDATA[
+<img src="./img/0000201407300001.jpg">
+]]>
+            </content:encoded>
+        </item>
         <item>
             <title>青春路上</title>
             <link>http://joyneop.xyz/blog/?p=107</link>
@@ -19,7 +31,6 @@
             <content:encoded>
 <![CDATA[
 <img src="./img/0000201407120001.jpg">
-<img src="./img/0000201407120002.jpg">
 ]]>
             </content:encoded>
         </item>
@@ -1216,18 +1227,6 @@
 <p>這世界誰都不乾淨。我不期望別人多高尚多願意接受我，我也不想要我有多高尚多寬容。如果注定一生無產階級，那麼何不嘗試唯一的救贖之路?在美國被歧視、被剝削、被踐踏，也好過在中華人民共和國每時每刻生存在永無止境的恐怖與不安中。</p>
 <p>我不相信中華人民共和國會變得自由、平等、民主，也不相信在美國的生活會有多麼幸福。在殘酷的世界中泯滅我赤誠的期待，在黑暗的深淵中追求那微茫的希望，用一生試圖實現一個天真的夢想、活在一個虛幻的世界，最終在無盡的絕望與悔恨中死去，便是我的人生。</p>
 <p>即使已經明確「在夢想的盡頭存在的只有虛假」這一事實，我也只能將這不切實際的夢想貫徹到最後，完結一個無人知曉的悲劇，詮釋一個虛偽醜陋的世界。</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>BBS Signature Line: Thought Different</title>
-            <link>http://joyneop.xyz/blog/?p=28</link>
-            <pubDate>October 19, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">http://joyneop.xyz/blog/?p=28</guid>
-            <content:encoded>
-<![CDATA[
-<img src="./img/0000201210190001.jpg">
 ]]>
             </content:encoded>
         </item>
