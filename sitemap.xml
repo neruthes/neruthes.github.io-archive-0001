@@ -2,6 +2,11 @@
 <url>
 <loc>http://joyneop.xyz/color/</loc>
 <priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/char-art/</loc>
+<priority>0.8</priority>
+</url>
 <url>
 <loc>http://joyneop.xyz/wiki/</loc>
 <priority>0.1</priority>
@@ -31,23 +36,33 @@
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=106</loc>
+<loc>http://joyneop.xyz/blog/?p=108</loc>
+<lastmod>July 30, 2014</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=107</loc>
 <lastmod>July 12, 2014</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=105</loc>
+<loc>http://joyneop.xyz/blog/?p=106</loc>
 <lastmod>July 10, 2014</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=104</loc>
+<loc>http://joyneop.xyz/blog/?p=105</loc>
 <lastmod>July 5, 2014</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=103</loc>
+<loc>http://joyneop.xyz/blog/?p=104</loc>
 <lastmod>June 25, 2014</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=103</loc>
+<lastmod>June 24, 2014</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -57,22 +72,22 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=101</loc>
-<lastmod>June 24, 2014</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>http://joyneop.xyz/blog/?p=100</loc>
 <lastmod>April 25, 2014</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=99</loc>
+<loc>http://joyneop.xyz/blog/?p=100</loc>
 <lastmod>February 27, 2014</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=98</loc>
+<loc>http://joyneop.xyz/blog/?p=99</loc>
 <lastmod>February 11, 2014</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=98</loc>
+<lastmod>February 6, 2014</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -82,22 +97,22 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=96</loc>
-<lastmod>February 6, 2014</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>http://joyneop.xyz/blog/?p=95</loc>
 <lastmod>January 28, 2014</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=94</loc>
+<loc>http://joyneop.xyz/blog/?p=95</loc>
 <lastmod>January 24, 2014</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=93</loc>
+<loc>http://joyneop.xyz/blog/?p=94</loc>
 <lastmod>January 1, 2014</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=93</loc>
+<lastmod>December 24, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -112,17 +127,17 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=90</loc>
-<lastmod>December 24, 2013</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>http://joyneop.xyz/blog/?p=89</loc>
 <lastmod>December 16, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=88</loc>
+<loc>http://joyneop.xyz/blog/?p=89</loc>
 <lastmod>November 16, 2013</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=88</loc>
+<lastmod>November 9, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -132,7 +147,7 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=86</loc>
-<lastmod>November 9, 2013</lastmod>
+<lastmod>November 3, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -142,27 +157,27 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=84</loc>
-<lastmod>November 3, 2013</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>http://joyneop.xyz/blog/?p=83</loc>
 <lastmod>October 25, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=82</loc>
+<loc>http://joyneop.xyz/blog/?p=83</loc>
 <lastmod>October 16, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=81</loc>
+<loc>http://joyneop.xyz/blog/?p=82</loc>
 <lastmod>October 14, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=80</loc>
+<loc>http://joyneop.xyz/blog/?p=81</loc>
 <lastmod>September 29, 2013</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=80</loc>
+<lastmod>September 2, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -172,27 +187,27 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=78</loc>
-<lastmod>September 2, 2013</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>http://joyneop.xyz/blog/?p=77</loc>
 <lastmod>August 29, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=76</loc>
+<loc>http://joyneop.xyz/blog/?p=77</loc>
 <lastmod>August 28, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=75</loc>
+<loc>http://joyneop.xyz/blog/?p=76</loc>
 <lastmod>August 25, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=74</loc>
+<loc>http://joyneop.xyz/blog/?p=75</loc>
 <lastmod>August 1, 2013</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=74</loc>
+<lastmod>July 25, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -207,7 +222,7 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=71</loc>
-<lastmod>July 25, 2013</lastmod>
+<lastmod>July 7, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -222,7 +237,7 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=68</loc>
-<lastmod>July 7, 2013</lastmod>
+<lastmod>June 30, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -237,7 +252,7 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=65</loc>
-<lastmod>June 30, 2013</lastmod>
+<lastmod>June 29, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -252,17 +267,17 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=62</loc>
-<lastmod>June 29, 2013</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>http://joyneop.xyz/blog/?p=61</loc>
 <lastmod>June 10, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=60</loc>
+<loc>http://joyneop.xyz/blog/?p=61</loc>
 <lastmod>June 9, 2013</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=60</loc>
+<lastmod>May 17, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -272,67 +287,67 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=58</loc>
-<lastmod>May 17, 2013</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>http://joyneop.xyz/blog/?p=57</loc>
 <lastmod>May 12, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=56</loc>
+<loc>http://joyneop.xyz/blog/?p=57</loc>
 <lastmod>April 27, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=55</loc>
+<loc>http://joyneop.xyz/blog/?p=56</loc>
 <lastmod>April 20, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=54</loc>
+<loc>http://joyneop.xyz/blog/?p=55</loc>
 <lastmod>April 14, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=53</loc>
+<loc>http://joyneop.xyz/blog/?p=54</loc>
 <lastmod>April 2, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=52</loc>
+<loc>http://joyneop.xyz/blog/?p=53</loc>
 <lastmod>April 1, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=51</loc>
+<loc>http://joyneop.xyz/blog/?p=52</loc>
 <lastmod>Mar 27, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=50</loc>
+<loc>http://joyneop.xyz/blog/?p=51</loc>
 <lastmod>Mar 19, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=49</loc>
+<loc>http://joyneop.xyz/blog/?p=50</loc>
 <lastmod>Mar 12, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=48</loc>
+<loc>http://joyneop.xyz/blog/?p=49</loc>
 <lastmod>Mar 3, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=47</loc>
+<loc>http://joyneop.xyz/blog/?p=48</loc>
 <lastmod>February 28, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=46</loc>
+<loc>http://joyneop.xyz/blog/?p=47</loc>
 <lastmod>February 25, 2013</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=46</loc>
+<lastmod>February 15, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -342,42 +357,42 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=44</loc>
-<lastmod>February 15, 2013</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>http://joyneop.xyz/blog/?p=43</loc>
 <lastmod>February 10, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=42</loc>
+<loc>http://joyneop.xyz/blog/?p=43</loc>
 <lastmod>February 4, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=41</loc>
+<loc>http://joyneop.xyz/blog/?p=42</loc>
 <lastmod>January 23, 2013</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=40</loc>
+<loc>http://joyneop.xyz/blog/?p=41</loc>
 <lastmod>December 31, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=39</loc>
+<loc>http://joyneop.xyz/blog/?p=40</loc>
 <lastmod>December 15, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=38</loc>
+<loc>http://joyneop.xyz/blog/?p=39</loc>
 <lastmod>December 14, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=37</loc>
+<loc>http://joyneop.xyz/blog/?p=38</loc>
 <lastmod>December 10, 2012</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=37</loc>
+<lastmod>December 7, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -387,82 +402,82 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=35</loc>
-<lastmod>December 7, 2012</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>http://joyneop.xyz/blog/?p=34</loc>
 <lastmod>November 24, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=33</loc>
+<loc>http://joyneop.xyz/blog/?p=34</loc>
 <lastmod>November 17, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=32</loc>
+<loc>http://joyneop.xyz/blog/?p=33</loc>
 <lastmod>November 10, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=31</loc>
+<loc>http://joyneop.xyz/blog/?p=32</loc>
 <lastmod>November 9, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=30</loc>
+<loc>http://joyneop.xyz/blog/?p=31</loc>
 <lastmod>November 6, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=29</loc>
+<loc>http://joyneop.xyz/blog/?p=30</loc>
 <lastmod>November 4, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=28</loc>
+<loc>http://joyneop.xyz/blog/?p=29</loc>
 <lastmod>October 31, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=27</loc>
+<loc>http://joyneop.xyz/blog/?p=28</loc>
 <lastmod>October 19, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=26</loc>
+<loc>http://joyneop.xyz/blog/?p=27</loc>
 <lastmod>October 2, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=25</loc>
+<loc>http://joyneop.xyz/blog/?p=26</loc>
 <lastmod>September 24, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=24</loc>
+<loc>http://joyneop.xyz/blog/?p=25</loc>
 <lastmod>September 22, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=23</loc>
+<loc>http://joyneop.xyz/blog/?p=24</loc>
 <lastmod>September 14, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=22</loc>
+<loc>http://joyneop.xyz/blog/?p=23</loc>
 <lastmod>September 8, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=21</loc>
+<loc>http://joyneop.xyz/blog/?p=22</loc>
 <lastmod>September 7, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=20</loc>
+<loc>http://joyneop.xyz/blog/?p=21</loc>
 <lastmod>September 4, 2012</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=20</loc>
+<lastmod>August 30, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -472,22 +487,22 @@
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/?p=18</loc>
-<lastmod>August 30, 2012</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>http://joyneop.xyz/blog/?p=17</loc>
 <lastmod>August 28, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=16</loc>
+<loc>http://joyneop.xyz/blog/?p=17</loc>
 <lastmod>August 27, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>http://joyneop.xyz/blog/?p=15</loc>
+<loc>http://joyneop.xyz/blog/?p=16</loc>
 <lastmod>August 24, 2012</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=15</loc>
+<lastmod>August 23, 2012</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
