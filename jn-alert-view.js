@@ -38,7 +38,7 @@
 		// if (quadrant == 4)
 		corner = "bottom: 15px; right: 15px;";
 	}
-	var preStyle = "#jn-alert-3389 { position: " + position + "; " + corner + sizeText[0] + " z-index: 9999; box-sizing: border-box; max-width: 390px; font-size: 15px; font-weight: normal; line-height: 20px; letter-spacing: 0; overflow: hidden; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; transition: all 300ms ease; } #jn-alert-3389 span { padding: 6px 14px; box-sizing: border-box; } #jn-alert-3389 span * { color: inherit; text-decoration: inherit; }";
+	var preStyle = "#jn-alert-3389 { position: " + position + "; " + corner + sizeText[0] + " z-index: 9999; box-sizing: border-box; max-width: 390px; font-size: 15px; font-weight: 300; line-height: 20px; letter-spacing: 0; overflow: hidden; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; transition: all 300ms ease; } #jn-alert-3389 span { padding: 6px 14px; box-sizing: border-box; } #jn-alert-3389 span * { color: inherit; text-decoration: inherit; }";
 	var extraStyle = "#jn-alert-3389 span:first-child { display: block; } #jn-alert-3389 span:last-child { display: none; } #jn-alert-3389:hover { opacity: 1; " + sizeText[1] + " } #jn-alert-3389:hover span:first-child { display: none; } #jn-alert-3389:hover span:last-child { display: block; }";
 	var styleTag = document.createElement("style");
 	styleTag.setAttribute("id", divId + "style");
