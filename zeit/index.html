@@ -84,9 +84,9 @@
 	<div id="cont">
 		<div id="content">
 			<!-- <div id="time">&nbsp;</div> -->
-			<div id="time">9:41</div>
+			<div id="time">&nbsp;</div>
 			<h1><a href="./">Zeit</a></h1>
-			<div id="date">September 15, 1995</div>
+			<div id="date"></div>
 		</div>
 	</div>
 	<footer><a href="http://www.joyneop.com/">&copy; Copyright 2014 All Rights Reserved by Joy Neop</a></footer>
@@ -115,8 +115,8 @@
 		if (min.length == 1) {
 			min = "0" + min;
 		}
-		// document.getElementById("time").innerHTML = h + ":" + min;
-		// document.getElementById("date").innerHTML = "September 15, 1995".replace("September", mon).replace("15", d).replace("1995", y);
+		document.getElementById("time").innerHTML = h + ":" + min;
+		document.getElementById("date").innerHTML = "September 15, 1995".replace("September", mon).replace("15", d).replace("1995", y);
 	};
 	var colle = [
 		"http://joyneop.github.io/blog/img/0000201311030001.jpg",
