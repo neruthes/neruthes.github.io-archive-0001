@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Hue Clock</title>
+	<link rel="shortcut icon favicon" href="/favicon.ico"/>
+	<link rel="apple-touch-icon" href="/joyneop.png"/>
+	<style type="text/css">
+	body {
+		font-family: Seravek, 'Myriad Pro', 'Myriad Apple', Myriad, 'Myriad Set Pro', 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Ubuntu, Arial, 'Arial Black', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', 'STHeiti', sans-serif;
+		font-weight: 300;
+		color: #FFF;
+		background: #000 center fixed no-repeat;
+		background-size: cover;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+		margin: 0 0 0 0;
+		overflow: hidden;
+	}
+	a, a:hover, a:visited, a:link {
+		color: #FFF;
+		text-decoration: none;
+		transition: all 300ms ease;
+	}
+	#cont {
+		position: fixed;
+		top: 50%;
+		left: 0;
+		font-weight: 400;
+		width: 100%;
+		box-sizing: border-box;
+		margin-top: -300px;
+		overflow: visible;
+		z-index: 42;
+	}
+	h1 {
+		position: fixed;
+		top: 20px;
+		font-size: 14px;
+		font-weight: 400;
+		text-align: center;
+		width: 100%;
+		margin: 0;
+		z-index: 100;
+	}
+	#content {
+		width: 600px;
+		margin: 0 auto;
+	}
+	#time {
+		height: 357px;
+		font-size: 192px;
+		text-align: center;
+		/*text-shadow: rgba(0, 0, 0, 0.35) 0 1px 2px;*/
+		box-sizing: border-box;
+		padding: 120px 0 0;
+		margin: 0 auto;
+		border-bottom: 1px solid #FFF;
+		z-index: 900;
+	}
+	#date {
+		font-size: 30px;
+		text-align: center;
+		padding: 20px 0 0;
+	}
+	footer {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		font-size: 14px;
+		font-weight: normal;
+		text-align: center;
+		padding: 30px 0 10px;
+		opacity: 0.2;
+	}
+	footer:hover {
+		opacity: 1;
+	}
+	</style>
+</head>
+<body>
+	<div id="cont">
+		<div id="title"><h1></h1></div>
+		<div id="content">
+			<div id="time"></div>
+			<div id="date"></div>
+		</div>
+	</div>
+	<footer>&copy; Copyright 2014 All Rights Reserved by Joy Neop</footer>
+	<script type="text/javascript">
+	var months = [
+		"NaN",
+		"January",
+		"February",
+		"March",
+		"April",
+		"May",
+		"June",
+		"July",
+		"August",
+		"September",
+		"October",
+		"November",
+		"December",
+	];
+	var JNClock = function () {
+		var da = new Date();
+		var y = da.getFullYear();
+		var mon = months[da.getMonth()];
+		var d = da.getDate().toString();
+		var h = da.getHours().toString();
+		var min = da.getMinutes().toString();
+		if (min.length == 1) {
+			min = "0" + min;
+		}
+		document.getElementById("time").innerHTML = h + ":" + min;
+		document.getElementById("date").innerHTML = "September 15, 1995".replace("September", mon).replace("15", d).replace("1995", y);
+	};
+	var colle = [
+		"http://joyneop.github.io/blog/img/0000201406250001.jpg",
+		"http://joyneop.github.io/blog/img/0000201407300001.jpg",
+		"http://joyneop.github.io/blog/img/0000201407050001.jpg",
+		"http://joyneop.github.io/blog/img/0000201311030001.jpg"
+	];
+	var rand = Math.round(Math.random()*(colle.length-1));
+	document.body.style.backgroundImage = "url(_IMGURL_)".replace("_IMGURL_", colle[rand]);
+	var yooo = window.setInterval(JNClock, 1000);
+	</script>
+	<!-- <script type="text/javascript" src="http://joyneop.github.io/jn-analy-personal.js"></script> -->
+</body>
+</html>
