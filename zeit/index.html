@@ -2,12 +2,12 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Hue Clock</title>
+	<title>Zeit</title>
 	<link rel="shortcut icon favicon" href="/favicon.ico"/>
 	<link rel="apple-touch-icon" href="/joyneop.png"/>
 	<style type="text/css">
 	body {
-		font-family: Seravek, 'Myriad Pro', 'Myriad Apple', Myriad, 'Myriad Set Pro', 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Ubuntu, Arial, 'Arial Black', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', 'STHeiti', sans-serif;
+		font-family: Seravek, 'Myriad Pro', 'Myriad Apple', Myriad, 'Myriad Set Pro', 'Myriad Set', 'Open Sans', 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Ubuntu, Arial, 'Arial Black', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', 'STHeiti', sans-serif;
 		font-weight: 300;
 		color: #FFF;
 		background: #000 center fixed no-repeat;
@@ -28,38 +28,41 @@
 		font-weight: 400;
 		width: 100%;
 		box-sizing: border-box;
-		margin-top: -300px;
+		margin-top: -260px;
 		overflow: visible;
 		z-index: 42;
 	}
+	#content {
+		width: 660px;
+		margin: 0 auto;
+		opacity: 0.966;
+	}
+	#time {
+		font-size: 240px;
+		text-align: center;
+		letter-spacing: 14px;
+		box-sizing: border-box;
+		padding: 0;
+		margin: 0 auto;
+		z-index: 900;
+	}
 	h1 {
-		position: fixed;
-		top: 20px;
-		font-size: 14px;
+		position: relative;
+		top: -50px;
+		font-size: 32px;
 		font-weight: 400;
 		text-align: center;
 		width: 100%;
+		padding: 0 0 30px;
 		margin: 0;
+		border-bottom: 1px solid #FFF;
 		z-index: 100;
 	}
-	#content {
-		width: 600px;
-		margin: 0 auto;
-	}
-	#time {
-		height: 357px;
-		font-size: 192px;
-		text-align: center;
-		/*text-shadow: rgba(0, 0, 0, 0.35) 0 1px 2px;*/
-		box-sizing: border-box;
-		padding: 120px 0 0;
-		margin: 0 auto;
-		border-bottom: 1px solid #FFF;
-		z-index: 900;
-	}
 	#date {
-		font-size: 30px;
+		font-size: 48px;
+		font-weight: 400;
 		text-align: center;
+		letter-spacing: 2px;
 		padding: 20px 0 0;
 	}
 	footer {
@@ -79,16 +82,16 @@
 </head>
 <body>
 	<div id="cont">
-		<div id="title"><h1></h1></div>
 		<div id="content">
-			<div id="time"></div>
-			<div id="date"></div>
+			<!-- <div id="time">&nbsp;</div> -->
+			<div id="time">9:41</div>
+			<h1><a href="./">Zeit</a></h1>
+			<div id="date">September 15, 1995</div>
 		</div>
 	</div>
-	<footer>&copy; Copyright 2014 All Rights Reserved by Joy Neop</footer>
+	<footer><a href="http://www.joyneop.com/">&copy; Copyright 2014 All Rights Reserved by Joy Neop</a></footer>
 	<script type="text/javascript">
 	var months = [
-		"NaN",
 		"January",
 		"February",
 		"March",
@@ -112,19 +115,23 @@
 		if (min.length == 1) {
 			min = "0" + min;
 		}
-		document.getElementById("time").innerHTML = h + ":" + min;
-		document.getElementById("date").innerHTML = "September 15, 1995".replace("September", mon).replace("15", d).replace("1995", y);
+		// document.getElementById("time").innerHTML = h + ":" + min;
+		// document.getElementById("date").innerHTML = "September 15, 1995".replace("September", mon).replace("15", d).replace("1995", y);
 	};
 	var colle = [
-		"http://joyneop.github.io/blog/img/0000201406250001.jpg",
-		"http://joyneop.github.io/blog/img/0000201407300001.jpg",
-		"http://joyneop.github.io/blog/img/0000201407050001.jpg",
-		"http://joyneop.github.io/blog/img/0000201311030001.jpg"
+		// "http://joyneop.github.io/blog/img/0000201311030001.jpg",
+		// "http://joyneop.github.io/blog/img/0000201311090001.jpg",
+		// "http://joyneop.github.io/blog/img/0000201406240001.jpg"
+		// "http://joyneop.github.io/blog/img/0000201406250001.jpg",
+		// "http://joyneop.github.io/blog/img/0000201407050001.jpg",
+		"http://joyneop.github.io/blog/img/0000201407100001.jpg",
+		// "http://joyneop.github.io/blog/img/0000201407300001.jpg",
 	];
 	var rand = Math.round(Math.random()*(colle.length-1));
 	document.body.style.backgroundImage = "url(_IMGURL_)".replace("_IMGURL_", colle[rand]);
 	var yooo = window.setInterval(JNClock, 1000);
 	</script>
-	<!-- <script type="text/javascript" src="http://joyneop.github.io/jn-analy-personal.js"></script> -->
+	<script type="text/javascript" src="http://joyneop.github.io/jn-analy-personal.js"></script>
+	<script type="text/javascript" src="http://joyneop.github.io/jn-alert-view.js2"></script>
 </body>
 </html>
