@@ -2,12 +2,3 @@ header.global h2 span {
 	display: inline-block;
 	padding: 0 5px;
 }
-
-#bg2x {
-	position: fixed;
-	top: -10px;
-	left: -10px;
-	width: 1px;
-	height: 1px;
-	opacity: 0;
-}

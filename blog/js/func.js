@@ -1,7 +1,3 @@
-function retinaDidLoad() {
-	document.getElementById("body").style.backgroundImage = "url(http://joyneop.xyz/JN-Lab/other-images/glow-blur-2400.jpg)";
-}
-
 function createSection(pid) {
 	var section = document.createElement("section");
 	var h2 = document.createElement("h2");

@@ -12,21 +12,13 @@
 	<link rel="apple-touch-icon" href="/favicon.png">
 	<link rel="alternate" type="application/rss+xml" href="/blog/feed.rss">
 	<script type="text/javascript" src="js/func.js"></script>
-	<script type="text/javascript">
-	function docDidLoad() {
-		if (window.innerWidth * window.devicePixelRatio >= 1920) {
-			var img = document.createElement("img");
-			img.setAttribute("id", "bg2x");
-			img.setAttribute("src", "http://joyneop.xyz/JN-Lab/other-images/glow-blur-2400.jpg");
-			img.setAttribute("onload", "retinaDidLoad()");
-			document.body.appendChild(img);
-		}
-	}
-	</script>
 </head>
 <body id="body" onload="docDidLoad()">
 	<header id="global-header" class="global">
-		<h1><a href="./">Joy Neop</a></h1>
+		<h1>
+			<div class="avatar"></div>
+			<a href="./">Joy Neop</a>
+		</h1>
 		<h2><span>Do what you want to do.</span><span>Be what you want to be.</span></h2>
 	</header>
 	<div id="cont" class="cont">
@@ -49,7 +41,7 @@
 	</script>
 	<!--
 		Wanna add a comment? Go to https://github.com/JoyNeop/joyneop.github.io/issues and open an issue : )
-		And you know, there is http://joyneop.github.io/bbs/ for fun :P
+		By the way, there is http://joyneop.github.io/bbs/ for fun :P
 	-->
 </body>
 </html>
