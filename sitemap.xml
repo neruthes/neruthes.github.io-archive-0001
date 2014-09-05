@@ -20,6 +20,10 @@
 <priority>0.8</priority>
 </url>
 <url>
+<loc>http://joyneop.xyz/zeit/</loc>
+<priority>0.8</priority>
+</url>
+<url>
 <loc>http://joyneop.xyz/grid/</loc>
 <priority>0.8</priority>
 </url>
@@ -33,6 +37,16 @@
 </url>
 <url>
 <loc>http://www.joyneop.com/blog/archive.html</loc>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=110</loc>
+<lastmod>September 6, 2014</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=109</loc>
+<lastmod>August 27, 2014</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -578,10 +592,6 @@
 <url>
 <loc>http://joyneop.xyz/blog/?p=0</loc>
 <lastmod>April 5, 2012</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>http://joyneop.xyz/lab/2014/4/</loc>
 <priority>0.8</priority>
 </url>
 <url>

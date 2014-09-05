@@ -3,6 +3,16 @@
 <priority>0.8</priority>
 </url>
 <url>
+<loc>http://joyneop.xyz/blog/?p=110</loc>
+<lastmod>September 6, 2014</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://joyneop.xyz/blog/?p=109</loc>
+<lastmod>August 27, 2014</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
 <loc>http://joyneop.xyz/blog/?p=108</loc>
 <lastmod>July 30, 2014</lastmod>
 <priority>0.8</priority>

@@ -1,8 +1,10 @@
+@import url(http://joyneop.github.io/fonts/open-sans.css);
+
 body {
-	font-family: Tahoma, Verdana, Ubuntu, Arial, 'Hiragino Sans GB', sans-serif !important;
+	font-family: 'Open Sans', Seravek, 'Helvetica Neue', Ubuntu, Arial, 'Hiragino Sans GB', sans-serif !important;
 	padding: 0 !important;
 	margin: 0 !important;
-	background: #E9E9E5 !important;
+	background: #FAFAFA !important;
 }
 
 .m-header {
