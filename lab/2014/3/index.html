@@ -8,18 +8,18 @@
 	<link rel="apple-touch-icon" href="/joyneop.png">
 	<style type="text/css">
 	/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);*/
-	@import url(http://joyneop.github.io/font-awesome/jnfa-latest.css);
+	/*@import url(http://joyneop.github.io/font-awesome/jnfa-latest.css);*/
 	* {
 		box-sizing: border-box;
 	}
 	body {
 		font-family: 'Seravek-Extralight', 'Myriad Pro', 'Myriad Apple', 'Myriad Set Pro', Myriad, 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-size: 20px;
-		font-weight: normal;
-		color: #474747;
+		font-weight: 300;
+		color: #585858;
 		padding: 0;
 		margin: 0;
-		background: #FBFBFB;
+		background: #FAFAFA;
 	}
 	header a:link, header a:visited, header a:hover, header a:active, footer a {
 		display: block;
@@ -29,7 +29,7 @@
 	header {
 		position: absolute;
 		width: 100%;
-		height: 100%;
+		height: 80%;
 		padding: 0;
 		margin: 0 auto;
 	}
@@ -37,31 +37,30 @@
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		/*width: 100%;*/
 		width: 680px;
 		margin: -200px 0 0 -340px;
 	}
 	#title-in {
-
 	}
 	.avatar {
-		display: block;
 		width: 180px;
 		height: 180px;
 		margin: 0 auto;
+		background: #FFF url(http://joyneop.github.io/joyneop.png) center no-repeat scroll;
+		background-size: contain;
 		border-radius: 2000px;
-		-webkit-transition: all 600ms ease;
-		-moz-transition: all 600ms ease;
-		transition: all 600ms ease;
+		box-shadow: rgba(0, 0, 0, 0.21322) 0 0 5px inset;
+		/*-webkit-transition: all 270ms ease;
+		-moz-transition: all 270ms ease;
+		transition: all 270ms ease;*/
 	}
 	.avatar:hover {
-		-webkit-transform: rotate(-360deg);
 	}
 	#main {
 		position: absolute;
-		top: 100%;
+		top: 80%;
 		width: 100%;
-		padding: 10px 0 0 0;
+		padding: 0;
 	}
 	header h1, header p {
 		font-weight: 300;
@@ -81,7 +80,7 @@
 		min-height: 100px;
 		width: 680px;
 		padding: 30px 0;
-		margin: 0 auto 120px;
+		margin: 0 auto 70px;
 		background-size: 100px;
 		overflow: hidden;
 	}
@@ -90,14 +89,11 @@
 		font-weight: normal;
 		line-height: 42px;
 		color: #2B8CD2;
-		letter-spacing: 3px;
+		letter-spacing: 1px;
 		text-align: center;
 		text-transform: uppercase;
 		padding: 8px 0 0;
 		margin: 0 0 12px 0;
-		-webkit-transition: all 300ms ease;
-		-moz-transition: all 300ms ease;
-		transition: all 300ms ease;
 	}
 	section h2:hover {
 	}
@@ -116,9 +112,50 @@
 		padding: 0 2px;
 		margin: 0 -2px;
 		border-radius: 3px;
-		-webkit-transition: all 100ms ease;
-		-moz-transition: all 100ms ease;
-		transition: all 100ms ease;
+	}
+	#nav {
+		text-align: center;
+	}
+	.circle {
+		display: inline-block;
+		width: 180px;
+		height: 180px;
+		margin: 0 44px;
+		background: #345 center no-repeat scroll;
+		background-size: contain;
+		border-radius: 2000px;
+		box-shadow: rgba(0, 0, 0, 0.3) 0 0 8px inset;
+	}
+	.circle.blog {
+		background-image: url(http://joyneop.github.io/JN-Lab/other-images/nav-blog-360px.jpg);
+		background-image: url(http://joyneop.github.io/JN-Lab/other-images/nav-blog.jpg);
+	}
+	.circle.lab {
+		background-image: linear-gradient(rgb(31, 97, 190), rgb(177, 206, 227));
+	}
+	.circle a {
+		display: block;
+		font-size: 30px;
+		color: #FFF;
+		text-decoration: none;
+		width: 180px;
+		height: 180px;
+		padding: 74px 0 0;border-radius: 2000px;
+		opacity: 0;
+		-webkit-transition: all 200ms ease;
+		-moz-transition: all 200ms ease;
+		transition: all 200ms ease;
+	}
+	.circle:hover {
+		box-shadow: rgba(0, 0, 0, 0.53) 0 0 8px inset;
+	}
+	.circle:hover a {
+		opacity: 1;
+	}
+	footer {
+		font-size: 14px;
+		text-align: center;
+		padding: 20px 0;
 	}
 	</style>
 </head>
@@ -127,7 +164,7 @@
 		<div id="title">
 			<div id="title-in">
 				<a href="./">
-					<img src="http://joyneop.github.io/joyneop.png" class="avatar">
+					<div class="avatar"></div>
 					<h1>Joy Neop</h1>
 				</a>
 				<p>
@@ -137,18 +174,27 @@
 		</div>
 	</header>
 	<div id="main">
-		<section id="touch">
+		<section id="nav">
+			<div class="circle blog">
+				<a href="/blog/">
+					<span>Blog</span>
+				</a>
+			</div><div class="circle lab">
+				<a href="/lab/">
+					<span>Lab</span>
+				</a>
+			</div>
 		</section>
-		<section id="now">
-			<h2>Enjoying</h2>
+		<section id="links">
+			<h2>Find Me</h2>
 			<ul class="link">
 			</ul>
 		</section>
-		<footer class="bonw">
+		<footer>
 			<a href="/">&copy; 2014 All Rights Reserved by Joy Neop</a>
 		</footer>
 	</div>
-	<!-- // <script type="text/javascript" src="http://joyneop.github.io/jn-analy-personal.js"></script> -->
-	<script type="text/javascript" src="http://joyneop.github.io/jn-alert-view.js"></script>
+	<!-- <script type="text/javascript" src="http://joyneop.github.io/jn-analy-personal.js"></script> -->
+	<!-- <script type="text/javascript" src="http://joyneop.github.io/jn-alert-view.js"></script> -->
 </body>
 </html>
