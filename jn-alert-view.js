@@ -62,7 +62,7 @@
 		document.getElementById(jnalert.divId + "style").innerHTML = jnalert.styleTagContent + "#" + jnalert.divId + " { opacity: 1; }";
 	}, 4);
 	window.setTimeout(function(){
-		document.getElementById(jnalert.divId + "style").innerHTML = jnalert.styleTagContent + "#" + jnalert.divId + " { opacity: 0.0655555; }";
+		document.getElementById(jnalert.divId + "style").innerHTML = jnalert.styleTagContent + "#" + jnalert.divId + " { opacity: 0.0455555; }";
 	}, 2200);
 	console.log(alert);
 	console.log(text);
