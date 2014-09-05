@@ -44,10 +44,6 @@
 		transition: all 200ms ease;
 	}
 
-	.post footer:hover {
-		color: #EEE;
-	}
-
 	nav.prevandnext {
 		max-width: 600px;
 		margin: 0 auto;

@@ -68,7 +68,6 @@ a:link, a:visited, a:hover, a:active {
 	padding-top: 20px;
 	margin-bottom: 90px;
 	background: #FFF;
-	background-size: 100px;
 	border-radius: 4px;
 	box-shadow: rgba(0, 0, 0, 0.024322) 0 0 4px;
 }
@@ -102,7 +101,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post-text img {
-	box-shadow: rgba(0, 0, 0, 0.08103) 0 1px 3px;
+	box-shadow: rgba(0, 0, 0, 0.091333) 0 1px 3px;
 	border-radius: 3px;
 }
 
@@ -135,7 +134,6 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post footer {
-	color: #999;
 	font-weight: 300;
 	text-align: center;
 	margin: 60px 0 0 0;
@@ -147,8 +145,7 @@ a:link, a:visited, a:hover, a:active {
 
 nav.prevandnext span a {
 	font-size: 20px;
-	font-weight: normal;
-	color: #FDFDFD;
+	font-weight: 300;
 }
 
 footer.global {
