@@ -1,5 +1,7 @@
+@import url(http://joyneop.github.io/fonts/open-sans.css);
+
 body {
-	font-family: 'Iowan Old Style', Ovo, Charter, Marion, Georgia, Times, 'Hiragino Mincho ProN', 'Songti TC', 'Songti SC', serif;
+	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 	background-color: #2D6CA3;
 }
 
@@ -50,15 +52,15 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post [lang="en"] {
-	font-family: 'Iowan Old Style', Ovo, Charter, Marion, Georgia, Times, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', 'Songti TC', 'Songti SC', serif;
+	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 }
 
 .post [lang="ja"] {
-	font-family: 'Iowan Old Style', Ovo, Charter, Marion, Georgia, Times, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', 'Songti TC', 'Songti SC', serif;
+	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 }
 
 .post [lang="zh-Hant"] {
-	font-family: 'Iowan Old Style', Ovo, Charter, Marion, Georgia, Times, 'Songti TC', 'Songti SC', 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', serif;
+	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
 }
 
 .post > h2 {

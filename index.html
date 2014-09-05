@@ -3,413 +3,290 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Joy Neop</title>
-	<link rel="shortcut icon favicon" href="/favicon.ico"/>
-	<link rel="apple-touch-icon" href="/joyneop.png"/>
+	<base href="http://joyneop.github.io/"></base>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="favicon shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/joyneop.png">
 	<style type="text/css">
-	/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);*/
+	@import url(http://joyneop.github.io/fonts/open-sans.css);
 	* {
-		-webkit-transition: all 600ms ease;
-		-moz-transition: all 600ms ease;
-		transition: all 600ms ease;
+		box-sizing: border-box;
 	}
 	body {
-		font-family: 'Seravek-Light', 'Myriad Pro', 'Myriad Apple', Myriad, 'Myriad Set Pro', 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Ubuntu, Arial, 'Arial Black', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', 'STHeiti', sans-serif;
-		color: #FFF;
-		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
-		margin: 0 0 0 0;
-		background: #2D6CA3 url(http://joyneop.github.io/JN-Lab/other-images/glow-blur.jpg) center fixed no-repeat;
-		background-size: cover;
-		overflow: hidden;
+		font-family: Seravek, 'Myriad Pro', 'Myriad Apple', 'Myriad Set Pro', Myriad, 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 20px;
+		font-weight: 300;
+		color: #585858;
+		padding: 0;
+		margin: 0;
+		background: #FAFAFA;
 	}
-	@media screen and (min-width: 1920px) {
-		body {
-			background: #2D6CA3 url(http://joyneop.github.io/JN-Lab/other-images/glow-blur-2400.jpg) center fixed no-repeat;
-			background-size: cover;
-		}
-	}
-	#bg {
-		position: fixed;
+	header a:link, header a:visited, header a:hover, header a:active, footer a {
 		display: block;
+		color: inherit;
+		text-decoration: inherit;
+	}
+	header {
+		position: absolute;
+		width: 100%;
+		height: 80%;
+		padding: 0;
+		margin: 0 auto;
+	}
+	header #title {
+		position: absolute;
 		top: 50%;
 		left: 50%;
 		width: 680px;
-		height: 500px;
-		margin-top: -250px;
-		margin-left: -340px;
-		background: url(http://joyneop.github.io/JN-Lab/other-images/jn-opacity-460.png) center no-repeat scroll;
+		margin: -200px 0 0 -340px;
+	}
+	#title-in {
+	}
+	.avatar {
+		width: 180px;
+		height: 180px;
+		margin: 0 auto;
+		background: #FFF url(http://joyneop.github.io/joyneop.png) center no-repeat scroll;
 		background-size: contain;
-		opacity: 0;
-		z-index: 80;
-		-webkit-transition: all 600ms ease;
-		-moz-transition: all 600ms ease;
-		transition: all 600ms ease;
+		border-radius: 2000px;
+		box-shadow: rgba(0, 0, 0, 0.21322) 0 0 5px inset;
+		-webkit-transition: all 270ms ease;
+		-moz-transition: all 270ms ease;
+		transition: all 270ms ease;
 	}
-	#bg a {
-		display: block;
-		width: 100%;
-		height: 100%;
+	.avatar:hover {
+		box-shadow: rgba(0, 0, 0, 0.432222) 0 0 5px inset;
 	}
-	#navbar {
-		position: fixed;
-		top: 50%;
-		left: 50%;
-		height: 250px;
-		width: 1000px;
-		font-weight: normal;
-		margin-top: -20px;
-		margin-left: -500px;
-		overflow: visible;
-		z-index: 900;
-		-webkit-transition: all 600ms ease;
-		-moz-transition: all 600ms ease;
-		transition: all 600ms ease;
-	}
-	.circle-out {
+	#main {
 		position: absolute;
-		top: 0;
-		width: 250px;
-		height: 250px;
+		top: 80%;
+		width: 100%;
+		padding: 0;
 	}
-	.circle-out.c1 {
-		left: 0;
+	header h1, header p {
+		font-weight: 300;
+		text-align: center;
+		width: 100%;
+		margin: 0;
 	}
-	.circle-out.c2 {
-		left: 250px;
+	header h1 {
+		font-size: 48px;
+		padding: 20px 0 10px;
 	}
-	.circle-out.c3 {
-		left: 500px;
+	header p {
+		line-height: 1.45em;
+		padding: 10px 0;
 	}
-	.circle-out.c4 {
-		left: 750px;
+	section {
+		min-height: 100px;
+		width: 540px;
+		padding: 30px 0;
+		margin: 0 auto 70px;
+		background-size: 100px;
+		overflow: hidden;
+	}
+	section h2 {
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 42px;
+		color: #2B8CD2;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 8px 0 0;
+		margin: 0 0 12px 0;
+	}
+	section h2:hover {
+	}
+	section p a, section p a:link, section p a:visited {
+		display: inline;
+		color: rgba(20, 130, 227, 1);
+		text-decoration: none;
+		padding: 0 2px;
+		margin: 0 -2px;
+		border-radius: 3px;
+	}
+	#nav {
+		text-align: center;
 	}
 	.circle {
-		display: block;
-		height: 180px;
+		display: inline-block;
 		width: 180px;
-		padding: 0;
-		margin: 35px;
-		background: rgba(0, 0, 0, 0.32);
-		box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
-		border-radius: 200px;
-		opacity: 0;
-		cursor: pointer;
-		overflow: visible;
-		visibility: hidden;
-		-webkit-transition: all 300ms ease;
-		-moz-transition: all 300ms ease;
-		transition: all 300ms ease;
+		height: 180px;
+		margin: 0 44px;
+		background: #345 center no-repeat scroll;
+		background-size: contain;
+		border-radius: 2000px;
+		box-shadow: rgba(0, 0, 0, 0.41322) 0 0 5px inset;
+		-webkit-transition: all 270ms ease;
+		-moz-transition: all 270ms ease;
+		transition: all 270ms ease;
 	}
-	.circle:hover {
-		height: 210px;
-		width: 210px;
-		margin: 20px;
-		box-shadow: 0 0 28px rgba(0, 0, 0, 0.4);
+	.circle.blog {
+		background-image: url(http://joyneop.github.io/JN-Lab/other-images/nav-blog-360px.jpg);
+		background-image: url(http://joyneop.github.io/JN-Lab/other-images/nav-blog.jpg);
 	}
-	.circle-in {
-		display: block;
-		width: 100%;
-		height: 100%;
-		text-align: center;
-		padding-left: auto;
-		padding-right: auto;
-		margin: 0;
-		box-shadow: inset 0 0 18px rgba(255, 255, 255, 0.4);
-		border-radius: 105px;
-		cursor: pointer;
-		overflow: hidden;
-		-webkit-transition: all 300ms ease;
-		-moz-transition: all 300ms ease;
-		transition: all 300ms ease;
-	}
-	.circle-in:hover {
-		box-shadow: inset 0 0 44px rgba(255, 255, 255, 1);
+	.circle.lab {
+		background-image: linear-gradient(rgb(31, 97, 190), rgb(177, 206, 227));
 	}
 	.circle a {
 		display: block;
+		font-size: 30px;
+		color: #FFF;
+		text-decoration: none;
+		width: 180px;
+		height: 180px;
+		padding: 74px 0 0;border-radius: 2000px;
+		opacity: 0;
+		-webkit-transition: all 200ms ease;
+		-moz-transition: all 200ms ease;
+		transition: all 200ms ease;
 	}
-	#nav-blog-in {
-		background: url(http://joyneop.github.io/JN-Lab/other-images/nav-blog.jpg) scroll center;
-		background-size: 210px;
+	.circle:hover {
+		box-shadow: rgba(0, 0, 0, 0.632222) 0 0 5px inset;
 	}
-	#nav-lab-in {
-		background: rgb(177, 206, 277) scroll center;
-		background-image: linear-gradient(rgb(31, 97, 190), rgb(177, 206, 227));
+	.circle:hover a {
+		opacity: 1;
 	}
-	#nav-about-in {
-		background: #ffdb29 scroll center;
-		background-image: linear-gradient(rgb(255, 138, 5), rgb(255, 219, 41));
+	section ul, section li {
 	}
-	#nav-links-in {
-		background: url(http://joyneop.github.io/JN-Lab/other-images/nav-links.jpg) scroll center;
-		background-size: 210px;
-	}
-	.circle-in h2 {
-		position: relative;
-		top: 280px;
-		height: 40px;
-		font-size: 34px;
-		font-weight: normal;
-		color: rgba(240, 240, 240, 0);
+	section ul {
+		display: block;
+		font-weight: 300;
 		text-align: center;
 		padding: 0;
 		margin: 0;
-		opacity: 0;
-		-webkit-transition: all 300ms ease;
-		-moz-transition: all 300ms ease;
-		transition: all 300ms ease;
 	}
-	a, a:hover, a:visited, a:link {
-		color: #FFF;
+	section ul li {
+		font-size: 20px;
+		padding: 0 0 5px;
+		margin: 0 10px;
+	}
+	section.contact ul li {
+		display: inline-block;
+	}
+	section.links ul li {
+		display: block;
+	}
+	section ul a {
+		color: inherit;
 		text-decoration: none;
-		-webkit-transition: all 300ms ease;
-		-moz-transition: all 300ms ease;
-		transition: all 300ms ease;
 	}
-	.circle:hover h2 {
-		top: 85px;
-		color: #FFF;
-		opacity: 1;
+	section ul a:hover {
+		text-decoration: underline;
 	}
 	footer {
-		position: fixed;
-		bottom: 10px;
-		width: 100%;
 		font-size: 14px;
-		font-weight: normal;
 		text-align: center;
-	}
-	.box {
-		position: fixed;
-		top: 250%;
-		left: 50%;
-		font-weight: normal;
-		height: 220px;
-		width: 500px;
-		padding: 50px 40px;
-		margin-top: -90px;
-		margin-left: -291px;
-		background: rgba(0, 0, 0, 0.45);
-		box-shadow: 0 0 28px rgba(0, 0, 0, 0.5);
-		border: 1px solid rgba(0, 0, 0, 0.03);
-		border-radius: 4px;
-		overflow-y: scroll;
-		z-index: 913;
-	}
-	.box h3 {
-		font-size: 30px;
-		font-weight: 300;
-		text-align: center;
-		margin: 0 0 23px 0;
-	}
-	.box p {
-		font-size: 20px;
-		line-height: 33px;
-		text-align: center;
-		margin: 20px 0 20px 0;
-	}
-	#links-list {
-		z-index: 900;
-	}
-	#about-list {
-		z-index: 901;
-	}
-	ul {
-		padding: 10px 0 0 0;
-		text-align: center;
-	}
-	ul.no-border-top {
-		margin-top: 0;
-	}
-	ul.border-top {
-		border-top: 1px solid rgba(255, 255, 255, 0.4);
-		margin-top: 40px;
-	}
-	li {
-		display: block;
-		height: 23px;
-		font-size: 20px;
-		font-weight: normal;
-		text-align: center;
-		margin: 14px 30px;
+		padding: 20px 0;
 	}
 	</style>
-	<script type="text/javascript">
-	var sw1 = 0;
-	var sw2 = 0;
-	var sw3 = 0;
-	var sw4 = 0;
-	function show(x) {
-		document.getElementById(x).style.visibility = "visible";
-		document.getElementById(x).style.opacity = "1";
-	}
-	function showC1() {
-		var t1 = setTimeout('show("nav-blog"); showC2();', 600);
-	}
-	function showC2() {
-		var t2 = setTimeout('show("nav-lab"); showC3();', 600);
-	}
-	function showC3() {
-		var t3 = setTimeout('show("nav-about"); showC4();', 600);
-	}
-	function showC4() {
-		var t4 = setTimeout('show("nav-links");', 600);
-	}
-	function load() {
-		var ta = setTimeout('show("bg"); showC1();', 600);
-	}
-	function showLinks() {
-		if (sw3 == 0) {
-			document.getElementById("navbar").style.marginTop = "-350px";
-			document.getElementById("links-list").style.top = "50%";
-			sw3 = 1;
-			document.getElementById("about-list").style.top = "250%";
-			sw4 = 0;
-		} else {
-			revert();
-		}
-	}
-	function showAbout() {
-		if (sw4 == 0) {
-			document.getElementById("navbar").style.marginTop = "-350px";
-			document.getElementById("about-list").style.top = "50%";
-			sw4 = 1;
-			document.getElementById("links-list").style.top = "250%";
-			sw3 = 0;
-		} else {
-			revert();
-		}
-	}
-	function revert() {
-		document.getElementById("navbar").style.marginTop = "-20px";
-		document.getElementById("links-list").style.top = "250%";
-		sw3 = 0;
-		document.getElementById("about-list").style.top = "250%";
-		sw4 = 0;
-	}
-	</script>
 </head>
-<body onload="load()">
-	<h1 id="bg"><a href="/"></a></h1>
-	<div id="navbar">
-		<div class="circle-out c1">
-			<div id="nav-blog" class="circle">
-				<a href="/blog/" id="nav-blog-in" class="circle-in">
-					<h2>Blog</h2>
+<body>
+	<header>
+		<div id="title">
+			<div id="title-in">
+				<a href="./">
+					<div class="avatar"></div>
+					<h1>Joy Neop</h1>
 				</a>
+				<p>
+					♂, 1995, Han-Korean Hybrid, Homosexual,<br />Skeuomorphist, (Fake) Graphic &amp; Web Designer,<br />(Half) Frontend Developer, Sci-Fi &amp; Fantasy Lover,<br />Internet Resident.
+				</p>
 			</div>
 		</div>
-		<div class="circle-out c2">
-			<div id="nav-lab" class="circle">
-				<a href="/lab/" id="nav-lab-in" class="circle-in">
-					<h2>Lab</h2>
+	</header>
+	<div id="main">
+		<section id="nav">
+			<div class="circle blog">
+				<a href="/blog/">
+					<span>Blog</span>
+				</a>
+			</div><div class="circle lab">
+				<a href="/lab/">
+					<span>Lab</span>
 				</a>
 			</div>
-		</div>
-		<div class="circle-out c3">
-			<div id="nav-about" class="circle">
-				<a onclick="showAbout()" id="nav-about-in" class="circle-in">
-					<h2 id="h2-about">About</h2>
-				</a>
-			</div>
-		</div>
-		<div class="circle-out c4">
-			<div id="nav-links" class="circle">
-				<a onclick="showLinks()" id="nav-links-in" class="circle-in">
-					<h2>Links</h2>
-				</a>
-			</div>
-		</div>
+		</section>
+		<section class="contact">
+			<h2>Find Me</h2>
+			<ul>
+				<li>
+					<a href="https://twitter.com/JoyNeop" target="_blank" rel="nofollow">Twitter</a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/joy.neop" target="_blank" rel="nofollow">Facebook</a>
+				</li>
+				<li>
+					<a href="http://weibo.com/neopstep" target="_blank" rel="nofollow">Weibo</a>
+				</li>
+				<li>
+					<a href="http://instagram.com/joyneop" target="_blank" rel="nofollow">Instagram</a>
+				</li>
+				<li>
+					<a href="http://joyneop.tumblr.com/" target="_blank" rel="nofollow">Tumblr</a>
+				</li>
+				<li>
+					<a href="http://www.behance.net/joyneop" target="_blank" rel="nofollow">Behance</a>
+				</li>
+				<li>
+					<a href="http://500px.com/joyneop" target="_blank" rel="nofollow">500px</a>
+				</li>
+				<li>
+					<a href="https://github.com/JoyNeop" target="_blank" rel="nofollow">GitHub</a>
+				</li>
+				<li>
+					<a href="https://soundcloud.com/joyneop" target="_blank" rel="nofollow">SoundCloud</a>
+				</li>
+				<li>
+					<a href="http://www.v2ex.com/member/JoyNeop" target="_blank" rel="nofollow">V2EX</a>
+				</li>
+				<li>
+					<a href="http://www.zhihu.com/people/joyneop" target="_blank" rel="nofollow">Zhihu</a>
+				</li>
+				<li>
+					<a href="http://www.quora.com/Joy-Neop" target="_blank" rel="nofollow">Quora</a>
+				</li>
+				<li>
+					<a href="http://www.linkedin.com/in/joyneop" target="_blank" rel="nofollow">LinkedIn</a>
+				</li>
+				<li>
+					<a href="mailto:i@joyneop.com" target="_blank" rel="nofollow">Mail</a>
+				</li>
+			</ul>
+		</section>
+		<section class="links">
+			<h2>Friends</h2>
+			<ul>
+				<li>
+					<a href="http://catcafe.lofter.com/" target="_blank">Destination.</a>
+				</li>
+				<li>
+					<a href="http://www.jemery.co/" target="_blank">Jemery</a>
+				</li>
+				<li>
+					<a href="http://somainer.com/" target="_blank">Somainer</a>
+				</li>
+				<li>
+					<a href="http://lbfy.org/" target="_blank">Lancelot Fong</a>
+				</li>
+				<li>
+					<a href="http://hackerchai.com/" target="_blank">Hacker Chai</a>
+				</li>
+				<li>
+					<a href="http://philcai.com/" target="_blank">Phil Cai</a>
+				</li>
+				<li>
+					<a href="http://im.dimpurr.com/" target="_blank">Dimpurr</a>
+				</li>
+				<li>
+					<a href="http://addams96.me/" target="_blank">Addams Chen</a>
+				</li>
+			</ul>
+		</section>
+		<footer>
+			<a href="/">&copy; 2014 All Rights Reserved by Joy Neop</a>
+		</footer>
 	</div>
-	<div id="about-list" class="box">
-		<h3>
-			Joy Neop
-		</h3>
-		<p>
-			♂, 1995, Han-Korean Hybrid, Homosexual, Skeuomorphist, (Fake) Graphic &amp; Web Designer, (Half) Frontend Developer, Sci-Fi &amp; Fantasy Lover, Internet Resident.
-		</p>
-	</div>
-	<div id="links-list" class="box">
-		<ul class="no-border-top">
-			<li>
-				<a href="http://xiamipi.info/" target="_blank">梦想竹蜻蜓</a>
-			</li>
-			<li>
-				<a href="http://catcafe.lofter.com/" target="_blank">Destination.</a>
-			</li>
-			<li>
-				<a href="http://www.jemery.co/" target="_blank">Spark</a>
-			</li>
-			<li>
-				<a href="http://www.anonswer.com/" target="_blank">Anonswer</a>
-			</li>
-			<li>
-				<a href="http://somainer.com/" target="_blank">Somainer</a>
-			</li>
-			<li>
-				<a href="http://lbfy.org/" target="_blank">Lancelot Fong</a>
-			</li>
-			<li>
-				<a href="http://hackerchai.com/" target="_blank">Hacker Chai</a>
-			</li>
-			<li>
-				<a href="http://philcai.com/" target="_blank">Phli Cai</a>
-			</li>
-			<li>
-				<a href="http://im.dimpurr.com/" target="_blank">Dimpurr</a>
-			</li>
-			<li>
-				<a href="http://addams96.me/" target="_blank">Addams Chen</a>
-			</li>
-		</ul>
-		<ul class="border-top">
-			<li>
-				<a href="https://twitter.com/JoyNeop" target="_blank" rel="nofollow">Twitter</a>
-			</li>
-			<li>
-				<a href="https://www.facebook.com/joy.neop" target="_blank" rel="nofollow">Facebook</a>
-			</li>
-			<li>
-				<a href="http://weibo.com/neopstep" target="_blank" rel="nofollow">Weibo</a>
-			</li>
-			<li>
-				<a href="http://instagram.com/joyneop" target="_blank" rel="nofollow">Instagram</a>
-			</li>
-			<li>
-				<a href="http://joyneop.tumblr.com/" target="_blank" rel="nofollow">Tumblr</a>
-			</li>
-			<li>
-				<a href="http://www.behance.net/joyneop" target="_blank" rel="nofollow">Behance</a>
-			</li>
-			<li>
-				<a href="http://500px.com/joyneop" target="_blank" rel="nofollow">500px</a>
-			</li>
-			<li>
-				<a href="https://github.com/JoyNeop" target="_blank" rel="nofollow">GitHub</a>
-			</li>
-			<li>
-				<a href="https://soundcloud.com/joyneop" target="_blank" rel="nofollow">SoundCloud</a>
-			</li>
-			<li>
-				<a href="http://www.v2ex.com/member/JoyNeop" target="_blank" rel="nofollow">V2EX</a>
-			</li>
-			<li>
-				<a href="http://www.zhihu.com/people/joyneop" target="_blank" rel="nofollow">Zhihu</a>
-			</li>
-			<li>
-				<a href="http://www.quora.com/Joy-Neop" target="_blank" rel="nofollow">Quora</a>
-			</li>
-			<li>
-				<a href="http://www.linkedin.com/in/joyneop" target="_blank" rel="nofollow">LinkedIn</a>
-			</li>
-			<li>
-				<a href="mailto:i@joyneop.com" target="_blank" rel="nofollow">Mail</a>
-			</li>
-		</ul>
-	</div>
-	<footer>&copy; Copyright 2014 All Rights Reserved by Joy Neop</footer>
-	<script type="text/javascript">
-	var end = setTimeout('load();', 1000);
-	</script>
 	<script type="text/javascript" src="http://joyneop.github.io/jn-analy-personal.js"></script>
 	<script type="text/javascript" src="http://joyneop.github.io/jn-alert-view.js"></script>
 </body>
