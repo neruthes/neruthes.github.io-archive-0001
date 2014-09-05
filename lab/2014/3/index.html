@@ -13,7 +13,7 @@
 		box-sizing: border-box;
 	}
 	body {
-		font-family: 'Seravek-Extralight', 'Myriad Pro', 'Myriad Apple', 'Myriad Set Pro', Myriad, 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-family: 'Seravek-Extralight 22', Seravek, 'Myriad Pro', 'Myriad Apple', 'Myriad Set Pro', Myriad, 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-size: 20px;
 		font-weight: 300;
 		color: #585858;
@@ -50,11 +50,12 @@
 		background-size: contain;
 		border-radius: 2000px;
 		box-shadow: rgba(0, 0, 0, 0.21322) 0 0 5px inset;
-		/*-webkit-transition: all 270ms ease;
+		-webkit-transition: all 270ms ease;
 		-moz-transition: all 270ms ease;
-		transition: all 270ms ease;*/
+		transition: all 270ms ease;
 	}
 	.avatar:hover {
+		box-shadow: rgba(0, 0, 0, 0.432222) 0 0 5px inset;
 	}
 	#main {
 		position: absolute;
@@ -78,7 +79,7 @@
 	}
 	section {
 		min-height: 100px;
-		width: 680px;
+		width: 540px;
 		padding: 30px 0;
 		margin: 0 auto 70px;
 		background-size: 100px;
@@ -86,24 +87,15 @@
 	}
 	section h2 {
 		font-size: 30px;
-		font-weight: normal;
+		font-weight: 400;
 		line-height: 42px;
 		color: #2B8CD2;
-		letter-spacing: 1px;
 		text-align: center;
 		text-transform: uppercase;
 		padding: 8px 0 0;
 		margin: 0 0 12px 0;
 	}
 	section h2:hover {
-	}
-	section p {
-		font-size: 22px;
-		line-height: 38px;
-		color: #666;
-		width: 580px;
-		padding: 9px 20px 9px;
-		margin: 0 auto;
 	}
 	section p a, section p a:link, section p a:visited {
 		display: inline;
@@ -124,7 +116,10 @@
 		background: #345 center no-repeat scroll;
 		background-size: contain;
 		border-radius: 2000px;
-		box-shadow: rgba(0, 0, 0, 0.3) 0 0 8px inset;
+		box-shadow: rgba(0, 0, 0, 0.41322) 0 0 5px inset;
+		-webkit-transition: all 270ms ease;
+		-moz-transition: all 270ms ease;
+		transition: all 270ms ease;
 	}
 	.circle.blog {
 		background-image: url(http://joyneop.github.io/JN-Lab/other-images/nav-blog-360px.jpg);
@@ -147,10 +142,37 @@
 		transition: all 200ms ease;
 	}
 	.circle:hover {
-		box-shadow: rgba(0, 0, 0, 0.53) 0 0 8px inset;
+		box-shadow: rgba(0, 0, 0, 0.632222) 0 0 5px inset;
 	}
 	.circle:hover a {
 		opacity: 1;
+	}
+	section ul, section li {
+	}
+	section ul {
+		display: block;
+		font-weight: 300;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+	section ul li {
+		font-size: 20px;
+		padding: 0 0 5px;
+		margin: 0 10px;
+	}
+	section.contact ul li {
+		display: inline-block;
+	}
+	section.links ul li {
+		display: block;
+	}
+	section ul a {
+		color: inherit;
+		text-decoration: none;
+	}
+	section ul a:hover {
+		text-decoration: underline;
 	}
 	footer {
 		font-size: 14px;
@@ -185,9 +207,94 @@
 				</a>
 			</div>
 		</section>
-		<section id="links">
+		<section class="contact">
 			<h2>Find Me</h2>
-			<ul class="link">
+			<ul>
+				<li>
+					<a href="https://twitter.com/JoyNeop" target="_blank" rel="nofollow">Twitter</a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/joy.neop" target="_blank" rel="nofollow">Facebook</a>
+				</li>
+				<li>
+					<a href="http://weibo.com/neopstep" target="_blank" rel="nofollow">Weibo</a>
+				</li>
+				<li>
+					<a href="http://instagram.com/joyneop" target="_blank" rel="nofollow">Instagram</a>
+				</li>
+				<li>
+					<a href="http://joyneop.tumblr.com/" target="_blank" rel="nofollow">Tumblr</a>
+				</li>
+				<li>
+					<a href="http://www.behance.net/joyneop" target="_blank" rel="nofollow">Behance</a>
+				</li>
+				<li>
+					<a href="http://500px.com/joyneop" target="_blank" rel="nofollow">500px</a>
+				</li>
+				<li>
+					<a href="https://github.com/JoyNeop" target="_blank" rel="nofollow">GitHub</a>
+				</li>
+				<li>
+					<a href="https://soundcloud.com/joyneop" target="_blank" rel="nofollow">SoundCloud</a>
+				</li>
+				<li>
+					<a href="http://www.v2ex.com/member/JoyNeop" target="_blank" rel="nofollow">V2EX</a>
+				</li>
+				<li>
+					<a href="http://www.zhihu.com/people/joyneop" target="_blank" rel="nofollow">Zhihu</a>
+				</li>
+				<li>
+					<a href="http://www.quora.com/Joy-Neop" target="_blank" rel="nofollow">Quora</a>
+				</li>
+				<li>
+					<a href="http://www.linkedin.com/in/joyneop" target="_blank" rel="nofollow">LinkedIn</a>
+				</li>
+				<li>
+					<a href="mailto:i@joyneop.com" target="_blank" rel="nofollow">Mail</a>
+				</li>
+			</ul>
+		</section>
+		<section class="links">
+			<h2>For Fun</h2>
+			<ul>
+				<li>
+					<a href="/kyouratsu/" target="_blank">Kyouratsu</a>
+				</li>
+				<li>
+					<a href="http://www.gayradient.com/" target="_blank">Gayradient</a>
+				</li>
+				<li>
+					<a href="/zeit/" target="_blank">Zeit</a>
+				</li>
+			</ul>
+		</section>
+		<section class="links">
+			<h2>Friends</h2>
+			<ul>
+				<li>
+					<a href="http://catcafe.lofter.com/" target="_blank">Destination.</a>
+				</li>
+				<li>
+					<a href="http://www.jemery.co/" target="_blank">Jemery</a>
+				</li>
+				<li>
+					<a href="http://somainer.com/" target="_blank">Somainer</a>
+				</li>
+				<li>
+					<a href="http://lbfy.org/" target="_blank">Lancelot Fong</a>
+				</li>
+				<li>
+					<a href="http://hackerchai.com/" target="_blank">Hacker Chai</a>
+				</li>
+				<li>
+					<a href="http://philcai.com/" target="_blank">Phli Cai</a>
+				</li>
+				<li>
+					<a href="http://im.dimpurr.com/" target="_blank">Dimpurr</a>
+				</li>
+				<li>
+					<a href="http://addams96.me/" target="_blank">Addams Chen</a>
+				</li>
 			</ul>
 		</section>
 		<footer>
