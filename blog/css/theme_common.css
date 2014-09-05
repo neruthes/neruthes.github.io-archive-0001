@@ -2,24 +2,53 @@
 
 body {
 	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	color: #585858;
 	background-color: #FAFAFA;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
-	font-weight: normal;
+	font-weight: 300;
 }
 
 body, h3, h4, h5, h6, p {
-	color: #EAEAEA;
+
+}
+
+header.global a {
+	display: block;
 }
 
 header.global h1, h2 {
-	color: #FFF;
+	color: #585858;
+	margin: 0;
 }
 
 h1 {
-	font-weight: normal;
+	font-weight: 300;
 	text-decoration: none;
+	padding: 20px 0 10px;
+}
+
+header.global h2 {
+	padding: 10px 0;
+	margin: 0;
+}
+
+.avatar {
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	background: #FFF url(http://joyneop.github.io/joyneop.png) center no-repeat scroll;
+	background-size: contain;
+	border-radius: 2000px;
+	box-shadow: rgba(0, 0, 0, 0.21322) 0 0 5px inset;
+	-webkit-transition: all 270ms ease;
+	-moz-transition: all 270ms ease;
+	transition: all 270ms ease;
+}
+
+.avatar:hover {
+	box-shadow: rgba(0, 0, 0, 0.432222) 0 0 5px inset;
 }
 
 p {
