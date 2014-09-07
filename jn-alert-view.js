@@ -14,7 +14,7 @@
 		position = "absolute";
 	}
 	if (style == undefined || style == null) {
-		style = "color: #FFF !important; background: rgba(0, 0, 0, 0.422); border-radius: 3px; opacity: 1;";
+		style = "color: #FFF !important; background: rgba(0, 0, 0, 0.5822); border-radius: 3px; opacity: 1;";
 	}
 	if (size == undefined || size == null) {
 		size = [ 320, 32, 362, 60 ];
