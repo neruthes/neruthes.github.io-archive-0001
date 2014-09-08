@@ -21,7 +21,7 @@
 	}
 
 	// CSS
-	var sizeText = [ "width: " + size[0] + "px; ", "width: " + size[1] + "px;"];
+	var sizeText = [ "width: " + size + "px;"];
 	var divId = "jn-alert-3389-C277-D9IR";
 	jnalert.divId = "jn-alert-3389-C277-D9IR";
 	var styleText = "#" + divId + " { " + style + " }";
@@ -71,5 +71,5 @@
 	1,
 	"absolute",
 	null,
-	[ 320, 390 ]
+	390
 );
