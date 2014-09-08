@@ -5,7 +5,7 @@
 	@GitHub https://github.com/JoyNeop
 	© 2014 Joy Neop. All rights reserved.
 	*/
-	var jnalert = {};
+	window.jnalert = {};
 
 	if (quadrant == undefined || quadrant == null) {
 		quadrant = 1;
@@ -21,7 +21,7 @@
 	}
 
 	// CSS
-	var sizeText = [ "width: " + size + "px;"];
+	var sizeText = "width: " + size + "px;";
 	var divId = "jn-alert-3389-C277-D9IR";
 	jnalert.divId = "jn-alert-3389-C277-D9IR";
 	var styleText = "#" + divId + " { " + style + " }";
@@ -36,8 +36,8 @@
 		// if (quadrant == 4)
 		corner = "bottom: 15px; right: 15px;";
 	}
-	var preStyle = "#jn-alert-3389-C277-D9IR { position: " + position + "; " + corner + sizeText[0] + " z-index: 9999; box-sizing: border-box; max-width: 390px; font-size: 15px; font-weight: 300; line-height: 20px; letter-spacing: 0; overflow: hidden; -webkit-transition: all 353ms ease; -moz-transition: all 353ms ease; transition: all 353ms ease; } #jn-alert-3389-C277-D9IR span { padding: 6px 14px; box-sizing: border-box; } #jn-alert-3389-C277-D9IR span * { color: inherit; text-decoration: inherit; }";
-	var extraStyle = "#jn-alert-3389-C277-D9IR span:first-child { display: block; text-align: right; } #jn-alert-3389-C277-D9IR span:last-child { display: none; } #jn-alert-3389-C277-D9IR:hover { background: rgba(0, 0, 0, 0.52312); opacity: 1; " + sizeText[1] + " } #jn-alert-3389-C277-D9IR:hover span:first-child { display: none; } #jn-alert-3389-C277-D9IR:hover span:last-child { display: block; }";
+	var preStyle = "#jn-alert-3389-C277-D9IR { position: " + position + "; " + corner + sizeText + " z-index: 9999; box-sizing: border-box; max-width: 390px; font-size: 15px; font-weight: 300; line-height: 20px; letter-spacing: 0; overflow: visible; -webkit-transition: all 353ms ease; -moz-transition: all 353ms ease; transition: all 353ms ease; } #jn-alert-3389-C277-D9IR span { padding: 6px 14px; box-sizing: border-box; } #jn-alert-3389-C277-D9IR span * { color: inherit; text-decoration: inherit; }";
+	var extraStyle = "#jn-alert-3389-C277-D9IR span:first-child { position: absolute; top: 0; right: 0; display: block; text-align: right; border-radius: inherit; } #jn-alert-3389-C277-D9IR span:last-child { display: none; text-align: left; } #jn-alert-3389-C277-D9IR:hover { background: rgba(0, 0, 0, 0.52312); opacity: 1; " + sizeText + " } #jn-alert-3389-C277-D9IR:hover span:first-child { display: none; } #jn-alert-3389-C277-D9IR:hover span:last-child { display: block; }";
 	var styleTag = document.createElement("style");
 	styleTag.setAttribute("id", divId + "style");
 	jnalert.styleTagContent = preStyle + styleText + extraStyle;
@@ -50,7 +50,9 @@
 	s1.innerHTML = alert;
 	var s2 = document.createElement("span");
 	s2.innerHTML = text;
-	s2.style = sizeText[1];
+	s2.style = sizeText;
+	s1.setAttribute("id", divId + "span1");
+	s2.setAttribute("id", divId + "span2");
 	div.setAttribute("id", divId);
 	div.setAttribute("style", "font-size: 15px;");
 	div.appendChild(s1);
@@ -59,10 +61,15 @@
 
 	// Time
 	// Show
-	document.getElementById(jnalert.divId + "style").innerHTML = jnalert.styleTagContent + "#" + jnalert.divId + " { opacity: 1; background: rgba(0, 0, 0, 0.52312); }";
+	document.getElementById(divId + "style").innerHTML = jnalert.styleTagContent + "#" + jnalert.divId + " { opacity: 1; }";
+	document.getElementById(divId + "span1").style.backgroundColor = "rgba(0, 0, 0, 0.52312)";
 	// Dim
 	window.setTimeout(function(){
-		document.getElementById(jnalert.divId + "style").innerHTML = jnalert.styleTagContent + "#" + jnalert.divId + " { opacity: 0.10101; background: none; }";
+		document.getElementById(jnalert.divId + "style").innerHTML = jnalert.styleTagContent + "#" + jnalert.divId + " { opacity: 0.10101; }";
+		document.getElementById(jnalert.divId + "span1").style.backgroundColor = "rgba(0, 0, 0, 0)";
+		document.getElementById(jnalert.divId + "span1").onmouseleave = function () {
+			document.getElementById(jnalert.divId + "span1").style.backgroundColor = "rgba(0, 0, 0, 0)";
+		};
 	}, 2200);
 	console.log(alert);
 	console.log(text);
