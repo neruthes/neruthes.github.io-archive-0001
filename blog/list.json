@@ -80,7 +80,7 @@
 	{ "Lang" : [ "zh-Hant", "zh-Hant" ], "Time" : "August 28, 2013", "Title" : "開學" },
 	{ "Lang" : [ "en", "en" ], "Time" : "August 29, 2013", "Title" : "Live On The Internet" },
 	{ "Lang" : [ "en", "en" ], "Time" : "September 2, 2013", "Title" : "My Homepage (Version 2)" },
-	{ "Lang" : [ "ja", "zh-Hant" ], "Time" : "September 2, 2013", "Title" : "君と生きた日々のすべて" },
+	{ "Lang" : [ "ja", "zh-Hant" ], "Time" : "September 2, 2013", "Title" : "君と生きた 日々のすべて" },
 	{ "Lang" : [ "en", "en" ], "Time" : "September 29, 2013", "Title" : "Poster Template for Hackers Community in High Schools" },
 	{ "Lang" : [ "en", "en" ], "Time" : "October 14, 2013", "Title" : "Arrival" },
 	{ "Lang" : [ "en", "en" ], "Time" : "October 16, 2013", "Title" : "The Second Day" },
@@ -110,6 +110,7 @@
 	{ "Lang" : [ "zh-Hant", "en" ], "Time" : "July 12, 2014", "Title" : "青春路上" },
 	{ "Lang" : [ "en", "en" ], "Time" : "July 30, 2014", "Title" : "Woodstocky" },
 	{ "Lang" : [ "en", "en" ], "Time" : "August 27, 2014", "Title" : "Avatar: Kyouratsu (XD)" },
-	{ "Lang" : [ "en", "en" ], "Time" : "September 6, 2014", "Title" : "My Homepage (Version 3)" }
+	{ "Lang" : [ "en", "en" ], "Time" : "September 6, 2014", "Title" : "My Homepage (Version 3)" },
+	{ "Lang" : [ "ja", "en" ], "Time" : "September 24, 2014", "Title" : "時代の中へ" }
 ]
 }
