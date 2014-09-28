@@ -1,0 +1,174 @@
+@import url(http://joyneop.github.io/fonts/open-sans.css);
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Seravek, 'Myriad Pro', 'Myriad Apple', 'Myriad Set Pro', Myriad, 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #E7E7E7;
+	min-height: 1500px;
+	padding: 0;
+	margin: 0;
+	background: #040406 url(http://joyneop.github.io/JN-Lab/other-images/dark-sky-with-cloud-for-mid-fall.jpg) top fixed no-repeat;
+	background-size: cover;
+}
+header a:link, header a:visited, header a:hover, header a:active, footer a {
+	display: block;
+	color: inherit;
+	text-decoration: inherit;
+}
+header {
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	padding: 0;
+	margin: 0 auto;
+}
+header #title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 680px;
+	margin: -200px 0 0 -340px;
+}
+#title-in {
+}
+.avatar {
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	background: #888 url(http://joyneop.github.io/JN-Lab/other-images/avatar-mid-fall-moon-kyouratsu-2014.jpg) center no-repeat scroll;
+	background-size: contain;
+	border-radius: 2000px;
+	box-shadow: rgba(0, 0, 0, 0.162222) 0 0 50px inset, rgba(255, 253, 246, 0.484222) 0 0 80px;
+	-webkit-transition: all 270ms ease;
+	-moz-transition: all 270ms ease;
+	transition: all 270ms ease;
+}
+.avatar:hover {
+	box-shadow: rgba(0, 0, 0, 0.162222) 0 0 50px inset, rgba(255, 253, 249, 0.644222) 0 0 80px;
+}
+#main {
+	position: absolute;
+	top: 90%;
+	width: 100%;
+	padding: 0;
+}
+.content {
+	background: #FFF;
+	width: 720px;
+	padding: 60px 0 30px;
+	margin: 0 auto 50px;
+	border-radius: 4px;
+	box-shadow: rgba(0, 0, 0, 0.024322) 0 0 4px;
+}
+header h1, header p {
+	font-weight: 300;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+}
+header h1 {
+	font-size: 48px;
+	padding: 20px 0 10px;
+}
+header p {
+	line-height: 1.45em;
+	padding: 10px 0;
+}
+section {
+	color: #222;
+	min-height: 100px;
+	width: 540px;
+	padding: 30px 0;
+	margin: 0 auto 70px;
+	background-size: 100px;
+	overflow: hidden;
+}
+section h2 {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 42px;
+	color: #2B8CD2;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 8px 0 0;
+	margin: 0 0 12px 0;
+}
+section h2:hover {
+}
+#nav {
+	text-align: center;
+}
+.circle {
+	display: inline-block;
+	width: 180px;
+	height: 180px;
+	margin: 0 44px;
+	background: #FFF center no-repeat scroll;
+	background-size: contain;
+	border-radius: 2000px;
+	box-shadow: rgba(0, 0, 0, 0.41322) 0 0 5px inset;
+	-webkit-transition: all 270ms ease;
+	-moz-transition: all 270ms ease;
+	transition: all 270ms ease;
+}
+.circle.blog {
+	background-image: url(http://joyneop.github.io/JN-Lab/other-images/nav-blog-360px.jpg);
+}
+.circle.lab {
+	background-image: linear-gradient(rgb(31, 97, 190), rgb(177, 206, 227));
+}
+.circle a {
+	display: block;
+	font-size: 30px;
+	color: #FFF;
+	text-decoration: none;
+	width: 180px;
+	height: 180px;
+	padding: 74px 0 0;border-radius: 2000px;
+	opacity: 0;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.circle:hover {
+	box-shadow: rgba(0, 0, 0, 0.632222) 0 0 5px inset;
+}
+.circle:hover a {
+	opacity: 1;
+}
+section ul, section li {
+}
+section ul {
+	display: block;
+	font-weight: 300;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+section ul li {
+	font-size: 20px;
+	padding: 0 0 5px;
+	margin: 0 10px;
+}
+section.contact ul li {
+	display: inline-block;
+}
+section.links ul li {
+	display: block;
+}
+section ul a {
+	color: inherit;
+	text-decoration: none;
+}
+section ul a:hover {
+	text-decoration: underline;
+}
+footer {
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	padding: 50px 0;
+}
