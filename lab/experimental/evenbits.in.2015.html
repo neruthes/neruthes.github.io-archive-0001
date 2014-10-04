@@ -6,8 +6,12 @@
 	<link rel="favicon shortcut icon" href="">
 	<link rel="apple-touch-icon" href="">
 	<style type="text/css">
+	@import url(/fonts/titillium-web.css);
+	* {
+		transition: all 750ms ease;
+	}
 	body {
-		font-family: 'Titillium Web', 'Gill Sans Light', 'Gill Sans', 'Myriad Pro', 'Myriad Set Pro', 'Myriad', 'Myriad Set', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, 'NotoSansCJKsc-Thin', 'Noto Sans CJK SC', 'Source Han Sans CN', 'Source Han Sans CJK', 'Noto Sans CJK', 'Source Han Sans JP', 'Noto Sans CJK JP', 'Source Han Sans', 'Noto Sans CJK', 'Lantinghei SC', 'Lantinghei TC', 'Hiragino Sans GB', 'Hiragino Kaku Gothic Pro', Hiragino, sans-serif;
+		font-family: 'Play', 'GillSans-Light', 'Gill Sans Light', 'Gill Sans', 'Myriad Pro', 'Myriad Set Pro', 'Myriad', 'Myriad Set', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, 'NotoSansCJKsc-Thin', 'Noto Sans CJK SC', 'Source Han Sans CN', 'Source Han Sans CJK', 'Noto Sans CJK', 'Source Han Sans JP', 'Noto Sans CJK JP', 'Source Han Sans', 'Noto Sans CJK', 'Lantinghei SC', 'Lantinghei TC', 'Hiragino Sans GB', 'Hiragino Kaku Gothic Pro', Hiragino, sans-serif;
 		font-weight: 400;
 		font-size: 20px;
 		color: #494949;
@@ -15,12 +19,10 @@
 
 		padding: 0;
 		margin: 0;
-		transition: all 750ms ease;
 	}
 	header.global {
 		height: 100%;
 		padding: 22% 0 0 0;
-		transition: all 750ms ease;
 	}
 	header.global h1, header.global h2 {
 		font-weight: 400;
@@ -30,7 +32,6 @@
 		padding: 0;
 		margin: 20px 0;
 		opacity: 0;
-		transition: all 750ms ease;
 	}
 	header.global h1 {
 		top: -25px;
@@ -44,6 +45,15 @@
 	header.global h2 span {
 		padding: 0 10px;
 	}
+	header.global #event-meta-info {
+		text-align: center;
+		opacity: 0;
+	}
+	header.global #event-meta-info * {
+		font-size: 1em;
+		font-style: normal;
+		text-align: center;
+	}
 	</style>
 	<script type="text/javascript">
 	</script>
@@ -54,6 +64,10 @@
 			<header class="global" id="header">
 				<h1 id="header-h1"><img src="h1.svg"></h1>
 				<h2 id="header-h2"><span>于浪潮之巅</span> <span>听梦想的跃动</span></h2>
+				<div id="event-meta-info">
+					<address>Ningbo, China</address>
+					<time>Jul 27, 2015</time>
+				</div>
 			</header>
 <script type="text/javascript">
 (function(){
@@ -71,6 +85,9 @@
 		document.getElementById("header-h2").style.opacity = "1";
 		document.getElementById("header-h2").style.top = "0";
 	}, 2400);
+	window.setTimeout(function(){
+		document.getElementById("event-meta-info").style.opacity = "1";
+	}, 3000);
 })();
 </script>
 		</div>
