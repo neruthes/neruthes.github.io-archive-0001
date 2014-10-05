@@ -84,15 +84,15 @@ a:link, a:visited, a:hover, a:active {
 	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
 }
 
-.post-text:lang(en) {
+.post-text :lang(en) {
 	font-family: 'Seravek-Light', 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 }
 
-.post-text:lang(ja) {
+.post-text :lang(ja) {
 	font-family: 'Seravek-Light', 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 }
 
-.post-text:lang(zh-Hant) {
+.post-text :lang(zh-Hant) {
 	font-family: 'Seravek-Light', 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
 }
 
