@@ -6,12 +6,12 @@
 </head>
 <body>
 &lt;url&gt;<br />
-&lt;loc&gt;http://www.joyneop.com/blog/archive.html&lt;/loc&gt;<br />
+&lt;loc&gt;http://joyneop.xyz/blog/archive.html&lt;/loc&gt;<br />
 &lt;priority&gt;0.8&lt;/priority&gt;<br />
 &lt;/url&gt;<br />
 <script type="text/javascript">
 var ajaxList = new XMLHttpRequest()
-ajaxList.open("GET", "list.json", false)
+ajaxList.open("GET", "http://joyneop.xyz/blog/list.json", false)
 ajaxList.send()
 var postIndex = JSON.parse(ajaxList.responseText)
 var total = postIndex.list.length

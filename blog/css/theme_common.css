@@ -1,4 +1,4 @@
-@import url(http://joyneop.github.io/fonts/open-sans.css);
+@import url(//joyneop.github.io/fonts/open-sans.css);
 
 body {
 	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
@@ -31,7 +31,7 @@ header.global h2 {
 	width: 180px;
 	height: 180px;
 	margin: 0 auto;
-	background: #FFF url(http://joyneop.github.io/joyneop.png) center no-repeat scroll;
+	background: #FFF url(//joyneop.github.io/joyneop.png) center no-repeat scroll;
 	background-size: contain;
 	border-radius: 2000px;
 	box-shadow: rgba(0, 0, 0, 0.21322) 0 0 5px inset;
