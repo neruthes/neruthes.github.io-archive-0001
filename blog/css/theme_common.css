@@ -71,15 +71,15 @@ a:link, a:visited, a:hover, a:active {
 	box-shadow: rgba(0, 0, 0, 0.024322) 0 0 4px;
 }
 
-.post h2:lang(en) {
+.post h2:lang(en), .post h3:lang(en) {
 	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 }
 
-.post h2:lang(ja) {
+.post h2:lang(ja), .post h3:lang(ja) {
 	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 }
 
-.post h2:lang(zh-Hant) {
+.post h2:lang(zh-Hant), .post h3:lang(zh-Hant) {
 	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
 }
 
