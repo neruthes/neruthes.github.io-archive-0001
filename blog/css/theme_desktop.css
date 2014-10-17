@@ -2,7 +2,7 @@
 	body {
 		font-size: 10px;
 	}
-	
+
 	.global {
 		text-align: center;
 		width: 600px;
@@ -41,7 +41,7 @@
 	}
 
 	.post-text {
-		font-size: 1.6em;
+		font-size: 1.2em;
 	}
 
 	.post-text > img {
