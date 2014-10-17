@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>NeOPSTEP</title>
+	<link rel="shortcut icon favicon" href="/favicon.ico"/>
+	<link rel="apple-touch-icon" href="/favicon.png"/>
+	<base href="//neopstep.github.io/"></base>
+	<style type="text/css">
+	@import url(//neopstep.github.io/fonts/open-sans.css);
+	* {
+		font-weight: normal;
+		-webkit-transition: all 600ms ease;
+		-moz-transition: all 600ms ease;
+		transition: all 600ms ease;
+	}
+	body {
+		font-family: 'Open Sans', Myriad, Helvetica, Arial, sans-serif;
+		padding: 0;
+		margin: 0;
+	}
+	h1, h2, h3 {
+		text-align: center;
+		margin-top: 0;
+	}
+	h1, h2 {
+		font-weight: lighter;
+	}
+	h1 {
+		padding-top: 5%;
+		font-size: 96px;
+	}
+	p {
+		font-size: 19px;
+		font-weight: 300;
+		margin-top: 19px;
+		margin-bottom: 19px;
+	}
+	body > div {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+        box-sizing: border-box;
+	}
+	.d {
+		border-bottom: 1px solid #E0E0E0;
+		background: #000 repeat top scroll;
+	}
+	.dark-bg {
+		color: #FFF;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+		background-color: #000;
+		background-image: url(//neopstep.github.io/img/NSWebsiteDarkTexture.jpg);
+		background-size: 100px;
+	}
+	.light-bg {
+		color: #666;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+		background-color: #FFF;
+		background-image: url(//neopstep.github.io/img/NSWebsiteLightTexture.jpg);
+		background-size: 100px;
+	}
+	.light-bg p {
+		color: #555;
+	}
+	#top .inner {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 800px;
+		height: 440px;
+		margin-top: -220px;
+		margin-left: -400px;
+	}
+	.d .inner {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 800px;
+		height: 440px;
+		margin-top: -220px;
+		margin-left: -400px;
+	}
+	.inner div.left {
+		float: left;
+		height: 100%;
+		overflow: visible;
+	}
+	.inner div.right {
+		float: right;
+		height: 100%;
+		overflow: visible;
+	}
+	.inner div.major {
+		width: 70%;
+		overflow: visible;
+	}
+	.inner div.minor {
+		width: 30%;
+		overflow: visible;
+	}
+	.d > .inner > h2 {
+		text-align: left;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.inner > p {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.d h2 {
+		font-size: 40px;
+	}
+	#top {
+		background: #2D6CA3 url(//neopstep.github.io/img/glow.jpg) center fixed no-repeat;
+		background-size: cover;
+		top: 0;
+	}
+	@media screen and (min-width: 1920px) {
+		#top {
+			background-image: url(//neopstep.github.io/img/glow-2400.jpg);
+		}
+	}
+	#d1 {
+		top: 100%;
+	}
+	#d1 #logo {
+		background: url(//neopstep.github.io/img/NSSystemIcon.png) no-repeat scroll;
+		background-size: contain;
+	}
+	.d .inner div * {
+		text-align: left;
+		margin-left: 20px;
+	}
+	#d2 {
+		top: 200%;
+	}
+	#d3 {
+		top: 300%;
+	}
+	#d4 {
+		top: 400%;
+	}
+	#d5 {
+		top: 500%;
+	}
+	#d5 h2 {
+		text-align: center;
+	}
+	#foot {
+		top: 600%;
+		height: 80px;
+		font-size: 13px;
+	}
+	#foot footer {
+		font-weight: 300;
+		text-align: center;
+		padding-top: 30px;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	a, a:link, a:visited, a:hover, a:active {
+		color: #0088CC;
+		text-decoration: none;
+	}
+	</style>
+</head>
+<body onload="load()">
+	<div id="top" class="dark-bg">
+		<div class="inner">
+			<h1>NeOPSTEP</h1>
+			<h2>
+				The round pegs in the square holes.<br />The ones who see things differently.<br />We make tools for these kinds of people.
+			</h2>
+		</div>
+	</div>
+	<div id="d1" class="light-bg d">
+		<div class="inner">
+			<div id="logo" class="left minor">
+			</div>
+			<div class="right major">
+				<h2>Skeuomorphism.<br />Our faith.</h2>
+				<p>
+					We insist skeuomorph. We hate flat design.
+				</p>
+				<p>
+					If Apple betray us, we have to make sound. And NeOPSTEP is our way to protest. Living with a Mac with flat GUI is terrible, this project has thus been launched.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="d2" class="dark-bg d">
+		<div class="inner">
+			<h2>First Step,<br />Theme For Macintosh.</h2>
+			<p>
+				We will introduce an application which will customize the OS X.
+			</p>
+			<p>
+				With the application, our skeuomorph design can be installed in OS X and replace evil flat resources.
+			</p>
+		</div>
+	</div>
+	<div id="d3" class="light-bg d">
+		<div class="inner">
+			<h2>Second Step,<br />Rebuild Foundations.</h2>
+			<p>
+				With Mach, FreeBSD, and other wheels, we will get started to implement our own technical foundations. And we will provide one-station solution for users.
+			</p>
+			<p>
+				It will become a complete OS in a few years.
+			</p>
+		</div>
+	</div>
+	<div id="d4" class="dark-bg d">
+		<div class="inner">
+			<h2>Third Step,<br />The Ultimate Haven.</h2>
+			<p>
+				NeOPSTEP will beat down Apple but later versions will continuously be released under both GPLv2 and BSD License, though only designed for Macintosh.
+			</p>
+			<p>
+				We know both this aim and this project may be utopia, but we won't give up. We won't betray skeuomorphism. We won't let Apple damage the world.
+			</p>
+		</div>
+	</div>
+	<div id="d5" class="light-bg d">
+		<div class="inner">
+			<h2>Join Us</h2>
+			<p>
+				This project will be launched formally in Apr 1, 2016.
+			</p>
+			<p>
+				Watch our <a href="https://github.com/NeOPSTEP/NeOPSTEP">GitHub repository</a> and you can get updated information. We will try our best to preserve skeuomorphic taste and fight against Apple, though it's a long term game.
+			</p>
+		</div>
+	</div>
+	<div id="foot">
+		<footer class="inner">
+			&copy; 2014 All Rights Reserved by <a href="//neop.me/">Joy Neop</a>
+		</footer>
+	</div>
+	<script type="text/javascript" src="//joyneop.github.io/jn-analy-personal.js"></script>
+</body>
+</html>
