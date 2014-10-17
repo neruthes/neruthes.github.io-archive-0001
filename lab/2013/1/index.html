@@ -1,409 +1,236 @@
-<!-- Version 3.4.0 -->
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8" />
+	<title>JN Lab</title>
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="apple-touch-icon" href="/joyneop.png" />
-	<title>Joy Neop</title>
-	<style>
+	<style type="text/css">
 	@import url(//joyneop.github.io/fonts/open-sans.css);
+	* {
+		font-family: Seravek, Myriad Pro, Myriad Apple, Myriad Set, Myriad, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gothic Pro', 'Hiragino Sans GB', 'STHeiti', 'STHeiti SC', sans-serif;
+		text-decoration: none;
+		-webkit-transition: all 200ms ease;
+		-moz-transition: all 200ms ease;
+		transition: all 200ms ease;
+	}
 	body {
-		font-family: Myriad Pro, Myriad Apple, Myriad, Myriad Set, 'Open Sans', Helvetica, 'Lantinghei SC', 'Lantinghei TC', 'Hiragino Sans GB', sans-serif;
-		font-weight: 300;
-		padding: 0;
 		margin: 0;
-		overflow: hidden;
+		background: #B1CEE3;
+		font-weight: 400;
 	}
-	.extend-area {
-		position: absolute;
-		width: 100%;
-		left: 0;
-		margin-right: 0;
-		overflow: hidden;
-	}
-	.inside-div {
-		margin: 0;
-		padding: auto;
-		text-align: center;
-	}
-	#top-area {
+	#bg1 {
 		position: fixed;
-		top: 50%;
+		top: -1600px;
 		left: 50%;
-		height: 190px;
-		width: 520px;
-		margin-top: -190px;
-		margin-left: -260px;
-		background: #FFF;
-		z-index: 900;
-		-webkit-transition: all 700ms ease;
-		-moz-transition: all 700ms ease;
-		transition: all 700ms ease;
+		margin-left: -60%;
+		height: 1600px;
+		width: 120%;
+		z-index: 100;
+		border-radius: 350px;
+		box-shadow: #103D9E 0 80px 220px, #1F61BE 0 320px 230px;
 	}
-	#top-area-in {
-		padding-top: 110px;
-	}
-	#logo {
-		margin: 0;
-		position: relative;
-		z-index: 900;
-	}
-	#navbar {
+	#bg2 {
 		position: fixed;
-		top: 100%;
-		height: 210px;
-		padding: 60px 0;
-		margin: -330px 0 0 0;
-		background: rgba(38, 123, 251, 1);
-		background-image: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.38));
-		overflow: hidden;
-		border-top: 1px solid #777;
-		border-bottom: 1px solid #777;
-		z-index: 900;
-		-webkit-transition: all 700ms ease;
-		-moz-transition: all 700ms ease;
-		transition: all 700ms ease;
+		top: 0;
+		height: 690px;
+		width: 100%;
+		z-index: 200;
 	}
-	#navbar-in {
-		padding: 0;
-		margin: 0;
-		background: rgba(0, 0, 0, 0);
-		text-align: center;
-		overflow: visible;
-		height: 210px;
+	.c {
+		position: absolute;
+		height: 4px;
+		width: 4px;
+		border-radius: 50px;
+		background: rgba(255, 255, 255, 0.75);
+		box-shadow: 0 0 2px rgba(255, 255, 255, 1);
 	}
-	.circle {
-		padding: 0;
-		display: inline-block;
-		margin-top: 0;
-		margin-bottom: 0;
-		margin-left: 30px;
-		margin-right: 30px;
-		height: 210px;
-		width: 210px;
-		overflow: visible;
-		border-radius: 105px;
-		box-shadow: 0 0 16px #113285;
-		-webkit-transition: all 300ms ease;
-		-moz-transition: all 300ms ease;
-		transition: all 300ms ease;
-	}
-	.circle:hover {
-		box-shadow: 0 0 26px #113285;
-	}
-	.circle-in {
-		margin: 0;
-		border: 10px splid #AAA;
-		border-radius: 105px;
+	#cont {
+		position: absolute;
+		z-index: 300;
+		width: 100%;
+		min-height: 800px;
 		padding-left: auto;
 		padding-right: auto;
-		text-align: center;
-		overflow: hidden;
-		background: green;
-		height: 210px;
-		width: 210px;
-		-webkit-transition: all 300ms ease;
-		-moz-transition: all 300ms ease;
-		transition: all 300ms ease;
-		box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.65);
 	}
-	.circle-in:hover {
-		box-shadow: inset 0 0 44px rgba(255, 255, 255, 1);
-	}
-	#nav-blog-in {
-		background: url(//joyneop.github.io/JN-Lab/other-images/nav-blog.jpg) scroll center;
-	}
-	#nav-wiki-in {
-		background: url(//joyneop.github.io/JN-Lab/other-images/nav-links.jpg) scroll center;
-	}
-	#nav-lab-in {
-		background: linear-gradient(rgb(31, 97, 190), rgb(177, 206, 227)) scroll center;
-	}
-	#nav-more-in {
-		background: linear-gradient(rgb(255, 138, 5), #FFDB29) scroll center;
-	}
-	h2 {
-		font-size: 34px;
-		font-weight: 300;
-		margin: 0;
-	}
-	p {
-		font-size: 20px;
-		font-weight: normal;
-		margin-top: 0;
-		margin-bottom: 20px;
-	}
-	.circle-in > h2 {
-		position: relative;
-		top: 285px;
-		font-size: 34px;
-		height: 40px;
-		text-align: center;
-		text-shadow: 0 0 5px #BBB;
-		color: rgba(240, 240, 240, 0);
-		padding: 0;
-		margin: 0;
-		opacity: 1;
-		-webkit-transition: all 300ms ease;
-		-moz-transition: all 300ms ease;
-		transition: all 300ms ease;
-	}
-	a, a:hover {
-		text-decoration: none;
-		-webkit-transition: all 300ms ease;
-		-moz-transition: all 300ms ease;
-		transition: all 300ms ease;
-	}
-	.details p {
-		-webkit-transition: all 300ms ease;
-		-moz-transition: all 300ms ease;
-		transition: all 300ms ease;
-	}
-	p > a:visited {
-		color: rgba(38, 123, 251, 1);
-	}
-	p > a:link {
-		color: rgba(38, 123, 251, 1);
-	}
-	.details-list > p {
-		color: rgba(38, 123, 251, 1);
-		margin-top: 0;
-	}
-	p:hover {
-		color: rgba(19, 62, 126, 1);
-	}
-	p:hover > a {
-		color: rgba(19, 62, 126, 1);
-		text-shadow: 0 0 1px rgba(38, 123, 251, 0.5);
-	}
-	.circle:hover > a > .circle-in > h2 {
-		color: rgba(250, 250, 250, 1);
-		top: 85px;
-		opacity: 1;
-	}
-	.circle:hover > .circle-in > h2 {
-		color: rgba(250, 250, 250, 1);
-		top: 85px;
-		opacity: 1;
-	}
-	#block-2 {
-		position: absolute;
-		top: 100%;
-		left: 50%;
-		width: 900px;
-		margin: 0 0 0 -450px;
-		z-index: 100;
-		-webkit-transition: all 700ms ease;
-		-moz-transition: all 700ms ease;
-		transition: all 700ms ease;
-	}
-	.block-2-in {
-		width: 900px;
-		margin-top: 0;
-		margin-bottom: 0;
-		margin-left: 0;
-		margin-right: 0;
-		padding-top: 0;
-		padding-bottom: 0;
-		padding-left: 0;
-		padding-right: 0;
-		-webkit-transition: all 300ms ease;
-		-moz-transition: all 300ms ease;
-		transition: all 300ms ease;
-	}
-	.details {
-		position: relative;
-		margin-top: 0px;
-		margin-bottom: 0px;
+	#title {
+		height: 50px;
+		width: 800px;
+		margin-top: 125px;
 		margin-left: auto;
 		margin-right: auto;
-		padding-top: 66px;
-		padding-bottom: 66px;
-		padding-left: auto;
-		padding-right: auto;
-		width: 70%;
-		border-bottom: 1px solid #CCC;
+		text-align: center;
 	}
-	.details-h2 {
+	h1 {
+		font-size: 40px;
+		color: #FFF;
+		letter-spacing: 4px;
+		text-shadow: 0 0 2px #1559B6;
+	}
+	h1 a {
+		color: #FFF;
+		font-weight: 300;
+	}
+	#content {
+		width: 840px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 50px;
+		padding-bottom: 60px;
+		padding-left: 9px;
+		padding-right: 9px;
+		border: 0px solid #CCC;
+		border-radius: 6px;
+		background: rgba(255, 255, 255, 0.4);
+		box-shadow: 0 2px 11px rgba(0, 0, 0, 0.4);
+	}
+	article {
+		overflow: auto;
+		width: 804px;
+		margin-top: 0px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	section {
 		float: left;
-		padding-left: 96px;
-		height: 64px;
-		width: 40%;
+		display: block;
+		height: 140px;
+		width: 250px;
+		margin-left: 8px;
+		margin-right: 8px;
+		margin-bottom: 28px;
+		background-color: rgba(0, 0, 0, 0);
+		background-repeat: no-repeat;
+		background-size: cover;
+		border: 1px solid rgba(0, 0, 0, 0.35);
+		border-radius: 4px;
+		overflow: hidden;
+		box-shadow: 0 5px 11px rgba(0, 0, 0, 0.1);
 	}
-	.details-h2 > h2 {
-		color: #555;
+	section > a {
+		height: 100%;
+		width: 100%;
+		display: block;
 	}
-	.details-list {
-		padding-top: 15px;
-		padding-left: 396px;
+	section h3 {
+		color: rgba(255, 255, 0, 0);
+		text-align: center;
+		font-size: 14px;
+		font-weight: 400;
+		height: 20px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		margin: 0;
+		text-shadow: none;
+	}
+	section:hover h3 {
+		color: #FFF;
+		background: rgba(0, 0, 0, 0.5);
+		background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+		text-shadow: 0 1px 1px #000;
 	}
 	footer {
-		padding: 15px;
 		text-align: center;
-		color: #777;
-		font-size: 15px;
+		color: #0660BA;
+		margin: 30px;
 	}
-	footer > a {
-		color: #777;
-	}
-	footer > a:hover {
-		color: #777;
-	}
-	footer > a:link {
-		color: #777;
-	}
-	footer > a:visited {
-		color: #777;
+	a, a:link, a:visited, a:hover, a:active {
+		color: inherit;
 	}
 	</style>
-	<script type="text/javascript">
-	var detailsOnShow = false;
-	function showMore() {
-		if (detailsOnShow) {
-			document.getElementById("top-area").style.top = "50%";
-			document.getElementById("navbar").style.position = "fixed";
-			document.getElementById("navbar").style.top = "100%";
-			document.getElementById("navbar").style.marginTop = "-330px";
-			document.getElementById("navbar").style.marginBottom = "0";
-			document.getElementById("block-2").style.top = "100%";
-			document.body.style.overflowY = "hidden";
-			detailsOnShow = false;
-		} else {
-			document.getElementById("top-area").style.top = "-50%";
-			document.getElementById("navbar").style.position = "absolute";
-			document.getElementById("navbar").style.top = "0";
-			document.getElementById("navbar").style.marginTop = "0";
-			document.getElementById("navbar").style.marginBottom = "0";
-			document.getElementById("block-2").style.top = "340px";
-			document.body.style.overflowY = "visible";
-			detailsOnShow = true;
-		}
-	}
-	</script>
 </head>
-<body id="body" onload="gotoTop()">
-	<div id="top-area" onload="gotoTop()">
-		<h1>
-			<a id="top-return" href="/">
-				<img src="//img.ly/system/uploads/007/204/322/original_logo-520.png" alt="Joy Neop" />
-			</a>
-		</h1>
+<body>
+	<div id="bg1"></div>
+	<div id="bg2">
+		<script type="text/javascript">
+			for (var i = 0; i <= 120; i++) {
+				var dot = document.createElement("div");
+				dot.setAttribute("class", "c");
+				dot.setAttribute("style", "top: " + Math.random()*700 + "px; left: " + Math.random()*96 + "%; opacity: " + (Math.random()/1.9+0.3) + "; width: " + (i%2+2) + "px; height: " + (i%2+2) + "px;");
+				document.getElementById("bg2").appendChild(dot);
+			}
+		</script>
 	</div>
-	<div id="navbar" class="extend-area">
-		<div id="navbar-in">
-			<div id="nav-blog" class="circle">
-				<a href="/blog/">
-					<div id="nav-blog-in" class="circle-in">
-						<h2>Blog</h2>
-					</div>
-				</a>
-			</div>
-			<div id="nav-wiki" class="circle">
-				<a href="/wiki/">
-					<div id="nav-wiki-in" class="circle-in">
-						<h2>Wiki</h2>
-					</div>
-				</a>
-			</div>
-			<div id="nav-lab" class="circle" onload="test()">
+	<div id="cont">
+		<header id="title">
+			<h1>
 				<a href="/lab/">
-					<div id="nav-lab-in" class="circle-in">
-						<h2>Lab</h2>
-					</div>
+					JN Lab
 				</a>
-			</div>
-			<div id="nav-more" class="circle">
-				<a id="a-more" onclick="showMore()">
-					<div id="nav-more-in" class="circle-in">
-						<h2 id="h2-more">More</h2>
-					</div>
-				</a>
-			</div>
+			</h1>
+		</header>
+		<div id="content">
+			<article data-year="2014">
+				<section>
+					<a href="/lab/2014/3/">
+						<h3>My Homepage</h3>
+					</a>
+				</section>
+				<section>
+					<a href="/lab/2014/2/">
+						<h3>My Business Site</h3>
+					</a>
+				</section>
+				<section>
+					<a href="/lab/2014/1/">
+						<h3>君を愛してる</h3>
+					</a>
+				</section>
+			</article>
+			<article data-year="2013">
+				<section>
+					<a href="/lab/2013/8/">
+						<h3>My Christmas Homepage</h3>
+					</a>
+				</section>
+				<section>
+					<a href="/lab/2013/7/">
+						<h3>Homepage for NeOPSTEP</h3>
+					</a>
+				</section>
+				<section>
+					<a href="/lab/2013/6/">
+						<h3>Star Stalkers</h3>
+					</a>
+				</section>
+				<section>
+					<a href="/lab/2013/5/">
+						<h3>Homepage for Somainer</h3>
+					</a>
+				</section>
+				<section>
+					<a href="/lab/2013/4/">
+						<h3>My Homepage</h3>
+					</a>
+				</section>
+				<section>
+					<a href="/lab/2013/3/">
+						<h3>Homepage for Portal</h3>
+					</a>
+				</section>
+				<section>
+					<a href="/lab/2013/2/">
+						<h3>Neop.me</h3>
+					</a>
+				</section>
+				<section>
+					<a href="/lab/2013/1/">
+						<h3>JN Lab</h3>
+					</a>
+				</section>
+			</article>
 		</div>
+		<footer id="foot"><a href="/">&copy; Copyright 2014 All Rights Reserved by Joy Neop</a></footer>
 	</div>
-	<div id="block-2" class="over-div">
-		<div id="block-2-in" class="over-div-in">
-			<div id="about" class="details">
-				<div id="about-h2" class="details-h2">
-					<h2>About</h2>
-				</div>
-				<div id="about-list" class="details-list">
-					<p>♂</p>
-					<p>Sep 15, 1995</p>
-					<p>Han-Korean Hybrid</p>
-					<p>Homosexual</p>
-					<p>Skeuomorphist</p>
-					<p>Graphic &amp; Web Designer</p>
-					<p>Frontend Developer</p>
-					<p>Sci-Fi &amp; Fantasy</p>
-					<p>Internet Resident</p>
-				</div>
-			</div>
-			<div id="contact" class="details">
-				<div id="contact-h2" class="details-h2">
-					<h2>Contact</h2>
-				</div>
-				<div id="contact-list" class="details-list">
-					<p>
-						<a href="https://twitter.com/JoyNeop" target="_blank" rel="nofollow">Twitter</a>
-					</p>
-					<p>
-						<a href="https://www.facebook.com/joy.neop" target="_blank" rel="nofollow">Facebook</a>
-					</p>
-					<p>
-						<a href="//weibo.com/joyneop" target="_blank" rel="nofollow">Weibo</a>
-					</p>
-					<p>
-						<a href="//www.baidu.com/p/AppleJoyNeop" target="_blank" rel="nofollow">Tieba</a>
-					</p>
-					<p>
-						<a href="//www.guokr.com/i/0542491487/" target="_blank" rel="nofollow">Guokr</a>
-					</p>
-					<p>
-						<a href="//joyneop.tumblr.com/" target="_blank" rel="nofollow">Tumblr</a>
-					</p>
-					<p>
-						<a href="//www.behance.net/joyneop" target="_blank" rel="nofollow">Behance</a>
-					</p>
-					<p>
-						<a href="https://soundcloud.com/joyneop" target="_blank" rel="nofollow">SoundCloud</a>
-					</p>
-					<p>
-						<a href="//www.quora.com/Joy-Neop" target="_blank" rel="nofollow">Quora</a>
-					</p>
-					<p>
-						<a href="//www.zhihu.com/people/joyneop" target="_blank" rel="nofollow">Zhihu</a>
-					</p>
-					<p>
-						<a href="https://zh.wikipedia.org/wiki/User:AppleJoyNeop" target="_blank" rel="nofollow">Wikipedia</a>
-					</p>
-					<p>
-						<a href="mailto:i@joyneop.com" target="_blank" rel="nofollow">Mail</a>
-					</p>
-				</div>
-			</div>
-			<div id="links" class="details">
-				<div id="links-h2" class="details-h2">
-					<h2>Links</h2>
-				</div>
-				<div id="links-list" class="details-list">
-					<p>
-						<a href="//xiamipi.info/" target="_blank">梦想竹蜻蜓</a>
-					</p>
-					<p>
-						<a href="//desti-nation.lofter.com/" target="_blank">Destination.</a>
-					</p>
-					<p>
-						<a href="//www.jemery.co/" target="_blank">Spark</a>
-					</p>
-				</div>
-			</div>
-			<div id="foot">
-				<footer>&copy; Copyright 2014 All Rights Reserved by Joy Neop</footer>
-			</div>
-		</div>
-	</div>
+	<script type="text/javascript">
+	(function(x){
+		for (var i = 0; i <= x.length - 1; i++) {
+			x[i].style.backgroundImage = "url(/JN-Lab/img/" + (x.length - i) + ".png)";
+		}
+	})(document.getElementsByTagName("section"));
+	</script>
 	<script type="text/javascript" src="//joyneop.github.io/jn-analy-personal.js"></script>
 </body>
 </html>
