@@ -1,4 +1,8 @@
 @media screen and (max-width: 1099px) {
+	body {
+		font-size: 10px;
+	}
+
 	.global {
 		text-align: center;
 		margin: 60px 30px;
@@ -10,13 +14,13 @@
 	}
 
 	.global h1 {
-		font-size: 60px;
+		font-size: 4.5em;
 		text-align: center;
 		margin: 35px 0;
 	}
 
 	.global h2 {
-		font-size: 27px;
+		font-size: 2em;
 		text-align: center;
 		margin: 15px 0;
 	}
@@ -28,9 +32,12 @@
 	}
 
 	.post {
-		font-size: 22px;
 		margin: 30px 0 80px;
 		padding: 20px 30px 60px;
+	}
+
+	.post-text {
+		font-size: 1.8em;
 	}
 
 	.post-text > img {

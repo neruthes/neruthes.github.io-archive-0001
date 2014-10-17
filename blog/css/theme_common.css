@@ -45,8 +45,7 @@ header.global h2 {
 }
 
 p {
-	font-size: 16px;
-	line-height: 32px;
+	line-height: 2em;
 }
 
 p em {
@@ -97,7 +96,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post > h2 {
-	font-size: 24px;
+	font-size: 2.4em;
 	font-weight: 400;
 	color: #2B8CD2;
 	margin: 19px 0 22px;
@@ -146,6 +145,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post footer {
+	font-size: 1.6em;
 	font-weight: 300;
 	text-align: center;
 	margin: 60px 0 0 0;
@@ -156,12 +156,12 @@ a:link, a:visited, a:hover, a:active {
 }
 
 nav.prevandnext span a {
-	font-size: 20px;
+	font-size: 2em;
 	font-weight: 300;
 }
 
 footer.global {
-	font-size: 14px;
+	font-size: 1.4em;
 	font-weight: 300;
 	text-align: center;
 }
