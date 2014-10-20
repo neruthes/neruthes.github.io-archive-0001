@@ -45,7 +45,7 @@ header.global h2 {
 }
 
 p {
-	line-height: 1.75em;
+	line-height: 1.65em;
 }
 
 p em {
@@ -150,6 +150,10 @@ a:link, a:visited, a:hover, a:active {
 	font-weight: 300;
 	text-align: center;
 	margin: 60px 0 0 0;
+}
+
+.post footer a:hover {
+	text-decoration: underline;
 }
 
 .post.more li a {
