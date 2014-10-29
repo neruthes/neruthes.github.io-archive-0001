@@ -14,7 +14,7 @@
 		padding: 0;
 		margin: 0;
 	}
-	h1 {
+	header {
 		max-height: 220px;
 		font-size: 2.4em;
 		font-weight: normal;
@@ -29,26 +29,28 @@
 		box-shadow: rgba(0, 0, 0, 0.18) 0 0 4px;
 		overflow: hidden;
 	}
-	h1 a {
+	header a {
 		display: block;
 		height: 220px;
 		color: inherit;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
-	h1 span {
-		display: block;
-	}
-	h1 span:first-child {
+	header h1 {
+		font-size: 1em;
+		font-weight: normal;
 		letter-spacing: 10px;
+		margin: 0 0 10px 0;
 	}
-	h1 span:last-child {
+	header h2 {
 		font-size: 0.46em;
+		font-weight: normal;
 		color: #F2F2F2;
 		letter-spacing: 7px;
+		margin: 0 0 10px 0;
 	}
-	@media screen and (max-width: 718px) {
-		h1 a {
+	@media screen and (max-width: 719px) {
+		header a {
 			text-align: center;
 			background: rgba(0, 0, 0, 0) url(bg1.png) center scroll no-repeat;
 			background-size: 290px;
@@ -66,14 +68,14 @@
 		}
 	}
 	@media screen and (min-width: 720px) {
-		h1 a {
+		header a {
 			max-width: 640px;
 			padding: 66px 40px;
 			background: rgba(0, 0, 0, 0) url(bg1.png) scroll no-repeat;
 			background-position: center left;
 			background-size: 290px;
 		}
-		h1 a span {
+		header a h1, header a h2 {
 			text-align: right;
 		}
 		.cont {
@@ -116,7 +118,7 @@
 	li:hover a {
 		color: #FFF;
 		background: #FF8C2C;
-		background-image: linear-gradient(#FF8C2C, #F38724);
+		/*background-image: linear-gradient(#FF8C2C, #F38724);*/
 		box-shadow: rgba(0, 0, 0, 0.18) 0 0 4px inset;
 	}
 	li img {
@@ -134,6 +136,7 @@
 		max-width: 580px;
 		font-size: 1.1em;
 		color: #666;
+		text-align: center;
 		line-height: 1.75em;
 		margin: 1.1em auto;
 	}
@@ -185,19 +188,16 @@
 	</style>
 </head>
 <body>
-<h1>
+<header>
 	<a href="./">
-		<span>Kyouratsu</span>
-		<span>キョウラツ 公式サイト</span>
+		<h1>Kyouratsu</h1>
+		<h2>キョウラツ 公式サイト</h2>
 	</a>
-</h1>
+</header>
 <div class="cont"><ol></ol></div>
 <div class="cont">
 	<p>
-		The cute character <em>Kyouratsu</em> was inspired by the logo of Node.js at first, which is a regular hexagon. After having received perspective, it got mixed up with the concept of fractal, so he then had two ears.
-	</p>
-	<p>
-		He prefers to be recognized as a cat, for cosplaying the Octocat is really fun. With a Japanese-style name, he feels free to be part in humans' society, though humans' foolishness sometimes annoys him. Anyway he likes being together with humans.
+		Nice to meet you, foolish Terran.
 	</p>
 </div>
 <footer>
@@ -212,56 +212,20 @@
 	</div>
 </footer>
 <script type="text/javascript">
-var x = 32;
-var cap = [
-	"Tilt eyes",
-	"Stunned",
-	"Grin",
-	"WTF",
-	"T_T",
-	"Arcane",
-	"O Ya Su Mi",
-	"Bao Qing Tian",
-	"Star Eyes",
-	"Emotionless",
-	"Doraemon",
-	"Naruto",
-	"Sun Glasses",
-	"Psyduck",
-	"Octocat",
-	"Money Money Money",
-	"&gt;_&lt;",
-	"Kiss",
-	"XD",
-	"Scared",
-	"Leave my vision",
-	"Have no idea",
-	"^ω^",
-	"Nothing to say",
-	"Psi",
-	"Oh no",
-	"Baka",
-	"Marvin",
-	"Sensei",
-	"Brother Buxie",
-	"Xiu~",
-	"Balloon",
-	"Jiong"
-];
+var x = 18;
 for (var i = 1; i <= x; i++) {
 	var li = document.createElement("li");
 	var a = document.createElement("a");
 	var img = document.createElement("img");
 	var span = document.createElement("span");
-	a.setAttribute("href", "Kyouratsu%20" + i + ".jpg");
-	img.setAttribute("src", "Kyouratsu%20" + i + ".jpg");
+	a.setAttribute("href", i + ".jpg");
+	img.setAttribute("src", i + ".jpg");
 	a.appendChild(img);
 	a.appendChild(span);
-	span.innerHTML = "#" + i + "<br />" + cap[(i-1)];
+	span.innerHTML = "#" + i;
 	li.appendChild(a);
 	document.getElementsByTagName("ol")[0].appendChild(li);
 }
 </script>
-<script type="text/javascript" src="//joyneop.github.io/jn-analy-personal.js"></script>
 </body>
 </html>
