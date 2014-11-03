@@ -1,12 +1,14 @@
 BEGIN:VCARD
 VERSION:3.0
-PRODID:-//Apple Inc.//Mac OS X 10.9.4//EN
+PRODID:-//Apple Inc.//Mac OS X 10.9.5//EN
 N:Neop;Joy;;;
 FN:Joy Neop
 NICKNAME:JN
 ORG:Shixiann.com;
 EMAIL;type=INTERNET;type=HOME;type=pref:i@joyneop.com
 EMAIL;type=INTERNET;type=HOME:joyneop@gmail.com
+EMAIL;type=INTERNET;type=WORK:jn@shixian.com
+EMAIL;type=INTERNET;type=WORK:jn@evenbits.org
 TEL;type=CELL;type=VOICE;type=pref:+86 131-6120-7924
 X-SOCIALPROFILE;type=twitter;x-userid=704894406:http://twitter.com/JoyNeop
 X-SOCIALPROFILE;type=linkedin:http://www.linkedin.com/in/joyneop
