@@ -132,7 +132,7 @@ a:link, a:visited, a:hover, a:active {
 	margin-right: auto;
 }
 
-.post-textpost > pre {
+.post-text > pre {
 	font-family: 'Menlo', monospace;
 	width: 80%;
 	margin-left: auto;
