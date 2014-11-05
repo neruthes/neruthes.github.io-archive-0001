@@ -29,13 +29,13 @@ if (postId != "NULL") {
 		loadPost(postId);
 	}
 	if (nextpost == total) {
-		fillNav(prevpost, nextpost, 1, 0);
+		fillNav(prevpost, nextpost, true, false);
 	} else if (postId == 0) {
-		fillNav(prevpost, nextpost, 0, 1);
+		fillNav(prevpost, nextpost, false, true);
 	} else if (postId < 0 || postId > theLatestPostId) {
 		httpError();
 	} else {
-		fillNav(prevpost, nextpost, 1, 1);
+		fillNav(prevpost, nextpost, true, true);
 	}
 } else if (postId == "NULL") {
 	for (var i = total - 1; i >= total-10 && i >= 0; i--) {

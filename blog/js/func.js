@@ -85,27 +85,28 @@ function listOutPreviousPosts() {
 }
 
 function fillNav(previd, nextid, ifprev, ifnext) {
-	if (ifprev == 1) {
+	if (ifprev) {
 		document.getElementById("prevlink").href = "./?p=" + previd;
 		document.getElementById("prevlink").innerHTML = "Prev »";
-		document.getElementById("prevlink").style.visibility = "visible";
+	} else {
+		document.getElementById("prev").remove();
 	}
-	if (ifnext == 1) {
+	if (ifnext) {
 		if (nextid == 1) {
 			document.getElementById("nextlink").href = "./";
 		} else {
 			document.getElementById("nextlink").href = "./?p=" + nextid;
 		}
 		document.getElementById("nextlink").innerHTML = "« Next";
-		document.getElementById("nextlink").style.visibility = "visible";
+	} else {
+		document.getElementById("next").remove();
 	}
 }
 
 function httpError() {
 	createSection(postId);
 	document.getElementById("post" + postId + "title").innerHTML = "404 Not Found : (";
-	document.getElementById("post" + postId + "title").style.display = "block";
-	document.getElementById("post" + postId + "link").style.display = "none";
+	document.getElementById("post" + postId + "link").remove();
 	document.getElementById("prevandnext").innerHTML = "";
 	document.title = "HTTP 404 " + "— " + blogName;
 	document.getElementById("post" + postId + "text").innerHTML = "Here is nothing you can see. Back to <em><a href='./'>homepage</a></em>?";
