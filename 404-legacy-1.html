@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>404 Not Found — Joy Neop</title>
+	<script type="text/javascript">
+	function w() {
+		document.write("~" + window.location.pathname + window.location.search);
+	}
+	</script>
+	<style type="text/css">
+	body {
+		font-family: Seravek, Myriad Pro, Myriad, Myriad Set, 'Open Sans', Lucida Grande, Helvetica, Arial, sans-serif;
+		color: #DDD;
+		padding: 0;
+		margin: 0;
+		background: #000;
+	}
+	div {
+		height: 100%;
+		box-sizing: border-box;
+		background: rgba(40, 40, 40, 0.65);
+		border-left: solid 1px #DDD;
+		border-right: solid 1px #DDD;
+	}
+	h1 {
+		font-size: 40px;
+		color: #FFF;
+		margin: 20px 0;
+	}
+	p {
+		font-size: 17px;
+		line-height: 27px;
+		margin: 20px 0;
+	}
+	p::before {
+		content: "~ JN$";
+		font-family: Courier, Menlo, monospace;
+		color: #2FFF6F;
+	}
+	p::after {
+		content: " ⏎";
+		font-family: Courier, Menlo, monospace;
+		font-size: 13px;
+		color: #2FFF6F;
+		padding: 0 0 0 8px;
+	}
+	code {
+		font-family: Courier, Menlo, monospace;
+		font-size: 15px;
+		color: #FFF;
+		word-break: break-word;
+		padding: 1px 3px;
+		margin: 0 1px;
+		border: 1px solid rgba(50, 255, 130, 0.5);
+		border-radius: 3px;
+	}
+	footer {
+		font-size: 14px;
+		text-align: center;
+	}
+	footer a {
+		color: inherit;
+		text-decoration: none;
+	}
+	@media screen and (min-width: 740px) {
+		body {
+			overflow: hidden;
+		}
+		div {
+			position: absolute;
+			left: 50%;
+			width: 700px;
+			height: 100%;
+			padding: 70px;
+			margin: 0 0 0 -350px;
+			background: rgba(40, 40, 40, 0.65);
+			border-left: solid 1px #DDD;
+			border-right: solid 1px #DDD;
+		}
+		code {
+			font-family: Courier, Menlo, monospace;
+			font-size: 15px;
+			color: #FFF;
+			padding: 1px 3px;
+			margin: 0 1px;
+			border: 1px solid rgba(50, 255, 130, 0.5);
+			border-radius: 3px;
+		}
+		footer {
+			position: fixed;
+			bottom: 15px;
+			left: 50%;
+			width: 700px;
+			font-size: 14px;
+			text-align: center;
+			margin: 0 0 0 -350px;
+		}
+		footer a {
+			color: inherit;
+			text-decoration: none;
+		}
+	}
+	@media screen and (max-width: 738px) {
+		body {
+			padding: 0;
+			margin: 0;
+		}
+		div {
+			position: absolute;
+			height: 100%;
+			padding: 10px;
+			margin: 0 20px;
+		}
+		footer {
+			font-size: 14px;
+			margin: 100px 0 0 0;
+		}
+		footer a {
+			color: inherit;
+			text-decoration: none;
+		}
+	}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>404 Not Found</h1>
+		<p>
+			Oops! Your request <code>
+			<script type="text/javascript">
+			w();
+			</script></code> not found!
+		</p>
+		<p>
+			Will fallback to <code>~/blob/master/404.html</code> ...
+		</p>
+		<p>
+			Oops! <code>~/blob/master/404.html</code> not found!
+		</p>
+		<p>
+			Sorry, neither your request nor <code>~/blob/master/404.html</code> has been found. You can only see this : (
+		</p>
+		<footer>
+			<a href="/">&copy; 2014 All Rights Reserved by Joy Neop</a>
+		</footer>
+	</div>
+	<script type="text/javascript" src="//joyneop.github.io/jn-analy-personal.js"></script>
+</body>
+</html>

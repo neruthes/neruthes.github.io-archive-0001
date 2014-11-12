@@ -3,148 +3,64 @@
 <head>
 	<meta charset="utf-8" />
 	<title>404 Not Found — Joy Neop</title>
-	<script type="text/javascript">
-	function w() {
-		document.write("~" + window.location.pathname + window.location.search);
-	}
-	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">
+	* {
+		box-sizing: border-box;
+	}
 	body {
-		font-family: Seravek, Myriad Pro, Myriad, Myriad Set, 'Open Sans', Lucida Grande, Helvetica, Arial, sans-serif;
-		color: #DDD;
+		font-family: 'Seravek-Light', Seravek-Light, Seravek Light, Seravek, Myriad Pro, Myriad, Myriad Set, 'Open Sans', 'Helvetica Neue', Helvetica Neue, Helvetica, Lucida Grande, Arial, 'Arial-Black', 'Arial Black', Arial Black, sans-serif;
+		font-size: 18px;
+		font-weight: 400;
+		color: #444;
 		padding: 0;
 		margin: 0;
-		background: #000;
+		background: #111 linear-gradient(#282828, #121212) fixed;
 	}
-	div {
-		height: 100%;
-		box-sizing: border-box;
-		background: rgba(40, 40, 40, 0.65);
-		border-left: solid 1px #DDD;
-		border-right: solid 1px #DDD;
+	.content {
+		background: #FFF url(http://joyneop.github.io/kyouratsu/3.jpg) bottom right no-repeat scroll;
+		background-size: 90px;
+		border-radius: 4px;
+		box-shadow: rgba(0, 0, 0, 0.024322) 0 0 4px;
+
+		max-width: 780px;
+		padding: 35px 50px 70px;
+		margin: 90px auto 50px;
+	}
+	p a {
+		color: inherit;
 	}
 	h1 {
-		font-size: 40px;
-		color: #FFF;
-		margin: 20px 0;
+		font-family: 'Seravek-Extralight', Seravek-Extralight, Seravek Extralight, Seravek, Myriad Pro, Myriad, Myriad Set, 'Open Sans', 'Helvetica Neue', Helvetica Neue, Helvetica, Lucida Grande, Arial, 'Arial-Black', 'Arial Black', Arial Black, sans-serif;
+		font-size: 32px;
+		font-weight: 100;
+		color: #333;
+		text-align: center;
 	}
-	p {
-		font-size: 17px;
-		line-height: 27px;
-		margin: 20px 0;
-	}
-	p::before {
-		content: "~ JN$";
-		font-family: Courier, Menlo, monospace;
-		color: #2FFF6F;
-	}
-	p::after {
-		content: " ⏎";
-		font-family: Courier, Menlo, monospace;
-		font-size: 13px;
-		color: #2FFF6F;
-		padding: 0 0 0 8px;
-	}
-	code {
-		font-family: Courier, Menlo, monospace;
-		font-size: 15px;
-		color: #FFF;
-		word-break: break-word;
-		padding: 1px 3px;
-		margin: 0 1px;
-		border: 1px solid rgba(50, 255, 130, 0.5);
-		border-radius: 3px;
+	h1 em {
+		font-family: inherit;
+		font-style: inherit;
+		font-size: 1.25em;
 	}
 	footer {
-		font-size: 14px;
+		color: #FAFAFA;
 		text-align: center;
 	}
 	footer a {
+		font-family: 'Seravek-Light', Seravek-Light, Seravek Light, Seravek, Myriad Pro, Myriad, Myriad Set, 'Open Sans', 'Helvetica Neue', Helvetica Neue, Helvetica, Lucida Grande, Arial, 'Arial-Black', 'Arial Black', Arial Black, sans-serif;
+		font-size: 14px;
 		color: inherit;
-		text-decoration: none;
-	}
-	@media screen and (min-width: 740px) {
-		body {
-			overflow: hidden;
-		}
-		div {
-			position: absolute;
-			left: 50%;
-			width: 700px;
-			height: 100%;
-			padding: 70px;
-			margin: 0 0 0 -350px;
-			background: rgba(40, 40, 40, 0.65);
-			border-left: solid 1px #DDD;
-			border-right: solid 1px #DDD;
-		}
-		code {
-			font-family: Courier, Menlo, monospace;
-			font-size: 15px;
-			color: #FFF;
-			padding: 1px 3px;
-			margin: 0 1px;
-			border: 1px solid rgba(50, 255, 130, 0.5);
-			border-radius: 3px;
-		}
-		footer {
-			position: fixed;
-			bottom: 15px;
-			left: 50%;
-			width: 700px;
-			font-size: 14px;
-			text-align: center;
-			margin: 0 0 0 -350px;
-		}
-		footer a {
-			color: inherit;
-			text-decoration: none;
-		}
-	}
-	@media screen and (max-width: 738px) {
-		body {
-			padding: 0;
-			margin: 0;
-		}
-		div {
-			position: absolute;
-			height: 100%;
-			padding: 10px;
-			margin: 0 20px;
-		}
-		footer {
-			font-size: 14px;
-			margin: 100px 0 0 0;
-		}
-		footer a {
-			color: inherit;
-			text-decoration: none;
-		}
+		text-decoration: inherit;
 	}
 	</style>
 </head>
 <body>
-	<div>
-		<h1>404 Not Found</h1>
-		<p>
-			Oops! Your request <code>
-			<script type="text/javascript">
-			w();
-			</script></code> not found!
-		</p>
-		<p>
-			Will fallback to <code>~/blob/master/404.html</code> ...
-		</p>
-		<p>
-			Oops! <code>~/blob/master/404.html</code> not found!
-		</p>
-		<p>
-			Sorry, neither your request nor <code>~/blob/master/404.html</code> has been found. You can only see this : (
-		</p>
-		<footer>
-			<a href="/">&copy; 2014 All Rights Reserved by Joy Neop</a>
-		</footer>
+	<div class="content">
+		<!-- <h1>404 Not Found</h1> -->
+		<h1><em>Welcome to</em><br />The Restaurant at the End of the Universe</h1>
+		<p>God's in his heaven, but something's wrong with the world, huh?</p><p>You are arriving here where nothing to show; why not go back or <a href="/">start over</a>?</p>
 	</div>
-	<script type="text/javascript" src="//joyneop.github.io/jn-analy-personal.js"></script>
+	<footer><a href="http://www.joyneop.com/">© 2014 Joy Neop. All Rights Reserved.</a></footer>
+	<script type="text/javascript" src="//joyneop.github.io/jn-alert-view.js"></script>
 </body>
 </html>
