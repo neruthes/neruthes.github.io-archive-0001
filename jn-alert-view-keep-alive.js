@@ -47,37 +47,41 @@
 	styleTag.appendChild(document.createTextNode(jnalert.styleTagContent));
 	document.getElementsByTagName("head")[0].appendChild(styleTag);
 
-	// DOM
-	var div = document.createElement("div");
-	var s1 = document.createElement("span");
-	s1.innerHTML = text0;
-	var s2 = document.createElement("span");
-	s2.innerHTML = text;
-	s2.style = sizeText;
-	s1.setAttribute("id", divId + "span1");
-	s2.setAttribute("id", divId + "span2");
-	div.setAttribute("id", divId);
-	div.setAttribute("style", "font-size: 15px;");
-	div.appendChild(s1);
-	div.appendChild(s2);
-	document.body.appendChild(div);
+	// Only display this on desktop
+	if (window.innerWidth > 766) {
 
-	// Time
-	// Show
-	document.getElementById(divId + "style").innerHTML = jnalert.styleTagContent + "#" + jnalert.divId + " { opacity: 1; }";
-	document.getElementById(divId + "span1").style.backgroundColor = "rgba(0, 0, 0, 0.43312)";
-	// Dim
-	if (!keepAlive) {
-		window.setTimeout(function(){
-			document.getElementById(jnalert.divId + "style").innerHTML = jnalert.styleTagContent + "#" + jnalert.divId + " { opacity: 0.09101; }";
-			document.getElementById(jnalert.divId + "span1").style.backgroundColor = "rgba(0, 0, 0, 0)";
-			document.getElementById(jnalert.divId + "span1").onmouseleave = function () {
+		// DOM
+		var div = document.createElement("div");
+		var s1 = document.createElement("span");
+		s1.innerHTML = text0;
+		var s2 = document.createElement("span");
+		s2.innerHTML = text;
+		s2.style = sizeText;
+		s1.setAttribute("id", divId + "span1");
+		s2.setAttribute("id", divId + "span2");
+		div.setAttribute("id", divId);
+		div.setAttribute("style", "font-size: 15px;");
+		div.appendChild(s1);
+		div.appendChild(s2);
+		document.body.appendChild(div);
+
+		// Time
+		// Show
+		document.getElementById(divId + "style").innerHTML = jnalert.styleTagContent + "#" + jnalert.divId + " { opacity: 1; }";
+		document.getElementById(divId + "span1").style.backgroundColor = "rgba(0, 0, 0, 0.43312)";
+		// Dim
+		if (!keepAlive) {
+			window.setTimeout(function(){
+				document.getElementById(jnalert.divId + "style").innerHTML = jnalert.styleTagContent + "#" + jnalert.divId + " { opacity: 0.09101; }";
 				document.getElementById(jnalert.divId + "span1").style.backgroundColor = "rgba(0, 0, 0, 0)";
-			};
-		}, 2200);
-	} else {
-		document.getElementById(divId + "span2").innerHTML = text0 + text;
-	};
+				document.getElementById(jnalert.divId + "span1").onmouseleave = function () {
+					document.getElementById(jnalert.divId + "span1").style.backgroundColor = "rgba(0, 0, 0, 0)";
+				};
+			}, 2200);
+		}
+
+	}
+
 	console.log(text0);
 	console.log(text);
 })('<a href="http://www.joyneop.com/resume/">Hi, I\'m seeking 2015 summer internship...</a>',
