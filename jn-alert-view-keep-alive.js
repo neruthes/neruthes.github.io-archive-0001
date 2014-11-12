@@ -1,4 +1,4 @@
-(function(alert, text, quadrant, position, style, size, keepAlive){
+(function(text0, text, quadrant, position, style, size, keepAlive){
 	/*
 	@Author Joy Neop
 	@Website http://www.joyneop.com/
@@ -50,7 +50,7 @@
 	// DOM
 	var div = document.createElement("div");
 	var s1 = document.createElement("span");
-	s1.innerHTML = alert;
+	s1.innerHTML = text0;
 	var s2 = document.createElement("span");
 	s2.innerHTML = text;
 	s2.style = sizeText;
@@ -75,10 +75,12 @@
 				document.getElementById(jnalert.divId + "span1").style.backgroundColor = "rgba(0, 0, 0, 0)";
 			};
 		}, 2200);
+	} else {
+		document.getElementById(divId + "span2").innerHTML = text0 + text;
 	};
-	console.log(alert);
+	console.log(text0);
 	console.log(text);
-})("Hi, I'm seeking 2015 summer internship...",
+})('<a href="http://www.joyneop.com/resume/">Hi, I\'m seeking 2015 summer internship...</a>',
 	'<a href="http://www.joyneop.com/resume/" style="display: block; width: 364px;" target="_blank">Does your company have an internship program? Maybe I can be one in your company this summer? Click here to see my résumé, thanks : )</a>',
 	1,
 	"absolute",
