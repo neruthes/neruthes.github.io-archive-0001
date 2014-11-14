@@ -49,8 +49,7 @@ p {
 }
 
 p em {
-	font-weight: bold;
-	text-decoration: underline;
+	font-style: italic;
 }
 
 a:link, a:visited, a:hover, a:active {
