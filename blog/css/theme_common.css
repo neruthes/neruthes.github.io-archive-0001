@@ -45,14 +45,6 @@ header.global h2 {
 	box-shadow: rgba(0, 0, 0, 0.432222) 0 0 5px inset;
 }
 
-p {
-	line-height: 1.65em;
-}
-
-p code {
-	font-family: Menlo, Monaco, Osaka, monospace;
-}
-
 a:link, a:visited, a:hover, a:active {
 	color: inherit;
 	text-decoration: inherit;
@@ -109,6 +101,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post-text > p {
+	line-height: 1.65em;
 	margin: 17px 0;
 }
 
@@ -125,6 +118,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 p code {
+	font-family: Menlo, Monaco, Osaka, monospace;
 	background: #F4F4F4;
 	border-radius: 3px;
 	padding: 0 3px;
