@@ -124,7 +124,7 @@ a:link, a:visited, a:hover, a:active {
 	font-family: 'Seravek-LightItalic', Seravek-LightItalic, Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
 }
 
-p em {
+p code {
 	background: #F4F4F4;
 	border-radius: 3px;
 	padding: 0 3px;
