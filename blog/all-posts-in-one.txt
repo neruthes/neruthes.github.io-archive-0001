@@ -14,11 +14,26 @@
 
 
 
+Post #113 / Date: November 14, 2014
+Private Concepts
+
+
+The story came from a saying, "if you cannot describe something clearly with only a few words, you don't actually understand it".
+When I describe protons to somebody, he should know atoms in advance. When I describe the difference between <code>document.getElementBy</code> series and <code>document.querySelectorAll</code>, he should know HTML and JavaScript in advance. People must have all common knowledge before talk about something. In the examples above, I mentioned several concepts, and I say the concept <em>proton</em> depends on the concept <em>atom</em>. Later, we will talk about <em>flavor</em> and <em>color</em>, and these concepts depend on <em>quark</em>, which depends on <em>proton</em>. In such a context, if I talk about <em>flavor</em> and <em>color</em>, I should explain what <em>atom</em> is, and then explain what <em>proton</em> is, based on <em>atom</em> which I just explained. For this, I say <em>quark</em> is dependency of <em>flavor</em> and <em>color</em>, and <em>atom</em> and <em>proton</em> are recursive dependencies of <em>flavor</em> and <em>color</em>. To reach <em>flavor</em> and <em>color</em>, I should explain all of its recursive dependencies reversely recursively, if the other one in the conversation don't know them. I say there is a dependency tree.
+If I come up with a concept which hasn't been added into the public concept library, it is a <em>private concept</em>. Snow might be a private concept around polar zones out of tropical zones several thousands of years ago, for residents in tropical zones might have no chance to see snow. If I come up a concept whose dependencies includes at least one of my private concepts, it is a <em>recursive private concept</em>. I should recursively explain all my private concepts which are its dependencies, before explaining itself. Therefore the barriers in conversation may be resulted by others' lack in my private concepts, instead of my incomplete understanding.
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+
 Post #112 / Date: October 2, 2014
 At This Age
 
 
-從未預料到可以在 18 歲前遇見你。曾期許，曾渴望，但這真正來臨泰國突然。突然到尚無準備。
+從未預料到可以在 18 歲前遇見你。曾期許，曾渴望，但這真正來臨太過突然。突然到尚無準備。
 此時的我們，還太年輕，仍然期待著遙遠的未來，不安於眼前的彼此。不可避免的吧。等待時間流逝，在我們身邊。然後，經歷過歲月的我們才會安心於彼此吧。只是，這期間如何度過，需要二人共同的努力。
 檯燈光影斑駁，紙筆交融娑婆。北京的雨凜冽了風，杭州的你看不到這一切。異步地欣賞，異步地想念，不知線下的共同生活開始後會是如何。會有吸引，會有磨合，不像詩與歌一樣輕鬆容易。
 期許著，盼望著，遙遠的未來走近。成長著，凋亡著，兩個人的幸福交匯。
@@ -284,7 +299,6 @@ Happy New Year 2014
 
 
 <img src="./img/0000201401010001.jpg">
-<img src="./img/0000201401010002.jpg">
 
 
 
@@ -614,13 +628,13 @@ Post #71 / Date: July 7, 2013
 Betrayer
 
 
-After the incredibly huge wave of discussion about iOS 7's changes on GUI, people eventually take another breath to care about OS X Mavericks. From the publicly showed glimpses of it, The trend of flat style has also appeared on OS X. The background tile images of Notification Center, Dashboard, and Launchpad folders, have got replaced, or disappeared. OS X is going to be flatter.
-I hate flat style. I was born this way.
-What if interact with a machine without even at least visual comparing? What if touch a screen without even at least one familiar element? I cannot imagine it, nor accept it. What a nightmare.
-Then, what if OS X eventually gets as flat as iOS 7 or even more terrible? Beyond imagination. In case of that, I have to build my own OS, which is temporarily named "PREVSTEP".
-Ideally, I hope that PREVSTEP is an FreeBSD-based OS of GNU/Linux, or directly powered with OpenDarwin. Yet I am not a coder so I cannot create an OS with only these fundamental wheels. So PREVSTEP can only disappointingly be based on Linux, for personalizing on Linux is easier. And Debian is recommended for me because it is light and easy-learning.
-Before creating my fork, I have got down to design the GUI. My purpose is to inherit the style from Tiger to Mountain Lion, but I cannot simply copy these because of copyright issue. Right now I have published the default desktop picture on Behance, which is similar to the one of Mac OS X Tiger.
-When Apple decides to betray us, I stand out to preserve our dream.
+After the incredibly huge wave of discussion about iOS 7's changes on GUI, people eventually take another breath to care about OS X Mavericks. From the public introduction and preview of it, The trend of flat design has also appeared on OS X. The background tile images of Notification Center, Dashboard, and Launchpad folders, have got replaced, or disappeared. OS X is going to be flatter.
+I hate flat.
+What if interact with a machine without even at least one visual metaphor? What if touch a screen without even at least one familiar element? I cannot imagine it, nor accept it. What a nightmare.
+Then, what if OS X eventually gets as flat as iOS 7 or even more terrible? Beyond imagination. In case of that, I have to build my own OS, temporarily named NeOPSTEP.
+Ideally, I hope that NeOPSTEP is a FreeBSD-based OS, or directly powered with OpenDarwin. Yet I am not a programmer so I may or may not be able to create an OS with only these fundamental wheels. It will take time to investigate and find the right wheels.
+Before creating my fork, I have got started to design the GUI. My purpose is to inherit the style from Mac OS X Tiger to OS X Mountain Lion, but I cannot simply copy those because of copyright issue. Right now I am working on the default desktop picture, which is similar to the Aqua Blue of Mac OS X Tiger.
+When we are decided to betray, I stand out and fight for our faith.
 
 
 

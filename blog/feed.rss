@@ -5,11 +5,25 @@
         <atom:link href="http://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />
         <link>http://joyneop.xyz/blog/</link>
         <description>Do what you want to do. Be what you want to be.</description>
-        <lastBuildDate>October 2, 2014 09:41:00 +0000</lastBuildDate>
+        <lastBuildDate>November 14, 2014 09:41:00 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
         <generator>http://joyneop.github.io/blog/</generator>
+        <item>
+            <title>Private Concepts</title>
+            <link>http://joyneop.xyz/blog/?p=113</link>
+            <pubDate>November 14, 2014 09:41:00 +0000</pubDate>
+            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
+            <guid isPermaLink="false">http://joyneop.xyz/blog/?p=113</guid>
+            <content:encoded>
+<![CDATA[
+<p>The story came from a saying, "if you cannot describe something clearly with only a few words, you don't actually understand it".</p>
+<p>When I describe protons to somebody, he should know atoms in advance. When I describe the difference between <code>document.getElementBy</code> series and <code>document.querySelectorAll</code>, he should know HTML and JavaScript in advance. People must have all common knowledge before talk about something. In the examples above, I mentioned several concepts, and I say the concept <em>proton</em> depends on the concept <em>atom</em>. Later, we will talk about <em>flavor</em> and <em>color</em>, and these concepts depend on <em>quark</em>, which depends on <em>proton</em>. In such a context, if I talk about <em>flavor</em> and <em>color</em>, I should explain what <em>atom</em> is, and then explain what <em>proton</em> is, based on <em>atom</em> which I just explained. For this, I say <em>quark</em> is dependency of <em>flavor</em> and <em>color</em>, and <em>atom</em> and <em>proton</em> are recursive dependencies of <em>flavor</em> and <em>color</em>. To reach <em>flavor</em> and <em>color</em>, I should explain all of its recursive dependencies reversely recursively, if the other one in the conversation don't know them. I say there is a dependency tree.</p>
+<p>If I come up with a concept which hasn't been added into the public concept library, it is a <em>private concept</em>. Snow might be a private concept around polar zones out of tropical zones several thousands of years ago, for residents in tropical zones might have no chance to see snow. If I come up a concept whose dependencies includes at least one of my private concepts, it is a <em>recursive private concept</em>. I should recursively explain all my private concepts which are its dependencies, before explaining itself. Therefore the barriers in conversation may be resulted by others' lack in my private concepts, instead of my incomplete understanding.</p>
+]]>
+            </content:encoded>
+        </item>
         <item>
             <title>At This Age</title>
             <link>http://joyneop.xyz/blog/?p=112</link>
@@ -18,7 +32,7 @@
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=112</guid>
             <content:encoded>
 <![CDATA[
-<p>從未預料到可以在 18 歲前遇見你。曾期許，曾渴望，但這真正來臨泰國突然。突然到尚無準備。</p>
+<p>從未預料到可以在 18 歲前遇見你。曾期許，曾渴望，但這真正來臨太過突然。突然到尚無準備。</p>
 <p>此時的我們，還太年輕，仍然期待著遙遠的未來，不安於眼前的彼此。不可避免的吧。等待時間流逝，在我們身邊。然後，經歷過歲月的我們才會安心於彼此吧。只是，這期間如何度過，需要二人共同的努力。</p>
 <p>檯燈光影斑駁，紙筆交融娑婆。北京的雨凜冽了風，杭州的你看不到這一切。異步地欣賞，異步地想念，不知線下的共同生活開始後會是如何。會有吸引，會有磨合，不像詩與歌一樣輕鬆容易。</p>
 <p>期許著，盼望著，遙遠的未來走近。成長著，凋亡著，兩個人的幸福交匯。</p>
@@ -266,7 +280,6 @@
             <content:encoded>
 <![CDATA[
 <img src="./img/0000201401010001.jpg">
-<img src="./img/0000201401010002.jpg">
 ]]>
             </content:encoded>
         </item>
@@ -573,13 +586,13 @@
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=71</guid>
             <content:encoded>
 <![CDATA[
-<p>After the incredibly huge wave of discussion about iOS 7's changes on GUI, people eventually take another breath to care about OS X Mavericks. From the publicly showed glimpses of it, The trend of flat style has also appeared on OS X. The background tile images of Notification Center, Dashboard, and Launchpad folders, have got replaced, or disappeared. OS X is going to be flatter.</p>
-<p>I hate flat style. I was born this way.</p>
-<p>What if interact with a machine without even at least visual comparing? What if touch a screen without even at least one familiar element? I cannot imagine it, nor accept it. What a nightmare.</p>
-<p>Then, what if OS X eventually gets as flat as iOS 7 or even more terrible? Beyond imagination. In case of that, I have to build my own OS, which is temporarily named "PREVSTEP".</p>
-<p>Ideally, I hope that PREVSTEP is an FreeBSD-based OS of GNU/Linux, or directly powered with OpenDarwin. Yet I am not a coder so I cannot create an OS with only these fundamental wheels. So PREVSTEP can only disappointingly be based on Linux, for personalizing on Linux is easier. And Debian is recommended for me because it is light and easy-learning.</p>
-<p>Before creating my fork, I have got down to design the GUI. My purpose is to inherit the style from Tiger to Mountain Lion, but I cannot simply copy these because of copyright issue. Right now I have published the default desktop picture on Behance, which is similar to the one of Mac OS X Tiger.</p>
-<p>When Apple decides to betray us, I stand out to preserve our dream.</p>
+<p>After the incredibly huge wave of discussion about iOS 7's changes on GUI, people eventually take another breath to care about OS X Mavericks. From the public introduction and preview of it, The trend of flat design has also appeared on OS X. The background tile images of Notification Center, Dashboard, and Launchpad folders, have got replaced, or disappeared. OS X is going to be flatter.</p>
+<p>I hate flat.</p>
+<p>What if interact with a machine without even at least one visual metaphor? What if touch a screen without even at least one familiar element? I cannot imagine it, nor accept it. What a nightmare.</p>
+<p>Then, what if OS X eventually gets as flat as iOS 7 or even more terrible? Beyond imagination. In case of that, I have to build my own OS, temporarily named NeOPSTEP.</p>
+<p>Ideally, I hope that NeOPSTEP is a FreeBSD-based OS, or directly powered with OpenDarwin. Yet I am not a programmer so I may or may not be able to create an OS with only these fundamental wheels. It will take time to investigate and find the right wheels.</p>
+<p>Before creating my fork, I have got started to design the GUI. My purpose is to inherit the style from Mac OS X Tiger to OS X Mountain Lion, but I cannot simply copy those because of copyright issue. Right now I am working on the default desktop picture, which is similar to the Aqua Blue of Mac OS X Tiger.</p>
+<p>When we are decided to betray, I stand out and fight for our faith.</p>
 ]]>
             </content:encoded>
         </item>
@@ -1216,22 +1229,6 @@
 <p>現在，我又能感知這一切了。置身於他們的愉悅，我如同緩緩沈入無比澄澈的水中。</p>
 <br />
 <p>天地間，只剩雪白的寧靜。</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title></title>
-            <link>http://joyneop.xyz/blog/?p=33</link>
-            <pubDate>November 10, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">http://joyneop.xyz/blog/?p=33</guid>
-            <content:encoded>
-<![CDATA[
-<img src="./img/0000201211100001.jpg">
-<img src="./img/0000201211100002.jpg">
-<img src="./img/0000201211100003.jpg">
-<img src="./img/0000201211100004.jpg">
-<img src="./img/0000201211100005.jpg">
 ]]>
             </content:encoded>
         </item>
