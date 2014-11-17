@@ -10,7 +10,7 @@ function real(inpu) {
 }
 
 var fs = require('fs');
-var blogPath = '/Users/JoyNeop/Developer/joyneop.github.io/blog';
+var blogPath = __dirname;
 
 var htmlTemplate = fs.readFileSync(blogPath + '/index-template.txt').toString();
 var postTemplate = fs.readFileSync(blogPath + '/post-template.txt').toString();
