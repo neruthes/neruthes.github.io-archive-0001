@@ -1,10 +1,10 @@
-(function(text0, text, quadrant, position, style, size, keepAlive){
-	/*
-	@Author Joy Neop
-	@Website http://www.joyneop.com/
-	@GitHub https://github.com/JoyNeop
-	© 2014 Joy Neop. All rights reserved.
-	*/
+/*(function(text0, text, quadrant, position, style, size, keepAlive){
+	//
+	// @Author Joy Neop
+	// @Website http://www.joyneop.com/
+	// @GitHub https://github.com/JoyNeop
+	// © 2014 Joy Neop. All rights reserved.
+	//
 	window.jnalert = {};
 
 	if (quadrant == undefined || quadrant == null) {
@@ -92,3 +92,4 @@
 	390,
 	true
 );
+*/
