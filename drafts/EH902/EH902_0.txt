@@ -1,14 +1,19 @@
 # 0
 
-Twilight shined at desk through leaves. Windless air brought coolness around the window.
+Twilight shined at desk through leaves. Peaceful air brought coolness around the window. Akira Hoshino, the boy seated aside the window, closed the book in his hand. Feather covered the pages.
 
-Akira Hoshino, the young wizard, closed the book in his hand and let the crystal dimmed. Feather covered the pages. He didn't know that exactly would happen to this library. In the last five months, the local government of this small town had closed the other two libraries, Amamiya's and Tsukisaki's, saying those were for regional security issues. Nobody could tell what it actually meant. Maybe there were harmful psionic weapons hidden, or some secrets locked? He was then amazed by himself for brave imaginations.
+"Good afternoon!"
 
-"Good afternoon!" Kouko Kurosaki, his friend, broke the silence with smile, "I can always find you here when you are not in class. What's up today?" And then sat on the desk.
+Kouko Kurosaki, his classmate, broke the silence with smile and sat on the desk. He could always find Akira here when he was not in class. "What's up today?"
 
 Akira put the book back to the big wooden desk in front of him, and picked up another, "This library will be closed, I think, sooner or later. Maybe I can find something here as cue, which can tell us the entire story of what happened to Amamiya's and Tsukisaki's."
 
-"In the darkness we see the truth?" Kouko moved sight on the bookshelf, hands supporting his body, "But governmental security staff are not fools."
+"In the darkness we see the truth?" Kouko moved sight onto the bookshelf, hands supporting his body against the desk, "But the police are not fools."
 
-"It doesn't matter. There's a secret entrance to the underground room of Amamiya's. Will you come together?" Twilight covered by cloud.
+"It doesn't matter. There's a secret entrance to the underground room of Amamiya's." Twilight covered by cloud.
 
+"Sounds interesting. I'll go with you."
+
+"I don't know what exactly will happen to this library. In the last five months, the government has closed the other two libraries, Amamiya's and Tsukisaki's, at no reason. Nobody can tell what it actually means."
+
+/* --- Working --- */
