@@ -28,7 +28,7 @@
 		font-weight: 400;
 		width: 100%;
 		box-sizing: border-box;
-		margin-top: -260px;
+		margin-top: -170px;
 		overflow: visible;
 		z-index: 42;
 	}
@@ -86,7 +86,7 @@
 			<!-- <div id="time">&nbsp;</div> -->
 			<div id="time">&nbsp;</div>
 			<!-- <h1><a href="./">Zeit</a></h1> -->
-			<div id="date"></div>
+			<!-- <div id="date"></div> -->
 		</div>
 	</div>
 	<footer><a href="http://www.joyneop.com/">&copy; Copyright 2014 All Rights Reserved by Joy Neop</a></footer>
@@ -116,7 +116,6 @@
 			min = "0" + min;
 		}
 		document.getElementById("time").innerHTML = h + ":" + min;
-		document.getElementById("date").innerHTML = "September 15, 1995".replace("September", mon).replace("15", d).replace("1995", y);
 	};
 	var colle = [
 		"http://joyneop.github.io/blog/img/0000201311030001.jpg",
@@ -127,7 +126,7 @@
 		"http://joyneop.github.io/blog/img/0000201407100001.jpg",
 		"http://joyneop.github.io/blog/img/0000201407300001.jpg"
 	];
-	document.body.style.backgroundImage = "url(_IMGURL_)".replace("_IMGURL_", colle[rand]);
+	// document.body.style.backgroundImage = "linear-gradient(#_AAA_, #_BBB_)".replace("_AAA_", colorA).replace("_BBB_", colorB);
 	var yooo = window.setInterval(JNClock, 1000);
 	</script>
 	<script type="text/javascript" src="http://joyneop.github.io/jn-analy-personal.js"></script>
