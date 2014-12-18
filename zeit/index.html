@@ -6,8 +6,9 @@
 	<link rel="shortcut icon favicon" href="/favicon.ico"/>
 	<link rel="apple-touch-icon" href="/joyneop.png"/>
 	<style type="text/css">
+	@import url(http://joyneop.github.io/fonts/open-sans.css);
 	body {
-		font-family: Seravek, 'Myriad Pro', 'Myriad Apple', Myriad, 'Myriad Set Pro', 'Myriad Set', 'Open Sans', 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Ubuntu, Arial, 'Arial Black', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', 'STHeiti', sans-serif;
+		font-family: 'Avenir Next', Avenir, 'Open Sans','Helvetica Neue', Helvetica, Ubuntu, Arial, 'Arial Black', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', 'STHeiti', sans-serif;
 		font-weight: 300;
 		color: #FFF;
 		background: #000 center fixed no-repeat;
@@ -28,7 +29,7 @@
 		font-weight: 400;
 		width: 100%;
 		box-sizing: border-box;
-		margin-top: -170px;
+		margin-top: -100px;
 		overflow: visible;
 		z-index: 42;
 	}
@@ -38,9 +39,9 @@
 		opacity: 0.966;
 	}
 	#time {
-		font-size: 240px;
+		font-size: 100px;
+		font-weight: 100;
 		text-align: center;
-		letter-spacing: 14px;
 		box-sizing: border-box;
 		padding: 0;
 		margin: 0 auto;
@@ -83,33 +84,13 @@
 <body>
 	<div id="cont">
 		<div id="content">
-			<!-- <div id="time">&nbsp;</div> -->
 			<div id="time">&nbsp;</div>
-			<!-- <h1><a href="./">Zeit</a></h1> -->
-			<!-- <div id="date"></div> -->
 		</div>
 	</div>
 	<footer><a href="http://www.joyneop.com/">&copy; Copyright 2014 All Rights Reserved by Joy Neop</a></footer>
 	<script type="text/javascript">
-	var months = [
-		"January",
-		"February",
-		"March",
-		"April",
-		"May",
-		"June",
-		"July",
-		"August",
-		"September",
-		"October",
-		"November",
-		"December",
-	];
 	var JNClock = function () {
 		var da = new Date();
-		var y = da.getFullYear();
-		var mon = months[da.getMonth()];
-		var d = da.getDate().toString();
 		var h = da.getHours().toString();
 		var min = da.getMinutes().toString();
 		if (min.length == 1) {
@@ -117,15 +98,6 @@
 		}
 		document.getElementById("time").innerHTML = h + ":" + min;
 	};
-	var colle = [
-		"http://joyneop.github.io/blog/img/0000201311030001.jpg",
-		"http://joyneop.github.io/blog/img/0000201311090001.jpg",
-		"http://joyneop.github.io/blog/img/0000201406240001.jpg",
-		"http://joyneop.github.io/blog/img/0000201406250001.jpg",
-		"http://joyneop.github.io/blog/img/0000201407050001.jpg",
-		"http://joyneop.github.io/blog/img/0000201407100001.jpg",
-		"http://joyneop.github.io/blog/img/0000201407300001.jpg"
-	];
 	// document.body.style.backgroundImage = "linear-gradient(#_AAA_, #_BBB_)".replace("_AAA_", colorA).replace("_BBB_", colorB);
 	var yooo = window.setInterval(JNClock, 1000);
 	</script>
