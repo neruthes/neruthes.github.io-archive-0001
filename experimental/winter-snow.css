@@ -40,7 +40,7 @@ header #title {
 	width: 180px;
 	height: 180px;
 	margin: 0 auto;
-	background: #7495BC center no-repeat scroll;
+	background: rgba(255, 255, 255, 0.798888) center no-repeat scroll;
 	background-image: url(//joyneop.github.io/joyneop.png);
 	background-size: contain;
 	border-radius: 2000px;
@@ -59,7 +59,7 @@ header #title {
 	padding: 0;
 }
 .content {
-	background: #FFF;
+	background: rgba(255, 255, 255, 0.798888);
 	box-shadow: rgba(0, 0, 0, 0.11322) 0 0 14px;
 	width: 720px;
 	padding: 60px 0 30px;
