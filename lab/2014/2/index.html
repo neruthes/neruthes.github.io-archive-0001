@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Joy Neop — Designer, Programmer, Cross-domain Creative.</title>
+	<title>Joy Neop — Designer, Programmer, Cross-domain Creative</title>
 	<link rel="favicon shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" href="/joyneop.png">
 	<script type="text/javascript">
@@ -10,38 +10,34 @@
 	</script>
 	<style type="text/css">
 	@import url(//joyneop.github.io/fonts/open-sans.css);
-	body {
+	* {
 		font-family: 'Seravek-Extralight', Seravek, 'Myriad Pro', 'Myriad Apple', 'Myriad Set Pro', Myriad, 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-weight: 100;
+	}
+	body {
 		font-size: 20px;
-		font-weight: normal;
 		color: #FDFDFD;
 		padding: 0;
 		margin: 0;
 		background: #272727;
 	}
 	.wonb, li.ok, p a:hover, .circles a {
-		text-shadow: rgba(0, 0, 0, 0.9) 0 1px 0;
+		text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
 	}
 	.bonw, section h2, p, p a {
-		text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
+		text-shadow: rgba(255, 255, 255, 0.56) 0 1px 0;
 	}
 	header a:link, header a:visited, header a:hover, header a:active, footer a {
 		color: inherit;
 		text-decoration: inherit;
 	}
 	header {
-		position: absolute;
-		font-family: 'Seravek-Extralight', Seravek, 'Myriad Pro', 'Myriad Apple', 'Myriad Set Pro', Myriad, 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-		width: 100%;
-		height: 100%;
+		height: 101vh;
 		padding: 0;
 		margin: 0;
 		background-size: cover;
 	}
 	#main {
-		position: absolute;
-		top: 100%;
-		width: 100%;
 		padding: 10px 0 0 0;
 	}
 	header > #title {
@@ -165,14 +161,13 @@
 		width: 720px;
 		padding: 30px 0;
 		margin: 0 auto 120px;
-		background: #DDD url(//joyneop.github.io/JN-Lab/other-images/paper-light.png) center scroll repeat;
+		background: #F0F0F0;
 		background-size: 100px;
 		border-radius: 4px;
 		overflow: hidden;
 		box-shadow: rgba(0, 0, 0, 0.65) 0 3px 8px;
 	}
 	section h2 {
-		font-family: 'Seravek-Extralight', Seravek, 'Myriad Pro', 'Myriad Apple', 'Myriad Set Pro', Myriad, 'Myriad Set', 'OpenSans-Light', 'Open Sans Light', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-size: 30px;
 		font-weight: 300;
 		line-height: 42px;
@@ -189,7 +184,6 @@
 	section h2:hover {
 	}
 	section p {
-		font-family: 'Seravek-Light', 'Myriad Pro', 'Myriad Apple', 'Myriad Set Pro', Myriad, 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-size: 22px;
 		line-height: 38px;
 		color: #666;
@@ -218,17 +212,13 @@
 		border-radius: 4px;
 		overflow: hidden;
 	}
-	ul.matrix, ul.list {
+	ul.list {
 		background-color: #EEE;
 		box-shadow: inset rgba(0, 0, 0, 0.15) 0 3px 8px;
 	}
-	section ul.matrix {
-		width: 480px;
-		height: 480px;
-	}
 	section ul.list {
 		width: 400px;
-		background: #444 url(//joyneop.github.io/JN-Lab/other-images/paper-dark.png) center scroll repeat;
+		background: #444;
 		background-size: 100px;
 		box-shadow: inset rgba(0, 0, 0, 0.5) 0 3px 8px;
 	}
@@ -240,24 +230,21 @@
 		-moz-transition: padding 130ms ease 70ms, background 200ms ease;
 		transition: padding 130ms ease 70ms, background 200ms ease;
 	}
-	.matrix li {
-		float: left;
-		color: #666;
-		text-align: center;
-		width: 160px;
-		height: 160px;
-		margin: 0;
-	}
-	.matrix li img {
-		width: 100%;
-		height: 100%;
-	}
 	.list li {
 		text-align: left;
 		height: 30px;
-		padding: 12px 20px 9px;
-		background: rgba(64, 64, 64, 0.7) right no-repeat scroll;
+		padding: 16px 20px 9px;
+		background: linear-gradient(rgba(64, 64, 64, 0.7), rgba(0, 0, 0, 0.99)) right no-repeat scroll;
 		background-size: 1px 1px;
+		background-origin: border-box;
+		border-top: 1px solid rgba(255, 255, 255, 0.1333);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1333);
+	}
+	.list li:first-child {
+		border-top: 1px solid rgba(255, 255, 255, 0);
+	}
+	.list li:last-child {
+		border-bottom: 1px solid rgba(0, 0, 0, 0);
 	}
 	.list li a {
 		display: block;
@@ -266,19 +253,17 @@
 		text-decoration: none;
 	}
 	li.ok {
-		background: rgba(0, 0, 0, 0) right no-repeat scroll;
 	}
 	li.ok:hover {
 		padding-left: 40px;
 		background: rgba(80, 200, 60, 0.5) right no-repeat scroll;
-		background-image: url(//joyneop.github.io/JN-Lab/other-images/ok.png);
+		border-top: 1px solid rgba(255, 255, 255, 0.28333);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.52333);
 	}
 	li.no {
 		color: #777;
-		background: none;
 	}
 	.list li:hover {
-		background-size: 35px 22px;
 	}
 	ul.link {
 		width: 570px;
@@ -328,7 +313,7 @@
 		text-align: center;
 		padding: 20px 0;
 		margin: 20px 0 0 0;
-		background: #DDD url(//joyneop.github.io/JN-Lab/other-images/paper-light.png) center scroll repeat;
+		background: #F0F0F0;
 		background-size: 100px;
 		box-shadow: rgba(0, 0, 0, 0.65) 0 1px 8px;
 	}
@@ -389,24 +374,20 @@
 		<section id="hire">
 			<h2>Availability</h2>
 			<ul class="list">
-				<li class="ok">Summer/Winter internship</li>
-				<li class="no">Commercial work contract</li>
-				<li class="ok">Non-profit project</li>
-				<li class="no">Design Competition</li>
-				<li class="ok">Part-time work</li>
 				<li class="no">Full-time work</li>
-				<li class="no">Remote work</li>
+				<li class="ok">Part-time work</li>
+				<li class="ok">Non-profit project</li>
+				<li class="no">Art/Design Competition</li>
 			</ul>
 		</section>
 		<section id="business">
 			<h2>Business</h2>
 			<ul class="list">
-				<li class="ok"><a href="mailto:i@joyneop.com">Reserve long-term contract</a></li>
-				<li class="no">Place a single order</li>
-				<li class="ok"><a href="//500px.com/joyneop" target="_blank" rel="nofollow">Buy photo license</a></li>
-				<li class="ok"><a href="//500px.com/joyneop" target="_blank" rel="nofollow">Buy photo print</a></li>
+				<li class="ok"><a href="mailto:i@joyneop.com">Place a single order</a></li>
+				<li class="ok"><a href="mailto:i@joyneop.com">Consulting</a></li>
 				<li class="ok"><a href="mailto:i@joyneop.com">Non-profit invitation</a></li>
-				<li class="ok"><a href="mailto:i@joyneop.com">Hire as advisor</a></li>
+				<li class="ok"><a href="//500px.com/joyneop" target="_blank" rel="nofollow">Photo licenses</a></li>
+				<li class="ok"><a href="//500px.com/joyneop" target="_blank" rel="nofollow">Photo prints</a></li>
 			</ul>
 		</section>
 		<footer class="bonw">
