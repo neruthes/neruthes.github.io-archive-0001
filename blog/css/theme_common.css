@@ -1,4 +1,4 @@
-@import url(//joyneop.github.io/fonts/open-sans.css);
+@import url(//joyneop.github.io/fonts/seravek.css);
 
 body {
 	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
@@ -17,7 +17,7 @@ header.global h1, h2 {
 }
 
 h1 {
-	font-family: 'Seravek-Extralight', 'Seravek Extralight', Seravek-Extralight, Seravek, 'OpenSans-Light', 'Open Sans Light', 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	font-family: 'Seravek-ExtraLight', 'Seravek ExtraLight', Seravek-ExtraLight, Seravek, 'OpenSans-Light', 'Open Sans Light', 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 	font-weight: 300;
 	text-decoration: none;
 	padding: 20px 0 10px;
