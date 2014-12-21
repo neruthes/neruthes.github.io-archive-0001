@@ -106,15 +106,15 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post-text em:lang(en) {
-	font-family: 'Seravek-LightItalic', Seravek-LightItalic, Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	font-family: 'Seravek Light Italic', 'Seravek-LightItalic', Seravek-LightItalic, Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 }
 
 .post-text em:lang(ja) {
-	font-family: 'Seravek-LightItalic', Seravek-LightItalic, Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	font-family: 'Seravek Light Italic', 'Seravek-LightItalic', Seravek-LightItalic, Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 }
 
 .post-text em:lang(zh-Hant) {
-	font-family: 'Seravek-LightItalic', Seravek-LightItalic, Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
+	font-family: 'Seravek Light Italic', 'Seravek-LightItalic', Seravek-LightItalic, Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
 }
 
 p code {
