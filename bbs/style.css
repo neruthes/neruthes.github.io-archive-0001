@@ -1,7 +1,8 @@
-@import url(http://joyneop.github.io/fonts/open-sans.css);
+@import url(//joyneop.github.io/fonts/seravek.css);
 
 body {
-	font-family: 'Open Sans', Seravek, 'Helvetica Neue', Ubuntu, Arial, 'Hiragino Sans GB', sans-serif !important;
+	font-family: Seravek, 'Helvetica Neue', Ubuntu, Arial, 'Hiragino Sans GB', 'Heiti SC', 'Microsoft YaHei UI', 'Microsoft YaHei', sans-serif !important;
+	font-weight: 300;
 	padding: 0 !important;
 	margin: 0 !important;
 	background: #FAFAFA !important;

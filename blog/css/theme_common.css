@@ -12,13 +12,13 @@ header.global a {
 
 header.global h1, h2 {
 	color: #585858;
-	font-weight: 300;
+	font-weight: 200;
 	margin: 0;
 }
 
 h1 {
-	font-family: 'Seravek-ExtraLight', 'Seravek ExtraLight', Seravek-ExtraLight, Seravek, 'OpenSans-Light', 'Open Sans Light', 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
-	font-weight: 300;
+	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	font-weight: 200;
 	text-decoration: none;
 	padding: 20px 0 10px;
 }
@@ -55,7 +55,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post {
-	font-weight: 400;
+	/*font-weight: 300;*/
 	padding-top: 20px;
 	margin-bottom: 90px;
 	background: #FFF;
@@ -63,40 +63,32 @@ a:link, a:visited, a:hover, a:active {
 	box-shadow: rgba(0, 0, 0, 0.024322) 0 0 4px;
 }
 
-.post h2:lang(en), .post h3:lang(en) {
+.post:lang(en) {
 	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 }
 
-.post h2:lang(ja), .post h3:lang(ja) {
+.post:lang(ja) {
 	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 }
 
-.post h2:lang(zh-Hant), .post h3:lang(zh-Hant) {
+.post h2(zh-Hant) {
 	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
 }
 
-.post-text :lang(en) {
-	font-family: 'Seravek-Light', 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
-}
-
-.post-text :lang(ja) {
-	font-family: 'Seravek-Light', 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
-}
-
-.post-text :lang(zh-Hant) {
-	font-family: 'Seravek-Light', 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
-}
-
-.post > h2 {
+.post h2 {
 	font-size: 2.4em;
 	font-weight: 400;
 	color: #2B8CD2;
 	margin: 19px 0 22px;
 }
 
+.post-text {
+	font-weight: 300;
+}
+
 .post-text > h3 {
 	font-size: 1.15em;
-	font-weight: bold;
+	font-weight: 400;
 	margin: 19px 0 20px;
 }
 
@@ -106,19 +98,13 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post-text em:lang(en) {
-	font-family: 'Seravek Light Italic', 'Seravek-LightItalic', Seravek-LightItalic, Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
-}
-
-.post-text em:lang(ja) {
-	font-family: 'Seravek Light Italic', 'Seravek-LightItalic', Seravek-LightItalic, Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
-}
-
-.post-text em:lang(zh-Hant) {
-	font-family: 'Seravek Light Italic', 'Seravek-LightItalic', Seravek-LightItalic, Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
+	font-style: italic;
 }
 
 p code {
 	font-family: Menlo, Monaco, Osaka, monospace;
+	font-size: 0.875em;
+	font-weight: 200;
 	background: #F4F4F4;
 	border-radius: 3px;
 	padding: 0 3px;
@@ -174,11 +160,11 @@ p code {
 
 nav.prevandnext span a {
 	font-size: 2em;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 footer.global {
 	font-size: 1.4em;
-	font-weight: 300;
+	font-weight: 200;
 	text-align: center;
 }
