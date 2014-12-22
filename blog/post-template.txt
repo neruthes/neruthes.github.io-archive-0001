@@ -3,8 +3,9 @@
 
 
 
+# __neop.postTitle__
+
 Post #__neop.postId__ / Date: __neop.date__
-__neop.postTitle__
 
 
 __neop.postText__

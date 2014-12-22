@@ -14,13 +14,14 @@
 
 
 
-Post #113 / Date: November 14, 2014
-Private Concepts
+# Private Concepts
+
+Post #113 / Date: November 15, 2014
 
 
 The story came from a saying, "if you cannot describe something clearly with only a few words, you don't actually understand it".
-When I describe protons to somebody, he should know atoms in advance. When I describe the difference between <code>document.getElementBy</code> series and <code>document.querySelectorAll</code>, he should know HTML and JavaScript in advance. People must have all common knowledge before talk about something. In the examples above, I mentioned several concepts, and I say the concept <em>proton</em> depends on the concept <em>atom</em>. Later, we will talk about <em>flavor</em> and <em>color</em>, and these concepts depend on <em>quark</em>, which depends on <em>proton</em>. In such a context, if I talk about <em>flavor</em> and <em>color</em>, I should explain what <em>atom</em> is, and then explain what <em>proton</em> is, based on <em>atom</em> which I just explained. For this, I say <em>quark</em> is dependency of <em>flavor</em> and <em>color</em>, and <em>atom</em> and <em>proton</em> are recursive dependencies of <em>flavor</em> and <em>color</em>. To reach <em>flavor</em> and <em>color</em>, I should explain all of its recursive dependencies reversely recursively, if the other one in the conversation don't know them. I say there is a dependency tree.
-If I come up with a concept which hasn't been added into the public concept library, it is a <em>private concept</em>. Snow might be a private concept around polar zones out of tropical zones several thousands of years ago, for residents in tropical zones might have no chance to see snow. If I come up a concept whose dependencies includes at least one of my private concepts, it is a <em>recursive private concept</em>. I should recursively explain all my private concepts which are its dependencies, before explaining itself. Therefore the barriers in conversation may be resulted by others' lack in my private concepts, instead of my incomplete understanding.
+When I describe protons to somebody, he should know atoms in advance. When I describe the difference between <code>document.getElementBy</code> series and <code>document.querySelectorAll</code>, he should know HTML and JavaScript in advance. People must have all common knowledge before talking about something. In the examples above, I mentioned several concepts, and I say the concept <em>proton</em> depends on the concept <em>atom</em>. Later, we will talk about <em>flavor</em> and <em>color</em>, and these concepts depend on <em>quark</em>, which depends on <em>proton</em>. In such a context, if I talk about <em>flavor</em> and <em>color</em>, I should explain what <em>atom</em> is, and then explain what <em>proton</em> is, based on <em>atom</em> which I just explained. For this, I say <em>quark</em> is dependency of <em>flavor</em> and <em>color</em>, and <em>atom</em> and <em>proton</em> are recursive dependencies of <em>flavor</em> and <em>color</em>. To reach <em>flavor</em> and <em>color</em>, I should explain all of its recursive dependencies reversely recursively, if the other one in the conversation don't know them. I say there is a dependency tree.
+If I come up with a concept which hasn't been added into the public concept library, it is a <em>private concept</em>. Snow might be a private concept around polar zones out of tropical zones several thousands of years ago, for residents in tropical zones might have no chance to see snow. If I come up a concept whose dependencies include at least one of my private concepts, it is a <em>recursive private concept</em>. I should recursively explain all my private concepts which are its dependencies, before explaining itself. Therefore the barriers in conversation may be resulted by others' lack in my private concepts, instead of my incomplete understanding.
 
 
 
@@ -29,8 +30,9 @@ If I come up with a concept which hasn't been added into the public concept libr
 
 
 
+# At This Age
+
 Post #112 / Date: October 2, 2014
-At This Age
 
 
 從未預料到可以在 18 歲前遇見你。曾期許，曾渴望，但這真正來臨太過突然。突然到尚無準備。
@@ -46,8 +48,9 @@ At This Age
 
 
 
+# 時代の中へ
+
 Post #111 / Date: September 24, 2014
-時代の中へ
 
 
  Due to some reasons that could not be described clearly with only few words, I failed catching up the deadline of Fall 2014. So I have been working in Beijing for four months, from September 10, 2014 to January 10, 2015, and will leave for the United States in January 2015.
@@ -64,8 +67,9 @@ May the Force be with me.
 
 
 
+# My Homepage (Version 3)
+
 Post #110 / Date: September 6, 2014
-My Homepage (Version 3)
 
 
 <img src="./img/0000201409060001.jpg">
@@ -77,8 +81,9 @@ My Homepage (Version 3)
 
 
 
+# Avatar: Kyouratsu (XD)
+
 Post #109 / Date: August 27, 2014
-Avatar: Kyouratsu (XD)
 
 
 <img src="./img/0000201408270001.jpg">
@@ -90,8 +95,9 @@ Avatar: Kyouratsu (XD)
 
 
 
+# Woodstocky
+
 Post #108 / Date: July 30, 2014
-Woodstocky
 
 
 <img src="./img/0000201407300001.jpg">
@@ -103,8 +109,9 @@ Woodstocky
 
 
 
+# 青春路上
+
 Post #107 / Date: July 12, 2014
-青春路上
 
 
 <img src="./img/0000201407120001.jpg">
@@ -116,8 +123,9 @@ Post #107 / Date: July 12, 2014
 
 
 
+# Visionary
+
 Post #106 / Date: July 10, 2014
-Visionary
 
 
 <img src="./img/0000201407100001.jpg">
@@ -129,8 +137,9 @@ Visionary
 
 
 
+# Auromna
+
 Post #105 / Date: July 5, 2014
-Auromna
 
 
 <img src="./img/0000201407050001.jpg">
@@ -142,8 +151,9 @@ Auromna
 
 
 
+# Rainy Lily
+
 Post #104 / Date: June 25, 2014
-Rainy Lily
 
 
 <img src="./img/0000201406250001.jpg">
@@ -155,8 +165,9 @@ Rainy Lily
 
 
 
+# Pink Wall
+
 Post #103 / Date: June 24, 2014
-Pink Wall
 
 
 <img src="./img/0000201406240001.jpg">
@@ -168,8 +179,9 @@ Pink Wall
 
 
 
+# Freshness
+
 Post #102 / Date: June 24, 2014
-Freshness
 
 
 生命是有鮮度的。即使身體構造允許，也無法活數千年。在鮮度耗盡時，會開始厭倦活著。厭倦所擁有的生命。
@@ -188,8 +200,9 @@ Freshness
 
 
 
+# Mortality
+
 Post #101 / Date: April 25, 2014
-Mortality
 
 
 The contract with Mephisto enabled our ancients to evolve, by forcing them die. Death made livings to breed, thus many, but few among all, mutations were selected by the nature to be spread.
@@ -204,8 +217,9 @@ Sacrifice every individual's respective life, to redeem entire species' long liv
 
 
 
+# Way To 42
+
 Post #100 / Date: February 27, 2014
-Way To 42
 
 
 When I gaze at other designers' work, I find me less professional. When I read other programmers' codes, I find me less talented. But I do not have to compare me with them, for I seek much much more.
@@ -220,8 +234,9 @@ I may or may not be the best, but at least I can be unique. My value is the prod
 
 
 
+# Starting AP
+
 Post #99 / Date: February 11, 2014
-Starting AP
 
 
 To save money on education, I have decided to take AP tests to get credit redemption. So I arrived in Dalian and started to study for AP. Take a series of courses for AP Physics B and Calculus BC.
@@ -237,8 +252,9 @@ The location is quite convenient, because it is near to both Ealing and downtown
 
 
 
+# Avatar: Rose
+
 Post #98 / Date: February 6, 2014
-Avatar: Rose
 
 
 <img src="./img/0000201402060002.jpg">
@@ -251,8 +267,9 @@ Avatar: Rose
 
 
 
+# Rose
+
 Post #97 / Date: February 6, 2014
-Rose
 
 
 <img src="./img/0000201402060001.jpg">
@@ -264,8 +281,9 @@ Rose
 
 
 
+# Avatar: Chinese New Year
+
 Post #96 / Date: January 28, 2014
-Avatar: Chinese New Year
 
 
 <img src="./img/0000201401280001.jpg">
@@ -277,8 +295,9 @@ Avatar: Chinese New Year
 
 
 
+# Macintosh, Thank You
+
 Post #95 / Date: January 24, 2014
-Macintosh, Thank You
 
 
 30 years have passed since Steve Jobs introduced Macintosh to the world, and so far both Macintosh and Apple have been greatly appreciated around the world. Especially, I have benefited considerably from Macintosh, Apple, and Steve Jobs.
@@ -294,8 +313,9 @@ An essential encounter, in not only my life, but also this era.
 
 
 
+# Happy New Year 2014
+
 Post #94 / Date: January 1, 2014
-Happy New Year 2014
 
 
 <img src="./img/0000201401010001.jpg">
@@ -307,8 +327,9 @@ Happy New Year 2014
 
 
 
+# My Christmas Homepage
+
 Post #93 / Date: December 24, 2013
-My Christmas Homepage
 
 
 <img src="./img/0000201312240003.jpg">
@@ -320,8 +341,9 @@ My Christmas Homepage
 
 
 
+# Avatar: Christmas
+
 Post #92 / Date: December 24, 2013
-Avatar: Christmas
 
 
 <img src="./img/0000201312240002.jpg">
@@ -333,8 +355,9 @@ Avatar: Christmas
 
 
 
+# BBS Signature Line: iOS 7 (Version 2)
+
 Post #91 / Date: December 24, 2013
-BBS Signature Line: iOS 7 (Version 2)
 
 
 <img src="./img/0000201312240001.jpg">
@@ -346,8 +369,9 @@ BBS Signature Line: iOS 7 (Version 2)
 
 
 
+# Milestone
+
 Post #90 / Date: December 16, 2013
-Milestone
 
 
 After having taken my first IELTS test, I came back to Liaoyang yesterday.
@@ -364,8 +388,9 @@ The winter has come, but my future is still covered my mist.
 
 
 
+# BBS Signature Line: iOS 7
+
 Post #89 / Date: November 16, 2013
-BBS Signature Line: iOS 7
 
 
 <img src="./img/0000201311160001.jpg">
@@ -377,8 +402,9 @@ BBS Signature Line: iOS 7
 
 
 
+# Prometheus
+
 Post #88 / Date: November 9, 2013
-Prometheus
 
 
 Perhaps I will fail my dream? But I decide not to give up. Perhaps my hard work will be proved useless? But I decide not to betray.
@@ -394,8 +420,9 @@ I must and will try my best to make my ding in the universe, for not only myself
 
 
 
+# Lonely Leaf
+
 Post #87 / Date: November 9, 2013
-Lonely Leaf
 
 
 <img src="./img/0000201311090001.jpg">
@@ -407,8 +434,9 @@ Lonely Leaf
 
 
 
+# Homepage for Somainer
+
 Post #86 / Date: November 3, 2013
-Homepage for Somainer
 
 
 <img src="./img/0000201311030002.jpg">
@@ -420,8 +448,9 @@ Homepage for Somainer
 
 
 
+# Leaves Horizon
+
 Post #85 / Date: November 3, 2013
-Leaves Horizon
 
 
 <img src="./img/0000201311030001.jpg">
@@ -433,8 +462,9 @@ Leaves Horizon
 
 
 
+# Icon for iBooks (Mac)
+
 Post #84 / Date: October 25, 2013
-Icon for iBooks (Mac)
 
 
 <img src="./img/0000201310250001.jpg">
@@ -446,8 +476,9 @@ Icon for iBooks (Mac)
 
 
 
+# The Second Day
+
 Post #83 / Date: October 16, 2013
-The Second Day
 
 
 This morning I got my report of the pretest, which shows that my ability is fine and I can get 5.0 after these courses, and I have a high possibility to get 5.5 as well.
@@ -462,8 +493,9 @@ I understand the future is coming.
 
 
 
+# Arrival
+
 Post #82 / Date: October 14, 2013
-Arrival
 
 
 Today, I have arrived in Shenyang. In the following two months, I will take a 160-hour English course for the IELTS. After having considered the situation, I finally decided to prepare for the IELTS rather than for the TOEFL.
@@ -480,8 +512,9 @@ Several years later, today will be considered as my most essential day in 2013, 
 
 
 
+# Poster Template for Hackers Community in High Schools
+
 Post #81 / Date: September 29, 2013
-Poster Template for Hackers Community in High Schools
 
 
 <img src="./img/0000201309290001.jpg">
@@ -493,8 +526,9 @@ Poster Template for Hackers Community in High Schools
 
 
 
+# 君と生きた 日々のすべて
+
 Post #80 / Date: September 2, 2013
-君と生きた 日々のすべて
 
 
 再過些天就是我的 18 歲生日了，想到這事不免一陣感慨。
@@ -511,8 +545,9 @@ Post #80 / Date: September 2, 2013
 
 
 
+# My Homepage (Version 2)
+
 Post #79 / Date: September 2, 2013
-My Homepage (Version 2)
 
 
 <img src="./img/0000201309020001.jpg">
@@ -524,8 +559,9 @@ My Homepage (Version 2)
 
 
 
+# Live On The Internet
+
 Post #78 / Date: August 29, 2013
-Live On The Internet
 
 
 I used to be separated from the Internet. I used to be offline. I used to sorrow about graduating from middle school and scattering from classmates. Yet, nowadays, I have found that I will not worry about same things of secondary school. For I live on the Internet more than live in local.
@@ -541,8 +577,9 @@ I live on the Internet. Virtual but real, abstract but exact, dramatical but rat
 
 
 
+# 開學
+
 Post #77 / Date: August 28, 2013
-開學
 
 
 這個情緒的波峰於波谷處於疊加態的時刻，終於還是到來了。陰沈的天空，也在映襯著或預兆著某些未知。
@@ -556,8 +593,9 @@ Post #77 / Date: August 28, 2013
 
 
 
+# 高三
+
 Post #76 / Date: August 25, 2013
-高三
 
 
 翻閱起從前的文章，才發覺竟有數月未曾使用中文寫作了。這個夏天留下的文字也出奇地少，便提起筆來，矯情一番罷。
@@ -572,8 +610,9 @@ Post #76 / Date: August 25, 2013
 
 
 
+# Neop.me (Version 1)
+
 Post #75 / Date: August 1, 2013
-Neop.me (Version 1)
 
 
 <img src="./img/0000201308010001.jpg">
@@ -585,8 +624,9 @@ Neop.me (Version 1)
 
 
 
+# BBS Signature Line: JN (Version 2)
+
 Post #74 / Date: July 25, 2013
-BBS Signature Line: JN (Version 2)
 
 
 <img src="./img/0000201307250003.jpg">
@@ -598,8 +638,9 @@ BBS Signature Line: JN (Version 2)
 
 
 
+# Avatar: Glow
+
 Post #73 / Date: July 25, 2013
-Avatar: Glow
 
 
 <img src="./img/0000201307250002.jpg">
@@ -611,8 +652,9 @@ Avatar: Glow
 
 
 
+# Glow
+
 Post #72 / Date: July 25, 2013
-Glow
 
 
 <img src="./img/0000201307250001.jpg">
@@ -624,8 +666,9 @@ Glow
 
 
 
+# Betrayer
+
 Post #71 / Date: July 7, 2013
-Betrayer
 
 
 After the incredibly huge wave of discussion about iOS 7's changes on GUI, people eventually take another breath to care about OS X Mavericks. From the public introduction and preview of it, The trend of flat design has also appeared on OS X. The background tile images of Notification Center, Dashboard, and Launchpad folders, have got replaced, or disappeared. OS X is going to be flatter.
@@ -643,8 +686,9 @@ When we are decided to betray, I stand out and fight for our faith.
 
 
 
+# 吾之幸，吾之痛
+
 Post #70 / Date: July 7, 2013
-吾之幸，吾之痛
 
 
 從可考證的歷史來看，我的發情週期大約是半年。平均每隔大約半年，我就會放棄之前的追求，另有新歡。跳出其中，置身事外，反思時便會意識到大多只是被其萌點所誘惑。但是，你不一樣。
@@ -659,8 +703,9 @@ Post #70 / Date: July 7, 2013
 
 
 
+# BBS Signature Line: NeXT
+
 Post #69 / Date: July 7, 2013
-BBS Signature Line: NeXT
 
 
 <img src="./img/0000201307070001.jpg">
@@ -672,8 +717,9 @@ BBS Signature Line: NeXT
 
 
 
+# 沈重的榮幸
+
 Post #68 / Date: June 30, 2013
-沈重的榮幸
 
 
 我對空無一物的虛無低語，你卻接過話題，讓我原本無意義的話語有意義。恰恰這份榮幸，令我感到沈重。或許這也是獨立性的一個體現吧。你的關心，你的親切，被我當作「不是我應得的榮幸」。
@@ -686,8 +732,9 @@ Post #68 / Date: June 30, 2013
 
 
 
+# Mini White
+
 Post #67 / Date: June 30, 2013
-Mini White
 
 
 <img src="./img/0000201306300002.jpg">
@@ -699,8 +746,9 @@ Mini White
 
 
 
+# Sunset
+
 Post #66 / Date: June 30, 2013
-Sunset
 
 
 <img src="./img/0000201306300001.jpg">
@@ -712,8 +760,9 @@ Sunset
 
 
 
+# Kindling Even
+
 Post #65 / Date: June 29, 2013
-Kindling Even
 
 
 Just uncovered splendid tours
@@ -730,8 +779,9 @@ Yoke on kindling even
 
 
 
+# Next NeXT
+
 Post #64 / Date: June 29, 2013
-Next NeXT
 
 
 I've watched WWDC 2013 Keynote, and found iOS 7 terrible, and found my being betrayed. Apple will no longer hold on its spirit, and the loss can hardly be repaired. I used to believe that I love Apple, but recently I learned that I love a team consist of Steve Jobs, Scott Forstall, and Jonathan Ive.
@@ -747,8 +797,9 @@ I am looking forward to next NeXT.
 
 
 
+# Hand In Hand
+
 Post #63 / Date: June 29, 2013
-Hand In Hand
 
 
 I wanna hold your hand
@@ -773,8 +824,9 @@ And soul across soul
 
 
 
+# Such Looooooooooong A Week Eventually Gone
+
 Post #62 / Date: June 10, 2013
-Such Looooooooooong A Week Eventually Gone
 
 
 The dance show in Jun 2, 2013 was successful and Muhuan Lee got famous among grade 10 students. The only pity was that my posters weren't printed and presented in front of all people in school.
@@ -788,8 +840,9 @@ Then in the following three days' break, maybe I will read the biography of Stev
 
 
 
+# Corner Flower
+
 Post #61 / Date: June 9, 2013
-Corner Flower
 
 
 <img src="./img/0000201306090001.jpg">
@@ -801,8 +854,9 @@ Corner Flower
 
 
 
+# Such Deep A Whole I Jumped
+
 Post #60 / Date: May 17, 2013
-Such Deep A Whole I Jumped
 
 
 Under Miserdux's invitation, I have joined the dance club of our school and get started to work as a music master in a break dance project, whose leader is Miserdux. My job is casting and cutting music for tho dance, supposed to be suitable, regardless how far changed.
@@ -819,8 +873,9 @@ Maybe I really should work more than a music master.
 
 
 
+# Bypassed Spring
+
 Post #59 / Date: May 17, 2013
-Bypassed Spring
 
 
 Before realizing Spring's stepping near, Summer has come. North East China is such strange an area that few people understand the real concept of Spring. Anyway I don't think I would like to consider the waves of temperature's increasing in early May as Spring's gift.
@@ -835,8 +890,9 @@ Anyway I can only advance as far as possible.
 
 
 
+# Silent Walk
+
 Post #58 / Date: May 12, 2013
-Silent Walk
 
 
 As expected, the mid-semester exam has done. I have risen by 61 ranks, to the 580th out of about 780 science students in grade 11.
@@ -851,8 +907,9 @@ Despite memorizable experiences above, these weeks were still not significative.
 
 
 
+# Approaching Destination Of Current Life
+
 Post #57 / Date: April 27, 2013
-Approaching Destination Of Current Life
 
 
 After these unremarkable and worthless days, a piece of news about mid-semester exam was published today afternoon. And months later this semester will draw to its end, in the way how semesters did in history. So far I haven't started a new state of working, or picked up my lost energies yet, thus no good grade will be gained in foreseeable future.
@@ -868,8 +925,9 @@ A blurry shape of vista is forged. It's increasingly clear, and is stepping clos
 
 
 
+# My Homepage (Version 1)
+
 Post #56 / Date: April 20, 2013
-My Homepage (Version 1)
 
 
 <img src="./img/0000201304200001.jpg">
@@ -881,8 +939,9 @@ My Homepage (Version 1)
 
 
 
+# [ Untitied Post ]
+
 Post #55 / Date: April 14, 2013
-[ Untitied Post ]
 
 
 There are mass ways to consider the world, and I choose one conclusion to believe.
@@ -894,8 +953,9 @@ There are mass ways to consider the world, and I choose one conclusion to believ
 
 
 
+# 風聲
+
 Post #54 / Date: April 2, 2013
-風聲
 
 
 夜風的聲音吹散這寧靜
@@ -910,8 +970,9 @@ Post #54 / Date: April 2, 2013
 
 
 
+# 春之初雨
+
 Post #53 / Date: April 1, 2013
-春之初雨
 
 
 春之初雨
@@ -930,8 +991,9 @@ Post #53 / Date: April 1, 2013
 
 
 
+# So Fast
+
 Post #52 / Date: Mar 27, 2013
-So Fast
 
 
 Two years' time have passed so fast, therefore, previous visions are still floating over my sight, but only several single static frames have remained.
@@ -948,8 +1010,9 @@ Again, sink into memories.
 
 
 
+# Chaotic Wind
+
 Post #51 / Date: Mar 19, 2013
-Chaotic Wind
 
 
 Once the Spring approaches, but the temperature fluctuates rulelessly. The wind blows, blows, and blows. Different strengths, different directions, different temperatures, and different senses. With the twilight floating and sinking, with the stars blinking and hiding, various emotions in the wind were filling my mind.
@@ -963,8 +1026,9 @@ There was something, really chaotic.
 
 
 
+# White
+
 Post #50 / Date: Mar 12, 2013
-White
 
 
 Again, snow droped. But, differently, this time, sky was clear. However the color is, snow was always similar, though I get various emotions from snow. And the secrets inside, were buried in snow.
@@ -980,8 +1044,9 @@ My lover is null. My love is blank. My heart is vacant. My anxiety is hollow. My
 
 
 
+# Ended Love &amp; Remaining Desire
+
 Post #49 / Date: Mar 3, 2013
-Ended Love &amp; Remaining Desire
 
 
 從我放棄擁有你的願望開始算起，15 個月於經過去了。載著殘餘的執念，我寫過「風蕭蕭兮雨瑟瑟」、「落葉堆成你的名字」、「深秋之戀」、「這就是關於我和你的悲劇了吧」。
@@ -995,8 +1060,9 @@ Ended Love &amp; Remaining Desire
 
 
 
+# Snow And Memories
+
 Post #48 / Date: February 28, 2013
-Snow And Memories
 
 
 Wind blows and snow flows. Dirty sky, tinted by clouds.
@@ -1011,8 +1077,9 @@ I haven't escaped from the shadows yet.
 
 
 
+# Far, Further, Future
+
 Post #47 / Date: February 25, 2013
-Far, Further, Future
 
 
 地球的半徑是 6371 千米，我的身高是 1.8 米。根據三角函數可以算出我與地平線的距離。這個數值，即是我能看到的路的最遠點。
@@ -1027,8 +1094,9 @@ Far, Further, Future
 
 
 
+# BBS Signature Line: JN
+
 Post #46 / Date: February 15, 2013
-BBS Signature Line: JN
 
 
 <img src="./img/0000201302150002.jpg">
@@ -1040,8 +1108,9 @@ BBS Signature Line: JN
 
 
 
+# Avatar: Slate
+
 Post #45 / Date: February 15, 2013
-Avatar: Slate
 
 
 <img src="./img/0000201302150001.jpg">
@@ -1053,8 +1122,9 @@ Avatar: Slate
 
 
 
+# Spring Festival 2013
+
 Post #44 / Date: February 10, 2013
-Spring Festival 2013
 
 
 中華文化的傳統節日，在大中華文化圈乃至全人類社會影響力最大的，應當就是春節了吧。春節時，無論身在何方，中國，臺灣，新加坡，USA，擁有中華血脈的民眾，或只是日本、越南這類「亞洲」遠親，大多數都會享受這個深有歷史的節日吧。我也是如此，無論未來身在何方、心在何方，都會視春節為重要的節日。這就是文化的烙印。
@@ -1073,8 +1143,9 @@ Spring Festival 2013
 
 
 
+# [ Untitied Post ]
+
 Post #43 / Date: February 4, 2013
-[ Untitied Post ]
 
 
 今天凌晨，又是一場雪。深夜裡雪花飄落，蒼穹也映著微光。
@@ -1086,8 +1157,9 @@ Post #43 / Date: February 4, 2013
 
 
 
+# [ Untitied Post ]
+
 Post #42 / Date: January 23, 2013
-[ Untitied Post ]
 
 
 選擇順從的人，被剝削得一乾二淨。選擇沉默的人，助長了敵人的士氣。選擇反抗的人，螳臂當車無人後繼。選擇離開的人，不再是曾經的同胞。
@@ -1099,8 +1171,9 @@ Post #42 / Date: January 23, 2013
 
 
 
+# 深秋之戀
+
 Post #41 / Date: December 31, 2012
-深秋之戀
 
 
 青石街邊 昏黃孤燈幾盞
@@ -1132,8 +1205,9 @@ Post #41 / Date: December 31, 2012
 
 
 
+# Escape
+
 Post #40 / Date: December 15, 2012
-Escape
 
 
 很久很久以前，那時我對世界知之甚少。
@@ -1159,8 +1233,9 @@ Escape
 
 
 
+# 這就是關於你和我的悲劇了吧
+
 Post #39 / Date: December 14, 2012
-這就是關於你和我的悲劇了吧
 
 
 你問我，我有什麼新作品，我給了你我的博客的「詩歌」標籤的網址，卻沒有告訴你，數量如此稀少，質量也大不如前。
@@ -1177,8 +1252,9 @@ Post #39 / Date: December 14, 2012
 
 
 
+# [ Untitied Post ]
+
 Post #38 / Date: December 10, 2012
-[ Untitied Post ]
 
 
 近一年了，我一直無法停止關注你。在近處，悄悄地，關注有關你的一切，卻不知道原因。於是，我用匿名帳戶加了你的 QQ，試圖找到答案。與我的預感相同，在我解釋那個匿名帳戶的用途和意義的過程中，你已經猜到是我。我們太過相似。興趣的分布，靈感的形式，持有的價值，追求的夢想，看世界的角度，對人生的觀念，無一不存在著巨大的重疊。或許，這就是答案了吧。我知道與你討論研究這個問題的可能性很渺茫，所以我得到這個答案就已足夠。
@@ -1190,8 +1266,9 @@ Post #38 / Date: December 10, 2012
 
 
 
+# Just Obey Yourself
+
 Post #37 / Date: December 7, 2012
-Just Obey Yourself
 
 
 If you feel tired
@@ -1223,8 +1300,9 @@ Be what you want to be
 
 
 
+# 寒冬
+
 Post #36 / Date: December 7, 2012
-寒冬
 
 
 急劇下降的氣溫，宣告著冬的降臨。在感恩節前後的雪給過預示後，終於來了。
@@ -1246,8 +1324,9 @@ Post #36 / Date: December 7, 2012
 
 
 
+# 鎮魂曲
+
 Post #35 / Date: November 24, 2012
-鎮魂曲
 
 
 穿透過烏雲 餘暉籠罩這片墓地
@@ -1318,8 +1397,9 @@ Post #35 / Date: November 24, 2012
 
 
 
+# 澄んだ水の中へ
+
 Post #34 / Date: November 17, 2012
-澄んだ水の中へ
 
 
 深秋的雪，熟悉的感覺。
@@ -1339,8 +1419,9 @@ Post #34 / Date: November 17, 2012
 
 
 
+# [ Untitied Post ]
+
 Post #33 / Date: November 10, 2012
-[ Untitied Post ]
 
 
 <img src="./img/0000201211100001.jpg">
@@ -1356,8 +1437,9 @@ Post #33 / Date: November 10, 2012
 
 
 
+# Avatar: B&W (Version 2)
+
 Post #32 / Date: November 9, 2012
-Avatar: B&W (Version 2)
 
 
 <img src="./img/0000201211090001.jpg">
@@ -1369,8 +1451,9 @@ Avatar: B&W (Version 2)
 
 
 
+# [ Untitied Post ]
+
 Post #31 / Date: November 6, 2012
-[ Untitied Post ]
 
 
 雨若是無盡的悲涼，雪便是悲涼凝結成的滄桑。漆黑的夜幕下，路燈的微光，映襯著漫天飛舞的雪。
@@ -1384,8 +1467,9 @@ Post #31 / Date: November 6, 2012
 
 
 
+# iPad Wallpaper: Colorful Apple Logo
+
 Post #30 / Date: November 4, 2012
-iPad Wallpaper: Colorful Apple Logo
 
 
 <img src="./img/0000201211040001.jpg">
@@ -1397,8 +1481,9 @@ iPad Wallpaper: Colorful Apple Logo
 
 
 
+# Insignificative
+
 Post #29 / Date: October 31, 2012
-Insignificative
 
 
 這世界誰都不乾淨。我不期望別人多高尚多願意接受我，我也不想要我有多高尚多寬容。如果注定一生無產階級，那麼何不嘗試唯一的救贖之路?在美國被歧視、被剝削、被踐踏，也好過在中華人民共和國每時每刻生存在永無止境的恐怖與不安中。
@@ -1412,8 +1497,9 @@ Insignificative
 
 
 
+# BBS Signature Line: Thought Different
+
 Post #28 / Date: October 19, 2012
-BBS Signature Line: Thought Different
 
 
 <img src="./img/0000201210190001.jpg">
@@ -1425,8 +1511,9 @@ BBS Signature Line: Thought Different
 
 
 
+# BBS Signature Line: Think Different
+
 Post #27 / Date: October 2, 2012
-BBS Signature Line: Think Different
 
 
 <img src="./img/0000201210020001.jpg">
@@ -1438,8 +1525,9 @@ BBS Signature Line: Think Different
 
 
 
+# 秋夜靜思
+
 Post #26 / Date: September 24, 2012
-秋夜靜思
 
 
 淡淡星光，難辨獵戶北斗。
@@ -1458,8 +1546,9 @@ Post #26 / Date: September 24, 2012
 
 
 
+# 落葉堆成你的名字
+
 Post #25 / Date: September 22, 2012
-落葉堆成你的名字
 
 
 <h3>1</h3>
@@ -1497,8 +1586,9 @@ Post #25 / Date: September 22, 2012
 
 
 
+# 單程
+
 Post #24 / Date: September 14, 2012
-單程
 
 
 昨天的晚自習，休息的課間在樓外散步，無意中注意到了路燈的光。
@@ -1515,8 +1605,9 @@ Post #24 / Date: September 14, 2012
 
 
 
+# 命の意味
+
 Post #23 / Date: September 8, 2012
-命の意味
 
 
 很久以來我一直在探尋生命的意義。
@@ -1536,8 +1627,9 @@ Post #23 / Date: September 8, 2012
 
 
 
+# 物不再是，人也已非
+
 Post #22 / Date: September 7, 2012
-物不再是，人也已非
 
 
 原來晴天也會引起回憶。
@@ -1562,8 +1654,9 @@ Post #22 / Date: September 7, 2012
 
 
 
+# 秋雨
+
 Post #21 / Date: September 4, 2012
-秋雨
 
 
 很久沒有如此細細品味初秋的雨了。
@@ -1593,8 +1686,9 @@ Post #21 / Date: September 4, 2012
 
 
 
+# Flower Sketch
+
 Post #20 / Date: August 30, 2012
-Flower Sketch
 
 
 <img src="./img/0000201208300001.jpg">
@@ -1606,8 +1700,9 @@ Flower Sketch
 
 
 
+# 希望
+
 Post #19 / Date: August 30, 2012
-希望
 
 
 一個夏天的時間，足夠思考許多問題了。
@@ -1630,8 +1725,9 @@ Post #19 / Date: August 30, 2012
 
 
 
+# [ Untitied Post ]
+
 Post #18 / Date: August 28, 2012
-[ Untitied Post ]
 
 
 風卷來驟雨，傾瀉著，潮溼了夜幕。又一個夏天化作指尖下的文字，漂泊在網絡上了。細數一番，我生命中的第 17 個夏天已經悄然離去。隨著歲月，隨著熵增，慢慢成長，緩緩凋零。
@@ -1643,8 +1739,9 @@ Post #18 / Date: August 28, 2012
 
 
 
+# Avatar: B&W
+
 Post #17 / Date: August 27, 2012
-Avatar: B&W
 
 
 <img src="./img/0000201208270001.jpg">
@@ -1656,8 +1753,9 @@ Avatar: B&W
 
 
 
+# [ Untitied Post ]
+
 Post #16 / Date: August 24, 2012
-[ Untitied Post ]
 
 
 <img src="./img/0000201208240001.jpg">
@@ -1669,8 +1767,9 @@ Post #16 / Date: August 24, 2012
 
 
 
+# 雨落淺池
+
 Post #15 / Date: August 23, 2012
-雨落淺池
 
 
 葉落滿地 紛飛了記憶
@@ -1701,8 +1800,9 @@ Post #15 / Date: August 23, 2012
 
 
 
+# [ Untitied Post ]
+
 Post #14 / Date: August 23, 2012
-[ Untitied Post ]
 
 
 <img src="./img/0000201208230001.jpg">
@@ -1714,8 +1814,9 @@ Post #14 / Date: August 23, 2012
 
 
 
+# 三年
+
 Post #13 / Date: July 14, 2012
-三年
 
 
 仰望頭頂澄澈的藍天
@@ -1774,8 +1875,9 @@ Post #13 / Date: July 14, 2012
 
 
 
+# 風，會指引你睡覺的方向
+
 Post #12 / Date: July 14, 2012
-風，會指引你睡覺的方向
 
 
 <h3>猶記得那年我們都還很年幼</h3>
@@ -1807,8 +1909,9 @@ Post #12 / Date: July 14, 2012
 
 
 
+# Forever
+
 Post #11 / Date: July 6, 2012
-Forever
 
 
 筆記本扉頁的一行字
@@ -1841,8 +1944,9 @@ Forever
 
 
 
+# 永遠的懷念
+
 Post #10 / Date: June 28, 2012
-永遠的懷念
 
 
 繁華的群星，繁華了三年的回憶。昏黃的路燈，昏黃了你我的面容。
@@ -1864,8 +1968,9 @@ Post #10 / Date: June 28, 2012
 
 
 
+# 夜風微涼
+
 Post #9 / Date: June 17, 2012
-夜風微涼
 
 
 初夏的夜風微涼。
@@ -1881,8 +1986,9 @@ Post #9 / Date: June 17, 2012
 
 
 
+# [ Untitied Post ]
+
 Post #8 / Date: June 1, 2012
-[ Untitied Post ]
 
 
 月末，又是一年中考時。2011 年這段時間，我初三生活的終章，是我最充實最快樂的時光。如今，那些回憶早已遠去。新生活還是要來的。歲月的變遷，歷史的車輪。只能期望，新生活會更加美好。
@@ -1894,8 +2000,9 @@ Post #8 / Date: June 1, 2012
 
 
 
+# 在黑暗的深淵中走向不可預知的未來
+
 Post #7 / Date: May 20, 2012
-在黑暗的深淵中走向不可預知的未來
 
 
 年少的時光，太過短暫。三年的夢與希望，愛與幻想，都會化作未來的回憶。當青春只剩下筆尖下的墨跡，當年華變成為細雨中的淚滴，一切都已遠去。
@@ -1912,8 +2019,9 @@ Post #7 / Date: May 20, 2012
 
 
 
+# [ Untitied Post ]
+
 Post #6 / Date: May 3, 2012
-[ Untitied Post ]
 
 
 每到夏天，我都會想起 2008 年的那個夏天。就像個夢魘在我腦中遊蕩，揮之不去。已經過去近 4 年了，那些珍貴的回憶也已經遺失殆盡，但那種傷痛依稀可辨。熵增，最終會讓一切歸於熱寂。
@@ -1925,8 +2033,9 @@ Post #6 / Date: May 3, 2012
 
 
 
+# Life &amp; Death
+
 Post #5 / Date: April 27, 2012
-Life &amp; Death
 
 
 <blockquote>「我從未體會過死亡，將來也不會。」——<cite>Tassadar</cite></blockquote>
@@ -1945,8 +2054,9 @@ Tassadar 的犧牲，並不是真正的「死亡」，而是「飛升」。Tassa
 
 
 
+# 辰冥决•觀星記
+
 Post #4 / Date: April 26, 2012
-辰冥决•觀星記
 
 
 仲春觀星，慘淡月色冷無情。如若堅冰，濁空明，一盞離愁映樹影。黑雲穿行，何日破曉晴?
@@ -1959,8 +2069,9 @@ Post #4 / Date: April 26, 2012
 
 
 
+# 風瑟瑟兮雨瀟瀟
+
 Post #3 / Date: April 25, 2012
-風瑟瑟兮雨瀟瀟
 
 
 又是一個雨天。
@@ -1978,8 +2089,9 @@ Post #3 / Date: April 25, 2012
 
 
 
+# Earth Day 2012
+
 Post #2 / Date: April 22, 2012
-Earth Day 2012
 
 
 多年前，我們預料的，是無盡的傳承，還是終章的沈淪?
@@ -1999,8 +2111,9 @@ The heaven is falling down!
 
 
 
+# 春色初綻
+
 Post #1 / Date: April 12, 2012
-春色初綻
 
 
 今天，青年街旁的桃花綻放了。暮光中，繼續粉嫩點綴在街頭。
@@ -2016,8 +2129,9 @@ Post #1 / Date: April 12, 2012
 
 
 
+# Hello World!
+
 Post #0 / Date: April 5, 2012
-Hello World!
 
 
 
