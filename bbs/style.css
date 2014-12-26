@@ -10,8 +10,8 @@ body {
 
 .m-header {
 	color: #FFF !important;
-	background: #333 linear-gradient(#595959, #141414) !important;
-	box-shadow: rgba(0, 0, 0, 0.55) 0 -1px 3px 1px !important;
+	background: #333 linear-gradient(#444, #222) !important;
+	box-shadow: rgba(0, 0, 0, 0.35) 0 0 3px 0 !important;
 }
 
 .m-navi > a {
