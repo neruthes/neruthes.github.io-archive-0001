@@ -9,8 +9,8 @@
 	<style type="text/css">
 	@import url(//joyneop.github.io/fonts/seravek.css);
 	body {
-		font-family: 'Avenir Next', Avenir, Seravek, Futura, Verdana, 'Helvetica Neue', Helvetica, Arial, Ubuntu, 'Hiragino Kaku Gothic Pro', sans-serif;
-		font-weight: normal;
+		font-family: Seravek, Futura, Verdana, 'Helvetica Neue', Helvetica, Arial, Ubuntu, 'Hiragino Kaku Gothic Pro', sans-serif;
+		font-weight: 400;
 		font-size: 16px;
 		padding: 0;
 		margin: 0;
@@ -18,16 +18,15 @@
 	header {
 		max-height: 220px;
 		font-size: 2.4em;
-		font-weight: normal;
+		font-weight: 500;
 		color: rgba(255, 255, 255, 0.94);
 		line-height: 1.2em;
 		text-transform: uppercase;
 		text-shadow: rgba(176, 128, 48, 0.75) 0 1px 0px;
 		padding: 0;
-		margin: 0 0 25px;
+		margin: 0;
 		background: #FE8A2A;
 		background-image: linear-gradient(#FF8C2C, #F08222);
-		box-shadow: rgba(0, 0, 0, 0.18) 0 0 4px;
 		overflow: hidden;
 	}
 	header a {
@@ -39,13 +38,13 @@
 	}
 	header h1 {
 		font-size: 1em;
-		font-weight: normal;
+		font-weight: 500;
 		letter-spacing: 10px;
 		margin: 0 0 10px 0;
 	}
 	header h2 {
 		font-size: 0.46em;
-		font-weight: normal;
+		font-weight: 500;
 		color: #F2F2F2;
 		letter-spacing: 7px;
 		margin: 0 0 10px 0;
@@ -92,6 +91,10 @@
 			box-sizing: border-box;
 		}
 	}
+	.grand-cont {
+		background: #FFF;
+		box-shadow: rgba(0, 0, 0, 0.4) 0 0 4px;
+	}
 	ol, li {
 		display: block;
 		overflow: auto;
@@ -110,7 +113,7 @@
 		line-height: 30px;
 		padding: 20px 0;
 		margin: 0 auto;
-		border-radius: 8px;
+		border-radius: 4px;
 		box-sizing: border-box;
 		-webkit-transition: all 100ms ease;
 		-moz-transition: all 100ms ease;
@@ -119,8 +122,7 @@
 	li:hover a {
 		color: #FFF;
 		background: #FF8C2C;
-		/*background-image: linear-gradient(#FF8C2C, #F38724);*/
-		box-shadow: rgba(0, 0, 0, 0.18) 0 0 4px inset;
+		box-shadow: rgba(0, 0, 0, 0.22) 0 1px 3px inset;
 	}
 	li img {
 		display: block;
@@ -128,12 +130,14 @@
 		height: 90px;
 		margin: 0 auto;
 		background: #DDD;
-		border: 4px solid #CCC;
 		border-radius: 8px;
+		border-radius: 800px;
 		overflow: hidden;
 	}
+	li:hover img {
+		box-shadow: rgba(0, 0, 0, 0.22) 0 1px 3px;
+	}
 	p {
-		font-family: 'Avenir Next', Avenir, Futura, Verdana, 'Helvetica Neue', Helvetica, Arial, Ubuntu, 'Hiragino Kaku Gothic Pro', sans-serif;
 		max-width: 580px;
 		font-size: 1.1em;
 		color: #666;
@@ -141,28 +145,38 @@
 		line-height: 1.75em;
 		margin: 1.1em auto;
 	}
+	.moji {
+		color: #FE8A2A;
+		padding-left: 1em;
+	}
 	footer {
 		font-size: 14px;
-		font-weight: 400;
+		font-weight: 300;
 		color: #888;
 		line-height: 20px;
 		text-align: center;
-		padding: 50px 0 0;
-		margin: 20px 0 0;
+		padding: 0;
+		margin: 0;
 	}
 	footer .contact {
-		font-family: 'Avenir Next', Avenir, Futura, Verdana, 'Helvetica Neue', Helvetica, Arial, Ubuntu, 'Hiragino Kaku Gothic Pro', sans-serif;
-		font-size: 22px;
-		font-weight: 400;
-		line-height: 32px;
-		padding: 0 0 80px;
+		font-size: 28px;
+		font-weight: 300;
+		color: #FFF;
+		text-shadow: rgba(0, 0, 0, 0.15) 0 1px 1px;
+		line-height: 1.6em;
+		background: #FE8A2A;
+		box-shadow: rgba(0, 0, 0, 0.22) 0 1px 3px inset;
+		padding: 1em 0;
+		margin: 1em 0;
 	}
-	.contact span {
-		display: block;
-		color: #FE8A2A;
+	.contact:hover {
+		background: #E87E26;
 	}
 	.contact a {
 		display: block;
+	}
+	.contact em {
+		font-size: 0.8em;
 	}
 	footer span {
 		display: inline-block;
@@ -186,6 +200,9 @@
 	a, a:link, a:visited, a:hover, a:active {
 		text-decoration: none;
 	}
+	.contact:hover span {
+		text-decoration: underline;
+	}
 	</style>
 </head>
 <body>
@@ -195,26 +212,28 @@
 		<h2>キョウラツ 公式サイト</h2>
 	</a>
 </header>
-<div class="cont"><ol></ol></div>
-<div class="cont">
-	<p>
-		Nice to meet you, foolish Terran. I'm not mascot of Nodejs, do not bother me about this one more time.
-	</p>
-	<p>
-		Of course if you find me cute please admire me as much as you can. Thanks you.
-	</p>
+<div class="grand-cont">
+	<div class="cont"><ol></ol></div>
+	<div class="cont">
+		<p>
+			初めまして、地球人。キョウラツです。よろしくね <span class="moji">(^з^)-</span>
+		</p>
+		<p>
+			僕は Node.js のコスモスではありません<span class="moji">♪(´ε｀ )</span>
+		</p>
+	</div>
+	<footer>
+		<div class="contact">
+			<a href="mailto:i@joyneop.com"><span>Want a license for you forum or product?</span><br /><em>From $9.99/year</em></a>
+		</div>
+		<div class="link">
+			<a href="/">&copy; 2014 All Rights Reserved by Joy Neop</a>
+		</div>
+		<div class="end">
+			<img src="the-btm.jpg">
+		</div>
+	</footer>
 </div>
-<footer>
-	<div class="contact">
-		<span><a onlick="open('mailto:'+atob('aUBqb3luZW9wLmNvbQ=='))">Want a license?<br />Contact me : )</a></span>
-	</div>
-	<div class="link">
-		<a href="/">&copy; 2014 All Rights Reserved by Joy Neop</a>
-	</div>
-	<div class="end">
-		<img src="the-btm.jpg">
-	</div>
-</footer>
 <script type="text/javascript">
 var x = 18;
 for (var i = 1; i <= x; i++) {

@@ -2,11 +2,59 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(//joyneop.github.io/fonts/OpenSans-Light.woff) format('woff'), url(//joyneop.xyz/fonts/OpenSans-Light.woff) format('woff'), url(/fonts/OpenSans-Light.woff) format('woff');
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(//joyneop.github.io/fonts/open-sans/OpenSans-Light.woff) format('woff'), url(//joyneop.xyz/fonts/open-sans/OpenSans-Light.woff) format('woff'), url(/fonts/open-sans/OpenSans-Light.woff) format('woff');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(//joyneop.github.io/fonts/OpenSans.woff) format('woff'), url(//joyneop.xyz/fonts/OpenSans.woff) format('woff'), url(/fonts/OpenSans.woff) format('woff');
+  src: local('Open Sans'), local('OpenSans'), url(//joyneop.github.io/fonts/open-sans/OpenSans.woff) format('woff'), url(//joyneop.xyz/fonts/open-sans/OpenSans.woff) format('woff'), url(/fonts/open-sans/OpenSans.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(//joyneop.github.io/fonts/open-sans/OpenSans-Semibold.woff) format('woff'), url(//joyneop.xyz/fonts/open-sans/OpenSans-Semibold.woff) format('woff'), url(/fonts/open-sans/OpenSans-Semibold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(//joyneop.github.io/fonts/open-sans/OpenSans-Bold.woff) format('woff'), url(//joyneop.xyz/fonts/open-sans/OpenSans-Bold.woff) format('woff'), url(/fonts/open-sans/OpenSans-Bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(//joyneop.github.io/fonts/open-sans/OpenSans-Extrabold.woff) format('woff'), url(//joyneop.xyz/fonts/open-sans/OpenSans-Extrabold.woff) format('woff'), url(/fonts/open-sans/OpenSans-Extrabold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(//joyneop.github.io/fonts/open-sans/OpenSansLight-Italic.woff) format('woff'), url(//joyneop.xyz/fonts/open-sans/OpenSansLight-Italic.woff) format('woff'), url(/fonts/open-sans/OpenSansLight-Italic.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(//joyneop.github.io/fonts/open-sans/OpenSans-Italic.woff) format('woff'), url(//joyneop.xyz/fonts/open-sans/OpenSans-Italic.woff) format('woff'), url(/fonts/open-sans/OpenSans-Italic.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(//joyneop.github.io/fonts/open-sans/OpenSans-SemiboldItalic.woff) format('woff'), url(//joyneop.xyz/fonts/open-sans/OpenSans-SemiboldItalic.woff) format('woff'), url(/fonts/open-sans/OpenSans-SemiboldItalic.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(//joyneop.github.io/fonts/open-sans/OpenSans-BoldItalic.woff) format('woff'), url(//joyneop.xyz/fonts/open-sans/OpenSans-BoldItalic.woff) format('woff'), url(/fonts/open-sans/OpenSans-BoldItalic.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url(//joyneop.github.io/fonts/open-sans/OpenSans-ExtraboldItalic.woff) format('woff'), url(//joyneop.xyz/fonts/open-sans/OpenSans-ExtraboldItalic.woff) format('woff'), url(/fonts/open-sans/OpenSans-ExtraboldItalic.woff) format('woff');
 }
