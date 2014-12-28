@@ -1,4 +1,5 @@
 @import url(//joyneop.github.io/fonts/seravek.css);
+@import url(//joyneop.github.io/fonts/inconsolata.css);
 
 body {
 	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
@@ -102,7 +103,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 p code {
-	font-family: Menlo, Monaco, Osaka, monospace;
+	font-family: 'Inconsolata', Menlo, Monaco, Osaka, monospace;
 	font-size: 0.875em;
 	font-weight: 200;
 	background: #F4F4F4;
@@ -131,7 +132,7 @@ p code {
 }
 
 .post-text > pre {
-	font-family: Menlo, Monaco, Osaka, monospace;
+	font-family: 'Inconsolata', Menlo, Monaco, Osaka, monospace;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
