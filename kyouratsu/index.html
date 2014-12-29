@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Kyouratsu 公式サイト — designed by Joy Neop</title>
+	<title>Kyouratsu — designed by Joy Neop</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- <base href="http://joyneop.github.io/kyouratsu/"></base> -->
 	<link rel="favicon shortcut icon" href="/favicon.ico">
@@ -151,7 +151,7 @@
 	}
 	.moji {
 		color: #FE8A2A;
-		padding-left: 1em;
+		padding-left: 0.5em;
 	}
 	footer {
 		font-size: 14px;
@@ -264,9 +264,17 @@
 	}
 	.end img {
 		display: block;
-		width: 500px;
-		height: 150px;
 		margin: 0 auto;
+	}
+	@media screen and (max-width: 700px) {
+		.end img {
+			width: 80vw;
+		}
+	}
+	@media screen and (min-width: 700px) {
+		.end img {
+			width: 500px;
+		}
 	}
 	a, a:link, a:visited, a:hover, a:active {
 		text-decoration: none;
@@ -298,17 +306,17 @@
 <header>
 	<a href="./">
 		<h1>Kyouratsu</h1>
-		<h2>キョウラツ 公式サイト</h2>
+		<h2>キョウラツ、謎の生物</h2>
 	</a>
 </header>
 <div class="grand-cont">
 	<div class="cont"><ol></ol></div>
 	<div class="cont">
 		<p>
-			初めまして、地球人。キョウラツです。よろしくね <span class="moji">(^з^)-</span>
+			初めまして、地球人。キョウラツです。よろしくね<span class="moji">♪(´ε｀ )</span>
 		</p>
 		<p>
-			僕は Node.js のコスモスではありません<span class="moji">♪(´ε｀ )</span>
+			僕は Node.js のマスコットではありません。
 		</p>
 	</div>
 	<footer>
@@ -328,7 +336,7 @@
 			<p class="aside">
 				*NOTE: your parents and brothers/sisters are not considered your family if your age is greater than 18; neither your children elder than 18 are considered your family. Family is not defined based on living in same house; it's defined based on the legal relations. Your fianceé/fiancé living together with you in same house is considered your family. If you are gay/lesbian and live in a country or state where same-gender marriage is prohibited by the law but you two love each other and have established long-term relationship based on love, you two are considered a family. You can use it in shared spaces in the house that you live in even though more than one family living there, if you and others rent the house together.
 			</p>
-			<p>Ready? Contact me via <a target="_blank" href="https://docs.google.com/forms/d/17eWtXozyRCSeirqZ2QxJ2GksmLWp3H0rOzgpUj5pdjA/viewform?usp=send_form">this form</a>.</p>
+			<p>Ready? Contact me via <a target="_blank" href="get-license.html">this form</a>.</p>
 		</div>
 		<div class="link">
 			<a href="/">&copy; 2014 All Rights Reserved by Joy Neop</a>
