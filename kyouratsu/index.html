@@ -174,7 +174,6 @@
 		max-width: 900px;
 		padding: 1em 0;
 		margin: 1em auto;
-		cursor: pointer;
 	}
 	.contact:hover {
 		background: #FE8A2A, rgba(0, 0, 0, 0.8);
@@ -186,66 +185,8 @@
 		font-size: 0.625em;
 		font-size: 1em;
 	}
-	#license-details-cont {
-		background: rgba(0, 0, 0, 0.3);
-		position: fixed;
-		display: none;
-		top: 0;
-		left: 0;
-		width: 100vw;
-		height: 200vh;
-	}
-	#license-details {
-		font-weight: 400;
-		background: #FFF;
-		border-radius: 5px;
-		box-shadow: rgba(0, 0, 0, 0.3) 0 0 4px;
-		position: fixed;
-		display: none;
-		top: 5vh;
-		left: 5vw;
-		width: 90vw;
-		height: auto;
-		max-height: 90vh;
-		padding: 2em 1em;
-		overflow: scroll;
-	}
-	#license-details * {
-		max-width: 580px;
-	}
-	#license-details h2 {
-		font-size: 2em;
-		font-weight: 200;
-		color: #000;
-		padding: 2em auto;
-		margin: 0 auto 0.5em;
-	}
-	#license-details h3 {
-		font-size: 1.2em;
-		font-weight: 500;
-		color: #000;
-		text-align: left;
-		padding: 0.3em 0 0.2em;
-		margin: 0 auto;
-	}
-	#license-details p {
-		font-size: 16px;
-		text-align: left;
-		color: #333;
-		text-shadow: inherit;
-		padding: 0;
-		margin: 0.3em auto 1.3em;
-	}
-	#license-details p.aside {
-		font-style: italic;
-		color: #888;
-	}
-	#license-details p a {
-		color: #FE8A2A;
-		text-decoration: none;
-	}
-	#license-details p a:hover {
-		text-decoration: underline;
+	#contact-title {
+		display: block;
 	}
 	footer h2 {
 		font-size: inherit;
@@ -280,27 +221,6 @@
 		text-decoration: none;
 	}
 	</style>
-	<script type="text/javascript">
-	var detailedLicenseInformationOnDisplay = false;
-
-	var toggleDetailedLicenseInformation = function () {
-		if (detailedLicenseInformationOnDisplay) {
-			document.getElementById('license-details-cont').style.display = 'none';
-			document.getElementById('license-details').style.display = 'none';
-			document.getElementById('license-details').style.cursor = 'pointer';
-			document.getElementById('contact').style.cursor = 'pointer';
-			document.body.style.overflow = 'auto';
-			detailedLicenseInformationOnDisplay = false;
-		} else {
-			document.getElementById('license-details-cont').style.display = 'block';
-			document.getElementById('license-details').style.display = 'block';
-			document.getElementById('license-details').style.cursor = 'default';
-			document.getElementById('contact').style.cursor = 'default';
-			document.body.style.overflow = 'hidden';
-			detailedLicenseInformationOnDisplay = true;
-		};
-	};
-	</script>
 </head>
 <body>
 <header>
@@ -320,23 +240,11 @@
 		</p>
 	</div>
 	<footer>
-		<div class="contact" id="contact" unselectable='on' onselectstart='return false;'>
-			<div id="contact-title" onclick="toggleDetailedLicenseInformation()" unselectable='on' onselectstart='return false;'>
+		<div class="contact" id="contact">
+			<a id="contact-title" target="_blank" href="get-license.html">
 				<h2 id="contact-title-line">Want a license for your forum, product or other use?</h2>
 				<em>From $9.99/year, <small>Maybe $0 for small non-commercial use</small></em>
-			</div>
-		</div>
-		<div id="license-details-cont" onclick="toggleDetailedLicenseInformation()"></div>
-		<div id="license-details">
-			<h2>Get a License</h2>
-			<h3>Special for family use</h3>
-			<p>
-				If you are going to make printed stuff like cushions for only yourself or only your family*, you may be qualified to print it for free for the first 3 prints each year. Additional prints are charged $1 each. Up to $5 each year each family. In this case, you may not sell or gift the printed stuff to anyone out of your family. Even though the printed stuff is your belonging, you shall not put it in public spaces. (e.g. shop, public square/park, hotel hallway, restaurant, church)
-			</p>
-			<p class="aside">
-				*NOTE: your parents and brothers/sisters are not considered your family if your age is greater than 18; neither your children elder than 18 are considered your family. Family is not defined based on living in same house; it's defined based on the legal relations. Your fianceé/fiancé living together with you in same house is considered your family. If you are gay/lesbian and live in a country or state where same-gender marriage is prohibited by the law but you two love each other and have established long-term relationship based on love, you two are considered a family. You can use it in shared spaces in the house that you live in even though more than one family living there, if you and others rent the house together.
-			</p>
-			<p>Ready? Contact me via <a target="_blank" href="get-license.html">this form</a>.</p>
+			</a>
 		</div>
 		<div class="link">
 			<a href="/">&copy; 2014 All Rights Reserved by Joy Neop</a>
