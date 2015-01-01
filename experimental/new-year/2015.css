@@ -10,7 +10,7 @@ body {
 	min-height: 1500px;
 	padding: 0;
 	margin: 0;
-	background: #7495BC url(//joyneop.github.io/JN-Lab/other-images/new-year/2015.jpg) fixed top no-repeat;
+	background: #222 url(//joyneop.github.io/JN-Lab/other-images/new-year/2015.jpg) fixed top no-repeat;
 	background-size: cover;
 }
 header a:link, header a:visited, header a:hover, header a:active, footer a {
