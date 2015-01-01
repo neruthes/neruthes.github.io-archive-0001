@@ -41,7 +41,7 @@ header #title {
 	width: 180px;
 	height: 180px;
 	margin: 0 auto;
-	background: rgba(255, 255, 255, 0.798888) center no-repeat scroll;
+	background: rgba(255, 255, 255, 0.5) center no-repeat scroll;
 	background-image: url(//joyneop.github.io/joyneop-transparent.png);
 	background-size: contain;
 	border-radius: 2000px;
