@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Seravek-ExtraLight', Seravek-ExtraLight, Seravek ExtraLight, Seravek, Myriad Pro, Myriad, Myriad Set, 'Open Sans', 'Helvetica Neue', Helvetica Neue, Helvetica, Lucida Grande, Arial, 'Arial-Black', 'Arial Black', Arial Black, sans-serif;
+	font-family: Seravek, Myriad Pro, Myriad, Myriad Set, 'Open Sans', 'Helvetica Neue', Helvetica Neue, Helvetica, Lucida Grande, Arial, 'Arial-Black', 'Arial Black', Arial Black, sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 	color: #585858;
@@ -85,7 +85,6 @@ section {
 	overflow: hidden;
 }
 section h2 {
-	font-family: 'Seravek', Seravek, Myriad Pro, Myriad, Myriad Set, 'Open Sans', 'Helvetica Neue', Helvetica Neue, Helvetica, Lucida Grande, Arial, 'Arial-Black', 'Arial Black', Arial Black, sans-serif;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 42px;
