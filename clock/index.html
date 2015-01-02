@@ -7,6 +7,8 @@
 	<link rel="apple-touch-icon" href="/joyneop.png"/>
 	<style type="text/css">
 	@import url(//joyneop.github.io/fonts/seravek.css);
+	* {
+	}
 	body {
 		font-family: Seravek, 'Myriad Pro', 'Myriad Apple', Myriad, 'Myriad Set Pro', 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Ubuntu, Arial, 'Arial Black', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', 'STHeiti', sans-serif;
 		color: #FFF;
@@ -14,19 +16,20 @@
 		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
 		margin: 0 0 0 0;
 		overflow: hidden;
+
+		-webkit-transition: all 1000ms linear;
+		-moz-transition: all 1000ms linear;
+		transition: all 1000ms linear;
 	}
 	a, a:hover, a:visited, a:link {
 		color: #FFF;
 		text-decoration: none;
-		-webkit-transition: all 300ms ease;
-		-moz-transition: all 300ms ease;
-		transition: all 300ms ease;
 	}
 	#cont {
 		position: fixed;
 		top: 50%;
 		left: 50%;
-		font-weight: 300;
+		font-weight: 500;
 		height: 300px;
 		width: 300px;
 		box-sizing: border-box;
@@ -42,11 +45,11 @@
 		width: 300px;
 		height: 300px;
 		margin: 0;
-		background: rgba(255, 255, 255, 0.22);
+		background: rgba(0, 0, 0, 0.4);
 		border-radius: 6000px;
-		box-shadow: rgba(0, 0, 0, 0.5) 0 2px 7px;
+		box-shadow: rgba(0, 0, 0, 0.15) 0 2px 7px;
 		opacity: 0;
-		transition: all 300ms ease;
+		z-index: 45;
 	}
 	#hp, #mp, #sp {
 		position: absolute;
@@ -58,26 +61,41 @@
 	}
 	#hp {
 		padding: 65px 145px 140px;
+
+		-webkit-transition: none;
+		-moz-transition: none;
+		transition: none;
 	}
 	#hp div {
 		height: 95px;
 		background: #38F;
+		position: relative;
 		z-index: 130;
 	}
 	#mp {
 		padding: 30px 148px 135px;
+
+		-webkit-transition: none;
+		-moz-transition: none;
+		transition: none;
 	}
 	#mp div {
 		height: 135px;
 		background: #FF3;
+		position: relative;
 		z-index: 140;
 	}
 	#sp {
 		padding: 8px 149px 122px;
+
+		-webkit-transition: none;
+		-moz-transition: none;
+		transition: none;
 	}
 	#sp div {
 		height: 170px;
 		background: #8FB;
+		position: relative;
 		z-index: 150;
 	}
 	#cen {
@@ -101,18 +119,19 @@
 	}
 	h1 {
 		font-size: 20px;
-		font-weight: 200;
+		font-weight: 500;
 		text-align: center;
+		position: relative;
 		margin: 0;
 		z-index: 100;
 	}
 	#time {
-		font-family: 'Menlo', 'Srouce Code Pro', 'PT Mono', monospace;
 		font-size: 20px;
 		text-align: center;
 		text-shadow: rgba(0, 0, 0, 0.35) 0 1px 2px;
+		position: relative;
 		padding: 120px 0 0;
-		z-index: 900;
+		z-index: 101;
 	}
 	footer {
 		position: fixed;
@@ -139,15 +158,16 @@
 		var da = new Date();
 		var h = da.getHours();
 		var m = da.getMinutes();
-		var s = da.getSeconds();
+		// var s = da.getSeconds();
+		var s = Math.floor((da.getTime()%172800000)/1000);
 
-		var hpDeg = (h%12)*30+m*0.5+s*(1/120);
-		var mpDeg = m*6+s*0.1;
-		var spDeg = s*6;
+		window.hpDeg = h*30+m*0.5+(s%60)*(1/120);
+		window.mpDeg = m*6+(s%60)*0.1;
+		window.spDeg = s*6+3;
 		
 		var bodyH = m*6;
 		var bodyS = 20+0.8*(50-(Math.abs(((h%12)*100/12)-50)));
-		var bodyL = 30+0.7*(50-(Math.abs((s*100/59)-50)));
+		var bodyL = 30+0.7*(50-(Math.abs(((s%60)*100/59)-50)));
 
 		h = da.getHours().toString();
 		m = da.getMinutes().toString();
@@ -161,7 +181,7 @@
 		}
 
 		document.getElementById("time").innerHTML = h + ":" + m + ":" + s;
-		document.getElementById("clock-rotate").innerHTML = raw.replace("_HP_", hpDeg).replace("_MP_", mpDeg).replace("_SP_", spDeg);
+		document.getElementById("clock-rotate").innerHTML = raw.replace(/_HP_/g, hpDeg).replace(/_MP_/g, mpDeg).replace(/_SP_/g, spDeg);
 		document.getElementById("clock").style.opacity = 1;
 		document.body.style.backgroundColor = "hsl(" + bodyH + ", " + bodyS + "%, " + bodyL + "%)";
 	}
@@ -184,10 +204,22 @@
 		<div id="title"><h1>Hue Clock</h1></div>
 		<div id="time"></div>
 	</div>
-	<footer>&copy; Copyright 2014 All Rights Reserved by Joy Neop</footer>
+	<footer>&copy; Copyright <script type="text/javascript">document.write((new Date()).getFullYear());</script> All Rights Reserved by Joy Neop</footer>
 	<script type="text/javascript">
 	var rawStyleTag = document.getElementById("clock-rotate").innerHTML;
-	var yooo = window.setInterval("JNClock(rawStyleTag)", 1000);
+	window.setTimeout(function(){
+		JNClock(rawStyleTag);
+		var yooo = window.setInterval(function(){
+			JNClock(rawStyleTag);
+		}, 1000);
+	}, 1000);
+	window.setTimeout(function(){
+		document.getElementsByTagName('head')[0].appendChild((function(){
+			var sty = document.createElement('style');
+			sty.appendChild(document.createTextNode('#sp {-webkit-transition: all 1000ms linear; -moz-transition: all 1000ms linear; transition: all 1000ms linear;}'));
+			return sty;
+		}()));
+	}, 2001);
 	</script>
 	<script type="text/javascript" src="http://joyneop.github.io/jn-analy-personal.js"></script>
 </body>
