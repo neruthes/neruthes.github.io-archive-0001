@@ -1,8 +1,9 @@
-@import url(//joyneop.github.io/fonts/seravek.css);
-@import url(//joyneop.github.io/fonts/inconsolata.css);
+@import url(/fonts/seravek.css);
+@import url(/fonts/inconsolata.css);
 
 body {
 	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	font-weight: 300;
 	color: #585858;
 	background-color: #FAFAFA;
 }
@@ -80,7 +81,12 @@ a:link, a:visited, a:hover, a:active {
 	font-size: 2.4em;
 	font-weight: 400;
 	color: #2B8CD2;
+	border: 1px solid rgba(0, 0, 0, 0);
 	margin: 19px 0 22px;
+}
+
+.post h2:hover a {
+	border-bottom: 1px solid #888;
 }
 
 .post-text {
@@ -151,7 +157,7 @@ p code {
 }
 
 .post footer a:hover {
-	text-decoration: underline;
+	border-bottom: 1px solid #585858;
 }
 
 .post.more li a {

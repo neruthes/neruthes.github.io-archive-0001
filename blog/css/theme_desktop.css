@@ -16,12 +16,12 @@
 	}
 
 	.global h1 {
-		font-size: 4em;
+		font-size: 4.8em;
 		margin: 35px 0;
 	}
 
 	.global h2 {
-		font-size: 1.8em;
+		font-size: 2em;
 		margin: 15px 0;
 	}
 
@@ -41,7 +41,7 @@
 	}
 
 	.post-text {
-		font-size: 1.6em;
+		font-size: 1.7em;
 	}
 
 	.post-text > img {
