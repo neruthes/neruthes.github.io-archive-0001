@@ -57,7 +57,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post {
-	/*font-weight: 300;*/
+	font-weight: 300;
 	padding-top: 20px;
 	margin-bottom: 90px;
 	background: #FFF;
@@ -81,12 +81,7 @@ a:link, a:visited, a:hover, a:active {
 	font-size: 2.4em;
 	font-weight: 400;
 	color: #2B8CD2;
-	border: 1px solid rgba(0, 0, 0, 0);
 	margin: 19px 0 22px;
-}
-
-.post h2:hover a {
-	border-bottom: 1px solid #888;
 }
 
 .post-text {
@@ -100,7 +95,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post-text > p {
-	line-height: 1.65em;
+	line-height: 1.75em;
 	margin: 17px 0;
 }
 
@@ -137,7 +132,7 @@ p code {
 }
 
 .post-text > pre {
-	font-family: 'Inconsolata', Menlo, Monaco, monospace;
+	font-family: 'Inconsolata', Menlo, Monaco, Consolas, monospace;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -160,13 +155,16 @@ p code {
 	border-bottom: 1px solid #585858;
 }
 
-.post.more li a {
+.post.more li > a {
+	font-weight: normal;
 	color: #2B8CD2;
 }
 
-nav.prevandnext span a {
-	font-size: 2em;
-	font-weight: 400;
+nav.prevandnext span, nav.prevandnext span a {
+	font-size: 1.414em;
+	font-weight: 200;
+	display: block;
+	padding: 1em 0.4em;
 }
 
 footer.global {
