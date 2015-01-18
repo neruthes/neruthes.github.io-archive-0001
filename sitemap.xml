@@ -40,13 +40,18 @@
 </url>
 
 <url>
-<loc>http://joyneop.xyz/wiki/</loc>
-<priority>0.1</priority>
+<loc>http://joyneop.xyz/lemonade/</loc>
+<priority>0.8</priority>
 </url>
 
 <url>
 <loc>http://joyneop.xyz/zeit/</loc>
-<priority>0.8</priority>
+<priority>0.1</priority>
+</url>
+
+<url>
+<loc>http://joyneop.xyz/wiki/</loc>
+<priority>0.1</priority>
 </url>
 <url>
 <loc>http://joyneop.xyz/blog/archive.html</loc>
