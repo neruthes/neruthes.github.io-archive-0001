@@ -114,6 +114,7 @@
 	{ "Lang" : [ "ja", "en" ], "Time" : "September 24, 2014", "Title" : "時代の中へ" },
 	{ "Lang" : [ "ja", "zh-Hant" ], "Time" : "October 2, 2014", "Title" : "At This Age" },
 	{ "Lang" : [ "en", "en" ], "Time" : "November 15, 2014", "Title" : "Private Concepts" },
-	{ "Lang" : [ "en", "en" ], "Time" : "January 1, 2015", "Title" : "Happy New Year 2015" }
+	{ "Lang" : [ "en", "en" ], "Time" : "January 1, 2015", "Title" : "Happy New Year 2015" },
+	{ "Lang" : [ "en", "en" ], "Time" : "January 23, 2015", "Title" : "I Can (Not) Restart" }
 ]
 }
