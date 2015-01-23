@@ -1,6 +1,6 @@
 @media screen and (max-width: 1099px) {
 	body {
-		font-size: 10px;
+		font-size: 11px;
 	}
 
 	.global {
@@ -28,12 +28,12 @@
 	div#cont.cont {
 		padding-left: 0px;
 		padding-right: 0px;
-		margin: 60px 20px;
+		margin: 60px 10px;
 	}
 
 	.post {
 		margin: 30px 0 80px;
-		padding: 20px 30px 60px;
+		padding: 20px 10px 60px;
 	}
 
 	.post-text {
@@ -49,8 +49,8 @@
 	}
 
 	nav.prevandnext {
-		margin: 30px 30px 30px 30px;
-		padding-left: 60px;
-		padding-right: 60px;
+		margin: 30px 14px;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 }
