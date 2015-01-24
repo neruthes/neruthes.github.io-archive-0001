@@ -14,9 +14,6 @@ accu = accu + '\n' + fs.readFileSync(siteDir + '/root_sitemap.txt', 'utf8');
 accu = accu + '\n' + fs.readFileSync(siteDir + '/blog/blog_sitemap.txt', 'utf8');
 accu = accu + '\n' + fs.readFileSync(siteDir + '/lab/lab_sitemap.txt', 'utf8');
 
-fs.writeFile(siteDir + '/sitemap.xml', accu + '\n</urlset>', function(err){
-	if (err) {
-		throw err;
-	}
-	console.log('Done!');
-});
+fs.writeFile(siteDir + '/sitemap.xml', accu + '\n</urlset>');
+
+console.log('Done!');
