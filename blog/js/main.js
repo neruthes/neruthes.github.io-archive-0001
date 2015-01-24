@@ -31,6 +31,7 @@ function loadPost(pid) {
 		if (postIndex.list[pid].Title == "") {
 			document.getElementById("post" + pid + "h2").remove();
 		} else {
+			document.getElementById("post" + pid + "h2").lang = postIndex.list[pid].Lang[0];
 			document.getElementById("post" + pid + "title").innerHTML = postIndex.list[pid].Title;
 			document.getElementById("post" + pid + "title").href = "./?p=" + pid;
 		}
@@ -39,7 +40,6 @@ function loadPost(pid) {
 		} else {
 			document.getElementById("post" + pid + "text").innerHTML = receivedPostText;
 		}
-		document.getElementById("post" + pid + "h2").lang = postIndex.list[pid].Lang[0];
 		document.getElementById("post" + pid + "text").lang = postIndex.list[pid].Lang[1];
 		document.getElementById("post" + pid + "link").innerHTML = postIndex.list[pid].Time;
 		document.getElementById("post" + pid + "link").href = "./?p=" + pid;

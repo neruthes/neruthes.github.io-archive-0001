@@ -99,6 +99,10 @@ a:link, a:visited, a:hover, a:active {
 	margin: 17px 0;
 }
 
+.post-text > p a {
+	border-bottom: 1px solid #585858;
+}
+
 .post-text em:lang(en) {
 	font-style: italic;
 }
@@ -170,5 +174,6 @@ nav.prevandnext span, nav.prevandnext span a {
 footer.global {
 	font-size: 1.4em;
 	font-weight: 200;
+	color: #585858;
 	text-align: center;
 }
