@@ -162,7 +162,7 @@ section ul a {
 	text-decoration: none;
 }
 section ul a:hover {
-	text-decoration: underline;
+	border-bottom: 1px solid #585858;
 }
 footer {
 	font-size: 14px;

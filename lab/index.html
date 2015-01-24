@@ -6,8 +6,7 @@
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="apple-touch-icon" href="/joyneop.png" />
 	<style type="text/css">
-	@import url(//joyneop.github.io/fonts/open-sans.css);
-	@import url(http://joyneop.github.io/fonts/seravek.css);
+	@import url(/fonts/seravek.css);
 	* {
 		font-family: Seravek, Myriad Pro, Myriad Apple, Myriad Set, Myriad, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gothic Pro', 'Hiragino Sans GB', 'STHeiti', 'STHeiti SC', sans-serif;
 		text-decoration: none;
@@ -82,13 +81,13 @@
 		padding-left: 9px;
 		padding-right: 9px;
 		border: 0px solid #CCC;
-		border-radius: 6px;
+		border-radius: 4px;
 		background: rgba(255, 255, 255, 0.4);
-		box-shadow: 0 2px 11px rgba(0, 0, 0, 0.4);
+		box-shadow: rgba(0, 0, 0, 0.24322) 0 1px 4px;
 	}
 	article {
 		overflow: auto;
-		width: 804px;
+		width: 798px;
 		margin-top: 0px;
 		margin-bottom: 50px;
 		margin-left: auto;
@@ -105,10 +104,11 @@
 		background-color: rgba(0, 0, 0, 0);
 		background-repeat: no-repeat;
 		background-size: cover;
-		border: 1px solid rgba(0, 0, 0, 0.35);
-		border-radius: 4px;
+		/*border: 1px solid rgba(0, 0, 0, 0.12);*/
+		/*border: 1px solid rgba(255, 255, 255, 0);*/
+		border-radius: 3px;
 		overflow: hidden;
-		box-shadow: 0 5px 11px rgba(0, 0, 0, 0.1);
+		box-shadow: rgba(0, 0, 0, 0.18322) 0 1px 3px;
 	}
 	section > a {
 		height: 100%;
@@ -120,9 +120,9 @@
 		text-align: center;
 		font-size: 14px;
 		font-weight: 300;
-		height: 20px;
-		padding-top: 60px;
-		padding-bottom: 60px;
+		height: 16px;
+		padding-top: 62px;
+		padding-bottom: 62px;
 		margin: 0;
 		text-shadow: none;
 	}
@@ -130,12 +130,13 @@
 		color: #FFF;
 		background: rgba(0, 0, 0, 0.5);
 		background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-		text-shadow: 0 1px 1px #000;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1125);
 	}
 	footer {
+		font-size: 14px;
+		color: #333;
 		text-align: center;
-		color: #0660BA;
-		margin: 30px;
+		padding: 50px 0;
 	}
 	a, a:link, a:visited, a:hover, a:active {
 		color: inherit;
