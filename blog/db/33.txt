@@ -1,5 +1,15 @@
+<figure>
 <img src="./img/0000201211100001.jpg">
+</figure>
+<figure>
 <img src="./img/0000201211100002.jpg">
+</figure>
+<figure>
 <img src="./img/0000201211100003.jpg">
+</figure>
+<figure>
 <img src="./img/0000201211100004.jpg">
+</figure>
+<figure>
 <img src="./img/0000201211100005.jpg">
+</figure>

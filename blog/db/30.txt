@@ -1,1 +1,3 @@
+<figure>
 <img src="./img/0000201211040001.jpg">
+</figure>
