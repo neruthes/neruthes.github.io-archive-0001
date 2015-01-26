@@ -100,7 +100,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post-text > p a {
-	border-bottom: 1px solid #585858;
+	border-bottom: 1px solid #AAA;
+}
+
+.post-text > p a:hover {
+	color: #888;
 }
 
 .post-text em:lang(en) {
@@ -137,9 +141,9 @@ p code {
 
 .post-text > pre {
 	font-family: 'Inconsolata', Menlo, Monaco, Consolas, monospace;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
+	background: #F4F4F4;
+	border-radius: 2px;
+	box-shadow: #F4F4F4 0 0 0 7px;
 }
 
 .post-text > canvas {

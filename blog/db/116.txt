@@ -1,4 +1,4 @@
-<p>Well, it's time to get communications encrypted. Thanks for <a href="http://7in0.me">Chino</a>, I got a <a href="https://keyabse.io/joyneop">Keybase</a> invitation code and started using PGP in a larger space. <em>"Privacy is a pleasure"</em>, and it's not a difficult work. <a href="https://gpgtools.org" rel="nofollow">GPG Tools</a> makes encryption easy to integrate with Mail on Mac.</p>
+<p>Well, it's time to get communications encrypted. Thanks for <a href="http://7in0.me">Chino</a>, I got a <a href="https://keyabse.io/joyneop">Keybase</a> invitation code and started using PGP in a larger space. "<em>Privacy is a pleasure</em>", and it's not a difficult work. <a href="https://gpgtools.org" rel="nofollow">GPG Tools</a> makes encryption easy to integrate with Mail on Mac.</p>
 <pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: Keybase - https://keybase.io
