@@ -142,8 +142,11 @@ p code {
 .post-text > pre {
 	font-family: 'Inconsolata', Menlo, Monaco, Consolas, monospace;
 	background: #F4F4F4;
-	border-radius: 2px;
-	box-shadow: #F4F4F4 0 0 0 7px;
+	border-radius: 4px;
+
+	box-sizing: content-box;
+	padding: 10px;
+	margin-left: -10px;
 }
 
 .post-text > canvas {
@@ -164,6 +167,7 @@ p code {
 }
 
 .post.more li > a {
+	font-size: 2.3em;
 	font-weight: normal;
 	color: #2B8CD2;
 }
