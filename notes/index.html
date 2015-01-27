@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Notes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="/joyneop.ico">
+	<link rel="apple-touch-icon" href="/joyneop.png">
+	<style type="text/css">
+	@import url(/fonts/seravek.css);
+	* {
+		font-family: Seravek, 'Myraid Pro', 'Myriad Set', Myriad, 'Open Sans', 'Helvetica Neue', 'Lucida Grande', sans-serif;
+		font-weight: 200;
+		cursor: text;
+	}
+	body {
+		font-size: 18px;
+		line-height: 31.5px;
+		color: #555556;
+		min-height: 100vh;
+		padding: 0;
+		margin: 0;
+		background: #FFF;
+	}
+	#cont {
+		box-sizing: border-box;
+		margin: 0 auto;
+		overflow: auto;
+	}
+	@media screen and (max-width: 768px) {
+		#cont {
+			padding: 20px 10px 20px;
+		}
+	}
+	@media screen and (min-width: 769px) {
+		#cont {
+			max-width: 700px;
+			padding: 40px 60px;
+		}
+	}
+	h1 {
+		font-size: 2em;
+		font-weight: 500;
+		color: #CCC;
+		margin: 0 0 15px;
+	}
+	#text {
+		color: #555556;
+		font-size: 18px;
+		line-height: 29px;
+		width: 100%;
+		min-height: 80vh;
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		background: none;
+		border: none;
+		outline: none;
+		overflow: auto;
+		resize: none;
+	}
+	</style>
+	<script type="text/javascript">
+	function upadateData() {
+		localStorage['data'] = document.getElementById('text').innerHTML;
+	};
+	function foc() {
+		document.getElementById('text').focus();
+	}
+	</script>
+</head>
+<body onclick="foc()">
+	<div id="cont" onclick="foc()">
+		<h1 onclick="foc()">NOTES</h1>
+		<div id="text" contenteditable></div>
+		<script type="text/javascript">
+		document.getElementById('text').innerHTML = localStorage['data'];
+		document.getElementById('text').oninput = upadateData;
+		foc();
+		window.setInterval(upadateData, 80);
+		</script>
+	</div>
+</body>
+</html>
