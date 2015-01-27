@@ -74,8 +74,8 @@
 		<h1 onclick="foc()">NOTES</h1>
 		<div id="text" contenteditable></div>
 		<script type="text/javascript">
-		if (!localStorage['data']) {
-			localStorage['data'] = '';
+		if (localStorage['data']) {
+			localStorage['data'] = '<br>';
 		};
 		document.getElementById('text').innerHTML = localStorage['data'];
 		document.getElementById('text').oninput = upadateData;
