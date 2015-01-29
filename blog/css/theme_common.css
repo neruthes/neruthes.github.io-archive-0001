@@ -3,8 +3,9 @@
 
 body {
 	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	font-size: 10px;
 	font-weight: 300;
-	color: #141414;
+	color: #444;
 	background-color: #FAFAFA;
 }
 
@@ -91,7 +92,13 @@ a:link, a:visited, a:hover, a:active {
 .post-text > h3 {
 	font-size: 1.15em;
 	font-weight: 400;
-	margin: 19px 0 20px;
+	border-left: 2px solid #2B8CD2;
+	padding-left: 12px;
+	margin: 26px 0 20px -14px;
+}
+
+.post-text > h3:first-child {
+	margin-top: 17px;
 }
 
 .post-text > p {
@@ -119,12 +126,16 @@ p code {
 	padding: 0 3px;
 }
 
+.post-text figure {
+	width: 100%;
+	margin: 17px 0;
+}
+
 .post-text img {
-	box-shadow: rgba(0, 0, 0, 0.091333) 0 1px 3px;
 	border-radius: 3px;
 }
 
-.post-text > img {
+.post-text figure img {
 	margin-left: auto;
 	margin-right: auto;
 }

@@ -44,8 +44,8 @@
 		font-size: 1.8em;
 	}
 
-	.post-text > img {
-		max-width: 600px;
+	.post-text figure img {
+		max-width: 100%;
 	}
 
 	.post footer {
