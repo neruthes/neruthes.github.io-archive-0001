@@ -154,6 +154,7 @@ p code {
 	font-family: 'Inconsolata', Menlo, Monaco, Consolas, monospace;
 	background: #F4F4F4;
 	border-radius: 4px;
+	overflow-x: scroll;
 
 	box-sizing: content-box;
 	padding: 10px;
