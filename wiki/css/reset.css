@@ -18,6 +18,10 @@ Copyright info:
 	License Link: http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US
 ----------------------------------------*/
 
+* {
+	text-rendering: optimizeLegibility;
+}
+
 body {
 	padding: 0;
 	margin: 0;
