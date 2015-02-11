@@ -1,3 +1,0 @@
-{{Meta Article}}
-
-An <em>administrator</em> has privilege to create, move, modify, and delete articles and templates on the site.

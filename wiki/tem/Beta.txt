@@ -1,3 +1,0 @@
-<div>
-This feature is still under construction and nobody guarantees it working expectedly.
-</div>

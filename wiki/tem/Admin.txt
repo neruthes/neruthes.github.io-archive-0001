@@ -1,3 +1,0 @@
-<div>
-This user is an [[administrator]] at this wiki.
-</div>
