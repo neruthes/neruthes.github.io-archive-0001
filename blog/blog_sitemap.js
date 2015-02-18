@@ -6,21 +6,21 @@ Run on Node.js
 
 */
 
-var blogPath = '/Users/JoyNeop/Developer/joyneop.github.io/blog';
-var postTemplate = '<url>\n<loc>__LOC__</loc>\n<lastmod>__MOD__</lastmod>\n<priority>0.8</priority>\n</url>\n\n';
+var blogPath = __dirname;
+var postTemplate = '\n<url>\n\t<loc>__LOC__</loc>\n\t<lastmod>__MOD__</lastmod>\n\t<priority>0.8</priority>\n</url>\n';
 var listJson;
-var accumulate = '<url>\n<loc>http://joyneop.xyz/blog/archive.html</loc>\n<priority>0.5</priority>\n</url>\n\n';
+var accumulate = '\n<url>\n\t<loc>http://joyneop.xyz/blog/archive.html</loc>\n\t<priority>0.5</priority>\n</url>\n';
 
 var fs = require('fs');
 
 listJson = JSON.parse(fs.readFileSync(blogPath + '/list.json', 'utf8'));
 
-var maxId = listJson.list.length-1;
-for (var i = maxId; i >= 0; i--) {
-	accumulate = accumulate + postTemplate.replace(/__LOC__/g, 'http://joyneop.xyz/blog/?p=' + i).replace(/__MOD__/g, listJson.list[i]['Time']);
+var maxId = 220;
+for (var i = 0; i <= maxId && i < listJson.list.length; i++) {
+	accumulate = postTemplate.replace(/__LOC__/g, 'http://joyneop.xyz/blog/?p=' + i).replace(/__MOD__/g, listJson.list[i]['Time']) + accumulate;
 };
 
 
-fs.writeFile(blogPath + '/blog_sitemap.txt', accumulate);
+fs.writeFileSync(blogPath + '/blog_sitemap.xml', accumulate);
 
 console.log('Done!');

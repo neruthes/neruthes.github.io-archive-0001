@@ -1,54 +1,55 @@
+
 <url>
-<loc>http://joyneop.xyz/123/</loc>
-<priority>0.1</priority>
+	<loc>http://joyneop.xyz/123/</loc>
+	<priority>0.1</priority>
 </url>
 
 <url>
-<loc>http://joyneop.xyz/char-art/</loc>
-<priority>0.8</priority>
+	<loc>http://joyneop.xyz/char-art/</loc>
+	<priority>0.8</priority>
 </url>
 
 <url>
-<loc>http://joyneop.xyz/color/</loc>
-<priority>0.8</priority>
+	<loc>http://joyneop.xyz/color/</loc>
+	<priority>0.8</priority>
 </url>
 
 <url>
-<loc>http://joyneop.xyz/grid/</loc>
-<priority>0.8</priority>
+	<loc>http://joyneop.xyz/grid/</loc>
+	<priority>0.8</priority>
 </url>
 
 <url>
-<loc>http://joyneop.xyz/index/candle.html/</loc>
-<priority>0.8</priority>
+	<loc>http://joyneop.xyz/index/candle.html/</loc>
+	<priority>0.8</priority>
 </url>
 
 <url>
-<loc>http://joyneop.xyz/index/square.html/</loc>
-<priority>0.8</priority>
+	<loc>http://joyneop.xyz/index/square.html/</loc>
+	<priority>0.8</priority>
 </url>
 
 <url>
-<loc>http://joyneop.xyz/index/moon.html/</loc>
-<priority>0.8</priority>
+	<loc>http://joyneop.xyz/index/moon.html/</loc>
+	<priority>0.8</priority>
 </url>
 
 <url>
-<loc>http://joyneop.xyz/kyouratsu/</loc>
-<priority>0.8</priority>
+	<loc>http://joyneop.xyz/kyouratsu/</loc>
+	<priority>0.8</priority>
 </url>
 
 <url>
-<loc>http://joyneop.xyz/lemonade/</loc>
-<priority>0.8</priority>
+	<loc>http://joyneop.xyz/lemonade/</loc>
+	<priority>0.8</priority>
 </url>
 
 <url>
-<loc>http://joyneop.xyz/zeit/</loc>
-<priority>0.1</priority>
+	<loc>http://joyneop.xyz/zeit/</loc>
+	<priority>0.1</priority>
 </url>
 
 <url>
-<loc>http://joyneop.xyz/wiki/</loc>
-<priority>0.1</priority>
+	<loc>http://joyneop.xyz/wiki/</loc>
+	<priority>0.1</priority>
 </url>

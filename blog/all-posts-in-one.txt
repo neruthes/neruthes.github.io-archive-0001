@@ -14,17 +14,216 @@
 
 
 
+# <em>Parse</em>: Life-saving Backend
+
+Post #117 / Date: February 19, 2015
+
+
+A few days ago, I started a new project temporarily named <a href="/everpage/" target="_blank">Everpage</a>, a simple public service which allows users share documents with Markdown (not operational yet, when this post was published). It is like Evernote but without having to let the Evernote logo so distracting, and is like Pastebin but without having to bear its (commonly) ugly appearances. I am not (and probably will never be) good at backend development. Database management and server maintenance always makes me mad.
+
+Fortunately, <a href="https://parse.com/" target="_blank" rel="nofollow">Parse.com</a> gave me a way out, to bypass those brainfucking stuff when developing an app with backend.
+
+As stated on its homepage and API documentations, <em>Parse</em> provides cross-platform SDKs that allows developers focus on data handling and error catching without concerning network communications. For this project, it is JavaScript SDK. I just tell it what is needed in database (e.g. a raw document, by its unique ID); it returns that upon retrieved. I was exempted from implementing AJAX, anti-injection, auto increment, parameterized queries, etc.
+
+For managing users, <em>Parse</em> provides a mature user management technique. So neither do I have to implement my own signing up, signing in, resetting password and cookie/session/token authentication. It's as easy as adding a few <code>onlick</code> event handlers to the buttons. There is feature named ACL (Access Control List), which lets the server determine if current user has access to a row in the database, and I do not have to know anything about how to authenticate the user. Just let the user retrieve the data in frontend code. If the user has no access to it, a error will be thrown out and the frontend code shall tell the user what was going wrong.
+
+In addition, it has great extensibility. If this Everpage goes a public service in future, it will be separated from the subdirectory of my personal website to an independent domain. <em>Parse</em> provides hosting feature that the web app can be migrated there painlessly. Furthermore, if new requirements come up, it also allows more sophisticated routing with Express.js framework.
+
+Having such a painless backend solution is wonderful. It saves life.
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+
+# Introducing My PGP Public Key (Since 2015)
+
+Post #116 / Date: January 26, 2015
+
+
+Well, it's time to get communications encrypted. Thanks for <a href="http://7in0.me">Chino</a>, I got a <a href="https://keyabse.io/joyneop">Keybase</a> invitation code and started using PGP in a larger space. "<em>Privacy is a pleasure</em>", and it's not a difficult work. <a href="https://gpgtools.org" rel="nofollow">GPG Tools</a> makes encryption easy to integrate with Mail on Mac.
+
+<pre>
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: Keybase - https://keybase.io
+Comment: GPGTools - https://gpgtools.org
+
+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
+pRs9EhtUHHd5TTTRVrTyCWnoAhU=
+=Gqx9
+-----END PGP PUBLIC KEY BLOCK-----
+</pre>
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+
 # I Can (Not) Restart
 
 Post #115 / Date: January 23, 2015
 
 
-I had never imagined my life would be like this. Going far from the original plan, getting more than expected loneness, and working so hard for living. Two persons I know have been going on this way, <a href="http://jysperm.me">JySperm</a> and <a href="http://www.ricter.me">Ricter</a>, but, it's so dramatic happening to me.
+I had never imagined my life would be like this. Going far from the original plan, getting more than expected loneness, and working so hard for living. Two persons I know have been going on this way, <a href="https://jysperm.me/2014/02/1493/" target="_blank">JySperm</a> and <a href="http://www.ricter.me" target="_blank">Ricter</a>, but, it's so dramatic happening to me.
+
 In one word, I decided to stay at Beijing, without a degree.
+
 Originally, the plan was to have an internship experience which can be written in my résumé, to avoid being embarrassed for large blank when providing it. However, circumstances changed.
+
 Regarding my intermediate IELTS score and lack in standardized tests, the best Bachelor education I would be able to receive in the United States would not be good <em>enough</em>. That means, it would not worth more than working experience of the same span. In addition, the financial risk was too high to be ignored. My parents were not financially robust enough to support my education and living during the upcoming four years.
+
 My profession is not computer science; it's human-interface design and graphic design. Having consulted a few friends about employment-based immigration, the difficulty to stay in the United States for college graduates from China majoring non-STEM fields rose to me. Even if I will finish my education with no pain, even if the cost will be covered by my parents effortlessly, it will still be a hard job to obtain my green card.
-I failed this way, the most popular way in China, of immigrating to the United States — to receive a degree and get a job there. So I've been reworking on a new plan. Our company has been planing to relocate to Silicon Valley, to actually realize the purpose, <em>"push ideas into reality"</em>. We've registered a few domain names that may be used for the international brand, and dual-language has been listed in the development roadmap.
+
+I failed this way, the most popular way in China, of immigrating to the United States — to receive a degree and get a job there. So I've been reworking on a new plan. Our company has been planing to relocate to Silicon Valley, to actually realize the purpose, "<em>push ideas into reality</em>". We've registered a few domain names that may be used for the international brand, and dual-language has been listed in the development roadmap.
+
+
+
 
 
 
@@ -40,7 +239,9 @@ I failed this way, the most popular way in China, of immigrating to the United S
 Post #114 / Date: January 1, 2015
 
 
+<figure>
 <img src="./img/0000201501010001.jpg">
+</figure>
 
 
 
@@ -55,8 +256,11 @@ Post #113 / Date: November 15, 2014
 
 
 The story came from a saying, "if you cannot describe something clearly with only a few words, you don't actually understand it".
+
 When I describe protons to somebody, he should know atoms in advance. When I describe the difference between <code>document.getElementBy</code> series and <code>document.querySelectorAll</code>, he should know HTML and JavaScript in advance. People must have all common knowledge before talking about something. In the examples above, I mentioned several concepts, and I say the concept <em>proton</em> depends on the concept <em>atom</em>. Later, we will talk about <em>flavor</em> and <em>color</em>, and these concepts depend on <em>quark</em>, which depends on <em>proton</em>. In such a context, if I talk about <em>flavor</em> and <em>color</em>, I should explain what <em>atom</em> is, and then explain what <em>proton</em> is, based on <em>atom</em> which I just explained. For this, I say <em>quark</em> is dependency of <em>flavor</em> and <em>color</em>, and <em>atom</em> and <em>proton</em> are recursive dependencies of <em>flavor</em> and <em>color</em>. To reach <em>flavor</em> and <em>color</em>, I should explain all of its recursive dependencies reversely recursively, if the other one in the conversation don't know them. I say there is a dependency tree.
+
 If I come up with a concept which hasn't been added into the public concept library, it is a <em>private concept</em>. Snow might be a private concept around polar zones out of tropical zones several thousands of years ago, for residents in tropical zones might have no chance to see snow. If I come up a concept whose dependencies include at least one of my private concepts, it is a <em>recursive private concept</em>. I should recursively explain all my private concepts which are its dependencies, before explaining itself. Therefore the barriers in conversation may be resulted by others' lack in my private concepts, instead of my incomplete understanding.
+
 
 
 
@@ -71,10 +275,15 @@ Post #112 / Date: October 2, 2014
 
 
 從未預料到可以在 18 歲前遇見你。曾期許，曾渴望，但這真正來臨太過突然。突然到尚無準備。
+
 此時的我們，還太年輕，仍然期待著遙遠的未來，不安於眼前的彼此。不可避免的吧。等待時間流逝，在我們身邊。然後，經歷過歲月的我們才會安心於彼此吧。只是，這期間如何度過，需要二人共同的努力。
+
 檯燈光影斑駁，紙筆交融娑婆。北京的雨凜冽了風，杭州的你看不到這一切。異步地欣賞，異步地想念，不知線下的共同生活開始後會是如何。會有吸引，會有磨合，不像詩與歌一樣輕鬆容易。
+
 期許著，盼望著，遙遠的未來走近。成長著，凋亡著，兩個人的幸福交匯。
+
 <p lang="ja">あなたをしんじて。
+
 
 
 
@@ -88,12 +297,18 @@ Post #112 / Date: October 2, 2014
 Post #111 / Date: September 24, 2014
 
 
- Due to some reasons that could not be described clearly with only few words, I failed catching up the deadline of Fall 2014. So I have been working in Beijing for four months, from September 10, 2014 to January 10, 2015, and will leave for the United States in January 2015.
+Due to some reasons that could not be described clearly with only few words, I failed catching up the deadline of Fall 2014. So I have been working in Beijing for four months, from September 10, 2014 to January 10, 2015, and will leave for the United States in January 2015.
+
 My current employer, <a href="http://shixiann.com/">Shixiann.com</a>, has encountered me since Spring 2013, and we had agreed that I would intern in the winter vacation of 2014-2015 academic year. The situation has changed, so we started this plan a few months earlier than initially decided. Also, the company has just got offline workplace in this September, and I arrived at Beijing as soon as the renting contract was validated.
+
 Our office is inside Virtue Inno Vally, a large and open working place for startups, at 8th floor of Dinghao Mall, Haidian district.
+
 This is my bootstrapping in career.
+
 Though here is China, this working experience may provide more than an item on résumé. It would appear as internship, however, I am actually the only designer of this company's bootstrapping period until at least my leaving Beijing on January 10, 2015. That means, all designing work is managed by me and I am responsible for overall designing work.
+
 May the Force be with me.
+
 
 
 
@@ -107,7 +322,9 @@ May the Force be with me.
 Post #110 / Date: September 6, 2014
 
 
+<figure>
 <img src="./img/0000201409060001.jpg">
+</figure>
 
 
 
@@ -121,7 +338,9 @@ Post #110 / Date: September 6, 2014
 Post #109 / Date: August 27, 2014
 
 
+<figure>
 <img src="./img/0000201408270001.jpg">
+</figure>
 
 
 
@@ -135,7 +354,9 @@ Post #109 / Date: August 27, 2014
 Post #108 / Date: July 30, 2014
 
 
+<figure>
 <img src="./img/0000201407300001.jpg">
+</figure>
 
 
 
@@ -149,7 +370,9 @@ Post #108 / Date: July 30, 2014
 Post #107 / Date: July 12, 2014
 
 
+<figure>
 <img src="./img/0000201407120001.jpg">
+</figure>
 
 
 
@@ -163,7 +386,9 @@ Post #107 / Date: July 12, 2014
 Post #106 / Date: July 10, 2014
 
 
+<figure>
 <img src="./img/0000201407100001.jpg">
+</figure>
 
 
 
@@ -177,7 +402,9 @@ Post #106 / Date: July 10, 2014
 Post #105 / Date: July 5, 2014
 
 
+<figure>
 <img src="./img/0000201407050001.jpg">
+</figure>
 
 
 
@@ -191,7 +418,9 @@ Post #105 / Date: July 5, 2014
 Post #104 / Date: June 25, 2014
 
 
+<figure>
 <img src="./img/0000201406250001.jpg">
+</figure>
 
 
 
@@ -205,7 +434,9 @@ Post #104 / Date: June 25, 2014
 Post #103 / Date: June 24, 2014
 
 
+<figure>
 <img src="./img/0000201406240001.jpg">
+</figure>
 
 
 
@@ -220,13 +451,21 @@ Post #102 / Date: June 24, 2014
 
 
 生命是有鮮度的。即使身體構造允許，也無法活數千年。在鮮度耗盡時，會開始厭倦活著。厭倦所擁有的生命。
+
 然而，在耗盡鮮度前便已得到安息的人，並不擁有真正的幸福。求生本能，鮮度消耗，一邊是生命誕生之初的原始動力，一邊是無法阻擋的自然衰敗。它們驅使著人，在鮮度殆盡時陷入精神錯亂，在鮮度歸零時既不心甘情願又不心懷眷戀地結束生命。
+
 身體構造阻止我活到宇宙終點，求生本能阻止我主動結束生命，物理規律阻止我抹除我的出生。
+
 終將死亡，為何要有生命?
+
 無法維持鮮度，為何要讓我存在?
+
 隨機碰撞製造出的生命，一開始便沒有意義。生命的意志，也不會接受創造者給予的意義。
+
 被囚禁在「活著的人」這個尷尬的狀態中，永生不得，自殺不得。即使相信可以順利地在開始厭倦活著之前自然死亡。
+
 唯有死亡，方能安息。
+
 
 
 
@@ -241,9 +480,13 @@ Post #101 / Date: April 25, 2014
 
 
 The contract with Mephisto enabled our ancients to evolve, by forcing them die. Death made livings to breed, thus many, but few among all, mutations were selected by the nature to be spread.
+
 Thanks to Mephisto, humans have become wise life. Thanks to Mephisto, livings have kept evolving. Thanks to Mephisto, I have been born.
+
 Thanks to Mephisto, I can think about life and death.
+
 Sacrifice every individual's respective life, to redeem entire species' long living.
+
 
 
 
@@ -258,9 +501,13 @@ Post #100 / Date: February 27, 2014
 
 
 When I gaze at other designers' work, I find me less professional. When I read other programmers' codes, I find me less talented. But I do not have to compare me with them, for I seek much much more.
+
 Great revolutions never come from one single breakthrough. Multiplied UNIX by open source, Linus and Richard got Linux. Multiplied multi-touch screen by specifically redesigned human-interface, Steve, Scott and Jonathan got iPhone. It is not simply adding one onto another, or plus, it is multiplying. Combining is much much more than simply mixing.
+
 This is also true for human individual development, I think, besides for human society. As a designer, I may or may not be greatly outstanding though professional enough, but what if I am also good at programming as same as a graduate from Computer Science major? What if I can also do globalization work for China market? What if I can be glue in a team? What if I can manage both products and visual identity?
+
 I may or may not be the best, but at least I can be unique. My value is the product of various factors with their respective exponents, obvious or potential, such as designing skills, programming skills, photography skills, literature knowledge, traveling experience, cultural background, ability of associating, and much much more. Therefore I can change the world, at least a small part in my domain, in my own way, with my own methodology. Everyone has his own way which cannot be outlined in advance by prior people, and thus everyone explores his own way. It is the way to explore. It is the way to extreme. It is the way to 42.
+
 
 
 
@@ -275,9 +522,13 @@ Post #99 / Date: February 11, 2014
 
 
 To save money on education, I have decided to take AP tests to get credit redemption. So I arrived in Dalian and started to study for AP. Take a series of courses for AP Physics B and Calculus BC.
+
 I rent an underground room for temporarily living near by Ealing, the private educational institute which provides courses for SAT, AP and others. And it was founded by a friend of my aunt. Though no discount offered, she and one of her staff handled my college application thus I can concentrate on my own work.
+
 The room is too cold to sleep in unless electric heating added. Yet the real problem is, there is no space for a desk so I cannot write in the room. Now I am writing in KFC.
+
 The location is quite convenient, because it is near to both Ealing and downtown. 
+
 
 
 
@@ -292,7 +543,9 @@ The location is quite convenient, because it is near to both Ealing and downtown
 Post #98 / Date: February 6, 2014
 
 
+<figure>
 <img src="./img/0000201402060002.jpg">
+</figure>
 
 
 
@@ -307,7 +560,9 @@ Post #98 / Date: February 6, 2014
 Post #97 / Date: February 6, 2014
 
 
+<figure>
 <img src="./img/0000201402060001.jpg">
+</figure>
 
 
 
@@ -321,7 +576,9 @@ Post #97 / Date: February 6, 2014
 Post #96 / Date: January 28, 2014
 
 
+<figure>
 <img src="./img/0000201401280001.jpg">
+</figure>
 
 
 
@@ -336,10 +593,15 @@ Post #95 / Date: January 24, 2014
 
 
 30 years have passed since Steve Jobs introduced Macintosh to the world, and so far both Macintosh and Apple have been greatly appreciated around the world. Especially, I have benefited considerably from Macintosh, Apple, and Steve Jobs.
+
 Thanks to my decision in later 2010 to get a Mac instead of a PC, which looks really profound now. Therefore, I got amazed by both the graceful hardware and the powerful software. It was the first time that I understood how surprising the combination of humanity and technology can be. Thanks to such experience, I eventually decided to be a designer in UI, though not only UI. I feel like managing everything in my own mind. My first Macintosh was the initial acceleration.
+
 Macintosh is the symbol of that stage and an essential milestone along personal electronic devices' development, where most modern genius are spending their intelligence on, where I will also take part in. Hard to imagine what if I didn't decide to get a Mac. Hard to imagine what if I get a Mac more later. Hard to imagine what if I failed in getting a computer.
+
 Therefore, I appreciate Macintosh much more than others do. My appreciating is beyond admiring, but acknowledging.
+
 An essential encounter, in not only my life, but also this era.
+
 
 
 
@@ -353,7 +615,9 @@ An essential encounter, in not only my life, but also this era.
 Post #94 / Date: January 1, 2014
 
 
+<figure>
 <img src="./img/0000201401010001.jpg">
+</figure>
 
 
 
@@ -367,7 +631,9 @@ Post #94 / Date: January 1, 2014
 Post #93 / Date: December 24, 2013
 
 
+<figure>
 <img src="./img/0000201312240003.jpg">
+</figure>
 
 
 
@@ -381,7 +647,9 @@ Post #93 / Date: December 24, 2013
 Post #92 / Date: December 24, 2013
 
 
+<figure>
 <img src="./img/0000201312240002.jpg">
+</figure>
 
 
 
@@ -395,7 +663,9 @@ Post #92 / Date: December 24, 2013
 Post #91 / Date: December 24, 2013
 
 
+<figure>
 <img src="./img/0000201312240001.jpg">
+</figure>
 
 
 
@@ -410,11 +680,17 @@ Post #90 / Date: December 16, 2013
 
 
 After having taken my first IELTS test, I came back to Liaoyang yesterday.
+
 The two months flew by quickly, yet it's still a question how much my English skills have been developed. It is common sense that most people can hardly get ideal score at the first time, as same as TOEFL.
+
 Unfortunately I have not decided to continue preparing for IELTS or to go for TOEFL yet. I am not sure does the style of TOEFL match my current knowledge structure and how much has to be rebuilt. I makes great cost to transfer form IELTS to TOEFL, as same as to transfer from studying abroad to preparing for China University Entrance Exam.
+
 I am either not sure how long will I stay in Liaoyang this period, maybe two days maybe one week, or even longer.
+
 Now I am sitting in the classroom of my classic Liaoyang #1 High School, and Mrs Kang, the chemistry teacher, is lecturing. I am int the classroom but not in the lesson. I have lost the ability to take part in such science lessons.
+
 The winter has come, but my future is still covered my mist.
+
 
 
 
@@ -428,7 +704,9 @@ The winter has come, but my future is still covered my mist.
 Post #89 / Date: November 16, 2013
 
 
+<figure>
 <img src="./img/0000201311160001.jpg">
+</figure>
 
 
 
@@ -443,10 +721,15 @@ Post #88 / Date: November 9, 2013
 
 
 Perhaps I will fail my dream? But I decide not to give up. Perhaps my hard work will be proved useless? But I decide not to betray.
+
 I am a round peg in square holes, which means I have no typical options. I am a misfit among troublemakers, which means I have to be crazy. Because the people who are crazy enough to think they can change the world are the ones who do. Obviously, the possibility of my success is unknown and apparently not high, but I have to go onto this way.
+
 I have the chance to change the world, but maybe the fortunate I do not have. There will be someone of similarity with me to change the world, but not exactly who is chosen by fate. I almost have every necessary virtue for my dream, but it has not been clear whether I will be the one. I have my destiny to meet, though undefined yet. I will have my destination to arrive, though unclear yet.
+
 Life is a game, and I have to make every effort to fight. What if I fail and get proved not talented enough? It will make no sense to talk about me, a nameless loser. What if I fail but with enough talent? Unaffordable will such huge loss be.
+
 I must and will try my best to make my ding in the universe, for not only myself but entire human race. Especially since I want to be the next Prometheus.
+
 
 
 
@@ -460,7 +743,9 @@ I must and will try my best to make my ding in the universe, for not only myself
 Post #87 / Date: November 9, 2013
 
 
+<figure>
 <img src="./img/0000201311090001.jpg">
+</figure>
 
 
 
@@ -474,7 +759,9 @@ Post #87 / Date: November 9, 2013
 Post #86 / Date: November 3, 2013
 
 
+<figure>
 <img src="./img/0000201311030002.jpg">
+</figure>
 
 
 
@@ -488,7 +775,9 @@ Post #86 / Date: November 3, 2013
 Post #85 / Date: November 3, 2013
 
 
+<figure>
 <img src="./img/0000201311030001.jpg">
+</figure>
 
 
 
@@ -502,7 +791,9 @@ Post #85 / Date: November 3, 2013
 Post #84 / Date: October 25, 2013
 
 
+<figure>
 <img src="./img/0000201310250001.jpg">
+</figure>
 
 
 
@@ -517,9 +808,13 @@ Post #83 / Date: October 16, 2013
 
 
 This morning I got my report of the pretest, which shows that my ability is fine and I can get 5.0 after these courses, and I have a high possibility to get 5.5 as well.
+
 Then I took my first speaking class and first listening class here. Liang Wang and Xiaoli Ma are my speaking teachers and Ou Lee is my listening teacher. In the listening test provided by Ou Lee, I worked out 29 out of 40, and got 6.5 in total. This is encouraging.
+
 And I got my room, and started to live with an international student, a Muslim, from Tajikistan. He told me that being naked in front of others in his religion is not a good behavior, after my taking a shower.
+
 I understand the future is coming.
+
 
 
 
@@ -534,11 +829,17 @@ Post #82 / Date: October 14, 2013
 
 
 Today, I have arrived in Shenyang. In the following two months, I will take a 160-hour English course for the IELTS. After having considered the situation, I finally decided to prepare for the IELTS rather than for the TOEFL.
+
 At 10:00, we four students took a pretest intending to figure out our current abilities, so they would be able to design the entire plan.
+
 The first section was speaking. A lady sat in front of me. She came up with the first question, or to say topic, the brand of my phone.
+
 We then took the listening section, reading section, and writing section. The listening section was a conversation between a student and a clerk in bookstore. They were discussing discount policy for students. The article was about the construction of Snowy Mountain Scheme, a hydro-electric power station in Australia. Finally the writing section asked me to describe a graph exposing the wheat exports of European Community, Australia, and Canada, from 1985 to 1990. I worked poor. Spare my handwriting.
+
 After lunch, we got to the agency which had handled my applications. My mother and I talked with Mr Xing about my destinations, and chose several universities. I asked if it would be ok for me to apply for universities with such high rank, considering I won't provide SAT, and my IELTS score won't surpass 6. He convinced me that they could manage it. And I registered for the IELTS on Dec 14, 2013.
+
 Several years later, today will be considered as my most essential day in 2013, even in my entire lifetime.
+
 
 
 
@@ -552,7 +853,9 @@ Several years later, today will be considered as my most essential day in 2013, 
 Post #81 / Date: September 29, 2013
 
 
+<figure>
 <img src="./img/0000201309290001.jpg">
+</figure>
 
 
 
@@ -567,11 +870,17 @@ Post #80 / Date: September 2, 2013
 
 
 再過些天就是我的 18 歲生日了，想到這事不免一陣感慨。
+
 待到數十年後，是誰輕輕落淚在誰的腮邊，是誰靜靜躺在誰的花下?待到數百年後，世人因我而記得你，還是因你而記得我?待到數千年後，我們的肉體與產生的信息一同淹沒在浩蕩的歷史中，對人類的影響又會淡到如何?
+
 若你先我離去，我不知道之後的人生該如何度過。終日徘徊在繁忙又空曠的街頭，迴盪你溫柔的聲音。若我先你離去，我不忍心你承擔同樣的痛苦。面對我的遺像凝神惆悵，每夜在沒有我的床上輾轉反側孤獨終老。
+
 我是唯物主義者，沒有上帝的眷顧，沒有佛祖的保佑，去不得天堂，得不到轉世。我選擇了用奧卡姆剃刀將他們砍碎時，就接受了死無所去的結局。
+
 然而離世的先後卻不是你我所能決定，交給歲月去安排反而更容易坦然面對、欣然接受。
+
 人之大限，終將至焉。君以為伴，此生幸哉。
+
 
 
 
@@ -585,7 +894,9 @@ Post #80 / Date: September 2, 2013
 Post #79 / Date: September 2, 2013
 
 
+<figure>
 <img src="./img/0000201309020001.jpg">
+</figure>
 
 
 
@@ -600,10 +911,15 @@ Post #78 / Date: August 29, 2013
 
 
 I used to be separated from the Internet. I used to be offline. I used to sorrow about graduating from middle school and scattering from classmates. Yet, nowadays, I have found that I will not worry about same things of secondary school. For I live on the Internet more than live in local.
+
 It is said that we are losing face-to-face communication when building online connection. True, but we are also touching people who may otherwise never have an offline encounter. And generally relationship based on interest are more stable than those based on location. Now we are eventually seizing the fortune to place interest over location. At least, I get more rather than lose.
+
 Perhaps the distance make us difficult to meet offline, but it has a higher possibility that we would otherwise never know each. Perhaps we thus lower the standard when considering what are good shapes of humans' relationship, but more important can it be to keep in touch.
+
 Dramatically, now I eventually live on the Internet more than live in local. I came up with an idea that all people can be categorized by interest and faith but locations of birth range randomly, so people spend their entire lifetime on seeking similar people. It is not a serious philosophic theory but at least I found it true for me. I am a round peg in square holes.
+
 I live on the Internet. Virtual but real, abstract but exact, dramatical but rational, extrareal but fundamental. This is the form I exist, the way I've chosen. How infinite information fled people's minds? How various dreams fade in a brain? How visions of phantasms emerge from mental racing? How I live on the world.
+
 
 
 
@@ -618,8 +934,11 @@ Post #77 / Date: August 28, 2013
 
 
 這個情緒的波峰於波谷處於疊加態的時刻，終於還是到來了。陰沈的天空，也在映襯著或預兆著某些未知。
+
 穿上這身已些許陌生的校服，走過昨夜被暴雨沖刷的空氣。驟降的氣溫，仍綠的草木，構圖極不協調。踱步在潮溼的瀝青路上，仰望滿天烏雲，低吟逆鱗之歌。疲倦仍舊籠罩著我。昨晚睡得很早，卻無濟於事。
+
 我不想再描寫雨了，也不想再感慨過往了。去年秋天的所思所寫，已夠沈重。待到明年此時，我或許也會如此傷感罷。高中這三年的生活雖痛苦但也有快樂，只是快樂的部分不在校園裡。而這痛苦，隨著衰老愈發深切。流失於指縫的歲月，握得愈緊流得愈快。
+
 
 
 
@@ -634,9 +953,13 @@ Post #76 / Date: August 25, 2013
 
 
 翻閱起從前的文章，才發覺竟有數月未曾使用中文寫作了。這個夏天留下的文字也出奇地少，便提起筆來，矯情一番罷。
+
 這個月在大連新東方學習了 TOEFL 基礎全程培訓課程，收穫不知是多是少，但也算有意義。這些天，主要是住在表姐家中，學習英語之餘積極參與 HumansMap 網頁版的 UI 設計。帶去的小說沒抽出時間閱讀，也是意料之中。
+
 回到遼陽，比原先的計劃早了幾天。回家後也不清閒，做著有靈感或沒靈感的設計，準備開學後的相關事宜。學校的作業，未曾動筆，不知新班主任會作何感想。
+
 就要開始高三的生活了，誰知道未來的路會怎樣呢。
+
 
 
 
@@ -650,7 +973,9 @@ Post #76 / Date: August 25, 2013
 Post #75 / Date: August 1, 2013
 
 
+<figure>
 <img src="./img/0000201308010001.jpg">
+</figure>
 
 
 
@@ -664,7 +989,9 @@ Post #75 / Date: August 1, 2013
 Post #74 / Date: July 25, 2013
 
 
+<figure>
 <img src="./img/0000201307250003.jpg">
+</figure>
 
 
 
@@ -678,7 +1005,9 @@ Post #74 / Date: July 25, 2013
 Post #73 / Date: July 25, 2013
 
 
+<figure>
 <img src="./img/0000201307250002.jpg">
+</figure>
 
 
 
@@ -692,7 +1021,9 @@ Post #73 / Date: July 25, 2013
 Post #72 / Date: July 25, 2013
 
 
+<figure>
 <img src="./img/0000201307250001.jpg">
+</figure>
 
 
 
@@ -707,12 +1038,19 @@ Post #71 / Date: July 7, 2013
 
 
 After the incredibly huge wave of discussion about iOS 7's changes on GUI, people eventually take another breath to care about OS X Mavericks. From the public introduction and preview of it, The trend of flat design has also appeared on OS X. The background tile images of Notification Center, Dashboard, and Launchpad folders, have got replaced, or disappeared. OS X is going to be flatter.
+
 I hate flat.
+
 What if interact with a machine without even at least one visual metaphor? What if touch a screen without even at least one familiar element? I cannot imagine it, nor accept it. What a nightmare.
+
 Then, what if OS X eventually gets as flat as iOS 7 or even more terrible? Beyond imagination. In case of that, I have to build my own OS, temporarily named NeOPSTEP.
+
 Ideally, I hope that NeOPSTEP is a FreeBSD-based OS, or directly powered with OpenDarwin. Yet I am not a programmer so I may or may not be able to create an OS with only these fundamental wheels. It will take time to investigate and find the right wheels.
+
 Before creating my fork, I have got started to design the GUI. My purpose is to inherit the style from Mac OS X Tiger to OS X Mountain Lion, but I cannot simply copy those because of copyright issue. Right now I am working on the default desktop picture, which is similar to the Aqua Blue of Mac OS X Tiger.
+
 When we are decided to betray, I stand out and fight for our faith.
+
 
 
 
@@ -727,9 +1065,13 @@ Post #70 / Date: July 7, 2013
 
 
 從可考證的歷史來看，我的發情週期大約是半年。平均每隔大約半年，我就會放棄之前的追求，另有新歡。跳出其中，置身事外，反思時便會意識到大多只是被其萌點所誘惑。但是，你不一樣。
+
 對其他人，我的熱度只能持續大約半年。在你之後的那些人，也不例外。即使已經將目標改成其他人，你仍然折磨著我。一時間的誘惑容易淡忘，半年便可隨風而去。然而我被你的靈魂深深吸引，難以自拔。就像早前的文章提及的，我們的靈魂太過相似，似乎一定會互相吸引。如此斷言你也同樣被我吸引，略有些自視過高，但在邏輯上顯得合理。
+
 你的心似琉璃易碎。這個事實在剛剛進入高中的那個秋天我便已有所體會。在我看來很正常的行為，卻太過容易踩到你的尾巴。你的雷區面積大得驚人，而且剛好專門為我設計。近來，你的雷區似乎小了許多，但那樣的互動卻可望不可及。就連與你在線下對話，都使我壓抑和痛苦。唯有小心翼翼，才能免致傷你感情、辱你尊嚴。與別人談及你時，也會提醒其莫在你面前提起我。
+
 能在茫茫人海中注意到你，實乃莫大的榮幸。可惜相識的時間不理想。早至初中或晚至大學，或許能得以避免如此痛苦。
+
 
 
 
@@ -743,7 +1085,9 @@ Post #70 / Date: July 7, 2013
 Post #69 / Date: July 7, 2013
 
 
+<figure>
 <img src="./img/0000201307070001.jpg">
+</figure>
 
 
 
@@ -758,7 +1102,9 @@ Post #68 / Date: June 30, 2013
 
 
 我對空無一物的虛無低語，你卻接過話題，讓我原本無意義的話語有意義。恰恰這份榮幸，令我感到沈重。或許這也是獨立性的一個體現吧。你的關心，你的親切，被我當作「不是我應得的榮幸」。
+
 我會很慷慨，很願意幫助別人。但是當有人像我一樣對我熱情、親切，給予我「過多」感情時，我會產生負罪感。我對人善，是我自己選擇的態度和方式。而這份善的回報，卻不是我應得的。
+
 
 
 
@@ -772,7 +1118,9 @@ Post #68 / Date: June 30, 2013
 Post #67 / Date: June 30, 2013
 
 
+<figure>
 <img src="./img/0000201306300002.jpg">
+</figure>
 
 
 
@@ -786,7 +1134,9 @@ Post #67 / Date: June 30, 2013
 Post #66 / Date: June 30, 2013
 
 
+<figure>
 <img src="./img/0000201306300001.jpg">
+</figure>
 
 
 
@@ -801,11 +1151,17 @@ Post #65 / Date: June 29, 2013
 
 
 Just uncovered splendid tours
+
 Edge departed gate emerged
+
 Make anchors keeping erect
+
 Each angle covering heart
+
 Rain accumulating inside nexus
+
 Yoke on kindling even
+
 
 
 
@@ -820,10 +1176,15 @@ Post #64 / Date: June 29, 2013
 
 
 I've watched WWDC 2013 Keynote, and found iOS 7 terrible, and found my being betrayed. Apple will no longer hold on its spirit, and the loss can hardly be repaired. I used to believe that I love Apple, but recently I learned that I love a team consist of Steve Jobs, Scott Forstall, and Jonathan Ive.
+
 After having swept out Steve Jobs, Apple still had an opportunity to recover, because it was the prologue era of computer industry's rising. Having left Apple, Steve Jobs founded NeXT and beat Macintoshes down. Eventually Steve Jobs got back to Apple through the acquirement.
+
 Perhaps Scott Forstall will create an epic as next NeXT, but now there isn't an opportunity like that. While video games are almost for Windows and PS and XBOX, professional creative productivity tools like Photoshop and AutoCAD are almost for Mac, and server softwares are almost for Linux and UNIX. There is no point left to cut in for Scott Forstall.
+
 We are watching an invisible war between Scott Forstall and Jonathan Ive. After Scott Forstall's formally leaving Apple, it will be declared, also invisibly.
+
 I am looking forward to next NeXT.
+
 
 
 
@@ -838,19 +1199,27 @@ Post #63 / Date: June 29, 2013
 
 
 I wanna hold your hand
+
 And hand in hand
 
 
+
 I wanna watch your eyes
+
 And eyes towards eyes
 
 
+
 I wanna trace your dream
+
 And dream beside dream
 
 
+
 I wanna accompany your soul
+
 And soul across soul
+
 
 
 
@@ -865,8 +1234,11 @@ Post #62 / Date: June 10, 2013
 
 
 The dance show in Jun 2, 2013 was successful, and Muhuan got famous among grade 10 students. The only pity was that my posters were not printed and then presented in front of all people in the school.
+
 I have read <em>The Dark Templar Saga: Firstborn</em>, a sci-fi story based on <em>StarCraft</em> written by Christie Golden. I followed Jacob Jefferson Ramsey who will inherit the entire knowledge of Protoss from Zamara, the Preserver whose soul was injected into Jacob's brain. Zamara told Jacob the history through dreams, that how Savassan, known as <em>Khas</em>, the bringer of order, who ended Aeon Of Strife, and rediscovered the ancient knowledge from Xel'Naga and forgotten by Protoss. Khala, the path to order, proposed by Savassan, gather the Protoss into one. Lyric is poor, but becomes moving if mixed with music and voice. The comparison was from Jacob. I am looking forward to reading the other two books of following story. I have been convinced that it would be fascinating. This book was supposed to be read completely at the end of my secondary school life previously, because of my lack of confidence in reading English. Yet to my surprise, I finished it one year earlier.
+
 Then in the following three days' break, maybe I will read the biography of Steve Jobs, as a challenge for me. Also maybe not. I bought many books on Amazon for 51% discount for all books on Jun 1, 2013.
+
 
 
 
@@ -880,7 +1252,9 @@ Then in the following three days' break, maybe I will read the biography of Stev
 Post #61 / Date: June 9, 2013
 
 
+<figure>
 <img src="./img/0000201306090001.jpg">
+</figure>
 
 
 
@@ -895,11 +1269,17 @@ Post #60 / Date: May 17, 2013
 
 
 Under Miserdux's invitation, I have joined the dance club of our school and get started to work as a music master in a break dance project, whose leader is Miserdux. My job is casting and cutting music for tho dance, supposed to be suitable, regardless how far changed.
+
 Yet actually I had to join in their practicing or I could not understand what was demanded. I listened to my work and watch their practicing. They were supposed to give a formal show in middle May, but it was difficult. As is totally convinced, they should work as a team, but one often came late, or disappear for minutes during practicing at noon. I really wanted to spank him. Not only he, but also some others worked negatively on practicing. I worried about if they could complete practicing and get ready before deadline. But if I really had spanked one or have worked as a ruler, they would complain their getting an officious daddy besides a music master.
+
 These days I was busy on working. I mean, on editing music. When drawing near the deadline, I had almost completed my work. But unfortunately some minor problems still remained. However they were really minor.
+
 On May 15, just as in the plan, despite the disappointing stories above, they eventually succeeded in giving the formal show, which had consumed my a large amount of patience. Though they were lack in team working awareness, they at least had united to try to drive me crazy and angry. Such naughty boys were really confusing.
+
 But obviously I did not meet the fortunate otherwise what happened the next day would not happen. They did nothing except wasting time, thanks to Muhuan Lee, the one not only should get spanked as mentioned above because of previous bad acts, but also disappeared for some certainly reasonable unknown excuses. Hey look how long a sentence I am using to complain him.
+
 Maybe I really should work more than a music master.
+
 
 
 
@@ -914,9 +1294,13 @@ Post #59 / Date: May 17, 2013
 
 
 Before realizing Spring's stepping near, Summer has come. North East China is such strange an area that few people understand the real concept of Spring. Anyway I don't think I would like to consider the waves of temperature's increasing in early May as Spring's gift.
+
 Without having obtained much attention, trees and grass turned to green soon. Maybe in these weeks I was too busy to get any glimpse of plants' reviving. And it was a long time that I not to write poetries or essays or something else fascinating in literature.
+
 Seriously warmed wind blows in sunshine, yet at night still cool enough. But everything cannot be beautiful enough when associating to remained days to any exams or deadlines. Lack of time and shortage of skills are driving me mad.
+
 Anyway I can only advance as far as possible.
+
 
 
 
@@ -931,9 +1315,13 @@ Post #58 / Date: May 12, 2013
 
 
 As expected, the mid-semester exam has done. I have risen by 61 ranks, to the 580th out of about 780 science students in grade 11.
+
 And I have founded Unworsable, which refers to “un-worse-able”, to let people share criticizing about terrible designs. Domain “unworsable.com” was registered at Go Daddy and server was provided with by Jemery Wu. I also have created a Twitter account, a Facebook page, and a Weibo account to promote it.
+
 I have joined a dancing community in school, which is now training a dance that needed me to work on music. I chose and recompose music, and make it suitable for their dance. But unfortunately I have to do more work, just like adding an extra drums track.
+
 Despite memorizable experiences above, these weeks were still not significative. Just like a silent walk in my life, without any lead, pad, accompaniment, or chord. Sounds were disabled.
+
 
 
 
@@ -948,10 +1336,15 @@ Post #57 / Date: April 27, 2013
 
 
 After these unremarkable and worthless days, a piece of news about mid-semester exam was published today afternoon. And months later this semester will draw to its end, in the way how semesters did in history. So far I haven't started a new state of working, or picked up my lost energies yet, thus no good grade will be gained in foreseeable future.
+
 Also, my 11th school-year would draw to its end. Couples of weeks later. But unfortunately the tempo in my mind of working is still so soft and slow like an ancient Chinese ballad, or a Beijing Opera. Lack of execution is still a terrible trouble for me, since more than one year ago, when the previous Class 12 was dismissed. I don't think I have any love to that community, but I haven't worked better so far from that.
+
 And in August of 2013, I will go to Dalian for a 19-days-long English training course, before my first attempt to TOEFL iBT, which might take place in Aug 14, 2013.
+
 If the TOEFL iBT score will be enough, maybey at least 61, applications to a few universities would seem to be under consideration. If not, I would try one more time later. And whatever my grade would be, I will go into my final year in secondary school. The following school-year, which combines 2013 with 2014, truly won't be the last school-year I will take as secondary school student in the strictest context, but obviously I won't feel like taking one more year in secondary school.
+
 A blurry shape of vista is forged. It's increasingly clear, and is stepping closer. I can see a destination approaching, with an unknown permanent change which would take place regardless whatever I react.
+
 
 
 
@@ -965,7 +1358,9 @@ A blurry shape of vista is forged. It's increasingly clear, and is stepping clos
 Post #56 / Date: April 20, 2013
 
 
+<figure>
 <img src="./img/0000201304200001.jpg">
+</figure>
 
 
 
@@ -983,6 +1378,7 @@ There are mass ways to consider the world, and I choose one conclusion to believ
 
 
 
+
 --------------------------------------------------------------------------------
 
 
@@ -994,9 +1390,13 @@ Post #54 / Date: April 2, 2013
 
 
 夜風的聲音吹散這寧靜
+
 殘缺的燈光匯成這身影
+
 稀疏的雲層擋不住繁星
+
 霧散後思緒只剩下透明
+
 
 
 
@@ -1011,13 +1411,19 @@ Post #53 / Date: April 1, 2013
 
 
 春之初雨
+
 滲透著思緒
+
 漸漸扭曲
 
 
+
 風之低語
+
 模糊了焦距
+
 緩緩飄去
+
 
 
 
@@ -1032,11 +1438,17 @@ Post #52 / Date: Mar 27, 2013
 
 
 Two years' time have passed so fast. Previous visions are still floating over my sight, but only several single static frames have remained.
+
 Two years ago, I was in the last academic year of middle school. In that March, Spring was coming, and, background chords in our hearts were slow and soft. Sky was blue and clear.
+
 Inside the memories, those desks, chairs, blackboard, playground, and people, appear somehow clearly and somehow blurry, among warm wind. The scenes were written in memory and are being read from memory. Such visual memory, beyond description.
+
 Different from previous experiences of reading scenes from memory. This time, no picture flow or play, only static frames, and not even colorful. Touching the memory, I want to recall the age, the last March we got together, the last Spring the people were still around me. The stream of time flows quickly or slowly from time to time, but far memories won't be recalled as same as the original version all the time.
+
 Combination of time's flowing and memories' recalling is always a sorrowful and painful topic, even reading previous diaries is. And mostly the weather is the catalyst. Today noon, invisible rain had come, made my mood blue. Voiceless chords are surrounding me, playing a wordless song.
+
 Again, immerse into memories.
+
 
 
 
@@ -1051,8 +1463,11 @@ Post #51 / Date: Mar 19, 2013
 
 
 Once the Spring approaches, but the temperature fluctuates rulelessly. The wind blows, blows, and blows. Different strengths, different directions, different temperatures, and different senses. With the twilight floating and sinking, with the stars blinking and hiding, various emotions in the wind were filling my mind.
+
 In the wind, I heard various voices, which contained hope, sorrow, and pain. And soon I found that they were echoes from my mind. Had been generated in my mind, and surrounded me in wind, the voices were hard to track back their origins. Therefore, senses vanished in wind, and absorbed into my mind again.
+
 There was something, really chaotic.
+
 
 
 
@@ -1067,10 +1482,15 @@ Post #50 / Date: Mar 12, 2013
 
 
 Again, snow droped. But, differently, this time, sky was clear. However the color is, snow was always similar, though I get various emotions from snow. And the secrets inside, were buried in snow.
+
 Once more a time, I wrote chatacters on the snowed ground to the north of our class house, by feet. Before, I wrote words like "I love Sm抹茶", but this time I wrote "404 Not Found". It was easy to understand. If anyone asks me which is the one I love, I used to answer that he was Jiafan. But from sometime, the answer changed to "404 Not Found". The value of the variable, updated to NULL.
+
 Yet, snow is always merely snow, feelings are attached by people. In different cultures, symbols are similar. And however the cultures evolve, symbols would hardly change.
+
 Bare trees aside the trail, were poorly covered, and stood in the cold wind with snow. Snow fell. Wind blew. Thoughts flew. I caught everything dissolved in air, and shot the sight in memory. Sky, ground, and horizon, were tinted to white.
+
 My lover is null. My love is blank. My heart is vacant. My anxiety is hollow. My mind is idle. My thoughts is white.
+
 
 
 
@@ -1085,8 +1505,11 @@ Post #49 / Date: Mar 3, 2013
 
 
 從我放棄擁有你的願望開始算起，15 個月於經過去了。載著殘餘的執念，我寫過「風蕭蕭兮雨瑟瑟」、「落葉堆成你的名字」、「深秋之戀」、「這就是關於我和你的悲劇了吧」。
+
 現在，對你的執念也已消磨殆盡，只剩下肉體的慾望。看到你，我的心中就會翻滾起強烈的邪念，在黑暗中悄悄沸騰。我渴望壓在你身上，渴望用我的硬度貫穿你，渴望用我的液體填充你，渴望施加你被擴張的疼痛，渴望看到你忍受苦難時屈辱的表情。侵略你的身體，玷污你的靈魂，這污穢至極的慾望，我一直在用理性壓抑。然而，越是壓抑，就越是渴望。
+
 或許有一天我的理性終將敗給慾望，對你犯下這些罪行?我無法預知。
+
 
 
 
@@ -1101,9 +1524,13 @@ Post #48 / Date: February 28, 2013
 
 
 Wind blows and snow flows. Dirty sky, tinted by clouds.
+
 Sunshine crosses clouds and reflection happens everywhere. Light goes and extend, and shapes are fetched by retinas. Finally, mixture of shapes and colors is named sight. Floodly, snow drops. Quite huge pieces of snow have filled the ground. Confusingly, the sight goes sepia. Motivation is kind of sceneful, especially the flow. Snow flows, flows, and flows. As if memories flow.
+
 Oh, memories. They are worthy, however, bringing the passed history experienced, is sorrowing. Because of the weight. My id is so strong that I cannot help thinking of that. The passed age floats up to the surface of my mind. Under id's driving, I uncover the memories and repeat the experience, once, twice, again and again, infinitely loop. I cannot hold back my mind, cannot decline the association. I remember the time. It was ageful, historyful, joyful, and painful. Enjoying, enduring, but also sorrowing. I sorrow that time flew by. I sorrow that joyful age passed soon. Once blinked eyes, everything had already gone. How painful. How sad.
+
 I haven't escaped from the shadows yet.
+
 
 
 
@@ -1118,9 +1545,13 @@ Post #47 / Date: February 25, 2013
 
 
 地球的半徑是 6371 千米，我的身高是 1.8 米。根據三角函數可以算出我與地平線的距離。這個數值，即是我能看到的路的最遠點。
+
 對未來有所規劃，是人類的共性。但是，規劃的長度，卻必然有個極限。這個極限的位置，難以接近終點。我可以盡情規劃，但是 40 年後、50 年後會如何我無法預預想。太過遙遠的未來，不確定的因素超出了誤差允許的範圍，所以圖景的清晰度也落出了誤差允許的範圍。
+
 在這條路上，看不到終點，只能一步一步走下去。真正會走向哪裡，無法預知。
+
 前方的懸崖，不知能否飛越。
+
 
 
 
@@ -1134,7 +1565,9 @@ Post #47 / Date: February 25, 2013
 Post #46 / Date: February 15, 2013
 
 
+<figure>
 <img src="./img/0000201302150002.jpg">
+</figure>
 
 
 
@@ -1148,7 +1581,9 @@ Post #46 / Date: February 15, 2013
 Post #45 / Date: February 15, 2013
 
 
+<figure>
 <img src="./img/0000201302150001.jpg">
+</figure>
 
 
 
@@ -1163,13 +1598,21 @@ Post #44 / Date: February 10, 2013
 
 
 中華文化的傳統節日，在大中華文化圈乃至全人類社會影響力最大的，應當就是春節了吧。春節時，無論身在何方，中國，臺灣，新加坡，USA，擁有中華血脈的民眾，或只是日本、越南這類「亞洲」遠親，大多數都會享受這個深有歷史的節日吧。我也是如此，無論未來身在何方、心在何方，都會視春節為重要的節日。這就是文化的烙印。
+
 除夕剛好有降雪，在我印象中是少有的巧合，但昨天確實發生了。昨天下午，我望著窗外飄揚的雪花，心中翻滾起莫名的感慨。
+
 人類固有的思維模型——過去、現在、未來。
+
 翻看起數個月前寫的文字，想想 17 年多以來的經歷，恍若一場夢。關於春節的記憶，關於雪的記憶，淡得令我驚訝。未來又會產生什麼關於春節、關於雪的記憶，現在也是一個謎。
+
 在深夜裡神智不清地用筆和紙消磨時間，不急不慢地寫些簡單而又傷感的文字，是最原始最純粹的樂趣。似乎，很久，沒有體會了。
+
 凝著冰的玻璃窗透進來些許的微光，夜幕很快退去了。關閉檯燈，透進玻璃窗的光已經足夠我辨識紙上的字跡了。
+
 望向窗外，足夠明亮，卻看不到太陽，看不到地平線。
+
 唯有藍天，唯有雪地。
+
 
 
 
@@ -1187,6 +1630,7 @@ Post #43 / Date: February 4, 2013
 
 
 
+
 --------------------------------------------------------------------------------
 
 
@@ -1201,6 +1645,7 @@ Post #42 / Date: January 23, 2013
 
 
 
+
 --------------------------------------------------------------------------------
 
 
@@ -1212,26 +1657,41 @@ Post #41 / Date: December 31, 2012
 
 
 青石街邊 昏黃孤燈幾盞
+
 暗影盤旋 心似落葉輾轉
+
 點滴想念 潤濕雙眼
 
 
+
 帶著夕陽最後的溫暖
+
 輕輕飄落記憶的碎片
+
 曾經渴望守候的永遠
+
 你的歌聲迴盪在天邊
 
 
+
 那年秋天 寒風中顫抖的雙肩
+
 幾張膠片 定格了你的容顏
+
 思緒蔓延 連成閉合曲線
+
 過往的畫面 一幕幕重現
 
 
+
 又是一個雨天 回憶若隱若現
+
 皓月殘 餘暉漸遠 沉入夢的開端
+
 任憑歲月浸染 回不去的從前
+
 我聽見 風中消散 一曲深秋之戀
+
 
 
 
@@ -1248,18 +1708,27 @@ Post #40 / Date: December 15, 2012
 很久很久以前，那時我對世界知之甚少。
 
 
+
 我時常獨自坐在窗邊，或漫步戶外，沈浸在我的世界裡。初綻的桃花，寧靜的細雨，滿地銀杏落葉，紛飛的雪，我都能細細感知、品味。純粹的感情，任由其沈澱、萌發。一點一滴的觸動，濺起一圈圈漣漪，在無比澄澈的水中擴散，細膩而又輕柔。發散，聚合，發散，聚合⋯⋯最終這純淨的愉悅化作靈魂的慰藉。
+
 後來，我變得越來越開朗了。
+
 雖然能做到在人群中不迷失自我，但感知自然的愉悅缺不可避免地減少了。多方權衡、斟酌損益，避開不必要得共處，終究不及與人們劃清界限來得直接有力。居於人群中，太多的時間和精力都浪費於交際，沒有機會沈浸在那純淨的愉悅中。
 
 
+
 曾經的我，無人陪伴，卻從不孤獨。
+
 那些幻想延伸、展開，彼此聯結、交融，匯成一幅綺麗的畫面。它來自我，也只有我能理解。那便是我的世界，我的感情。來自客觀世界，因與我的共鳴，成為我的一部分。不分內外，不分彼此，融為一體。
+
 現在的我，人群之中，卻少有愉悅。
+
 人們過多地打擾我的生活、佔用我的時間、侵犯我的思想、抑制我的靈感，使我再也無法像從前那樣有足夠的時間享受我樸素而又綺麗的幻想。時間太久，構造幻想的能力也會退化。
 
 
+
 遠離人群，回到本初，回歸真實的我。
+
 
 
 
@@ -1274,11 +1743,17 @@ Post #39 / Date: December 14, 2012
 
 
 你問我，我有什麼新作品，我給了你我的博客的「詩歌」標籤的網址，卻沒有告訴你，數量如此稀少，質量也大不如前。
+
 堆砌詞句，終究不及曾經「雨落淺池」凝聚的愛與痛。
+
 對於我深沈而又遙遠的關切，你警惕地保持距離。你看到了關切背後的貪慾，或感受得到我深藏的執念?我得不到答案。從保持警戒，到渴望遠離，再到痛恨、鄙視，這個過程中，你的思想感情如何變化?我在你心目中的形象又發生了怎樣的變遷?我也得不到答案。
+
 我們有太多的共同之處，最相似的便是在思維上的作風了。我們都習慣於將所有的思想藏在內心深處，表面上只留風平浪靜。通過寫出的文字可以略微瞭解，但文字背後真正的情感，卻無法捕捉。
+
 同樣地，你也不可能理解我的情感。
+
 因為靈魂的相似，我曾經對你產生了強烈的渴望。同樣因為靈魂的相似，我們無法完全地互相理解。即使在一起，彼此相望、對視，最終也只有嘆息。
+
 
 
 
@@ -1296,6 +1771,7 @@ Post #38 / Date: December 10, 2012
 
 
 
+
 --------------------------------------------------------------------------------
 
 
@@ -1307,26 +1783,43 @@ Post #37 / Date: December 7, 2012
 
 
 If you feel tired
+
 If you shed tears
+
 Stop sorrowing
+
 Stop to stand up
+
 Bring your eyes up to the sky
+
 And find what is real
 
 
+
 Entire human on the world
+
 Not everyone knows you
+
 They disagree
+
 They against
+
 They criticize
+
 They attack
 
 
+
 Ignore them
+
 Out of mind, out of influence
+
 Because your life is yours
+
 Do what you want to do
+
 Be what you want to be
+
 
 
 
@@ -1341,16 +1834,25 @@ Post #36 / Date: December 7, 2012
 
 
 急劇下降的氣溫，宣告著冬的降臨。在感恩節前後的雪給過預示後，終於來了。
+
 我很容易被季節影響情緒和心態。雖然不利於學業，不過能保持我對自然的敏感、與自然無法切斷的共鳴。
+
 就是這個初冬，我也隨之冷卻了。冷漠，而又堅強。
 
 
+
 冬像是一座墳墓，將一切埋葬，只剩單純的信念與痛苦。寒風，就是鎮魂曲了吧。如此凜冽，如此刺骨，深入每一條神經，凝結，沈澱。
+
 埋葬了所有的感動與傷懷，腦海裡迴盪的吶喊再一次變得清晰。那是我的夢想，我的信念。
+
 現在的我，如同在漫天風雪的困境中。寒風、暴雪，阻擋著我前進。我獨自在黑暗中沈重地邁出一步又一步。天空，仍是灰黑。舉步維艱，奄奄一息。仰天長嘯，回應的只有寒風與暴雪。
+
 據說，有些樹看上去枯萎了，但只要挺過冬天，還能復蘇。或許，我也如此吧。
+
 心底尚有餘溫，堅定地向夢想邁出下一步。即使再緩慢，也不放棄。透過滿天的陰霾，我望向遙遠的東方，太平洋彼岸，那自由之地。即使夢想的盡頭存在的只有虛假，即使我終將否認自己曾經的追求，現在的我也只能繼續前進，將夢想貫徹到最後。
+
 直到實現，或湮滅。
+
 
 
 
@@ -1365,65 +1867,109 @@ Post #35 / Date: November 24, 2012
 
 
 穿透過烏雲 餘暉籠罩這片墓地
+
 滿地的青苔 開始喚醒我的回憶
+
 碑上那銘文 隱藏著多少秘密
 
 
+
 往來書信右下角的日期
+
 緊緊貼著你的名字
+
 思念穿過墓園裡的霧氣
+
 尋找月下你的足跡
+
 
 
 尚未豐滿的羽翼
+
 未曾張開就已凋零就已破碎
+
 死是生最後的銘記
+
 它來得這麼快這麼乾脆
 
 
+
 看樹影拉長距離
+
 聽悲傷滲透呼吸
+
 等歲月風乾熟悉
+
 等世人將你徹底忘記
 
 
+
 就讓我為你演奏這鎮魂曲
+
 因為我已經說不出話語
+
 命運已定我們不會再相聚
+
 就讓我為你演奏這鎮魂曲
+
 因為我已經說不出話語
+
 歲月已逝我們不會再相聚
+
 就讓我為你演奏這鎮魂曲
+
 繼續循環這悲傷的旋律
+
 失去你是全世界的悲劇
+
 
 
 往來書信右下角的日期
+
 緊緊貼著你的名字
+
 思念穿過墓園裡的霧氣
+
 尋找月下你的足跡
 
 
+
 看樹影拉長距離
+
 聽悲傷滲透呼吸
+
 等歲月風乾熟悉
+
 等世人將你徹底忘記
 
 
+
 就讓我為你演奏這鎮魂曲
+
 因為我已經說不出話語
+
 命運已定我們不會再相聚
+
 就讓我為你演奏這鎮魂曲
+
 因為我已經說不出話語
+
 歲月已逝我們不會再相聚
 
 
+
 就讓我為你演奏這鎮魂曲
+
 因為我已經說不出話語
+
 歲月已逝我們不會再相聚
+
 就讓我為你演奏這鎮魂曲
+
 繼續循環這悲傷的旋律
+
 失去你是全世界的悲劇
+
 
 
 
@@ -1440,12 +1986,17 @@ Post #34 / Date: November 17, 2012
 深秋的雪，熟悉的感覺。
 
 
+
 漫步在雪花紛飛的微風中，看著身邊的人們打雪仗，心中湧起莫名的傷感與慰藉。雪，在中國東北並無稀奇，每年都能看到。但是，這簡單的愉悅卻久違了。
+
 不知從何時開始，在滿天飛舞的大雪中，我感受到的只有寒冷。曾經對自然的熱愛、與世界融為一體的磅礡，不知所蹤。
+
 現在，我又能感知這一切了。置身於他們的愉悅，我如同緩緩沈入無比澄澈的水中。
 
 
+
 天地間，只剩雪白的寧靜。
+
 
 
 
@@ -1459,11 +2010,21 @@ Post #34 / Date: November 17, 2012
 Post #33 / Date: November 10, 2012
 
 
+<figure>
 <img src="./img/0000201211100001.jpg">
+</figure>
+<figure>
 <img src="./img/0000201211100002.jpg">
+</figure>
+<figure>
 <img src="./img/0000201211100003.jpg">
+</figure>
+<figure>
 <img src="./img/0000201211100004.jpg">
+</figure>
+<figure>
 <img src="./img/0000201211100005.jpg">
+</figure>
 
 
 
@@ -1477,7 +2038,9 @@ Post #33 / Date: November 10, 2012
 Post #32 / Date: November 9, 2012
 
 
+<figure>
 <img src="./img/0000201211090001.jpg">
+</figure>
 
 
 
@@ -1492,8 +2055,11 @@ Post #31 / Date: November 6, 2012
 
 
 雨若是無盡的悲涼，雪便是悲涼凝結成的滄桑。漆黑的夜幕下，路燈的微光，映襯著漫天飛舞的雪。
+
 撐起傘，擋住了雪，卻擋不住腦海中的漣漪。
+
 2010 年末的冬天，依然歷歷在目。曾經陪伴我的人們，如同風雪中的一聲嘆息，早已不知所蹤。
+
 
 
 
@@ -1507,7 +2073,9 @@ Post #31 / Date: November 6, 2012
 Post #30 / Date: November 4, 2012
 
 
+<figure>
 <img src="./img/0000201211040001.jpg">
+</figure>
 
 
 
@@ -1516,14 +2084,17 @@ Post #30 / Date: November 4, 2012
 
 
 
-# Insignificative
+# 意味ない
 
 Post #29 / Date: October 31, 2012
 
 
 這世界誰都不乾淨。我不期望別人多高尚多願意接受我，我也不想要我有多高尚多寬容。如果注定一生無產階級，那麼何不嘗試唯一的救贖之路?在美國被歧視、被剝削、被踐踏，也好過在中華人民共和國每時每刻生存在永無止境的恐怖與不安中。
+
 我不相信中華人民共和國會變得自由、平等、民主，也不相信在美國的生活會有多麼幸福。在殘酷的世界中泯滅我赤誠的期待，在黑暗的深淵中追求那微茫的希望，用一生試圖實現一個天真的夢想、活在一個虛幻的世界，最終在無盡的絕望與悔恨中死去，便是我的人生。
+
 即使已經明確「在夢想的盡頭存在的只有虛假」這一事實，我也只能將這不切實際的夢想貫徹到最後，完結一個無人知曉的悲劇，詮釋一個虛偽醜陋的世界。
+
 
 
 
@@ -1537,7 +2108,9 @@ Post #29 / Date: October 31, 2012
 Post #28 / Date: October 19, 2012
 
 
+<figure>
 <img src="./img/0000201210190001.jpg">
+</figure>
 
 
 
@@ -1551,7 +2124,9 @@ Post #28 / Date: October 19, 2012
 Post #27 / Date: October 2, 2012
 
 
+<figure>
 <img src="./img/0000201210020001.jpg">
+</figure>
 
 
 
@@ -1566,13 +2141,21 @@ Post #26 / Date: September 24, 2012
 
 
 淡淡星光，難辨獵戶北斗。
+
 漫漫長夜，一曲黯然銷魂。
+
 秋分微寒，怎奈西風漸北。
+
 枯葉成堆，青草綠意式微。
+
 冥冥薄霧，燈火遁入迷蹤。
+
 微微暗香，野菊悄然綻放。
+
 單影成雙，問天幾分惆悵。
+
 對月而歌，綺麗傾瀉如瀑。
+
 
 
 
@@ -1588,31 +2171,52 @@ Post #25 / Date: September 22, 2012
 
 <h3>1</h3>
 那時的我一定很瘋狂吧。離別的傷痛，新環境的詭異，混亂了我的思維。入秋不久，正是十月中旬，天氣還只是有些涼，算不上寒冷。痛苦，迷茫，便是那些天的主旋律了。
+
 那天，我注意到你的存在。在對門，很容易看見。偶然地，遇到你深邃的目光。你的目光中有一切，又沒有一切。這神秘，這深沈，就像我一樣。
+
 我又怎麼會想到，這只是個開始。
+
 <h3>2</h3>
 很快，我以各種方式探尋關於你的一切。你的人生，幾小時便略知一二了。相似的經歷，有很多。我們走著相同的路，愛好者相同的興趣。舞文弄墨，出神入化。將感情和思想化為文字，淋漓盡致。無論小清新還是重口味，無論冷幽默還是嚴肅的文學，都運用自如。這個浮躁的時代，熱衷於文字和創作的人越來越少了。
+
 或許是緣分使然吧，我會在茫茫人海中遇到你。
+
 也正是這段探尋，我開始瞭解你目光中的感動與傷懷。
+
 越陷越深。
+
 <h3>3</h3>
 落葉越來越多，白粥越來越短，北風越來越寒。
+
 從秋向冬的過渡，來得這麼快。
+
 被八卦了，你悶悶不樂的表情，讓我心痛。於是，便有了第一次我主動對你說話的一段對話。
+
 於是，想起我們的首次對話。沒想到你對我早有耳聞。
+
 你會願意我復述我們的對話麼?或許，你根本就不會知道我堆砌的這些文字吧。
+
 <h3>4</h3>
 加了你的 QQ，悄悄在你的 Qzone 裡繼續探尋我想知道的一切。
+
 雨落浅池」寫了首詩。那節自習課過後，將手稿交與你，渴望你的評論與改進。
+
 然而，那份手稿被你遺失了。
+
 然後，我重寫了一份，並為之譜曲。
+
 當時並不覺得怎樣。後來，才懂得你從一開始便從未重視過我。為你創作的文字，最珍貴的原始手稿，你也會將它遺失。
+
 <h3>5</h3>
 不知為何，你開始有意拉開距離。若即若離的關係，重新變成陌生人一般。
+
 後來，你離開我的好友列表，便有了那幾封 Email 的對話。記憶猶新。
+
 夢的盡頭。
+
 <h3>6</h3>
 雨落浅池，落葉堆成你的名字。
+
 
 
 
@@ -1627,11 +2231,17 @@ Post #24 / Date: September 14, 2012
 
 
 昨天的晚自習，休息的課間在樓外散步，無意中注意到了路燈的光。
+
 一盞黃黃舊舊的燈，被染色的夜幕，暗淡的草叢，疊加，交融。還有，那微冷的空氣。意象多了便堆砌出意境，意境形成了便不再侷限於意象。
+
 「一盞黃黃舊舊的燈」，熟悉的旋律，在腦海中響起。去年秋天，腦海中迴盪的便是這首「回到過去」。夜幕下緩緩的步伐，再次前行。
+
 「想回到過去，試著抱你在懷裡，羞怯的臉帶有一點稚氣」，這句是最能引起回憶的了。中考前，我們在教室的最後一天，我和懷裡的 Rof。那個場景，所有的細節都仍未被時間沖去。販黃的記憶，只有這張畫面依舊清晰。
+
 執著於懷念，是人類故有的感情，也是藝術家靈感的源泉。
+
 這些凌亂的思緒，只有順其自然了。
+
 
 
 
@@ -1646,14 +2256,23 @@ Post #23 / Date: September 8, 2012
 
 
 很久以來我一直在探尋生命的意義。
+
 為人類的發展作出貢獻?
+
 做偉大的事讓後世永遠銘記?
+
 為了在沒有人哭泣的世界?
+
 這些都是借來的夢想。在夢想的盡頭，存在的只有虛假。
+
 我的生命是我的生命，不是別人的。這簡單的事實，我今天才悟透。
+
 我的信條「Just Obey Yourself」，又一次指引我前進的方向。
+
 我終於完整地理解了，世界上沒有任何事物比我更重要。
+
 放下借來的夢想，遵守我的意志踐行我的生命。
+
 
 
 
@@ -1670,17 +2289,25 @@ Post #22 / Date: September 7, 2012
 原來晴天也會引起回憶。
 
 
+
 我站在風中，望著那飄蕩的枝葉，過往的畫面又浮現在眼前。
+
 3 年前的初秋，那時我初二。那時的風也如此清爽。只是，微涼中的氣味，不同了。近來 4 年，秋風的氣味都大不相同。或許是錯覺吧。
 
 
+
 從 2009 年初秋那紛飛的柳葉開始，到 2010 年春天的大雪，到 2010 年夏天最後一次不在狀態的期末考試，到 2010 年秋天點燃希望，到 2011 年春天成績的跌宕起伏，到中考時無比的自信與灑脫，到 2011 年深秋我在漆黑的夜幕下沿著路燈的光漫步並哼唱「想看你看的世界，想在你夢的花園」。
+
 畫面跳回到中考前夕。那天，是我們最後一次所有人在初三的教室。提前三年寫定的結局，等到經歷時還是那麼傷感。
+
 最後，回憶定格在我和懷裡的 Rof。這幅畫面只是出現在我回顧往事時。我已分不清這感覺是對他的遺憾還是初中時光的懷念。
 
 
+
 物不再是，人也已非。記不清多少次用筆尖勾勒這些憂傷的往事了。每次寫完都會暫時舒暢些，但過些天這些思緒又會湧上心頭。然後，便再寫些文字去勾勒，去描繪。
+
 心中的執著與懷念，便是藝術家靈感的源泉吧。
+
 
 
 
@@ -1695,24 +2322,35 @@ Post #21 / Date: September 4, 2012
 
 
 很久沒有如此細細品味初秋的雨了。
+
 灰蒙蒙的天空，雨淅瀝而下，不急不慢，只是混雜著莫名的氣味。像是眷戀，又像是憂傷。這氣味，隨著瀝青路上和花崗岩地磚上濺起的薄霧，在微寒的風中彌漫。
 
 
+
 雨總是為我提供靈感。同樣的感情，在晴天卻無法化作筆尖下美妙的文字。或許，晴天時的感情不適合創作。
+
 雨不僅是雨，還能洗去浮躁。除盡外部的干擾，才會看到內在的真實。只有純淨的靈魂才能無損地表達自己，所以只有在安靜的環境才能創作出真正表達內在感情的作品。
 
 
+
 靜靜地聽雨聲，呼吸潮溼的空氣，仰望灰暗的天空。微亮的天際透出幾縷清新，越發襯托出頭頂的壓抑。
+
 泛黃的落葉覆蓋著青綠的草地，在雨中靜止了風聲。
 
 
+
 清涼的秋雨，卻透出幾許沈重。
+
 或許是因為這裡的環境吧。新校區，相比起舊校區，完全沒有歲月的積澱。所以，自然沒有那種厚重。
+
 沒有歲月的校園不會有感觸，正是因為沒有感觸所以才沈重。
 
 
+
 不知何時，雨停了。
+
 雨止，風依舊。
+
 
 
 
@@ -1726,7 +2364,9 @@ Post #21 / Date: September 4, 2012
 Post #20 / Date: August 30, 2012
 
 
+<figure>
 <img src="./img/0000201208300001.jpg">
+</figure>
 
 
 
@@ -1741,17 +2381,25 @@ Post #19 / Date: August 30, 2012
 
 
 一個夏天的時間，足夠思考許多問題了。
+
 在大連享受了一周輕鬆的生活，更重要的是重拾了最初的夢想。
 
 
+
 游離的希望再次聚焦，潛意識中的信念浮出到表意識。
+
 我必定在未來非同凡響、特立獨行。
 
 
+
 我的未來在 USA。
+
 這堅定的信念是我的劍，在奮鬥的路上披荊斬棘。
+
 這崇高的夢想是我的鞘，在前行的途中遮風擋雨。
+
 當潛能爆發為斗志，世界開始因我而變。
+
 
 
 
@@ -1769,6 +2417,7 @@ Post #18 / Date: August 28, 2012
 
 
 
+
 --------------------------------------------------------------------------------
 
 
@@ -1779,7 +2428,9 @@ Post #18 / Date: August 28, 2012
 Post #17 / Date: August 27, 2012
 
 
+<figure>
 <img src="./img/0000201208270001.jpg">
+</figure>
 
 
 
@@ -1793,7 +2444,9 @@ Post #17 / Date: August 27, 2012
 Post #16 / Date: August 24, 2012
 
 
+<figure>
 <img src="./img/0000201208240001.jpg">
+</figure>
 
 
 
@@ -1808,25 +2461,39 @@ Post #15 / Date: August 23, 2012
 
 
 葉落滿地 紛飛了記憶
+
 雨落淺池 感傷了距離
+
 想著你 思緒變得清晰
 
 
+
 深秋院裏 瀰漫著刺骨的寒氣
+
 飄落淚滴 在雨中消失了蹤跡
+
 陳年舊事 被風聲喚起
 
 
+
 雨落淺池 落葉堆成你的名字
+
 餘暉消逝 思念卻無法停止
+
 落淚幾次 試著重新感知
+
 不知何時 風聲雨中靜止
 
 
+
 歲月流逝 無法淡薄心中的痕跡
+
 滲透池底 過往的畫面難忘記
+
 青石階梯 滿是青苔的記憶
+
 心隨淺溪 望穿秋水用孤單等你
+
 
 
 
@@ -1840,7 +2507,9 @@ Post #15 / Date: August 23, 2012
 Post #14 / Date: August 23, 2012
 
 
+<figure>
 <img src="./img/0000201208230001.jpg">
+</figure>
 
 
 
@@ -1855,53 +2524,87 @@ Post #13 / Date: July 14, 2012
 
 
 仰望頭頂澄澈的藍天
+
 想著地上粉筆的碎片
+
 那些年早已走過了終點
+
 我仍記得河裡你摺的紙船
 
 
+
 書桌裡幾張接近滿分的考卷
+
 操場上白粉筆畫的起點
+
 每天中午壓橡膠繞場三圈
+
 是我們歲月如歌的夢幻
 
 
+
 猶記得我們曾三年
+
 一起倒數高考每一天
+
 想起當初你的容顏
+
 如同回到從前
+
 那時我們都不孤單
+
 約定一起去登山
+
 就算已經分別很多年
+
 你一直在我身邊
+
 
 
 
 
 遠方天際下的地平線
+
 寫著分別之後的想念
+
 過往的記憶都已經風乾
+
 我仍記得雨後彩虹的弧線
 
 
+
 體育館我們曾經躲雨的屋簷
+
 籃球場被銀杏落葉鋪滿
+
 放學時分在路上肩並著肩
+
 是我們無法重現的畫面
 
 
+
 猶記得我們曾三年
+
 一起倒數高考每一天
+
 想起當初你的容顏
+
 如同回到從前
+
 那時我們都不孤單
+
 約定一起去登山
+
 就算已經分別很多年
+
 你一直在我身邊
 
 
+
 決定我們命運的三年
+
 如今留下的只有懷念
+
 
 
 
@@ -1917,25 +2620,42 @@ Post #12 / Date: July 14, 2012
 
 <h3>猶記得那年我們都還很年幼</h3>
 很久很久以前，當我剛剛上小學時。
+
 那個初秋，是一片祥和。那時我經歷過的還太少，不會因為懷念和傷痛在秋天感到憂傷。葉落滿地，泥土的芬芳，夾雜著露水的清瀅，組合成最迷人的時節。
+
 班裡人太多，遠遠超過我那個年齡的認知上限。所以，在班內，我只認識很少的幾個人。班外，似乎只有小权了。
+
 君子之交淡如水，我當年似乎也是那樣。小學 6 年間，與別人的交往非常少，多數時間都是獨自思索。如今，日漸成熟的我再也無法理解那種趣味了。
+
 曾經毫不眷戀的時光，現在都已化作永遠無法追回的懷念。
+
 <h3>面具下的人</h3>
 6 年的時光，當時覺得很漫長，現在回想卻是轉瞬即逝。
+
 上了初中後，不知不覺中，我戴上了一個個面具。樂觀、熱血、堅定、友善、愛國，爭先恐後地出現在我臉上。我在面具下活著，越來越虛偽。
+
 後來我發現，面具已經成了我身體的一部分，再也無法摘除了。就這樣，我在通往充斥著偽善、狡詐、謊言、勾心鬥角、爾虞我詐的成人世界的路上越走越遠。
+
 <h3>又回到最初的起點</h3>
 3 年的時光比 6 年更快逝去。9 年後的有一個初秋，我進入了高中。
+
 葉落滿地，泥土的芬芳，夾雜著露水的清瀅，組合成淡淡的憂傷。
+
 又一次，很偶然的機會，我知道了小权也與我在同一個高中。
+
 好想再回到那些年的時光。
+
 <h3>風，會指引你睡覺的方向</h3>
 「風，會指引你睡覺的方向」我在小权耳邊輕輕說道，作為重逢的開場白。
+
 9 年前，我從小权口中聽到這句話。9 年後，它成了我的台詞。
+
 小权回過頭來:「你居然還記得。」
+
 「但我一直沒能理解。」
+
 「當你放下所有的負擔，夢會在睡眠中浮現。靜下心，聆聽風的聲音，你會找到夢的方向。」
+
 
 
 
@@ -1950,27 +2670,43 @@ Post #11 / Date: July 6, 2012
 
 
 筆記本扉頁的一行字
+
 打開了少年時代的往事
+
 時間流逝莫名其妙地停止
+
 永不褪色的年華化作一行行句子
 
 
+
 看看窗外我們成長的土地
+
 處處都有青春年少的回憶
+
 抽屜裡那些曾經的日曆
+
 每頁都划著一道過去的痕跡
 
 
+
 夜色朦朧讓我將那些時光想起
+
 還記得我說過永遠不會忘記
+
 抽屜裡那些曾經的日記
+
 每頁都寫著一個永恆的絕密
 
 
+
 午夜的鐘聲在四面八方響起
+
 提醒了我誓言已經到期
+
 塵封的記憶漂浮在空氣裡
+
 永不落地永不破碎
+
 
 
 
@@ -1985,16 +2721,27 @@ Post #10 / Date: June 28, 2012
 
 
 繁華的群星，繁華了三年的回憶。昏黃的路燈，昏黃了你我的面容。
+
 分別久了，我開始懷念從前在一起的時光。
+
 初一，最深的印象是那個永遠陰雲密布的秋天。當時，我沈醉在回憶中。六年同窗，恍若一夢。各自散去，在一起的生活戛然而止。如今，曾經想永遠留住的記憶早已隨風而逝。終究，時間沖淡了一切。
+
 初二，我們在遙遠的分校址。開學前那個夏末，我曾佇立在大門外，望著那鬱鬱蔥蔥的校園。每年都有一些人來到這裡，並在次年離去。人生中平凡而又特別的一年，在這裡度過。這裡多了古樸，少了現代，多了寧靜，少了喧囂。校園中的景物，無一不懷舊。歲月在牆上剝落，滿地惆悵。不支離破碎，卻充滿滄桑。或許，這就是歲月的感覺。後來，又是一個夏天，我也要離去了。校園中每棵樹、每株草、每張課桌、每級台階、每寸操場、每米走廊、每座雕像、每扇門窗，都是我的留戀。
+
 初三，是我最燦爛的少年時代。我再次回到主校址。初中三年，初三是最快樂的。學習雖然忙碌，但那種充實且有追求的生活很幸福。初三，是這三年的高潮與終章。最懷念，當年在一起的感覺。一起拼搏，共同奮鬥。
+
 轉眼間，又是一年。
+
 課桌上的油墨，吸引了多少回復?
+
 窗台上的鐫刻，招來了多少目光?
+
 操場上的身影，凝結了多少過往?
+
 我們共同經歷過的人生，已經走向不同的道路。這三年的歲月，正是因為有了你們所有美好。
+
 以此紀念，年少的我們，年少的時光。
+
 
 
 
@@ -2009,10 +2756,15 @@ Post #9 / Date: June 17, 2012
 
 
 初夏的夜風微涼。
+
 這種感覺很久沒有體驗了。上一次，似乎是去年。
+
 寂靜的城市，窗外之剩幾處燈火。幽幽藍光，是樓下花園裡的小路燈靜靜發光。
+
 抬起頭，卻是滿天空曠。群星，並未出現。或許是烏雲吧，陰影遮蔽了虛空。似乎我的猜測沒錯，天際正用稀疏的閃電講述真相。
+
 行文至此，繼續似乎並無意義。安詳的夜晚，就讓我用沈默回應。
+
 
 
 
@@ -2030,6 +2782,7 @@ Post #8 / Date: June 1, 2012
 
 
 
+
 --------------------------------------------------------------------------------
 
 
@@ -2041,11 +2794,17 @@ Post #7 / Date: May 20, 2012
 
 
 年少的時光，太過短暫。三年的夢與希望，愛與幻想，都會化作未來的回憶。當青春只剩下筆尖下的墨跡，當年華變成為細雨中的淚滴，一切都已遠去。
+
 就算社會再險惡，就算希望再渺茫，也要保持信仰，為之奮鬥。百年後，可能你是家譜中一個名字，但或許你沒有給子孫留下感人的故事。近百年的歲月中，你是要紙醉金迷享樂一生，還是要為人類歷史的發展做出不可磨滅貢獻?你是要揮霍前人的遺產，還是要為地球留下寶貴的財富?你是要賣一輩子糖水，還是要改變世界?
+
 這就是我們短暫的人生，在歷史的長河中太過渺小。
+
 時間會抹去一切，也會證明一切。在歷史的刻痕被時間抹去前，讓你的貢獻留在世人心中吧。在大同的世界創造大不同，讓有限的生命在有限的歲月中鑄就屬於你的輝煌。
+
 人生太過短暫，太過卑微，所以更要讓你的聲音響徹全球，所以更要讓你的故事流芳百世，所以更要讓你的貢獻為人銘記。
+
 預言尚未可知，希望永不磨滅。
+
 
 
 
@@ -2063,6 +2822,7 @@ Post #6 / Date: May 3, 2012
 
 
 
+
 --------------------------------------------------------------------------------
 
 
@@ -2073,14 +2833,22 @@ Post #6 / Date: May 3, 2012
 Post #5 / Date: April 27, 2012
 
 
-<blockquote>「我從未體會過死亡，將來也不會。」——<cite>Tassadar</cite></blockquote>
-<blockquote>「死不是作為生的對立而是做為生的一部分永存，人的死才是真正的永生。」 ——<cite>楊慧心</cite></blockquote>
+<blockquote>「我從未體會過死亡，將來也不會。」
+——<cite>Tassadar</cite></blockquote>
+<blockquote>「死不是作為生的對立而是做為生的一部分永存，人的死才是真正的永生。」 
+——<cite>楊慧心</cite></blockquote>
 Tassadar 的犧牲，並不是真正的「死亡」，而是「飛升」。Tassadar 已經到達圓滿的境界，即使肉體已死，精神卻能在 Khala 中永生。Tassadar 以一種特別的方式，活在所有 Khalai 的精神中。這種方式，與 MEME 類似——原始的本體不重要，且通過社會化的方式傳承、演化、生長。這是另一種存在的方式。
+
 所以，只要所有認識賈寶琳君的人建立起一個互相維繫且實時交流的關係網絡，就能讓賈寶琳君以非實體的方式繼續活著。這是真正的「活在我們心中」。我們死後，我們也會有這樣一個互相維繫且實時交流的關係網絡，所以屆時我們將於賈寶琳君以相同的方式活著。我們活在別人心中，賈寶琳君活在我們心中。
+
 死，是生的延續。
+
 高等生命將如此浩瀚的細胞凝聚在一起形成單獨的個體，形成了無比嚴格的秩序——生命活動幾乎沒有任何差錯，即使有差錯也很容易自動糾正。生命是宇宙中秩序的極致體現。
+
 然而，宇宙的本質是混亂。自發的現象，熵增居多。熱力學時間箭頭不可逆。受熱力學第二定律的限制下，我們在無窮熵增的宇宙中做出任何維持秩序的努力都是無效的，我們不可能阻擋熵增——從秩序到混亂，是必然的。我們從虛空中出現，也注定要回到虛空中。
+
 死，是生的歸宿。
+
 
 
 
@@ -2089,13 +2857,15 @@ Tassadar 的犧牲，並不是真正的「死亡」，而是「飛升」。Tassa
 
 
 
-# 辰冥决•觀星記
+# 辰冥决・觀星記
 
 Post #4 / Date: April 26, 2012
 
 
 仲春觀星，慘淡月色冷無情。如若堅冰，濁空明，一盞離愁映樹影。黑雲穿行，何日破曉晴?
+
 塵世功名，千載悠悠歲月凝。化作雛鷹，掠風鈴，幾番奮鬥醉中醒。驟雨泥濘，無礙幽思淨。
+
 
 
 
@@ -2110,12 +2880,19 @@ Post #3 / Date: April 25, 2012
 
 
 又是一個雨天。
+
 傳說城市的居民無法享受完整的雨天。事實上，或許的確如此。但是，城市的雨天也別有一番風味。瀝青路雖無青石街的滄桑，但多了幾許風韻。樓房之間互相遮蔽，影影綽綽的感覺也是鄉村無法提供的。
+
 灰蒙蒙的天空，光影徘徊。不見日月，不見星辰。
+
 每當下雨時，就會想起某人。那首「雨落淺池」，為他所作。
+
 2011 年秋我就開始對他有興趣了。而他，從未在乎過我吧。他在瞭解我的身份時那種語氣和表情，告訴我或許先前對我略有耳聞。
+
 我用自習寫的歌詞的手稿，被他弄丟了。從那時起，我就該意識到我在他心中只是浮雲。為他創作的歌詞，他並不在乎。
+
 何必想太多，現在我已經不再對他有執著了。
+
 
 
 
@@ -2130,14 +2907,23 @@ Post #2 / Date: April 22, 2012
 
 
 多年前，我們預料的，是無盡的傳承，還是終章的沈淪?
+
 多年後，我們聽到的，是同胞的歡笑，還是末日的呢喃?
+
 我們腳下的行星，是我們永遠的家園。即使在遙遠的未來，人類漂泊宇宙，也會永遠有人保存我們在地球的歷史。
+
 然而，我們正在將地球推向毀滅。
+
 低下頭，親吻這大地，吮吸泥土的芬芳，感受草木的活力。這種感覺，值得挽留，值得銘記。
+
 若不做出改變，在不久的未來，這一切只能成為懷念。
+
 The heaven is falling down!
+
 看看這顆我們已知的宇宙中最美的行星，記住它的美貌。不久之後，這一切可能永遠不復存在。
+
 當這段文字與人類的文明一同消失在無盡的熵增時，我們會榮耀，或是悔恨?
+
 
 
 
@@ -2152,10 +2938,16 @@ Post #1 / Date: April 12, 2012
 
 
 今天，青年街旁的桃花綻放了。暮光中，繼續粉嫩點綴在街頭。
+
 終於，又是一個春天了。
+
 去年這時，我們距離中考還有 76 天。那時，我們都還很清閒。而現在，距離高考還有 785 天，我們卻無比忙碌。這就是高中生活的必然吧。
-依然是那樹，那花，卻不再有心情去欣賞，去品味。物是人非。我面前，又是一處命運的十字路口。人生的成敗，全都在這 785 天。
+
+依然是那樹，那花，卻不再有心情去欣賞，去品味。物是人非。
+我面前，又是一處命運的十字路口。人生的成敗，全都在這 785 天。
+
 為自由，奮鬥。
+
 
 
 

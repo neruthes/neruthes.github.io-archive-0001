@@ -6,7 +6,7 @@ Static Blog Generator
 */
 
 function real(inpu) {
-	return inpu.replace(/<p>/g, '').replace(/<\/p>/g, '').replace(/<br \/>/g, '\n');
+	return inpu.replace(/<p>/g, '').replace(/<\/p>/g, '\n').replace(/<br \/>/g, '\n');
 }
 
 var fs = require('fs');
@@ -32,9 +32,6 @@ for (var i = 0; i < listJson.list.length; i++) {
 
 entireHtml = htmlTemplate.replace('__neop.allPosts__', accumulate);
 
-fs.writeFile(blogPath + '/all-posts-in-one.txt', entireHtml, function(err){
-	if (err) {
-		throw err;
-	}
-	console.log('Done!');
-});
+fs.writeFileSync(blogPath + '/all-posts-in-one.txt', entireHtml);
+
+console.log('Done!');
