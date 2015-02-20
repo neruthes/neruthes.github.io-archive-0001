@@ -44,7 +44,7 @@ function loadPost(pid) {
 		document.getElementById("post" + pid + "link").innerHTML = postIndex.list[pid].Time;
 		document.getElementById("post" + pid + "link").href = "./?p=" + pid;
 		if (postId != "NULL" && postIndex.list[pid].Title != "") {
-			document.title = postIndex.list[pid].Title + " — " + blogName;
+			document.title = postIndex.list[pid].Title.replace(/<[\/a-z]*?>/g, '') + " — " + blogName;
 		} else if (postId != "NULL" && postIndex.list[pid].Title == "") {
 			document.title = "Post #" + pid + " — " + blogName;
 		} else {
