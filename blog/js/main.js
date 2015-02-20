@@ -13,8 +13,8 @@ function createSection(pid) {
 	div.setAttribute("id", "post" + pid + "text");
 	dateAndTime.setAttribute("id", "post" + pid + "link");
 	section.appendChild(h2);
-	section.appendChild(div);
 	section.appendChild(footer);
+	section.appendChild(div);
 	h2.appendChild(h2a);
 	footer.appendChild(dateAndTime);
 	cont.appendChild(section);

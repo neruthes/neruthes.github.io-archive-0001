@@ -98,20 +98,20 @@ nav.prevandnext span.next {
 	padding: 0;
 	margin: 20px 0;
 }
+
 .post.more > ul.list > li {
 	display: block;
 	text-align: left;
 	padding: 0;
 	margin: 25px 0;
 }
+
 .post.more > ul.list > li > a {
 	display: block;
 }
+
 .post.more > ul.list > li > footer {
 	text-align: left;
 	padding: 0;
 	margin: 0 0;
-}
-.post.more > ul.list > li > footer > a {
-	color: #999;
 }

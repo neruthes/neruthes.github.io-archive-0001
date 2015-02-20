@@ -82,7 +82,7 @@ a:link, a:visited, a:hover, a:active {
 	font-size: 2.4em;
 	font-weight: 400;
 	color: #2B8CD2;
-	margin: 19px 0 22px;
+	margin: 20px 0 0;
 }
 
 .post-text {
@@ -107,11 +107,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post-text > p a {
-	border-bottom: 1px solid #AAA;
+	color: #2B8CD2;
 }
 
 .post-text > p a:hover {
-	color: #888;
+	color: #14529A;
 }
 
 .post-text em:lang(en) {
@@ -170,12 +170,12 @@ p code {
 .post footer {
 	font-size: 1.6em;
 	font-weight: 300;
-	text-align: center;
-	margin: 60px 0 0 0;
+	color: #999;
+	margin: 0 0 0;
 }
 
 .post footer a:hover {
-	border-bottom: 1px solid #585858;
+	color: #777;
 }
 
 .post.more li > a {
@@ -196,4 +196,8 @@ footer.global {
 	font-weight: 200;
 	color: #585858;
 	text-align: center;
+}
+
+.post.more > ul.list > li > footer > a {
+	/*color: #999;*/
 }
