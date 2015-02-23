@@ -1,4 +1,4 @@
-function createSection(pid) {
+var createSection = function (pid) {
 	var section = document.createElement("section");
 	var h2 = document.createElement("h2");
 	var h2a = document.createElement("a");
@@ -21,7 +21,7 @@ function createSection(pid) {
 	sectionsCreated++;
 };
 
-function loadPost(pid) {
+var loadPost = function (pid) {
 	var thisId = sectionsCreated-1;
 	ajaxContent[thisId] = new XMLHttpRequest();
 	ajaxContent[thisId].open("GET", "db/" + pid + ".txt", true);
@@ -54,7 +54,7 @@ function loadPost(pid) {
 	};
 };
 
-function listOutPreviousPosts() {
+var listOutPreviousPosts = function () {
 	var section = document.createElement("section");
 	var ul = document.createElement("ul");
 	section.setAttribute("class", "post more");
@@ -84,7 +84,7 @@ function listOutPreviousPosts() {
 	cont.appendChild(section);
 };
 
-function fillNav(previd, nextid) {
+var fillNav = function (previd, nextid) {
 	if (previd != null) {
 		document.getElementById("prevlink").href = "./?p=" + previd;
 		document.getElementById("prevlink").innerHTML = "Prev »";
@@ -99,7 +99,7 @@ function fillNav(previd, nextid) {
 	};
 };
 
-function httpError() {
+var httpError = function () {
 	createSection(postId);
 	document.getElementById("post" + postId + "title").innerHTML = "404 Not Found : (";
 	document.getElementById("post" + postId + "link").remove();
