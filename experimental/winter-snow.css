@@ -1,4 +1,4 @@
-@import url(//joyneop.github.io/fonts/seravek.css);
+@import url(/fonts/seravek.css);
 * {
 	text-rendering: optimizeLegibility;
 	box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
 	min-height: 1500px;
 	padding: 0;
 	margin: 0;
-	background: #7495BC url(//joyneop.github.io/JN-Lab/other-images/winter-snow-500254.jpg) fixed top no-repeat;
+	background: #7495BC url(/JN-Lab/other-images/winter-snow-500254.jpg) fixed top no-repeat;
 	background-size: cover;
 }
 header a:link, header a:visited, header a:hover, header a:active, footer a {
@@ -43,7 +43,7 @@ header #title {
 	height: 180px;
 	margin: 0 auto;
 	background: rgba(255, 255, 255, 0.798888) center no-repeat scroll;
-	background-image: url(//joyneop.github.io/joyneop-transparent.png);
+	background-image: url(/joyneop-transparent.png);
 	background-size: contain;
 	border-radius: 2000px;
 	box-shadow: rgba(0, 0, 0, 0.21322) 0 0 5px inset;
@@ -119,7 +119,7 @@ section h2:hover {
 	transition: all 270ms ease;
 }
 .circle.blog {
-	background-image: url(//joyneop.github.io/JN-Lab/other-images/nav-blog-360px.jpg);
+	background-image: url(/JN-Lab/other-images/nav-blog-360px.jpg);
 }
 .circle.lab {
 	background-image: linear-gradient(rgb(31, 97, 190), rgb(177, 206, 227));
