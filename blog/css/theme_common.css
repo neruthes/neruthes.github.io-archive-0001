@@ -79,7 +79,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post h2 {
-	font-size: 2.4em;
+	font-size: 2.6em;
 	font-weight: 400;
 	color: #2B8CD2;
 	margin: 20px 0 0;
@@ -183,7 +183,7 @@ p code {
 }
 
 .post.more li > a {
-	font-size: 2.3em;
+	font-size: 2.6em;
 	font-weight: normal;
 	color: #2B8CD2;
 }
