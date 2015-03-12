@@ -2,7 +2,7 @@
 @import url(/fonts/inconsolata.css);
 
 body {
-	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 	font-size: 10px;
 	font-weight: 300;
 	color: #444;
@@ -20,7 +20,7 @@ header.global h1, h2 {
 }
 
 h1 {
-	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	font-family: Seravek, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 	font-weight: 200;
 	text-decoration: none;
 	padding: 20px 0 10px;
@@ -67,15 +67,15 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .post:lang(en) {
-	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 }
 
 .post:lang(ja) {
-	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 }
 
 .post h2(zh-Hant) {
-	font-family: Seravek, 'Open Sans', Helvetica Neue, Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
+	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
 }
 
 .post h2 {
@@ -119,7 +119,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 p code {
-	font-family: 'Inconsolata', Menlo, Monaco, monospace;
+	font-family: Inconsolata, Menlo, Monaco, monospace;
 	font-weight: 200;
 	background: #F4F4F4;
 	border-radius: 3px;
@@ -140,18 +140,18 @@ p code {
 	margin-right: auto;
 }
 
-.post-text > p > img {
+.post-text p > img {
 	float: right;
 }
 
 .post-text blockquote {
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
+	border-left: 3px solid #F5F5F5;
+	padding-left: 14px;
+	margin-left: -17px;
 }
 
-.post-text > pre {
-	font-family: 'Inconsolata', Menlo, Monaco, Consolas, monospace;
+.post-text pre {
+	font-family: Inconsolata, Menlo, Monaco, Consolas, monospace;
 	background: #F4F4F4;
 	border-radius: 4px;
 	overflow-x: scroll;
@@ -162,9 +162,6 @@ p code {
 }
 
 .post-text > canvas {
-	max-width: 80%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .post footer {

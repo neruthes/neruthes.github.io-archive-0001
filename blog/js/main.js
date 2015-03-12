@@ -8,7 +8,9 @@ var createSection = function (pid) {
 	section.setAttribute("class", "post");
 	section.setAttribute("id", "post" + pid);
 	h2.setAttribute("id", "post" + pid + "h2");
+	h2.setAttribute("class", "post-h2");
 	h2a.setAttribute("id", "post" + pid + "title");
+	h2a.setAttribute("class", "post-h2-in");
 	div.setAttribute("class", "post-text");
 	div.setAttribute("id", "post" + pid + "text");
 	dateAndTime.setAttribute("id", "post" + pid + "link");
@@ -66,13 +68,14 @@ var listOutPreviousPosts = function () {
 		var footer = document.createElement("footer");
 		var fa = document.createElement("a");
 		var div = document.createElement("div");
-		if (postIndex.list[i].Title == "") {
-			a.innerHTML = "> Untitled post";
+		if (postIndex.list[i].Title == null) {
+			a.innerHTML = "[Untitled Post]";
 		} else {
 			a.innerHTML = postIndex.list[i].Title;
 		};
 		li.setAttribute("lang", postIndex.list[i].Lang[0]);
 		a.setAttribute("href", "./?p=" + i);
+		a.setAttribute("class", "post-h2");
 		fa.setAttribute("href", "./?p=" + i);
 		fa.innerHTML = postIndex.list[i].Time;
 		footer.appendChild(fa);
