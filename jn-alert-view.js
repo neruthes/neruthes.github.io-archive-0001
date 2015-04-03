@@ -1,4 +1,4 @@
-//*
+/*
 (function(text0, text, quadrant, position, style, size, keepAlive){
 	//
 	// Author Joy Neop
@@ -93,3 +93,4 @@
 	390,
 	false
 );
+*/
