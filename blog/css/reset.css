@@ -41,15 +41,8 @@ h1 {
 	margin: 30px auto 80px;
 }
 
-.post h2 {
-}
-
 p {
 	margin: 18px 0;
-}
-
-.post footer {
-	margin: 40px 0 0;
 }
 
 .post-text figure img {
@@ -66,10 +59,6 @@ blockquote, pre {
 
 blockquote cite {
 	padding: 0 8px;
-}
-
-.post > footer {
-	margin: 30px 0 0;
 }
 
 nav.prevandnext {
@@ -105,11 +94,11 @@ nav.prevandnext span.next {
 	margin: 25px 0;
 }
 
-.post.more > ul.list > li > a {
+.post.more > ul.list > li > .post-h2 {
 	display: block;
 }
 
-.post.more > ul.list > li > footer {
+.post.more > ul.list > li > .post-footer {
 	text-align: left;
 	padding: 0;
 	margin: 0 0;

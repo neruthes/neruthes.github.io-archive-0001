@@ -2,9 +2,9 @@
 @import url(/fonts/inconsolata.css);
 
 body {
-	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 10px;
-	font-weight: 300;
+	font-weight: 200;
 	color: #444;
 	background-color: #FAFAFA;
 }
@@ -13,14 +13,13 @@ header.global a {
 	display: block;
 }
 
-header.global h1, h2 {
+header.global h1, header.global h2 {
 	color: #585858;
 	font-weight: 200;
 	margin: 0;
 }
 
 h1 {
-	font-family: Seravek, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
 	font-weight: 200;
 	text-decoration: none;
 	padding: 20px 0 10px;
@@ -35,7 +34,7 @@ header.global h2 {
 	width: 180px;
 	height: 180px;
 	margin: 0 auto;
-	background: #FFF url(//joyneop.github.io/joyneop.png) center no-repeat scroll;
+	background: #FFF url(/joyneop.png) center no-repeat scroll;
 	background-size: contain;
 	border-radius: 2000px;
 	box-shadow: rgba(0, 0, 0, 0.21322) 0 0 5px inset;
@@ -48,7 +47,7 @@ header.global h2 {
 	box-shadow: rgba(0, 0, 0, 0.432222) 0 0 5px inset;
 }
 
-a:link, a:visited, a:hover, a:active {
+a {
 	color: inherit;
 	text-decoration: inherit;
 }
@@ -66,23 +65,14 @@ a:link, a:visited, a:hover, a:active {
 	box-shadow: rgba(0, 0, 0, 0.024322) 0 0 4px;
 }
 
-.post:lang(en) {
-	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
-}
-
-.post:lang(ja) {
-	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
-}
-
-.post h2(zh-Hant) {
-	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
-}
-
-.post h2 {
+.post-h2 {
 	font-size: 2.6em;
 	font-weight: 400;
-	color: #2B8CD2;
 	margin: 20px 0 0;
+}
+
+.post-h2, .post-h2 a {
+	color: #2B8CD2;
 }
 
 .post-text {
@@ -164,25 +154,25 @@ p code {
 .post-text > canvas {
 }
 
-.post footer {
+.post-footer {
 	font-size: 1.6em;
 	font-weight: 300;
 	color: #999;
 	margin: 0 0 0;
 }
 
-.post footer a {
-	color: inherit;
-}
-
-.post footer a:hover {
+.post-footer:hover {
 	color: #777;
 }
 
+.post-footer a {
+	color: inherit;
+}
+
 .post.more li > a {
-	font-size: 2.6em;
-	font-weight: normal;
-	color: #2B8CD2;
+	/*font-size: 2.6em;*/
+	/*font-weight: normal;*/
+	/*color: #2B8CD2;*/
 }
 
 nav.prevandnext span, nav.prevandnext span a {
