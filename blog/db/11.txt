@@ -17,3 +17,26 @@
 <p>提醒了我誓言已經到期</p>
 <p>塵封的記憶漂浮在空氣裡</p>
 <p>永不落地永不破碎</p>
+
+
+<!--
+
+<p>A line on the first page of the notebook,</p>
+<p>Opened the story of adolescence.</p>
+<p>Time stopped, so suddenly,</p>
+<p>Youth that never fade go into a poem.</p>
+<br />
+<p>Look out at the land that we've grown on,</p>
+<p>Memory of youth were preserved everywhere.</p>
+<p>The old calendars inside my drawer,</p>
+<p>A </p>
+<br />
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<br />
+<p></p>
+<p></p>
+
+-->

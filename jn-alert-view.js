@@ -1,9 +1,10 @@
-/*(function(text0, text, quadrant, position, style, size, keepAlive){
+//*
+(function(text0, text, quadrant, position, style, size, keepAlive){
 	//
 	// Author Joy Neop
 	// @Website http://www.joyneop.com/
 	// @GitHub https://github.com/JoyNeop
-	// © 2014 Joy Neop. All rights reserved.
+	// © 2015 Joy Neop. All rights reserved.
 	//
 	window.jnalert = {};
 
@@ -84,12 +85,11 @@
 
 	console.log(text0);
 	console.log(text);
-})('<a href="http://www.joyneop.com/resume/">Hi, I\'m seeking 2015 summer internship...</a>',
-	'<a href="http://www.joyneop.com/resume/" style="display: block; width: 364px;" target="_blank">Does your company have an internship position? Maybe I can be one in your company this summer? Click here to see my résumé, thanks : )</a>',
+})('<a href="http://marchforinnovation.com/">Immigration reform needs your support!</a>',
+	'<a href="http://marchforinnovation.com/" style="display: block; width: 364px;" target="_blank">Immigration reform needs your support! For not only us, the foreign innovators, also the U.S.</a>',
 	1,
 	"absolute",
 	null,
 	390,
 	false
 );
-*/
