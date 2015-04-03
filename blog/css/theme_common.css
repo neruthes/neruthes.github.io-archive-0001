@@ -101,10 +101,10 @@ a {
 }
 
 .post-text > p a:hover {
-	color: #14529A;
+	border-bottom: 1px solid #C0C0C0;
 }
 
-.post-text em:lang(en) {
+.post-text em {
 	font-style: italic;
 }
 
