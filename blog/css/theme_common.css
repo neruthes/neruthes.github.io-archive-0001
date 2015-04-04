@@ -108,6 +108,10 @@ a {
 	font-style: italic;
 }
 
+.post-text strong {
+	font-weight: 400;
+}
+
 p code {
 	font-family: Inconsolata, Menlo, Monaco, monospace;
 	font-weight: 200;
