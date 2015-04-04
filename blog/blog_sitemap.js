@@ -17,7 +17,7 @@ listJson = JSON.parse(fs.readFileSync(blogPath + '/list.json', 'utf8'));
 
 var maxId = 220;
 for (var i = 0; i <= maxId && i < listJson.list.length; i++) {
-	accumulate = postTemplate.replace(/__LOC__/g, 'http://joyneop.xyz/blog/?p=' + i).replace(/__MOD__/g, listJson.list[i]['Time']) + accumulate;
+	accumulate = postTemplate.replace(/__LOC__/g, 'http://joyneop.xyz/blog/?p=' + i).replace(/__MOD__/g, listJson.list[i]['D']) + accumulate;
 };
 
 

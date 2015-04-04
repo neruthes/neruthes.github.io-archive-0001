@@ -14,9 +14,9 @@
 
 
 
-# undefined
+# Parse: Life-saving Backend
 
-Post #117 / Date: undefined
+Post #117 / Date: February 19, 2015
 
 
 
@@ -45,9 +45,9 @@ Having such painless a backend solution is wonderful. It saves life.
 
 
 
-# undefined
+# Introducing My PGP Public Key (Since 2015)
 
-Post #116 / Date: undefined
+Post #116 / Date: January 26, 2015
 
 
 
@@ -212,9 +212,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 
 
 
-# undefined
+# I Can (Not) Restart
 
-Post #115 / Date: undefined
+Post #115 / Date: January 23, 2015
 
 
 
@@ -249,9 +249,9 @@ I failed this way, the most popular way in China, of immigrating to the United S
 
 
 
-# undefined
+# Happy New Year 2015
 
-Post #114 / Date: undefined
+Post #114 / Date: January 1, 2015
 
 
 <figure>
@@ -265,9 +265,9 @@ Post #114 / Date: undefined
 
 
 
-# undefined
+# Private Concepts
 
-Post #113 / Date: undefined
+Post #113 / Date: November 15, 2014
 
 
 
@@ -287,9 +287,9 @@ If I come up with a concept which hasn't been added into the public concept libr
 
 
 
-# undefined
+# At This Age
 
-Post #112 / Date: undefined
+Post #112 / Date: October 2, 2014
 
 
 
@@ -315,9 +315,9 @@ In you I trust.
 
 
 
-# undefined
+# Into The Stage
 
-Post #111 / Date: undefined
+Post #111 / Date: September 24, 2014
 
 
 
@@ -346,9 +346,9 @@ May the Force be with me.
 
 
 
-# undefined
+# My Homepage (Version 3)
 
-Post #110 / Date: undefined
+Post #110 / Date: September 6, 2014
 
 
 <figure>
@@ -362,9 +362,9 @@ Post #110 / Date: undefined
 
 
 
-# undefined
+# Avatar: Kyouratsu (XD)
 
-Post #109 / Date: undefined
+Post #109 / Date: August 27, 2014
 
 
 <figure>
@@ -378,9 +378,9 @@ Post #109 / Date: undefined
 
 
 
-# undefined
+# Woodstocky
 
-Post #108 / Date: undefined
+Post #108 / Date: July 30, 2014
 
 
 <figure>
@@ -394,9 +394,9 @@ Post #108 / Date: undefined
 
 
 
-# undefined
+# On The Way Of Youth
 
-Post #107 / Date: undefined
+Post #107 / Date: July 12, 2014
 
 
 <figure>
@@ -410,9 +410,9 @@ Post #107 / Date: undefined
 
 
 
-# undefined
+# Visionary
 
-Post #106 / Date: undefined
+Post #106 / Date: July 10, 2014
 
 
 <figure>
@@ -426,9 +426,9 @@ Post #106 / Date: undefined
 
 
 
-# undefined
+# Auromna
 
-Post #105 / Date: undefined
+Post #105 / Date: July 5, 2014
 
 
 <figure>
@@ -442,9 +442,9 @@ Post #105 / Date: undefined
 
 
 
-# undefined
+# Rainy Lily
 
-Post #104 / Date: undefined
+Post #104 / Date: June 25, 2014
 
 
 <figure>
@@ -458,9 +458,9 @@ Post #104 / Date: undefined
 
 
 
-# undefined
+# Pink Wall
 
-Post #103 / Date: undefined
+Post #103 / Date: June 24, 2014
 
 
 <figure>
@@ -474,9 +474,9 @@ Post #103 / Date: undefined
 
 
 
-# undefined
+# Freshness
 
-Post #102 / Date: undefined
+Post #102 / Date: June 24, 2014
 
 
 
@@ -511,9 +511,9 @@ Death shall bring peace.
 
 
 
-# undefined
+# Mortality
 
-Post #101 / Date: undefined
+Post #101 / Date: April 25, 2014
 
 
 
@@ -536,22 +536,22 @@ Sacrifice every individual's respective life, to redeem entire species' long liv
 
 
 
-# undefined
+# Way To 42
 
-Post #100 / Date: undefined
-
-
-
-When I gaze at other designers' work, I find me less professional. When I read other programmers' codes, I find me less talented. But I do not have to compare me with them, for I seek much much more.
+Post #100 / Date: February 27, 2014
 
 
-Great revolutions never come from one single breakthrough. Multiplied UNIX by open source, Linus and Richard got Linux. Multiplied multi-touch screen by specifically redesigned human-interface, Steve, Scott and Jonathan got iPhone. It is not simply adding one onto another, or plus, it is multiplying. Combining is much much more than simply mixing.
+
+When I gaze at other designers' work, I find me less professional. When I read other programmers' codes, I find me less talented. But I do not have to compare me with them, for I seek much more.
 
 
-This is also true for human individual development, I think, besides for human society. As a designer, I may or may not be greatly outstanding though professional enough, but what if I am also good at programming as same as a graduate from Computer Science major? What if I can also do globalization work for China market? What if I can be glue in a team? What if I can manage both products and visual identity?
+Great revolutions never come from one single breakthrough. Multiplied UNIX by open source, Linus and Richard got Linux. Multiplied multi-touch screen by specifically redesigned human-interface, Steve, Scott and Jonathan got iPhone. It is not simply adding one onto another, or plus, it is multiplying. Combining is not simply mixing.
 
 
-I may or may not be the best, but at least I can be unique. My value is the product of various factors with their respective exponents, obvious or potential, such as designing skills, programming skills, photography skills, literature knowledge, traveling experience, cultural background, ability of associating, and much much more. Therefore I can change the world, at least a small part in my domain, in my own way, with my own methodology. Everyone has his own way which cannot be outlined in advance by prior people, and thus everyone explores his own way. It is the way to explore. It is the way to extreme. It is the way to 42.
+This is also true for individual development, I think, not only for the society. As a designer, I may or may not be greatly outstanding though professional enough, but what if I am also good at programming? What if I can also do globalization work for China market? What if I can be glue in a team? What if I can manage both products and visual identity?
+
+
+I may or may not be the best, but at least I can be unique. My value is the product of various factors with their respective exponents, obvious or potential, e.g. designing skills, programming skills, photography skills, literature knowledge, traveling experience, cultural background, ability of associating, and more. Therefore I can change something, at least a small part in my domain, in my way, with my methodology. Everyone has his own way which cannot be outlined in advance by prior people, and thus everyone explores his own way. It is the way to explore, the way to extreme, and the way to 42.
 
 
 
@@ -561,22 +561,19 @@ I may or may not be the best, but at least I can be unique. My value is the prod
 
 
 
-# undefined
+# Starting AP
 
-Post #99 / Date: undefined
+Post #99 / Date: February 11, 2014
 
 
 
-To save money on education, I have decided to take AP tests to get credit redemption. So I arrived in Dalian and started to study for AP. Take a series of courses for AP Physics B and Calculus BC.
+For budgeting my higher education, I decided to take AP to get credit redemption. So, I arrived in Dalian to take two AP courses, Physics B and Calculus BC.
 
 
 I rent an underground room for temporarily living near by Ealing, the private educational institute which provides courses for SAT, AP and others. And it was founded by a friend of my aunt. Though no discount offered, she and one of her staff handled my college application thus I can concentrate on my own work.
 
 
-The room is too cold to sleep in unless electric heating added. Yet the real problem is, there is no space for a desk so I cannot write in the room. Now I am writing in KFC.
-
-
-The location is quite convenient, because it is near to both Ealing and downtown. 
+The room is too cold to sleep in, unless electric heating added. But the real problem is, there is no space for a desk so I cannot write in the room. Now I am writing in KFC. The location is quite convenient; it is near to both Ealing and downtown. 
 
 
 
@@ -587,9 +584,9 @@ The location is quite convenient, because it is near to both Ealing and downtown
 
 
 
-# undefined
+# Avatar: Rose
 
-Post #98 / Date: undefined
+Post #98 / Date: February 6, 2014
 
 
 <figure>
@@ -604,9 +601,9 @@ Post #98 / Date: undefined
 
 
 
-# undefined
+# Rose
 
-Post #97 / Date: undefined
+Post #97 / Date: February 6, 2014
 
 
 <figure>
@@ -620,9 +617,9 @@ Post #97 / Date: undefined
 
 
 
-# undefined
+# Avatar: Chinese New Year
 
-Post #96 / Date: undefined
+Post #96 / Date: January 28, 2014
 
 
 <figure>
@@ -636,13 +633,13 @@ Post #96 / Date: undefined
 
 
 
-# undefined
+# Macintosh, Thank You
 
-Post #95 / Date: undefined
+Post #95 / Date: January 24, 2014
 
 
 
-30 years havs passed since Steve Jobs introduced Macintosh to the world, and so far both Macintosh and Apple have been greatly appreciated around the world. Especially, I have benefited considerably from Macintosh, Apple, and Steve Jobs.
+30 years hass passed since Steve Jobs introduced Macintosh to the world, and so far both Macintosh and Apple have been greatly appreciated around the world. Especially, I have benefited considerably from Macintosh, Apple, and Steve Jobs.
 
 
 Thanks to my decision in later 2010 to get a Mac instead of a PC, which looks really profound now. I got amazed by both the graceful hardware and the powerful software. It was the first time that I understood how surprising the combination of humanity and technology can be. Thanks to such experience, I eventually decided to be a UI/UX designer, though not only UI/UX. I feel like managing interfaces in my own mind. My first Macintosh was the initial acceleration.
@@ -664,9 +661,9 @@ The encounter, shall be important in not only my life, but also this era.
 
 
 
-# undefined
+# Happy New Year 2014
 
-Post #94 / Date: undefined
+Post #94 / Date: January 1, 2014
 
 
 <figure>
@@ -680,9 +677,9 @@ Post #94 / Date: undefined
 
 
 
-# undefined
+# My Christmas Homepage
 
-Post #93 / Date: undefined
+Post #93 / Date: December 24, 2013
 
 
 <figure>
@@ -696,9 +693,9 @@ Post #93 / Date: undefined
 
 
 
-# undefined
+# Avatar: Christmas
 
-Post #92 / Date: undefined
+Post #92 / Date: December 24, 2013
 
 
 <figure>
@@ -712,9 +709,9 @@ Post #92 / Date: undefined
 
 
 
-# undefined
+# BBS Signature Line: iOS 7 (Version 2)
 
-Post #91 / Date: undefined
+Post #91 / Date: December 24, 2013
 
 
 <figure>
@@ -728,28 +725,28 @@ Post #91 / Date: undefined
 
 
 
-# undefined
+# Milestone
 
-Post #90 / Date: undefined
-
-
-
-After having taken my first IELTS test, I came back to Liaoyang yesterday.
+Post #90 / Date: December 16, 2013
 
 
-The two months flew by quickly, yet it's still a question how much my English skills have been developed. It is common sense that most people can hardly get ideal score at the first time, as same as TOEFL.
+
+After having taken first IELTS test in life, I came back to Liaoyang yesterday.
 
 
-Unfortunately I have not decided to continue preparing for IELTS or to go for TOEFL yet. I am not sure does the style of TOEFL match my current knowledge structure and how much has to be rebuilt. I makes great cost to transfer form IELTS to TOEFL, as same as to transfer from studying abroad to preparing for China University Entrance Exam.
+Two months flew by quickly, yet it's still a question how much my English has been improved. It is common sense that most people can hardly get ideal score at the first time, as same as in TOEFL.
 
 
-I am either not sure how long will I stay in Liaoyang this period, maybe two days maybe one week, or even longer.
+Unfortunately I have not decided to continue preparing for IELTS or to go for TOEFL yet. I am not sure does the flavor of TOEFL match my current knowledge structure, and how much has to be rebuilt. It might cost much to transfer form IELTS to TOEFL, vice versa, as same as to transfer from studying abroad to preparing for China University Entrance Exam.
 
 
-Now I am sitting in the classroom of my classic Liaoyang #1 High School, and Mrs Kang, the chemistry teacher, is lecturing. I am int the classroom but not in the lesson. I have lost the ability to take part in such science lessons.
+I am neither sure how long will I stay in Liaoyang this period, maybe two days maybe one week, or even longer.
 
 
-The winter has come, but my future is still covered my mist.
+Now I am sitting in the classroom of my classic Liaoyang #1 High School, and Mrs Kang, the chemistry teacher, is lecturing. I am in the classroom but not in the class. I have lost the ability to take part in such science lessons.
+
+
+The winter has come, but my future remains covered by mist.
 
 
 
@@ -759,9 +756,9 @@ The winter has come, but my future is still covered my mist.
 
 
 
-# undefined
+# BBS Signature Line: iOS 7
 
-Post #89 / Date: undefined
+Post #89 / Date: November 16, 2013
 
 
 <figure>
@@ -775,25 +772,25 @@ Post #89 / Date: undefined
 
 
 
-# undefined
+# Prometheus
 
-Post #88 / Date: undefined
+Post #88 / Date: November 9, 2013
 
 
 
 Perhaps I will fail my dream? But I decide not to give up. Perhaps my hard work will be proved useless? But I decide not to betray.
 
 
-I am a round peg in square holes, which means I have no typical options. I am a misfit among troublemakers, which means I have to be crazy. Because the people who are crazy enough to think they can change the world are the ones who do. Obviously, the possibility of my success is unknown and apparently not high, but I have to go onto this way.
+I am a round peg in square holes, which means I have no typical options. I am a misfit among troublemakers, which means I have to be crazy. Because the people who are crazy enough to think they can change the world are the ones who do. Apparently, the probability of my success is unknown and presumably not high, but I have to go onto this way.
 
 
-I have the chance to change the world, but maybe the fortunate I do not have. There will be someone of similarity with me to change the world, but not exactly who is chosen by fate. I almost have every necessary virtue for my dream, but it has not been clear whether I will be the one. I have my destiny to meet, though undefined yet. I will have my destination to arrive, though unclear yet.
+I shall have chance to change the world, but I do not have the fortune seemingly. There shall be someone of my kind to change the world, but exactly who is chosen by fate remains unknown. I shall have every necessary virtue for my dream, but it has not been clear whether I will be the one. I have my destiny to meet, though undefined yet. I will have my destination to arrive, though unclear yet.
 
 
-Life is a game, and I have to make every effort to fight. What if I fail and get proved not talented enough? It will make no sense to talk about me, a nameless loser. What if I fail but with enough talent? Unaffordable will such huge loss be.
+Life is a game, in which I have to make every effort to fight. What if I fail and get proved not talented enough? It will make no sense to talk about me, a nameless loser. What if I fail but with enough talent? Unaffordable shall such huge loss be.
 
 
-I must and will try my best to make my ding in the universe, for not only myself but entire human race. Especially since I want to be the next Prometheus.
+I must and shall try my best to make my ding in the universe, for not only myself but entire human race. Especially for I want to be next Prometheus.
 
 
 
@@ -803,9 +800,9 @@ I must and will try my best to make my ding in the universe, for not only myself
 
 
 
-# undefined
+# Lonely Leaf
 
-Post #87 / Date: undefined
+Post #87 / Date: November 9, 2013
 
 
 <figure>
@@ -819,9 +816,9 @@ Post #87 / Date: undefined
 
 
 
-# undefined
+# Homepage for Somainer
 
-Post #86 / Date: undefined
+Post #86 / Date: November 3, 2013
 
 
 <figure>
@@ -835,9 +832,9 @@ Post #86 / Date: undefined
 
 
 
-# undefined
+# Leaves Horizon
 
-Post #85 / Date: undefined
+Post #85 / Date: November 3, 2013
 
 
 <figure>
@@ -851,9 +848,9 @@ Post #85 / Date: undefined
 
 
 
-# undefined
+# Icon for iBooks (Mac)
 
-Post #84 / Date: undefined
+Post #84 / Date: October 25, 2013
 
 
 <figure>
@@ -867,9 +864,9 @@ Post #84 / Date: undefined
 
 
 
-# undefined
+# The Second Day
 
-Post #83 / Date: undefined
+Post #83 / Date: October 16, 2013
 
 
 
@@ -892,9 +889,9 @@ The future is coming.
 
 
 
-# undefined
+# Arrival
 
-Post #82 / Date: undefined
+Post #82 / Date: October 14, 2013
 
 
 
@@ -923,9 +920,9 @@ Several years later, today will be considered as my most essential day in 2013, 
 
 
 
-# undefined
+# Poster Template for Hackers Community in High Schools
 
-Post #81 / Date: undefined
+Post #81 / Date: September 29, 2013
 
 
 <figure>
@@ -939,9 +936,9 @@ Post #81 / Date: undefined
 
 
 
-# undefined
+# Every Day With You In Lifetime
 
-Post #80 / Date: undefined
+Post #80 / Date: September 2, 2013
 
 
 
@@ -970,9 +967,9 @@ Death shall finally come; it's the ultimate ending. I feel so happy, to <strong>
 
 
 
-# undefined
+# My Homepage (Version 2)
 
-Post #79 / Date: undefined
+Post #79 / Date: September 2, 2013
 
 
 <figure>
@@ -986,13 +983,13 @@ Post #79 / Date: undefined
 
 
 
-# undefined
+# Live On The Internet
 
-Post #78 / Date: undefined
+Post #78 / Date: August 29, 2013
 
 
 
-I used to be separated from the Internet. I used to be offline. I used to sorrow about graduating from middle school and scattering from classmates. Yet, nowadays, I have found that I will not worry about same things of secondary school. For I live on the Internet more than live in local.
+I used to be poisoned away from Internet. I used to be offline. I used to sorrow about graduating from middle school and scattering from classmates. However, nowadays, I found that I would not worry about same things of secondary school. For I live on the Internet more than live in local.
 
 
 It is said that we are losing face-to-face communication when building online connection. True, but we are also touching people who may otherwise never have an offline encounter. And generally relationship based on interest are more stable than those based on location. Now we are eventually seizing the fortune to place interest over location. At least, I get more rather than lose.
@@ -1014,9 +1011,9 @@ I live on the Internet. Virtual but real, abstract but exact, dramatical but rat
 
 
 
-# undefined
+# Starting
 
-Post #77 / Date: undefined
+Post #77 / Date: August 28, 2013
 
 
 
@@ -1036,22 +1033,19 @@ Post #77 / Date: undefined
 
 
 
-# undefined
+# Senior Year
 
-Post #76 / Date: undefined
-
-
-
-翻閱起從前的文章，才發覺竟有數月未曾使用中文寫作了。這個夏天留下的文字也出奇地少，便提起筆來，矯情一番罷。
+Post #76 / Date: August 25, 2013
 
 
-這個月在大連新東方學習了 TOEFL 基礎全程培訓課程，收穫不知是多是少，但也算有意義。這些天，主要是住在表姐家中，學習英語之餘積極參與 HumansMap 網頁版的 UI 設計。帶去的小說沒抽出時間閱讀，也是意料之中。
+
+In this month, I took TOEFL fundamentals course at XDF Dalian. Not sure about the result; it fulfilled me in the period anyway. I was living with cousins these days. In spare time I occasionally participated in the UI design of the web version of HumansMap. Had no time to read novels that I took there, predictably.
 
 
-回到遼陽，比原先的計劃早了幾天。回家後也不清閒，做著有靈感或沒靈感的設計，準備開學後的相關事宜。學校的作業，未曾動筆，不知新班主任會作何感想。
+It was a few days earlier than the original schedule to get back to Liaoyang. It was not idle. I was working on designs that with or without inspiration, and was preparing for post-vacation stuff. I don't know how will new head teacher react to my empty homework.
 
 
-就要開始高三的生活了，誰知道未來的路會怎樣呢。
+The last year is coming. Who knows what shall the future be.
 
 
 
@@ -1061,9 +1055,9 @@ Post #76 / Date: undefined
 
 
 
-# undefined
+# Neop.me (Version 1)
 
-Post #75 / Date: undefined
+Post #75 / Date: August 1, 2013
 
 
 <figure>
@@ -1077,9 +1071,9 @@ Post #75 / Date: undefined
 
 
 
-# undefined
+# BBS Signature Line: JN (Version 2)
 
-Post #74 / Date: undefined
+Post #74 / Date: July 25, 2013
 
 
 <figure>
@@ -1093,9 +1087,9 @@ Post #74 / Date: undefined
 
 
 
-# undefined
+# Avatar: Glow
 
-Post #73 / Date: undefined
+Post #73 / Date: July 25, 2013
 
 
 <figure>
@@ -1109,9 +1103,9 @@ Post #73 / Date: undefined
 
 
 
-# undefined
+# Glow
 
-Post #72 / Date: undefined
+Post #72 / Date: July 25, 2013
 
 
 <figure>
@@ -1125,31 +1119,31 @@ Post #72 / Date: undefined
 
 
 
-# undefined
+# Betrayer
 
-Post #71 / Date: undefined
-
-
-
-After the incredibly huge wave of discussion about iOS 7's changes on GUI, people eventually take another breath to care about OS X Mavericks. From the public introduction and preview of it, The trend of flat design has also appeared on OS X. The background tile images of Notification Center, Dashboard, and Launchpad folders, have got replaced, or disappeared. OS X is going to be flatter.
+Post #71 / Date: July 7, 2013
 
 
-I hate flat.
+
+After the tremendous controversy on iOS 7's changes on GUI, people eventually took another breath to care about OS X Mavericks. According to the public introduction and preview, the trend of flat design has also appeared on OS X. The background tile images of Notification Center, Dashboard and Launchpad folders, got replaced or removed. OS X is going to be flattened.
 
 
-What if interact with a machine without even at least one visual metaphor? What if touch a screen without even at least one familiar element? I cannot imagine it, nor accept it. What a nightmare.
+I hate it.
+
+
+What if interact with a machine without even at least one visual metaphor? What if touch a screen without even at least one familiar element? I cannot imagine it; neither can I accept it. What a nightmare.
 
 
 Then, what if OS X eventually gets as flat as iOS 7 or even more terrible? Beyond imagination. In case of that, I have to build my own OS, temporarily named NeOPSTEP.
 
 
-Ideally, I hope that NeOPSTEP is a FreeBSD-based OS, or directly powered with OpenDarwin. Yet I am not a programmer so I may or may not be able to create an OS with only these fundamental wheels. It will take time to investigate and find the right wheels.
+Ideally, I hope that NeOPSTEP is a FreeBSD-based OS, or directly powered with OpenDarwin. However, I am not a professional programmer so I may or may not be able to create an OS only with these fundamental wheels. It will take time to investigate and find out the right wheels.
 
 
-Before creating my fork, I have got started to design the GUI. My purpose is to inherit the style from Mac OS X Tiger to OS X Mountain Lion, but I cannot simply copy those because of copyright issue. Right now I am working on the default desktop picture, which is similar to the Aqua Blue of Mac OS X Tiger.
+Before creating my fork, I have got started to design the GUI. My purpose is to inherit the style from Mac OS X Tiger to OS X Mountain Lion, but I cannot simply copy those because of copyright issue. Right now I am working on the default desktop picture, which shall be similar to the Aqua Blue, which was shipped with Mac OS X Tiger.
 
 
-When we are decided to betray, I stand out and fight for our faith.
+When we are destined to be betrayed, I stand out and fight for our faith.
 
 
 
@@ -1159,9 +1153,9 @@ When we are decided to betray, I stand out and fight for our faith.
 
 
 
-# undefined
+# My Fortune, My Pain
 
-Post #70 / Date: undefined
+Post #70 / Date: July 7, 2013
 
 
 
@@ -1184,9 +1178,9 @@ Post #70 / Date: undefined
 
 
 
-# undefined
+# BBS Signature Line: NeXT
 
-Post #69 / Date: undefined
+Post #69 / Date: July 7, 2013
 
 
 <figure>
@@ -1200,9 +1194,9 @@ Post #69 / Date: undefined
 
 
 
-# undefined
+# Unbearable Pleasure
 
-Post #68 / Date: undefined
+Post #68 / Date: June 30, 2013
 
 
 
@@ -1219,9 +1213,9 @@ Post #68 / Date: undefined
 
 
 
-# undefined
+# Mini White
 
-Post #67 / Date: undefined
+Post #67 / Date: June 30, 2013
 
 
 <figure>
@@ -1235,9 +1229,9 @@ Post #67 / Date: undefined
 
 
 
-# undefined
+# Sunset
 
-Post #66 / Date: undefined
+Post #66 / Date: June 30, 2013
 
 
 <figure>
@@ -1251,9 +1245,9 @@ Post #66 / Date: undefined
 
 
 
-# undefined
+# Kindling Even
 
-Post #65 / Date: undefined
+Post #65 / Date: June 29, 2013
 
 
 
@@ -1282,9 +1276,9 @@ Yoke on kindling even
 
 
 
-# undefined
+# Next NeXT
 
-Post #64 / Date: undefined
+Post #64 / Date: June 29, 2013
 
 
 
@@ -1310,9 +1304,9 @@ I am looking forward to next NeXT.
 
 
 
-# undefined
+# Hand In Hand
 
-Post #63 / Date: undefined
+Post #63 / Date: June 29, 2013
 
 
 
@@ -1353,9 +1347,9 @@ And soul across soul
 
 
 
-# undefined
+# Such Looooooooooong A Week Eventually Gone
 
-Post #62 / Date: undefined
+Post #62 / Date: June 10, 2013
 
 
 
@@ -1375,9 +1369,9 @@ Then in the following three days' break, maybe I will read the biography of Stev
 
 
 
-# undefined
+# Corner Flower
 
-Post #61 / Date: undefined
+Post #61 / Date: June 9, 2013
 
 
 <figure>
@@ -1391,9 +1385,9 @@ Post #61 / Date: undefined
 
 
 
-# undefined
+# Such Deep A Whole I Jumped
 
-Post #60 / Date: undefined
+Post #60 / Date: May 17, 2013
 
 
 
@@ -1422,9 +1416,9 @@ Maybe I really should work more than a music master.
 
 
 
-# undefined
+# Bypassed Spring
 
-Post #59 / Date: undefined
+Post #59 / Date: May 17, 2013
 
 
 
@@ -1447,9 +1441,9 @@ Anyway I can only advance as far as possible.
 
 
 
-# undefined
+# Silent Walk
 
-Post #58 / Date: undefined
+Post #58 / Date: May 12, 2013
 
 
 
@@ -1472,9 +1466,9 @@ Despite memorizable experiences above, these weeks were still not significative.
 
 
 
-# undefined
+# Approaching Destination Of Current Life
 
-Post #57 / Date: undefined
+Post #57 / Date: April 27, 2013
 
 
 
@@ -1500,9 +1494,9 @@ A blurry shape of vista is forged. It's increasingly clear, and is stepping clos
 
 
 
-# undefined
+# My Homepage (Version 1)
 
-Post #56 / Date: undefined
+Post #56 / Date: April 20, 2013
 
 
 <figure>
@@ -1516,9 +1510,9 @@ Post #56 / Date: undefined
 
 
 
-# undefined
+# null
 
-Post #55 / Date: undefined
+Post #55 / Date: April 14, 2013
 
 
 
@@ -1532,9 +1526,9 @@ There are mass ways to consider the world, and I choose one conclusion to believ
 
 
 
-# undefined
+# Sound Of Wind
 
-Post #54 / Date: undefined
+Post #54 / Date: April 2, 2013
 
 
 
@@ -1557,9 +1551,9 @@ Post #54 / Date: undefined
 
 
 
-# undefined
+# The First Rain In The Spring
 
-Post #53 / Date: undefined
+Post #53 / Date: April 1, 2013
 
 
 
@@ -1590,9 +1584,9 @@ Post #53 / Date: undefined
 
 
 
-# undefined
+# So Fast
 
-Post #52 / Date: undefined
+Post #52 / Date: Mar 27, 2013
 
 
 
@@ -1621,9 +1615,9 @@ Again, immerse into memories.
 
 
 
-# undefined
+# Chaotic Wind
 
-Post #51 / Date: undefined
+Post #51 / Date: Mar 19, 2013
 
 
 
@@ -1643,9 +1637,9 @@ There was something, really chaotic.
 
 
 
-# undefined
+# White
 
-Post #50 / Date: undefined
+Post #50 / Date: Mar 12, 2013
 
 
 
@@ -1671,9 +1665,9 @@ My lover is null. My love is blank. My heart is vacant. My anxiety is hollow. My
 
 
 
-# undefined
+# Ended Love & Remaining Desire
 
-Post #49 / Date: undefined
+Post #49 / Date: Mar 3, 2013
 
 
 
@@ -1693,9 +1687,9 @@ Post #49 / Date: undefined
 
 
 
-# undefined
+# Snow And Memories
 
-Post #48 / Date: undefined
+Post #48 / Date: February 28, 2013
 
 
 
@@ -1718,9 +1712,9 @@ I haven't escaped from the shadows yet.
 
 
 
-# undefined
+# Far, Further, Future
 
-Post #47 / Date: undefined
+Post #47 / Date: February 25, 2013
 
 
 
@@ -1743,9 +1737,9 @@ Post #47 / Date: undefined
 
 
 
-# undefined
+# BBS Signature Line: JN
 
-Post #46 / Date: undefined
+Post #46 / Date: February 15, 2013
 
 
 <figure>
@@ -1759,9 +1753,9 @@ Post #46 / Date: undefined
 
 
 
-# undefined
+# Avatar: Slate
 
-Post #45 / Date: undefined
+Post #45 / Date: February 15, 2013
 
 
 <figure>
@@ -1775,9 +1769,9 @@ Post #45 / Date: undefined
 
 
 
-# undefined
+# Spring Festival 2013
 
-Post #44 / Date: undefined
+Post #44 / Date: February 10, 2013
 
 
 
@@ -1812,9 +1806,9 @@ Post #44 / Date: undefined
 
 
 
-# undefined
+# null
 
-Post #43 / Date: undefined
+Post #43 / Date: February 4, 2013
 
 
 
@@ -1828,9 +1822,9 @@ Post #43 / Date: undefined
 
 
 
-# undefined
+# null
 
-Post #42 / Date: undefined
+Post #42 / Date: January 23, 2013
 
 
 
@@ -1844,9 +1838,9 @@ Post #42 / Date: undefined
 
 
 
-# undefined
+# Love Story Of Late Autumn
 
-Post #41 / Date: undefined
+Post #41 / Date: December 31, 2012
 
 
 
@@ -1908,9 +1902,9 @@ Post #41 / Date: undefined
 
 
 
-# undefined
+# Escape
 
-Post #40 / Date: undefined
+Post #40 / Date: December 15, 2012
 
 
 
@@ -1954,9 +1948,9 @@ Post #40 / Date: undefined
 
 
 
-# undefined
+# Tragedy Between You And Me
 
-Post #39 / Date: undefined
+Post #39 / Date: December 14, 2012
 
 
 
@@ -1985,9 +1979,9 @@ Post #39 / Date: undefined
 
 
 
-# undefined
+# null
 
-Post #38 / Date: undefined
+Post #38 / Date: December 10, 2012
 
 
 
@@ -2001,9 +1995,9 @@ Post #38 / Date: undefined
 
 
 
-# undefined
+# Just Obey Yourself
 
-Post #37 / Date: undefined
+Post #37 / Date: December 7, 2012
 
 
 
@@ -2069,9 +2063,9 @@ Be what you want to be
 
 
 
-# undefined
+# Cold Winter
 
-Post #36 / Date: undefined
+Post #36 / Date: December 7, 2012
 
 
 
@@ -2111,9 +2105,9 @@ Post #36 / Date: undefined
 
 
 
-# undefined
+# Requiem
 
-Post #35 / Date: undefined
+Post #35 / Date: November 24, 2012
 
 
 
@@ -2272,9 +2266,9 @@ Post #35 / Date: undefined
 
 
 
-# undefined
+# Into The Clear Water
 
-Post #34 / Date: undefined
+Post #34 / Date: November 17, 2012
 
 
 
@@ -2304,9 +2298,9 @@ Post #34 / Date: undefined
 
 
 
-# undefined
+# null
 
-Post #33 / Date: undefined
+Post #33 / Date: November 10, 2012
 
 
 <figure>
@@ -2332,9 +2326,9 @@ Post #33 / Date: undefined
 
 
 
-# undefined
+# Avatar: B&W (Version 2)
 
-Post #32 / Date: undefined
+Post #32 / Date: November 9, 2012
 
 
 <figure>
@@ -2348,9 +2342,9 @@ Post #32 / Date: undefined
 
 
 
-# undefined
+# null
 
-Post #31 / Date: undefined
+Post #31 / Date: November 6, 2012
 
 
 
@@ -2370,9 +2364,9 @@ Post #31 / Date: undefined
 
 
 
-# undefined
+# iPad Wallpaper: Colorful Apple Logo
 
-Post #30 / Date: undefined
+Post #30 / Date: November 4, 2012
 
 
 <figure>
@@ -2386,9 +2380,9 @@ Post #30 / Date: undefined
 
 
 
-# undefined
+# Meaningless
 
-Post #29 / Date: undefined
+Post #29 / Date: October 31, 2012
 
 
 
@@ -2408,9 +2402,9 @@ Post #29 / Date: undefined
 
 
 
-# undefined
+# BBS Signature Line: Thought Different
 
-Post #28 / Date: undefined
+Post #28 / Date: October 19, 2012
 
 
 <figure>
@@ -2424,9 +2418,9 @@ Post #28 / Date: undefined
 
 
 
-# undefined
+# BBS Signature Line: Think Different
 
-Post #27 / Date: undefined
+Post #27 / Date: October 2, 2012
 
 
 <figure>
@@ -2440,9 +2434,9 @@ Post #27 / Date: undefined
 
 
 
-# undefined
+# Quiet Night
 
-Post #26 / Date: undefined
+Post #26 / Date: September 24, 2012
 
 
 
@@ -2477,9 +2471,9 @@ Post #26 / Date: undefined
 
 
 
-# undefined
+# In Your Name The Leaves Fall
 
-Post #25 / Date: undefined
+Post #25 / Date: September 22, 2012
 
 
 <h3>1</h3>
@@ -2559,9 +2553,9 @@ Post #25 / Date: undefined
 
 
 
-# undefined
+# Single Travel
 
-Post #24 / Date: undefined
+Post #24 / Date: September 14, 2012
 
 
 
@@ -2590,9 +2584,9 @@ Post #24 / Date: undefined
 
 
 
-# undefined
+# Meaning Of Life
 
-Post #23 / Date: undefined
+Post #23 / Date: September 8, 2012
 
 
 
@@ -2630,9 +2624,9 @@ Post #23 / Date: undefined
 
 
 
-# undefined
+# No Longer The Things, No Longer The People
 
-Post #22 / Date: undefined
+Post #22 / Date: September 7, 2012
 
 
 
@@ -2673,9 +2667,9 @@ Post #22 / Date: undefined
 
 
 
-# undefined
+# Autumn Rain
 
-Post #21 / Date: undefined
+Post #21 / Date: September 4, 2012
 
 
 
@@ -2727,9 +2721,9 @@ Post #21 / Date: undefined
 
 
 
-# undefined
+# Flower Sketch
 
-Post #20 / Date: undefined
+Post #20 / Date: August 30, 2012
 
 
 <figure>
@@ -2743,9 +2737,9 @@ Post #20 / Date: undefined
 
 
 
-# undefined
+# Hope
 
-Post #19 / Date: undefined
+Post #19 / Date: August 30, 2012
 
 
 
@@ -2784,9 +2778,9 @@ Post #19 / Date: undefined
 
 
 
-# undefined
+# null
 
-Post #18 / Date: undefined
+Post #18 / Date: August 28, 2012
 
 
 
@@ -2800,9 +2794,9 @@ Post #18 / Date: undefined
 
 
 
-# undefined
+# Avatar: B&W
 
-Post #17 / Date: undefined
+Post #17 / Date: August 27, 2012
 
 
 <figure>
@@ -2816,9 +2810,9 @@ Post #17 / Date: undefined
 
 
 
-# undefined
+# null
 
-Post #16 / Date: undefined
+Post #16 / Date: August 24, 2012
 
 
 <figure>
@@ -2832,9 +2826,9 @@ Post #16 / Date: undefined
 
 
 
-# undefined
+# Raining Into The Lake
 
-Post #15 / Date: undefined
+Post #15 / Date: August 23, 2012
 
 
 
@@ -2893,9 +2887,9 @@ Post #15 / Date: undefined
 
 
 
-# undefined
+# null
 
-Post #14 / Date: undefined
+Post #14 / Date: August 23, 2012
 
 
 <figure>
@@ -2909,9 +2903,9 @@ Post #14 / Date: undefined
 
 
 
-# undefined
+# Three Years
 
-Post #13 / Date: undefined
+Post #13 / Date: July 14, 2012
 
 
 
@@ -3038,9 +3032,9 @@ Post #13 / Date: undefined
 
 
 
-# undefined
+# May The Wind Be With Your Sleep
 
-Post #12 / Date: undefined
+Post #12 / Date: July 14, 2012
 
 
 <h3>猶記得那年我們都還很年幼</h3>
@@ -3106,9 +3100,9 @@ Post #12 / Date: undefined
 
 
 
-# undefined
+# Forever
 
-Post #11 / Date: undefined
+Post #11 / Date: July 6, 2012
 
 
 
@@ -3225,9 +3219,9 @@ A
 
 
 
-# undefined
+# The Eternal
 
-Post #10 / Date: undefined
+Post #10 / Date: June 28, 2012
 
 
 
@@ -3262,9 +3256,9 @@ In memory of the youth of us, and the time of us.
 
 
 
-# undefined
+# Cool Night, Nice Wind
 
-Post #9 / Date: undefined
+Post #9 / Date: June 17, 2012
 
 
 
@@ -3287,9 +3281,9 @@ In reply to the good night, let me keep in silence.
 
 
 
-# undefined
+# null
 
-Post #8 / Date: undefined
+Post #8 / Date: June 1, 2012
 
 
 
@@ -3303,9 +3297,9 @@ One year has past since high school entrance exam. The finale of my senior year 
 
 
 
-# undefined
+# In Utter Darkness
 
-Post #7 / Date: undefined
+Post #7 / Date: May 20, 2012
 
 
 
@@ -3331,9 +3325,9 @@ The prophecy is uncertain; there is always hope.
 
 
 
-# undefined
+# null
 
-Post #6 / Date: undefined
+Post #6 / Date: May 3, 2012
 
 
 
@@ -3347,9 +3341,9 @@ Every summer recalls me the summer of 2008. It's nightmare in my mind; cannot ex
 
 
 
-# undefined
+# Life & Death
 
-Post #5 / Date: undefined
+Post #5 / Date: April 27, 2012
 
 
 <blockquote>
@@ -3384,9 +3378,9 @@ Death resides life.
 
 
 
-# undefined
+# The Stars
 
-Post #4 / Date: undefined
+Post #4 / Date: April 26, 2012
 
 
 
@@ -3419,9 +3413,9 @@ A piece of ice, dirty the sky,
 
 
 
-# undefined
+# Today's Wind Is So Noisy
 
-Post #3 / Date: undefined
+Post #3 / Date: April 25, 2012
 
 
 
@@ -3450,9 +3444,9 @@ No more enthusiasm toward him.
 
 
 
-# undefined
+# Earth Day 2012
 
-Post #2 / Date: undefined
+Post #2 / Date: April 22, 2012
 
 
 
@@ -3484,9 +3478,9 @@ When this piece of text disappear along with the civilization in entropy, shall 
 
 
 
-# undefined
+# Early In The Spring
 
-Post #1 / Date: undefined
+Post #1 / Date: April 12, 2012
 
 
 
@@ -3512,9 +3506,9 @@ Another crossroads in life.
 
 
 
-# undefined
+# Hello World!
 
-Post #0 / Date: undefined
+Post #0 / Date: April 5, 2012
 
 
 

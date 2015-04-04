@@ -47,12 +47,12 @@ var maxId = listJson.list.length-1;
 for (var i = maxId; i > 0 && i > maxId-200; i--) {
 	accumulate = accumulate + postTemplate.replace(/__AUTHOR__/g, 'Joy Neop')
 	.replace(/__URL__/g, 'http://joyneop.xyz/blog/?p=' + i)
-	.replace(/__TITLE__/g, listJson.list[i]['Title'])
-	.replace(/__DATE__/g, listJson.list[i]['Time'])
+	.replace(/__TITLE__/g, listJson.list[i]['T'])
+	.replace(/__DATE__/g, listJson.list[i]['D'])
 	.replace(/__CONTENT__/g, fs.readFileSync(blogPath + '/db/' + i + '.txt', 'utf8'));
 };
 
-lastDate = listJson.list[(listJson.list.length-1)]['Time'];
+lastDate = listJson.list[(listJson.list.length-1)]['D'];
 
 entireXml = xmlTemplate
 .replace(/__ITEMS__/g, accumulate)
