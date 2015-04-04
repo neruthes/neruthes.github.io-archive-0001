@@ -8,15 +8,15 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
         <atom:link href="http://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />
         <link>http://joyneop.xyz/blog/</link>
         <description>Do what you want to do. Be what you want to be.</description>
-        <lastBuildDate>February 19, 2015 09:41:00 +0000</lastBuildDate>
+        <lastBuildDate>undefined 09:41:00 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
 	    <generator>http://joyneop.github.io/blog/</generator>
         <item>
-            <title><em>Parse</em>: Life-saving Backend</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=117</link>
-            <pubDate>February 19, 2015 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=117</guid>
             <content:encoded>
@@ -31,9 +31,9 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
             </content:encoded>
         </item>
         <item>
-            <title>Introducing My PGP Public Key (Since 2015)</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=116</link>
-            <pubDate>January 26, 2015 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=116</guid>
             <content:encoded>
@@ -194,9 +194,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>I Can (Not) Restart</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=115</link>
-            <pubDate>January 23, 2015 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=115</guid>
             <content:encoded>
@@ -213,9 +213,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Happy New Year 2015</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=114</link>
-            <pubDate>January 1, 2015 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=114</guid>
             <content:encoded>
@@ -227,9 +227,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Private Concepts</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=113</link>
-            <pubDate>November 15, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=113</guid>
             <content:encoded>
@@ -241,25 +241,25 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>At This Age</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=112</link>
-            <pubDate>October 2, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=112</guid>
             <content:encoded>
 <![CDATA[
-<p>從未預料到可以在 18 歲前遇見你。曾期許，曾渴望，但這真正來臨太過突然。突然到尚無準備。</p>
-<p>此時的我們，還太年輕，仍然期待著遙遠的未來，不安於眼前的彼此。不可避免的吧。等待時間流逝，在我們身邊。然後，經歷過歲月的我們才會安心於彼此吧。只是，這期間如何度過，需要二人共同的努力。</p>
-<p>檯燈光影斑駁，紙筆交融娑婆。北京的雨凜冽了風，杭州的你看不到這一切。異步地欣賞，異步地想念，不知線下的共同生活開始後會是如何。會有吸引，會有磨合，不像詩與歌一樣輕鬆容易。</p>
-<p>期許著，盼望著，遙遠的未來走近。成長著，凋亡著，兩個人的幸福交匯。</p>
-<p lang="ja">あなたをしんじて。</p>
+<p>I had never imagined I could meet you at eighteen. Despite I wished and desired, you came to me so fast, before getting ready.</p>
+<p>We, of this moment, are still young and still looking forward to far future, thus are not satisfied by each. Inevitably perhaps. Along with time flies by, we shall stop wandering mentally by then. We just should try hard jointly for the period of separate.</p>
+<p>In Hangzhou, you can't see the rain and the wind in Beijing. We appreciate and miss asynchronously; have no idea what will our shared life be like. We shall attract; shall try to be fit with. Life is not as easy as poetry.</p>
+<p>Our happiness shall intersect and unite.</p>
+<p>In you I trust.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>時代の中へ</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=111</link>
-            <pubDate>September 24, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=111</guid>
             <content:encoded>
@@ -274,9 +274,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>My Homepage (Version 3)</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=110</link>
-            <pubDate>September 6, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=110</guid>
             <content:encoded>
@@ -288,9 +288,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Avatar: Kyouratsu (XD)</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=109</link>
-            <pubDate>August 27, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=109</guid>
             <content:encoded>
@@ -302,9 +302,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Woodstocky</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=108</link>
-            <pubDate>July 30, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=108</guid>
             <content:encoded>
@@ -316,9 +316,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>青春路上</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=107</link>
-            <pubDate>July 12, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=107</guid>
             <content:encoded>
@@ -330,9 +330,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Visionary</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=106</link>
-            <pubDate>July 10, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=106</guid>
             <content:encoded>
@@ -344,9 +344,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Auromna</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=105</link>
-            <pubDate>July 5, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=105</guid>
             <content:encoded>
@@ -358,9 +358,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Rainy Lily</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=104</link>
-            <pubDate>June 25, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=104</guid>
             <content:encoded>
@@ -372,9 +372,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Pink Wall</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=103</link>
-            <pubDate>June 24, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=103</guid>
             <content:encoded>
@@ -386,28 +386,28 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Freshness</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=102</link>
-            <pubDate>June 24, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=102</guid>
             <content:encoded>
 <![CDATA[
-<p>生命是有鮮度的。即使身體構造允許，也無法活數千年。在鮮度耗盡時，會開始厭倦活著。厭倦所擁有的生命。</p>
-<p>然而，在耗盡鮮度前便已得到安息的人，並不擁有真正的幸福。求生本能，鮮度消耗，一邊是生命誕生之初的原始動力，一邊是無法阻擋的自然衰敗。它們驅使著人，在鮮度殆盡時陷入精神錯亂，在鮮度歸零時既不心甘情願又不心懷眷戀地結束生命。</p>
-<p>身體構造阻止我活到宇宙終點，求生本能阻止我主動結束生命，物理規律阻止我抹除我的出生。</p>
-<p>終將死亡，為何要有生命?</p>
-<p>無法維持鮮度，為何要讓我存在?</p>
-<p>隨機碰撞製造出的生命，一開始便沒有意義。生命的意志，也不會接受創造者給予的意義。</p>
-<p>被囚禁在「活著的人」這個尷尬的狀態中，永生不得，自殺不得。即使相信可以順利地在開始厭倦活著之前自然死亡。</p>
-<p>唯有死亡，方能安息。</p>
+<p>There's freshness of life. Humans cannot live thousands of years, even if the physical body allows. A human shall be bored by living, upon freshness runs out.</p>
+<p>However, those who die before run out freshness don't have real happiness. Survival instinct collides with exhausted freshness. Built-in power of life collides with unstoppable natural decay. They drive humans mad when freshness arriving zero, and let humans terminate their lives; neither actually willed to, nor trying to deny.</p>
+<p>Humans' psychical structure prohibits me from live until the end of the universe. Survival instinct prohibits me from terminating my life by myself. Causality prohibits me from erase my presence from the very beginning.</p>
+<p>Death shall come. Why there's da sign of lives?</p>
+<p>Freshness cannot be maintained. Why there's da sign of me?</p>
+<p>Life came from random collisions; there is never meaning of life. Neither shall self-awarenesses of lives accept the meaning given by the creator.</p>
+<p>I am poisoned in the status "living human"; cannot life forever; cannot kill myself. Although I believe I will die before running out freshness.</p>
+<p>Death shall bring peace.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>Mortality</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=101</link>
-            <pubDate>April 25, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=101</guid>
             <content:encoded>
@@ -420,9 +420,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Way To 42</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=100</link>
-            <pubDate>February 27, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=100</guid>
             <content:encoded>
@@ -435,9 +435,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Starting AP</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=99</link>
-            <pubDate>February 11, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=99</guid>
             <content:encoded>
@@ -451,9 +451,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Avatar: Rose</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=98</link>
-            <pubDate>February 6, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=98</guid>
             <content:encoded>
@@ -466,9 +466,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Rose</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=97</link>
-            <pubDate>February 6, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=97</guid>
             <content:encoded>
@@ -480,9 +480,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Avatar: Chinese New Year</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=96</link>
-            <pubDate>January 28, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=96</guid>
             <content:encoded>
@@ -494,25 +494,25 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Macintosh, Thank You</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=95</link>
-            <pubDate>January 24, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=95</guid>
             <content:encoded>
 <![CDATA[
-<p>30 years have passed since Steve Jobs introduced Macintosh to the world, and so far both Macintosh and Apple have been greatly appreciated around the world. Especially, I have benefited considerably from Macintosh, Apple, and Steve Jobs.</p>
-<p>Thanks to my decision in later 2010 to get a Mac instead of a PC, which looks really profound now. Therefore, I got amazed by both the graceful hardware and the powerful software. It was the first time that I understood how surprising the combination of humanity and technology can be. Thanks to such experience, I eventually decided to be a designer in UI, though not only UI. I feel like managing everything in my own mind. My first Macintosh was the initial acceleration.</p>
-<p>Macintosh is the symbol of that stage and an essential milestone along personal electronic devices' development, where most modern genius are spending their intelligence on, where I will also take part in. Hard to imagine what if I didn't decide to get a Mac. Hard to imagine what if I get a Mac more later. Hard to imagine what if I failed in getting a computer.</p>
+<p>30 years havs passed since Steve Jobs introduced Macintosh to the world, and so far both Macintosh and Apple have been greatly appreciated around the world. Especially, I have benefited considerably from Macintosh, Apple, and Steve Jobs.</p>
+<p>Thanks to my decision in later 2010 to get a Mac instead of a PC, which looks really profound now. I got amazed by both the graceful hardware and the powerful software. It was the first time that I understood how surprising the combination of humanity and technology can be. Thanks to such experience, I eventually decided to be a UI/UX designer, though not only UI/UX. I feel like managing interfaces in my own mind. My first Macintosh was the initial acceleration.</p>
+<p>Macintosh is the symbol of that stage and was an essential milestone along with personal electronic devices' history, where most modern genius are devoting themselves on, where I will also engage in. Hard to imagine what if I didn't decide to get a Mac. Hard to imagine what if I got a Mac more later. Hard to imagine what if I failed in getting a computer before 16.</p>
 <p>Therefore, I appreciate Macintosh much more than others do. My appreciating is beyond admiring, but acknowledging.</p>
-<p>An essential encounter, in not only my life, but also this era.</p>
+<p>The encounter, shall be important in not only my life, but also this era.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>Happy New Year 2014</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=94</link>
-            <pubDate>January 1, 2014 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=94</guid>
             <content:encoded>
@@ -524,9 +524,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>My Christmas Homepage</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=93</link>
-            <pubDate>December 24, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=93</guid>
             <content:encoded>
@@ -538,9 +538,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Avatar: Christmas</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=92</link>
-            <pubDate>December 24, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=92</guid>
             <content:encoded>
@@ -552,9 +552,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>BBS Signature Line: iOS 7 (Version 2)</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=91</link>
-            <pubDate>December 24, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=91</guid>
             <content:encoded>
@@ -566,9 +566,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Milestone</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=90</link>
-            <pubDate>December 16, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=90</guid>
             <content:encoded>
@@ -583,9 +583,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>BBS Signature Line: iOS 7</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=89</link>
-            <pubDate>November 16, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=89</guid>
             <content:encoded>
@@ -597,9 +597,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Prometheus</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=88</link>
-            <pubDate>November 9, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=88</guid>
             <content:encoded>
@@ -613,9 +613,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Lonely Leaf</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=87</link>
-            <pubDate>November 9, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=87</guid>
             <content:encoded>
@@ -627,9 +627,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Homepage for Somainer</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=86</link>
-            <pubDate>November 3, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=86</guid>
             <content:encoded>
@@ -641,9 +641,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Leaves Horizon</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=85</link>
-            <pubDate>November 3, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=85</guid>
             <content:encoded>
@@ -655,9 +655,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Icon for iBooks (Mac)</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=84</link>
-            <pubDate>October 25, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=84</guid>
             <content:encoded>
@@ -669,41 +669,41 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>The Second Day</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=83</link>
-            <pubDate>October 16, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=83</guid>
             <content:encoded>
 <![CDATA[
-<p>This morning I got my report of the pretest, which shows that my ability is fine and I can get 5.0 after these courses, and I have a high possibility to get 5.5 as well.</p>
-<p>Then I took my first speaking class and first listening class here. Liang Wang and Xiaoli Ma are my speaking teachers and Ou Lee is my listening teacher. In the listening test provided by Ou Lee, I worked out 29 out of 40, and got 6.5 in total. This is encouraging.</p>
-<p>And I got my room, and started to live with an international student, a Muslim, from Tajikistan. He told me that being naked in front of others in his religion is not a good behavior, after my taking a shower.</p>
-<p>I understand the future is coming.</p>
+<p>Today morning I got my report of the pretest, which indicates that my ability is fine and I can get 5.0 after these courses, and I have a high possibility to get 5.5 as well.</p>
+<p>Then I took the first speaking class and the first listening class. Liang Wang and Xiaoli Ma are my speaking teachers and Ou Lee is my listening teacher. In the listening test provided by Ou Lee, I worked out 29 out of 40, and got 6.5 in total. This is encouraging.</p>
+<p>And I got my room, and started to live with an international student from Tajikistan.</p>
+<p>The future is coming.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>Arrival</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=82</link>
-            <pubDate>October 14, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=82</guid>
             <content:encoded>
 <![CDATA[
-<p>Today, I have arrived in Shenyang. In the following two months, I will take a 160-hour English course for the IELTS. After having considered the situation, I finally decided to prepare for the IELTS rather than for the TOEFL.</p>
-<p>At 10:00, we four students took a pretest intending to figure out our current abilities, so they would be able to design the entire plan.</p>
+<p>Today, I have arrived at Shenyang. In the following two months, I will take a 160-hour English course for the IELTS. After having considered the situation, I finally decided to prepare for IELTS rather than TOEFL.</p>
+<p>At 10:00, we four students took a pretest intending to figure out our current abilities, which allows them to design the entire plan.</p>
 <p>The first section was speaking. A lady sat in front of me. She came up with the first question, or to say topic, the brand of my phone.</p>
-<p>We then took the listening section, reading section, and writing section. The listening section was a conversation between a student and a clerk in bookstore. They were discussing discount policy for students. The article was about the construction of Snowy Mountain Scheme, a hydro-electric power station in Australia. Finally the writing section asked me to describe a graph exposing the wheat exports of European Community, Australia, and Canada, from 1985 to 1990. I worked poor. Spare my handwriting.</p>
-<p>After lunch, we got to the agency which had handled my applications. My mother and I talked with Mr Xing about my destinations, and chose several universities. I asked if it would be ok for me to apply for universities with such high rank, considering I won't provide SAT, and my IELTS score won't surpass 6. He convinced me that they could manage it. And I registered for the IELTS on Dec 14, 2013.</p>
+<p>We then took the listening section, reading section, and writing section. The listening section was a conversation between a student and a clerk in bookstore, discussing discount policy for students. The article was about the construction of Snowy Mountain Scheme, a hydro-electric power station in Australia. Finally the writing section was to describe a graph exposing the wheat exports of European Community, Australia, and Canada, from 1985 to 1990. It was not a good performance.</p>
+<p>After lunch, we got to the agency which had handled my applications. My mother and I talked with Mr Xing about my destinations, and chose several universities. I asked if it would be ok for me to apply for universities ranked such high, considering I won't take SAT, and seemingly my IELTS score won't be greater than 6. He convinced me that they could manage it. And I registered for the IELTS on Dec 14, 2013.</p>
 <p>Several years later, today will be considered as my most essential day in 2013, even in my entire lifetime.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>Poster Template for Hackers Community in High Schools</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=81</link>
-            <pubDate>September 29, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=81</guid>
             <content:encoded>
@@ -715,26 +715,26 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>君と生きた 日々のすべて</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=80</link>
-            <pubDate>September 2, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=80</guid>
             <content:encoded>
 <![CDATA[
-<p>再過些天就是我的 18 歲生日了，想到這事不免一陣感慨。</p>
-<p>待到數十年後，是誰輕輕落淚在誰的腮邊，是誰靜靜躺在誰的花下?待到數百年後，世人因我而記得你，還是因你而記得我?待到數千年後，我們的肉體與產生的信息一同淹沒在浩蕩的歷史中，對人類的影響又會淡到如何?</p>
-<p>若你先我離去，我不知道之後的人生該如何度過。終日徘徊在繁忙又空曠的街頭，迴盪你溫柔的聲音。若我先你離去，我不忍心你承擔同樣的痛苦。面對我的遺像凝神惆悵，每夜在沒有我的床上輾轉反側孤獨終老。</p>
-<p>我是唯物主義者，沒有上帝的眷顧，沒有佛祖的保佑，去不得天堂，得不到轉世。我選擇了用奧卡姆剃刀將他們砍碎時，就接受了死無所去的結局。</p>
-<p>然而離世的先後卻不是你我所能決定，交給歲月去安排反而更容易坦然面對、欣然接受。</p>
-<p>人之大限，終將至焉。君以為伴，此生幸哉。</p>
+<p>The eighteenth birthday is coming soon.</p>
+<p>Decades later, who shall drop tear aside whom, and who shall lay beneath whose flowers? Centuries later, humans remember me because of you, or remember you because of me? Millenniums later, our physical forms and information produced shall vanish in the history; how shall our influences fade?</p>
+<p>If you leave me alive alone, I don't know how can I live further than your death. Wandering at the busy yet spacious streetsides; listing your yasashii voice echoing. If I leave you alive alone, I cannot allow the pain ruling over you. Gazing at my <em>image</em> every day; scrolling from side to side on the bed where I don't exist every night.</p>
+<p>I am atheist. There's no god blessing me; no Jesus loving me. The heaven doesn't welcome me. By the time I cut and nullified them, I accepted to go nowhere after death.</p>
+<p>The order to die is not determined by us. The nature shall reserve the power.</p>
+<p>Death shall finally come; it's the ultimate ending. I feel so happy, to <strong>live</strong> with you.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>My Homepage (Version 2)</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=79</link>
-            <pubDate>September 2, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=79</guid>
             <content:encoded>
@@ -746,9 +746,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Live On The Internet</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=78</link>
-            <pubDate>August 29, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=78</guid>
             <content:encoded>
@@ -762,9 +762,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>開學</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=77</link>
-            <pubDate>August 28, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=77</guid>
             <content:encoded>
@@ -776,9 +776,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>高三</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=76</link>
-            <pubDate>August 25, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=76</guid>
             <content:encoded>
@@ -791,9 +791,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Neop.me (Version 1)</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=75</link>
-            <pubDate>August 1, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=75</guid>
             <content:encoded>
@@ -805,9 +805,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>BBS Signature Line: JN (Version 2)</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=74</link>
-            <pubDate>July 25, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=74</guid>
             <content:encoded>
@@ -819,9 +819,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Avatar: Glow</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=73</link>
-            <pubDate>July 25, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=73</guid>
             <content:encoded>
@@ -833,9 +833,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Glow</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=72</link>
-            <pubDate>July 25, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=72</guid>
             <content:encoded>
@@ -847,9 +847,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Betrayer</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=71</link>
-            <pubDate>July 7, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=71</guid>
             <content:encoded>
@@ -865,9 +865,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>吾之幸，吾之痛</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=70</link>
-            <pubDate>July 7, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=70</guid>
             <content:encoded>
@@ -880,9 +880,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>BBS Signature Line: NeXT</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=69</link>
-            <pubDate>July 7, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=69</guid>
             <content:encoded>
@@ -894,9 +894,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>沈重的榮幸</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=68</link>
-            <pubDate>June 30, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=68</guid>
             <content:encoded>
@@ -907,9 +907,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Mini White</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=67</link>
-            <pubDate>June 30, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=67</guid>
             <content:encoded>
@@ -921,9 +921,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Sunset</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=66</link>
-            <pubDate>June 30, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=66</guid>
             <content:encoded>
@@ -935,9 +935,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Kindling Even</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=65</link>
-            <pubDate>June 29, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=65</guid>
             <content:encoded>
@@ -952,9 +952,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Next NeXT</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=64</link>
-            <pubDate>June 29, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=64</guid>
             <content:encoded>
@@ -968,9 +968,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Hand In Hand</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=63</link>
-            <pubDate>June 29, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=63</guid>
             <content:encoded>
@@ -990,9 +990,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Such Looooooooooong A Week Eventually Gone</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=62</link>
-            <pubDate>June 10, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=62</guid>
             <content:encoded>
@@ -1004,9 +1004,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Corner Flower</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=61</link>
-            <pubDate>June 9, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=61</guid>
             <content:encoded>
@@ -1018,9 +1018,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Such Deep A Whole I Jumped</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=60</link>
-            <pubDate>May 17, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=60</guid>
             <content:encoded>
@@ -1035,9 +1035,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Bypassed Spring</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=59</link>
-            <pubDate>May 17, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=59</guid>
             <content:encoded>
@@ -1050,9 +1050,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Silent Walk</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=58</link>
-            <pubDate>May 12, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=58</guid>
             <content:encoded>
@@ -1065,9 +1065,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Approaching Destination Of Current Life</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=57</link>
-            <pubDate>April 27, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=57</guid>
             <content:encoded>
@@ -1081,9 +1081,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>My Homepage (Version 1)</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=56</link>
-            <pubDate>April 20, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=56</guid>
             <content:encoded>
@@ -1095,9 +1095,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title></title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=55</link>
-            <pubDate>April 14, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=55</guid>
             <content:encoded>
@@ -1107,9 +1107,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>風聲</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=54</link>
-            <pubDate>April 2, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=54</guid>
             <content:encoded>
@@ -1122,9 +1122,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>春之初雨</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=53</link>
-            <pubDate>April 1, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=53</guid>
             <content:encoded>
@@ -1140,9 +1140,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>So Fast</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=52</link>
-            <pubDate>Mar 27, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=52</guid>
             <content:encoded>
@@ -1157,9 +1157,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Chaotic Wind</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=51</link>
-            <pubDate>Mar 19, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=51</guid>
             <content:encoded>
@@ -1171,9 +1171,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>White</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=50</link>
-            <pubDate>Mar 12, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=50</guid>
             <content:encoded>
@@ -1187,9 +1187,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Ended Love &amp; Remaining Desire</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=49</link>
-            <pubDate>Mar 3, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=49</guid>
             <content:encoded>
@@ -1201,9 +1201,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Snow And Memories</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=48</link>
-            <pubDate>February 28, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=48</guid>
             <content:encoded>
@@ -1216,9 +1216,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Far, Further, Future</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=47</link>
-            <pubDate>February 25, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=47</guid>
             <content:encoded>
@@ -1231,9 +1231,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>BBS Signature Line: JN</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=46</link>
-            <pubDate>February 15, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=46</guid>
             <content:encoded>
@@ -1245,9 +1245,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Avatar: Slate</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=45</link>
-            <pubDate>February 15, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=45</guid>
             <content:encoded>
@@ -1259,9 +1259,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Spring Festival 2013</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=44</link>
-            <pubDate>February 10, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=44</guid>
             <content:encoded>
@@ -1278,9 +1278,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title></title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=43</link>
-            <pubDate>February 4, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=43</guid>
             <content:encoded>
@@ -1290,9 +1290,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title></title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=42</link>
-            <pubDate>January 23, 2013 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=42</guid>
             <content:encoded>
@@ -1302,9 +1302,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>深秋之戀</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=41</link>
-            <pubDate>December 31, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=41</guid>
             <content:encoded>
@@ -1331,9 +1331,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Escape</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=40</link>
-            <pubDate>December 15, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=40</guid>
             <content:encoded>
@@ -1354,9 +1354,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>這就是關於你和我的悲劇了吧</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=39</link>
-            <pubDate>December 14, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=39</guid>
             <content:encoded>
@@ -1371,9 +1371,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title></title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=38</link>
-            <pubDate>December 10, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=38</guid>
             <content:encoded>
@@ -1383,9 +1383,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Just Obey Yourself</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=37</link>
-            <pubDate>December 7, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=37</guid>
             <content:encoded>
@@ -1413,9 +1413,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>寒冬</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=36</link>
-            <pubDate>December 7, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=36</guid>
             <content:encoded>
@@ -1434,9 +1434,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>鎮魂曲</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=35</link>
-            <pubDate>November 24, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=35</guid>
             <content:encoded>
@@ -1497,9 +1497,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>澄んだ水の中へ</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=34</link>
-            <pubDate>November 17, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=34</guid>
             <content:encoded>
@@ -1515,9 +1515,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title></title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=33</link>
-            <pubDate>November 10, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=33</guid>
             <content:encoded>
@@ -1541,9 +1541,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Avatar: B&W (Version 2)</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=32</link>
-            <pubDate>November 9, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=32</guid>
             <content:encoded>
@@ -1555,9 +1555,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title></title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=31</link>
-            <pubDate>November 6, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=31</guid>
             <content:encoded>
@@ -1569,9 +1569,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>iPad Wallpaper: Colorful Apple Logo</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=30</link>
-            <pubDate>November 4, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=30</guid>
             <content:encoded>
@@ -1583,9 +1583,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>意味ない</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=29</link>
-            <pubDate>October 31, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=29</guid>
             <content:encoded>
@@ -1597,9 +1597,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>BBS Signature Line: Thought Different</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=28</link>
-            <pubDate>October 19, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=28</guid>
             <content:encoded>
@@ -1611,9 +1611,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>BBS Signature Line: Think Different</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=27</link>
-            <pubDate>October 2, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=27</guid>
             <content:encoded>
@@ -1625,9 +1625,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>秋夜靜思</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=26</link>
-            <pubDate>September 24, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=26</guid>
             <content:encoded>
@@ -1644,9 +1644,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>落葉堆成你的名字</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=25</link>
-            <pubDate>September 22, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=25</guid>
             <content:encoded>
@@ -1682,9 +1682,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>單程</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=24</link>
-            <pubDate>September 14, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=24</guid>
             <content:encoded>
@@ -1699,9 +1699,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>命の意味</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=23</link>
-            <pubDate>September 8, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=23</guid>
             <content:encoded>
@@ -1719,9 +1719,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>物不再是，人也已非</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=22</link>
-            <pubDate>September 7, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=22</guid>
             <content:encoded>
@@ -1741,9 +1741,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>秋雨</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=21</link>
-            <pubDate>September 4, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=21</guid>
             <content:encoded>
@@ -1767,9 +1767,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Flower Sketch</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=20</link>
-            <pubDate>August 30, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=20</guid>
             <content:encoded>
@@ -1781,9 +1781,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>希望</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=19</link>
-            <pubDate>August 30, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=19</guid>
             <content:encoded>
@@ -1802,9 +1802,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title></title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=18</link>
-            <pubDate>August 28, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=18</guid>
             <content:encoded>
@@ -1814,9 +1814,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Avatar: B&W</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=17</link>
-            <pubDate>August 27, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=17</guid>
             <content:encoded>
@@ -1828,9 +1828,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title></title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=16</link>
-            <pubDate>August 24, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=16</guid>
             <content:encoded>
@@ -1842,9 +1842,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>雨落淺池</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=15</link>
-            <pubDate>August 23, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=15</guid>
             <content:encoded>
@@ -1870,9 +1870,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title></title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=14</link>
-            <pubDate>August 23, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=14</guid>
             <content:encoded>
@@ -1884,9 +1884,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>三年</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=13</link>
-            <pubDate>July 14, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=13</guid>
             <content:encoded>
@@ -1936,9 +1936,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>風，會指引你睡覺的方向</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=12</link>
-            <pubDate>July 14, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=12</guid>
             <content:encoded>
@@ -1968,9 +1968,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Forever</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=11</link>
-            <pubDate>July 6, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=11</guid>
             <content:encoded>
@@ -1994,171 +1994,190 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 <p>提醒了我誓言已經到期</p>
 <p>塵封的記憶漂浮在空氣裡</p>
 <p>永不落地永不破碎</p>
+
+
+<!--
+<p>A line on the first page of the notebook,</p>
+<p>Opened the story of adolescence.</p>
+<p>Time stopped, so suddenly,</p>
+<p>Youth that never fade go into a poem.</p>
+<br />
+<p>Look out at the land that we've grown on,</p>
+<p>Memory of youth were preserved everywhere.</p>
+<p>The old calendars inside my drawer,</p>
+<p>A </p>
+<br />
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<br />
+<p></p>
+<p></p>
+-->
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>永遠的懷念</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=10</link>
-            <pubDate>June 28, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=10</guid>
             <content:encoded>
 <![CDATA[
-<p>繁華的群星，繁華了三年的回憶。昏黃的路燈，昏黃了你我的面容。</p>
-<p>分別久了，我開始懷念從前在一起的時光。</p>
-<p>初一，最深的印象是那個永遠陰雲密布的秋天。當時，我沈醉在回憶中。六年同窗，恍若一夢。各自散去，在一起的生活戛然而止。如今，曾經想永遠留住的記憶早已隨風而逝。終究，時間沖淡了一切。</p>
-<p>初二，我們在遙遠的分校址。開學前那個夏末，我曾佇立在大門外，望著那鬱鬱蔥蔥的校園。每年都有一些人來到這裡，並在次年離去。人生中平凡而又特別的一年，在這裡度過。這裡多了古樸，少了現代，多了寧靜，少了喧囂。校園中的景物，無一不懷舊。歲月在牆上剝落，滿地惆悵。不支離破碎，卻充滿滄桑。或許，這就是歲月的感覺。後來，又是一個夏天，我也要離去了。校園中每棵樹、每株草、每張課桌、每級台階、每寸操場、每米走廊、每座雕像、每扇門窗，都是我的留戀。</p>
-<p>初三，是我最燦爛的少年時代。我再次回到主校址。初中三年，初三是最快樂的。學習雖然忙碌，但那種充實且有追求的生活很幸福。初三，是這三年的高潮與終章。最懷念，當年在一起的感覺。一起拼搏，共同奮鬥。</p>
-<p>轉眼間，又是一年。</p>
-<p>課桌上的油墨，吸引了多少回復?</p>
-<p>窗台上的鐫刻，招來了多少目光?</p>
-<p>操場上的身影，凝結了多少過往?</p>
-<p>我們共同經歷過的人生，已經走向不同的道路。這三年的歲月，正是因為有了你們所有美好。</p>
-<p>以此紀念，年少的我們，年少的時光。</p>
+<p>The galaxy enshrine memory of those three years; Street lamps fainted faces of you and me.</p>
+<p>I started to yearn the good old days.</p>
+<p>There were clouds over our heads, and I was sticked in memory and pain of the lost years. Six years of being together was terminated such suddenly; the exodus. The memory, that I tried to preserve indefinitely, finally decayed in the wind, in the time. The first year.</p>
+<p>We moved far west to the other campus. Before the beginning of the third semester, I stood in front of the gate and gazed at the green. People came here and left here every year. An ordinary yet special year in life would be spent there. There were more primitiveness than modernity; more quietness than noisiness. Every scene recalls me something. Ages engraved on walls; a ground of sadness. It was the feel of aging. Soon, another summer, I left there as well. Every tree, every desk, every step, every inch of ground, every square meter of hallways, every door and every window, engraved the year in my heart. The second year.</p>
+<p>We were back, in the main campus. I was fulfilled by <em>real</em> life. It was the climax and finale, by which I have been embraced. The third year.</p>
+<p>Another year has past.</p>
+<p>We have been going different ways, from our mutual. Thanks for brightening my life in the years.</p>
+<p>In memory of the youth of us, and the time of us.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>夜風微涼</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=9</link>
-            <pubDate>June 17, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=9</guid>
             <content:encoded>
 <![CDATA[
-<p>初夏的夜風微涼。</p>
-<p>這種感覺很久沒有體驗了。上一次，似乎是去年。</p>
-<p>寂靜的城市，窗外之剩幾處燈火。幽幽藍光，是樓下花園裡的小路燈靜靜發光。</p>
-<p>抬起頭，卻是滿天空曠。群星，並未出現。或許是烏雲吧，陰影遮蔽了虛空。似乎我的猜測沒錯，天際正用稀疏的閃電講述真相。</p>
-<p>行文至此，繼續似乎並無意義。安詳的夜晚，就讓我用沈默回應。</p>
+<p>Early summer. Cool wind at night. For long haven't it blowed me.</p>
+<p>The city was in silence, and the lights were dim. Blue lamps ware breathing, in the garden under the house.</p>
+<p>To the sky it was clear, for the stars were covered by clouds, perhaps. And the lightning proved.</p>
+<p>In reply to the good night, let me keep in silence.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title></title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=8</link>
-            <pubDate>June 1, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=8</guid>
             <content:encoded>
 <![CDATA[
-<p>月末，又是一年中考時。2011 年這段時間，我初三生活的終章，是我最充實最快樂的時光。如今，那些回憶早已遠去。新生活還是要來的。歲月的變遷，歷史的車輪。只能期望，新生活會更加美好。</p>
+<p>One year has past since high school entrance exam. The finale of my senior year in middle school was the most fulfilled and happy time I had enjoyed. Old days decay; new days come. May there be a better future.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>在黑暗的深淵中走向不可預知的未來</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=7</link>
-            <pubDate>May 20, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=7</guid>
             <content:encoded>
 <![CDATA[
-<p>年少的時光，太過短暫。三年的夢與希望，愛與幻想，都會化作未來的回憶。當青春只剩下筆尖下的墨跡，當年華變成為細雨中的淚滴，一切都已遠去。</p>
-<p>就算社會再險惡，就算希望再渺茫，也要保持信仰，為之奮鬥。百年後，可能你是家譜中一個名字，但或許你沒有給子孫留下感人的故事。近百年的歲月中，你是要紙醉金迷享樂一生，還是要為人類歷史的發展做出不可磨滅貢獻?你是要揮霍前人的遺產，還是要為地球留下寶貴的財富?你是要賣一輩子糖水，還是要改變世界?</p>
-<p>這就是我們短暫的人生，在歷史的長河中太過渺小。</p>
-<p>時間會抹去一切，也會證明一切。在歷史的刻痕被時間抹去前，讓你的貢獻留在世人心中吧。在大同的世界創造大不同，讓有限的生命在有限的歲月中鑄就屬於你的輝煌。</p>
-<p>人生太過短暫，太過卑微，所以更要讓你的聲音響徹全球，所以更要讓你的故事流芳百世，所以更要讓你的貢獻為人銘記。</p>
-<p>預言尚未可知，希望永不磨滅。</p>
+<p>Age of youth was so short. All the dream, hope, love and fantasy of three years shall be sealed call be called memory in the future. When adolescence only remain in ink under pen, and youth only remain in tears with rain, everything would have lost.</p>
+<p>I'll keep fighting, in such dangerous and hopeless a society. A name in family tree, or a glorious story for decedents? A life of selling sugared water or change the world?</p>
+<p>Life is short.</p>
+<p>Time shall wipe everything engraved. Also shall it prove everything. May my contribution be with in people's mind, before time erases my presence.</p>
+<p>The prophecy is uncertain; there is always hope.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title></title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=6</link>
-            <pubDate>May 3, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=6</guid>
             <content:encoded>
 <![CDATA[
-<p>每到夏天，我都會想起 2008 年的那個夏天。就像個夢魘在我腦中遊蕩，揮之不去。已經過去近 4 年了，那些珍貴的回憶也已經遺失殆盡，但那種傷痛依稀可辨。熵增，最終會讓一切歸於熱寂。</p>
+<p>Every summer recalls me the summer of 2008. It's nightmare in my mind; cannot exorcise. Four years has passed, the precious memories have almost deceased, but the pain remains, maybe indefinitely.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>Life &amp; Death</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=5</link>
-            <pubDate>April 27, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=5</guid>
             <content:encoded>
 <![CDATA[
-<blockquote><p>「我從未體會過死亡，將來也不會。」</p>——<cite>Tassadar</cite></blockquote>
-<blockquote><p>「死不是作為生的對立而是做為生的一部分永存，人的死才是真正的永生。」 </p>——<cite>楊慧心</cite></blockquote>
-<p>Tassadar 的犧牲，並不是真正的「死亡」，而是「飛升」。Tassadar 已經到達圓滿的境界，即使肉體已死，精神卻能在 Khala 中永生。Tassadar 以一種特別的方式，活在所有 Khalai 的精神中。這種方式，與 MEME 類似——原始的本體不重要，且通過社會化的方式傳承、演化、生長。這是另一種存在的方式。</p>
-<p>所以，只要所有認識賈寶琳君的人建立起一個互相維繫且實時交流的關係網絡，就能讓賈寶琳君以非實體的方式繼續活著。這是真正的「活在我們心中」。我們死後，我們也會有這樣一個互相維繫且實時交流的關係網絡，所以屆時我們將於賈寶琳君以相同的方式活著。我們活在別人心中，賈寶琳君活在我們心中。</p>
-<p>死，是生的延續。</p>
-<p>高等生命將如此浩瀚的細胞凝聚在一起形成單獨的個體，形成了無比嚴格的秩序——生命活動幾乎沒有任何差錯，即使有差錯也很容易自動糾正。生命是宇宙中秩序的極致體現。</p>
-<p>然而，宇宙的本質是混亂。自發的現象，熵增居多。熱力學時間箭頭不可逆。受熱力學第二定律的限制下，我們在無窮熵增的宇宙中做出任何維持秩序的努力都是無效的，我們不可能阻擋熵增——從秩序到混亂，是必然的。我們從虛空中出現，也注定要回到虛空中。</p>
-<p>死，是生的歸宿。</p>
+<blockquote><p>"I have never died. Neither shall I ever."</p>——<cite>Tassadar</cite></blockquote>
+<blockquote><p>"Death is not opposite to life; it's part of life. Death leads life to eternal."</p>——<cite>Huixin Yang</cite></blockquote>
+<p>The death of Tassadar was not <em>death</em>; it was <em>transcend</em>. He was complete. He has been immortal in Khala, in every Khalai's presence. It's another way of <em>existence</em>.</p>
+<p>People who know Baolin is a network of information, where his presence shall exist upon death. Which is call, "<em>still lives in our minds</em>". Upon my death, my presence shall also exist longer in this way. The only pity is that it's not recursive.</p>
+<p>Death extends life.</p>
+<p>Complex living forms consist of vast cells, which produces significant entropy. Life is ultimate order in the universe.</p>
+<p>However, the destiny of the universe is chaos. Limited by second law of thermodynamics, we are destined to go into chaos, regardless of our attempt to keep order. From the void goes the void. Inevitably.</p>
+<p>Death resides life.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>辰冥决・觀星記</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=4</link>
-            <pubDate>April 26, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=4</guid>
             <content:encoded>
 <![CDATA[
 <p>仲春觀星，慘淡月色冷無情。如若堅冰，濁空明，一盞離愁映樹影。黑雲穿行，何日破曉晴?</p>
 <p>塵世功名，千載悠悠歲月凝。化作雛鷹，掠風鈴，幾番奮鬥醉中醒。驟雨泥濘，無礙幽思淨。</p>
+<!--
+<p>I gaze at stars, and see the moon cold, shining emotionlessly.</p>
+<p>A piece of ice, dirty the sky, </p>
+<p></p>
+<p></p>
+<p></p>-->
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>風瑟瑟兮雨瀟瀟</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=3</link>
-            <pubDate>April 25, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=3</guid>
             <content:encoded>
 <![CDATA[
-<p>又是一個雨天。</p>
-<p>傳說城市的居民無法享受完整的雨天。事實上，或許的確如此。但是，城市的雨天也別有一番風味。瀝青路雖無青石街的滄桑，但多了幾許風韻。樓房之間互相遮蔽，影影綽綽的感覺也是鄉村無法提供的。</p>
-<p>灰蒙蒙的天空，光影徘徊。不見日月，不見星辰。</p>
-<p>每當下雨時，就會想起某人。那首「雨落淺池」，為他所作。</p>
-<p>2011 年秋我就開始對他有興趣了。而他，從未在乎過我吧。他在瞭解我的身份時那種語氣和表情，告訴我或許先前對我略有耳聞。</p>
-<p>我用自習寫的歌詞的手稿，被他弄丟了。從那時起，我就該意識到我在他心中只是浮雲。為他創作的歌詞，他並不在乎。</p>
-<p>何必想太多，現在我已經不再對他有執著了。</p>
+<p>It's raining. Again.</p>
+<p>People in cities cannot enjoy complete rainy days, as is said and believed. However, urban rains are stylish in another way. Tarmac streets are not same ageful as slate ways, but have something different. Buildings covered by buildings, shadows covered by shadows; it's what cannot be seen in countryside.</p>
+<p>The sky was masked grayscale, light and shadows turn in turn. Sunless; moonless; starless.</p>
+<p>The rain reminded me somebody, who I used to be interested in for sex and relationship since fall of 2011, but a straight guy unfortunately. He must have heard of me, according to his react when associating my name and face.</p>
+<p>The hand script of the lyric which was written to him was lost by him. Since then, I should have understood I'm just a stranger in his mind, for he didn't care about it.</p>
+<p>No more enthusiasm toward him.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>Earth Day 2012</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=2</link>
-            <pubDate>April 22, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=2</guid>
             <content:encoded>
 <![CDATA[
-<p>多年前，我們預料的，是無盡的傳承，還是終章的沈淪?</p>
-<p>多年後，我們聽到的，是同胞的歡笑，還是末日的呢喃?</p>
-<p>我們腳下的行星，是我們永遠的家園。即使在遙遠的未來，人類漂泊宇宙，也會永遠有人保存我們在地球的歷史。</p>
-<p>然而，我們正在將地球推向毀滅。</p>
-<p>低下頭，親吻這大地，吮吸泥土的芬芳，感受草木的活力。這種感覺，值得挽留，值得銘記。</p>
-<p>若不做出改變，在不久的未來，這一切只能成為懷念。</p>
-<p>The heaven is falling down!</p>
-<p>看看這顆我們已知的宇宙中最美的行星，記住它的美貌。不久之後，這一切可能永遠不復存在。</p>
-<p>當這段文字與人類的文明一同消失在無盡的熵增時，我們會榮耀，或是悔恨?</p>
+<p>Did we predict indefinite inheritance, or falling of sky?</p>
+<p>Shall we hear brothers' laughter, or whisper of judgement day?</p>
+<p>The planet under our feet, is the eternal homeland. Though in far future, when homo sapiens spread into the galaxy, our history on Earth shall be preserved.</p>
+<p>The biosphere is falling.</p>
+<p>Kiss Gaia. Smell the dirt, and the plants. It worth maintain and love.</p>
+<p>Remember the time Remember the homeland. It may vanish soon.</p>
+<p>When this piece of text disappear along with the civilization in entropy, shall there be glory, or regret?</p>
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>春色初綻</title>
+            <title>undefined</title>
             <link>http://joyneop.xyz/blog/?p=1</link>
-            <pubDate>April 12, 2012 09:41:00 +0000</pubDate>
+            <pubDate>undefined 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=1</guid>
             <content:encoded>
 <![CDATA[
-<p>今天，青年街旁的桃花綻放了。暮光中，繼續粉嫩點綴在街頭。</p>
-<p>終於，又是一個春天了。</p>
-<p>去年這時，我們距離中考還有 76 天。那時，我們都還很清閒。而現在，距離高考還有 785 天，我們卻無比忙碌。這就是高中生活的必然吧。</p>
-<p>依然是那樹，那花，卻不再有心情去欣賞，去品味。物是人非。</p><p>我面前，又是一處命運的十字路口。人生的成敗，全都在這 785 天。</p>
-<p>為自由，奮鬥。</p>
+<p>Peach flowers opened today, along the street, with decorative pinkness and freshness.</p>
+<p>Finally, another spring.</p>
+<p>It was 76 days until high school entrance exam on the same day of last year; we were easy. Now it is 785 days until college entrance exam; we are busy. Maybe inevitably.</p>
+<p>The trees were there are there; the flowers were there are there. The emotion was there isn't there.</p>
+<p>Another crossroads in life.</p>
 ]]>
             </content:encoded>
         </item>

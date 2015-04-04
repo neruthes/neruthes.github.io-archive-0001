@@ -10,7 +10,7 @@ var fs = require('fs');
 
 var blogPath = '/Users/JoyNeop/Developer/joyneop.github.io/blog';
 var maxId = 106;
-var insertAs = 15;
+var insertAs = process.argv[2];
 for (var i = maxId; i >= insertAs; i--) {
 	fs.writeFileSync(blogPath + '/db/' + (i + 1) + '.txt', fs.readFileSync(blogPath + '/db/' + i + '.txt', 'utf8'));
 };
