@@ -48,6 +48,9 @@
 		letter-spacing: 0.12rem;
 		margin: 0;
 	}
+	.main {
+		background: #000;
+	}
 	.main a {
 		display: block;
 	}
@@ -59,11 +62,11 @@
 	}
 	@media screen and (min-width: 768px) {
 		.main a img {
-			transition: all 0ms ease;
-			-webkit-filter: brightness(44%) saturate(44%);
+			opacity: 0.34;
+			transition: all 200ms ease;
 		}
 		.main a:hover img {
-			-webkit-filter: none;
+			opacity: 1;
 		}
 	}
 	</style>
