@@ -54,11 +54,17 @@
 	.main a img {
 		display: block;
 		width: 100%;
-		-webkit-filter: brightness(55%) saturate(44%);
-		transition: all 0ms ease;
 	}
 	.main a:hover img {
-		-webkit-filter: none;
+	}
+	@media screen and (min-width: 768px) {
+		.main a img {
+			transition: all 0ms ease;
+			-webkit-filter: brightness(44%) saturate(44%);
+		}
+		.main a:hover img {
+			-webkit-filter: none;
+		}
 	}
 	</style>
 </head>
@@ -89,9 +95,9 @@
 		{ 'name' : 'Seravek', 'url' : 'processtype/seravek/' },
 		{ 'name' : 'Diaria Pro', 'url' : 'konstantynov/diaria-pro/' },
 		{ 'name' : 'Votle', 'url' : 'indian-type-foundry/volte/' },
+		{ 'name' : 'ZionTrain Pro', 'url' : 'andrijtype/zion-train-pro/' },
 		{ 'name' : 'Libertad', 'url' : 'tipotype/libertad/' },
-		{ 'name' : 'Marine', 'url' : 'tipotype/marine/' },
-		{ 'name' : 'ZionTrain Pro', 'url' : 'andrijtype/zion-train-pro/' }
+		{ 'name' : 'Marine', 'url' : 'tipotype/marine/' }
 	]);
 	</script>
 	<script type="text/javascript" src="/jn-alert-view.js"></script>
