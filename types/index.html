@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Joy Neop</title>
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/joyneop.png">
+	<style type="text/css">
+	@import url(/fonts/seravek.css);
+	* {
+		text-rendering: optimizeLegibility;
+		box-sizing: border-box;
+	}
+	body {
+		font-family: Seravek, 'Myriad Pro', Myriad, 'Myriad Set', 'Open Sans', 'Helvetica Neue', 'Helvetica Neue', Helvetica, Lucida Grande, Arial, 'Arial-Black', 'Arial Black', sans-serif;
+		font-size: 20px;
+		font-weight: 200;
+		color: #585858;
+		min-height: 1500px;
+		padding: 0;
+		margin: 0;
+		background: #FAFAFA;
+	}
+	a {
+		color: inherit;
+		text-decoration: inherit;
+	}
+	header {
+		display: table-cell;
+		vertical-align: middle;
+		height: 44.792vw;
+		/*padding: 18vh 0;*/
+	}
+	.title-in {
+	}
+	@media screen and (min-width: 768px) {
+		.title-in {
+			margin: 0 0 0 160px;
+		}
+	}
+	@media screen and (max-width: 767px) {
+		.title-in {
+			margin: 0 0 0 40px;
+		}
+	}
+	h1 {
+		font-size: 36px;
+		letter-spacing: 0.12rem;
+		margin: 0;
+	}
+	.main a {
+		display: block;
+	}
+	.main a img {
+		display: block;
+		width: 100%;
+		-webkit-filter: brightness(55%) saturate(44%);
+		transition: all 0ms ease;
+	}
+	.main a:hover img {
+		-webkit-filter: none;
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="title-in">
+			<a href="./">
+				<h1>TYPES I LOVE</h1>
+			</a>
+			<p>
+				Buy the fonts followling the link, and I will get 15% from your payment.
+			</p>
+		</div>
+	</header>
+	<div class="main" id="list-of-types">
+	</div>
+	<script type="text/javascript">
+	(function(dom, list){
+		for (var i = 0; i < list.length; i++) {
+			var anchor = document.createElement('a');
+			var img = document.createElement('img');
+			anchor.href = 'https://www.myfonts.com/fonts/' + list[i].url;
+			img.src = 'img/' + list[i].name + '.png';
+			anchor.appendChild(img);
+			dom.appendChild(anchor);
+		};
+	})(document.getElementById('list-of-types'), [
+		{ 'name' : 'Seravek', 'url' : 'processtype/seravek/' },
+		{ 'name' : 'Diaria Pro', 'url' : 'konstantynov/diaria-pro/' },
+		{ 'name' : 'Votle', 'url' : 'indian-type-foundry/volte/' },
+		{ 'name' : 'Libertad', 'url' : 'tipotype/libertad/' },
+		{ 'name' : 'Marine', 'url' : 'tipotype/marine/' },
+		{ 'name' : 'ZionTrain Pro', 'url' : 'andrijtype/zion-train-pro/' }
+	]);
+	</script>
+	<script type="text/javascript" src="/jn-alert-view.js"></script>
+</body>
+</html>
