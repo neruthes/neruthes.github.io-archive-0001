@@ -97,6 +97,7 @@
 			var anchor = document.createElement('a');
 			var img = document.createElement('img');
 			anchor.href = 'https://www.myfonts.com/fonts/' + list[i].url;
+			anchor.setAttribute('rel', 'nofollow');
 			img.src = encodeURIComponent('img/' + list[i].name + (window.innerWidth*window.devicePixelRatio >= 1920 ? '@2x' : '') +  '.jpg');
 			anchor.appendChild(img);
 			dom.appendChild(anchor);
