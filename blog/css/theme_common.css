@@ -182,6 +182,7 @@ p code {
 nav.prevandnext span, nav.prevandnext span a {
 	font-size: 1.414em;
 	font-weight: 200;
+	text-transform: uppercase;
 	display: block;
 	padding: 1em 0.4em;
 }
