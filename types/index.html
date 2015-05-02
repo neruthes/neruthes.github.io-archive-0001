@@ -96,23 +96,23 @@
 		for (var i = 0; i < list.length; i++) {
 			var anchor = document.createElement('a');
 			var img = document.createElement('img');
-			anchor.href = 'https://www.myfonts.com/fonts/' + list[i].url;
+			anchor.href = 'https://www.myfonts.com/fonts/' + list[i].url + '/';
 			anchor.setAttribute('rel', 'nofollow');
 			img.src = encodeURIComponent('img/' + list[i].name + (window.innerWidth*window.devicePixelRatio >= 1920 ? '@2x' : '') +  '.jpg');
 			anchor.appendChild(img);
 			dom.appendChild(anchor);
 		};
 	})(document.getElementById('list-of-types'), [
-		{ 'name' : 'Seravek', 'url' : 'processtype/seravek/' },
-		{ 'name' : 'Glober', 'url' : 'font-fabric/glober/' },
-		{ 'name' : 'Diaria Pro', 'url' : 'konstantynov/diaria-pro/' },
-		{ 'name' : 'Museo', 'url' : 'exljbris/museo/' },
-		{ 'name' : 'Votle', 'url' : 'indian-type-foundry/volte/' },
-		{ 'name' : 'Mangerica', 'url' : 'ndiscovered/mangerica/' },
-		{ 'name' : 'ZionTrain Pro', 'url' : 'andrijtype/zion-train-pro/' },
-		{ 'name' : 'Libertad', 'url' : 'tipotype/libertad/' },
-		{ 'name' : 'Lapidaria', 'url' : 'andreas-stotzner/lapidaria/' },
-		{ 'name' : 'Marine', 'url' : 'tipotype/marine/' }
+		{ 'name' : 'Seravek', 'url' : 'processtype/seravek' },
+		{ 'name' : 'Glober', 'url' : 'font-fabric/glober' },
+		{ 'name' : 'Danton', 'url' : 'hoftype/danton' },
+		{ 'name' : 'Museo', 'url' : 'exljbris/museo' },
+		{ 'name' : 'Votle', 'url' : 'indian-type-foundry/volte' },
+		{ 'name' : 'Mangerica', 'url' : 'ndiscovered/mangerica' },
+		{ 'name' : 'ZionTrain Pro', 'url' : 'andrijtype/zion-train-pro' },
+		{ 'name' : 'Libertad', 'url' : 'tipotype/libertad' },
+		{ 'name' : 'Lapidaria', 'url' : 'andreas-stotzner/lapidaria' },
+		{ 'name' : 'Marine', 'url' : 'tipotype/marine' }
 	]);
 	</script>
 </body>
