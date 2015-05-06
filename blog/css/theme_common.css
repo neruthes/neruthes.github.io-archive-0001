@@ -1,8 +1,11 @@
 @import url(/fonts/seravek.css);
 @import url(/fonts/inconsolata.css);
 
-body {
+body, pre, code {
 	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
 	font-size: 10px;
 	font-weight: 200;
 	color: #444;
@@ -16,6 +19,7 @@ header.global a {
 header.global h1, header.global h2 {
 	color: #585858;
 	font-weight: 200;
+	text-align: center;
 	margin: 0;
 }
 
@@ -76,7 +80,8 @@ a {
 }
 
 .post-text {
-	font-weight: 300;
+	font-weight: 200;
+	-webkit-hyphens: auto;
 }
 
 .post-text > h3 {
@@ -93,6 +98,7 @@ a {
 
 .post-text > p {
 	line-height: 1.75em;
+	/*text-align: justify;*/
 	margin: 17px 0;
 }
 
@@ -113,8 +119,6 @@ a {
 }
 
 p code {
-	font-family: Inconsolata, Menlo, Monaco, monospace;
-	font-weight: 200;
 	background: #F4F4F4;
 	border-radius: 3px;
 	padding: 0 3px;
@@ -145,7 +149,6 @@ p code {
 }
 
 .post-text pre {
-	font-family: Inconsolata, Menlo, Monaco, Consolas, monospace;
 	background: #F4F4F4;
 	border-radius: 4px;
 	overflow-x: scroll;
