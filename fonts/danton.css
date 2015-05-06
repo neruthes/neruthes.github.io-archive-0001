@@ -1,0 +1,31 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3021167, 2015-05-06T05:51:35-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Danton-Light by Hoftype
+ * URL: http://www.myfonts.com/fonts/hoftype/danton/light/
+ * Copyright: Copyright (c) 2015 by Dieter Hofrichter. All rights reserved.
+ * Licensed pageviews: 100,000,000,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3021167
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2e196f");
+
+  
+@font-face {
+	font-family: 'Danton-Light';
+	src: url('fonts/Danton-Light.eot');
+	src: url('fonts/Danton-Light.eot?#iefix') format('embedded-opentype');
+}
