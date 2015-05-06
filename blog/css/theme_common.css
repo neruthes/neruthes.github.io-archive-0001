@@ -82,6 +82,8 @@ a {
 .post-text {
 	font-weight: 200;
 	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
 }
 
 .post-text > h3 {
@@ -98,7 +100,6 @@ a {
 
 .post-text > p {
 	line-height: 1.75em;
-	/*text-align: justify;*/
 	margin: 17px 0;
 }
 
