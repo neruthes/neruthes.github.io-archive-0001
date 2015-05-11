@@ -1,7 +1,7 @@
-<p>A few days ago, <a href="http://dimpurr.com/" target="_blank">Dimpurr</a> and I decided to abandon evenBits, due to the following reasons.</p>
-<h3>ADC Paradox</h3>
-<p>Briefly: If there is a teenager-oriented technology conference, it should cover many </p>
-<h3>Circular Dependency</h3>
-<p></p>
-<p></p>
-<p></p>
+<h3>Ultimatism</h3>
+<p>Humans have been studying the world for long. It was believed that the world was rational, was designed by some sort of omniponent intelligence, namely God. Humans used to believe that by some means (e.g. talking to God) humans can fully understand the <em>rules</em> of the world. They believed that the world was designed to be with precision and accuracy, which allowed humans to comprehend and describe.</p>
+<h3>Approximatism</h3>
+<p>Another group of humans started to believe that there is no such <em>rules</em> behind the world. The facts that can be observed are like solutions of some equation, while given non-infinite solutions there are infinite equations allows all the solutions valid. The same as given limited elements of a indefinite seial, there are unlimited fomulas for it. Intelligent beings can come up with equations constitute all observations under it so far in the equation, and data of experiments stand for it so far so firmly. When a new observation or experiment result comes up to challenge a guessed equation, we update it or develop a new one from scratch.</p>
+<p>Uncountable events happen in the universe every nanosecond, far beyond observability of any being, so it's technically possiblet to believe any equation so far so good can remain good indefinitely. All we can do is just to keep observing and keep updating. Stay hungry for furthur observations and stay foolish with approximate equations. Precision and accuracy shall never come true.</p>
+<h3>And For Me</h3>
+<p>I'm an approximatist. It feels sad to deny <em>true rules</em> but I have to.</p>

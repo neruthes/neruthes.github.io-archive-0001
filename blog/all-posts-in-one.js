@@ -8,7 +8,7 @@ Static Blog Generator
 var fs = require('fs');
 
 var real = function (inpu) {
-	return inpu.replace(/<\/?p>/g, '\n').replace(/<br\s?\/>/g, '\n').replace(/<a.*?href="(.*?)".*?>(.*?)<\/a>/g, '[$2]($1)').replace(/<\/?em>/g, '*');
+	return inpu.replace(/<\/p>[\n\s]*?<p>/g, '\n\n').replace(/<\/?p>/g, '\n').replace(/<br\s?\/>/g, '\n').replace(/<a.*?href="(.*?)".*?>(.*?)<\/a>/g, '[$2]($1)').replace(/<\/?em>/g, '*');
 }
 
 var blogPath = __dirname;

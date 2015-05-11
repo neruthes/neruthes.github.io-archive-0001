@@ -45,7 +45,7 @@ listJson = JSON.parse(fs.readFileSync(blogPath + '/list.json', 'utf8'));
 
 var maxId = listJson.list.length-1;
 for (var i = maxId; i > 0 && i > maxId-200; i--) {
-	accumulate = accumulate + postTemplate.replace(/__AUTHOR__/g, 'Joy Neop')
+	accumulate += postTemplate.replace(/__AUTHOR__/g, 'Joy Neop')
 	.replace(/__URL__/g, 'http://joyneop.xyz/blog/?p=' + i)
 	.replace(/__TITLE__/g, listJson.list[i]['T'])
 	.replace(/__DATE__/g, listJson.list[i]['D'])

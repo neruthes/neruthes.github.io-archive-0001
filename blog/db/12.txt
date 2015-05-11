@@ -19,3 +19,9 @@
 <p>小权回過頭來:「你居然還記得。」</p>
 <p>「但我一直沒能理解。」</p>
 <p>「當你放下所有的負擔，夢會在睡眠中浮現。靜下心，聆聽風的聲音，你會找到夢的方向。」</p>
+
+<!--
+<h3>By The Time We Were Still Kids</h3>
+<p>Long long ago, the year when I was admitted into primary school.</p>
+<p>The early autumn was full of peace. I've experienced so little by the time, and thus was not able to sorrow for memorial </p>
+-->
