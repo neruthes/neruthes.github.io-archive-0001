@@ -8,7 +8,6 @@ ORG:Shixian.com;
 EMAIL;type=INTERNET;type=HOME;type=pref:i@joyneop.com
 EMAIL;type=INTERNET;type=HOME:joyneop@gmail.com
 EMAIL;type=INTERNET;type=WORK:jn@shixian.com
-EMAIL;type=INTERNET;type=WORK:jn@evenbits.org
 X-SOCIALPROFILE;type=twitter;x-userid=704894406:http://twitter.com/JoyNeop
 X-SOCIALPROFILE;type=linkedin:http://www.linkedin.com/in/joyneop
 item1.URL;type=pref:http://www.joyneop.com/
@@ -16,8 +15,6 @@ item1.X-ABLabel:_$!<HomePage>!$_
 item2.URL:http://neop.me/
 item2.X-ABLabel:_$!<HomePage>!$_
 BDAY:1995-09-15
-IMPP;X-SERVICE-TYPE=GoogleTalk;type=HOME;type=pref:xmpp:joyneop@gmail.com
-IMPP;X-SERVICE-TYPE=Facebook;type=HOME:xmpp:joy.neop
 PHOTO;ENCODING=b;TYPE=JPEG:/9j/4AAQSkZJRgABAQEAkACQAAD/4gxYSUNDX1BST0ZJTEUA
  AQEAAAxITGlubwIQAABtbnRyUkdCIFhZWiAHzgACAAkABgAxAABhY3NwTVNGVAAAAABJRUMgc1
  JHQgAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLUhQICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
