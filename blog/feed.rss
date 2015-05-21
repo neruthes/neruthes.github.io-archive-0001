@@ -8,11 +8,27 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
         <atom:link href="http://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />
         <link>http://joyneop.xyz/blog/</link>
         <description>Do what you want to do. Be what you want to be.</description>
-        <lastBuildDate>February 19, 2015 09:41:00 +0000</lastBuildDate>
+        <lastBuildDate>May 11, 2015 09:41:00 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
 	    <generator>http://joyneop.github.io/blog/</generator>
+        <item>
+            <title>Ultimatism & Approximatism</title>
+            <link>http://joyneop.xyz/blog/?p=118</link>
+            <pubDate>May 11, 2015 09:41:00 +0000</pubDate>
+            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
+            <guid isPermaLink="false">http://joyneop.xyz/blog/?p=118</guid>
+            <content:encoded>
+<![CDATA[
+<h3>Ultimatism</h3>
+<p>Humans have been studying the world for long. It was believed that the world was rational, was designed by some sort of omnipotent intelligence, namely God. Humans used to believe that by some means (e.g. talking to God) humans can fully understand the <em>rules</em> of the world. They believed that the world was designed to be with precision and accuracy, which allow humans to comprehend and describe.</p>
+<h3>Approximatism</h3>
+<p>Another group of humans believe that there are no such <em>rules</em> behind the world. The facts that can be observed are like solutions of some equations, while given non-infinite solutions there are infinite equations that allow all the solutions valid. The same given limited elements of an indefinite series, there are unlimited formulas for it. Intelligent beings can come up with equations constitute all observations so far under the equations, and data of experiments stand for them so far so firmly. When a new observation or experiment result comes up to challenge a guessed equation, we update it or develop a new one from scratch.</p>
+<p>Uncountable events happen in the universe every nanosecond, far beyond observability of any being, so it's technically impossible to believe any equation so far so good can remain good indefinitely. All we can do is just to keep observing and keep updating. Stay hungry for upcoming observations and stay foolish with approximate equations. Precision and accuracy shall never be with us.</p>
+]]>
+            </content:encoded>
+        </item>
         <item>
             <title>Parse: Life-saving Backend</title>
             <link>http://joyneop.xyz/blog/?p=117</link>
@@ -1961,6 +1977,13 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 <p>小权回過頭來:「你居然還記得。」</p>
 <p>「但我一直沒能理解。」</p>
 <p>「當你放下所有的負擔，夢會在睡眠中浮現。靜下心，聆聽風的聲音，你會找到夢的方向。」</p>
+
+<!--
+<h3>By The Time We Were Still Kids</h3>
+<p>Long long ago, the year when I was admitted into primary school.</p>
+<p>The early autumn was full of peace. I've experienced so little by the time, and thus was not able to sorrow for memorial </p>
+-->
+
 ]]>
             </content:encoded>
         </item>
@@ -1972,46 +1995,26 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             <guid isPermaLink="false">http://joyneop.xyz/blog/?p=11</guid>
             <content:encoded>
 <![CDATA[
-<p>筆記本扉頁的一行字</p>
-<p>打開了少年時代的往事</p>
-<p>時間流逝莫名其妙地停止</p>
-<p>永不褪色的年華化作一行行句子</p>
+<p>A line on the first page of the notebook</p>
+<p>Opened the story of adolescence</p>
+<p>Time stopped, so suddenly</p>
+<p>Youth that never fades goes into a poem</p>
 <br />
-<p>看看窗外我們成長的土地</p>
-<p>處處都有青春年少的回憶</p>
-<p>抽屜裡那些曾經的日曆</p>
-<p>每頁都划著一道過去的痕跡</p>
+<p>Look out at the land that we've grown on</p>
+<p>Memory of youth were preserved therein</p>
+<p>Old calendars inside my drawer</p>
+<p>A line was inscribed on every page</p>
 <br />
-<p>夜色朦朧讓我將那些時光想起</p>
-<p>還記得我說過永遠不會忘記</p>
-<p>抽屜裡那些曾經的日記</p>
-<p>每頁都寫著一個永恆的絕密</p>
+<p>The age rewinded up by the good night</p>
+<p>Remember I said it'd never been forgot</p>
+<p>Old dairies inside my drawer</p>
+<p>There's a secret on every page</p>
 <br />
-<p>午夜的鐘聲在四面八方響起</p>
-<p>提醒了我誓言已經到期</p>
-<p>塵封的記憶漂浮在空氣裡</p>
-<p>永不落地永不破碎</p>
+<p>Midnight bell tone ringing everywhere</p>
+<p>Reminding me the promise to be redeemed</p>
+<p>Sealed memory releasing into air</p>
+<p>It never drops neither will it crush</p>
 
-
-<!--
-<p>A line on the first page of the notebook,</p>
-<p>Opened the story of adolescence.</p>
-<p>Time stopped, so suddenly,</p>
-<p>Youth that never fade go into a poem.</p>
-<br />
-<p>Look out at the land that we've grown on,</p>
-<p>Memory of youth were preserved everywhere.</p>
-<p>The old calendars inside my drawer,</p>
-<p>A </p>
-<br />
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<br />
-<p></p>
-<p></p>
--->
 ]]>
             </content:encoded>
         </item>
