@@ -11,6 +11,11 @@
             }\
         }\
         #gay-pride-js-div {\
+            position: absolute;\
+            top: 0;\
+            left: 0;\
+            width: 100%;\
+            width: 100vw;\
             height: __HOVER_HEIGHT__px;\
         }\
         #gay-pride-js-anchor {\
