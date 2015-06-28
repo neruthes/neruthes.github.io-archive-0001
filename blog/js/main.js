@@ -87,15 +87,23 @@ var listOutPreviousPosts = function () {
 };
 
 var fillNav = function (previd, nextid) {
+	var _createPrefetchLink = function (_id) {
+		var _link = document.createElement('link');
+		_link.setAttribute('rel', 'prefetch');
+		_link.setAttribute('href', '/blog/db/' + _id + '.txt');
+		document.head.appendChild(_link);
+	};
 	if (previd != null) {
 		document.getElementById('prevlink').href = './?p=' + previd;
 		document.getElementById('prevlink').innerHTML = 'Prev »';
+		_createPrefetchLink(previd);
 	} else {
 		document.getElementById('prev').remove();
 	};
 	if (nextid != null) {
 		document.getElementById('nextlink').href = './?p=' + nextid;
 		document.getElementById('nextlink').innerHTML = '« Next';
+		_createPrefetchLink(nextid);
 	} else {
 		document.getElementById('next').remove();
 	};
