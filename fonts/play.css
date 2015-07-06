@@ -10,3 +10,5 @@
   font-weight: 700;
   src: local('Play-Bold'), url(//joyneop.github.io/fonts/play/Play-Bold.woff) format('woff'), url(//joyneop.xyz/fonts/play/Play-Bold.woff) format('woff'), url(/fonts/play/Play-Bold.woff) format('woff');
 }
+
+@import url(/fonts/advanced.css);

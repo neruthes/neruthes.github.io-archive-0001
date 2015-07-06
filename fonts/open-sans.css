@@ -58,3 +58,5 @@
   font-weight: 800;
   src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url(//joyneop.github.io/fonts/open-sans/OpenSans-ExtraboldItalic.woff) format('woff'), url(//joyneop.xyz/fonts/open-sans/OpenSans-ExtraboldItalic.woff) format('woff'), url(/fonts/open-sans/OpenSans-ExtraboldItalic.woff) format('woff');
 }
+
+@import url(/fonts/advanced.css);

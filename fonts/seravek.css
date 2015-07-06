@@ -58,3 +58,5 @@
   font-weight: 600;
   src: local('Seravek Bold Italic'), local('Seravek-BoldItalic'), url(/fonts/seravek/Seravek-BoldItalic.woff) format('woff'),  url(//joyneop.github.io/fonts/seravek/Seravek-BoldItalic.woff) format('woff'), url(//joyneop.xyz/fonts/seravek/Seravek-BoldItalic.woff) format('woff');
 }
+
+@import url(/fonts/advanced.css);

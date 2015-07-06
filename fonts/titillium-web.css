@@ -64,3 +64,5 @@
   font-weight: 700;
   src: local('Titillium WebBold Italic'), local('TitilliumWeb-BoldItalic'), url(//joyneop.github.io/fonts/titillium-web/TitilliumWeb-BoldItalic.woff) format('woff'), url(//joyneop.xyz/fonts/titillium-web/TitilliumWeb-BoldItalic.woff) format('woff'), url(/fonts/titillium-web/TitilliumWeb-BoldItalic.woff) format('woff');
 }
+
+@import url(/fonts/advanced.css);
