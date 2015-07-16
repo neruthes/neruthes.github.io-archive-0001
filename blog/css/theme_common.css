@@ -1,7 +1,7 @@
 @import url(/fonts/seravek.css);
 @import url(/fonts/inconsolata.css);
 
-body, pre, code {
+html, body, pre, code {
 	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -81,6 +81,7 @@ a {
 
 .post-text {
 	font-weight: 200;
+	letter-spacing: 0.01rem;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	hyphens: auto;
