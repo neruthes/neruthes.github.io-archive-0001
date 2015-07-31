@@ -1,7 +1,9 @@
-<p>A few days ago, <a href="http://dimpurr.com/" target="_blank">Dimpurr</a> and I decided to abandon evenBits, due to the following reasons.</p>
-<h3>ADC Paradox</h3>
-<p>Briefly: If there is a teenager-oriented technology conference, it should cover many </p>
-<h3>Circular Dependency</h3>
-<p></p>
-<p></p>
-<p></p>
+<p>I just received my first credit card ever, from China Merchants Bank. VISA only, no UnionPay; no currency-exchange fee.</p>
+
+<p>I have been applying for credit cards for months, since I was working at Shixian.com. However, not before I moved to <a href="http://www.jisuanke.com/" target="_blank" rel="nofollow">Jisuanke.com</a> did any attempt succeed. Thankfully, my salary is delivered through CMB; it might be a reason for getting approved, in addition to the salary statement.</p>
+
+<p>What a pity that a VISA credit card issued by a China-based bank still cannot be used to make payments at iTunes and App Store, due to country-and-region discrimination policy of Apple. Within the traditional payment methods, e.g. VISA and MasterCard, the merchants are still able to detect a customer's location according to the information provided by card associations. Even PayPal, an Internet-originated payment method, does discriminate non-American countries and regions in the traditional way. It helps merchants to detect and deny customers from China.</p>
+
+<p>It feels so bad being born out of US, and being isolated from US only because it and its consequences. Neither does US market welcome Chinese entrepreneurs nor does it welcome customers without a valid US-based payment method. Well, Moleskine accepts VISA credit cards from China, but their shipping doesn't include China. I have to use a US-based proxy for shipping.</p>
+
+<p>And finally it is absolutely uncertain when will my opportunity emerge for relocating to United States. Living with anxiety and terror, struggling for housing and food; I had never experienced such.</p>
