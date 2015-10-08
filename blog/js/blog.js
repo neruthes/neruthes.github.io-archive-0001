@@ -94,7 +94,7 @@ blog.main = function () {
 	var stringInBlogContext = '';
 
 	if ( blog.getPID() == null ) {
-		// Create focus posts and older posts DOM elements
+		// This is the list of posts
 		var listInBlogContext = '';
 
 		for (var i = blog.articlesList.list.length-1; i > blog.articlesList.list.length-11; i--) {
@@ -107,12 +107,15 @@ blog.main = function () {
 		BlogContext.innerHTML = stringInBlogContext;
 		blog.loadTopPosts();
 	} else {
+		// This is a particular post
 		if ( 0 <= blog.getPID() && blog.getPID() < blog.articlesList.list.length ) {
-			// Create DOM elements for current post
+			// This is a valid URL for a post
+			document.title = blog.articlesList[blog.getPID()].T + ' — Joy Neop';
 			stringInBlogContext = sectionTemplate.replace(/__INDEX__/g, blog.getPID()).replace(/__TITLE__/g, blog.articlesList.list[blog.getPID()].T).replace(/__DATE__/g, blog.articlesList.list[blog.getPID()].D);
 			BlogContext.innerHTML = stringInBlogContext;
 			blog.loadCurrentPost(blog.getPID());
 		} else {
+			// This post should not exist
 			stringInBlogContext = sectionTemplate.replace(/__INDEX__/g, blog.getPID()).replace(/__TITLE__/g, '404 Not Found');
 			BlogContext.innerHTML = stringInBlogContext;
 			document.getElementById('post__PID__text'.replace(/__PID__/, blog.getPID())).innerHTML = '<p>The post does not exist : (</p>';
