@@ -1,5 +1,5 @@
 (function (MSG) {
-    if (6 <= date.getMonth() && date.getMonth() <= 7) {
+    if (6 <= MSG.date.getMonth() && MSG.date.getMonth() <= 7) {
         // Create <style> tag
         var styleTag = MSG.inputStyleTag || MSG.d.createElement('style');
         styleTag.setAttribute('id', 'gay-pride-js-style-tag');
