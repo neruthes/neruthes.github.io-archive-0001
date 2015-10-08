@@ -1,5 +1,5 @@
 @media screen and (max-width: 1099px) {
-	body {
+	html, body {
 		font-size: 14px;
 	}
 
@@ -14,12 +14,12 @@
 	}
 
 	.global h1 {
-		font-size: 4.5em;
+		font-size: 4.5rem;
 		margin: 35px 0;
 	}
 
 	.global h2 {
-		font-size: 2em;
+		font-size: 2rem;
 		margin: 15px 0;
 	}
 
@@ -30,7 +30,7 @@
 	}
 
 	.post-text {
-		font-size: 1.5em;
+		font-size: 1.5rem;
 	}
 
 	.post-text > img {

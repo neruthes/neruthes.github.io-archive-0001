@@ -70,7 +70,7 @@ a {
 }
 
 .post-h2 {
-	font-size: 2.6em;
+	font-size: 2.6rem;
 	font-weight: 400;
 	margin: 20px 0 0;
 }
@@ -85,22 +85,17 @@ a {
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	hyphens: auto;
+	padding-top: 10px;
 }
 
 .post-text > h3 {
-	font-size: 1.15em;
+	font-size: 2.2rem;
 	font-weight: 400;
-	border-left: 2px solid #2B8CD2;
-	padding-left: 12px;
-	margin: 26px 0 20px -14px;
-}
-
-.post-text > h3:first-child {
-	margin-top: 17px;
+	margin: 20px 0 20px;
 }
 
 .post-text > p {
-	line-height: 1.75em;
+	line-height: 1.65em;
 	margin: 17px 0;
 }
 
@@ -164,7 +159,7 @@ p code {
 }
 
 .post-footer {
-	font-size: 1.6em;
+	font-size: 1.6rem;
 	font-weight: 300;
 	color: #999;
 	margin: 0 0 0;
@@ -185,7 +180,7 @@ p code {
 }
 
 nav.prevandnext span, nav.prevandnext span a {
-	font-size: 1.414em;
+	font-size: 1.414rem;
 	font-weight: 200;
 	text-transform: uppercase;
 	display: block;
@@ -193,7 +188,7 @@ nav.prevandnext span, nav.prevandnext span a {
 }
 
 footer.global {
-	font-size: 1.4em;
+	font-size: 1.4rem;
 	font-weight: 200;
 	color: #585858;
 	text-align: center;
