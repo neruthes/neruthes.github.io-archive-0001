@@ -1,7 +1,3 @@
-<p>A few days ago, <a href="http://dimpurr.com/" target="_blank">Dimpurr</a> and I decided to abandon evenBits, due to the following reasons.</p>
-<h3>ADC Paradox</h3>
-<p>Briefly: If there is a teenager-oriented technology conference, it should cover many </p>
-<h3>Circular Dependency</h3>
 <p></p>
 <p></p>
 <p></p>
