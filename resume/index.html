@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Joy Neop — Resume</title>
+	<link rel="shortcut icon" href="/favicon.ico"/>
+	<link rel="apple-touch-icon" href="/joyneop.png"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+	var showResumeContentOnLoad = function () {
+		window.theDoms = document.body.getElementsByClassName('lazy-display-animation');
+		window.theDelay = 50;
+		for (var i = 0; i < window.theDoms.length; i++) {
+			setTimeout((function(ii){
+				var _fu = function () {
+					window.theDoms[ii].classList.add('played');
+				};
+				return _fu;
+			})(i), window.theDelay*i);
+		};
+		var anchors = document.body.getElementsByTagName('a');
+		for (var i = anchors.length - 1; i >= 0; i--) {
+			anchors[i].target = '_blank';
+		};
+		var asyncImages = document.body.querySelectorAll('img[data-async-src]');
+		for (var i = asyncImages.length - 1; i >= 0; i--) {
+			asyncImages[i].src = asyncImages[i].getAttribute('data-async-src');
+		};
+	};
+	window.addEventListener('load', showResumeContentOnLoad, false);
+	</script>
+</head>
+<body>
+	<div class="download-button-container">
+		<a class="download-button lazy-display-animation" href="/resume/joyneop_resume.pdf">Download PDF</a>
+	</div>
+	<div class="page-start"></div>
+	<div class="grand cont">
+		<div class="lazy-display-animation">
+			<img class="avatar" data-async-src="/joyneop.png">
+			<h1>JOY NEOP</h1>
+			<div class="contact">
+				<em>Website</em><a href="https://joyneop.xyz/">joyneop.xyz</a>
+			</div>
+			<div class="contact">
+				<em>Portfolio</em><a href="https://www.behance.net/joyneop">behance.net/joyneop</a>
+			</div>
+			<div class="contact">
+				<em>GitHub</em><a href="https://github.com/JoyNeop">github.com/joyneop</a>
+			</div>
+			<div class="contact">
+				<em>Email</em><a href="mailto:i@joyneop.com">i@joyneop.com</a>
+			</div>
+		</div>
+		<div class="main">
+			<div class="section">
+				<h2 class="section-heading lazy-display-animation">Experience</h2>
+				<div class="lazy-display-animation">
+					<h3><span class="job">PD &amp; UI/UX @ Jisuanke.com</span><span class="duration">(06/2015—Present)</span></h3>
+					<p>
+						Responsibility included: Understanding rational and emotional demands of users; Outlining product logic and prototype; Designing interactions and visual style; Crafting new features for upcoming challenges; Maintaining usability of existing functionalities.
+					</p>
+					<footer class="ref">
+						Learn more: <a href="http://www.jisuanke.com/">jisuanke.com</a>
+					</footer>
+				</div>
+				<div class="lazy-display-animation">
+					<h3><span class="job">Designer @ Shixian.com</span><span class="duration">(09/2014—05/2015)</span></h3>
+					<p>
+						Designed visual identity. Started reworking product design since 03/2015.
+					</p>
+					<p>
+						Solely worked on UI/UX for 5 projects; provided consulting of UI/UX and product design for 4 projects; further engaged in development process for 1 project, which were initiated in Shixian community.
+					</p>
+					<footer class="ref">
+						Learn more: <a href="http://shixian.com/">shixian.com</a>
+					</footer>
+				</div>
+			</div>
+			<div class="section">
+				<h2 class="section-heading lazy-display-animation">Skills</h2>
+				<div class="lazy-display-animation">
+					<h3>Graphic Design</h3>
+					<p>
+						Posters, Websites, Album Artworks, Publications, and Corporate Identity. See <a href="https://www.behance.net/joyneop">portfolio</a>.
+					</p>
+					<p>
+						Experienced in tyopgraphy, layout hierarchy, audience perception, consciousness invocation, creative writing, and various aesthetic philosophies.
+					</p>
+				</div>
+				<div class="lazy-display-animation">
+					<h3>UI/UX</h3>
+					<p>
+						Specialized for web and iOS apps. Okay for Mac and Android apps.
+					</p>
+					<p>
+						Write HTML &amp; CSS for layout, based on prorotype; allowing fellow frontend developers concentrate on funcitonalities. Fast prototyping on paper. Design and test prototypes with iterative thinking.
+					</p>
+					<p>
+						Concerning usability, accessibility, durability, monetizability, and internationalizability.
+					</p>
+				</div>
+				<div class="lazy-display-animation">
+					<h3>And Some Knowledge In...</h3>
+					<p>
+						Web Frontend, Photography, Typography, Geek Culture, Chinese Language &amp; Literature, and Japanese ACG.
+					</p>
+				</div>
+			</div>
+			<!-- <div class="page-break page-start"></div> -->
+			<div class="section">
+				<h2 class="section-heading lazy-display-animation">Projects</h2>
+				<span class="subsection-tagline lazy-display-animation">Design &amp; Programming</span>
+				<div class="lazy-display-animation">
+					<h3>English A.T.</h3>
+					<p>
+						Flash-card based English vocabulary tool, for academic terminologies. The learning and reviewing process is divided into sessions; each contains 30 terminologies.
+					</p>
+					<footer class="ref">
+						Learn more: <a href="https://www.english-at.net/">english-at.net</a>
+					</footer>
+				</div>
+				<div class="lazy-display-animation">
+					<h3>Yart</h3>
+					<p>
+						Yet another resume tool based on HTML+CSS. Create resume in the geek way, concerning portability, reusability, and compatibility. This resume is created with Yart.
+					</p>
+					<footer class="ref">
+						Learn more: <a href="https://github.com/JoyNeop/yart/">github.com/joyneop/yart</a>
+					</footer>
+				</div>
+				<div class="lazy-display-animation">
+					<h3>Gayradient</h3>
+					<p>
+						Yet another color reference website. Inspired by iOS 7.
+					</p>
+					<footer class="ref">
+						Learn more: <a href="https://www.gayradient.com/">gayradient.com</a>
+					</footer>
+				</div>
+				<span class="subsection-tagline lazy-display-animation">Design</span>
+				<div class="lazy-display-animation">
+					<h3>Kyouratsu</h3>
+					<p>
+						A cartoon character, commonly considered an alien feline creature.
+					</p>
+					<footer class="ref">
+						Learn more: <a href="https://joyneop.xyz/kyouratsu/">joyneop.xyz/kyouratsu</a>
+					</footer>
+				</div>
+				<span class="subsection-tagline lazy-display-animation">Programming</span>
+				<div class="lazy-display-animation">
+					<h3>Bamboo</h3>
+					<p>
+						Yet another web ebook generating tool based on Node.js.
+					</p>
+					<footer class="ref">
+						Learn more: <a href="https://github.com/joyneop/bamboo">github.com/joyneop/bamboo</a>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
