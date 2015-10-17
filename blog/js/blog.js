@@ -110,7 +110,7 @@ blog.main = function () {
 		// This is a particular post
 		if ( 0 <= blog.getPID() && blog.getPID() < blog.articlesList.list.length ) {
 			// This is a valid URL for a post
-			document.title = blog.articlesList[blog.getPID()].T + ' — Joy Neop';
+			document.title = blog.articlesList.list[blog.getPID()].T + ' — Joy Neop';
 			stringInBlogContext = sectionTemplate.replace(/__INDEX__/g, blog.getPID()).replace(/__TITLE__/g, blog.articlesList.list[blog.getPID()].T).replace(/__DATE__/g, blog.articlesList.list[blog.getPID()].D);
 			BlogContext.innerHTML = stringInBlogContext;
 			blog.loadCurrentPost(blog.getPID());
