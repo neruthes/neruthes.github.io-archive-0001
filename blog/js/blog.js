@@ -4,7 +4,7 @@ window.blog = {
 
 blog.getPID = function () {
 	var PID = null;
-	var loc = location.href.match(/\=(\d+)$/);
+	var loc = location.href.match(/\=(\d+)/);
 	if (loc && loc.length > 0) {
 		PID = Number(loc[1]);
 		PID = isNaN(PID) ? null : PID;
@@ -35,26 +35,28 @@ blog.articlesListResponseEventHandler = function (e) {
 		// PID is `null`
 		document.getElementById('prevandnext').remove();
 	} else {
-		if ( blog.getPID() == 0 ) {
-			// The initial article
-			document.getElementById('prev').remove();
-			document.getElementById('nextlink').href = './?p=' + (blog.getPID()+1).toString();
-			document.getElementById('nextlink').innerHTML = '« Next';
-			blog.claimPrefetch(blog.getPID()+1);
-		} else if ( blog.getPID() == blog.articlesList.list.length-1 ) {
-			// The latest article
-			document.getElementById('next').remove();
-			document.getElementById('prevlink').href = './?p=' + (blog.getPID()-1).toString();
-			document.getElementById('prevlink').innerHTML = 'Prev »';
-			blog.claimPrefetch(blog.getPID()-1);
-		} else if ( 0 <= blog.getPID() && blog.getPID() < blog.articlesList.list.length ) {
-			// The article exists
-			document.getElementById('prevlink').href = './?p=' + (blog.getPID()-1).toString();
-			document.getElementById('prevlink').innerHTML = 'Prev »';
-			blog.claimPrefetch(blog.getPID()-1);
-			document.getElementById('nextlink').href = './?p=' + (blog.getPID()+1).toString();
-			document.getElementById('nextlink').innerHTML = '« Next';
-			blog.claimPrefetch(blog.getPID()+1);
+		if (blog.doesArticleExist(blog.getPID())) {
+			 if ( blog.getPID() == 0 ) {
+				// The initial article
+				document.getElementById('prev').remove();
+				document.getElementById('nextlink').href = './?p=' + (blog.getPID()+1).toString();
+				document.getElementById('nextlink').innerHTML = '« Next';
+				blog.claimPrefetch(blog.getPID()+1);
+			} else if ( blog.getPID() == blog.articlesList.list.length-1 ) {
+				// The latest article
+				document.getElementById('next').remove();
+				document.getElementById('prevlink').href = './?p=' + (blog.getPID()-1).toString();
+				document.getElementById('prevlink').innerHTML = 'Prev »';
+				blog.claimPrefetch(blog.getPID()-1);
+			} else if ( 0 <= blog.getPID() && blog.getPID() < blog.articlesList.list.length ) {
+				// The article exists
+				document.getElementById('prevlink').href = './?p=' + (blog.getPID()-1).toString();
+				document.getElementById('prevlink').innerHTML = 'Prev »';
+				blog.claimPrefetch(blog.getPID()-1);
+				document.getElementById('nextlink').href = './?p=' + (blog.getPID()+1).toString();
+				document.getElementById('nextlink').innerHTML = '« Next';
+				blog.claimPrefetch(blog.getPID()+1);
+			};
 		} else {
 			// Wrong URL
 			document.getElementById('prevandnext').remove();
@@ -69,11 +71,13 @@ blog.articleContentResponseEventHandler = function (e, targetPID) {
 
 blog.loadTopPosts = function () {
 	for (var i = blog.articlesList.list.length-1; i > blog.articlesList.list.length-11; i--) {
-		blog.request('./db/PID.txt'.replace(/PID/, i), (function (pid) {
-			return function (e) {
-				blog.articleContentResponseEventHandler(e, pid);
-			};
-		})(i));
+		if (blog.doesArticleExist(i)) {
+			blog.request('./db/PID.txt'.replace(/PID/, i), (function (pid) {
+				return function (e) {
+					blog.articleContentResponseEventHandler(e, pid);
+				};
+			})(i));
+		};
 	};
 };
 
@@ -83,6 +87,14 @@ blog.loadCurrentPost = function () {
 			blog.articleContentResponseEventHandler(e, pid);
 		};
 	})(blog.getPID()));
+};
+
+blog.doesArticleExist = function (pid) {
+	if (blog.articlesList.list[blog.getPID()].T !== 0) {
+		return true;
+	} eles {
+		return false;
+	};
 };
 
 blog.main = function () {
@@ -98,17 +110,21 @@ blog.main = function () {
 		var listInBlogContext = '';
 
 		for (var i = blog.articlesList.list.length-1; i > blog.articlesList.list.length-11; i--) {
-			stringInBlogContext += sectionTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, blog.articlesList.list[i].T ? blog.articlesList.list[i].T : '[Untitled Post]').replace(/__DATE__/g, blog.articlesList.list[i].D);
+			if (blog.doesArticleExist(i)) {
+				stringInBlogContext += sectionTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, blog.articlesList.list[i].T ? blog.articlesList.list[i].T : '[Untitled Post]').replace(/__DATE__/g, blog.articlesList.list[i].D);
+			}
 		};
 		for (var i = blog.articlesList.list.length-1-11; i > -1; i--) {
-			listInBlogContext += listItemTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, blog.articlesList.list[i].T ? blog.articlesList.list[i].T : '[Untitled Post]').replace(/__DATE__/g, blog.articlesList.list[i].D);
+			if (blog.doesArticleExist(i)) {
+				listInBlogContext += listItemTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, blog.articlesList.list[i].T ? blog.articlesList.list[i].T : '[Untitled Post]').replace(/__DATE__/g, blog.articlesList.list[i].D);
+			}
 		};
 		stringInBlogContext += listContainerTemplate.replace(/__CONTENT__/g, listInBlogContext);
 		BlogContext.innerHTML = stringInBlogContext;
 		blog.loadTopPosts();
 	} else {
 		// This is a particular post
-		if ( 0 <= blog.getPID() && blog.getPID() < blog.articlesList.list.length ) {
+		if ( 0 <= blog.getPID() && blog.getPID() < blog.articlesList.list.length && blog.doesArticleExist(blog.getPID())) {
 			// This is a valid URL for a post
 			document.title = blog.articlesList.list[blog.getPID()].T + ' — Joy Neop';
 			stringInBlogContext = sectionTemplate.replace(/__INDEX__/g, blog.getPID()).replace(/__TITLE__/g, blog.articlesList.list[blog.getPID()].T).replace(/__DATE__/g, blog.articlesList.list[blog.getPID()].D);
