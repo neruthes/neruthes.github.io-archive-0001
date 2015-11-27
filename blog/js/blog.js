@@ -92,7 +92,7 @@ blog.loadCurrentPost = function () {
 blog.doesArticleExist = function (pid) {
 	if (blog.articlesList.list[blog.getPID()].T !== 0) {
 		return true;
-	} eles {
+	} else {
 		return false;
 	};
 };
