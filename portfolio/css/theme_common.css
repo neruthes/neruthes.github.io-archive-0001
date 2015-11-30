@@ -62,7 +62,7 @@ a {
 
 .post {
 	font-weight: 300;
-	padding-top: 60px;
+	padding-top: 20px;
 	margin-bottom: 90px;
 	background: #FFF;
 	border-radius: 4px;
@@ -72,7 +72,7 @@ a {
 .post-h2 {
 	font-size: 2.6rem;
 	font-weight: 400;
-	margin: 0 0 0;
+	margin: 20px 0 0;
 }
 
 .post-h2, .post-h2 a {

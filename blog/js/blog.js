@@ -26,9 +26,39 @@ blog.claimPrefetch = function (pid) {
 	document.head.appendChild(link);
 };
 
+blog.getNearbyPID = function (adj) {
+	var pid = blog.getPID() + adj;
+	if (blog.doesArticleExist(pid)) {
+		return pid;
+	} else {
+		while (!blog.doesArticleExist(pid)) {
+			pid += adj;
+		};
+		return pid;
+	};
+};
+
+blog.getNextPID = function () {
+	return blog.getNearbyPID(1);
+};
+
+blog.getPrevPID = function () {
+	return blog.getNearbyPID(-1);
+};
+
 blog.articlesListResponseEventHandler = function (e) {
 	blog.articlesList = JSON.parse(e.target.responseText);
-	[].forEach.call(blog.articlesList.list, function (v, i) {
+	blog.articlesList.length = (function (list) {
+		var count = 0;
+		var i;
+		for (i in list) {
+		    if (list.hasOwnProperty(i)) {
+		        count++;
+		    };
+		};
+		return count;
+	})(blog.articlesList);
+	[].forEach.call(blog.articlesList, function (v, i) {
 		blog.claimPrefetch(i);
 	});
 	if ( blog.getPID() == null ) {
@@ -39,23 +69,23 @@ blog.articlesListResponseEventHandler = function (e) {
 			 if ( blog.getPID() == 0 ) {
 				// The initial article
 				document.getElementById('prev').remove();
-				document.getElementById('nextlink').href = './?p=' + (blog.getPID()+1).toString();
+				document.getElementById('nextlink').href = './?p=' + (blog.getNextPID()).toString();
 				document.getElementById('nextlink').innerHTML = '« Next';
-				blog.claimPrefetch(blog.getPID()+1);
-			} else if ( blog.getPID() == blog.articlesList.list.length-1 ) {
+				blog.claimPrefetch(blog.getNextPID());
+			} else if ( blog.getPID() == blog.articlesList.length-1 ) {
 				// The latest article
 				document.getElementById('next').remove();
-				document.getElementById('prevlink').href = './?p=' + (blog.getPID()-1).toString();
+				document.getElementById('prevlink').href = './?p=' + (blog.getPrevPID()).toString();
 				document.getElementById('prevlink').innerHTML = 'Prev »';
-				blog.claimPrefetch(blog.getPID()-1);
-			} else if ( 0 <= blog.getPID() && blog.getPID() < blog.articlesList.list.length ) {
+				blog.claimPrefetch(blog.getPrevPID());
+			} else if ( 0 <= blog.getPID() && blog.getPID() < blog.articlesList.length ) {
 				// The article exists
-				document.getElementById('prevlink').href = './?p=' + (blog.getPID()-1).toString();
+				document.getElementById('prevlink').href = './?p=' + (blog.getPrevPID()).toString();
 				document.getElementById('prevlink').innerHTML = 'Prev »';
-				blog.claimPrefetch(blog.getPID()-1);
-				document.getElementById('nextlink').href = './?p=' + (blog.getPID()+1).toString();
+				blog.claimPrefetch(blog.getPrevPID());
+				document.getElementById('nextlink').href = './?p=' + (blog.getNextPID()).toString();
 				document.getElementById('nextlink').innerHTML = '« Next';
-				blog.claimPrefetch(blog.getPID()+1);
+				blog.claimPrefetch(blog.getNextPID());
 			};
 		} else {
 			// Wrong URL
@@ -65,32 +95,30 @@ blog.articlesListResponseEventHandler = function (e) {
 	blog.main();
 };
 
+blog.articleContentResponseEventHandlerConstructor = function (pid) {
+	return function (e) {
+		blog.articleContentResponseEventHandler(e, pid);
+	};
+};
+
 blog.articleContentResponseEventHandler = function (e, targetPID) {
 	document.getElementById('post__INDEX__text'.replace(/__INDEX__/, targetPID)).innerHTML = e.target.responseText;
 };
 
 blog.loadTopPosts = function () {
-	for (var i = blog.articlesList.list.length-1; i > blog.articlesList.list.length-11; i--) {
+	for (var i = blog.articlesList.length-1; i > blog.articlesList.length-11; i--) {
 		if (blog.doesArticleExist(i)) {
-			blog.request('./db/PID.txt'.replace(/PID/, i), (function (pid) {
-				return function (e) {
-					blog.articleContentResponseEventHandler(e, pid);
-				};
-			})(i));
+			blog.request('./db/PID.txt'.replace(/PID/, i), blog.articleContentResponseEventHandlerConstructor(i));
 		};
 	};
 };
 
 blog.loadCurrentPost = function () {
-	blog.request('./db/PID.txt'.replace(/PID/, blog.getPID()), (function (pid) {
-		return function (e) {
-			blog.articleContentResponseEventHandler(e, pid);
-		};
-	})(blog.getPID()));
+	blog.request('./db/PID.txt'.replace(/PID/, blog.getPID()), blog.articleContentResponseEventHandlerConstructor(blog.getPID()));
 };
 
 blog.doesArticleExist = function (pid) {
-	if (blog.articlesList.list[pid].T !== 0) {
+	if (blog.articlesList[String(pid)].T !== 0) {
 		return true;
 	} else {
 		return false;
@@ -100,8 +128,9 @@ blog.doesArticleExist = function (pid) {
 blog.main = function () {
 	window.BlogContext = document.getElementById('cont');
 
-	var sectionTemplate = '<section class="post" id="post__INDEX__"><h2 id="post__INDEX__h2" class="post-h2"><a id="post__INDEX__title" class="post-h2-in" href="./?p=__INDEX__">__TITLE__</a></h2><footer class="post-footer"><a id="post__INDEX__link" href="./?p=__INDEX__">__DATE__</a></footer><div class="post-text" id="post__INDEX__text"></div></section>';
-	var listItemTemplate = '<li><a href="./?p=__INDEX__" id="post__INDEX__h2" class="post-h2">__TITLE__</a><footer class="post-footer"><a id="post__INDEX__footer" href="./?p=__INDEX__">__DATE__</a></footer></li>';
+	var regularPostSectionTemplate = '<section class="post" id="post__INDEX__"><h2 id="post__INDEX__h2" class="post-h2"><a id="post__INDEX__title" class="post-h2-in" href="./?p=__INDEX__">__TITLE__</a></h2><time class="post-date"><a id="post__INDEX__link" href="./?p=__INDEX__">__DATE__</a></time><div class="post-text" id="post__INDEX__text"></div></section>';
+	var untitledPostSectionTemplate = '<section class="post" id="post__INDEX__"><time class="post-date"><a id="post__INDEX__link" href="./?p=__INDEX__">__DATE__</a></time><div class="post-text" id="post__INDEX__text"></div></section>';
+	var listItemTemplate = '<li><a href="./?p=__INDEX__" id="post__INDEX__h2" class="post-h2">__TITLE__</a><time class="post-date"><a id="post__INDEX__date" href="./?p=__INDEX__">__DATE__</a></time></li>';
 	var listContainerTemplate = '<section class="post more" id="more-posts"><ul class="list">__CONTENT__</ul></section>';
 	var stringInBlogContext = '';
 
@@ -109,30 +138,41 @@ blog.main = function () {
 		// This is the list of posts
 		var listInBlogContext = '';
 
-		for (var i = blog.articlesList.list.length-1; i > blog.articlesList.list.length-11; i--) {
+		for (var i = blog.articlesList.length-1; i > blog.articlesList.length-11; i--) {
 			if (blog.doesArticleExist(i)) {
-				stringInBlogContext += sectionTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, blog.articlesList.list[i].T ? blog.articlesList.list[i].T : '[Untitled Post]').replace(/__DATE__/g, blog.articlesList.list[i].D);
-			}
+				if (blog.articlesList[String(i)].T) {
+					stringInBlogContext += regularPostSectionTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, blog.articlesList[String(i)].T ? blog.articlesList[String(i)].T : '[Untitled Post]').replace(/__DATE__/g, blog.articlesList[String(i)].D);
+				} else {
+					stringInBlogContext += untitledPostSectionTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, blog.articlesList[String(i)].T ? blog.articlesList[String(i)].T : '[Untitled Post]').replace(/__DATE__/g, blog.articlesList[String(i)].D);
+				};
+			};
 		};
-		for (var i = blog.articlesList.list.length-1-11; i > -1; i--) {
+		for (var i = blog.articlesList.length-1-11; i > -1; i--) {
 			if (blog.doesArticleExist(i)) {
-				listInBlogContext += listItemTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, blog.articlesList.list[i].T ? blog.articlesList.list[i].T : '[Untitled Post]').replace(/__DATE__/g, blog.articlesList.list[i].D);
-			}
+				listInBlogContext += listItemTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, blog.articlesList[String(i)].T ? blog.articlesList[String(i)].T : '[Untitled Post]').replace(/__DATE__/g, blog.articlesList[String(i)].D);
+			};
 		};
 		stringInBlogContext += listContainerTemplate.replace(/__CONTENT__/g, listInBlogContext);
 		BlogContext.innerHTML = stringInBlogContext;
 		blog.loadTopPosts();
 	} else {
 		// This is a particular post
-		if ( 0 <= blog.getPID() && blog.getPID() < blog.articlesList.list.length && blog.doesArticleExist(blog.getPID())) {
+		if ( 0 <= blog.getPID() && blog.getPID() < blog.articlesList.length && blog.doesArticleExist(blog.getPID())) {
 			// This is a valid URL for a post
-			document.title = blog.articlesList.list[blog.getPID()].T + ' — Joy Neop';
-			stringInBlogContext = sectionTemplate.replace(/__INDEX__/g, blog.getPID()).replace(/__TITLE__/g, blog.articlesList.list[blog.getPID()].T).replace(/__DATE__/g, blog.articlesList.list[blog.getPID()].D);
+			var postTitle;
+			if (blog.articlesList[String(blog.getPID())].T) {
+				postTitle = blog.articlesList[String(blog.getPID())].T;
+				stringInBlogContext = regularPostSectionTemplate.replace(/__INDEX__/g, blog.getPID()).replace(/__TITLE__/g, blog.articlesList[String(blog.getPID())].T).replace(/__DATE__/g, blog.articlesList[blog.getPID()].D);
+			} else {
+				postTitle = '[Untitled Post]';
+				stringInBlogContext = untitledPostSectionTemplate.replace(/__INDEX__/g, blog.getPID()).replace(/__TITLE__/g, blog.articlesList[String(blog.getPID())].T).replace(/__DATE__/g, blog.articlesList[blog.getPID()].D);
+			};
+			document.title = postTitle + ' — Joy Neop';
 			BlogContext.innerHTML = stringInBlogContext;
 			blog.loadCurrentPost(blog.getPID());
 		} else {
 			// This post should not exist
-			stringInBlogContext = sectionTemplate.replace(/__INDEX__/g, blog.getPID()).replace(/__TITLE__/g, '404 Not Found');
+			stringInBlogContext = regularPostSectionTemplate.replace(/__INDEX__/g, blog.getPID()).replace(/__TITLE__/g, '404 Not Found');
 			BlogContext.innerHTML = stringInBlogContext;
 			document.getElementById('post__PID__text'.replace(/__PID__/, blog.getPID())).innerHTML = '<p>The post does not exist : (</p>';
 			document.getElementById('post__PID__link'.replace(/__PID__/, blog.getPID())).remove();
