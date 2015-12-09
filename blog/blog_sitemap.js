@@ -9,7 +9,7 @@ Run on Node.js
 var blogPath = __dirname;
 var postTemplate = '\n<url>\n\t<loc>__LOC__</loc>\n\t<lastmod>__MOD__</lastmod>\n\t<priority>0.8</priority>\n</url>\n';
 var listJson;
-var accumulate = '\n<url>\n\t<loc>http://joyneop.xyz/blog/archive.html</loc>\n\t<priority>0.5</priority>\n</url>\n';
+var accumulate = '';
 
 var fs = require('fs');
 

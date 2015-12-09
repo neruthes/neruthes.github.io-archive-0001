@@ -19,14 +19,21 @@ header.global a {
 header.global h1, header.global h2 {
 	color: #585858;
 	font-weight: 200;
-	text-align: center;
+	text-align: left;
 	margin: 0;
 }
 
 h1 {
 	font-weight: 200;
 	text-decoration: none;
-	padding: 20px 0 10px;
+	display: inline-block;
+	padding: 0 0 0 15px;
+	-webkit-transform: translateY(-50%);
+}
+
+h1 .weak {
+	opacity: 0.33;
+	margin-left: 5px;
 }
 
 header.global h2 {
@@ -35,9 +42,10 @@ header.global h2 {
 }
 
 .avatar {
-	width: 180px;
-	height: 180px;
-	margin: 0 auto;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0;
 	background: #FFF url(/joyneop.png) center no-repeat scroll;
 	background-size: contain;
 	border-radius: 2000px;
@@ -62,21 +70,21 @@ a {
 
 .post {
 	font-weight: 300;
-	padding-top: 20px;
+	/*padding-top: 60px;*/
 	margin-bottom: 90px;
-	background: #FFF;
-	border-radius: 4px;
-	box-shadow: rgba(0, 0, 0, 0.024322) 0 0 4px;
+	/*background: #FFF;*/
+	/*border-radius: 4px;*/
+	/*box-shadow: rgba(0, 0, 0, 0.024322) 0 0 4px;*/
 }
 
-.post-h2 {
+.post h2 {
 	font-size: 2.6rem;
 	font-weight: 400;
-	margin: 20px 0 0;
+	margin: 0 0 0;
 }
 
-.post-h2, .post-h2 a {
-	color: #2B8CD2;
+.post h2, .post h2 a {
+	/*color: #2B8CD2;*/
 }
 
 .post-text {
@@ -85,7 +93,7 @@ a {
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	hyphens: auto;
-	padding-top: 10px;
+	/*padding-top: 10px;*/
 }
 
 .post-text > h3 {
@@ -177,6 +185,10 @@ p code {
 	/*font-size: 2.6em;*/
 	/*font-weight: normal;*/
 	/*color: #2B8CD2;*/
+}
+
+nav.prevandnext {
+	display: none;
 }
 
 nav.prevandnext span, nav.prevandnext span a {

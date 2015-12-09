@@ -33,12 +33,10 @@ h1 {
 }
 
 .cont {
-	margin: 60px 0;
+	/*margin: 60px 0;*/
 }
 
 .post {
-	padding: 20px 60px 45px;
-	margin: 30px auto 80px;
 }
 
 p {

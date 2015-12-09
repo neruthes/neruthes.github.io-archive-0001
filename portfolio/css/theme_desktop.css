@@ -4,8 +4,7 @@
 	}
 
 	.global {
-		text-align: center;
-		width: 600px;
+		width: 612px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 60px;
@@ -16,8 +15,8 @@
 	}
 
 	.global h1 {
-		font-size: 4.8em;
-		margin: 35px 0;
+		font-size: 2.8em;
+		/*margin: 35px 0;*/
 	}
 
 	.global h2 {
@@ -26,30 +25,55 @@
 	}
 
 	#global-footer {
+		text-align: center;
 		padding: 50px;
 	}
 
 	div#cont.cont {
-		width: 740px;
-		margin: 60px auto;
+		/*width: 740px;*/
+		margin: 35px auto;
 	}
 
 	.post {
-		width: 600px;
-		margin-left: auto;
-		margin-right: auto;
+		/*width: 600px;*/
+		/*margin-left: auto;*/
+		/*margin-right: auto;*/
 	}
 
 	.post-text {
 		font-size: 2em;
 	}
 
-	.post-text figure img {
-		max-width: 100%;
+	.post h2, .post-text > p {
+		width: 600px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
-	.post time {
-		transition: all 200ms ease;
+	.post-text figure img {
+		display: block;
+		margin: 2em auto;
+	}
+
+	.post-text figure img.full {
+		border-radius: 0;
+		width: 100%;
+	}
+
+	.post-text figure img.lg {
+		width: 1000px;
+	}
+
+	.post-text figure img.md {
+		width: 780px;
+	}
+
+	.post-text figure img.sm {
+		width: 600px;
+	}
+
+	.post-text figure img.xs {
+		width: 420px;
 	}
 
 	nav.prevandnext {
