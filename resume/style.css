@@ -1,4 +1,5 @@
 @import url(/fonts/seravek.css);
+@import url(/fonts/ashbury.css);
 
 
 /* ----------------------------------------------------------- */
@@ -265,6 +266,7 @@ h3 .duration {
 }
 
 p {
+	font-family: 'Ashbury', serif;
 	font-weight: 300;
 	color: #030303;
 }
@@ -318,7 +320,7 @@ p a {
 	}
 	p {
 		/*font-family: Garibaldi, 'Danton-Light', Danton, 'Iowan Old Style', 'Diaria Pro', 'FF Meta Serif', 'Freight Text Pro', Merriweather, Charter, Georgia, 'Times New Roman', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', serif;*/
-		font-family: 'Andron Freefont LAT', 'Danton-Light', Danton, 'Iowan Old Style', 'Diaria Pro', 'FF Meta Serif', 'Freight Text Pro', Merriweather, Charter, Georgia, 'Times New Roman', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', serif;
+		font-family: 'Ashbury', 'Andron Freefont LAT', 'Danton-Light', Danton, 'Iowan Old Style', 'Diaria Pro', 'FF Meta Serif', 'Freight Text Pro', Merriweather, Charter, Georgia, 'Times New Roman', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', serif;
 		color: #030303;
 	}
 }
