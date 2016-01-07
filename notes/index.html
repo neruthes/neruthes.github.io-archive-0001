@@ -8,20 +8,21 @@
 	<link rel="apple-touch-icon" href="/joyneop.png">
 	<style type="text/css">
 	@import url(/fonts/seravek.css);
+	@import url(/fonts/ashbury.css);
 	* {
-		font-family: Seravek, 'Myraid Pro', 'Myriad Set', Myriad, 'Open Sans', 'Helvetica Neue', 'Lucida Grande', sans-serif;
-		font-weight: 200;
 		text-rendering: optimizeLegibility;
 		cursor: text;
 	}
 	body {
+		font-family: Seravek, 'Myraid Pro', 'Myriad Set', Myriad, 'Open Sans', 'Helvetica Neue', 'Lucida Grande', sans-serif;
+		font-weight: 200;
 		font-size: 18px;
-		line-height: 31.5px;
 		color: #555556;
+		line-height: 31.5px;
+		background: #FFF;
 		min-height: 100vh;
 		padding: 0;
 		margin: 0;
-		background: #FFF;
 	}
 	#cont {
 		box-sizing: border-box;
@@ -45,16 +46,17 @@
 		color: #CCC;
 		margin: 0 0 15px;
 	}
-	#text {
-		color: #555556;
+	#text, #text * {
+		font-family: 'Ashbury', 'Charter', 'Georgia', 'Times New Roman', Times, 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', serif;
 		font-size: 18px;
+		color: #555556;
 		line-height: 29px;
+		background: none;
 		width: 100%;
 		min-height: 80vh;
 		padding: 0;
 		margin: 0;
 		box-sizing: border-box;
-		background: none;
 		border: none;
 		outline: none;
 		overflow: auto;
@@ -62,23 +64,24 @@
 	}
 	</style>
 	<script type="text/javascript">
-	function upadateData() {
-		localStorage['data'] = document.getElementById('text').innerHTML;
+	var upadateData = function () {
+		localStorage['joyneop-note-data-html'] = document.getElementById('text').innerHTML;
 	};
-	function foc() {
+	var foc = function () {
 		document.getElementById('text').focus();
-	}
+	};
+	window.addEventListener('load', foc);
 	</script>
 </head>
-<body onclick="foc()">
-	<div id="cont" onclick="foc()">
-		<h1 onclick="foc()">NOTES</h1>
+<body>
+	<div id="cont">
+		<h1>NOTES</h1>
 		<div id="text" contenteditable></div>
 		<script type="text/javascript">
-		if (localStorage['data'] === undefined) {
-			localStorage['data'] = '<br>';
+		if (localStorage['joyneop-note-data-html'] === undefined) {
+			localStorage['joyneop-note-data-html'] = '<br>';
 		};
-		document.getElementById('text').innerHTML = localStorage['data'];
+		document.getElementById('text').innerHTML = localStorage['joyneop-note-data-html'];
 		document.getElementById('text').oninput = upadateData;
 		foc();
 		window.setInterval(upadateData, 80);
