@@ -3,30 +3,46 @@
 		font-size: 14px;
 	}
 
-	.global {
-		text-align: center;
-		margin: 60px 30px;
-		padding: 20px 60px 0;
+	header.global, footer.global {
+		text-align: left;
+		margin: 60px 20px 40px;
+		padding: 0;
 	}
 
 	#global-header {
-		padding-top: 50px;
+		padding-top: 0px;
+	}
+
+	#global-footer {
+		font-size: 0.85rem;
 	}
 
 	.global h1 {
-		font-size: 4.5rem;
-		margin: 35px 0;
+		font-size: 1.8rem;
+		-webkit-transform: translateY(-42%);
+		-moz-transform: translateY(-42%);
+		-ms-transform: translateY(-42%);
+		transform: translateY(-42%);
 	}
 
 	.global h2 {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		margin: 15px 0;
+	}
+
+	.avatar {
+		width: 40px;
+		height: 40px;
 	}
 
 	div#cont.cont {
 		padding-left: 0px;
 		padding-right: 0px;
-		margin: 60px 10px;
+		margin: 0 10px;
+	}
+
+	.post {
+		margin: 0;
 	}
 
 	.post-text {
@@ -48,8 +64,8 @@
 
 @media screen and (max-width: 619px) {
 	.post {
-		margin: 30px 0 80px;
-		padding: 20px 10px 60px;
+		margin: 0 0 50px;
+		padding: 0 10px 0;
 	}
 	nav.prevandnext {
 		margin: 30px 14px;

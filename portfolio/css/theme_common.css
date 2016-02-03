@@ -30,10 +30,6 @@ h1 {
 	display: inline-block;
 	padding: 0 0 0 15px;
 	margin: 0;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
 }
 
 h1 .weak {
@@ -48,8 +44,6 @@ header.global h2 {
 
 .avatar {
 	display: inline-block;
-	width: 50px;
-	height: 50px;
 	margin: 0;
 	background: #FFF url(/joyneop.png) center no-repeat scroll;
 	background-size: contain;
