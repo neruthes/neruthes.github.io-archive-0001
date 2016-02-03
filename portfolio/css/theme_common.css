@@ -17,11 +17,11 @@ header.global a {
 	display: block;
 }
 
-header.global h1, header.global h2 {
+header.global {
 	color: #585858;
 	font-weight: 200;
 	text-align: left;
-	margin: 0;
+	margin: 0 auto;
 }
 
 h1 {
@@ -29,11 +29,15 @@ h1 {
 	text-decoration: none;
 	display: inline-block;
 	padding: 0 0 0 15px;
+	margin: 0;
 	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 h1 .weak {
-	opacity: 0.33;
+	opacity: 0.5;
 	margin-left: 5px;
 }
 
@@ -50,7 +54,6 @@ header.global h2 {
 	background: #FFF url(/joyneop.png) center no-repeat scroll;
 	background-size: contain;
 	border-radius: 2000px;
-	box-shadow: rgba(0, 0, 0, 0.21322) 0 0 5px inset;
 	-webkit-transition: all 270ms ease;
 	-moz-transition: all 270ms ease;
 	transition: all 270ms ease;
@@ -71,11 +74,7 @@ a {
 
 .post {
 	font-weight: 300;
-	/*padding-top: 60px;*/
 	margin-bottom: 90px;
-	/*background: #FFF;*/
-	/*border-radius: 4px;*/
-	/*box-shadow: rgba(0, 0, 0, 0.024322) 0 0 4px;*/
 }
 
 .post h2 {
@@ -100,12 +99,12 @@ a {
 .post-text > h3 {
 	font-size: 2.2rem;
 	font-weight: 400;
-	margin: 20px 0 20px;
+	margin: 2rem 0 1.8rem;
 }
 
 .post-text > p {
 	line-height: 1.65em;
-	margin: 17px 0;
+	margin: 1.8rem 0;
 }
 
 .post-text > p a {
@@ -132,7 +131,7 @@ p code {
 
 .post-text figure {
 	width: 100%;
-	margin: 17px 0;
+	margin: 3.4rem 0;
 }
 
 .post-text img {
@@ -142,6 +141,12 @@ p code {
 .post-text figure img {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.post-text figure figcaption {
+	font-size: 1.4rem;
+	text-align: center;
+	padding: 1rem 0 0;
 }
 
 .post-text p > img {

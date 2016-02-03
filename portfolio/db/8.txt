@@ -1,0 +1,16 @@
+<style>
+body {
+    background: #000;
+}
+.global-text {
+    color: #FFF;
+}
+.post-text {
+    font-family: 'Ashbury', 'Times New Roman', serif;
+    color: #FFF;
+}
+</style>
+
+<h2>Rainly Lily</h2>
+
+<figure><img class="lg" src="/portfolio/img/0000201406250001.jpg"></figure>

@@ -1,21 +1,21 @@
 /**
  * @license
  * MyFonts Webfont Build ID 3096674, 2015-09-24T02:01:15-0400
- * 
+ *
  * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
+ * Agreement(s) entered into by the website owner. All other parties are
  * explicitly restricted from using the Licensed Webfonts(s).
- * 
+ *
  * You may obtain a valid license at the URLs below.
- * 
+ *
  * Webfont: Ashbury-Light by Hoftype
  * URL: http://www.myfonts.com/fonts/hoftype/ashbury/light/
  * Copyright: Copyright (c) 2012 by Dieter Hofrichter. All rights reserved.
  * Licensed pageviews: 100,000,000,000
- * 
- * 
+ *
+ *
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=3096674
- * 
+ *
  * © 2015 MyFonts Inc
 */
 
@@ -23,6 +23,25 @@
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/2f4062");
 
-  
-@font-face {font-family: 'Ashbury-Light';src: url('webfonts/2F4062_0_0.eot');src: url('webfonts/2F4062_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F4062_0_0.woff2') format('woff2'),url('webfonts/2F4062_0_0.woff') format('woff'),url('webfonts/2F4062_0_0.ttf') format('truetype');}
- 
+
+@font-face {font-family: 'Ashbury-Light';src: url('/fonts/ashbury/2F4062_0_0.eot');src: url('/fonts/ashbury/2F4062_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/ashbury/2F4062_0_0.woff2') format('woff2'),url('/fonts/ashbury/2F4062_0_0.woff') format('woff'),url('/fonts/ashbury/2F4062_0_0.ttf') format('truetype');}
+
+@import url(/fonts/advanced.css);
+
+@font-face {
+	font-family: 'Ashbury-fallback';
+	font-weight: 300;
+	src: local('Iowan Old Style'), local('Times New Roman'), local('Times'), local('Georgia'), local('Hiragino Mincho Pro'), local('Hiragino Mincho ProN'), local('Songti SC');
+}
+
+@font-face {
+	font-family: 'Ashbury-fallback';
+	font-weight: 400;
+	src: local('Iowan Old Style'), local('Times New Roman'), local('Times'), local('Georgia'), local('Hiragino Mincho Pro'), local('Hiragino Mincho ProN'), local('Songti SC');
+}
+
+@font-face {
+	font-family: 'Ashbury-fallback';
+	font-weight: 600;
+	src: local('Iowan Old Style'), local('Times New Roman'), local('Times'), local('Georgia'), local('Hiragino Mincho Pro'), local('Hiragino Mincho ProN'), local('Songti SC');
+}

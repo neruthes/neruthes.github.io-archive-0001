@@ -1,9 +1,9 @@
 {
-	"0":{"T":"Mini White"},
-	"1":{"T":"Leaves Horizon"},
-	"2":{"T":"Lonely Leaf"},
-	"3":{"T":"Kyouratsu"},
-	"4":{"T":"Gayradient"},
+	"0":{"T":"Glow"},
+	"1":{"T":"Mini White"},
+	"2":{"T":"Leaves Horizon"},
+	"3":{"T":"Lonely Leaf"},
+	"4":{"T":"Kyouratsu"},
 	"5":{"T":"Auromna"},
 	"6":{"T":"Visionary"},
 	"7":{"T":"Pink Wall"},
@@ -12,5 +12,5 @@
 	"10":{"T":"Naturwissenschaftler"},
 	"11":{"T":"Geek/stay night"},
 	"12":{"T":"Deucalion"},
-	"13":{"T":"Bank Of Neoparia"},
+	"13":{"T":"Bank Of Neoparia"}
 }

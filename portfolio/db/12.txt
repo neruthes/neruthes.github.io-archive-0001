@@ -1,0 +1,16 @@
+<style>
+body {
+    background: #042F5B;
+}
+.global-text {
+    color: #FFF;
+}
+.post-text {
+    //font-family: 'Ashbury', 'Times New Roman', serif;
+    color: #FFF;
+}
+</style>
+
+<h2>Deucalion</h2>
+
+<figure><img class="md" src="/portfolio/img/0000291503210001.jpg"></figure>

@@ -1,14 +1,15 @@
 <style>
+body {
+    background: #042F5B;
+}
+.global-text {
+    color: #FFF;
+}
 .post-text {
-    font-family: 'Ashbury', 'Times New Roman', serif;
+    color: #FFF;
 }
 </style>
 
-<h2>Hello World</h2>
-<p>This is a test.</p>
+<h2>Glow</h2>
 
-<figure><img class="full" src="/portfolio/img/0000201406250001.jpg"></figure>
-<figure><img class="lg" src="/portfolio/img/0000201406250001.jpg"></figure>
-<figure><img class="md" src="/portfolio/img/0000201406250001.jpg"></figure>
-<figure><img class="sm" src="/portfolio/img/0000201406250001.jpg"></figure>
-<figure><img class="xs" src="/portfolio/img/0000201406250001.jpg"></figure>
+<figure><img class="lg" src="/portfolio/img/0000201302250001.jpg"></figure>

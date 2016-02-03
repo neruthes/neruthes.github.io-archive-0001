@@ -1,0 +1,16 @@
+<style>
+body {
+    background: #000;
+}
+.global-text {
+    color: #FFF;
+}
+.post-text {
+    font-family: 'Ashbury', 'Ashbury-fallback', serif;
+    color: #FFF;
+}
+</style>
+
+<h2>Pink Wall</h2>
+
+<figure><img class="lg" src="/portfolio/img/0000201406240001.jpg"></figure>

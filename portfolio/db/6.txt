@@ -1,0 +1,15 @@
+<style>
+body {
+    background: #000;
+}
+.global-text {
+    color: #FFF;
+}
+.post-text {
+    color: #FFF;
+}
+</style>
+
+<h2>Visionary</h2>
+
+<figure><img class="lg" src="/portfolio/img/0000201407100001.jpg"></figure>

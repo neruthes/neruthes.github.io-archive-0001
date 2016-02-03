@@ -30,14 +30,10 @@
 	}
 
 	div#cont.cont {
-		/*width: 740px;*/
-		margin: 35px auto;
+		margin: 25px auto;
 	}
 
 	.post {
-		/*width: 600px;*/
-		/*margin-left: auto;*/
-		/*margin-right: auto;*/
 	}
 
 	.post-text {
@@ -50,9 +46,12 @@
 		margin-right: auto;
 	}
 
+	.post-text figure {
+	}
+
 	.post-text figure img {
 		display: block;
-		margin: 2em auto;
+		margin: 0 auto;
 	}
 
 	.post-text figure img.full {
@@ -74,6 +73,10 @@
 
 	.post-text figure img.xs {
 		width: 420px;
+	}
+
+	.post-text figure img.xxs {
+		width: 210px;
 	}
 
 	nav.prevandnext {
