@@ -38,16 +38,21 @@
 	#cont.cont {
 		padding-left: 0px;
 		padding-right: 0px;
-		margin: 0 10px;
+
 	}
 
 	body[page-mode="index"] #cont.cont {
-		width: 100%;
+		margin: 0 20px;
 	}
 
 	body[page-mode="index"] .entry {
 		display: block;
 		width: 100%;
+		margin: 0 0 20px;
+	}
+
+	body[page-mode="single"] #cont.cont {
+		margin: 0 10px;
 	}
 
 	.post {
