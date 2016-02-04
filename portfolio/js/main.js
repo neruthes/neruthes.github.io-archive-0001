@@ -141,7 +141,7 @@ app.main = function () {
 		if ( 0 <= app.getPID() && app.getPID() < app.articlesList.length && app.doesArticleExist(app.getPID())) {
 			// This is a valid URL for a post
 			stringInPortfolioContext = regularItemEntryTemplate.replace(/__INDEX__/g, app.getPID()).replace(/__DATE__/g, app.articlesList[app.getPID()].D);
-			document.title = app.articlesList[String(app.getPID())].T + ' — Joy Neop';
+			document.title = app.articlesList[String(app.getPID())].T + ' — Joy Neop Portfolio';
 			PortfolioContext.innerHTML = stringInPortfolioContext;
 			app.loadCurrentPost(app.getPID());
 		} else {
