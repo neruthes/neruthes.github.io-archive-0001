@@ -28,7 +28,7 @@
 	}
 
 	#global-footer {
-		text-align: center;
+		text-align: left;
 		padding: 50px;
 	}
 
@@ -37,8 +37,20 @@
 		height: 50px;
 	}
 
-	div#cont.cont {
+	body[page-mode="index"] #cont.cont {
+		font-size: 0px;
+		width: 618px;
+		margin: 30px auto 25px;
+	}
+
+	body[page-mode="single"] #cont.cont {
 		margin: 25px auto;
+	}
+
+	body[page-mode="index"] .entry {
+		display: inline-block;
+		width: 200px;
+		margin: 3px 3px;
 	}
 
 	.post {
@@ -49,7 +61,7 @@
 	}
 
 	.post h2, .post-text > p {
-		width: 600px;
+		width: 612px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -76,7 +88,7 @@
 	}
 
 	.post-text figure img.sm {
-		width: 600px;
+		width: 612px;
 	}
 
 	.post-text figure img.xs {
@@ -88,7 +100,7 @@
 	}
 
 	nav.prevandnext {
-		max-width: 600px;
+		max-width: 612px;
 		margin: 0 auto;
 	}
 }

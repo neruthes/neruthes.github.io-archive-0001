@@ -1,4 +1,18 @@
 <style>
+body {
+    background: #000;
+}
+.global-text {
+    color: #FFF;
+}
+.post-text {
+    font-family: 'Ashbury', 'Ashbury-fallback', serif;
+    color: #FFF;
+}
 </style>
 
-<h2>Bank Of Neoparia</h2>
+<h2>Woodstocky</h2>
+
+<figure><img class="lg" src="/portfolio/img/0000201407300001.jpg"></figure>
+
+<p>He was a cute boy.</p>

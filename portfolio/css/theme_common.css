@@ -66,6 +66,26 @@ a {
 	text-decoration: none;
 }
 
+.cont {
+	display: block;
+	padding: 0;
+}
+
+.entry {
+	border-radius: 3px;
+	display: block;
+	overflow: hidden;
+}
+
+.entry-anchor {
+	display: block;
+}
+
+.entry-img {
+	display: block;
+	width: 100%;
+}
+
 .post {
 	font-weight: 300;
 	margin-bottom: 90px;
@@ -138,9 +158,10 @@ p code {
 }
 
 .post-text figure figcaption {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
+	font-style: italic;
 	text-align: center;
-	padding: 1rem 0 0;
+	padding: 0.5rem 0 0;
 }
 
 .post-text p > img {
@@ -188,7 +209,7 @@ p code {
 }
 
 nav.prevandnext {
-	display: none;
+	/*display: none;*/
 }
 
 nav.prevandnext span, nav.prevandnext span a {
@@ -196,7 +217,7 @@ nav.prevandnext span, nav.prevandnext span a {
 	font-weight: 200;
 	text-transform: uppercase;
 	display: block;
-	padding: 1em 0.4em;
+	padding: 1em 0;
 }
 
 footer.global {

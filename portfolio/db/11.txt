@@ -1,6 +1,6 @@
 <style>
 body {
-    background: #151515;
+    background: #1A1A1A;
 }
 .global-text {
     color: #FFF;

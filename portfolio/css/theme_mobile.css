@@ -35,10 +35,19 @@
 		height: 40px;
 	}
 
-	div#cont.cont {
+	#cont.cont {
 		padding-left: 0px;
 		padding-right: 0px;
 		margin: 0 10px;
+	}
+
+	body[page-mode="index"] #cont.cont {
+		width: 100%;
+	}
+
+	body[page-mode="index"] .entry {
+		display: block;
+		width: 100%;
 	}
 
 	.post {

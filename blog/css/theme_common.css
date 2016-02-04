@@ -136,6 +136,13 @@ p code {
 	margin-right: auto;
 }
 
+.post-text figure figcaption {
+	font-size: 1.2rem;
+	font-style: italic;
+	text-align: center;
+	padding: 0.5rem 0 0;
+}
+
 .post-text p > img {
 	float: right;
 }

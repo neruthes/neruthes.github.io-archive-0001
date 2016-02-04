@@ -3,13 +3,11 @@ body {
     background: #E5E5E5;
 }
 .global-text {
-//    color: #FFF;
 }
 .post-text {
-//    color: #FFF;
 }
 </style>
 
 <h2>Naturwissenschaftler</h2>
 
-<figure><img class="sm" src="/portfolio/img/0000201406180001.jpg"></figure>
+<figure><img class="sm" src="/portfolio/img/0000201406180001.png"></figure>
