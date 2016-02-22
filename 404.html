@@ -5,8 +5,6 @@
 	<title>404 Not Found — Joy Neop</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">
-	@import url(/fonts/seravek.css);
-	@import url(/fonts/open-sans.css);
 	* {
 		text-rendering: optimizeLegibility;
 		box-sizing: border-box;
@@ -15,55 +13,50 @@
 		font-family: Seravek, 'Myriad Pro', Myriad, 'Myriad Set Pro', 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica Neue, Helvetica, Lucida Grande, Arial, 'Arial-Black', 'Arial Black', Arial Black, sans-serif;
 		font-size: 18px;
 		font-weight: 300;
-		color: #444;
+		color: #FFF;
 		padding: 0;
 		margin: 0;
-		background: #111 linear-gradient(#282828, #121212) fixed;
+		background-color: #111;
+		transition: all 1800ms ease;
 	}
-	.content {
-		background: #FFF url(/kyouratsu/3.jpg) bottom right no-repeat scroll;
-		background-image: url(/kyouratsu/3.jpg), url(//joyneop.github.io/kyouratsu/3.jpg), url(//joyneop.parseapp.com/kyouratsu/3.jpg);
-		background-size: 90px;
-		border-radius: 4px;
-		box-shadow: rgba(0, 0, 0, 0.024322) 0 0 4px;
-
-		max-width: 780px;
-		padding: 35px 50px 70px;
-		margin: 90px auto 50px;
+	a {
+		position: relative;
+		display: block;
+		width: 100vw;
+		height: 100vh;
 	}
-	p a {
-		color: inherit;
-		text-decoration: none;
-		border-bottom: 1px solid #BBB;
-	}
-	h1 {
-		font-size: 32px;
-		font-weight: 200;
-		color: #333;
-		text-align: center;
-	}
-	h1 em {
-		font-family: inherit;
-		font-style: inherit;
-		font-size: 1.25em;
-	}
-	footer {
-		color: #FAFAFA;
-		text-align: center;
-		padding: 1em 0 7em;
-	}
-	footer a {
-		font-size: 14px;
-		color: inherit;
-		text-decoration: inherit;
+	.hero-image {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-100px, -100px);
+		-moz-transform: translate(-100px, -100px);
+		-ms-transform: translate(-100px, -100px);
+		transform: translate(-100px, -100px);
+		display: block;
+		width: 200px;
+		height: 200px;
 	}
 	</style>
 </head>
 <body>
-	<div class="content">
-		<h1><em>Welcome to</em><br />The Restaurant at the End of the Universe</h1>
-		<p>God's in his heaven, but something's wrong with the world, huh?</p><p>You arrived here and got a 404; why not go back or <a href="/">start over</a>?</p>
-	</div>
-	<footer><a href="http://www.joyneop.com/">© <script type="text/javascript">document.write((new Date()).getFullYear());</script> Joy Neop. All Rights Reserved.</a></footer>
+	<a href="/">
+		<img class="hero-image" src="/pic/go-home-youre-drunk--201602001.svg">
+	</a>
+	<script>
+	var listOfColors = ['#12CD55', '#2089DA', '#DE4D00'];
+	var currentColorIndex = 0;
+	var moveToNextColor = function () {
+		if (currentColorIndex == listOfColors.length - 1) {
+			currentColorIndex = 0;
+		} else {
+			currentColorIndex += 1;
+		}
+	};
+	window.setInterval(function () {
+		document.getElementsByTagName('body')[0].style.backgroundColor = listOfColors[currentColorIndex];
+		moveToNextColor();
+	}, 3000);
+	</script>
 </body>
 </html>
