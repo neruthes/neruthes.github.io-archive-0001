@@ -1,8 +1,7 @@
 @author Joy Neop
-@slogan Do what you want to do. Be what you want to be.
 @url joyneop.xyz/blog
 @rss joyneop.xyz/blog/feed.rss
-@rss joyneop.xyz/blog/all-posts-in-one.txt
+@txt joyneop.xyz/blog/all-posts-in-one.txt
 
 
 
@@ -395,38 +394,6 @@ May the Force be with me.
 
 
 
-# My Homepage (Version 3)
-
-Post #110 / Date: September 6, 2014
-
-
-<figure>
-<img src="./img/0000201409060001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Avatar: Kyouratsu (XD)
-
-Post #109 / Date: August 27, 2014
-
-
-<figure>
-<img src="./img/0000201408270001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
 # Woodstocky
 
 Post #108 / Date: July 30, 2014
@@ -575,98 +542,6 @@ Sacrifice every individual's respective life, to redeem entire species' long liv
 
 
 
-# Way To 42
-
-Post #100 / Date: February 27, 2014
-
-
-
-When I gaze at other designers' work, I find me less professional. When I read other programmers' codes, I find me less talented. But I do not have to compare me with them, for I seek much more.
-
-Great revolutions never come from one single breakthrough. Multiplied UNIX by open source, Linus and Richard got Linux. Multiplied multi-touch screen by specifically redesigned human-interface, Steve, Scott and Jonathan got iPhone. It is not simply adding one onto another, or plus, it is multiplying. Combining is not simply mixing.
-
-This is also true for individual development, I think, not only for the society. As a designer, I may or may not be greatly outstanding though professional enough, but what if I am also good at programming? What if I can also do globalization work for China market? What if I can be glue in a team? What if I can manage both products and visual identity?
-
-I may or may not be the best, but at least I can be unique. My value is the product of various factors with their respective exponents, obvious or potential, e.g. designing skills, programming skills, photography skills, literature knowledge, traveling experience, cultural background, ability of associating, and more. Therefore I can change something, at least a small part in my domain, in my way, with my methodology. Everyone has his own way which cannot be outlined in advance by prior people, and thus everyone explores his own way. It is the way to explore, the way to extreme, and the way to 42.
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Starting AP
-
-Post #99 / Date: February 11, 2014
-
-
-
-For budgeting my higher education, I decided to take AP to get credit redemption. So, I arrived in Dalian to take two AP courses, Physics B and Calculus BC.
-
-I rent an underground room for temporarily living near by Ealing, the private educational institute which provides courses for SAT, AP and others. And it was founded by a friend of my aunt. Though no discount offered, she and one of her staff handled my college application thus I can concentrate on my own work.
-
-The room is too cold to sleep in, unless electric heating added. But the real problem is, there is no space for a desk so I cannot write in the room. Now I am writing in KFC. The location is quite convenient; it is near to both Ealing and downtown. 
-
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Avatar: Rose
-
-Post #98 / Date: February 6, 2014
-
-
-<figure>
-<img src="./img/0000201402060002.jpg">
-</figure>
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Rose
-
-Post #97 / Date: February 6, 2014
-
-
-<figure>
-<img src="./img/0000201402060001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Avatar: Chinese New Year
-
-Post #96 / Date: January 28, 2014
-
-
-<figure>
-<img src="./img/0000201401280001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
 # Macintosh, Thank You
 
 Post #95 / Date: January 24, 2014
@@ -707,54 +582,6 @@ Post #94 / Date: January 1, 2014
 
 
 
-# My Christmas Homepage
-
-Post #93 / Date: December 24, 2013
-
-
-<figure>
-<img src="./img/0000201312240003.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Avatar: Christmas
-
-Post #92 / Date: December 24, 2013
-
-
-<figure>
-<img src="./img/0000201312240002.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# BBS Signature Line: iOS 7 (Version 2)
-
-Post #91 / Date: December 24, 2013
-
-
-<figure>
-<img src="./img/0000201312240001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
 # Milestone
 
 Post #90 / Date: December 16, 2013
@@ -773,22 +600,6 @@ Now I am sitting in the classroom of my classic Liaoyang #1 High School, and Mrs
 
 The winter has come, but my future remains covered by mist.
 
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# BBS Signature Line: iOS 7
-
-Post #89 / Date: November 16, 2013
-
-
-<figure>
-<img src="./img/0000201311160001.jpg">
-</figure>
 
 
 
@@ -837,22 +648,6 @@ Post #87 / Date: November 9, 2013
 
 
 
-# Homepage for Somainer
-
-Post #86 / Date: November 3, 2013
-
-
-<figure>
-<img src="./img/0000201311030002.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
 # Leaves Horizon
 
 Post #85 / Date: November 3, 2013
@@ -860,22 +655,6 @@ Post #85 / Date: November 3, 2013
 
 <figure>
 <img src="./img/0000201311030001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Icon for iBooks (Mac)
-
-Post #84 / Date: October 25, 2013
-
-
-<figure>
-<img src="./img/0000201310250001.jpg">
 </figure>
 
 
@@ -975,22 +754,6 @@ Death shall finally come; it's the ultimate ending. I feel so happy, to <strong>
 
 
 
-# My Homepage (Version 2)
-
-Post #79 / Date: September 2, 2013
-
-
-<figure>
-<img src="./img/0000201309020001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
 # Live On The Internet
 
 Post #78 / Date: August 29, 2013
@@ -1055,70 +818,6 @@ The last year is coming. Who knows what shall the future be.
 
 
 
-# Neop.me (Version 1)
-
-Post #75 / Date: August 1, 2013
-
-
-<figure>
-<img src="./img/0000201308010001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# BBS Signature Line: JN (Version 2)
-
-Post #74 / Date: July 25, 2013
-
-
-<figure>
-<img src="./img/0000201307250003.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Avatar: Glow
-
-Post #73 / Date: July 25, 2013
-
-
-<figure>
-<img src="./img/0000201307250002.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Glow
-
-Post #72 / Date: July 25, 2013
-
-
-<figure>
-<img src="./img/0000201307250001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
 # Betrayer
 
 Post #71 / Date: July 7, 2013
@@ -1169,22 +868,6 @@ Post #70 / Date: July 7, 2013
 
 
 
-# BBS Signature Line: NeXT
-
-Post #69 / Date: July 7, 2013
-
-
-<figure>
-<img src="./img/0000201307070001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
 # Unbearable Pleasure
 
 Post #68 / Date: June 30, 2013
@@ -1211,48 +894,6 @@ Post #67 / Date: June 30, 2013
 <figure>
 <img src="./img/0000201306300002.jpg">
 </figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Sunset
-
-Post #66 / Date: June 30, 2013
-
-
-<figure>
-<img src="./img/0000201306300001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Kindling Even
-
-Post #65 / Date: June 29, 2013
-
-
-
-Just uncovered splendid tours
-
-Edge departed gate emerged
-
-Make anchors keeping erect
-
-Each angle covering heart
-
-Rain accumulating inside nexus
-
-Yoke on kindling even
-
 
 
 
@@ -1454,38 +1095,6 @@ A blurry shape of vista is forged. It's increasingly clear, and is stepping clos
 
 
 
-# My Homepage (Version 1)
-
-Post #56 / Date: April 20, 2013
-
-
-<figure>
-<img src="./img/0000201304200001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# null
-
-Post #55 / Date: April 14, 2013
-
-
-
-There are mass ways to consider the world, and I choose one conclusion to believe.
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
 # Sound Of Wind
 
 Post #54 / Date: April 2, 2013
@@ -1671,38 +1280,6 @@ Post #47 / Date: February 25, 2013
 
 
 
-# BBS Signature Line: JN
-
-Post #46 / Date: February 15, 2013
-
-
-<figure>
-<img src="./img/0000201302150002.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Avatar: Slate
-
-Post #45 / Date: February 15, 2013
-
-
-<figure>
-<img src="./img/0000201302150001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
 # Spring Festival 2013
 
 Post #44 / Date: February 10, 2013
@@ -1724,38 +1301,6 @@ Post #44 / Date: February 10, 2013
 望向窗外，足夠明亮，卻看不到太陽，看不到地平線。
 
 唯有藍天，唯有雪地。
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# null
-
-Post #43 / Date: February 4, 2013
-
-
-
-今天凌晨，又是一場雪。深夜裡雪花飄落，蒼穹也映著微光。
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# null
-
-Post #42 / Date: January 23, 2013
-
-
-
-選擇順從的人，被剝削得一乾二淨。選擇沉默的人，助長了敵人的士氣。選擇反抗的人，螳臂當車無人後繼。選擇離開的人，不再是曾經的同胞。
 
 
 
@@ -1876,22 +1421,6 @@ Post #39 / Date: December 14, 2012
 同樣地，你也不可能理解我的情感。
 
 因為靈魂的相似，我曾經對你產生了強烈的渴望。同樣因為靈魂的相似，我們無法完全地互相理解。即使在一起，彼此相望、對視，最終也只有嘆息。
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# null
-
-Post #38 / Date: December 10, 2012
-
-
-
-近一年了，我一直無法停止關注你。在近處，悄悄地，關注有關你的一切，卻不知道原因。於是，我用匿名帳戶加了你的 QQ，試圖找到答案。與我的預感相同，在我解釋那個匿名帳戶的用途和意義的過程中，你已經猜到是我。我們太過相似。興趣的分布，靈感的形式，持有的價值，追求的夢想，看世界的角度，對人生的觀念，無一不存在著巨大的重疊。或許，這就是答案了吧。我知道與你討論研究這個問題的可能性很渺茫，所以我得到這個答案就已足夠。
 
 
 
@@ -2146,7 +1675,7 @@ Post #34 / Date: November 17, 2012
 
 
 
-# null
+# The Lost Campus
 
 Post #33 / Date: November 10, 2012
 
@@ -2154,43 +1683,32 @@ Post #33 / Date: November 10, 2012
 <figure>
 <img src="./img/0000201211100001.jpg">
 </figure>
+
 <figure>
 <img src="./img/0000201211100002.jpg">
 </figure>
+
 <figure>
 <img src="./img/0000201211100003.jpg">
 </figure>
+
 <figure>
 <img src="./img/0000201211100004.jpg">
 </figure>
+
 <figure>
 <img src="./img/0000201211100005.jpg">
 </figure>
 
 
 
---------------------------------------------------------------------------------
-
-
-
-
-# Avatar: B&W (Version 2)
-
-Post #32 / Date: November 9, 2012
-
-
-<figure>
-<img src="./img/0000201211090001.jpg">
-</figure>
-
-
 
 --------------------------------------------------------------------------------
 
 
 
 
-# null
+# Snowy Night
 
 Post #31 / Date: November 6, 2012
 
@@ -2202,22 +1720,6 @@ Post #31 / Date: November 6, 2012
 
 2010 年末的冬天，依然歷歷在目。曾經陪伴我的人們，如同風雪中的一聲嘆息，早已不知所蹤。
 
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# iPad Wallpaper: Colorful Apple Logo
-
-Post #30 / Date: November 4, 2012
-
-
-<figure>
-<img src="./img/0000201211040001.jpg">
-</figure>
 
 
 
@@ -2238,38 +1740,6 @@ Post #29 / Date: October 31, 2012
 
 即使已經明確「在夢想的盡頭存在的只有虛假」這一事實，我也只能將這不切實際的夢想貫徹到最後，完結一個無人知曉的悲劇，詮釋一個虛偽醜陋的世界。
 
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# BBS Signature Line: Thought Different
-
-Post #28 / Date: October 19, 2012
-
-
-<figure>
-<img src="./img/0000201210190001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# BBS Signature Line: Think Different
-
-Post #27 / Date: October 2, 2012
-
-
-<figure>
-<img src="./img/0000201210020001.jpg">
-</figure>
 
 
 
@@ -2315,21 +1785,21 @@ Post #25 / Date: September 22, 2012
 
 <h3>1</h3>
 
-那時的我一定很瘋狂吧。離別的傷痛，新環境的詭異，混亂了我的思維。入秋不久，正是十月中旬，天氣還只是有些涼，算不上寒冷。痛苦，迷茫，便是那些天的主旋律了。
+I should have been pretty crazy at the time. The sad of loss and the resistance of the new environment brought chaos to me. It was the early autumn, right at the middle of October. The winds were a bit cool; far from cold. Pain and lostness were the major chorus in those days.
 
-那天，我注意到你的存在。在對門，很容易看見。偶然地，遇到你深邃的目光。你的目光中有一切，又沒有一切。這神秘，這深沈，就像我一樣。
+The day, I noticed you, right at the opposite through two doors, you were obvious. Coincidently, I met your eyes of deep. There were everything in your eyesight; yet nothing. It was like me.
 
-我又怎麼會想到，這只是個開始。
+But how could I know that it was only the beginning.
 
 <h3>2</h3>
 
-很快，我以各種方式探尋關於你的一切。你的人生，幾小時便略知一二了。相似的經歷，有很多。我們走著相同的路，愛好者相同的興趣。舞文弄墨，出神入化。將感情和思想化為文字，淋漓盡致。無論小清新還是重口味，無論冷幽默還是嚴肅的文學，都運用自如。這個浮躁的時代，熱衷於文字和創作的人越來越少了。
+Soon, I was searching about everyone about you. A few hours later, I knew a bit of your life. We had much similar experience. We had many mutual habits. You write and sign. You turn emotions and thoughts into text. So beautiful. Regardless of genre, you are a master. As long as there are less and less people love writing.
 
-或許是緣分使然吧，我會在茫茫人海中遇到你。
+I met you in the crowd.
 
-也正是這段探尋，我開始瞭解你目光中的感動與傷懷。
+And I started to know your moving and sorrow.
 
-越陷越深。
+Falling deeper and deeper.
 
 <h3>3</h3>
 
@@ -2381,17 +1851,17 @@ Post #24 / Date: September 14, 2012
 
 
 
-昨天的晚自習，休息的課間在樓外散步，無意中注意到了路燈的光。
+At the evening of yesterday, I was wandering around during the break, and noticed the street lamps and the shine.
 
-一盞黃黃舊舊的燈，被染色的夜幕，暗淡的草叢，疊加，交融。還有，那微冷的空氣。意象多了便堆砌出意境，意境形成了便不再侷限於意象。
+A light of yellow and old, sky tinted by the darkness, and grass field dimmed overlaid and fused. And, the air of subtle coldness. Objects created a scene; yet the scene would no longer be limited to objects.
 
-「一盞黃黃舊舊的燈」，熟悉的旋律，在腦海中響起。去年秋天，腦海中迴盪的便是這首「回到過去」。夜幕下緩緩的步伐，再次前行。
+The rhythm of familiarity started to echo in my mind. Last autumn, the song echoing in my mind was this *Back To The Past*. Beneath the sky of even and night, steps went forward, slowly.
 
-「想回到過去，試著抱你在懷裡，羞怯的臉帶有一點稚氣」，這句是最能引起回憶的了。中考前，我們在教室的最後一天，我和懷裡的 Rof。那個場景，所有的細節都仍未被時間沖去。販黃的記憶，只有這張畫面依舊清晰。
+Memory blowed up. It was the last day before high school entrance exams, of me and Rof in the classroom. The time has not swept details of that scene. Memory decayed sepia; only this image was clear.
 
-執著於懷念，是人類故有的感情，也是藝術家靈感的源泉。
+Obsession and cherishness are emotions bounded to humanity, and therefore may be source of inspiration for artists.
 
-這些凌亂的思緒，只有順其自然了。
+Let the thoughts go wild. As it was the only way to deal with them.
 
 
 
@@ -2407,23 +1877,22 @@ Post #23 / Date: September 8, 2012
 
 
 
-很久以來我一直在探尋生命的意義。
+For long I have been seeking the meaning of life.
 
-為人類的發展作出貢獻?
+To contribute to development of human race?
 
-做偉大的事讓後世永遠銘記?
+Tp make a ding in the universe which may be memorable indefinitely for descendants?
 
-為了在沒有人哭泣的世界?
+To create a world that nobody cries?
 
-這些都是借來的夢想。在夢想的盡頭，存在的只有虛假。
+The dreams are borrowed. At the end of the dreams, there is only fakeness.
 
-我的生命是我的生命，不是別人的。這簡單的事實，我今天才悟透。
+My life is mine. I live for myself, not anyone else. Not until today have I realized this simple fact.
 
-我的信條「Just Obey Yourself」，又一次指引我前進的方向。
+And I shall live my life in favor of myself.
 
-我終於完整地理解了，世界上沒有任何事物比我更重要。
+And I shall abandon the borrowed dreams and actualize my existence.
 
-放下借來的夢想，遵守我的意志踐行我的生命。
 
 
 
@@ -2506,22 +1975,6 @@ The wind blew as well.
 
 
 
-# Flower Sketch
-
-Post #20 / Date: August 30, 2012
-
-
-<figure>
-<img src="./img/0000201208300001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
 # Hope
 
 Post #19 / Date: August 30, 2012
@@ -2548,54 +2001,6 @@ The will is my blade; cutting down thorns.
 
 The dream is my sheath; defending agains storms.
 
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# null
-
-Post #18 / Date: August 28, 2012
-
-
-
-Wind came with rain, falling, undried the dark sky. Yet another summer has gone. Converted into text; spread over Internet. The seventeenth summer has gone. Along with time and entropy, growing and withering.
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Avatar: B&W
-
-Post #17 / Date: August 27, 2012
-
-
-<figure>
-<img src="./img/0000201208270001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# null
-
-Post #16 / Date: August 24, 2012
-
-
-<figure>
-<img src="./img/0000201208240001.jpg">
-</figure>
 
 
 
@@ -2647,22 +2052,6 @@ Post #15 / Date: August 23, 2012
 
 心隨淺溪 望穿秋水用孤單等你
 
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# null
-
-Post #14 / Date: August 23, 2012
-
-
-<figure>
-<img src="./img/0000201208230001.jpg">
-</figure>
 
 
 
@@ -2765,71 +2154,6 @@ Those three years we enjoyed together
 
 Now only memory retains its place
 
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# May The Wind Be With Your Sleep
-
-Post #12 / Date: July 14, 2012
-
-
-<h3>猶記得那年我們都還很年幼</h3>
-
-很久很久以前，當我剛剛上小學時。
-
-那個初秋，是一片祥和。那時我經歷過的還太少，不會因為懷念和傷痛在秋天感到憂傷。葉落滿地，泥土的芬芳，夾雜著露水的清瀅，組合成最迷人的時節。
-
-班裡人太多，遠遠超過我那個年齡的認知上限。所以，在班內，我只認識很少的幾個人。班外，似乎只有小权了。
-
-君子之交淡如水，我當年似乎也是那樣。小學 6 年間，與別人的交往非常少，多數時間都是獨自思索。如今，日漸成熟的我再也無法理解那種趣味了。
-
-曾經毫不眷戀的時光，現在都已化作永遠無法追回的懷念。
-
-<h3>面具下的人</h3>
-
-6 年的時光，當時覺得很漫長，現在回想卻是轉瞬即逝。
-
-上了初中後，不知不覺中，我戴上了一個個面具。樂觀、熱血、堅定、友善、愛國，爭先恐後地出現在我臉上。我在面具下活著，越來越虛偽。
-
-後來我發現，面具已經成了我身體的一部分，再也無法摘除了。就這樣，我在通往充斥著偽善、狡詐、謊言、勾心鬥角、爾虞我詐的成人世界的路上越走越遠。
-
-<h3>又回到最初的起點</h3>
-
-3 年的時光比 6 年更快逝去。9 年後的有一個初秋，我進入了高中。
-
-葉落滿地，泥土的芬芳，夾雜著露水的清瀅，組合成淡淡的憂傷。
-
-又一次，很偶然的機會，我知道了小权也與我在同一個高中。
-
-好想再回到那些年的時光。
-
-<h3>風，會指引你睡覺的方向</h3>
-
-「風，會指引你睡覺的方向」我在小权耳邊輕輕說道，作為重逢的開場白。
-
-9 年前，我從小权口中聽到這句話。9 年後，它成了我的台詞。
-
-小权回過頭來:「你居然還記得。」
-
-「但我一直沒能理解。」
-
-「當你放下所有的負擔，夢會在睡眠中浮現。靜下心，聆聽風的聲音，你會找到夢的方向。」
-
-
-<!--
-<h3>By The Time We Were Still Kids</h3>
-
-Long long ago, the year when I was admitted into primary school.
-
-The early autumn was full of peace. I've experienced so little by the time, and thus was not able to sorrow for memorial 
-
--->
 
 
 
@@ -2947,7 +2271,7 @@ In reply to the good night, let me keep in silence.
 
 
 
-# null
+# [ Untitied Post ]
 
 Post #8 / Date: June 1, 2012
 
@@ -2987,7 +2311,7 @@ The prophecy is uncertain; there is always hope.
 
 
 
-# null
+# [ Untitied Post ]
 
 Post #6 / Date: May 3, 2012
 

@@ -21,14 +21,32 @@ var entireHtml = '';
 
 listJson = JSON.parse(fs.readFileSync(blogPath + '/list.json', 'utf8').toString());
 
-for (var i = 0; i < listJson.list.length; i++) {
-	var title;
-	if (listJson.list[i]['T'] == '') {
-		title = '[ Untitied Post ]';
-	} else {
-		title = listJson.list[i]['T'];
-	}
-	accumulate = postTemplate.replace(/__neop.postId__/g, i).replace(/__neop.postTitle__/g, title).replace(/__neop.date__/g, listJson.list[i]['D']).replace(/__neop.postText__/g, real(fs.readFileSync(blogPath + '/db/' + i + '.txt', 'utf8').toString())) + accumulate;
+listJson.length = (function (list) {
+    var count = 0;
+    var i;
+    for (i in list) {
+        if (list.hasOwnProperty(i)) {
+            count++;
+        };
+    };
+    return count;
+})(listJson);
+
+var maxId = listJson.length-1;
+for (var i = 0; i <= maxId; i++) {
+	if (listJson[i].D !== 0) {
+		var title;
+		if (listJson[i]['T'] == '') {
+			title = '[ Untitied Post ]';
+		} else {
+			title = listJson[i]['T'];
+		}
+		accumulate = postTemplate.replace(/__neop.postId__/g, i).replace(/__neop.postTitle__/g, title).replace(/__neop.date__/g, listJson[i]['D']).replace(/__neop.postText__/g, real(fs.readFileSync(blogPath + '/db/' + i + '.txt', 'utf8').toString())) + accumulate;
+	};
+};
+
+for (var i = 0; i < listJson.length; i++) {
+
 };
 
 entireHtml = htmlTemplate.replace('__neop.allPosts__', accumulate);

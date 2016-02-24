@@ -1,8 +1,7 @@
 @author Joy Neop
-@slogan Do what you want to do. Be what you want to be.
 @url joyneop.xyz/blog
 @rss joyneop.xyz/blog/feed.rss
-@rss joyneop.xyz/blog/all-posts-in-one.txt
+@txt joyneop.xyz/blog/all-posts-in-one.txt
 
 
 

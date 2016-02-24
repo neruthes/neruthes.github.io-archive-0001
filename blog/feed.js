@@ -15,8 +15,8 @@ xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modul
 xmlns:slash="http://purl.org/rss/1.0/modules/slash/">\n\
     <channel>\n\
         <title>Joy Neop</title>\n\
-        <atom:link href="http://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />\n\
-        <link>http://joyneop.xyz/blog/</link>\n\
+        <atom:link href="https://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />\n\
+        <link>https://joyneop.xyz/blog/</link>\n\
         <description>Do what you want to do. Be what you want to be.</description>\n\
         <lastBuildDate>__DATE__ 09:41:00 +0000</lastBuildDate>\n\
         <language>en-US</language>\n\
@@ -42,21 +42,31 @@ var accumulate = '';
 var entireXml = '';
 
 listJson = JSON.parse(fs.readFileSync(blogPath + '/list.json', 'utf8'));
+listJson.length = (function (list) {
+    var count = 0;
+    var i;
+    for (i in list) {
+        if (list.hasOwnProperty(i)) {
+            count++;
+        };
+    };
+    return count;
+})(listJson);
 
-var maxId = listJson.list.length-1;
-for (var i = maxId; i > 0 && i > maxId-200; i--) {
-	accumulate += postTemplate.replace(/__AUTHOR__/g, 'Joy Neop')
-	.replace(/__URL__/g, 'http://joyneop.xyz/blog/?p=' + i)
-	.replace(/__TITLE__/g, listJson.list[i]['T'])
-	.replace(/__DATE__/g, listJson.list[i]['D'])
-	.replace(/__CONTENT__/g, fs.readFileSync(blogPath + '/db/' + i + '.txt', 'utf8'));
+var maxId = listJson.length-1;
+for (var i = 0; i <= maxId; i++) {
+	if (listJson[i].D !== 0) {
+        accumulate += postTemplate.replace(/__AUTHOR__/g, 'Joy Neop')
+    	.replace(/__URL__/g, 'https://joyneop.xyz/blog/?p=' + i)
+    	.replace(/__TITLE__/g, listJson[i]['T'])
+    	.replace(/__DATE__/g, listJson[i]['D'])
+    	.replace(/__CONTENT__/g, fs.readFileSync(blogPath + '/db/' + i + '.txt', 'utf8'));
+	};
 };
 
-lastDate = listJson.list[(listJson.list.length-1)]['D'];
+lastDate = listJson[(listJson.length-1).toString()]['D'];
 
-entireXml = xmlTemplate
-.replace(/__ITEMS__/g, accumulate)
-.replace('__DATE__', lastDate);
+entireXml = xmlTemplate.replace(/__ITEMS__/g, accumulate).replace('__DATE__', lastDate);
 
 fs.writeFileSync(blogPath + '/feed.rss', entireXml);
 
