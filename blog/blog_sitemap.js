@@ -14,10 +14,22 @@ var accumulate = '';
 var fs = require('fs');
 
 listJson = JSON.parse(fs.readFileSync(blogPath + '/list.json', 'utf8'));
+listJson.length = (function (list) {
+    var count = 0;
+    var i;
+    for (i in list) {
+        if (list.hasOwnProperty(i)) {
+            count++;
+        };
+    };
+    return count;
+})(listJson);
 
-var maxId = 220;
-for (var i = 0; i <= maxId && i < listJson.list.length; i++) {
-	accumulate = postTemplate.replace(/__LOC__/g, 'http://joyneop.xyz/blog/?p=' + i).replace(/__MOD__/g, listJson.list[i]['D']) + accumulate;
+var maxId = listJson.length-1;
+for (var i = 0; i <= maxId; i++) {
+	if (listJson[i].D !== 0) {
+		accumulate = postTemplate.replace(/__LOC__/g, 'https://joyneop.xyz/blog/?p=' + i).replace(/__MOD__/g, listJson[i]['D']) + accumulate;
+	};
 };
 
 

@@ -1,0 +1,13 @@
+<p>Recently, I've been working on notification system. Meanwhile, I did some research on this common functionality in various products. The most critical part was the aggregation strategy.</p>
+<h3>1. Primitive: No Aggregation At All</h3>
+<p></p>
+<p></p>
+<h3>2. Easiest Way: Strong Aggregation</h3>
+<p></p>
+<p></p>
+<h3>3. Facebook: </h3>
+<p></p>
+<p></p>
+<h3>4. Mine: Complex Aggregation</h3>
+<p></p>
+<p></p>

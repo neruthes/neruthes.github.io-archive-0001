@@ -8,7 +8,7 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
         <atom:link href="https://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />
         <link>https://joyneop.xyz/blog/</link>
         <description>Do what you want to do. Be what you want to be.</description>
-        <lastBuildDate>July 31, 2015 09:41:00 +0000</lastBuildDate>
+        <lastBuildDate>Mar 10, 2016 09:41:00 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
@@ -77,25 +77,6 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
             </content:encoded>
         </item>
         <item>
-            <title>The Stars</title>
-            <link>https://joyneop.xyz/blog/?p=4</link>
-            <pubDate>April 26, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=4</guid>
-            <content:encoded>
-<![CDATA[
-<p>仲春觀星，慘淡月色冷無情。如若堅冰，濁空明，一盞離愁映樹影。黑雲穿行，何日破曉晴?</p>
-<p>塵世功名，千載悠悠歲月凝。化作雛鷹，掠風鈴，幾番奮鬥醉中醒。驟雨泥濘，無礙幽思淨。</p>
-<!--
-<p>I gaze at stars, and see the moon cold, shining emotionlessly.</p>
-<p>A piece of ice, dirty the sky, </p>
-<p></p>
-<p></p>
-<p></p>-->
-]]>
-            </content:encoded>
-        </item>
-        <item>
             <title>Life & Death</title>
             <link>https://joyneop.xyz/blog/?p=5</link>
             <pubDate>April 27, 2012 09:41:00 +0000</pubDate>
@@ -115,18 +96,6 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
             </content:encoded>
         </item>
         <item>
-            <title>false</title>
-            <link>https://joyneop.xyz/blog/?p=6</link>
-            <pubDate>May 3, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=6</guid>
-            <content:encoded>
-<![CDATA[
-<p>Every summer recalls me the summer of 2008. It's nightmare in my mind; cannot exorcise. Four years has passed, the precious memories have almost deceased, but the pain remains, maybe indefinitely.</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
             <title>In Utter Darkness</title>
             <link>https://joyneop.xyz/blog/?p=7</link>
             <pubDate>May 20, 2012 09:41:00 +0000</pubDate>
@@ -139,18 +108,6 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
 <p>Life is short.</p>
 <p>Time shall wipe everything engraved. Also shall it prove everything. May my contribution be with in people's mind, before time erases my presence.</p>
 <p>The prophecy is uncertain; there is always hope.</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>false</title>
-            <link>https://joyneop.xyz/blog/?p=8</link>
-            <pubDate>June 1, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=8</guid>
-            <content:encoded>
-<![CDATA[
-<p>One year has past since high school entrance exam. The finale of my senior year in middle school was the most fulfilled and happy time I had enjoyed. Old days decay; new days come. May there be a better future.</p>
 ]]>
             </content:encoded>
         </item>
@@ -273,34 +230,6 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
             </content:encoded>
         </item>
         <item>
-            <title>Raining Into The Lake</title>
-            <link>https://joyneop.xyz/blog/?p=15</link>
-            <pubDate>August 23, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=15</guid>
-            <content:encoded>
-<![CDATA[
-<p>葉落滿地 紛飛了記憶</p>
-<p>雨落淺池 感傷了距離</p>
-<p>想著你 思緒變得清晰</p>
-<br />
-<p>深秋院裏 瀰漫著刺骨的寒氣</p>
-<p>飄落淚滴 在雨中消失了蹤跡</p>
-<p>陳年舊事 被風聲喚起</p>
-<br />
-<p>雨落淺池 落葉堆成你的名字</p>
-<p>餘暉消逝 思念卻無法停止</p>
-<p>落淚幾次 試著重新感知</p>
-<p>不知何時 風聲雨中靜止</p>
-<br />
-<p>歲月流逝 無法淡薄心中的痕跡</p>
-<p>滲透池底 過往的畫面難忘記</p>
-<p>青石階梯 滿是青苔的記憶</p>
-<p>心隨淺溪 望穿秋水用孤單等你</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
             <title>Hope</title>
             <link>https://joyneop.xyz/blog/?p=19</link>
             <pubDate>August 30, 2012 09:41:00 +0000</pubDate>
@@ -401,91 +330,6 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
             </content:encoded>
         </item>
         <item>
-            <title>In Your Name The Leaves Fall</title>
-            <link>https://joyneop.xyz/blog/?p=25</link>
-            <pubDate>September 22, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=25</guid>
-            <content:encoded>
-<![CDATA[
-<h3>1</h3>
-<p>I should have been pretty crazy at the time. The sad of loss and the resistance of the new environment brought chaos to me. It was the early autumn, right at the middle of October. The winds were a bit cool; far from cold. Pain and lostness were the major chorus in those days.</p>
-<p>The day, I noticed you, right at the opposite through two doors, you were obvious. Coincidently, I met your eyes of deep. There were everything in your eyesight; yet nothing. It was like me.</p>
-<p>But how could I know that it was only the beginning.</p>
-<h3>2</h3>
-<p>Soon, I was searching about everyone about you. A few hours later, I knew a bit of your life. We had much similar experience. We had many mutual habits. You write and sign. You turn emotions and thoughts into text. So beautiful. Regardless of genre, you are a master. As long as there are less and less people love writing.</p>
-<p>I met you in the crowd.</p>
-<p>And I started to know your moving and sorrow.</p>
-<p>Falling deeper and deeper.</p>
-<h3>3</h3>
-<p>落葉越來越多，白粥越來越短，北風越來越寒。</p>
-<p>從秋向冬的過渡，來得這麼快。</p>
-<p>被八卦了，你悶悶不樂的表情，讓我心痛。於是，便有了第一次我主動對你說話的一段對話。</p>
-<p>於是，想起我們的首次對話。沒想到你對我早有耳聞。</p>
-<p>你會願意我復述我們的對話麼?或許，你根本就不會知道我堆砌的這些文字吧。</p>
-<h3>4</h3>
-<p>加了你的 QQ，悄悄在你的 Qzone 裡繼續探尋我想知道的一切。</p>
-<p>雨落浅池」寫了首詩。那節自習課過後，將手稿交與你，渴望你的評論與改進。</p>
-<p>然而，那份手稿被你遺失了。</p>
-<p>然後，我重寫了一份，並為之譜曲。</p>
-<p>當時並不覺得怎樣。後來，才懂得你從一開始便從未重視過我。為你創作的文字，最珍貴的原始手稿，你也會將它遺失。</p>
-<h3>5</h3>
-<p>不知為何，你開始有意拉開距離。若即若離的關係，重新變成陌生人一般。</p>
-<p>後來，你離開我的好友列表，便有了那幾封 Email 的對話。記憶猶新。</p>
-<p>夢的盡頭。</p>
-<h3>6</h3>
-<p>雨落浅池，落葉堆成你的名字。</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>Quiet Night</title>
-            <link>https://joyneop.xyz/blog/?p=26</link>
-            <pubDate>September 24, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=26</guid>
-            <content:encoded>
-<![CDATA[
-<p>淡淡星光，難辨獵戶北斗。</p>
-<p>漫漫長夜，一曲黯然銷魂。</p>
-<p>秋分微寒，怎奈西風漸北。</p>
-<p>枯葉成堆，青草綠意式微。</p>
-<p>冥冥薄霧，燈火遁入迷蹤。</p>
-<p>微微暗香，野菊悄然綻放。</p>
-<p>單影成雙，問天幾分惆悵。</p>
-<p>對月而歌，綺麗傾瀉如瀑。</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>Meaningless</title>
-            <link>https://joyneop.xyz/blog/?p=29</link>
-            <pubDate>October 31, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=29</guid>
-            <content:encoded>
-<![CDATA[
-<p>這世界誰都不乾淨。我不期望別人多高尚多願意接受我，我也不想要我有多高尚多寬容。如果注定一生無產階級，那麼何不嘗試唯一的救贖之路?在美國被歧視、被剝削、被踐踏，也好過在中華人民共和國每時每刻生存在永無止境的恐怖與不安中。</p>
-<p>我不相信中華人民共和國會變得自由、平等、民主，也不相信在美國的生活會有多麼幸福。在殘酷的世界中泯滅我赤誠的期待，在黑暗的深淵中追求那微茫的希望，用一生試圖實現一個天真的夢想、活在一個虛幻的世界，最終在無盡的絕望與悔恨中死去，便是我的人生。</p>
-<p>即使已經明確「在夢想的盡頭存在的只有虛假」這一事實，我也只能將這不切實際的夢想貫徹到最後，完結一個無人知曉的悲劇，詮釋一個虛偽醜陋的世界。</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>Snowy Night</title>
-            <link>https://joyneop.xyz/blog/?p=31</link>
-            <pubDate>November 6, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=31</guid>
-            <content:encoded>
-<![CDATA[
-<p>雨若是無盡的悲涼，雪便是悲涼凝結成的滄桑。漆黑的夜幕下，路燈的微光，映襯著漫天飛舞的雪。</p>
-<p>撐起傘，擋住了雪，卻擋不住腦海中的漣漪。</p>
-<p>2010 年末的冬天，依然歷歷在目。曾經陪伴我的人們，如同風雪中的一聲嘆息，早已不知所蹤。</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
             <title>The Lost Campus</title>
             <link>https://joyneop.xyz/blog/?p=33</link>
             <pubDate>November 10, 2012 09:41:00 +0000</pubDate>
@@ -517,87 +361,6 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
             </content:encoded>
         </item>
         <item>
-            <title>Into The Clear Water</title>
-            <link>https://joyneop.xyz/blog/?p=34</link>
-            <pubDate>November 17, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=34</guid>
-            <content:encoded>
-<![CDATA[
-<p>深秋的雪，熟悉的感覺。</p>
-<br />
-<p>漫步在雪花紛飛的微風中，看著身邊的人們打雪仗，心中湧起莫名的傷感與慰藉。雪，在中國東北並無稀奇，每年都能看到。但是，這簡單的愉悅卻久違了。</p>
-<p>不知從何時開始，在滿天飛舞的大雪中，我感受到的只有寒冷。曾經對自然的熱愛、與世界融為一體的磅礡，不知所蹤。</p>
-<p>現在，我又能感知這一切了。置身於他們的愉悅，我如同緩緩沈入無比澄澈的水中。</p>
-<br />
-<p>天地間，只剩雪白的寧靜。</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>Requiem</title>
-            <link>https://joyneop.xyz/blog/?p=35</link>
-            <pubDate>November 24, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=35</guid>
-            <content:encoded>
-<![CDATA[
-<p>穿透過烏雲 餘暉籠罩這片墓地</p>
-<p>滿地的青苔 開始喚醒我的回憶</p>
-<p>碑上那銘文 隱藏著多少秘密</p>
-<br />
-<p>往來書信右下角的日期</p>
-<p>緊緊貼著你的名字</p>
-<p>思念穿過墓園裡的霧氣</p>
-<p>尋找月下你的足跡</p>
-<br />
-<p>尚未豐滿的羽翼</p>
-<p>未曾張開就已凋零就已破碎</p>
-<p>死是生最後的銘記</p>
-<p>它來得這麼快這麼乾脆</p>
-<br />
-<p>看樹影拉長距離</p>
-<p>聽悲傷滲透呼吸</p>
-<p>等歲月風乾熟悉</p>
-<p>等世人將你徹底忘記</p>
-<br />
-<p>就讓我為你演奏這鎮魂曲</p>
-<p>因為我已經說不出話語</p>
-<p>命運已定我們不會再相聚</p>
-<p>就讓我為你演奏這鎮魂曲</p>
-<p>因為我已經說不出話語</p>
-<p>歲月已逝我們不會再相聚</p>
-<p>就讓我為你演奏這鎮魂曲</p>
-<p>繼續循環這悲傷的旋律</p>
-<p>失去你是全世界的悲劇</p>
-<br />
-<p>往來書信右下角的日期</p>
-<p>緊緊貼著你的名字</p>
-<p>思念穿過墓園裡的霧氣</p>
-<p>尋找月下你的足跡</p>
-<br />
-<p>看樹影拉長距離</p>
-<p>聽悲傷滲透呼吸</p>
-<p>等歲月風乾熟悉</p>
-<p>等世人將你徹底忘記</p>
-<br />
-<p>就讓我為你演奏這鎮魂曲</p>
-<p>因為我已經說不出話語</p>
-<p>命運已定我們不會再相聚</p>
-<p>就讓我為你演奏這鎮魂曲</p>
-<p>因為我已經說不出話語</p>
-<p>歲月已逝我們不會再相聚</p>
-<br />
-<p>就讓我為你演奏這鎮魂曲</p>
-<p>因為我已經說不出話語</p>
-<p>歲月已逝我們不會再相聚</p>
-<p>就讓我為你演奏這鎮魂曲</p>
-<p>繼續循環這悲傷的旋律</p>
-<p>失去你是全世界的悲劇</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
             <title>Cold Winter</title>
             <link>https://joyneop.xyz/blog/?p=36</link>
             <pubDate>December 7, 2012 09:41:00 +0000</pubDate>
@@ -605,63 +368,15 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=36</guid>
             <content:encoded>
 <![CDATA[
-<p>急劇下降的氣溫，宣告著冬的降臨。在感恩節前後的雪給過預示後，終於來了。</p>
-<p>我很容易被季節影響情緒和心態。雖然不利於學業，不過能保持我對自然的敏感、與自然無法切斷的共鳴。</p>
-<p>就是這個初冬，我也隨之冷卻了。冷漠，而又堅強。</p>
-<br />
-<p>冬像是一座墳墓，將一切埋葬，只剩單純的信念與痛苦。寒風，就是鎮魂曲了吧。如此凜冽，如此刺骨，深入每一條神經，凝結，沈澱。</p>
-<p>埋葬了所有的感動與傷懷，腦海裡迴盪的吶喊再一次變得清晰。那是我的夢想，我的信念。</p>
-<p>現在的我，如同在漫天風雪的困境中。寒風、暴雪，阻擋著我前進。我獨自在黑暗中沈重地邁出一步又一步。天空，仍是灰黑。舉步維艱，奄奄一息。仰天長嘯，回應的只有寒風與暴雪。</p>
-<p>據說，有些樹看上去枯萎了，但只要挺過冬天，還能復蘇。或許，我也如此吧。</p>
-<p>心底尚有餘溫，堅定地向夢想邁出下一步。即使再緩慢，也不放棄。透過滿天的陰霾，我望向遙遠的東方，太平洋彼岸，那自由之地。即使夢想的盡頭存在的只有虛假，即使我終將否認自己曾經的追求，現在的我也只能繼續前進，將夢想貫徹到最後。</p>
-<p>直到實現，或湮滅。</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>Just Obey Yourself</title>
-            <link>https://joyneop.xyz/blog/?p=37</link>
-            <pubDate>December 7, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=37</guid>
-            <content:encoded>
-<![CDATA[
-<p>If you feel tired</p>
-<p>If you shed tears</p>
-<p>Stop sorrowing</p>
-<p>Stop to stand up</p>
-<p>Bring your eyes up to the sky</p>
-<p>And find what is real</p>
-<br />
-<p>Entire human on the world</p>
-<p>Not everyone knows you</p>
-<p>They disagree</p>
-<p>They against</p>
-<p>They criticize</p>
-<p>They attack</p>
-<br />
-<p>Ignore them</p>
-<p>Out of mind, out of influence</p>
-<p>Because your life is yours</p>
-<p>Do what you want to do</p>
-<p>Be what you want to be</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>Tragedy Between You And Me</title>
-            <link>https://joyneop.xyz/blog/?p=39</link>
-            <pubDate>December 14, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=39</guid>
-            <content:encoded>
-<![CDATA[
-<p>你問我，我有什麼新作品，我給了你我的博客的「詩歌」標籤的網址，卻沒有告訴你，數量如此稀少，質量也大不如前。</p>
-<p>堆砌詞句，終究不及曾經「雨落淺池」凝聚的愛與痛。</p>
-<p>對於我深沈而又遙遠的關切，你警惕地保持距離。你看到了關切背後的貪慾，或感受得到我深藏的執念?我得不到答案。從保持警戒，到渴望遠離，再到痛恨、鄙視，這個過程中，你的思想感情如何變化?我在你心目中的形象又發生了怎樣的變遷?我也得不到答案。</p>
-<p>我們有太多的共同之處，最相似的便是在思維上的作風了。我們都習慣於將所有的思想藏在內心深處，表面上只留風平浪靜。通過寫出的文字可以略微瞭解，但文字背後真正的情感，卻無法捕捉。</p>
-<p>同樣地，你也不可能理解我的情感。</p>
-<p>因為靈魂的相似，我曾經對你產生了強烈的渴望。同樣因為靈魂的相似，我們無法完全地互相理解。即使在一起，彼此相望、對視，最終也只有嘆息。</p>
+<p>The temperature declines fast; declaring the descending of winter. After the boding snow around Thanks Giving Day, it definitely comes.</p>
+<p>My emotions can be easily affected by the climate. Far from breaking the academic work, but it keeps me sensitive about the nature, which lets me resonates the nature.</p>
+<p>This is the early winter, which chilled my heart. Indifferenced, yet strengthful.</p>
+<p>Winter is a grave, burying all the things, except some simple beliefs and pain. And the chilling wind is the requiem. It is so chilling. It is so cold. It goes into very nerve, and curdle.</p>
+<p>Having buried sentiments, the call in my mind has become clear again. It is my dream.</p>
+<p>I, of now, am walking through the snowing storm. The wind and the snow are pulling me backward. One step, another step; I advance in the storm under the dark dome.</p>
+<p>It is said that the trees seemingly dead would still revive if it can suffer the winter. Probably I am the same.</p>
+<p>With warmness in heart, I may advance one step more. I shall not give up no matter how slow am I. Look forward and see the image of the land of freedom. Even if at the end of dream only fakeness exists; even if I at the end will deny what I pursue now; I can only advance and advance and advance till it is realized, or is destructed.</p>
+
 ]]>
             </content:encoded>
         </item>
@@ -685,6 +400,7 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
 <p>人們過多地打擾我的生活、佔用我的時間、侵犯我的思想、抑制我的靈感，使我再也無法像從前那樣有足夠的時間享受我樸素而又綺麗的幻想。時間太久，構造幻想的能力也會退化。</p>
 <br />
 <p>遠離人群，回到本初，回歸真實的我。</p>
+
 ]]>
             </content:encoded>
         </item>
@@ -1674,6 +1390,22 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 <p>It feels so bad being born out of US, and being isolated from US only because it and its consequences. Neither does US market welcome Chinese entrepreneurs nor does it welcome customers without a valid US-based payment method. Well, Moleskine accepts VISA credit cards from China, but their shipping doesn't include China. I have to use a US-based proxy for shipping.</p>
 
 <p>And finally it is absolutely uncertain when will my opportunity emerge for relocating to United States. Living with anxiety and terror, struggling for housing and food; I had never experienced such.</p>
+]]>
+            </content:encoded>
+        </item>
+        <item>
+            <title>From Joy Neop To Neruthes</title>
+            <link>https://joyneop.xyz/blog/?p=121</link>
+            <pubDate>Mar 10, 2016 09:41:00 +0000</pubDate>
+            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
+            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=121</guid>
+            <content:encoded>
+<![CDATA[
+<p>For half decade I have been using the name "Joy Neop", but I will hopefully get rid of it half decade later.</p>
+<p><em>Selection of symbol is arbitrary.</em> When I was around 14, I happened to create an alias name for myself, to be different from my legal name which I couldn't say anything. And it was this one, an <em>[almost] English</em> name.</p>
+<p>As years past, the name happened to be a bit embarrassing. Not only because this first name is supposed to be exclusive for female users, but I am not really fond of the first-last convention. As I have noticed, the last name component is simply a mark of Y chromosome, and the origins of common last names are usually locations (e.g. Yamada), jobs (Smith), and objects (Einstein).</p>
+<p>I then started to be confused of the necessity of last names. And my conclusion is that the last name component has 0 necessity. I want good Greek days back; I want to follow great ancient spirits like Socrates, Plato, and Aristotle.</p>
+<p>Eventually, my draft of desired name has become "Neruthes". And it is as same as the preceding one, in terms of absence of etymological root.</p>
 ]]>
             </content:encoded>
         </item>
