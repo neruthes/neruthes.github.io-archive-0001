@@ -14,7 +14,6 @@
 		font-family: Seravek, 'Myriad Pro', 'Myriad Apple', Myriad, 'Myriad Set Pro', 'Myriad Set', 'Open Sans', 'Helvetica Neue', Helvetica, Ubuntu, Arial, 'Arial Black', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', 'STHeiti', sans-serif;
 		color: #FFF;
 		background: #000;
-		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
 		margin: 0 0 0 0;
 		overflow: hidden;
 
@@ -46,9 +45,8 @@
 		width: 300px;
 		height: 300px;
 		margin: 0;
-		background: rgba(0, 0, 0, 0.4);
+		background: rgba(0, 0, 0, 0.15);
 		border-radius: 6000px;
-		box-shadow: rgba(0, 0, 0, 0.15) 0 2px 7px;
 		opacity: 0;
 		z-index: 45;
 	}
@@ -70,6 +68,7 @@
 	#hp div {
 		height: 95px;
 		background: #38F;
+		background: rgba(0, 0, 0, 0.15);
 		position: relative;
 		z-index: 130;
 	}
@@ -83,6 +82,7 @@
 	#mp div {
 		height: 135px;
 		background: #FF3;
+		background: rgba(0, 0, 0, 0.15);
 		position: relative;
 		z-index: 140;
 	}
@@ -96,6 +96,7 @@
 	#sp div {
 		height: 170px;
 		background: #8FB;
+		background: rgba(0, 0, 0, 0.15);
 		position: relative;
 		z-index: 150;
 	}
@@ -106,14 +107,14 @@
 		width: 10px;
 		height: 10px;
 		margin: -5px 0 0 -5px;
-		background: #EEE linear-gradient(#EEE, #AAA);
+		background: #FFF;
 		border-radius: 800px;
-		box-shadow: rgba(0, 0, 0, 0.95) 0 0 3px;
 		z-index: 101;
 	}
 	#clock > div > div {
+		/* Clock pointer */
 		border-radius: 800px;
-		box-shadow: rgba(0, 0, 0, 0.35) 0 0 3px;
+		box-shadow: rgba(0, 0, 0, 0.05) 0 0 3px;
 	}
 	#title {
 		padding: 50px 0 0;
@@ -129,7 +130,6 @@
 	#time {
 		font-size: 20px;
 		text-align: center;
-		text-shadow: rgba(0, 0, 0, 0.35) 0 1px 2px;
 		position: relative;
 		padding: 120px 0 0;
 		z-index: 101;
@@ -165,7 +165,7 @@
 		window.hpDeg = h*30+m*0.5+(s%60)*(1/120);
 		window.mpDeg = m*6+(s%60)*0.1;
 		window.spDeg = s*6+3;
-		
+
 		var bodyH = m*6;
 		var bodyS = 20+0.8*(50-(Math.abs(((h%12)*100/12)-50)));
 		var bodyL = 30+0.7*(50-(Math.abs(((s%60)*100/59)-50)));
