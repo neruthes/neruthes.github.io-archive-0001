@@ -22,7 +22,7 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">\n\
         <language>en-US</language>\n\
         <sy:updatePeriod>hourly</sy:updatePeriod>\n\
         <sy:updateFrequency>1</sy:updateFrequency>\n\
-	    <generator>http://joyneop.github.io/blog/</generator>\n\
+	    <generator>https://joyneop.xyz/blog/</generator>\n\
 __ITEMS__\n\
     </channel>\n\
 </rss>';
