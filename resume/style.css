@@ -16,14 +16,19 @@ body {
 }
 
 strong {
-	font-weight: 400;
+	font-weight: 500;
 }
 
 .avatar {
 	float: right;
 	width: 3.38cm;
 	height: 3.38cm;
-	margin: -1pt 0 0 0;
+	margin: 0 0 0 0;
+	-webkit-transform: translateY(-0.5pt);
+	-moz-transform: translateY(-0.5pt);
+	-o-transform: translateY(-0.5pt);
+	transform: translateY(-0.5pt);
+	box-sizing: border-box;
 }
 
 h1 {
@@ -172,16 +177,16 @@ p a {
 .lazy-display-animation {
 	visibility: hidden;
 	opacity: 0;
-	-webkit-transition: all 210ms ease 100ms;
-	-moz-transition: all 210ms ease 100ms;
-	-ms-transition: all 210ms ease 100ms;
-	-o-transition: all 210ms ease 100ms;
-	transition: all 210ms ease 100ms;
-	-webkit-transform: translateX(21px);
-	-moz-transform: translateX(21px);
-	-ms-transform: translateX(21px);
-	-o-transform: translateX(21px);
-	transform: translateX(21px);
+	-webkit-transition: all 500ms ease 100ms;
+	-moz-transition: all 500ms ease 100ms;
+	-ms-transition: all 500ms ease 100ms;
+	-o-transition: all 500ms ease 100ms;
+	transition: all 500ms ease 100ms;
+	-webkit-transform: translateY(30px);
+	-moz-transform: translateY(30px);
+	-ms-transform: translateY(30px);
+	-o-transform: translateY(30px);
+	transform: translateY(30px);
 }
 
 .lazy-display-animation.played {
@@ -266,8 +271,8 @@ h3 .duration {
 }
 
 p {
-	font-family: 'Ashbury', serif;
 	font-weight: 300;
+	letter-spacing: 0.01rem;
 	color: #030303;
 }
 
@@ -295,7 +300,7 @@ p a {
 		background: #2282CC;
 	}
 	.avatar {
-		border: 0.8px solid #B4B4B4;
+		border: 2.4px solid #585858;
 	}
 }
 
@@ -307,7 +312,7 @@ p a {
 		color: #030303;
 	}
 	.avatar {
-		border: 0.5pt solid #B4B4B4;
+		border: 0.5pt solid #585858;
 	}
 	.section-heading, .subsection-tagline {
 		color: #55AAFF;
@@ -319,8 +324,7 @@ p a {
 		color: #999;
 	}
 	p {
-		/*font-family: Garibaldi, 'Danton-Light', Danton, 'Iowan Old Style', 'Diaria Pro', 'FF Meta Serif', 'Freight Text Pro', Merriweather, Charter, Georgia, 'Times New Roman', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', serif;*/
-		font-family: 'Ashbury', 'Andron Freefont LAT', 'Danton-Light', Danton, 'Iowan Old Style', 'Diaria Pro', 'FF Meta Serif', 'Freight Text Pro', Merriweather, Charter, Georgia, 'Times New Roman', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', serif;
+		/*font-family: 'Charter', 'Andron Freefont LAT', 'Danton-Light', Danton, 'Iowan Old Style', 'Diaria Pro', 'FF Meta Serif', 'Freight Text Pro', Merriweather, Charter, Georgia, 'Times New Roman', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', serif;*/
 		color: #030303;
 	}
 }
