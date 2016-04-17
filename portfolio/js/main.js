@@ -135,6 +135,16 @@ app.main = function () {
 			};
 		};
 		PortfolioContext.innerHTML = stringInPortfolioContext;
+		window.setTimeout(function () {
+			var itemEntries = document.getElementsByClassName('entry');
+			for (var i = 0; i < itemEntries.length; i++) {
+				(function (itemEntry, delay) {
+					window.setTimeout(function () {
+						itemEntry.classList.add('initialization-done');
+					}, delay);
+				})(itemEntries[i], i*60);
+			};
+		}, 900);
 	} else {
 		// This is a particular post
 		document.body.setAttribute('page-mode', 'single');

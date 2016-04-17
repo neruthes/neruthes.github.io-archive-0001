@@ -1,6 +1,5 @@
 @import url(/fonts/seravek.css);
-@import url(/fonts/ashbury.css);
-@import url(/fonts/inconsolata.css);
+@import url(/fonts/erato.css);
 
 html, body, pre, code {
 	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -48,9 +47,9 @@ header.global h2 {
 	background: #FFF url(/joyneop.png) center no-repeat scroll;
 	background-size: contain;
 	border-radius: 2000px;
-	-webkit-transition: all 270ms ease;
-	-moz-transition: all 270ms ease;
-	transition: all 270ms ease;
+	-webkit-transition: all 360ms ease;
+	-moz-transition: all 360ms ease;
+	transition: all 360ms ease;
 }
 
 .avatar:hover {
@@ -94,7 +93,8 @@ a {
 .post h2 {
 	font-size: 2.6rem;
 	font-weight: 400;
-	margin: 0 0 0;
+	letter-spacing: 1px;
+	margin: 0;
 }
 
 .post h2, .post h2 a {
@@ -215,6 +215,7 @@ nav.prevandnext {
 nav.prevandnext span, nav.prevandnext span a {
 	font-size: 1.414rem;
 	font-weight: 200;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 	display: block;
 	padding: 1em 0;
@@ -225,4 +226,18 @@ footer.global {
 	font-weight: 200;
 	color: #585858;
 	text-align: center;
+}
+
+/* Transitable */
+
+.entry {
+	position: relative;
+	top: 25px;
+	opacity: 0;
+	transition: opacity 320ms ease 60ms, top 380ms ease, zoom 380ms ease;
+}
+
+.entry.initialization-done {
+	top: 0;
+	opacity: 1;
 }

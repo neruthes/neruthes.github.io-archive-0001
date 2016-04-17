@@ -1,6 +1,5 @@
 @import url(/fonts/seravek.css);
-@import url(/fonts/ashbury.css);
-@import url(/fonts/inconsolata.css);
+@import url(/fonts/erato.css);
 
 html, body, pre, code {
 	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -190,6 +189,7 @@ p code {
 nav.prevandnext span, nav.prevandnext span a {
 	font-size: 1.414rem;
 	font-weight: 200;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 	display: block;
 	padding: 1em 0.4em;

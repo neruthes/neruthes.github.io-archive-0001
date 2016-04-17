@@ -6,7 +6,7 @@ body {
     color: #FFF;
 }
 .post-text {
-    font-family: 'Ashbury', 'Ashbury-fallback', serif;
+    font-family: 'Erato', 'Erato-fallback', serif;
     color: #FFF;
 }
 </style>

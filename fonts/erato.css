@@ -1,0 +1,56 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3205179, 2016-04-17T07:08:10-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Erato-Light by Hoftype
+ * URL: http://www.myfonts.com/fonts/hoftype/erato/light/
+ * Copyright: Copyright (c) 2011 by Dieter Hofrichter. All rights reserved.
+ * Licensed pageviews: Unlimited
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3205179
+ *
+ * © 2016 MyFonts Inc
+*/
+
+@import url("//hello.myfonts.net/count/30e83e");
+
+@import url(/fonts/advanced.css);
+
+@font-face {
+	font-family: 'Erato';
+	font-weight: 300;
+	font-style: normal;
+	src: url('/fonts/Erato-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Erato';
+	font-weight: 600;
+	font-style: normal;
+	src: url('/fonts/Erato-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Erato-fallback';
+	font-weight: 300;
+	src: local('Iowan Old Style'), local('Times New Roman'), local('Times'), local('Georgia'), local('Hiragino Mincho Pro'), local('Hiragino Mincho ProN'), local('Songti SC');
+}
+
+@font-face {
+	font-family: 'Erato-fallback';
+	font-weight: 400;
+	src: local('Iowan Old Style'), local('Times New Roman'), local('Times'), local('Georgia'), local('Hiragino Mincho Pro'), local('Hiragino Mincho ProN'), local('Songti SC');
+}
+
+@font-face {
+	font-family: 'Erato-fallback';
+	font-weight: 600;
+	src: local('Iowan Old Style'), local('Times New Roman'), local('Times'), local('Georgia'), local('Hiragino Mincho Pro'), local('Hiragino Mincho ProN'), local('Songti SC');
+}
