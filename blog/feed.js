@@ -54,7 +54,7 @@ listJson.length = (function (list) {
 })(listJson);
 
 var maxId = listJson.length-1;
-for (var i = 0; i <= maxId; i++) {
+for (var i = maxId; i >= 0; i--) {
 	if (listJson[i].D !== 0) {
         accumulate += postTemplate.replace(/__AUTHOR__/g, 'Joy Neop')
     	.replace(/__URL__/g, 'https://joyneop.xyz/blog/?p=' + i)
