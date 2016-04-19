@@ -27,14 +27,14 @@
 	font-family: 'Erato';
 	font-weight: 300;
 	font-style: normal;
-	src: url('/fonts/Erato-Light.woff') format('woff');
+	src: url('/fonts/erato/Erato-Light.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Erato';
 	font-weight: 600;
 	font-style: normal;
-	src: url('/fonts/Erato-Bold.woff') format('woff');
+	src: url('/fonts/erato/Erato-Bold.woff') format('woff');
 }
 
 @font-face {
