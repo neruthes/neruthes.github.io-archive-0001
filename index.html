@@ -137,7 +137,16 @@
 		var x = new XMLHttpRequest();
 		x.open('GET', '/portfolio/list.json', true);
 		x.onload = function (ev) {
+			var _cache = function (_url) {
+				var xhr = new XMLHttpRequest();
+				xhr.open('GET', url, true);
+				xhr.onload = function (_ev) { return _ev.target.responseText; };
+				xhr.send();
+			};
 			var list = JSON.parse(ev.target.responseText);
+			Object.keys(list).map(function (key) {
+				_cache('/portfolio/covers/' + key + '.jpg');
+			});
 		};
 		x.send();
 	})();
