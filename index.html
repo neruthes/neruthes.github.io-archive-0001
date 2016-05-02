@@ -139,7 +139,7 @@
 		x.onload = function (ev) {
 			var _cache = function (_url) {
 				var xhr = new XMLHttpRequest();
-				xhr.open('GET', url, true);
+				xhr.open('GET', _url, true);
 				xhr.onload = function (_ev) { return _ev.target.responseText; };
 				xhr.send();
 			};
