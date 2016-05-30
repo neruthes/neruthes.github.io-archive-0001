@@ -70,21 +70,21 @@ blog.articlesListResponseEventHandler = function (e) {
 				// The initial article
 				document.getElementById('prev').remove();
 				document.getElementById('nextlink').href = './?p=' + (blog.getNextPID()).toString();
-				document.getElementById('nextlink').innerHTML = '« Next';
+				document.getElementById('nextlink').innerHTML = '‹ Next';
 				blog.claimPrefetch(blog.getNextPID());
 			} else if ( blog.getPID() == blog.articlesList.length-1 ) {
 				// The latest article
 				document.getElementById('next').remove();
 				document.getElementById('prevlink').href = './?p=' + (blog.getPrevPID()).toString();
-				document.getElementById('prevlink').innerHTML = 'Prev »';
+				document.getElementById('prevlink').innerHTML = 'Prev ›';
 				blog.claimPrefetch(blog.getPrevPID());
 			} else if ( 0 <= blog.getPID() && blog.getPID() < blog.articlesList.length ) {
 				// The article exists
 				document.getElementById('prevlink').href = './?p=' + (blog.getPrevPID()).toString();
-				document.getElementById('prevlink').innerHTML = 'Prev »';
+				document.getElementById('prevlink').innerHTML = 'Prev ›';
 				blog.claimPrefetch(blog.getPrevPID());
 				document.getElementById('nextlink').href = './?p=' + (blog.getNextPID()).toString();
-				document.getElementById('nextlink').innerHTML = '« Next';
+				document.getElementById('nextlink').innerHTML = '‹ Next';
 				blog.claimPrefetch(blog.getNextPID());
 			};
 		} else {
