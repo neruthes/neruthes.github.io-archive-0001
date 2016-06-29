@@ -41,13 +41,16 @@ header #title {
 	margin: 0 auto;
 	background: #888 url(/JN-Lab/other-images/avatar-mid-fall-moon-kyouratsu-2014.jpg) center no-repeat scroll;
 	background-size: contain;
-	border-radius: 2000px;
+	border-radius: 50%;
 	box-shadow: rgba(0, 0, 0, 0.162222) 0 0 50px inset, rgba(255, 253, 246, 0.484222) 0 0 80px;
+	position: relative;
+	overflow: hidden;
 	-webkit-transition: all 270ms ease;
 	-moz-transition: all 270ms ease;
 	transition: all 270ms ease;
 }
 .avatar:hover {
+	border-radius: 50%;
 	box-shadow: rgba(0, 0, 0, 0.162222) 0 0 50px inset, rgba(255, 253, 249, 0.644222) 0 0 80px;
 }
 #main {
@@ -109,7 +112,7 @@ section h2:hover {
 	margin: 0 44px;
 	background: #FFF center no-repeat scroll;
 	background-size: contain;
-	border-radius: 2000px;
+	border-radius: 50%;
 	box-shadow: rgba(0, 0, 0, 0.41322) 0 0 5px inset;
 	-webkit-transition: all 270ms ease;
 	-moz-transition: all 270ms ease;
@@ -128,7 +131,8 @@ section h2:hover {
 	text-decoration: none;
 	width: 180px;
 	height: 180px;
-	padding: 74px 0 0;border-radius: 2000px;
+	padding: 74px 0 0;
+	border-radius: 50%;
 	opacity: 0;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;

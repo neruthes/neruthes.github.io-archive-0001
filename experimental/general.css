@@ -40,13 +40,22 @@ header #title {
 	margin: 0 auto;
 	background: #FFF url(/joyneop.png) center no-repeat scroll;
 	background-size: contain;
-	border-radius: 2000px;
+	border-radius: 50%;
 	box-shadow: rgba(0, 0, 0, 0.21322) 0 0 5px inset;
+	position: relative;
+	overflow: hidden;
 	-webkit-transition: all 270ms ease;
 	-moz-transition: all 270ms ease;
 	transition: all 270ms ease;
 }
-.avatar:hover {
+.avatar [data-avatar-index] {
+	box-shadow: rgba(0, 0, 0, 0.21322) 0 0 5px inset;
+	-webkit-transition: box-shadow 270ms ease;
+	-moz-transition: box-shadow 270ms ease;
+	transition: box-shadow 270ms ease;
+}
+.avatar:hover, .avatar:hover [data-avatar-index] {
+	border-radius: 50%;
 	box-shadow: rgba(0, 0, 0, 0.432222) 0 0 5px inset;
 }
 #main {
@@ -107,7 +116,7 @@ section h2:hover {
 	margin: 0 44px;
 	background: #FFF center no-repeat scroll;
 	background-size: contain;
-	border-radius: 2000px;
+	border-radius: 50%;
 	box-shadow: rgba(0, 0, 0, 0.41322) 0 0 5px inset;
 	-webkit-transition: all 270ms ease;
 	-moz-transition: all 270ms ease;
@@ -126,7 +135,7 @@ section h2:hover {
 	text-decoration: none;
 	width: 180px;
 	height: 180px;
-	padding: 74px 0 0;border-radius: 2000px;
+	padding: 74px 0 0;border-radius: 50%;
 	opacity: 0;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
