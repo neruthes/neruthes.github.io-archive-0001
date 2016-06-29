@@ -201,20 +201,20 @@
 		myNode.style.backgroundImage = 'url(/kyouratsu/MY.jpg)'.replace(/MY/, i+1);
 		document.getElementById('avatar').appendChild(myNode);
 	};
-	window.setTimeout(function () {
-		if (window.theStyleForNow == "dark-moon.css") {
-			return 0;
-		};
-		window.setInterval(function () {
-			if (0 || document.getElementById('avatar').parentElement.querySelector(':hover')) {
-				document.querySelectorAll('div[data-avatar-index="' + currentAvatarIndex.val + '"]')[0].style.opacity = '0';
-				document.querySelectorAll('div[data-avatar-index="' + currentAvatarIndex.getNext() + '"]')[0].style.opacity = '1';
-				document.getElementById('avatar').style.backgroundImage = 'url(/kyouratsu/MY.jpg)'.replace(/MY/, currentAvatarIndex.getNext());
-				currentAvatarIndex.moveNext();
-			};
-			console.log(1);
-		}, 300);
-	}, 2500);
+	// window.setTimeout(function () {
+	// 	if (window.theStyleForNow == "dark-moon.css") {
+	// 		return 0;
+	// 	};
+	// 	window.setInterval(function () {
+	// 		if (0 || document.getElementById('avatar').parentElement.querySelector(':hover')) {
+	// 			document.querySelectorAll('div[data-avatar-index="' + currentAvatarIndex.val + '"]')[0].style.opacity = '0';
+	// 			document.querySelectorAll('div[data-avatar-index="' + currentAvatarIndex.getNext() + '"]')[0].style.opacity = '1';
+	// 			document.getElementById('avatar').style.backgroundImage = 'url(/kyouratsu/MY.jpg)'.replace(/MY/, currentAvatarIndex.getNext());
+	// 			currentAvatarIndex.moveNext();
+	// 		};
+	// 		console.log(1);
+	// 	}, 300);
+	// }, 2500);
 	</script>
 </body>
 </html>
