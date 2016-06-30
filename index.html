@@ -45,6 +45,7 @@
 		} else {
 			window.theStyleForNow = "dark-moon.css";
 		};
+		window.theStyleForNow = "general.css";
 		var tag = document.createElement("link");
 		tag.setAttribute("rel", "stylesheet");
 		tag.setAttribute("type", "text/css");
@@ -195,26 +196,39 @@
 			};
 		}
 	};
-	for (var i = 0; i < 18; i++) {
-		var myNode = document.createElement('div');
-		myNode.setAttribute('data-avatar-index', i);
-		myNode.style.backgroundImage = 'url(/kyouratsu/MY.jpg)'.replace(/MY/, i+1);
-		document.getElementById('avatar').appendChild(myNode);
+	avatarsAllLoaded = function () {
+		if (window.theStyleForNow == "dark-moon.css") {
+			return 0;
+		};
+		for (var i = 0; i < 18; i++) {
+			var myNode = document.createElement('div');
+			myNode.setAttribute('data-avatar-index', i);
+			myNode.style.backgroundImage = 'url(/kyouratsu/MY.jpg)'.replace(/MY/, i+1);
+			document.getElementById('avatar').appendChild(myNode);
+		};
+		window.setInterval(function () {
+			if (0 || document.getElementById('avatar').parentElement.querySelector(':hover')) {
+				document.querySelectorAll('div[data-avatar-index="' + currentAvatarIndex.val + '"]')[0].style.opacity = '0';
+				document.querySelectorAll('div[data-avatar-index="' + currentAvatarIndex.getNext() + '"]')[0].style.opacity = '1';
+				document.getElementById('avatar').style.backgroundImage = 'url(/kyouratsu/MY.jpg)'.replace(/MY/, currentAvatarIndex.getNext()+1);
+				currentAvatarIndex.moveNext();
+			};
+		}, 300);
 	};
-	// window.setTimeout(function () {
-	// 	if (window.theStyleForNow == "dark-moon.css") {
-	// 		return 0;
-	// 	};
-	// 	window.setInterval(function () {
-	// 		if (0 || document.getElementById('avatar').parentElement.querySelector(':hover')) {
-	// 			document.querySelectorAll('div[data-avatar-index="' + currentAvatarIndex.val + '"]')[0].style.opacity = '0';
-	// 			document.querySelectorAll('div[data-avatar-index="' + currentAvatarIndex.getNext() + '"]')[0].style.opacity = '1';
-	// 			document.getElementById('avatar').style.backgroundImage = 'url(/kyouratsu/MY.jpg)'.replace(/MY/, currentAvatarIndex.getNext());
-	// 			currentAvatarIndex.moveNext();
-	// 		};
-	// 		console.log(1);
-	// 	}, 300);
-	// }, 2500);
+	var avatarsLoadedCount = 0;
+	var avatarCache = [];
+	(function () {
+		for (var i = 1; i < 19; i++) {
+			var xImg = new Image();
+			xImg.src = '/kyouratsu/MY.jpg'.replace(/MY/, i);
+			xImg.onload = function () {
+				avatarsLoadedCount += 1;
+				if (avatarsLoadedCount == 18) {
+					avatarsAllLoaded();
+				};
+			};
+		};
+	})();
 	</script>
 </body>
 </html>
