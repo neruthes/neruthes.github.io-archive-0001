@@ -39,7 +39,7 @@ header #title {
 	width: 180px;
 	height: 180px;
 	margin: 0 auto;
-	background: #888 url(/JN-Lab/other-images/avatar-mid-fall-moon-kyouratsu-2014.jpg) center no-repeat scroll;
+	background: #888 url(/JN-Lab/other-images/avatar-mid-fall-moon-kotomatsu-2014.jpg) center no-repeat scroll;
 	background-size: contain;
 	border-radius: 50%;
 	box-shadow: rgba(0, 0, 0, 0.162222) 0 0 50px inset, rgba(255, 253, 246, 0.484222) 0 0 80px;
@@ -175,7 +175,7 @@ section.links ul li, section.links ul li a {
 	height: 260px;
 }
 section.links ul li {
-	background-color: #19F;
+	background-color: #E0E0E0;
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
