@@ -7,25 +7,25 @@ body {
 }
 </style>
 
-<h2>Kyouratsu</h2>
+<h2>Kotomatsu</h2>
 <p>A mysterious alien feline creature.</p>
 <p>Came to Earth for fun.</p>
 
-<figure><img class="sm" src="/kyouratsu/1.jpg"><figcaption>#1</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/2.jpg"><figcaption>#2</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/3.jpg"><figcaption>#3</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/4.jpg"><figcaption>#4</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/5.jpg"><figcaption>#5</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/6.jpg"><figcaption>#6</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/7.jpg"><figcaption>#7</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/8.jpg"><figcaption>#8</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/9.jpg"><figcaption>#9</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/10.jpg"><figcaption>#10</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/11.jpg"><figcaption>#11</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/12.jpg"><figcaption>#12</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/13.jpg"><figcaption>#13</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/14.jpg"><figcaption>#14</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/15.jpg"><figcaption>#15</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/16.jpg"><figcaption>#16</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/17.jpg"><figcaption>#17</figcaption></figure>
-<figure><img class="sm" src="/kyouratsu/18.jpg"><figcaption>#18</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/1.jpg"><figcaption>#1</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/2.jpg"><figcaption>#2</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/3.jpg"><figcaption>#3</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/4.jpg"><figcaption>#4</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/5.jpg"><figcaption>#5</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/6.jpg"><figcaption>#6</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/7.jpg"><figcaption>#7</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/8.jpg"><figcaption>#8</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/9.jpg"><figcaption>#9</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/10.jpg"><figcaption>#10</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/11.jpg"><figcaption>#11</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/12.jpg"><figcaption>#12</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/13.jpg"><figcaption>#13</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/14.jpg"><figcaption>#14</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/15.jpg"><figcaption>#15</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/16.jpg"><figcaption>#16</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/17.jpg"><figcaption>#17</figcaption></figure>
+<figure><img class="sm" src="/kotomatsu/18.jpg"><figcaption>#18</figcaption></figure>

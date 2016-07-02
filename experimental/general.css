@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: Seravek, Myriad Pro, Myriad, Myriad Set, 'Open Sans', 'Helvetica Neue', Helvetica Neue, Helvetica, Lucida Grande, Arial, 'Arial-Black', 'Arial Black', Arial Black, sans-serif;
+	font-family: Seravek, 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, 'Segoe UI', 'Lucida Grande', Arial, 'Arial-Black', 'Arial Black', sans-serif;
 	font-size: 20px;
 	font-weight: 200;
 	color: #585858;
@@ -109,11 +109,15 @@ section h2 {
 	color: #2B8CD2;
 	text-align: center;
 	text-transform: uppercase;
+	letter-spacing: 1px;
 	padding: 8px 0 0;
 	margin: 0 0 12px 0;
 }
 section h2:hover {
 }
+
+/* -------------------------------------- */
+
 #nav {
 	text-align: center;
 }
@@ -143,7 +147,8 @@ section h2:hover {
 	text-decoration: none;
 	width: 180px;
 	height: 180px;
-	padding: 74px 0 0;border-radius: 50%;
+	padding: 74px 0 0;
+	border-radius: 50%;
 	opacity: 0;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -166,21 +171,62 @@ section ul {
 }
 section ul li {
 	font-size: 20px;
-	padding: 0 0 5px;
-	margin: 0 10px;
+	padding: 0 0;
+	margin: 0 0 10px;
 }
 section.contact ul li {
 	display: inline-block;
+	padding: 0 0 5px;
+	margin: 0 10px;
+}
+section.contact ul li a:hover {
+	border-bottom: 1px solid #585858;
+}
+section.links ul li, section.links ul li a {
+	display: block;
+	width: 100%;
+	height: 260px;
 }
 section.links ul li {
-	display: block;
+	background-color: #19F;
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	border-radius: 3px;
 }
-section ul a {
+section.links ul li a {
+	border-radius: inherit;
+	padding: 95px 0 0;
+	opacity: 0;
+	-webkit-transition: all 270ms ease;
+	-moz-transition: all 270ms ease;
+	transition: all 270ms ease;
+}
+section.links ul li a:hover {
+	background: rgba(32, 32, 29, 0.94);
+	opacity: 1;
+}
+section.links ul li a h3 {
+	font-size: 30px;
+	font-weight: 400;
+	padding: 0 0 5px;
+	margin: 0;
+}
+section.links ul li a p {
+	font-size: 20px;
+	font-weight: 200;
+	padding: 0;
+	margin: 0;
+}
+section.links ul li a h3, section.links ul li a p {
+	color: #FFF;
+}
+section.links ul li a:hover h3, section.links ul li a:hover p {
+}
+section ul li a {
 	color: inherit;
 	text-decoration: none;
-}
-section ul a:hover {
-	border-bottom: 1px solid #585858;
 }
 footer {
 	font-size: 14px;
