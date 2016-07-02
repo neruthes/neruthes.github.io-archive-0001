@@ -2,3 +2,27 @@ header.global h2 span {
 	display: inline-block;
 	padding: 0 1px;
 }
+
+#avatar {
+	transition: none;
+	position: relative;
+}
+.avatar [data-avatar-index] {
+	background-size: 180px;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.21322) 0 0 5px inset;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 180px;
+	height: 180px;
+	-webkit-transition: box-shadow 270ms ease;
+	-moz-transition: box-shadow 270ms ease;
+	transition: box-shadow 270ms ease;
+}
+
+.avatar:hover, .avatar:hover [data-avatar-index] {
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.432222) 0 0 5px inset;
+}

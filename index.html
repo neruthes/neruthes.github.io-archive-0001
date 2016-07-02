@@ -24,18 +24,6 @@
 	<link rel="prefetch" href="/kyouratsu/16.jpg">
 	<link rel="prefetch" href="/kyouratsu/17.jpg">
 	<link rel="prefetch" href="/kyouratsu/18.jpg">
-	<style>
-	.avatar [data-avatar-index] {
-		background-size: 180px;
-		border-radius: 50%;
-		opacity: 0;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 180px;
-		height: 180px;
-	}
-	</style>
 	<script type="text/javascript">
 	(function () {
 		var da = new Date();
@@ -52,6 +40,7 @@
 		document.getElementsByTagName("head")[0].appendChild(tag);
 	})();
 	</script>
+	<script src="/js/avatar-animation.js" async></script>
 </head>
 <body>
 	<header>
@@ -181,57 +170,6 @@
 			});
 		};
 		x.send();
-	})();
-	</script>
-	<script>
-	var currentAvatarIndex = {
-		val: 0,
-		getNext: function () {
-			if (this.val == 17) {
-				return 0;
-			} else {
-				return this.val + 1;
-			};
-		},
-		moveNext: function () {
-			this.val = this.val + 1;
-			if (this.val == 18) {
-				this.val = 0;
-			};
-		}
-	};
-	avatarsAllLoaded = function () {
-		if (window.theStyleForNow == "dark-moon.css") {
-			return 0;
-		};
-		for (var i = 0; i < 18; i++) {
-			var myNode = document.createElement('div');
-			myNode.setAttribute('data-avatar-index', i);
-			myNode.style.backgroundImage = 'url(/kyouratsu/MY.jpg)'.replace(/MY/, i+1);
-			document.getElementById('avatar').appendChild(myNode);
-		};
-		window.setInterval(function () {
-			if (0 || document.getElementById('avatar').parentElement.querySelector(':hover')) {
-				document.querySelectorAll('div[data-avatar-index="' + currentAvatarIndex.val + '"]')[0].style.opacity = '0';
-				document.querySelectorAll('div[data-avatar-index="' + currentAvatarIndex.getNext() + '"]')[0].style.opacity = '1';
-				document.getElementById('avatar').style.backgroundImage = 'url(/kyouratsu/MY.jpg)'.replace(/MY/, currentAvatarIndex.getNext()+1);
-				currentAvatarIndex.moveNext();
-			};
-		}, 300);
-	};
-	var avatarsLoadedCount = 0;
-	var avatarCache = [];
-	(function () {
-		for (var i = 1; i < 19; i++) {
-			var xImg = new Image();
-			xImg.src = '/kyouratsu/MY.jpg'.replace(/MY/, i);
-			xImg.onload = function () {
-				avatarsLoadedCount += 1;
-				if (avatarsLoadedCount == 18) {
-					avatarsAllLoaded();
-				};
-			};
-		};
 	})();
 	</script>
 </body>
