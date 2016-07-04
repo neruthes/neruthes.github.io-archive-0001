@@ -33,6 +33,7 @@
 		} else {
 			window.theStyleForNow = "dark-moon.css";
 		};
+		window.theStyleForNow = "dark-moon.css";
 		var tag = document.createElement("link");
 		tag.setAttribute("rel", "stylesheet");
 		tag.setAttribute("type", "text/css");
@@ -170,6 +171,16 @@
 			<a href="/">&copy; Copyright <script type="text/javascript">document.write((new Date()).getFullYear());</script> All Rights Reserved by Joy Neop</a>
 		</footer>
 	</div>
+	<script>
+	if (window.theStyleForNow == "dark-moon.css") {
+		window.addEventListener('scroll', function () {
+			var dh = document.height;
+			var wh = window.innerHeight;
+			var pyo = window.pageYOffset;
+			document.getElementsByTagName('body')[0].style.backgroundPositionY = '-' + window.innerHeight*Math.floor(pyo/(dh-wh)*18*1000/100)/1000 + 'px';
+		});
+	};
+	</script>
 	<script src="https://raw.githubusercontent.com/JoyNeop/gay-pride.js/master/pride.js"></script>
 	<script>
 	(function () {
