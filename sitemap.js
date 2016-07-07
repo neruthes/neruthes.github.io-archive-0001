@@ -12,7 +12,7 @@ var fs = require('fs');
 
 accu = accu + '\n' + fs.readFileSync(siteDir + '/root_sitemap.xml', 'utf8');
 accu = accu + '\n' + fs.readFileSync(siteDir + '/blog/blog_sitemap.xml', 'utf8');
-accu = accu + '\n' + fs.readFileSync(siteDir + '/lab/lab_sitemap.xml', 'utf8');
+accu = accu + '\n' + fs.readFileSync(siteDir + '/lab/portfolio_sitemap.xml', 'utf8');
 
 fs.writeFileSync(siteDir + '/sitemap.xml', accu.replace(/\n/g, '\n\t') + '\n</urlset>');
 
