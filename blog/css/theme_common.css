@@ -115,6 +115,14 @@ a {
 	font-weight: 400;
 }
 
+.post-text > ol, .post-text > ul {
+	padding: 0 30px 0 60px;
+}
+
+.post-text > ol > li, .post-text > ul > li {
+	margin: 0 0 15px;
+}
+
 p code {
 	background: #F4F4F4;
 	border-radius: 3px;

@@ -13,7 +13,7 @@ var accumulate = '';
 
 var fs = require('fs');
 
-listJson = JSON.parse(fs.readFileSync(blogPath + '/list.json', 'utf8'));
+listJson = JSON.parse(fs.readFileSync(blogPath + '/list.json', 'utf8').toString());
 listJson.length = (function (list) {
     var count = 0;
     var i;

@@ -13,10 +13,10 @@ var accumulate = '';
 
 var fs = require('fs');
 
-listJson = JSON.parse(fs.readFileSync(blogPath + '/list.json', 'utf8'));
+listJson = JSON.parse(fs.readFileSync(blogPath + '/list.json', 'utf8').toString());
 
 var maxId = 220;
-for (var i = 0; i <= maxId && i < listJson.list.length; i++) {
+for (var i = 0; i <= maxId && i < listJson.length; i++) {
 	accumulate = postTemplate.replace(/__LOC__/g, 'https://joyneop.xyz/portfolio/?p=' + i).replace(/__MOD__/g, listJson.list[i]['D']) + accumulate;
 };
 
