@@ -7,6 +7,6 @@
     font-feature-settings: "kern";
     font-kerning: normal;
     text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-smoothing: subpixel-antialiased;
 }

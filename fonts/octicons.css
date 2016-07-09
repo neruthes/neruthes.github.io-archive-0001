@@ -19,7 +19,7 @@
   display: inline-block;
   text-decoration: none;
   text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-user-select: none;
   -moz-user-select: none;
