@@ -6,4 +6,7 @@
     -moz-font-feature-settings: "kern";
     font-feature-settings: "kern";
     font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
