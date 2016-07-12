@@ -121,48 +121,30 @@
 			<section class="links">
 				<h2>Projects</h2>
 				<ul>
-					<li style="background-color: #3B8FB7; background-image: url(/pic/homepage-link-to-works/randomfont.png);">
+					<li style="background-color: #3B8FB7; " data-bg-image="/pic/homepage-link-to-works/randomfont.png">
 						<a href="https://randomfont.com/" target="_blank" style="background: #3B8FB7;">
 							<h3>RandomFont</h3>
 							<p>Random font, random inspiration.</p>
 						</a>
 					</li>
-					<li style="background-color: #9C77D9; background-image: url(/pic/homepage-link-to-works/gayradient.png);">
+					<li style="background-color: #9C77D9; " data-bg-image="/pic/homepage-link-to-works/gayradient.png">
 						<a href="https://www.gayradient.com/" target="_blank" style="background: linear-gradient(#D991F9, #625EB8)">
 							<h3>Gayradient</h3>
 							<p>Diverse Colors, Better Appearance.</p>
 						</a>
 					</li>
-					<li style="background-color: #333; background-image: url(/pic/homepage-link-to-works/whatua.info.png);">
+					<li style="background-color: #333; " data-bg-image="/pic/homepage-link-to-works/whatua.info.png">
 						<a href="https://whatua.info/" target="_blank" style="background: #333;">
 							<h3>WhatUA.info</h3>
 							<p>What is my User Agent?</p>
 						</a>
 					</li>
-					<!-- <li style="background-image: url(/pic/homepage-link-to-works/encodeuri.com.png);">
-						<a href="https://encodeuri.com/" target="_blank">
-							<h3>EncodeURI.com</h3>
-							<p>Kanji and Kana in URI are no longer a Nightmare.</p>
-						</a>
-					</li> -->
-					<li style="background-color: #FE8A2A; background-image: url(/pic/homepage-link-to-works/kotomatsu.png);">
+					<li style="background-color: #FE8A2A; " data-bg-image="/pic/homepage-link-to-works/kotomatsu.png">
 						<a href="/kotomatsu" target="_blank" style="background: #FE8A2A;">
 							<h3>Kotomatsu</h3>
 							<p>Felinity Saiko!</p>
 						</a>
 					</li>
-					<!-- <li style="background-color: #FF0000; background-image: url(/pic/homepage-link-to-works/gay-pride.js.svg);">
-						<a href="https://github.com/joyneop/gay-pride.js" target="_blank">
-							<h3>Gay-pride.js</h3>
-							<p>Liberté, Égalité, Fraternité.</p>
-						</a>
-					</li> -->
-					<!-- <li style="background-image: url(/pic/homepage-link-to-works/yart.png);">
-						<a href="https://github.com/joyneop/yart" target="_blank">
-							<h3>Yart</h3>
-							<p>Yet Another Resume Tool.</p>
-						</a>
-					</li> -->
 				</ul>
 			</section>
 		</div>
@@ -179,6 +161,23 @@
 			document.getElementsByTagName('body')[0].style.backgroundPositionY = '-' + window.innerHeight*Math.floor(pyo/(dh-wh)*18*1000/100)/1000 + 'px';
 		});
 	};
+	</script>
+	<script>
+	var specialBackgroundImageElementsCollection = document.querySelectorAll('[data-bg-image]');
+	(function () {
+		xhrCollection = [];
+		for (var i = 0; i < specialBackgroundImageElementsCollection.length; i++) {
+			var xhr = new XMLHttpRequest();
+			xhrCollection.push(xhr);
+			xhr.open('GET', specialBackgroundImageElementsCollection[i].getAttribute('data-bg-image'), true);
+			xhr.onload = function (ev) {
+				var ind = xhrCollection.indexOf(this);
+				specialBackgroundImageElementsCollection[ind].style.backgroundImage = 'url(_URL_)'.replace('_URL_', specialBackgroundImageElementsCollection[ind].getAttribute('data-bg-image'));
+				specialBackgroundImageElementsCollection[ind].setAttribute('data-bg-image-loaded', 'true');
+			};
+			xhr.send()
+		};
+	})();
 	</script>
 	<script src="https://raw.githubusercontent.com/JoyNeop/gay-pride.js/master/pride.js"></script>
 	<script>

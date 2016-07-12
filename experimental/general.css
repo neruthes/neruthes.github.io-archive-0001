@@ -202,10 +202,13 @@ section.links ul li {
 section.links ul li a {
 	border-radius: inherit;
 	padding: 95px 0 0;
-	opacity: 0;
+	/*opacity: 0;*/
 	-webkit-transition: all 270ms ease;
 	-moz-transition: all 270ms ease;
 	transition: all 270ms ease;
+}
+section.links ul li[data-bg-image-loaded="true"] a {
+	opacity: 0;
 }
 section.links ul li a:hover {
 	background: rgba(32, 32, 29, 0.94);
