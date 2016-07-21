@@ -116,9 +116,9 @@ a {
 	margin: 2rem 0 1.8rem;
 }
 
-.post-text > p {
+.post-text > p, .post-text > ul > li, .post-text > ol > li, .post-text > pre {
 	line-height: 1.65em;
-	margin: 1.8rem 0;
+	margin: 17px 0;
 }
 
 .post-text > p a {

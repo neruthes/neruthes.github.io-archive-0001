@@ -94,7 +94,7 @@ a {
 	margin: 20px 0 20px;
 }
 
-.post-text > p, .post-text > li, .post-text > pre {
+.post-text > p, .post-text > ul > li, .post-text > ol > li, .post-text > pre {
 	line-height: 1.65em;
 	margin: 17px 0;
 }
