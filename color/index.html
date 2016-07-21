@@ -32,13 +32,22 @@
 		color: #777;
 		display: block;
 		width: 100vw;
-		font-size: 20vh;
 		background: rgba(0, 0, 0, 0);
 		border: none;
 		background: #FFF;
 		-webkit-transform: translateY(-62%);
 		-moz-transform: translateY(-62%);
 		transform: translateY(-62%);
+	}
+	@media screen and (orientation: landscape) {
+		#color {
+			font-size: 20vh;
+		}
+	}
+	@media screen and (orientation: portrait) {
+		#color {
+			font-size: 15vw;
+		}
 	}
 	input {
 		outline: none;
