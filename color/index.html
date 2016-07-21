@@ -3,166 +3,124 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Color-Metric</title>
-	<link rel="shortcut icon" href="//www.joyneop.com/joyneop.png" />
-	<link rel="apple-touch-icon" href="//www.joyneop.com/joyneop.png" />
+	<link rel="shortcut icon" href="/joyneop.png" />
+	<link rel="apple-touch-icon" href="/joyneop.png" />
 	<style type="text/css">
 	@import url(/fonts/seravek.css);
 	* {
-		font-family: Seravek, 'Open Sans', Lucida Grande, sans-serif;
+		font-family: Seravek, 'Open Sans', 'SF UI Text', -apple-system, 'Helvatica Neue', Helvetica, Arial, sans-serif;
 		font-weight: 200;
 		text-rendering: optimizeLegibility;
 		text-align: center;
 		box-sizing: border-box;
+		-webkit-transition: all 100ms ease;
+		-moz-transition: all 100ms ease;
+		transition: all 100ms ease;
 	}
 	body {
 		margin: 0;
 		padding: 0;
 		background: #FFF;
-		-webkit-transition: all 400ms ease;
-		-moz-transition: all 400ms ease;
-		transition: all 400ms ease;
-	}
-	h1 {
-		margin-top: 20px;
-		margin-bottom: 46px;
-	}
-	a {
-		color: #777;
-		text-decoration: none;
-	}
-	a:visited {
-		color: #777;
-		text-decoration: none;
-	}
-	a:hover {
-		color: #777;
-		text-decoration: none;
-	}
-	a: {
-		color: #777;
-		text-decoration: none;
 	}
 	#cont {
-		position: fixed;
-		display: block;
 		z-index: 80;
-		top: 50%;
-		left: 50%;
-		width: 340px;
-		height: 340px;
-		margin-top: -170px;
-		margin-left: -170px;
-		padding-top: 40px;
-		background: #FFF;
-		border-radius: 900px;
-		box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.083);
+		width: 100vw;
+		padding-top: 50vh;
 		opacity: 0;
-		-webkit-transition: all 100ms ease;
-		-moz-transition: all 100ms ease;
-		transition: all 100ms ease;
 	}
 	#color {
-		position: fixed;
-		top: 50%;
-		left: 50%;
 		color: #777;
 		display: block;
-		height: 42px;
-		width: 260px;
-		font-size: 24px;
-		border: 1px solid #999;
-		border-radius: 5px;
+		width: 100vw;
+		font-size: 20vh;
+		background: rgba(0, 0, 0, 0);
+		border: none;
 		background: #FFF;
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-		margin-top: -22px;
-		margin-bottom: 0;
-		margin-left: -131px;
-		margin-right: auto;
-		padding-left: 8px;
-		padding-right: 8px;
-		-webkit-transition: all 400ms ease;
-		-moz-transition: all 400ms ease;
-		transition: all 400ms ease;
-	}
-	footer#copy {
-		color: #FFF;
-		font-weight: 300;
-		text-align: center;
-		font-size: 14px;
-		margin-top: 160px;
-	}
-	#copy a {
-		text-shadow: 0 1px 3px rgba(255, 255, 255, 0.75);
-	}
-	@media screen and (max-width: 425px) {
-		h1 {
-			margin-top: 12px;
-			margin-bottom: 20px;
-		}
-		#color {
-			width: 130px;
-		}
-		footer#copy {
-			margin-top: 160px;
-		}
-	}
-	@media screen and (max-height: 425px) {
-		h1 {
-			margin-top: 12px;
-			margin-bottom: 20px;
-		}
-		#color {
-			width: 130px;
-		}
-		footer#copy {
-			margin-top: 160px;
-		}
+		-webkit-transform: translateY(-62%);
+		-moz-transform: translateY(-62%);
+		transform: translateY(-62%);
 	}
 	input {
 		outline: none;
 	}
 	</style>
 	<script type="text/javascript">
-	function changeColor() {
-		var v = document.getElementById("color").value
-		document.getElementById("body").style.backgroundColor = v
-		if ( v.length != 4 && v.length != 7 ) {
-			document.getElementById("color").style.backgroundColor = "#DDD"
-		} else {
-			document.getElementById("color").style.backgroundColor = "#FFF"
-		}
-	}
-	function load() {
-		if ( window.innerWidth < 425 ) {
-			if ( window.innerHeight > window.innerWidth ) {
-				document.getElementById("cont").style.width = window.innerWidth*0.8 + "px"
-				document.getElementById("cont").style.marginTop = "-" + window.innerWidth*0.4 + "px"
-				document.getElementById("cont").style.marginLeft = "-" + window.innerWidth*0.4 + "px"
-				document.getElementById("cont").style.height = document.getElementById("cont").style.width
+	var pickRandomly = function (arr) {
+		return arr[ Math.floor(Math.random()*arr.length) ];
+	};
+	var isValidHexColor = function (c) {
+		var m = c.match(/^#([0-9A-F]{3}$|[0-9A-F]{6})$/i);
+		console.log(m);
+		return Boolean(m);
+	};
+	var isColorBright = function (c) {
+		if (typeof(c) === 'string') {
+			if (isValidHexColor(c)) {
+				var c_ = c.slice(1);
+				if (c_.length === 3) {
+					c_ += c_;
+				};
+				var colorObj = [];
+				for (var i = 0; i < 3; i++) {
+					colorObj.push(parseInt((c_[i*2]+c_[i*2+1]), 16));
+				};
+				if ((colorObj[0] + colorObj[1] + colorObj[2])/3 >= 160) {
+					return true;
+				} else {
+					return false;
+				}
 			} else {
-				document.getElementById("cont").style.height = window.innerHeight*0.8 + "px"
-				document.getElementById("cont").style.marginTop = "-" + window.innerHeight*0.4 + "px"
-				document.getElementById("cont").style.marginLeft = "-" + window.innerHeight*0.4 + "px"
-				document.getElementById("cont").style.width = document.getElementById("cont").style.height
-			}
-		}
-		show()
-	}
-	function show() {
-		var time = setTimeout('document.getElementById("cont").style.opacity = "1";', 200)
-	}
+				return false;
+			};
+		} else {
+			return false;
+		};
+	};
+	var changeColor = function () {
+		var v = document.getElementById("color").value;
+		if (v === '') {
+			document.getElementById("color").value = '#';
+		};
+		if (!isValidHexColor(v)) {
+			// Invalid color
+			document.getElementById("color").style.opacity = "0.14";
+		} else {
+			// Valid color
+			document.getElementById("color").style.opacity = "1";
+			document.getElementById("body").style.backgroundColor = v;
+			document.getElementById("color").style.backgroundColor = v;
+			if (isColorBright(v)) {
+				document.getElementById("color").style.color = '#000';
+			} else {
+				document.getElementById("color").style.color = '#FFF';
+			};
+		};
+	};
+	var load = function () {
+		show();
+	};
+	var show = function () {
+		var time = setTimeout(function () {
+			document.getElementById("cont").style.opacity = "1";
+		}, 200);
+	};
 	</script>
 </head>
-<body id="body" onload="load()">
+<body id="body">
 	<div id="cont">
-		<h1><a href="./">Color-Metric</a></h1>
-		<input type="text" value="#FFFFFF" name="color" id="color" oninput="changeColor()">
-		<footer id="copy">
-			<a href="//neop.me/">&copy; <script type="text/javascript">document.write((new Date()).getFullYear());</script> Joy Neop</a>
-		</footer>
+		<input type="text" value="#FFFFFF" name="color" id="color" oninput="changeColor()" autocomplete="off" autofocus>
 	</div>
 	<script type="text/javascript">
-	show()
+	(function () {
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', './gay.json', true);
+		xhr.onload = function (ev_) {
+			document.getElementById("color").value = pickRandomly(JSON.parse(ev_.target.responseText));
+			changeColor();
+			load();
+		};
+		xhr.send();
+	})();
 	</script>
 </body>
 </html>
