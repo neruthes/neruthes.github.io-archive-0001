@@ -92,30 +92,31 @@
 		};
 	};
 	var changeColor = function () {
-		document.getElementById('color').value = document.getElementById('color').value.toUpperCase();
+		var theColorInput = document.getElementById('color');
+		theColorInput.value = theColorInput.value.toUpperCase();
 		var v;
-		v = document.getElementById('color').value;
+		v = theColorInput.value;
 		if (v === '') {
-			document.getElementById('color').value = '#';
-			v = document.getElementById('color').value;
+			theColorInput.value = '#';
+			v = theColorInput.value;
 		}
-		document.getElementById('color').value = '#' + v.replace(/[^0-9A-F]/g, '');
-		v = document.getElementById('color').value;
-		document.getElementById('color').value = v.slice(0, 7);
-		v = document.getElementById('color').value;
+		theColorInput.value = '#' + v.replace(/[^0-9A-F]/g, '');
+		v = theColorInput.value;
+		theColorInput.value = v.slice(0, 7);
+		v = theColorInput.value;
 		if (!isValidHexColor(v)) {
 			// Invalid color
-			document.getElementById('color').style.opacity = "0.14";
+			theColorInput.style.opacity = "0.14";
 		} else {
 			// Valid color
-			document.getElementById('color').style.opacity = "1";
+			theColorInput.style.opacity = "1";
 			document.getElementById('body').style.backgroundColor = v;
-			document.getElementById('color').style.backgroundColor = v;
+			theColorInput.style.backgroundColor = v;
 			document.title = v;
 			if (isColorBright(v)) {
-				document.getElementById('color').style.color = '#000';
+				theColorInput.style.color = '#000';
 			} else {
-				document.getElementById('color').style.color = '#FFF';
+				theColorInput.style.color = '#FFF';
 			};
 		};
 	};
@@ -141,6 +142,9 @@
 			document.getElementById('color').value = pickRandomly(JSON.parse(ev_.target.responseText));
 			changeColor();
 			load();
+		};
+		xhr.onerror = function () {
+			location.replace(location.href);
 		};
 		xhr.send();
 	})();
