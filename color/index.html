@@ -17,6 +17,9 @@
 		-moz-transition: all 100ms ease;
 		transition: all 100ms ease;
 	}
+	html {
+		height: 100%;
+	}
 	body {
 		margin: 0;
 		padding: 0;
@@ -25,6 +28,7 @@
 	#cont {
 		z-index: 80;
 		width: 100vw;
+		height: 100vh;
 		padding-top: 50vh;
 		opacity: 0;
 	}
@@ -88,30 +92,30 @@
 		};
 	};
 	var changeColor = function () {
-		document.getElementById("color").value = document.getElementById("color").value.toUpperCase();
+		document.getElementById('color').value = document.getElementById('color').value.toUpperCase();
 		var v;
-		v = document.getElementById("color").value;
+		v = document.getElementById('color').value;
 		if (v === '') {
-			document.getElementById("color").value = '#';
-			v = document.getElementById("color").value;
+			document.getElementById('color').value = '#';
+			v = document.getElementById('color').value;
 		}
-		document.getElementById("color").value = '#' + v.replace(/[^0-9A-F]/g, '');
-		v = document.getElementById("color").value;
-		document.getElementById("color").value = v.slice(0, 7);
-		v = document.getElementById("color").value;
+		document.getElementById('color').value = '#' + v.replace(/[^0-9A-F]/g, '');
+		v = document.getElementById('color').value;
+		document.getElementById('color').value = v.slice(0, 7);
+		v = document.getElementById('color').value;
 		if (!isValidHexColor(v)) {
 			// Invalid color
-			document.getElementById("color").style.opacity = "0.14";
+			document.getElementById('color').style.opacity = "0.14";
 		} else {
 			// Valid color
-			document.getElementById("color").style.opacity = "1";
-			document.getElementById("body").style.backgroundColor = v;
-			document.getElementById("color").style.backgroundColor = v;
+			document.getElementById('color').style.opacity = "1";
+			document.getElementById('body').style.backgroundColor = v;
+			document.getElementById('color').style.backgroundColor = v;
 			document.title = v;
 			if (isColorBright(v)) {
-				document.getElementById("color").style.color = '#000';
+				document.getElementById('color').style.color = '#000';
 			} else {
-				document.getElementById("color").style.color = '#FFF';
+				document.getElementById('color').style.color = '#FFF';
 			};
 		};
 	};
@@ -120,7 +124,7 @@
 	};
 	var show = function () {
 		var time = setTimeout(function () {
-			document.getElementById("cont").style.opacity = "1";
+			document.getElementById('cont').style.opacity = "1";
 		}, 200);
 	};
 	</script>
@@ -134,12 +138,15 @@
 		var xhr = new XMLHttpRequest();
 		xhr.open('GET', './gay.json', true);
 		xhr.onload = function (ev_) {
-			document.getElementById("color").value = pickRandomly(JSON.parse(ev_.target.responseText));
+			document.getElementById('color').value = pickRandomly(JSON.parse(ev_.target.responseText));
 			changeColor();
 			load();
 		};
 		xhr.send();
 	})();
+	document.getElementById('cont').addEventListener('click', function () {
+		document.getElementById('color').focus();
+	});
 	</script>
 </body>
 </html>
