@@ -62,7 +62,6 @@
 	};
 	var isValidHexColor = function (c) {
 		var m = c.match(/^#([0-9A-F]{3}$|[0-9A-F]{6})$/i);
-		console.log(m);
 		return Boolean(m);
 	};
 	var isColorBright = function (c) {
@@ -90,14 +89,16 @@
 	};
 	var changeColor = function () {
 		document.getElementById("color").value = document.getElementById("color").value.toUpperCase();
-		var v = document.getElementById("color").value;
+		var v;
+		v = document.getElementById("color").value;
 		if (v === '') {
 			document.getElementById("color").value = '#';
 			v = document.getElementById("color").value;
-		} else if (v[0] !== '#') {
-			document.getElementById("color").value = '#' + v;
-			v = document.getElementById("color").value;
-		};
+		}
+		document.getElementById("color").value = '#' + v.replace(/[^0-9A-F]/g, '');
+		v = document.getElementById("color").value;
+		document.getElementById("color").value = v.slice(0, 7);
+		v = document.getElementById("color").value;
 		if (!isValidHexColor(v)) {
 			// Invalid color
 			document.getElementById("color").style.opacity = "0.14";
