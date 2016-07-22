@@ -30,6 +30,9 @@
 	}
 	#color {
 		color: #777;
+		-webkit-font-variant-ligatures: no-common-ligatures;
+		-moz-font-variant-ligatures: no-common-ligatures;
+		font-variant-ligatures: no-common-ligatures;
 		display: block;
 		width: 100vw;
 		background: rgba(0, 0, 0, 0);
@@ -86,9 +89,14 @@
 		};
 	};
 	var changeColor = function () {
+		document.getElementById("color").value = document.getElementById("color").value.toUpperCase();
 		var v = document.getElementById("color").value;
 		if (v === '') {
 			document.getElementById("color").value = '#';
+			v = document.getElementById("color").value;
+		} else if (v[0] !== '#') {
+			document.getElementById("color").value = '#' + v;
+			v = document.getElementById("color").value;
 		};
 		if (!isValidHexColor(v)) {
 			// Invalid color
