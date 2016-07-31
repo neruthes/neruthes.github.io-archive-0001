@@ -8,11 +8,58 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
         <atom:link href="https://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />
         <link>https://joyneop.xyz/blog/</link>
         <description>Do what you want to do. Be what you want to be.</description>
-        <lastBuildDate>Jul 7, 2016 09:41:00 +0000</lastBuildDate>
+        <lastBuildDate>Jul 31, 2016 09:41:00 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
 	    <generator>https://joyneop.xyz/blog/</generator>
+        <item>
+            <title>Problems vs Solutions</title>
+            <link>https://joyneop.xyz/blog/?p=123</link>
+            <pubDate>Jul 31, 2016 09:41:00 +0000</pubDate>
+            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
+            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=123</guid>
+            <content:encoded>
+<![CDATA[
+<blockquote>
+<p>Design is to solve problems.</p>
+</blockquote>
+<p>This definition is pretty general, and is often considered unhelpful for any particular usage of the term, by where only confusion is made. To be specific, the context of digital product design is needed.</p>
+<p>In the context of product design, it is easy and coherent to have a mindset, that first there is a problem and then there is a solution for the problem, and often it is necessary to pluralize one or both.</p>
+<h3>Round 1: Product Problem &amp; Solution</h3>
+<p>The first round is to outline a product problem and introduce a product design, as exemplified:</p>
+<ul>
+    <li><strong>Problem</strong>: Deliver a message to the users that the pricing will soon be changed (which may become statistically more expensive), introducing the new pricing model clear enough, avoiding them dismissing the message without reading carefully if they get bored after feeling it wordy, avoiding them complaining about perceived surcharge against their credit cards after the upcoming bill upon the change comes into effect, comforting them from imaginable negative emotions after knowing this, avoiding interrupting the their current tasks, holding as much retention as possible, satisfying upcoming complaints to support department, keeping the public discussion about this event on social media platforms in control.</li>
+    <li><strong>Solution</strong>: Compared between displaying a modal when the user visits his dashboard, sending them a message in notification center, and displaying a banner in every page until the user clicks a "got it" button; we find that the second has insufficient visibility and the third may disturb the a user's current task (even if reducing it to a weaker version that to display the banner in a subset of all pages), while the first has minimum drawback. Additionally, an email should be sent to the users separately, in order to notify those who do not use the web console of the product frequently.</li>
+</ul>
+<h3>Round 2: Interaction Problem &amp; Solution</h3>
+<p>The second round is to turn the solution in the first round interactive, as exemplified:</p>
+<ul>
+    <li><strong>Problem</strong>: Allow the users dismissing the message after it is believably read carefully.</li>
+    <li><strong>Solution</strong>: There should be a dismiss button at the bottom of the modal while the button text remains arguable. The logic of this modal should be coherent with other components of this product, that means, the decision of presence or absence of a close button on top-left or top-right corner should be made appropriately, referring to the established guidelines. If there is not one, it is time to create one.</li>
+</ul>
+<h3>Round 3: Visual Problem &amp; Solution</h3>
+<p>The third round is to visualize the information structure, as exemplified:</p>
+<ul>
+    <li><strong>Problem</strong>: Let the users estimate the importance of this message correctly, presenting the changes effectively.</li>
+    <li><strong>Solution</strong>: Make a chart to illustrate the diff, and apply text styles and button styles correctly, while concerning the established guidelines (if they exist).</li>
+</ul>
+<h3>Conclusion</h3>
+<p>In each round, three steps can be found:</p>
+<ol>
+    <li>Understand the problem.</li>
+    <li>Find solutions.</li>
+    <li>Choose one.</li>
+</ol>
+<p>Sometimes the second and the third can be put together.</p>
+<p>Also, it is apparent that the <em>solution</em> of the <em>[N]th</em> round demonstrates the problem of the <em>[N+1]th</em> round.</p>
+<p>The example is quite simplified. In different phases of the product, the concentration differs along with the foundations getting maturer. And multiple-to-multiple relations are not illustrated.</p>
+<p>This model might also be applied to other contexts.</p>
+<p></p>
+
+]]>
+            </content:encoded>
+        </item>
         <item>
             <title>The Story Behind RandomFont</title>
             <link>https://joyneop.xyz/blog/?p=122</link>
@@ -271,20 +318,6 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 <p>I failed this way, the most popular way in China, of immigrating to the United States — to receive a degree and get a job there. I've been reworking on a new plan. Our company has been planing to relocate to Silicon Valley, to actually realize the purpose, "<em>push ideas into reality</em>". We've registered a few domain names that may be used for the international brand, and dual-language has been listed in the development roadmap.</p>
 <p>Wish my future be there.</p>
 
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>Happy New Year 2015</title>
-            <link>https://joyneop.xyz/blog/?p=114</link>
-            <pubDate>January 1, 2015 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=114</guid>
-            <content:encoded>
-<![CDATA[
-<figure>
-<img src="./img/0000201501010001.jpg">
-</figure>
 ]]>
             </content:encoded>
         </item>
@@ -670,34 +703,6 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>My Fortune, My Pain</title>
-            <link>https://joyneop.xyz/blog/?p=70</link>
-            <pubDate>July 7, 2013 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=70</guid>
-            <content:encoded>
-<![CDATA[
-<p>從可考證的歷史來看，我的發情週期大約是半年。平均每隔大約半年，我就會放棄之前的追求，另有新歡。跳出其中，置身事外，反思時便會意識到大多只是被其萌點所誘惑。但是，你不一樣。</p>
-<p>對其他人，我的熱度只能持續大約半年。在你之後的那些人，也不例外。即使已經將目標改成其他人，你仍然折磨著我。一時間的誘惑容易淡忘，半年便可隨風而去。然而我被你的靈魂深深吸引，難以自拔。就像早前的文章提及的，我們的靈魂太過相似，似乎一定會互相吸引。如此斷言你也同樣被我吸引，略有些自視過高，但在邏輯上顯得合理。</p>
-<p>你的心似琉璃易碎。這個事實在剛剛進入高中的那個秋天我便已有所體會。在我看來很正常的行為，卻太過容易踩到你的尾巴。你的雷區面積大得驚人，而且剛好專門為我設計。近來，你的雷區似乎小了許多，但那樣的互動卻可望不可及。就連與你在線下對話，都使我壓抑和痛苦。唯有小心翼翼，才能免致傷你感情、辱你尊嚴。與別人談及你時，也會提醒其莫在你面前提起我。</p>
-<p>能在茫茫人海中注意到你，實乃莫大的榮幸。可惜相識的時間不理想。早至初中或晚至大學，或許能得以避免如此痛苦。</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>Unbearable Pleasure</title>
-            <link>https://joyneop.xyz/blog/?p=68</link>
-            <pubDate>June 30, 2013 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=68</guid>
-            <content:encoded>
-<![CDATA[
-<p>我對空無一物的虛無低語，你卻接過話題，讓我原本無意義的話語有意義。恰恰這份榮幸，令我感到沈重。或許這也是獨立性的一個體現吧。你的關心，你的親切，被我當作「不是我應得的榮幸」。</p>
-<p>我會很慷慨，很願意幫助別人。但是當有人像我一樣對我熱情、親切，給予我「過多」感情時，我會產生負罪感。我對人善，是我自己選擇的態度和方式。而這份善的回報，卻不是我應得的。</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
             <title>Mini White</title>
             <link>https://joyneop.xyz/blog/?p=67</link>
             <pubDate>June 30, 2013 09:41:00 +0000</pubDate>
@@ -841,39 +846,6 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Sound Of Wind</title>
-            <link>https://joyneop.xyz/blog/?p=54</link>
-            <pubDate>April 2, 2013 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=54</guid>
-            <content:encoded>
-<![CDATA[
-<p>夜風的聲音吹散這寧靜</p>
-<p>殘缺的燈光匯成這身影</p>
-<p>稀疏的雲層擋不住繁星</p>
-<p>霧散後思緒只剩下透明</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>The First Rain In The Spring</title>
-            <link>https://joyneop.xyz/blog/?p=53</link>
-            <pubDate>April 1, 2013 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=53</guid>
-            <content:encoded>
-<![CDATA[
-<p>春之初雨</p>
-<p>滲透著思緒</p>
-<p>漸漸扭曲</p>
-<br />
-<p>風之低語</p>
-<p>模糊了焦距</p>
-<p>緩緩飄去</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
             <title>So Fast</title>
             <link>https://joyneop.xyz/blog/?p=52</link>
             <pubDate>Mar 27, 2013 09:41:00 +0000</pubDate>
@@ -921,20 +893,6 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Ended Love & Remaining Desire</title>
-            <link>https://joyneop.xyz/blog/?p=49</link>
-            <pubDate>Mar 3, 2013 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=49</guid>
-            <content:encoded>
-<![CDATA[
-<p>從我放棄擁有你的願望開始算起，15 個月於經過去了。載著殘餘的執念，我寫過「風蕭蕭兮雨瑟瑟」、「落葉堆成你的名字」、「深秋之戀」、「這就是關於我和你的悲劇了吧」。</p>
-<p>現在，對你的執念也已消磨殆盡，只剩下肉體的慾望。看到你，我的心中就會翻滾起強烈的邪念，在黑暗中悄悄沸騰。我渴望壓在你身上，渴望用我的硬度貫穿你，渴望用我的液體填充你，渴望施加你被擴張的疼痛，渴望看到你忍受苦難時屈辱的表情。侵略你的身體，玷污你的靈魂，這污穢至極的慾望，我一直在用理性壓抑。然而，越是壓抑，就越是渴望。</p>
-<p>或許有一天我的理性終將敗給慾望，對你犯下這些罪行?我無法預知。</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
             <title>Snow And Memories</title>
             <link>https://joyneop.xyz/blog/?p=48</link>
             <pubDate>February 28, 2013 09:41:00 +0000</pubDate>
@@ -950,69 +908,6 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             </content:encoded>
         </item>
         <item>
-            <title>Far, Further, Future</title>
-            <link>https://joyneop.xyz/blog/?p=47</link>
-            <pubDate>February 25, 2013 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=47</guid>
-            <content:encoded>
-<![CDATA[
-<p>地球的半徑是 6371 千米，我的身高是 1.8 米。根據三角函數可以算出我與地平線的距離。這個數值，即是我能看到的路的最遠點。</p>
-<p>對未來有所規劃，是人類的共性。但是，規劃的長度，卻必然有個極限。這個極限的位置，難以接近終點。我可以盡情規劃，但是 40 年後、50 年後會如何我無法預預想。太過遙遠的未來，不確定的因素超出了誤差允許的範圍，所以圖景的清晰度也落出了誤差允許的範圍。</p>
-<p>在這條路上，看不到終點，只能一步一步走下去。真正會走向哪裡，無法預知。</p>
-<p>前方的懸崖，不知能否飛越。</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>Spring Festival 2013</title>
-            <link>https://joyneop.xyz/blog/?p=44</link>
-            <pubDate>February 10, 2013 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=44</guid>
-            <content:encoded>
-<![CDATA[
-<p>中華文化的傳統節日，在大中華文化圈乃至全人類社會影響力最大的，應當就是春節了吧。春節時，無論身在何方，中國，臺灣，新加坡，USA，擁有中華血脈的民眾，或只是日本、越南這類「亞洲」遠親，大多數都會享受這個深有歷史的節日吧。我也是如此，無論未來身在何方、心在何方，都會視春節為重要的節日。這就是文化的烙印。</p>
-<p>除夕剛好有降雪，在我印象中是少有的巧合，但昨天確實發生了。昨天下午，我望著窗外飄揚的雪花，心中翻滾起莫名的感慨。</p>
-<p>人類固有的思維模型——過去、現在、未來。</p>
-<p>翻看起數個月前寫的文字，想想 17 年多以來的經歷，恍若一場夢。關於春節的記憶，關於雪的記憶，淡得令我驚訝。未來又會產生什麼關於春節、關於雪的記憶，現在也是一個謎。</p>
-<p>在深夜裡神智不清地用筆和紙消磨時間，不急不慢地寫些簡單而又傷感的文字，是最原始最純粹的樂趣。似乎，很久，沒有體會了。</p>
-<p>凝著冰的玻璃窗透進來些許的微光，夜幕很快退去了。關閉檯燈，透進玻璃窗的光已經足夠我辨識紙上的字跡了。</p>
-<p>望向窗外，足夠明亮，卻看不到太陽，看不到地平線。</p>
-<p>唯有藍天，唯有雪地。</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>Love Story Of Late Autumn</title>
-            <link>https://joyneop.xyz/blog/?p=41</link>
-            <pubDate>December 31, 2012 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=41</guid>
-            <content:encoded>
-<![CDATA[
-<p>青石街邊 昏黃孤燈幾盞</p>
-<p>暗影盤旋 心似落葉輾轉</p>
-<p>點滴想念 潤濕雙眼</p>
-<br />
-<p>帶著夕陽最後的溫暖</p>
-<p>輕輕飄落記憶的碎片</p>
-<p>曾經渴望守候的永遠</p>
-<p>你的歌聲迴盪在天邊</p>
-<br />
-<p>那年秋天 寒風中顫抖的雙肩</p>
-<p>幾張膠片 定格了你的容顏</p>
-<p>思緒蔓延 連成閉合曲線</p>
-<p>過往的畫面 一幕幕重現</p>
-<br />
-<p>又是一個雨天 回憶若隱若現</p>
-<p>皓月殘 餘暉漸遠 沉入夢的開端</p>
-<p>任憑歲月浸染 回不去的從前</p>
-<p>我聽見 風中消散 一曲深秋之戀</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
             <title>Escape</title>
             <link>https://joyneop.xyz/blog/?p=40</link>
             <pubDate>December 15, 2012 09:41:00 +0000</pubDate>
@@ -1020,18 +915,18 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=40</guid>
             <content:encoded>
 <![CDATA[
-<p>很久很久以前，那時我對世界知之甚少。</p>
+<p>I knew little of the world for long ago.</p>
 <br />
-<p>我時常獨自坐在窗邊，或漫步戶外，沈浸在我的世界裡。初綻的桃花，寧靜的細雨，滿地銀杏落葉，紛飛的雪，我都能細細感知、品味。純粹的感情，任由其沈澱、萌發。一點一滴的觸動，濺起一圈圈漣漪，在無比澄澈的水中擴散，細膩而又輕柔。發散，聚合，發散，聚合⋯⋯最終這純淨的愉悅化作靈魂的慰藉。</p>
-<p>後來，我變得越來越開朗了。</p>
-<p>雖然能做到在人群中不迷失自我，但感知自然的愉悅缺不可避免地減少了。多方權衡、斟酌損益，避開不必要得共處，終究不及與人們劃清界限來得直接有力。居於人群中，太多的時間和精力都浪費於交際，沒有機會沈浸在那純淨的愉悅中。</p>
+<p>Often I sit at the windows or walking around outdoors, while spiritually inside my internal world. Pink the flower, silent the rain, fallen the leaves, flying the snow, in them I could sense and taste the details; letting them subside and grow. Diffuse and aggregate again and again and turned into spiritual comfort.</p>
+<p>But I became opener.</p>
+<p>Although it was still able to be not lost in the crowd, the sensation of nature had declined inevitably. Much attention was wasted in social activities; left little chance to go into the pure fantasy.</p>
 <br />
-<p>曾經的我，無人陪伴，卻從不孤獨。</p>
-<p>那些幻想延伸、展開，彼此聯結、交融，匯成一幅綺麗的畫面。它來自我，也只有我能理解。那便是我的世界，我的感情。來自客觀世界，因與我的共鳴，成為我的一部分。不分內外，不分彼此，融為一體。</p>
-<p>現在的我，人群之中，卻少有愉悅。</p>
-<p>人們過多地打擾我的生活、佔用我的時間、侵犯我的思想、抑制我的靈感，使我再也無法像從前那樣有足夠的時間享受我樸素而又綺麗的幻想。時間太久，構造幻想的能力也會退化。</p>
+<p>I felt no loneliness without anyone in companion.</p>
+<p>The fantasies could extend and expand and connect and fuse, and turn into a beautiful picture. It came from me and only I could understand. It was my world and my emotions. From the objective world comes resonance, and turned into part of me. And there was no difference of inner and outer.</p>
+<p>I feel lost in people with little happiness.</p>
+<p>The people have bothered me a lot and have taken my time a lot. And my thoughts and inspirations have been insulted. Now I cannot have sufficient time and cognitive resources to enjoy the fantasies in my mind. And a downgrade has been made to my ability to construct such fantasies.</p>
 <br />
-<p>遠離人群，回到本初，回歸真實的我。</p>
+<p>I want to quit the crowd and be back to the authentic myself.</p>
 
 ]]>
             </content:encoded>
