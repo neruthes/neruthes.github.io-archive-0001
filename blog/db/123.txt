@@ -1,3 +1,35 @@
-<!-- Live Like A Mortal -->
+<blockquote>
+<p>Design is to solve problems.</p>
+</blockquote>
+<p>This definition is pretty general, and is often considered unhelpful for any particular usage of the term, by where only confusion is made. To be specific, the context of digital product design is needed.</p>
+<p>In the context of product design, it is easy and coherent to have a mindset, that first there is a problem and then there is a solution for the problem, and often it is necessary to pluralize one or both.</p>
+<h3>Round 1: Product Problem &amp; Solution</h3>
+<p>The first round is to outline a product problem and introduce a product design, as exemplified:</p>
+<ul>
+    <li><strong>Problem</strong>: Deliver a message to the users that the pricing will soon be changed (which may become statistically more expensive), introducing the new pricing model clear enough, avoiding them dismissing the message without reading carefully if they get bored after feeling it wordy, avoiding them complaining about perceived surcharge against their credit cards after the upcoming bill upon the change comes into effect, comforting them from imaginable negative emotions after knowing this, avoiding interrupting the their current tasks, holding as much retention as possible, satisfying upcoming complaints to support department, keeping the public discussion about this event on social media platforms in control.</li>
+    <li><strong>Solution</strong>: Compared between displaying a modal when the user visits his dashboard, sending them a message in notification center, and displaying a banner in every page until the user clicks a "got it" button; we find that the second has insufficient visibility and the third may disturb the a user's current task (even if reducing it to a weaker version that to display the banner in a subset of all pages), while the first has minimum drawback. Additionally, an email should be sent to the users separately, in order to notify those who do not use the web console of the product frequently.</li>
+</ul>
+<h3>Round 2: Interaction Problem &amp; Solution</h3>
+<p>The second round is to turn the solution in the first round interactive, as exemplified:</p>
+<ul>
+    <li><strong>Problem</strong>: Allow the users dismissing the message after it is believably read carefully.</li>
+    <li><strong>Solution</strong>: There should be a dismiss button at the bottom of the modal while the button text remains arguable. The logic of this modal should be coherent with other components of this product, that means, the decision of presence or absence of a close button on top-left or top-right corner should be made appropriately, referring to the established guidelines. If there is not one, it is time to create one.</li>
+</ul>
+<h3>Round 3: Visual Problem &amp; Solution</h3>
+<p>The third round is to visualize the information structure, as exemplified:</p>
+<ul>
+    <li><strong>Problem</strong>: Let the users estimate the importance of this message correctly, presenting the changes effectively.</li>
+    <li><strong>Solution</strong>: Make a chart to illustrate the diff, and apply text styles and button styles correctly, while concerning the established guidelines (if they exist).</li>
+</ul>
+<h3>Conclusion</h3>
+<p>In each round, three steps can be found:</p>
+<ol>
+    <li>Understand the problem.</li>
+    <li>Find solutions.</li>
+    <li>Choose one.</li>
+</ol>
+<p>Sometimes the second and the third can be put together.</p>
+<p>Also, it is apparent that the <em>solution</em> of the <em>[N]th</em> round demonstrates the problem of the <em>[N+1]th</em> round.</p>
+<p>The example is quite simplified. In different phases of the product, the concentration differs along with the foundations getting maturer. And multiple-to-multiple relations are not illustrated.</p>
+<p>This model might also be applied to other contexts.</p>
 <p></p>
-<p>Farewell, pursuit of eternity.</p>

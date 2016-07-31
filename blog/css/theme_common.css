@@ -89,8 +89,9 @@ a {
 }
 
 .post-text > h3 {
-	font-size: 2.2rem;
-	font-weight: 400;
+	font-size: 2.6rem;
+	font-weight: 200;
+	color: #999;
 	margin: 20px 0 20px;
 }
 
@@ -155,6 +156,7 @@ p code {
 }
 
 .post-text blockquote {
+	font-style: italic;
 	border-left: 3px solid #F5F5F5;
 	padding-left: 14px;
 	margin-left: -17px;
