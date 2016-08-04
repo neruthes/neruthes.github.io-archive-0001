@@ -33,6 +33,7 @@
 		opacity: 0;
 	}
 	#color {
+		text-transform: uppercase;
 		color: #777;
 		-webkit-font-variant-ligatures: no-common-ligatures;
 		-moz-font-variant-ligatures: no-common-ligatures;
@@ -93,17 +94,19 @@
 	};
 	var changeColor = function () {
 		var theColorInput = document.getElementById('color');
-		theColorInput.value = theColorInput.value.toUpperCase();
-		var v;
-		v = theColorInput.value;
+		var v = theColorInput.value;
 		if (v === '') {
 			theColorInput.value = '#';
 			v = theColorInput.value;
 		}
-		theColorInput.value = '#' + v.replace(/[^0-9A-F]/g, '');
-		v = theColorInput.value;
-		theColorInput.value = v.slice(0, 7);
-		v = theColorInput.value;
+		if (v.match(/[^0-9A-F]/ig) === null || v.match(/[^0-9A-F]/ig).length > 1) {
+			theColorInput.value = '#' + v.replace(/[^0-9A-F]/ig, '');
+			v = theColorInput.value;
+		};
+		if (v.length > 7) {
+			theColorInput.value = v.slice(0, 7);
+			v = theColorInput.value;
+		};
 		if (!isValidHexColor(v)) {
 			// Invalid color
 			theColorInput.style.opacity = "0.14";
