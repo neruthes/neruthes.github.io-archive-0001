@@ -148,10 +148,6 @@
 		line-height: 1.75em;
 		margin: 1.1em auto;
 	}
-	.moji {
-		color: #FE8A2A;
-		padding-left: 0.5em;
-	}
 	footer {
 		font-size: 14px;
 		font-weight: 300;
@@ -163,22 +159,22 @@
 	}
 	footer .contact {
 		font-size: 28px;
-		font-weight: 300;
-		color: #FFF;
-		text-shadow: rgba(0, 0, 0, 0.15) 0 1px 1px;
+		font-weight: 500;
+		color: #FE8A2A;
 		line-height: 1.6em;
-		background: #FE8A2A;
-		border-radius: 4px;
-		box-shadow: rgba(0, 0, 0, 0.22) 0 1px 3px inset;
-		max-width: 900px;
-		padding: 1em 0;
+		border: 3px solid #FE8A2A;
+		border-radius: 10px;
+		max-width: 800px;
+		padding: 0;
 		margin: 1em auto;
+		overflow: hidden;
 	}
-	.contact:hover {
-		background: #FE8A2A, rgba(0, 0, 0, 0.8);
+	.contact a {
+		padding: 0 0 1em;
 	}
-	.contact em {
-		font-size: 0.7em;
+	.contact a:hover {
+		color: #FFF;
+		background: #FE8A2A;
 	}
 	#contact-title {
 		display: block;
@@ -196,20 +192,20 @@
 		color: inherit;
 	}
 	.link {
-		padding: 0 0 10px;
+		padding: 0 0 50px;
 	}
-	.end img {
+	#website-sticker-pack-link-image {
 		display: block;
 		margin: 0 auto;
 	}
-	@media screen and (max-width: 700px) {
-		.end img {
-			width: 80vw;
+	@media screen and (max-width: 599px) {
+		#website-sticker-pack-link-image {
+			width: 90vw;
 		}
 	}
-	@media screen and (min-width: 700px) {
-		.end img {
-			width: 500px;
+	@media screen and (min-width: 600px) {
+		#website-sticker-pack-link-image {
+			width: 600px;
 		}
 	}
 	a, a:link, a:visited, a:hover, a:active {
@@ -222,7 +218,7 @@
 <header>
 	<a href="./">
 		<h1>Kotomatsu</h1>
-		<h2>コトマツ、謎の生物</h2>
+		<h2>コトマツ・謎の生物</h2>
 	</a>
 </header>
 <div class="grand-cont">
@@ -231,25 +227,17 @@
 		</ol>
 	</div>
 	<div class="cont">
-		<p>
-			初めまして、地球人。コトマツです。よろしくね。<span class="moji">♪(´ε｀ )</span>
-		</p>
-		<p>
-			Node.js のマスコットではありません。
-		</p>
+
 	</div>
 	<footer>
 		<div class="contact" id="contact">
 			<a id="contact-title" target="_blank" href="https://telegram.me/addstickers/kotomatsu">
-				<h2 id="contact-title-line">Sticker pack available for Telegram</h2>
-				<em>Add me into your stickers inventory</em>
+				<img src="./website-sticker-pack-link-image.png" id="website-sticker-pack-link-image">
+				Get the Sticker Pack for Telegram
 			</a>
 		</div>
 		<div class="link">
 			<a href="/">&copy; Copyright <script type="text/javascript">document.write((new Date()).getFullYear());</script> All Rights Reserved by Joy Neop</a>
-		</div>
-		<div class="end">
-			<img src="the-btm.jpg">
 		</div>
 	</footer>
 </div>
