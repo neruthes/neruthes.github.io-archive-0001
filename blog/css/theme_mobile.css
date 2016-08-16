@@ -1,6 +1,6 @@
 @media screen and (max-width: 1099px) {
 	html, body {
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 	.global {
@@ -11,6 +11,10 @@
 
 	#global-header {
 		padding-top: 50px;
+	}
+
+	#global-footer {
+		font-size: 0.9rem;
 	}
 
 	.global h1 {

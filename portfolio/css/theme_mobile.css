@@ -1,6 +1,6 @@
 @media screen and (max-width: 1099px) {
 	html, body {
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 	header.global, footer.global {
@@ -14,7 +14,7 @@
 	}
 
 	#global-footer {
-		font-size: 0.85rem;
+		font-size: 0.8rem;
 	}
 
 	.global h1 {
