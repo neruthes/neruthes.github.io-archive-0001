@@ -8,11 +8,66 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
         <atom:link href="https://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />
         <link>https://joyneop.xyz/blog/</link>
         <description>Do what you want to do. Be what you want to be.</description>
-        <lastBuildDate>Jul 31, 2016 09:41:00 +0000</lastBuildDate>
+        <lastBuildDate>Aug 16, 2016 09:41:00 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
 	    <generator>https://joyneop.xyz/blog/</generator>
+        <item>
+            <title>To Boldly Live</title>
+            <link>https://joyneop.xyz/blog/?p=124</link>
+            <pubDate>Aug 16, 2016 09:41:00 +0000</pubDate>
+            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
+            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=124</guid>
+            <content:encoded>
+<![CDATA[
+<p>
+You've forbidden me to die.
+<br />
+I'll live; I know it's difficult, but I will try.
+<br />
+I came from the gutter of poverty and hopelessness;
+<br />
+I was lost in the valley of the night,
+<br />
+But I will climb to the light.
+</p>
+
+<p>
+I was wretched of the gutter but you kindled my flame of life.
+<br />
+Even the darkest night has ended and the sun has risen.
+<br />
+I now live again in freedom,
+<br />
+In the pursuit of happiness,
+<br />
+In the joint future we'll create together.
+</p>
+
+<p>
+Do you hear tears of mine,
+<br />
+Crying for the rebirth you gave me?
+<br />
+It is a music of a spirit who will not live deadly again!
+</p>
+
+<p>
+This I swear to you,
+<br />
+That I will bravely live till the last moment of the life,
+<br />
+Either with or without your company.
+</p>
+
+<aside>
+My answer to the meaning of the life is that there is no meaning granted by a greater being and thus one has to find his own way to satisfy his psychological demand for reason to live. And now I find my way can be exactly as sung: to love another person.
+</aside>
+
+]]>
+            </content:encoded>
+        </item>
         <item>
             <title>Problems vs Solutions</title>
             <link>https://joyneop.xyz/blog/?p=123</link>
@@ -29,7 +84,7 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
 <h3>Round 1: Product Problem &amp; Solution</h3>
 <p>The first round is to outline a product problem and introduce a product design, as exemplified:</p>
 <ul>
-    <li><strong>Problem</strong>: Deliver a message to the users that the pricing will soon be changed (which may become statistically more expensive), introducing the new pricing model clear enough, avoiding them dismissing the message without reading carefully if they get bored after feeling it wordy, avoiding them complaining about perceived surcharge against their credit cards after the upcoming bill upon the change comes into effect, comforting them from imaginable negative emotions after knowing this, avoiding interrupting the their current tasks, holding as much retention as possible, satisfying upcoming complaints to support department, keeping the public discussion about this event on social media platforms in control.</li>
+    <li><strong>Problem</strong>: Deliver a message to the users that the pricing will soon be changed (which may become statistically more expensive), introducing the new pricing model clear enough, avoiding them dismissing the message without reading carefully if they get bored after feeling it wordy, avoiding them complaining about perceived surcharge against their credit cards in the bill following the change coming into effect, comforting them from imaginable negative emotions after knowing this, avoiding interrupting their current tasks, holding as much retention as possible, satisfying upcoming complaints to support department, keeping the public discussion about this event on social media platforms in control.</li>
     <li><strong>Solution</strong>: Compared between displaying a modal when the user visits his dashboard, sending them a message in notification center, and displaying a banner in every page until the user clicks a "got it" button; we find that the second has insufficient visibility and the third may disturb the a user's current task (even if reducing it to a weaker version that to display the banner in a subset of all pages), while the first has minimum drawback. Additionally, an email should be sent to the users separately, in order to notify those who do not use the web console of the product frequently.</li>
 </ul>
 <h3>Round 2: Interaction Problem &amp; Solution</h3>
@@ -1224,14 +1279,15 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=5</guid>
             <content:encoded>
 <![CDATA[
-<blockquote><p>"I have never died. Neither shall I ever."</p>——<cite>Tassadar</cite></blockquote>
-<blockquote><p>"Death is not opposite to life; it's part of life. Death leads life to eternal."</p>——<cite>Huixin Yang</cite></blockquote>
+<blockquote><p>"I have never died. Neither shall I ever."</p>—<cite>Tassadar</cite></blockquote>
+<blockquote><p>"Death is not opposite to life; it's part of life. Death leads life to eternal."</p>—<cite>Huixin Yang</cite></blockquote>
 <p>The death of Tassadar was not <em>death</em>; it was <em>transcend</em>. He was complete. He has been immortal in Khala, in every Khalai's presence. It's another way of <em>existence</em>.</p>
 <p>People who know Baolin is a network of information, where his presence shall exist upon death. Which is call, "<em>still lives in our minds</em>". Upon my death, my presence shall also exist longer in this way. The only pity is that it's not recursive.</p>
 <p>Death extends life.</p>
 <p>Complex living forms consist of vast cells, which produces significant entropy. Life is ultimate order in the universe.</p>
 <p>However, the destiny of the universe is chaos. Limited by second law of thermodynamics, we are destined to go into chaos, regardless of our attempt to keep order. From the void goes the void. Inevitably.</p>
-<p>Death resides life.</p>
+<p>Death resides in life.</p>
+
 ]]>
             </content:encoded>
         </item>

@@ -15,6 +15,77 @@
 
 
 
+# To Boldly Live
+
+Post #124 / Date: Aug 16, 2016
+
+
+
+
+You've forbidden me to die.
+
+
+I'll live; I know it's difficult, but I will try.
+
+
+I came from the gutter of poverty and hopelessness;
+
+
+I was lost in the valley of the night,
+
+
+But I will climb to the light.
+
+
+
+I was wretched of the gutter but you kindled my flame of life.
+
+
+Even the darkest night has ended and the sun has risen.
+
+
+I now live again in freedom,
+
+
+In the pursuit of happiness,
+
+
+In the joint future we'll create together.
+
+
+
+Do you hear tears of mine,
+
+
+Crying for the rebirth you gave me?
+
+
+It is a music of a spirit who will not live deadly again!
+
+
+
+This I swear to you,
+
+
+That I will bravely live till the last moment of the life,
+
+
+Either with or without your company.
+
+
+
+<aside>
+My answer to the meaning of the life is that there is no meaning granted by a greater being and thus one has to find his own way to satisfy his psychological demand for reason to live. And now I find my way can be exactly as sung: to love another person.
+</aside>
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+
 # Problems vs Solutions
 
 Post #123 / Date: Jul 31, 2016
@@ -35,7 +106,7 @@ In the context of product design, it is easy and coherent to have a mindset, tha
 The first round is to outline a product problem and introduce a product design, as exemplified:
 
 <ul>
-    <li><strong>Problem</strong>: Deliver a message to the users that the pricing will soon be changed (which may become statistically more expensive), introducing the new pricing model clear enough, avoiding them dismissing the message without reading carefully if they get bored after feeling it wordy, avoiding them complaining about perceived surcharge against their credit cards after the upcoming bill upon the change comes into effect, comforting them from imaginable negative emotions after knowing this, avoiding interrupting the their current tasks, holding as much retention as possible, satisfying upcoming complaints to support department, keeping the public discussion about this event on social media platforms in control.</li>
+    <li><strong>Problem</strong>: Deliver a message to the users that the pricing will soon be changed (which may become statistically more expensive), introducing the new pricing model clear enough, avoiding them dismissing the message without reading carefully if they get bored after feeling it wordy, avoiding them complaining about perceived surcharge against their credit cards in the bill following the change coming into effect, comforting them from imaginable negative emotions after knowing this, avoiding interrupting their current tasks, holding as much retention as possible, satisfying upcoming complaints to support department, keeping the public discussion about this event on social media platforms in control.</li>
     <li><strong>Solution</strong>: Compared between displaying a modal when the user visits his dashboard, sending them a message in notification center, and displaying a banner in every page until the user clicks a "got it" button; we find that the second has insufficient visibility and the third may disturb the a user's current task (even if reducing it to a weaker version that to display the banner in a subset of all pages), while the first has minimum drawback. Additionally, an email should be sent to the users separately, in order to notify those who do not use the web console of the product frequently.</li>
 </ul>
 <h3>Round 2: Interaction Problem &amp; Solution</h3>
@@ -1726,10 +1797,10 @@ Post #5 / Date: April 27, 2012
 
 <blockquote>
 "I have never died. Neither shall I ever."
-——<cite>Tassadar</cite></blockquote>
+—<cite>Tassadar</cite></blockquote>
 <blockquote>
 "Death is not opposite to life; it's part of life. Death leads life to eternal."
-——<cite>Huixin Yang</cite></blockquote>
+—<cite>Huixin Yang</cite></blockquote>
 
 The death of Tassadar was not *death*; it was *transcend*. He was complete. He has been immortal in Khala, in every Khalai's presence. It's another way of *existence*.
 
@@ -1741,7 +1812,8 @@ Complex living forms consist of vast cells, which produces significant entropy. 
 
 However, the destiny of the universe is chaos. Limited by second law of thermodynamics, we are destined to go into chaos, regardless of our attempt to keep order. From the void goes the void. Inevitably.
 
-Death resides life.
+Death resides in life.
+
 
 
 
