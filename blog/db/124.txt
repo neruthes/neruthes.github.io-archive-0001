@@ -1,13 +1,95 @@
-<p>Recently, I've been working on notification system. Meanwhile, I did some research on this common functionality in various products. The most critical part was the aggregation strategy.</p>
-<h3>1. Primitive: No Aggregation At All</h3>
-<p></p>
-<p></p>
-<h3>2. Easiest Way: Strong Aggregation</h3>
-<p></p>
-<p></p>
-<h3>3. Facebook: </h3>
-<p></p>
-<p></p>
-<h3>4. Mine: Complex Aggregation</h3>
-<p></p>
-<p></p>
+<!-- <p>For the first time in forever,</p>
+<p>I feel I can be the master of my life.</p>
+<p>Although it might be an illusion,</p>
+<p>But I will not give up.</p>
+<p>I will dominate my life to the maximum extent possible.</p>
+
+<br />
+
+<p>You've forbidden me to die.</p>
+<p>I'll live; I know it's difficult, but I will try.</p>
+<p>I came from the gutter of poverty and hopelessness;</p>
+<p>I was lost in the valley of the night,</p>
+<p>But I will climb to the light.</p>
+
+<br />
+
+<p>I was wretched of the gutter but you kindled my flame of life.</p>
+<p>Even the darkest night has ended and the sun has risen.</p>
+<p>I now live again in freedom,</p>
+<p>In the pursuit of happiness,</p>
+<p>In the joint future we'll create together.</p>
+
+<br />
+
+<p>Do you hear tears of mine,</p>
+<p>Crying for the rebirth you gave me?</p>
+<p>It is a music of a spirit who will not live deadly again!</p>
+
+<br />
+
+<p>This I swear to you,</p>
+<p>That I will bravely live till the last moment of the life,</p>
+<p>Either with or without your company.</p>
+
+<br />
+
+<aside>
+My answer to the meaning of the life is that there is no meaning granted by a greater being and thus one has to find his own way to satisfy his psychological demand for reason to live. And now I find my way can be exactly as sung: to love another person.
+</aside>
+-->
+
+
+
+
+
+
+
+
+<p>For the first time in forever,
+<br />
+I feel I can be the master of my life.
+<br />
+Although it might be an illusion,
+<br />
+But I will not give up.
+<br />
+I will dominate my life to the maximum extent possible.</p>
+
+
+
+<p>You've forbidden me to die.
+<br />
+I'll live; I know it's difficult, but I will try.
+<br />
+I came from the gutter of poverty and hopelessness;
+<br />
+I was lost in the valley of the night,
+<br />
+But I will climb to the light.</p>
+
+<p>I was wretched of the gutter but you kindled my flame of life.
+<br />
+Even the darkest night has ended and the sun has risen.
+<br />
+I now live again in freedom,
+<br />
+In the pursuit of happiness,
+<br />
+In the joint future we'll create together.</p>
+
+<p>Do you hear tears of mine,
+<br />
+Crying for the rebirth you gave me?
+<br />
+It is a music of a spirit who will not live deadly again!</p>
+
+<p>This I swear to you,
+<br />
+That I will bravely live till the last moment of the life,
+<br />
+Either with or without your company.</p>
+
+<aside>
+My answer to the meaning of the life is that there is no meaning granted by a greater being and thus one has to find his own way to satisfy his psychological demand for reason to live. And now I find my way can be exactly as sung: to love another person.
+</aside>
