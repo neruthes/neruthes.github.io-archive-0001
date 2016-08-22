@@ -29,7 +29,6 @@
 		padding: 0;
 		margin: 0;
 		background: #FE8A2A;
-		/*background-image: linear-gradient(#FF8C2C, #F08222);*/
 		overflow: hidden;
 	}
 	header a {
@@ -52,7 +51,7 @@
 		letter-spacing: 7px;
 		margin: 0 0 10px 0;
 	}
-	@media screen and (max-width: 719px) {
+	@media screen and (max-width: 729px) {
 		header a {
 			text-align: center;
 			background: rgba(0, 0, 0, 0) url(bg1.png) center scroll no-repeat;
@@ -67,10 +66,9 @@
 			margin: 10px auto;
 		}
 		p {
-			padding: 0 20px;
 		}
 	}
-	@media screen and (min-width: 720px) {
+	@media screen and (min-width: 730px) {
 		header a {
 			max-width: 640px;
 			padding: 66px 40px;
@@ -93,10 +91,13 @@
 			margin: 0;
 			box-sizing: border-box;
 		}
+		footer .contact {
+			width: 720px;
+		}
 	}
 	.grand-cont {
 		background: #FFF;
-		/*box-shadow: rgba(0, 0, 0, 0.4) 0 0 4px;*/
+		padding: 30px 0 0;
 	}
 	ol, li {
 		display: block;
@@ -107,7 +108,11 @@
 		margin: 0;
 	}
 	li {
+		color: #FF8C2C;
+		border-radius: 8px;
 		width: 240px;
+		height: 240px;
+		padding: 35px 0 0;
 		text-align: center;
 	}
 	li a {
@@ -122,23 +127,17 @@
 		-moz-transition: all 100ms ease;
 		transition: all 100ms ease;
 	}
-	li:hover a {
+	li:hover {
 		color: #FFF;
 		background: #FF8C2C;
-		box-shadow: rgba(0, 0, 0, 0.22) 0 1px 3px inset;
 	}
 	li img {
 		display: block;
-		widows: 90px;
-		height: 90px;
-		margin: 0 auto;
-		background: #DDD;
-		border-radius: 8px;
-		border-radius: 800px;
+		width: 130px;
+		margin: 0 auto 10px;
 		overflow: hidden;
 	}
 	li:hover img {
-		box-shadow: rgba(0, 0, 0, 0.22) 0 1px 3px;
 	}
 	p {
 		max-width: 580px;
@@ -154,7 +153,7 @@
 		color: #888;
 		line-height: 1.6em;
 		text-align: center;
-		padding: 0 10px;
+		padding: 0 0;
 		margin: 0;
 	}
 	footer .contact {
@@ -162,14 +161,14 @@
 		font-weight: 500;
 		color: #FE8A2A;
 		line-height: 1.6em;
-		border: 3px solid #FE8A2A;
 		border-radius: 10px;
-		max-width: 720px;
 		padding: 0;
 		margin: 1em auto;
-		overflow: hidden;
 	}
 	.contact a {
+		border: 3px solid #FE8A2A;
+		border-radius: 10px;
+		overflow: hidden;
 		padding: 0.5em 10px 0.9em;
 	}
 	.contact a:hover {
@@ -192,14 +191,35 @@
 		display: block;
 		margin: 0 auto;
 	}
-	@media screen and (max-width: 599px) {
+	@-webkit-keyframes pop {
+		0% {
+			-webkit-transform: translateY(0px);
+			/*background: #000;*/
+		}
+		100% {
+			-webkit-transform: translateY(10px);
+			/*background: #2CF;*/
+		}
+	}
+	@media screen and (max-width: 729px) {
 		#website-sticker-pack-link-image {
 			width: 100%;
 		}
 	}
-	@media screen and (min-width: 600px) {
+	@media screen and (min-width: 730px) {
 		#website-sticker-pack-link-image {
 			width: 600px;
+		}
+		footer .contact a {
+			padding-top: 0.7em;
+		}
+		a:hover #website-sticker-pack-link-image {
+			-webkit-animation-name: pop;
+			-webkit-animation-duration: 3s;
+			-webkit-animation-timing-function: linear;
+			-webkit-animation-direction: alternate;
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-fill-mode: both;
 		}
 	}
 	a, a:link, a:visited, a:hover, a:active {
@@ -239,15 +259,16 @@
 var x = 18;
 for (var i = 1; i <= x; i++) {
 	var li = document.createElement("li");
-	var a = document.createElement("a");
+	// var a = document.createElement("a");
 	var img = document.createElement("img");
 	var span = document.createElement("span");
-	a.setAttribute("href", i + ".jpg");
-	img.setAttribute("src", i + ".jpg");
-	a.appendChild(img);
-	a.appendChild(span);
+	// a.setAttribute("href", i + ".jpg");
+	img.setAttribute("src", "./outlined/Kotomatsu-vw%20" + i + ".png");
+	// a.appendChild(img);
+	// a.appendChild(span);
 	span.innerHTML = "#" + i;
-	li.appendChild(a);
+	li.appendChild(img);
+	li.appendChild(span);
 	document.getElementsByTagName("ol")[0].appendChild(li);
 }
 </script>
