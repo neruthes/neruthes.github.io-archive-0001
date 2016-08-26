@@ -10,3 +10,9 @@
     -webkit-font-smoothing: subpixel-antialiased;
     font-smoothing: subpixel-antialiased;
 }
+
+code {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+}

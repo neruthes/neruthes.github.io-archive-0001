@@ -1,5 +1,26 @@
-<p>What shall a good relationship be like? The problem has been confusing me for long. I was fearful; I was helpless. I had numerous thoughts on this issue.</p>
+<p>Today I discovered a new way to serve JS and CSS publicly over GitHub.</p>
+
+<h3>1. Create An Organization On GitHub</h3>
+<p>I created an organization on GitHub named <code>neopcdn</code>, and created a repository named <code>neopcdn.github.io</code>, in which a file <code>CNAME</code> is placed with single-line content <code>cdn.neop.me</code>. This would specify a custom domain name of the default GitHub Pages repository.</p>
+<p>In addition, all other repositories owned by this organization with GitHub Pages feature enabled would share this domain name unless it has its own <code>CNAME</code> file. Usage of GitHub Pages can be found in the official help center.</p>
+
+<h3>2. Create An Empty Repository</h3>
+<p>I created an empty repository named <code>gay-pride.js</code>, as same as the particular project that I would like to serve.</p>
+<p>In the settings of this repository, I changed source branch that generates GitHub Pages, from the default <code>gh-pages</code> to <code>master</code>.</p>
+
+<h3>3. Push To Multiple Remotes</h3>
+<p>On my local device, which I originally push to <code>https://github.com/joyneop/gay-pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:</p>
+<pre>
+$ git remote add cdn https://github.com/neopcdn/gay-pride.js.git
+</pre>
+<p>From now on, when I update the library, I just run:</p>
+<pre>
+$ git push origin master
+$ git push cdn master
+</pre>
+<p>It is also possible to set two URLs as different destinations of the same remote, which would allow one to push to both by simply pushing to <code>origin</code>.</p>
+
+<h3>Conclution</h3>
+<p>Now, for a file like <a href="https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js" target="_blank">https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js</a>, anyone can access it through <a href="https://cdn.neop.me/gay-pride.js/pride.js" target="_blank">https://cdn.neop.me/gay-pride.js/pride.js</a>, with correct Contnet-Type and Access-Control-Allow-Origin.</p>
 <p></p>
-<p></p>
-<p></p>
-<p>Acknowledging every remarkable moment together with the one, and respecting the underlying reality of humanity and society; this time, I am not afraid.</p>
+<code></code>

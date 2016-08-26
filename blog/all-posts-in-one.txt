@@ -15,6 +15,63 @@
 
 
 
+# GitHub Pages + CloudFlare = CDN
+
+Post #125 / Date: Aug 26, 2016
+
+
+
+Today I discovered a new way to serve JS and CSS publicly over GitHub.
+
+
+<h3>1. Create An Organization On GitHub</h3>
+
+I created an organization on GitHub named <code>neopcdn</code>, and created a repository named <code>neopcdn.github.io</code>, in which a file <code>CNAME</code> is placed with single-line content <code>cdn.neop.me</code>. This would specify a custom domain name of the default GitHub Pages repository.
+
+In addition, all other repositories owned by this organization with GitHub Pages feature enabled would share this domain name unless it has its own <code>CNAME</code> file. Usage of GitHub Pages can be found in the official help center.
+
+
+<h3>2. Create An Empty Repository</h3>
+
+I created an empty repository named <code>gay-pride.js</code>, as same as the particular project that I would like to serve.
+
+In the settings of this repository, I changed source branch that generates GitHub Pages, from the default <code>gh-pages</code> to <code>master</code>.
+
+
+<h3>3. Push To Multiple Remotes</h3>
+
+On my local device, which I originally push to <code>https://github.com/joyneop/gay-pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:
+
+<pre>
+$ git remote add cdn https://github.com/neopcdn/gay-pride.js.git
+</pre>
+
+From now on, when I update the library, I just run:
+
+<pre>
+$ git push origin master
+$ git push cdn master
+</pre>
+
+It is also possible to set two URLs as different destinations of the same remote, which would allow one to push to both by simply pushing to <code>origin</code>.
+
+
+<h3>Conclution</h3>
+
+Now, for a file like [https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js](https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js), anyone can access it through [https://cdn.neop.me/gay-pride.js/pride.js](https://cdn.neop.me/gay-pride.js/pride.js), with correct Contnet-Type and Access-Control-Allow-Origin.
+
+
+
+<code></code>
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+
 # To Boldly Live
 
 Post #124 / Date: Aug 16, 2016
