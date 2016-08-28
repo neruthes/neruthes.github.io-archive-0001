@@ -53,6 +53,10 @@
 		margin: 3px 3px;
 	}
 
+	body[page-mode="index"] .entry:hover {
+		-webkit-filter: saturate(0.7) contrast(0.7) brightness(1.27);
+	}
+
 	.post {
 	}
 

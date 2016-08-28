@@ -1,0 +1,15 @@
+<style>
+body {
+    background: #003A0A;
+}
+.global-text {
+    color: #FFF;
+}
+.post-text {
+    color: #FFF;
+}
+</style>
+
+<h2>Green Works</h2>
+
+<figure><img class="md" src="/portfolio/img/0000201608280001.jpg"></figure>
