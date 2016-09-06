@@ -27,4 +27,4 @@ body {
 
 <p>Registered trademarks may be mentioned without "®" or "™". Marks with the "®" symbol may be parody.</p>
 
-<aside><strong>Dark Planet</strong> wallpapers are available in <a href="/wallpapers/downloads/Dark%20Planet%20Horizontal.png" target="_blank>horizontal</a> and <a href="/wallpapers/downloads/Dark%20Planet%20Vertical.png" target="_blank>vertical</a>.</aside>
+<aside><strong>Dark Planet</strong> wallpapers are available in <a href="/wallpapers/downloads/Dark%20Planet%20Horizontal.png" target="_blank">horizontal</a> and <a href="/wallpapers/downloads/Dark%20Planet%20Vertical.png" target="_blank">vertical</a>.</aside>
