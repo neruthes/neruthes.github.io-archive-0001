@@ -15,7 +15,7 @@
 
 
 
-# GitHub Pages + CloudFlare = CDN
+# GitHub + CloudFlare = CDN
 
 Post #125 / Date: Aug 26, 2016
 
@@ -40,7 +40,7 @@ In the settings of this repository, I changed source branch that generates GitHu
 
 <h3>3. Push To Multiple Remotes</h3>
 
-On my local device, which I originally push to <code>https://github.com/joyneop/gay-pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:
+On my local device, where I originally push to <code>https://github.com/joyneop/gay-pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:
 
 <pre>
 $ git remote add cdn https://github.com/neopcdn/gay-pride.js.git
@@ -56,13 +56,15 @@ $ git push cdn master
 It is also possible to set two URLs as different destinations of the same remote, which would allow one to push to both by simply pushing to <code>origin</code>.
 
 
-<h3>Conclution</h3>
+<h3>4. Set Up CloudFlare</h3>
+
+Then I created a CNAME record to point `cdn.neop.me` to `neopcdn.github.io` on CloudFlare, and turned on CDN feature for this record. This would take advantage of free SSL by CloudFlare.
+
+
+<h3>Conclusion</h3>
 
 Now, for a file like [https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js](https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js), anyone can access it through [https://cdn.neop.me/gay-pride.js/pride.js](https://cdn.neop.me/gay-pride.js/pride.js), with correct Contnet-Type and Access-Control-Allow-Origin.
 
-
-
-<code></code>
 
 
 
@@ -164,7 +166,7 @@ The first round is to outline a product problem and introduce a product design, 
 
 <ul>
     <li><strong>Problem</strong>: Deliver a message to the users that the pricing will soon be changed (which may become statistically more expensive), introducing the new pricing model clear enough, avoiding them dismissing the message without reading carefully if they get bored after feeling it wordy, avoiding them complaining about perceived surcharge against their credit cards in the bill following the change coming into effect, comforting them from imaginable negative emotions after knowing this, avoiding interrupting their current tasks, holding as much retention as possible, satisfying upcoming complaints to support department, keeping the public discussion about this event on social media platforms in control.</li>
-    <li><strong>Solution</strong>: Compared between displaying a modal when the user visits his dashboard, sending them a message in notification center, and displaying a banner in every page until the user clicks a "got it" button; we find that the second has insufficient visibility and the third may disturb the a user's current task (even if reducing it to a weaker version that to display the banner in a subset of all pages), while the first has minimum drawback. Additionally, an email should be sent to the users separately, in order to notify those who do not use the web console of the product frequently.</li>
+    <li><strong>Solution</strong>: Having compared among displaying a modal when the user visits his dashboard, sending them a message in notification center, and displaying a banner in every page until the user clicks a "got it" button; we find that the second has insufficient visibility and the third may disturb the user's current task (even if reducing it to a weaker version that to display the banner in a subset of all pages), while the first has minimum drawback. Additionally, an email should be sent to the users separately, in order to notify those who do not use the web console of the product frequently.</li>
 </ul>
 <h3>Round 2: Interaction Problem &amp; Solution</h3>
 
@@ -188,7 +190,7 @@ In each round, three steps can be found:
 
 <ol>
     <li>Understand the problem.</li>
-    <li>Find solutions.</li>
+    <li>Find possible solutions.</li>
     <li>Choose one.</li>
 </ol>
 
@@ -196,11 +198,9 @@ Sometimes the second and the third can be put together.
 
 Also, it is apparent that the *solution* of the *[N]th* round demonstrates the problem of the *[N+1]th* round.
 
-The example is quite simplified. In different phases of the product, the concentration differs along with the foundations getting maturer. And multiple-to-multiple relations are not illustrated.
+The example is quite simplified. In different phases of the product, the concentration differs as the product gets maturer. And multiple-to-multiple relations are not illustrated above.
 
-This model might also be applied to other contexts.
-
-
+This model might also be applied to other contexts, while more reseaches are needed.
 
 
 

@@ -4,7 +4,7 @@ xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/el
 xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
     <channel>
-        <title>Joy Neop</title>
+        <title>Joy Neop (a.k.a. Neruthes)</title>
         <atom:link href="https://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />
         <link>https://joyneop.xyz/blog/</link>
         <description>Do what you want to do. Be what you want to be.</description>
@@ -14,7 +14,7 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
         <sy:updateFrequency>1</sy:updateFrequency>
 	    <generator>https://joyneop.xyz/blog/</generator>
         <item>
-            <title>GitHub Pages + CloudFlare = CDN</title>
+            <title>GitHub + CloudFlare = CDN</title>
             <link>https://joyneop.xyz/blog/?p=125</link>
             <pubDate>Aug 26, 2016 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
@@ -32,7 +32,7 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
 <p>In the settings of this repository, I changed source branch that generates GitHub Pages, from the default <code>gh-pages</code> to <code>master</code>.</p>
 
 <h3>3. Push To Multiple Remotes</h3>
-<p>On my local device, which I originally push to <code>https://github.com/joyneop/gay-pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:</p>
+<p>On my local device, where I originally push to <code>https://github.com/joyneop/gay-pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:</p>
 <pre>
 $ git remote add cdn https://github.com/neopcdn/gay-pride.js.git
 </pre>
@@ -43,10 +43,11 @@ $ git push cdn master
 </pre>
 <p>It is also possible to set two URLs as different destinations of the same remote, which would allow one to push to both by simply pushing to <code>origin</code>.</p>
 
-<h3>Conclution</h3>
+<h3>4. Set Up CloudFlare</h3>
+<p>Then I created a CNAME record to point `cdn.neop.me` to `neopcdn.github.io` on CloudFlare, and turned on CDN feature for this record. This would take advantage of free SSL by CloudFlare.</p>
+
+<h3>Conclusion</h3>
 <p>Now, for a file like <a href="https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js" target="_blank">https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js</a>, anyone can access it through <a href="https://cdn.neop.me/gay-pride.js/pride.js" target="_blank">https://cdn.neop.me/gay-pride.js/pride.js</a>, with correct Contnet-Type and Access-Control-Allow-Origin.</p>
-<p></p>
-<code></code>
 
 ]]>
             </content:encoded>
@@ -123,7 +124,7 @@ My answer to the meaning of the life is that there is no meaning granted by a gr
 <p>The first round is to outline a product problem and introduce a product design, as exemplified:</p>
 <ul>
     <li><strong>Problem</strong>: Deliver a message to the users that the pricing will soon be changed (which may become statistically more expensive), introducing the new pricing model clear enough, avoiding them dismissing the message without reading carefully if they get bored after feeling it wordy, avoiding them complaining about perceived surcharge against their credit cards in the bill following the change coming into effect, comforting them from imaginable negative emotions after knowing this, avoiding interrupting their current tasks, holding as much retention as possible, satisfying upcoming complaints to support department, keeping the public discussion about this event on social media platforms in control.</li>
-    <li><strong>Solution</strong>: Compared between displaying a modal when the user visits his dashboard, sending them a message in notification center, and displaying a banner in every page until the user clicks a "got it" button; we find that the second has insufficient visibility and the third may disturb the a user's current task (even if reducing it to a weaker version that to display the banner in a subset of all pages), while the first has minimum drawback. Additionally, an email should be sent to the users separately, in order to notify those who do not use the web console of the product frequently.</li>
+    <li><strong>Solution</strong>: Having compared among displaying a modal when the user visits his dashboard, sending them a message in notification center, and displaying a banner in every page until the user clicks a "got it" button; we find that the second has insufficient visibility and the third may disturb the user's current task (even if reducing it to a weaker version that to display the banner in a subset of all pages), while the first has minimum drawback. Additionally, an email should be sent to the users separately, in order to notify those who do not use the web console of the product frequently.</li>
 </ul>
 <h3>Round 2: Interaction Problem &amp; Solution</h3>
 <p>The second round is to turn the solution in the first round interactive, as exemplified:</p>
@@ -141,14 +142,13 @@ My answer to the meaning of the life is that there is no meaning granted by a gr
 <p>In each round, three steps can be found:</p>
 <ol>
     <li>Understand the problem.</li>
-    <li>Find solutions.</li>
+    <li>Find possible solutions.</li>
     <li>Choose one.</li>
 </ol>
 <p>Sometimes the second and the third can be put together.</p>
 <p>Also, it is apparent that the <em>solution</em> of the <em>[N]th</em> round demonstrates the problem of the <em>[N+1]th</em> round.</p>
-<p>The example is quite simplified. In different phases of the product, the concentration differs along with the foundations getting maturer. And multiple-to-multiple relations are not illustrated.</p>
-<p>This model might also be applied to other contexts.</p>
-<p></p>
+<p>The example is quite simplified. In different phases of the product, the concentration differs as the product gets maturer. And multiple-to-multiple relations are not illustrated above.</p>
+<p>This model might also be applied to other contexts, while more reseaches are needed.</p>
 
 ]]>
             </content:encoded>
