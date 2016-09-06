@@ -9,7 +9,7 @@
 <p>In the settings of this repository, I changed source branch that generates GitHub Pages, from the default <code>gh-pages</code> to <code>master</code>.</p>
 
 <h3>3. Push To Multiple Remotes</h3>
-<p>On my local device, which I originally push to <code>https://github.com/joyneop/gay-pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:</p>
+<p>On my local device, where I originally push to <code>https://github.com/joyneop/gay-pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:</p>
 <pre>
 $ git remote add cdn https://github.com/neopcdn/gay-pride.js.git
 </pre>
@@ -20,7 +20,8 @@ $ git push cdn master
 </pre>
 <p>It is also possible to set two URLs as different destinations of the same remote, which would allow one to push to both by simply pushing to <code>origin</code>.</p>
 
+<h3>4. Set Up CloudFlare</h3>
+<p>Then I created a CNAME record to point `cdn.neop.me` to `neopcdn.github.io` on CloudFlare, and turned on CDN feature for this record. This would take advantage of free SSL by CloudFlare.</p>
+
 <h3>Conclution</h3>
 <p>Now, for a file like <a href="https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js" target="_blank">https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js</a>, anyone can access it through <a href="https://cdn.neop.me/gay-pride.js/pride.js" target="_blank">https://cdn.neop.me/gay-pride.js/pride.js</a>, with correct Contnet-Type and Access-Control-Allow-Origin.</p>
-<p></p>
-<code></code>
