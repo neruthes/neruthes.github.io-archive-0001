@@ -159,7 +159,7 @@ p a {
 		padding: 0.4cm 0;
 	}
 	.avatar {
-		border: 0.8px solid #B4B4B4;
+		/*border: 0.8px solid #B4B4B4;*/
 	}
 }
 
@@ -171,6 +171,9 @@ p a {
 	}
 	body {
 		max-width: 14.1cm;
+	}
+	.avatar {
+		/*border: 0.8px solid #B4B4B4;*/
 	}
 }
 
@@ -312,7 +315,7 @@ p a {
 		color: #030303;
 	}
 	.avatar {
-		border: 0.5pt solid #585858;
+		border: 1.5pt solid #585858;
 	}
 	.section-heading, .subsection-tagline {
 		color: #55AAFF;
