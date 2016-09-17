@@ -122,6 +122,7 @@
 			} else {
 				theColorInput.style.color = '#FFF';
 			};
+			location.hash = v;
 		};
 	};
 	var load = function () {
@@ -131,6 +132,13 @@
 		var time = setTimeout(function () {
 			document.getElementById('cont').style.opacity = "1";
 		}, 200);
+	};
+	var doThisWhenHasChanges = function () {
+		console.log(location.href);
+		if (location.hash.toUpperCase() !== location.hash) {
+			location.replace(location.href.replace(location.hash, location.hash.toUpperCase()))
+		};
+		document.getElementById('color').value = location.hash;
 	};
 	</script>
 </head>
@@ -143,7 +151,11 @@
 		var xhr = new XMLHttpRequest();
 		xhr.open('GET', './gay.json', true);
 		xhr.onload = function (ev_) {
-			document.getElementById('color').value = pickRandomly(JSON.parse(ev_.target.responseText));
+			if (isValidHexColor(location.hash)) {
+				doThisWhenHasChanges();
+			} else {
+				document.getElementById('color').value = pickRandomly(JSON.parse(ev_.target.responseText));
+			};
 			changeColor();
 			load();
 		};
@@ -155,6 +167,7 @@
 	document.getElementById('cont').addEventListener('click', function () {
 		document.getElementById('color').focus();
 	});
+	window.addEventListener('hashchange', doThisWhenHasChanges);
 	</script>
 </body>
 </html>
