@@ -165,7 +165,7 @@ p a {
 
 @media print {
 	.page-break	{ display: block; page-break-before: always; }
-	.page-start { display: block; height: 1.4cm; }
+	.page-start { display: block; height: 1cm; }
 	.download-button, #theme-selection.theme-selection {
 		display: none;
 	}
