@@ -1,0 +1,30 @@
+<style>
+body {
+    background: #202020 url(/portfolio/img/0000201609100000-01.png) scroll repeat top;
+    background-size: 399px;
+}
+.global-text {
+    color: #FFF;
+}
+.post-text {
+    color: #FFF;
+}
+.post-text > aside {
+    color: #FFF;
+}
+.post-text a:link, .post-text a:visited, .post-text a:hover {
+    color: #FFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+</style>
+
+<h2>Archonic Credit Card - Bank of Neoparia</h2>
+
+<figure><img class="lg" src="/portfolio/img/0000201609100001.jpg"></figure>
+<figure><img class="lg" src="/portfolio/img/0000201609100002.jpg"></figure>
+<figure><img class="lg" src="/portfolio/img/0000201609100003.jpg"></figure>
+<figure><img class="lg" src="/portfolio/img/0000201609100004.jpg"></figure>
+
+<p>Registered trademarks may be mentioned without "®" or "™". Marks with the "®" symbol may be parody.</p>
+
+<aside><strong>Dark Planet</strong> wallpapers are available in <a href="/wallpapers/downloads/Dark%20Planet%20Horizontal.png" target="_blank">horizontal</a> and <a href="/wallpapers/downloads/Dark%20Planet%20Vertical.png" target="_blank">vertical</a>.</aside>

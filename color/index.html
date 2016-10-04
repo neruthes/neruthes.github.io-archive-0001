@@ -63,6 +63,39 @@
 	</style>
 	<script src="/js/special.js"></script>
 	<script type="text/javascript">
+	var myColors = [
+		"#9764E0",
+		"#2B499F",
+		"#2BB7FF",
+		"#8199FF",
+		"#FF5E3A",
+		"#30E7C8",
+		"#125D99",
+		"#90CD7A",
+		"#4BC6E3",
+		"#0E3C60",
+		"#6CDB49",
+		"#0DD719",
+		"#1AD0FD",
+		"#2BBBF8",
+		"#236895",
+		"#F8A713",
+		"#4C55A6",
+		"#B1D6C6",
+		"#387BE0",
+		"#AF9FEA",
+		"#1CA9F9",
+		"#FD8B4A",
+		"#3A8FB7",
+		"#A59279",
+		"#FB9966",
+		"#5DAC81",
+		"#51717E",
+		"#98BAD0",
+		"#003E09",
+		"#6B87A1",
+		"#393939"
+	];
 	var pickRandomly = function (arr) {
 		return arr[ Math.floor(Math.random()*arr.length) ];
 	};
@@ -116,12 +149,13 @@
 			theColorInput.style.opacity = "1";
 			document.getElementById('body').style.backgroundColor = v;
 			theColorInput.style.backgroundColor = v;
-			document.title = v;
+			document.title = v.toUpperCase();
 			if (isColorBright(v)) {
 				theColorInput.style.color = '#000';
 			} else {
 				theColorInput.style.color = '#FFF';
 			};
+			location.hash = v.toUpperCase();
 		};
 	};
 	var load = function () {
@@ -132,6 +166,20 @@
 			document.getElementById('cont').style.opacity = "1";
 		}, 200);
 	};
+	var hashChangeEventHandler = function (ev) {
+		ev.preventDefault();
+		console.log(location.href);
+		console.log(ev);
+		console.log(ev.newURL.slice(ev.newURL.indexOf('#')).toUpperCase());
+		if (location.hash.toUpperCase() !== location.hash) {
+			// If not a capitalization change
+			location.hash = location.hash.toUpperCase();
+		};
+		if (document.getElementById('color').value.toUpperCase() !== ev.newURL.slice(ev.newURL.indexOf('#')).toUpperCase()) {
+			// If the new hash is not equal to current <input> value
+			document.getElementById('color').value = location.hash.toUpperCase();
+		};
+	};
 	</script>
 </head>
 <body id="body">
@@ -139,22 +187,22 @@
 		<input type="text" value="#FFFFFF" name="color" id="color" oninput="changeColor()" autocomplete="off" autofocus>
 	</div>
 	<script type="text/javascript">
-	(function () {
-		var xhr = new XMLHttpRequest();
-		xhr.open('GET', './gay.json', true);
-		xhr.onload = function (ev_) {
-			document.getElementById('color').value = pickRandomly(JSON.parse(ev_.target.responseText));
-			changeColor();
-			load();
+
+	if (isValidHexColor(location.hash)) {
+		console.log(location.href);
+		if (location.hash.toUpperCase() !== location.hash) {
+			location.replace(location.href.replace(location.hash, location.hash.toUpperCase()))
 		};
-		xhr.onerror = function () {
-			location.replace(location.href);
-		};
-		xhr.send();
-	})();
+		document.getElementById('color').value = location.hash.toUpperCase();
+	} else {
+		document.getElementById('color').value = pickRandomly(myColors);
+	};
+	changeColor();
+	load();
 	document.getElementById('cont').addEventListener('click', function () {
 		document.getElementById('color').focus();
 	});
+	window.addEventListener('hashchange', hashChangeEventHandler);
 	</script>
 </body>
 </html>

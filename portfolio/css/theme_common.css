@@ -71,7 +71,7 @@ a {
 }
 
 .entry {
-	border-radius: 3px;
+	border-radius: 2px;
 	display: block;
 	overflow: hidden;
 }
@@ -115,9 +115,28 @@ a {
 	margin: 2rem 0 1.8rem;
 }
 
-.post-text > p, .post-text > ul > li, .post-text > ol > li, .post-text > pre {
+.post-text > p, .post-text > ul > li, .post-text > ol > li, .post-text > pre, .post-text > aside {
 	line-height: 1.65em;
 	margin: 17px 0;
+}
+
+.post-text > aside {
+	font-size: 0.75em;
+	font-weight: 100;
+	color: #AAA;
+}
+
+.post-text > aside:last-child {
+	margin-top: 30px;
+}
+
+.post-text > aside:last-child::before {
+	content: " ";
+	background: #DDD;
+	display: block;
+	width: 110px;
+	height: 1px;
+	margin: 0 0 18px;
 }
 
 .post-text > p a {

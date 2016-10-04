@@ -14,7 +14,7 @@ xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/el
 xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"\n\
 xmlns:slash="http://purl.org/rss/1.0/modules/slash/">\n\
     <channel>\n\
-        <title>Joy Neop</title>\n\
+        <title>Joy Neop (a.k.a. Neruthes)</title>\n\
         <atom:link href="https://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />\n\
         <link>https://joyneop.xyz/blog/</link>\n\
         <description>Do what you want to do. Be what you want to be.</description>\n\

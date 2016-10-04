@@ -12,4 +12,4 @@ body {
 
 <h2>Deucalion</h2>
 
-<figure><img class="md" src="/portfolio/img/0000291503210001.jpg"></figure>
+<figure><img class="md" src="/portfolio/img/0000201503210001.jpg"></figure>
