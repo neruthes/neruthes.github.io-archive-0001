@@ -106,7 +106,7 @@ blog.articleContentResponseEventHandler = function (e, targetPID) {
 };
 
 blog.loadTopPosts = function () {
-	for (var i = blog.articlesList.length-1; i > blog.articlesList.length-11; i--) {
+	for (var i = blog.articlesList.length-1; i > blog.articlesList.length-13; i--) {
 		if (blog.doesArticleExist(i)) {
 			blog.request('./db/PID.txt'.replace(/PID/, i), blog.articleContentResponseEventHandlerConstructor(i));
 		};
@@ -138,7 +138,7 @@ blog.main = function () {
 		// This is the list of posts
 		var listInBlogContext = '';
 
-		for (var i = blog.articlesList.length-1; i > blog.articlesList.length-11; i--) {
+		for (var i = blog.articlesList.length-1; i > blog.articlesList.length-13; i--) {
 			if (blog.doesArticleExist(i)) {
 				if (blog.articlesList[String(i)].T) {
 					stringInBlogContext += regularPostSectionTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, blog.articlesList[String(i)].T ? blog.articlesList[String(i)].T : '[Untitled Post]').replace(/__DATE__/g, blog.articlesList[String(i)].D);
