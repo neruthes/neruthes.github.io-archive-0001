@@ -24,6 +24,10 @@ blog.claimPrefetch = function (pid) {
 	link.setAttribute('rel', 'prefetch');
 	link.setAttribute('href', '/blog/db/' + pid + '.txt');
 	document.head.appendChild(link);
+	var link2 = document.createElement('link');
+	link2.setAttribute('rel', 'subresource');
+	link2.setAttribute('href', '/blog/db/' + pid + '.txt');
+	document.head.appendChild(link2);
 };
 
 blog.getNearbyPID = function (adj) {
