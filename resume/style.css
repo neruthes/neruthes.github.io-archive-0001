@@ -93,7 +93,7 @@ h3 .duration {
 }
 
 p {
-	line-height: 1.45em;
+	line-height: 1.4em;
 	margin: 0 0 4pt;
 }
 
@@ -141,7 +141,7 @@ p a {
 @media only screen and (min-width: 768px) {
 	body {
 		max-width: 13.4cm;
-		padding: 0 2.5cm 0;
+		padding: 0 2.cm 0;
 		zoom: 1.25;
 	}
 	.grand.cont {
@@ -275,7 +275,7 @@ h3 .duration {
 
 p {
 	font-weight: 300;
-	letter-spacing: 0.01rem;
+	/*letter-spacing: 0.01rem;*/
 	color: #030303;
 }
 
