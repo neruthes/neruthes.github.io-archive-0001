@@ -170,7 +170,7 @@ p a {
 		display: none;
 	}
 	body {
-		max-width: 14.1cm;
+		max-width: 15.4cm;
 	}
 	.avatar {
 		/*border: 0.8px solid #B4B4B4;*/
@@ -285,6 +285,7 @@ p a {
 
 .ref {
 	font-weight: 300;
+	font-style: italic;
 	color: #999;
 }
 
