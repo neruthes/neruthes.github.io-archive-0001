@@ -225,6 +225,18 @@
 	a, a:link, a:visited, a:hover, a:active {
 		text-decoration: none;
 	}
+	#js-toggleDelegationLicenseDisplay {
+		cursor: pointer;
+	}
+	#delegation-license-text {
+		text-align: left;
+		max-width: 700px;
+		padding: 10px 20px;
+		margin: 0 auto;
+	}
+	#delegation-license-text[data-display="none"] {
+		display: none;
+	}
 	</style>
 	<script src="/js/special.js"></script>
 </head>
@@ -252,6 +264,23 @@
 		</div>
 		<div class="link">
 			<a href="/">&copy; Copyright <script type="text/javascript">document.write((new Date()).getFullYear());</script> All Rights Reserved by Joy Neop</a>
+			<div>
+				<span id="js-toggleDelegationLicenseDisplay" onclick="toggleDelegationLicenseDisplay()">App Store Distribution Delegation License</span>
+				<aside id="delegation-license-text" data-display="none">
+					I hereby grant Jinyu Meng (or "Megabits") 5 years long, revokable, non-exclusive license to distribute these 18 "Kotomatsu" stickers on App Store, the software distribution platform operated by Apple Inc in California or its related parties, as long as the sticker pack abovementioned is provieded to any App Store user for free ($0.00) and is with the name "Kotomatsu by Joy Neop" or "Kotomatsu by Neruthes". Upon any DMCA take-down request, Megabits may take down the content without any notification.
+				</aside>
+				<script>
+				var toggleDelegationLicenseDisplay = function () {
+					if (document.getElementById('delegation-license-text').getAttribute('data-display') == 'none') {
+						document.getElementById('delegation-license-text').setAttribute('data-display', 'block');
+					} else {
+						document.getElementById('delegation-license-text').setAttribute('data-display', 'none');
+					};
+				};
+				</script>
+			</div>
+		</div>
+		<div class="link">
 		</div>
 	</footer>
 </div>
