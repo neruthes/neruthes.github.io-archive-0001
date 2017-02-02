@@ -1,0 +1,28 @@
+<style>
+body {
+    background: #000;
+}
+.global-text {
+    color: #FFF;
+}
+.post-text {
+    color: #FFF;
+}
+.post-text > aside {
+    color: #FFF;
+}
+.post-text a:link, .post-text a:visited, .post-text a:hover {
+    color: #FFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+aside {
+    opacity: 0.5;
+}
+</style>
+
+<!-- <h2>Jisuan Institute of Technology</h2> -->
+
+<figure><img class="sm" src="/portfolio/img/0000201612260001.png"></figure>
+<figure><img class="lg" src="/portfolio/img/0000201612260002.png"></figure>
+
+<aside>Jisuan Institute of Technology was an internal ideation in Jisuanke.com, therefore it might not be officially launched any soon. Not even sure wether would it be launched.</aside>

@@ -1,7 +1,7 @@
 <style>
 </style>
 
-<h2>The Path Of Adolescence</h2>
+<h2>The Path Of Youth</h2>
 
 <figure><img class="sm" src="/portfolio/img/0000201407120001.jpg"></figure>
 

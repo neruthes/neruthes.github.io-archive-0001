@@ -58,7 +58,7 @@ It is also possible to set two URLs as different destinations of the same remote
 
 <h3>4. Set Up CloudFlare</h3>
 
-Then I created a CNAME record to point `cdn.neop.me` to `neopcdn.github.io` on CloudFlare, and turned on CDN feature for this record. This would take advantage of free SSL by CloudFlare.
+Then I created a CNAME record to point <code>cdn.neop.me</code> to <code>neopcdn.github.io</code> on CloudFlare, and turned on CDN feature for this record. This would take advantage of free SSL by CloudFlare.
 
 
 <h3>Conclusion</h3>
@@ -899,22 +899,6 @@ After lunch, we got to the agency which had handled my applications. My mother a
 
 Several years later, today will be considered as my most essential day in 2013, even in my entire lifetime.
 
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Poster Template for Hackers Community in High Schools
-
-Post #81 / Date: September 29, 2013
-
-
-<figure>
-<img src="./img/0000201309290001.jpg">
-</figure>
 
 
 

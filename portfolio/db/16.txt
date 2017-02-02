@@ -16,9 +16,12 @@ body {
     color: #FFF;
     border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
+aside {
+    opacity: 0.5;
+}
 </style>
 
-<h2>Archonic Credit Card - Bank of Neoparia</h2>
+<h2>Archonic Credit Card — Bank of Neoparia</h2>
 
 <figure><img class="lg" src="/portfolio/img/0000201609100001.jpg"></figure>
 <figure><img class="lg" src="/portfolio/img/0000201609100002.jpg"></figure>

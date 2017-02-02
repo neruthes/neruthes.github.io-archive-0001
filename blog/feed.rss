@@ -44,7 +44,7 @@ $ git push cdn master
 <p>It is also possible to set two URLs as different destinations of the same remote, which would allow one to push to both by simply pushing to <code>origin</code>.</p>
 
 <h3>4. Set Up CloudFlare</h3>
-<p>Then I created a CNAME record to point `cdn.neop.me` to `neopcdn.github.io` on CloudFlare, and turned on CDN feature for this record. This would take advantage of free SSL by CloudFlare.</p>
+<p>Then I created a CNAME record to point <code>cdn.neop.me</code> to <code>neopcdn.github.io</code> on CloudFlare, and turned on CDN feature for this record. This would take advantage of free SSL by CloudFlare.</p>
 
 <h3>Conclusion</h3>
 <p>Now, for a file like <a href="https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js" target="_blank">https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js</a>, anyone can access it through <a href="https://cdn.neop.me/gay-pride.js/pride.js" target="_blank">https://cdn.neop.me/gay-pride.js/pride.js</a>, with correct Contnet-Type and Access-Control-Allow-Origin.</p>
@@ -699,20 +699,6 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 <p>We then took the listening section, reading section, and writing section. The listening section was a conversation between a student and a clerk in bookstore, discussing discount policy for students. The article was about the construction of Snowy Mountain Scheme, a hydro-electric power station in Australia. Finally the writing section was to describe a graph exposing the wheat exports of European Community, Australia, and Canada, from 1985 to 1990. It was not a good performance.</p>
 <p>After lunch, we got to the agency which had handled my applications. My mother and I talked with Mr Xing about my destinations, and chose several universities. I asked if it would be ok for me to apply for universities ranked such high, considering I won't take SAT, and seemingly my IELTS score won't be greater than 6. He convinced me that they could manage it. And I registered for the IELTS on Dec 14, 2013.</p>
 <p>Several years later, today will be considered as my most essential day in 2013, even in my entire lifetime.</p>
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>Poster Template for Hackers Community in High Schools</title>
-            <link>https://joyneop.xyz/blog/?p=81</link>
-            <pubDate>September 29, 2013 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=81</guid>
-            <content:encoded>
-<![CDATA[
-<figure>
-<img src="./img/0000201309290001.jpg">
-</figure>
 ]]>
             </content:encoded>
         </item>
