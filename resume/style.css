@@ -1,5 +1,5 @@
 @import url(/fonts/seravek.css);
-@import url(/fonts/erato.css);
+/*@import url(/fonts/erato.css);*/
 
 
 /* ----------------------------------------------------------- */
@@ -53,7 +53,6 @@ a {
 .contact em {
 	font-style: normal;
 	display: inline-block;
-	width: 130px;
 }
 
 .main {
@@ -67,7 +66,7 @@ a {
 	font-size: 18pt;
 	letter-spacing: 0.10rem;
 	padding-top: 8pt;
-	margin: 0 0 13pt -10pt;
+	margin: 0 0 13pt;
 }
 
 .subsection-tagline {
@@ -86,7 +85,7 @@ h3 {
 h3 .job {
 	box-sizing: border-box;
 	display: inline-block;
-	min-width: 7cm;
+	min-width: 8cm;
 }
 
 h3 .duration {
@@ -121,11 +120,10 @@ p a {
 		border-radius: 3px;
 		letter-spacing: 0.03rem;
 		text-align: center;
-		text-shadow: rgba(0, 0, 0, 0.1533333333) 0 1px 1px;
 		display: block;
 		box-sizing: border-box;
 		height: 70px;
-		padding: 1.25em 0;
+		padding: 1.35em 0 0;
 		margin: 30px auto 0;
 	}
 	.download-button.played {
@@ -140,7 +138,7 @@ p a {
 
 @media only screen and (min-width: 768px) {
 	body {
-		max-width: 13.4cm;
+		max-width: 15.8cm;
 		padding: 0 2.cm 0;
 		zoom: 1.25;
 	}
@@ -170,7 +168,7 @@ p a {
 		display: none;
 	}
 	body {
-		max-width: 15.4cm;
+		max-width: 15.8cm;
 	}
 	.avatar {
 		/*border: 0.8px solid #B4B4B4;*/
@@ -215,12 +213,13 @@ body {
 
 .avatar {
 	border-radius: 100cm;
-	width: 3.38cm;
-	height: 3.38cm;
+	width: 3.2cm;
+	height: 3.2cm;
 }
 
 h1 {
 	font-weight: 400;
+	letter-spacing: 0.5pt;
 	color: #030303;
 }
 
@@ -229,15 +228,14 @@ a {
 
 .contact {
 	font-weight: 300;
+	letter-spacing: 0.03em;
 	color: #444;
 }
 
-.contact span {
-}
-
-.contact span em {
+.contact em {
 	font-style: normal;
-	width: 130px;
+	display: inline-block;
+	width: 75px;
 }
 
 .main {
@@ -249,9 +247,9 @@ a {
 }
 
 .section-heading {
-	font-weight: 400;
+	font-weight: 200;
 	color: #2B8CD2;
-	letter-spacing: 0.10rem;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	border-bottom: 0.8px solid #E5E5E5;
 	padding-bottom: 6pt;
@@ -265,11 +263,14 @@ a {
 }
 
 h3 {
-	font-weight: 500;
+	font-weight: 600;
+	color: #000;
 }
 
 h3 .duration {
 	font-weight: 200;
+	/*-webkit-font-variant-numeric: tabular-nums;*/
+	font-variant-numeric: tabular-nums;
 	color: #7A7A7A;
 }
 
@@ -286,7 +287,7 @@ p a {
 .ref {
 	font-weight: 300;
 	font-style: italic;
-	color: #999;
+	color: #BBB;
 }
 
 
@@ -325,11 +326,10 @@ p a {
 		border-bottom: 0.5pt solid #DDD;
 	}
 	h3 .duration, .ref {
-		color: #999;
+		color: #BBB;
 	}
 	p {
-		/*font-family: 'Charter', 'Andron Freefont LAT', 'Danton-Light', Danton, 'Iowan Old Style', 'Diaria Pro', 'FF Meta Serif', 'Freight Text Pro', Merriweather, Charter, Georgia, 'Times New Roman', 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', serif;*/
-		color: #030303;
+		color: #000;
 	}
 }
 
