@@ -1,0 +1,44 @@
+@media screen and (max-width: 999px) {
+	html, body {
+		font-size: 12px;
+	}
+
+	.global {
+		text-align: center;
+		margin: 60px 30px;
+		padding: 20px 60px 0;
+	}
+
+	#global-footer {
+		font-size: 0.9rem;
+	}
+
+	#cont.cont {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin: 60px 10px;
+	}
+
+	nav.prevandnext {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+@media screen and (max-width: 619px) {
+	.post {
+		margin: 30px 0 80px;
+		padding: 20px 10px 60px;
+	}
+	nav.prevandnext {
+		margin: 30px 14px;
+	}
+}
+
+@media screen and (min-width: 620px) and (max-width: 1099px) {
+	.post, nav.prevandnext {
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

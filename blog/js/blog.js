@@ -171,7 +171,7 @@ blog.main = function () {
 				postTitle = '[Untitled Post]';
 				stringInBlogContext = untitledPostSectionTemplate.replace(/__INDEX__/g, blog.getPID()).replace(/__TITLE__/g, blog.articlesList[String(blog.getPID())].T).replace(/__DATE__/g, blog.articlesList[blog.getPID()].D);
 			};
-			document.title = postTitle + ' — Joy Neop';
+			document.title = postTitle + ' — Joy Neop (a.k.a. Neruthes)';
 			BlogContext.innerHTML = stringInBlogContext;
 			blog.loadCurrentPost(blog.getPID());
 		} else {

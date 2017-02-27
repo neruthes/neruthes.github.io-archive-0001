@@ -1,0 +1,43 @@
+@import url(/fonts/seravek.css);
+@import url(/fonts/erato.css);
+
+html, body, pre, code {
+	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+	font-size: 10px;
+	font-weight: 200;
+	color: #444;
+	background-color: #EEE;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.global a {
+	text-decoration: none;
+}
+
+.figure, .figure img {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+nav.prevandnext span, nav.prevandnext span a {
+	font-size: 1.414rem;
+	font-weight: 200;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: block;
+	padding: 1em 0.4em;
+}
+
+footer.global {
+	font-size: 1.4rem;
+	font-weight: 200;
+	color: #585858;
+	text-align: center;
+}

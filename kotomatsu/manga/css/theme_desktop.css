@@ -1,0 +1,27 @@
+@media screen and (min-width: 1000px) {
+	html, body {
+		font-size: 10px;
+	}
+
+	.global {
+		text-align: center;
+		width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 60px;
+	}
+
+	#global-footer {
+		padding: 50px;
+	}
+
+	#cont.cont {
+		width: 740px;
+		margin: 0 auto;
+	}
+
+	nav.prevandnext {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+}
