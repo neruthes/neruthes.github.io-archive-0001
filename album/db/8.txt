@@ -13,4 +13,4 @@ body {
 
 <h2>Rainly Lily</h2>
 
-<figure><img class="lg" src="/portfolio/img/0000201406250001.jpg"></figure>
+<figure><img class="lg" src="/album/img/0000201406250001.jpg"></figure>

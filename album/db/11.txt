@@ -1,0 +1,24 @@
+<style>
+body {
+    background: #1A1A1A;
+}
+.global-text {
+    color: #FFF;
+}
+.post-text {
+    //font-family: 'Erato', 'Times New Roman', serif;
+    color: #FFF;
+}
+</style>
+
+<h2>Geek/stay night</h2>
+
+<figure><img class="sm" src="/album/img/0000201410240001.png"><figcaption>Logo</figcaption></figure>
+
+<figure><img class="sm" src="/album/img/0000201410240002.jpg"><figcaption>[Poster] Geek/stay night: Gate</figcaption></figure>
+<figure><img class="sm" src="/album/img/0000201410240003.jpg"><figcaption>[Poster] Geek/stay night: Unlimited Recursion Works</figcaption></figure>
+<figure><img class="sm" src="/album/img/0000201410240004.jpg"><figcaption>[Poster] Geek/stay night: Algorithm's Feel</figcaption></figure>
+
+<figure><img class="md" src="/album/img/0000201410240005.png"><figcaption>[Background Wall] Geek/stay night: Gate</figcaption></figure>
+<figure><img class="md" src="/album/img/0000201410240006.png"><figcaption>[Background Wall] Geek/stay night: Unlimited Recursion Works</figcaption></figure>
+<figure><img class="md" src="/album/img/0000201410240007.png"><figcaption>[Background Wall] Geek/stay night: Algorithm's Feel</figcaption></figure>

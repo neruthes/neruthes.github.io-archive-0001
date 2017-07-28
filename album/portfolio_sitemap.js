@@ -27,7 +27,7 @@ listJson.length = (function (list) {
 
 var maxId = listJson.length-1;
 for (var i = 0; i <= maxId && i < listJson.length; i++) {
-	accumulate = postTemplate.replace(/__LOC__/g, 'https://joyneop.xyz/portfolio/?p=' + i) + accumulate;
+	accumulate = postTemplate.replace(/__LOC__/g, 'https://joyneop.xyz/album/?p=' + i) + accumulate;
 };
 
 

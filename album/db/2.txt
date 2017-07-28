@@ -11,6 +11,6 @@ body {
 }
 </style>
 
-<h2>Lonely Leaf</h2>
+<h2>Leaves Horizon</h2>
 
-<figure><img class="lg" src="/portfolio/img/0000201311090001.jpg"></figure>
+<figure><img class="lg" src="/album/img/0000201311030001.jpg"></figure>

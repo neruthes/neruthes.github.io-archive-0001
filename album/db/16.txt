@@ -1,6 +1,6 @@
 <style>
 body {
-    background: #202020 url(/portfolio/img/0000201609100000-01.png) scroll repeat top;
+    background: #202020 url(/album/img/0000201609100000-01.png) scroll repeat top;
     background-size: 399px;
 }
 .global-text {
@@ -23,10 +23,10 @@ aside {
 
 <h2>Archonic Credit Card — Bank of Neoparia</h2>
 
-<figure><img class="lg" src="/portfolio/img/0000201609100001.jpg"></figure>
-<figure><img class="lg" src="/portfolio/img/0000201609100002.jpg"></figure>
-<figure><img class="lg" src="/portfolio/img/0000201609100003.jpg"></figure>
-<figure><img class="lg" src="/portfolio/img/0000201609100004.jpg"></figure>
+<figure><img class="lg" src="/album/img/0000201609100001.jpg"></figure>
+<figure><img class="lg" src="/album/img/0000201609100002.jpg"></figure>
+<figure><img class="lg" src="/album/img/0000201609100003.jpg"></figure>
+<figure><img class="lg" src="/album/img/0000201609100004.jpg"></figure>
 
 <p>Registered trademarks may be mentioned without "®" or "™". Marks with the "®" symbol may be parody.</p>
 

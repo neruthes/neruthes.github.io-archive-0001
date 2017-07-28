@@ -22,7 +22,7 @@ app.request = function (url, callback) {
 app.claimPrefetch = function (pid) {
 	var link = document.createElement('link');
 	link.setAttribute('rel', 'prefetch');
-	link.setAttribute('href', '/portfolio/db/' + pid + '.txt');
+	link.setAttribute('href', '/album/db/' + pid + '.txt');
 	document.head.appendChild(link);
 };
 

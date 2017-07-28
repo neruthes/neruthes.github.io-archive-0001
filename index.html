@@ -6,7 +6,7 @@
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" href="/joyneop.png">
 	<link rel="subresource" href="/blog/list.json">
-	<link rel="subresource" href="/portfolio/list.json">
+	<link rel="subresource" href="/album/list.json">
 	<link rel="subresource" href="/kotomatsu/1.jpg">
 	<link rel="subresource" href="/kotomatsu/2.jpg">
 	<link rel="subresource" href="/kotomatsu/3.jpg">
@@ -26,7 +26,7 @@
 	<link rel="subresource" href="/kotomatsu/17.jpg">
 	<link rel="subresource" href="/kotomatsu/18.jpg">
 	<link rel="prefetch" href="/blog/list.json">
-	<link rel="prefetch" href="/portfolio/list.json">
+	<link rel="prefetch" href="/album/list.json">
 	<link rel="prefetch" href="/kotomatsu/1.jpg">
 	<link rel="prefetch" href="/kotomatsu/2.jpg">
 	<link rel="prefetch" href="/kotomatsu/3.jpg">
@@ -91,8 +91,8 @@
 						<span>BLOG</span>
 					</a>
 				</div><div class="circle lab">
-					<a href="/portfolio/">
-						<span>PORTFOLIO</span>
+					<a href="/album/">
+						<span>ALBUM</span>
 					</a>
 				</div>
 			</section>
@@ -210,7 +210,7 @@
 	<script>
 	(function () {
 		var x = new XMLHttpRequest();
-		x.open('GET', '/portfolio/list.json', true);
+		x.open('GET', '/album/list.json', true);
 		x.onload = function (ev) {
 			var _cache = function (_url) {
 				var xhr = new XMLHttpRequest();
@@ -220,7 +220,7 @@
 			};
 			var list = JSON.parse(ev.target.responseText);
 			Object.keys(list).map(function (key) {
-				_cache('/portfolio/covers/' + key + '.jpg');
+				_cache('/album/covers/' + key + '.jpg');
 			});
 		};
 		x.send();

@@ -11,8 +11,6 @@ body {
 }
 </style>
 
-<h2>Woodstocky</h2>
+<h2>Pink Wall</h2>
 
-<figure><img class="lg" src="/portfolio/img/0000201407300001.jpg"></figure>
-
-<p>He was a cute boy.</p>
+<figure><img class="lg" src="/album/img/0000201406240001.jpg"></figure>

@@ -12,4 +12,4 @@ body {
 
 <h2>Green Works</h2>
 
-<figure><img class="md" src="/portfolio/img/0000201608280001.jpg"></figure>
+<figure><img class="md" src="/album/img/0000201608280001.jpg"></figure>

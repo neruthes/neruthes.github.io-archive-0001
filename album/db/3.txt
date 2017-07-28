@@ -11,6 +11,6 @@ body {
 }
 </style>
 
-<h2>Pink Wall</h2>
+<h2>Lonely Leaf</h2>
 
-<figure><img class="lg" src="/portfolio/img/0000201406240001.jpg"></figure>
+<figure><img class="lg" src="/album/img/0000201311090001.jpg"></figure>

@@ -10,6 +10,6 @@ body {
 }
 </style>
 
-<h2>Auromna</h2>
+<h2>Visionary</h2>
 
-<figure><img class="lg" src="/portfolio/img/0000201407050001.jpg"></figure>
+<figure><img class="lg" src="/album/img/0000201407100001.jpg"></figure>

@@ -22,8 +22,8 @@ aside {
 
 <!-- <h2>Macintosh Classic Iconset</h2> -->
 
-<figure><img class="sm" src="/portfolio/img/0000201707280001.png"></figure>
-<figure><img class="lg" src="/portfolio/img/0000201707280002.png"></figure>
-<figure><img class="full" src="/portfolio/img/0000201707280003.png"></figure>
+<figure><img class="sm" src="/album/img/0000201707280001.png"></figure>
+<figure><img class="lg" src="/album/img/0000201707280002.png"></figure>
+<figure><img class="full" src="/album/img/0000201707280003.png"></figure>
 
 <aside>This project is still under construction. A release can be expected soon.</aside>
