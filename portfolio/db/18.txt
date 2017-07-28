@@ -1,0 +1,29 @@
+<style>
+body {
+    background: #000;
+}
+.global-text {
+    color: #FFF;
+}
+.post-text {
+    color: #FFF;
+}
+.post-text > aside {
+    color: #FFF;
+}
+.post-text a:link, .post-text a:visited, .post-text a:hover {
+    color: #FFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+aside {
+    opacity: 0.5;
+}
+</style>
+
+<!-- <h2>Macintosh Classic Iconset</h2> -->
+
+<figure><img class="sm" src="/portfolio/img/0000201707280001.png"></figure>
+<figure><img class="lg" src="/portfolio/img/0000201707280002.png"></figure>
+<figure><img class="full" src="/portfolio/img/0000201707280003.png"></figure>
+
+<aside>This project is still under construction. A release can be expected soon.</aside>
