@@ -20,7 +20,7 @@ aside {
 }
 </style>
 
-<!-- <h2>Macintosh Classic Iconset</h2> -->
+<h2>Macintosh Classic Iconset</h2>
 
 <figure><img class="sm" src="/album/img/0000201707280001.png"></figure>
 <figure><img class="lg" src="/album/img/0000201707280002.png"></figure>
