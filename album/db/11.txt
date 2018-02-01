@@ -13,6 +13,9 @@ body {
 
 <h2>Geek/stay night</h2>
 
+<p>This project started as an offline meetup/party series themed in Computer Science and Japanese ACG in a certain social group, when I was about to graduate from high school.</p>
+<p>Unfortunately, we did not have the opportunities for such gatherings. The branding and the domain name which were already prepared were then reserved for chances in the future.</p>
+
 <figure><img class="sm" src="/album/img/0000201410240001.png"><figcaption>Logo</figcaption></figure>
 
 <figure><img class="sm" src="/album/img/0000201410240011.jpg"><figcaption>[Poster] Geek/stay night: Hacking To The Gate</figcaption></figure>
