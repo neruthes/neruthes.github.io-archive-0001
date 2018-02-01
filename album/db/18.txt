@@ -1,19 +1,18 @@
 <style>
 body {
-    background: #000;
 }
 .global-text {
-    color: #FFF;
+    color: #000;
 }
 .post-text {
-    color: #FFF;
+    color: #000;
 }
 .post-text > aside {
-    color: #FFF;
+    color: #555;
 }
 .post-text a:link, .post-text a:visited, .post-text a:hover {
-    color: #FFF;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    color: #000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
 }
 aside {
     opacity: 0.5;
