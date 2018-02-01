@@ -110,6 +110,7 @@ app.loadCurrentPost = function () {
 };
 
 app.doesArticleExist = function (pid) {
+	console.log(pid);
 	if (app.articlesList[String(pid)].T !== 0) {
 		return true;
 	} else {
