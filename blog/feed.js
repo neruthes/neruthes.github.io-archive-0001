@@ -17,7 +17,7 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">\n\
         <title>Joy Neop (a.k.a. Neruthes)</title>\n\
         <atom:link href="https://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />\n\
         <link>https://joyneop.xyz/blog/</link>\n\
-        <description>Do what you want to do. Be what you want to be.</description>\n\
+        <description>8F45 D723 57EE B6C5 5666 2C8D 68A0 B4B6 EEF9 762A</description>\n\
         <lastBuildDate>__DATE__ 09:41:00 +0000</lastBuildDate>\n\
         <language>en-US</language>\n\
         <sy:updatePeriod>hourly</sy:updatePeriod>\n\
