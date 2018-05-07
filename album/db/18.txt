@@ -24,5 +24,7 @@ aside {
 <figure><img class="sm" src="/album/img/0000201707280001.png"></figure>
 <figure><img class="lg" src="/album/img/0000201707280002.png"></figure>
 <figure><img class="full" src="/album/img/0000201707280003.png"></figure>
+<figure><img class="full" src="/album/img/0000201707280004.png"></figure>
+<figure><img class="full" src="/album/img/0000201707280005.png"></figure>
 
 <aside>This project is still under construction. The icons are available on <a target="_blank" href="https://github.com/joyneop/monochrome-icons-mac">GitHub</a>.</aside>
