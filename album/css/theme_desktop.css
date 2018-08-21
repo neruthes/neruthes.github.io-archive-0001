@@ -64,7 +64,7 @@
 		font-size: 2em;
 	}
 
-	.post h2, .post-text > p, .post-text > aside {
+	.post h2, .post h3, .post h4, .post-text > p, .post-text > aside {
 		width: 612px;
 		margin-left: auto;
 		margin-right: auto;

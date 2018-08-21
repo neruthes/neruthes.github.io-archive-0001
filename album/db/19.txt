@@ -1,0 +1,50 @@
+<style>
+body {
+    background: #202020 url(/album/img/0000201609100000-01.png) scroll repeat top;
+    background-size: 399px;
+}
+.global-text {
+    color: #FFF;
+}
+.post-text {
+    color: #FFF;
+}
+.post-text > aside {
+    color: #FFF;
+}
+.post-text a:link, .post-text a:visited, .post-text a:hover {
+    color: #FFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+aside {
+    opacity: 0.5;
+}
+</style>
+
+<h2>Neoparia Commonwealth — Ministry of Foreign Affairs</h2>
+
+<p>The imaginary state Neoparia Commonwealth has long been in existence in my mind, and this is the first time I tried wrapping up the ideas to start getting the details specified. After a short period of comparison, I decided to start with the Ministry of Foreign Affairs.</p>
+
+<h3>Passport</h3>
+
+<p>With the design of split passport, a traveler would have de facto unlimited passport pages for visas and stamps within one validity period, as long as a Neoparian citizen would be able to hold multiple passport booklets which would never expire, since they would only be a container of visas and stamps. The passport card itself would stand as a passport, and the a passport booklet would be optionally available for issuance if a traveler would like to have visas and stamps for collection purposes.</p>
+
+<figure><img class="lg" src="/album/img/0000201808210001.jpg"><figcaption>Passport covers</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210002.jpg"><figcaption>Front cover inner side &amp; Page 1</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210003.jpg"><figcaption>Passport card &amp; placeholder on passport booklet — Page 2 &amp; 3</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210004.jpg"><figcaption>Passport card attached to passport booklet magnetically — Page 2 &amp; 3</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210005.jpg"><figcaption>Passport card — Font &amp; Back</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210006.jpg"><figcaption>Observations — Page 4 &amp; 5</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210007.jpg"><figcaption>Visas &amp; Stamps — Page 6-39</figcaption></figure>
+
+<h3>Visa</h3>
+
+<p>Electronic visas would be preferred by default, but printed visas would be available as well.</p>
+
+<p>If a foreign traveler would like to save passport pages, an entry authorization would be issued, as an alternative to an entry stamp, to certify the entry date of the traveler. In this case, the exit stamp would be given on the entry authorization, instead of on a passport page.</p>
+
+<p>If a Neoparian visa is issued, which allows stay periods of at least 90 days, a Foreign Visitor Card would be issued as well, with the same legal effectiveness of a visa, compatible with Citizen/PR ID Card protocols.</p>
+
+<figure><img class="lg" src="/album/img/0000201808210008.jpg"><figcaption>Neoparian visa with entry and exit stamps</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210009.jpg"><figcaption>Neoparian visa with exit stamp on entry authorization sheet</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210010.jpg"><figcaption>Foreign Visitor Card for holders of certain Neoparian visas</figcaption></figure>

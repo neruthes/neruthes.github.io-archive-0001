@@ -91,7 +91,7 @@ a {
 }
 
 .post h2 {
-	font-size: 2.6rem;
+	font-size: 3.2rem;
 	font-weight: 400;
 	letter-spacing: 1px;
 	margin: 0;
@@ -110,9 +110,15 @@ a {
 }
 
 .post-text > h3 {
-	font-size: 2.6rem;
-	font-weight: 200;
-	margin: 2rem 0 1.8rem;
+	font-size: 2.8rem;
+	font-weight: 500;
+	margin: 3.5rem 0 1.8rem;
+}
+
+.post-text > h4 {
+	font-size: 2.0rem;
+	font-weight: 500;
+	margin: 1.8rem 0 1.6rem;
 }
 
 .post-text > p, .post-text > ul > li, .post-text > ol > li, .post-text > pre, .post-text > aside {
