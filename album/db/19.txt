@@ -1,6 +1,6 @@
 <style>
 body {
-    background: #202020 url(/album/img/0000201609100000-02.png) scroll repeat top;
+    background: rgb(231, 233, 237) url(/album/img/0000201609100000-02.png) scroll repeat top;
     background-size: 399px;
 }
 .global-text {
