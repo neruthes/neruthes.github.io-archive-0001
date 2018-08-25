@@ -30,7 +30,7 @@ aside {
 <p>With the design of split passport, a traveler would have de facto unlimited passport pages for visas and stamps within one validity period, as long as a Neoparian citizen would be able to hold multiple passport booklets which would never expire, since they would only be a container of visas and stamps. The passport card itself would stand as a passport, and the a passport booklet would be optionally available for issuance if a traveler would like to have visas and stamps for collection purposes.</p>
 
 <figure><img class="lg" src="/album/img/0000201808210001.jpg"><figcaption>Passport covers</figcaption></figure>
-<figure><img class="lg" src="/album/img/0000201808210002.jpg"><figcaption>Passport card — Font &amp; Back</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210002.jpg"><figcaption>Passport card — Front &amp; Back</figcaption></figure>
 <figure><img class="lg" src="/album/img/0000201808210003.jpg"><figcaption>Front cover inner side &amp; Page 1</figcaption></figure>
 <figure><img class="lg" src="/album/img/0000201808210004.jpg"><figcaption>Passport card attached to passport booklet magnetically — Page 2 &amp; 3</figcaption></figure>
 <figure><img class="lg" src="/album/img/0000201808210005.jpg"><figcaption>Passport card &amp; placeholder on passport booklet — Page 2 &amp; 3</figcaption></figure>
