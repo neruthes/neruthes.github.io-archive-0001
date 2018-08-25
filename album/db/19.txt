@@ -50,7 +50,8 @@ aside {
 
 <p>If a foreign traveler would like to save passport pages, an entry authorization would be issued, as an alternative to an entry stamp, to certify the entry date of the traveler. In this case, the exit stamp would be given on the entry authorization, instead of on a passport page.</p>
 
-<p>If a Neoparian visa is issued, which allows stay periods of at least 90 days, a Foreign Visitor Card would be issued as well, with the same legal effectiveness of a visa, compatible with Citizen/PR ID Card protocols.</p>
+<p>If a Neoparian visa is issued, which allows stay periods of at least 90 days, a Foreign Visitor Card would be issued as well, with the same legal effectiveness of a visa, compatible with Civil Service ID Card protocols.</p>
+<p>A foreign national would be able to apply for a Civil Service ID Card if their visa fits in certain categories, collectively called "long-term stay visas".</p>
 
 <figure><img class="lg" src="/album/img/0000201808210021.jpg"><figcaption>Neoparian visa with entry and exit stamps</figcaption></figure>
 <figure><img class="lg" src="/album/img/0000201808210022.jpg"><figcaption>Neoparian visa with exit stamp on entry authorization sheet</figcaption></figure>
