@@ -34,8 +34,15 @@ aside {
 <figure><img class="lg" src="/album/img/0000201808210003.jpg"><figcaption>Passport card &amp; placeholder on passport booklet — Page 2 &amp; 3</figcaption></figure>
 <figure><img class="lg" src="/album/img/0000201808210004.jpg"><figcaption>Passport card attached to passport booklet magnetically — Page 2 &amp; 3</figcaption></figure>
 <figure><img class="lg" src="/album/img/0000201808210005.jpg"><figcaption>Passport card — Font &amp; Back</figcaption></figure>
-<figure><img class="lg" src="/album/img/0000201808210006.jpg"><figcaption>Observations — Page 4 &amp; 5</figcaption></figure>
-<figure><img class="lg" src="/album/img/0000201808210007.jpg"><figcaption>Visas &amp; Stamps — Page 6-39</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210006.jpg"><figcaption>Observations — Page 4-7</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210007.jpg"><figcaption>Visas &amp; Stamps — Page 9-47</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210008.jpg"><figcaption>Emergency Info &amp; Notice — Page 48 &amp; Back cover inner side</figcaption></figure>
+
+<h3>Homeland Return Offer</h3>
+
+<p>If a Neoparian citizen loses their passport when traveling abroad on a temporary basis, they would be able to obtain a «Homeland Return Offer» from a Neoparian consular mission. An Offer would have no NFC module, hence a machine would be able to read an Offer only via OCR and QR.</p>
+
+<figure><img class="lg" src="/album/img/0000201808210010.jpg"><figcaption>Homeland Return Offer</figcaption></figure>
 
 <h3>Visa</h3>
 
@@ -45,6 +52,6 @@ aside {
 
 <p>If a Neoparian visa is issued, which allows stay periods of at least 90 days, a Foreign Visitor Card would be issued as well, with the same legal effectiveness of a visa, compatible with Citizen/PR ID Card protocols.</p>
 
-<figure><img class="lg" src="/album/img/0000201808210008.jpg"><figcaption>Neoparian visa with entry and exit stamps</figcaption></figure>
-<figure><img class="lg" src="/album/img/0000201808210009.jpg"><figcaption>Neoparian visa with exit stamp on entry authorization sheet</figcaption></figure>
-<figure><img class="lg" src="/album/img/0000201808210010.jpg"><figcaption>Foreign Visitor Card for holders of certain Neoparian visas</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210021.jpg"><figcaption>Neoparian visa with entry and exit stamps</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210022.jpg"><figcaption>Neoparian visa with exit stamp on entry authorization sheet</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210031.jpg"><figcaption>Foreign Visitor Card for holders of certain Neoparian visas</figcaption></figure>
