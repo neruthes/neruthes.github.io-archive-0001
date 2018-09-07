@@ -29,6 +29,8 @@ aside {
 
 <p>With the design of split passport, a traveler would have de facto unlimited passport pages for visas and stamps within one validity period, as long as a Neoparian citizen would be able to hold multiple passport booklets which would never expire, since they would only be a container of visas and stamps. The passport card itself would stand as a passport, and the a passport booklet would be optionally available for issuance if a traveler would like to have visas and stamps for collection purposes.</p>
 
+<p>A passport card would be readable via NFC, MRZ, and PDF417.</p>
+
 <figure><img class="lg" src="/album/img/0000201808210001.jpg"><figcaption>Passport covers</figcaption></figure>
 <figure><img class="lg" src="/album/img/0000201808210002.jpg"><figcaption>Passport card — Front &amp; Back</figcaption></figure>
 <figure><img class="lg" src="/album/img/0000201808210003.jpg"><figcaption>Front cover inner side &amp; Page 1</figcaption></figure>
@@ -38,11 +40,18 @@ aside {
 <figure><img class="lg" src="/album/img/0000201808210007.jpg"><figcaption>Visas &amp; Stamps — Page 8-47</figcaption></figure>
 <figure><img class="lg" src="/album/img/0000201808210008.jpg"><figcaption>Emergency Info &amp; Notice — Page 48 &amp; Back cover inner side</figcaption></figure>
 
-<h3>Homeland Return Offer</h3>
+<h3>Laissez-Passer</h3>
 
-<p>If a Neoparian citizen loses their passport when traveling abroad on a temporary basis, they would be able to obtain a «Homeland Return Offer» from a Neoparian consular mission. An Offer would have no NFC module, hence a machine would be able to read an Offer only via OCR and QR.</p>
+<p>If a Neoparian citizen loses their passport when traveling abroad on a temporary basis, they would be able to obtain a laissez-passer from a Neoparian consular mission. A laissez-passer would have no NFC module, hence a machine would be able to read a laissez-passer only via MRZ and PDF417.</p>
 
-<figure><img class="lg" src="/album/img/0000201808210010.jpg"><figcaption>Homeland Return Offer</figcaption></figure>
+<p>In case of emergency or special need, a Neoparian citizen would be able to obtain an emergency laissez-passer to return to Neoparia Commonwealth, and a person without Neoparian nationality would be able to obtain an emergency laissez-passer, if the person is a permanent resident of Neoparia Commonwealth, or, in marriage, civil union, or dependence or guardianship with a Neoparian citizen.</p>
+
+<p>Alternatively, an emergency laissez-passer would possibly be issued to a refugee or an asylum seeker by a Neoparian consul or a captain of a Neoparian Humanitarian Protection Camp, in case of need for humanitarian protection in warfare, etc. In this case, such a refugee would have limited freedom of movement within Neoparia Commonwealth; their movement would be limited to government-offered staging zones.</p>
+
+<p>In emergency events, Internet connection would possibly be interrupted. Therefore, face feature vectors would be collected by mobile devices and be written manually on emergency laissez-passers with base-32 encoding, when emergency laissez-passers are being issued.</p>
+
+<figure><img class="lg" src="/album/img/0000201808210011.jpg"><figcaption>Citizen Laissez-Passer</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210012.jpg"><figcaption>Emergency Laissez-Passer</figcaption></figure>
 
 <h3>Visa</h3>
 
@@ -50,9 +59,14 @@ aside {
 
 <p>If a foreign traveler would like to save passport pages, an entry authorization would be issued, as an alternative to an entry stamp, to certify the entry date of the traveler. In this case, the exit stamp would be given on the entry authorization, instead of on a passport page.</p>
 
-<p>If a Neoparian visa is issued, which allows stay periods of at least 90 days, a Foreign Visitor Card would be issued as well, with the same legal effectiveness of a visa, compatible with Civil Service ID Card protocols.</p>
-<p>A foreign national would be able to apply for a Civil Service ID Card if their visa fits in certain categories, collectively called "long-term stay visas".</p>
+<p>If a Neoparian visa is issued, which allows stay periods of at least 90 days, a Foreign Visitor Card would be issued as well, with the same legal status of a visa, compatible with Civil Service ID Card protocols, with NFC, MRZ, and PDF417.</p>
 
 <figure><img class="lg" src="/album/img/0000201808210021.jpg"><figcaption>Neoparian visa with entry and exit stamps</figcaption></figure>
 <figure><img class="lg" src="/album/img/0000201808210022.jpg"><figcaption>Neoparian visa with exit stamp on entry authorization sheet</figcaption></figure>
-<figure><img class="lg" src="/album/img/0000201808210031.jpg"><figcaption>Foreign Visitor Card for holders of certain Neoparian visas</figcaption></figure>
+
+<h3>Foreign Visitor Card &amp; Civil Service ID Card</h3>
+
+<p>A foreign national would be able to apply for a Civil Service ID Card if they have permanent resident status of Neoparia Commonwealth.</p>
+
+<figure><img class="lg" src="/album/img/0000201808210031.jpg"><figcaption>Foreign Visitor Card</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210031.jpg"><figcaption>Civil Service ID Card</figcaption></figure>
