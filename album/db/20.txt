@@ -1,0 +1,26 @@
+<style>
+body {
+    background: rgb(231, 233, 237) url(/album/img/0000201609100000-02.png) scroll repeat top;
+    background-size: 399px;
+}
+.global-text {
+    color: #000;
+}
+.post-text {
+    color: #000;
+}
+.post-text > aside {
+    color: #000;
+}
+.post-text a:link, .post-text a:visited, .post-text a:hover {
+    // color: #000;
+    // border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+aside {
+    opacity: 0.5;
+}
+</style>
+
+<h2>Neoparia Commonwealth — Department of Transportation</h2>
+
+<figure><img class="lg" src="/album/img/0000201808210031.jpg"><figcaption></figcaption></figure>

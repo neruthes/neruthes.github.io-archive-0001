@@ -70,3 +70,14 @@ aside {
 
 <figure><img class="lg" src="/album/img/0000201808210031.jpg"><figcaption>Foreign Visitor Card</figcaption></figure>
 <figure><img class="lg" src="/album/img/0000201808210031.jpg"><figcaption>Civil Service ID Card</figcaption></figure>
+
+<!--
+
+19: NC - Department of Foreign Affairs
+20: NC - Department of Transportation
+21: NC - Neoparian Public Post Service
+22: OCEF
+23: NC - AirKevares
+24: NC - Kevares Airport
+
+-->
