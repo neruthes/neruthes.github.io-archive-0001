@@ -5,13 +5,13 @@
 <p>In addition, all other repositories owned by this organization with GitHub Pages feature enabled would share this domain name unless it has its own <code>CNAME</code> file. Usage of GitHub Pages can be found in the official help center.</p>
 
 <h3>2. Create An Empty Repository</h3>
-<p>I created an empty repository named <code>gay-pride.js</code>, as same as the particular project that I would like to serve.</p>
+<p>I created an empty repository named <code>pride.js</code>, as same as the particular project that I would like to serve.</p>
 <p>In the settings of this repository, I changed source branch that generates GitHub Pages, from the default <code>gh-pages</code> to <code>master</code>.</p>
 
 <h3>3. Push To Multiple Remotes</h3>
-<p>On my local device, where I originally push to <code>https://github.com/joyneop/gay-pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:</p>
+<p>On my local device, where I originally push to <code>https://github.com/joyneop/pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:</p>
 <pre>
-$ git remote add cdn https://github.com/neopcdn/gay-pride.js.git
+$ git remote add cdn https://github.com/neopcdn/pride.js.git
 </pre>
 <p>From now on, when I update the library, I just run:</p>
 <pre>
@@ -24,4 +24,4 @@ $ git push cdn master
 <p>Then I created a CNAME record to point <code>cdn.neop.me</code> to <code>neopcdn.github.io</code> on CloudFlare, and turned on CDN feature for this record. This would take advantage of free SSL by CloudFlare.</p>
 
 <h3>Conclusion</h3>
-<p>Now, for a file like <a href="https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js" target="_blank">https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js</a>, anyone can access it through <a href="https://cdn.neop.me/gay-pride.js/pride.js" target="_blank">https://cdn.neop.me/gay-pride.js/pride.js</a>, with correct Contnet-Type and Access-Control-Allow-Origin.</p>
+<p>Now, for a file like <a href="https://github.com/JoyNeop/pride.js/blob/master/pride.js" target="_blank">https://github.com/JoyNeop/pride.js/blob/master/pride.js</a>, anyone can access it through <a href="https://cdn.neop.me/pride.js/pride.js" target="_blank">https://cdn.neop.me/pride.js/pride.js</a>, with correct Contnet-Type and Access-Control-Allow-Origin.</p>

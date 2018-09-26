@@ -1,13 +1,42 @@
-<p>Recently, I've been working on notification system. Meanwhile, I did some research on this common functionality in various products. The most critical part was the aggregation strategy.</p>
-<h3>1. Primitive: No Aggregation At All</h3>
-<p></p>
-<p></p>
-<h3>2. Easiest Way: Strong Aggregation</h3>
-<p></p>
-<p></p>
-<h3>3. Facebook: </h3>
-<p></p>
-<p></p>
-<h3>4. Mine: Complex Aggregation</h3>
-<p></p>
-<p></p>
+<p>For years, my satisfaction of the English language have been ceasing. Since this article, I will start using my own dialect of the English language, for better integrity of the language. My dialect is derived from the American dialect of 2010s.</p>
+
+
+<h3>Conjugations
+
+<p>The only remaining special case in verb conjugations, namely the third-person present singular form, will no longer be any special. The variations of "be" remain unchanged.</p>
+
+
+<h3>Articles
+
+<p>Un article will no longer vary according to the pronunciation of the word after it. Regardless of pronunciation of the word after it, the singular indefinite article is always "un", and the definite article is always "the".</p>
+
+
+<h3>Languages &amp; Nations
+
+<p>The adjectives indicating geo-national property of the items they modify, remain unchanged — the British way and the American way.</p>
+
+<p>The name of a language will be written in the French masculine adjective form. For example, the English language will be called "Anglais", and the French language will be called "Français". Samples:</p>
+
+<ul>
+    <li>The conjugation system in Français is really annoying.</li>
+    <li>I do not speak Cantonais; let's speak Mandarien.</li>
+</ul>
+
+<p>The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un "s". For example, the people of Québec will be called "Québecoises" and un particular member of the Québecoises will be called one "Québecoise". Samples:</p>
+
+<ul>
+    <li>Two Québecoises had been there for un week.</li>
+    <li>The Américaines could not win independence without Monsieur de la Fayatte.</li>
+</ul>
+
+
+<h3>Comparatives
+
+<p>The words which were considered semantically comparative but not grammatically comparative in previous dialects will be considered grammatically comparative. For example, "X is superior than Y" will be considered grammatically correct.</p>
+
+<p>When denoting comparatively greater or smaller number, "more", "most", "less", and "least" remain unchanged; but, when denoting "at un greater or smaller degree" of un adjective or un adverb, "more" will be incorporated into the word it remarks, forging a comparative case of the word. Samples:</p>
+
+<ul>
+    <li>Moreoften we drink black tea.</li>
+    <li>It is politically morecorrect to address the ethnicity concept of such un group of people with ancestry of the region covering western Eurasia and northern Africa by "Caucasian" or "Indo-European" than any word which indicate color.</li>
+</ul>

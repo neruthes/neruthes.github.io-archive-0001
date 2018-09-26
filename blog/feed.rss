@@ -8,11 +8,65 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
         <atom:link href="https://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />
         <link>https://joyneop.xyz/blog/</link>
         <description>8F45 D723 57EE B6C5 5666 2C8D 68A0 B4B6 EEF9 762A</description>
-        <lastBuildDate>Aug 26, 2016 09:41:00 +0000</lastBuildDate>
+        <lastBuildDate>Sep 26, 2018 09:41:00 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
 	    <generator>https://joyneop.xyz/blog/</generator>
+        <item>
+            <title>Introducing The Neoparian Dialect Of The English Language</title>
+            <link>https://joyneop.xyz/blog/?p=126</link>
+            <pubDate>Sep 26, 2018 09:41:00 +0000</pubDate>
+            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
+            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=126</guid>
+            <content:encoded>
+<![CDATA[
+<p>For years, my satisfaction of the English language have been ceasing. Since this article, I will start using my own dialect of the English language, for better integrity of the language. My dialect is derived from the American dialect of 2010s.</p>
+
+
+<h3>Conjugations
+
+<p>The only remaining special case in verb conjugations, namely the third-person present singular form, will no longer be any special. The variations of "be" remain unchanged.</p>
+
+
+<h3>Articles
+
+<p>Un article will no longer vary according to the pronunciation of the word after it. Regardless of pronunciation of the word after it, the singular indefinite article is always "un", and the definite article is always "the".</p>
+
+
+<h3>Languages &amp; Nations
+
+<p>The adjectives indicating geo-national property of the items they modify, remain unchanged — the British way and the American way.</p>
+
+<p>The name of a language will be written in the French masculine adjective form. For example, the English language will be called "Anglais", and the French language will be called "Français". Samples:</p>
+
+<ul>
+    <li>The conjugation system in Français is really annoying.</li>
+    <li>I do not speak Cantonais; let's speak Mandarien.</li>
+</ul>
+
+<p>The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un "s". For example, the people of Québec will be called "Québecoises" and un particular member of the Québecoises will be called one "Québecoise". Samples:</p>
+
+<ul>
+    <li>Two Québecoises had been there for un week.</li>
+    <li>The Américaines could not win independence without Monsieur de la Fayatte.</li>
+</ul>
+
+
+<h3>Comparatives
+
+<p>The words which were considered semantically comparative but not grammatically comparative in previous dialects will be considered grammatically comparative. For example, "X is superior than Y" will be considered grammatically correct.</p>
+
+<p>When denoting comparatively greater or smaller number, "more", "most", "less", and "least" remain unchanged; but, when denoting "at un greater or smaller degree" of un adjective or un adverb, "more" will be incorporated into the word it remarks, forging a comparative case of the word. Samples:</p>
+
+<ul>
+    <li>Moreoften we drink black tea.</li>
+    <li>It is politically morecorrect to address the ethnicity concept of such un group of people with ancestry of the region covering western Eurasia and northern Africa by "Caucasian" or "Indo-European" than any word which indicate color.</li>
+</ul>
+
+]]>
+            </content:encoded>
+        </item>
         <item>
             <title>GitHub + CloudFlare = CDN</title>
             <link>https://joyneop.xyz/blog/?p=125</link>
@@ -28,13 +82,13 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
 <p>In addition, all other repositories owned by this organization with GitHub Pages feature enabled would share this domain name unless it has its own <code>CNAME</code> file. Usage of GitHub Pages can be found in the official help center.</p>
 
 <h3>2. Create An Empty Repository</h3>
-<p>I created an empty repository named <code>gay-pride.js</code>, as same as the particular project that I would like to serve.</p>
+<p>I created an empty repository named <code>pride.js</code>, as same as the particular project that I would like to serve.</p>
 <p>In the settings of this repository, I changed source branch that generates GitHub Pages, from the default <code>gh-pages</code> to <code>master</code>.</p>
 
 <h3>3. Push To Multiple Remotes</h3>
-<p>On my local device, where I originally push to <code>https://github.com/joyneop/gay-pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:</p>
+<p>On my local device, where I originally push to <code>https://github.com/joyneop/pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:</p>
 <pre>
-$ git remote add cdn https://github.com/neopcdn/gay-pride.js.git
+$ git remote add cdn https://github.com/neopcdn/pride.js.git
 </pre>
 <p>From now on, when I update the library, I just run:</p>
 <pre>
@@ -47,7 +101,7 @@ $ git push cdn master
 <p>Then I created a CNAME record to point <code>cdn.neop.me</code> to <code>neopcdn.github.io</code> on CloudFlare, and turned on CDN feature for this record. This would take advantage of free SSL by CloudFlare.</p>
 
 <h3>Conclusion</h3>
-<p>Now, for a file like <a href="https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js" target="_blank">https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js</a>, anyone can access it through <a href="https://cdn.neop.me/gay-pride.js/pride.js" target="_blank">https://cdn.neop.me/gay-pride.js/pride.js</a>, with correct Contnet-Type and Access-Control-Allow-Origin.</p>
+<p>Now, for a file like <a href="https://github.com/JoyNeop/pride.js/blob/master/pride.js" target="_blank">https://github.com/JoyNeop/pride.js/blob/master/pride.js</a>, anyone can access it through <a href="https://cdn.neop.me/pride.js/pride.js" target="_blank">https://cdn.neop.me/pride.js/pride.js</a>, with correct Contnet-Type and Access-Control-Allow-Origin.</p>
 
 ]]>
             </content:encoded>
@@ -193,26 +247,6 @@ My answer to the meaning of the life is that there is no meaning granted by a gr
 <p>I respect no tradition; patriot no civilization; exemplify no species; acknowledge no origin. Per my existence, the first subjectivity <em>a priori</em>.</p>
 <p>Now, my draft of desired name has become "Neruthes". And it is as same as the preceding one, in terms of absence of etymological origin.</p>
 
-]]>
-            </content:encoded>
-        </item>
-        <item>
-            <title>My First Credit Card</title>
-            <link>https://joyneop.xyz/blog/?p=120</link>
-            <pubDate>July 31, 2015 09:41:00 +0000</pubDate>
-            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=120</guid>
-            <content:encoded>
-<![CDATA[
-<p>I just received my first credit card ever, from China Merchants Bank. VISA only, no UnionPay; no currency-exchange fee.</p>
-
-<p>I have been applying for credit cards for months, since I was working at Shixian.com. However, not before I moved to <a href="http://www.jisuanke.com/" target="_blank" rel="nofollow">Jisuanke.com</a> did any attempt succeed. Thankfully, my salary is delivered through CMB; it might be a reason for getting approved, in addition to the salary statement.</p>
-
-<p>What a pity that a VISA credit card issued by a China-based bank still cannot be used to make payments at iTunes and App Store, due to country-and-region discrimination policy of Apple. Within the traditional payment methods, e.g. VISA and MasterCard, the merchants are still able to detect a customer's location according to the information provided by card associations. Even PayPal, an Internet-originated payment method, does discriminate non-American countries and regions in the traditional way. It helps merchants to detect and deny customers from China.</p>
-
-<p>It feels so bad being born out of US, and being isolated from US only because it and its consequences. Neither does US market welcome Chinese entrepreneurs nor does it welcome customers without a valid US-based payment method. Well, Moleskine accepts VISA credit cards from China, but their shipping doesn't include China. I have to use a US-based proxy for shipping.</p>
-
-<p>And finally it is absolutely uncertain when will my opportunity emerge for relocating to United States. Living with anxiety and terror, struggling for housing and food; I had never experienced such.</p>
 ]]>
             </content:encoded>
         </item>
@@ -403,13 +437,12 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=115</guid>
             <content:encoded>
 <![CDATA[
-<p>I had never imagined my life would be like this. Going far from the original plan, getting more than expected loneness, and working so hard for living. Two persons I know have been going on this way, <a href="https://jysperm.me/2014/02/1493/" target="_blank">JySperm</a> and <a href="http://www.ricter.me" target="_blank">Ricter</a>, but, it's so dramatic happening to me.</p>
-<p>In one word, I decided to stay at Beijing, without a degree.</p>
+<p>I had never imagined my life would be like this. Going far from the original plan, getting more than expected loneness, and working so hard for living. Two persons I know have been going on this way, <a href="https://jysperm.me/2014/02/1493/" target="_blank">JySperm</a> and <a href="http://www.ricter.me" target="_blank">Ricter</a>, but, it's so dramatic happening to me. I-20 came, but I did not go for F-1.</p>
+<p>In one word, I decided to stay in Beijing, without a Bachelor's degree.</p>
 <p>Originally, the plan was to have an internship experience which can be written in my resume, to avoid being embarrassed for large blank when providing it. However, circumstances changed.</p>
-<p>Regarding my intermediate IELTS score and lack in standardized tests, the best Bachelor education I would be able to receive in the United States would not be good <em>enough</em>. That means, it would not worth more than working experience of the same span. In addition, the financial risk was too high to be ignored. My parents were not financially robust enough to support my education and living during the upcoming four years.</p>
-<p>My profession is not computer science; it's human-interface design and graphic design. Having consulted a few friends about employment-based immigration, the difficulty to stay in the United States for college graduates from China majoring non-STEM fields rose to me. Even if I will finish my education with no pain, even if the cost will be covered by my parents effortlessly, it will still be a hard job to obtain my green card.</p>
-<p>I failed this way, the most popular way in China, of immigrating to the United States — to receive a degree and get a job there. I've been reworking on a new plan. Our company has been planing to relocate to Silicon Valley, to actually realize the purpose, "<em>push ideas into reality</em>". We've registered a few domain names that may be used for the international brand, and dual-language has been listed in the development roadmap.</p>
-<p>Wish my future be there.</p>
+<p>Regarding my intermediate IELTS score and lack in standardized tests, the best Bachelor education I would be able to receive in the United States would not be good <em>enough</em>. That means, it would not worth more than working experience of the same span. In addition, the financial risk was too high to be ignored. My former legal guardians were not financially robust enough to sponsor my undergraduate education and living during the upcoming four years.</p>
+<p>My profession would not be computer science. Non-STEM graduates would not have 29-month OPT and the competition for H-1B had been increasing over the years.</p>
+<p>There have to be some other ways around.</p>
 
 ]]>
             </content:encoded>
@@ -1324,11 +1357,11 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
             <content:encoded>
 <![CDATA[
 <p>It's raining. Again.</p>
-<p>People in cities cannot enjoy complete rainy days, as is said and believed. However, urban rains are stylish in another way. Tarmac streets are not same ageful as slate ways, but have something different. Buildings covered by buildings, shadows covered by shadows; it's what cannot be seen in countryside.</p>
-<p>The sky was masked grayscale, light and shadows turn in turn. Sunless; moonless; starless.</p>
-<p>The rain reminded me somebody, who I used to be interested in for sex and relationship since fall of 2011, but a straight guy unfortunately. He must have heard of me, according to his react when associating my name and face.</p>
-<p>The hand script of the lyric which was written to him was lost by him. Since then, I should have understood I'm just a stranger in his mind, for he didn't care about it.</p>
-<p>No more enthusiasm toward him.</p>
+<p>People in cities cannot enjoy complete rainy days, as is said and believed. However, urban rains are stylish in another way. Tarmac streets are not as same ageful as slate ways, but they have something different. Buildings covered by buildings, shadows covered by shadows; it's what cannot be seen in suburban areas.</p>
+<p>The sky was masked grayscale; light and shadow turn and turn, restlessly. Sunless; moonless; starless.</p>
+<p>The rain reminded me of someone, who I used to be interested in for sex and relationship since fall of 2011; but unfortunately a straight guy. He must have heard of me, according to his reaction when associating my name and face.</p>
+<p>The hand script of the lyric which was written to him was lost by him. Since then, I should have understood that I was just a stranger in his mind, for his absence of care.</p>
+<p>No more interest toward him, for now.</p>
 ]]>
             </content:encoded>
         </item>

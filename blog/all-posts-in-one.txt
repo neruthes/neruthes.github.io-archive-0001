@@ -15,6 +15,74 @@
 
 
 
+# Introducing The Neoparian Dialect Of The English Language
+
+Post #126 / Date: Sep 26, 2018
+
+
+
+For years, my satisfaction of the English language have been ceasing. Since this article, I will start using my own dialect of the English language, for better integrity of the language. My dialect is derived from the American dialect of 2010s.
+
+
+
+<h3>Conjugations
+
+
+The only remaining special case in verb conjugations, namely the third-person present singular form, will no longer be any special. The variations of "be" remain unchanged.
+
+
+
+<h3>Articles
+
+
+Un article will no longer vary according to the pronunciation of the word after it. Regardless of pronunciation of the word after it, the singular indefinite article is always "un", and the definite article is always "the".
+
+
+
+<h3>Languages &amp; Nations
+
+
+The adjectives indicating geo-national property of the items they modify, remain unchanged — the British way and the American way.
+
+The name of a language will be written in the French masculine adjective form. For example, the English language will be called "Anglais", and the French language will be called "Français". Samples:
+
+
+<ul>
+    <li>The conjugation system in Français is really annoying.</li>
+    <li>I do not speak Cantonais; let's speak Mandarien.</li>
+</ul>
+
+
+The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un "s". For example, the people of Québec will be called "Québecoises" and un particular member of the Québecoises will be called one "Québecoise". Samples:
+
+
+<ul>
+    <li>Two Québecoises had been there for un week.</li>
+    <li>The Américaines could not win independence without Monsieur de la Fayatte.</li>
+</ul>
+
+
+<h3>Comparatives
+
+
+The words which were considered semantically comparative but not grammatically comparative in previous dialects will be considered grammatically comparative. For example, "X is superior than Y" will be considered grammatically correct.
+
+When denoting comparatively greater or smaller number, "more", "most", "less", and "least" remain unchanged; but, when denoting "at un greater or smaller degree" of un adjective or un adverb, "more" will be incorporated into the word it remarks, forging a comparative case of the word. Samples:
+
+
+<ul>
+    <li>Moreoften we drink black tea.</li>
+    <li>It is politically morecorrect to address the ethnicity concept of such un group of people with ancestry of the region covering western Eurasia and northern Africa by "Caucasian" or "Indo-European" than any word which indicate color.</li>
+</ul>
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+
 # GitHub + CloudFlare = CDN
 
 Post #125 / Date: Aug 26, 2016
@@ -33,17 +101,17 @@ In addition, all other repositories owned by this organization with GitHub Pages
 
 <h3>2. Create An Empty Repository</h3>
 
-I created an empty repository named <code>gay-pride.js</code>, as same as the particular project that I would like to serve.
+I created an empty repository named <code>pride.js</code>, as same as the particular project that I would like to serve.
 
 In the settings of this repository, I changed source branch that generates GitHub Pages, from the default <code>gh-pages</code> to <code>master</code>.
 
 
 <h3>3. Push To Multiple Remotes</h3>
 
-On my local device, where I originally push to <code>https://github.com/joyneop/gay-pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:
+On my local device, where I originally push to <code>https://github.com/joyneop/pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:
 
 <pre>
-$ git remote add cdn https://github.com/neopcdn/gay-pride.js.git
+$ git remote add cdn https://github.com/neopcdn/pride.js.git
 </pre>
 
 From now on, when I update the library, I just run:
@@ -63,7 +131,7 @@ Then I created a CNAME record to point <code>cdn.neop.me</code> to <code>neopcdn
 
 <h3>Conclusion</h3>
 
-Now, for a file like [https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js](https://github.com/JoyNeop/gay-pride.js/blob/master/pride.js), anyone can access it through [https://cdn.neop.me/gay-pride.js/pride.js](https://cdn.neop.me/gay-pride.js/pride.js), with correct Contnet-Type and Access-Control-Allow-Origin.
+Now, for a file like [https://github.com/JoyNeop/pride.js/blob/master/pride.js](https://github.com/JoyNeop/pride.js/blob/master/pride.js), anyone can access it through [https://cdn.neop.me/pride.js/pride.js](https://cdn.neop.me/pride.js/pride.js), with correct Contnet-Type and Access-Control-Allow-Origin.
 
 
 
@@ -275,30 +343,6 @@ Now, my draft of desired name has become "Neruthes". And it is as same as the pr
 
 
 
-# My First Credit Card
-
-Post #120 / Date: July 31, 2015
-
-
-
-I just received my first credit card ever, from China Merchants Bank. VISA only, no UnionPay; no currency-exchange fee.
-
-I have been applying for credit cards for months, since I was working at Shixian.com. However, not before I moved to [Jisuanke.com](http://www.jisuanke.com/) did any attempt succeed. Thankfully, my salary is delivered through CMB; it might be a reason for getting approved, in addition to the salary statement.
-
-What a pity that a VISA credit card issued by a China-based bank still cannot be used to make payments at iTunes and App Store, due to country-and-region discrimination policy of Apple. Within the traditional payment methods, e.g. VISA and MasterCard, the merchants are still able to detect a customer's location according to the information provided by card associations. Even PayPal, an Internet-originated payment method, does discriminate non-American countries and regions in the traditional way. It helps merchants to detect and deny customers from China.
-
-It feels so bad being born out of US, and being isolated from US only because it and its consequences. Neither does US market welcome Chinese entrepreneurs nor does it welcome customers without a valid US-based payment method. Well, Moleskine accepts VISA credit cards from China, but their shipping doesn't include China. I have to use a US-based proxy for shipping.
-
-And finally it is absolutely uncertain when will my opportunity emerge for relocating to United States. Living with anxiety and terror, struggling for housing and food; I had never experienced such.
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
 # America Ist Tot, Viva La America
 
 Post #119 / Date: June 28, 2015
@@ -496,19 +540,17 @@ Post #115 / Date: January 23, 2015
 
 
 
-I had never imagined my life would be like this. Going far from the original plan, getting more than expected loneness, and working so hard for living. Two persons I know have been going on this way, [JySperm](https://jysperm.me/2014/02/1493/) and [Ricter](http://www.ricter.me), but, it's so dramatic happening to me.
+I had never imagined my life would be like this. Going far from the original plan, getting more than expected loneness, and working so hard for living. Two persons I know have been going on this way, [JySperm](https://jysperm.me/2014/02/1493/) and [Ricter](http://www.ricter.me), but, it's so dramatic happening to me. I-20 came, but I did not go for F-1.
 
-In one word, I decided to stay at Beijing, without a degree.
+In one word, I decided to stay in Beijing, without a Bachelor's degree.
 
 Originally, the plan was to have an internship experience which can be written in my resume, to avoid being embarrassed for large blank when providing it. However, circumstances changed.
 
-Regarding my intermediate IELTS score and lack in standardized tests, the best Bachelor education I would be able to receive in the United States would not be good *enough*. That means, it would not worth more than working experience of the same span. In addition, the financial risk was too high to be ignored. My parents were not financially robust enough to support my education and living during the upcoming four years.
+Regarding my intermediate IELTS score and lack in standardized tests, the best Bachelor education I would be able to receive in the United States would not be good *enough*. That means, it would not worth more than working experience of the same span. In addition, the financial risk was too high to be ignored. My former legal guardians were not financially robust enough to sponsor my undergraduate education and living during the upcoming four years.
 
-My profession is not computer science; it's human-interface design and graphic design. Having consulted a few friends about employment-based immigration, the difficulty to stay in the United States for college graduates from China majoring non-STEM fields rose to me. Even if I will finish my education with no pain, even if the cost will be covered by my parents effortlessly, it will still be a hard job to obtain my green card.
+My profession would not be computer science. Non-STEM graduates would not have 29-month OPT and the competition for H-1B had been increasing over the years.
 
-I failed this way, the most popular way in China, of immigrating to the United States — to receive a degree and get a job there. I've been reworking on a new plan. Our company has been planing to relocate to Silicon Valley, to actually realize the purpose, "*push ideas into reality*". We've registered a few domain names that may be used for the international brand, and dual-language has been listed in the development roadmap.
-
-Wish my future be there.
+There have to be some other ways around.
 
 
 
@@ -1872,15 +1914,15 @@ Post #3 / Date: April 25, 2012
 
 It's raining. Again.
 
-People in cities cannot enjoy complete rainy days, as is said and believed. However, urban rains are stylish in another way. Tarmac streets are not same ageful as slate ways, but have something different. Buildings covered by buildings, shadows covered by shadows; it's what cannot be seen in countryside.
+People in cities cannot enjoy complete rainy days, as is said and believed. However, urban rains are stylish in another way. Tarmac streets are not as same ageful as slate ways, but they have something different. Buildings covered by buildings, shadows covered by shadows; it's what cannot be seen in suburban areas.
 
-The sky was masked grayscale, light and shadows turn in turn. Sunless; moonless; starless.
+The sky was masked grayscale; light and shadow turn and turn, restlessly. Sunless; moonless; starless.
 
-The rain reminded me somebody, who I used to be interested in for sex and relationship since fall of 2011, but a straight guy unfortunately. He must have heard of me, according to his react when associating my name and face.
+The rain reminded me of someone, who I used to be interested in for sex and relationship since fall of 2011; but unfortunately a straight guy. He must have heard of me, according to his reaction when associating my name and face.
 
-The hand script of the lyric which was written to him was lost by him. Since then, I should have understood I'm just a stranger in his mind, for he didn't care about it.
+The hand script of the lyric which was written to him was lost by him. Since then, I should have understood that I was just a stranger in his mind, for his absence of care.
 
-No more enthusiasm toward him.
+No more interest toward him, for now.
 
 
 

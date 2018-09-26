@@ -5,7 +5,7 @@ Sitemap Generator
 
 */
 
-var siteDir = '/Users/JoyNeop/Developer/joyneop.github.io';
+var siteDir = '/Users/Neruthes/Developer/joyneop.github.io';
 var accu = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
 
 var fs = require('fs');
