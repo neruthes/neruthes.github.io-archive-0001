@@ -6,7 +6,7 @@
 <p>The only remaining special case in verb conjugations, namely the third-person present singular form, will no longer be any special. The variations of "be" remain unchanged.</p>
 
 
-<h3>Articles
+<h3>Articles</h3>
 
 <p>Un article will no longer vary according to the pronunciation of the word after it. Regardless of pronunciation of the word after it, the singular indefinite article is always "un", and the definite article is always "the".</p>
 
