@@ -1,7 +1,7 @@
 <p>For years, my satisfaction of the English language have been ceasing. Since this article, I will start using my own dialect of the English language, for better integrity of the language. My dialect is derived from the American dialect of 2010s.</p>
 
 
-<h3>Conjugations
+<h3>Conjugations</h3>
 
 <p>The only remaining special case in verb conjugations, namely the third-person present singular form, will no longer be any special. The variations of "be" remain unchanged.</p>
 
@@ -11,7 +11,7 @@
 <p>Un article will no longer vary according to the pronunciation of the word after it. Regardless of pronunciation of the word after it, the singular indefinite article is always "un", and the definite article is always "the".</p>
 
 
-<h3>Languages &amp; Nations
+<h3>Languages &amp; Nations</h3>
 
 <p>The adjectives indicating geo-national property of the items they modify, remain unchanged — the British way and the American way.</p>
 
@@ -30,7 +30,7 @@
 </ul>
 
 
-<h3>Comparatives
+<h3>Comparatives</h3>
 
 <p>The words which were considered semantically comparative but not grammatically comparative in previous dialects will be considered grammatically comparative. For example, "X is superior than Y" will be considered grammatically correct.</p>
 
