@@ -22,7 +22,7 @@
     <li>I do not speak Cantonais; let's speak Mandarien.</li>
 </ul>
 
-<p>The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un "s". For example, the people of Québec will be called "Québecoises" and un particular member of the Québecoises will be called one "Québecoise". Samples:</p>
+<p>The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un "s". For example, the people of Québec will be called "Québecoises" and un particular member of the Québecoises will be called un "Québecoise". Samples:</p>
 
 <ul>
     <li>Two Québecoises had been there for un week.</li>

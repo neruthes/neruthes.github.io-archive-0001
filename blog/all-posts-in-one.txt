@@ -25,21 +25,21 @@ For years, my satisfaction of the English language have been ceasing. Since this
 
 
 
-<h3>Conjugations
+<h3>Conjugations</h3>
 
 
 The only remaining special case in verb conjugations, namely the third-person present singular form, will no longer be any special. The variations of "be" remain unchanged.
 
 
 
-<h3>Articles
+<h3>Articles</h3>
 
 
 Un article will no longer vary according to the pronunciation of the word after it. Regardless of pronunciation of the word after it, the singular indefinite article is always "un", and the definite article is always "the".
 
 
 
-<h3>Languages &amp; Nations
+<h3>Languages &amp; Nations</h3>
 
 
 The adjectives indicating geo-national property of the items they modify, remain unchanged — the British way and the American way.
@@ -53,7 +53,7 @@ The name of a language will be written in the French masculine adjective form. F
 </ul>
 
 
-The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un "s". For example, the people of Québec will be called "Québecoises" and un particular member of the Québecoises will be called one "Québecoise". Samples:
+The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un "s". For example, the people of Québec will be called "Québecoises" and un particular member of the Québecoises will be called un "Québecoise". Samples:
 
 
 <ul>
@@ -62,7 +62,7 @@ The noun for the people collectively, or un person individually of such people, 
 </ul>
 
 
-<h3>Comparatives
+<h3>Comparatives</h3>
 
 
 The words which were considered semantically comparative but not grammatically comparative in previous dialects will be considered grammatically comparative. For example, "X is superior than Y" will be considered grammatically correct.
