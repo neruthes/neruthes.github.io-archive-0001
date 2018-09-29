@@ -132,9 +132,9 @@ blog.doesArticleExist = function (pid) {
 blog.main = function () {
 	window.BlogContext = document.getElementById('cont');
 
-	var regularPostSectionTemplate = '<section class="post" id="post__INDEX__"><h2 id="post__INDEX__h2" class="post-h2"><a id="post__INDEX__title" class="post-h2-in" href="./?p=__INDEX__">__TITLE__</a></h2><time class="post-date"><a id="post__INDEX__link" href="./?p=__INDEX__">__DATE__</a></time><div class="post-text" id="post__INDEX__text"></div></section>';
+	var regularPostSectionTemplate = '<section class="post" id="post__INDEX__"><time class="post-date"><a id="post__INDEX__link" href="./?p=__INDEX__">__DATE__</a></time><h2 id="post__INDEX__h2" class="post-h2"><a id="post__INDEX__title" class="post-h2-in" href="./?p=__INDEX__">__TITLE__</a></h2><div class="post-text" id="post__INDEX__text"></div></section>';
 	var untitledPostSectionTemplate = '<section class="post" id="post__INDEX__"><time class="post-date"><a id="post__INDEX__link" href="./?p=__INDEX__">__DATE__</a></time><div class="post-text" id="post__INDEX__text"></div></section>';
-	var listItemTemplate = '<li><a href="./?p=__INDEX__" id="post__INDEX__h2" class="post-h2">__TITLE__</a><time class="post-date"><a id="post__INDEX__date" href="./?p=__INDEX__">__DATE__</a></time></li>';
+	var listItemTemplate = '<li><time class="post-date"><a id="post__INDEX__date" href="./?p=__INDEX__">__DATE__</a></time><a href="./?p=__INDEX__" id="post__INDEX__h2" class="post-h2">__TITLE__</a></li>';
 	var listContainerTemplate = '<section class="post more" id="more-posts"><ul class="list">__CONTENT__</ul></section>';
 	var stringInBlogContext = '';
 

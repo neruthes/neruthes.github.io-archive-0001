@@ -1,7 +1,7 @@
-<p>After the tremendous controversy on iOS 7's changes on GUI, people eventually took another breath to care about OS X Mavericks. According to the public introduction and preview, the trend of flat design has also appeared on OS X. The background tile images of Notification Center, Dashboard and Launchpad folders, got replaced or removed. OS X is going to be flattened.</p>
-<p>I hate it.</p>
+<p>After the tremendous controversy on the changes of GUI in iOS 7, people eventually took another breath to care about OS X Mavericks. According to the public introduction and preview, the trend of flat design has also appeared on OS X. The background tile images of Notification Center, Dashboard and Launchpad folders, got replaced or removed. OS X is going to be flattened.</p>
+<p>The movement does not serve in my favor.</p>
 <p>What if interact with a machine without even at least one visual metaphor? What if touch a screen without even at least one familiar element? I cannot imagine it; neither can I accept it. What a nightmare.</p>
-<p>Then, what if OS X eventually gets as flat as iOS 7 or even more terrible? Beyond imagination. In case of that, I have to build my own OS, temporarily named NeOPSTEP.</p>
+<p>What if OS X eventually gets as flat as iOS 7, or even more terrible? Beyond imagination. In case of that, I have to build my own OS, temporarily named NeOPSTEP.</p>
 <p>Ideally, I hope that NeOPSTEP is a FreeBSD-based OS, or directly powered with OpenDarwin. However, I am not a professional programmer so I may or may not be able to create an OS only with these fundamental wheels. It will take time to investigate and find out the right wheels.</p>
 <p>Before creating my fork, I have got started to design the GUI. My purpose is to inherit the style from Mac OS X Tiger to OS X Mountain Lion, but I cannot simply copy those because of copyright issue. Right now I am working on the default desktop picture, which shall be similar to the Aqua Blue, which was shipped with Mac OS X Tiger.</p>
-<p>When we are destined to be betrayed, I stand out and fight for our faith.</p>
+<p>When we are destined to be betrayed, I stand out and fight for our faith. Only we can save ourselves.</p>

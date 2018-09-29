@@ -90,7 +90,7 @@ a {
 .post-text > h3 {
 	font-size: 2.6rem;
 	font-weight: 200;
-	color: #999;
+	/* color: #999; */
 	margin: 20px 0 20px;
 }
 
@@ -196,8 +196,11 @@ p code {
 .post-date {
 	font-size: 1.6rem;
 	font-weight: 300;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 	color: #999;
-	margin: 0 0 0;
+	display: block;
+	margin: 0 0 27px;
 }
 
 .post-date:hover {
