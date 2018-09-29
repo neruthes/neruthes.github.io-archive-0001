@@ -86,7 +86,7 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
 <p>In the settings of this repository, I changed source branch that generates GitHub Pages, from the default <code>gh-pages</code> to <code>master</code>.</p>
 
 <h3>3. Push To Multiple Remotes</h3>
-<p>On my local device, where I originally push to <code>https://github.com/joyneop/pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:</p>
+<p>On my local device, where I originally push to <code>https://github.com/neruthes/pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:</p>
 <pre>
 $ git remote add cdn https://github.com/neopcdn/pride.js.git
 </pre>
@@ -101,7 +101,7 @@ $ git push cdn master
 <p>Then I created a CNAME record to point <code>cdn.neop.me</code> to <code>neopcdn.github.io</code> on CloudFlare, and turned on CDN feature for this record. This would take advantage of free SSL by CloudFlare.</p>
 
 <h3>Conclusion</h3>
-<p>Now, for a file like <a href="https://github.com/JoyNeop/pride.js/blob/master/pride.js" target="_blank">https://github.com/JoyNeop/pride.js/blob/master/pride.js</a>, anyone can access it through <a href="https://cdn.neop.me/pride.js/pride.js" target="_blank">https://cdn.neop.me/pride.js/pride.js</a>, with correct Contnet-Type and Access-Control-Allow-Origin.</p>
+<p>Now, for a file like <a href="https://github.com/neruthes/pride.js/blob/master/pride.js" target="_blank">https://github.com/neruthes/pride.js/blob/master/pride.js</a>, anyone can access it through <a href="https://cdn.neop.me/pride.js/pride.js" target="_blank">https://cdn.neop.me/pride.js/pride.js</a>, with correct Contnet-Type and Access-Control-Allow-Origin.</p>
 
 ]]>
             </content:encoded>

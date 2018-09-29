@@ -108,7 +108,7 @@ In the settings of this repository, I changed source branch that generates GitHu
 
 <h3>3. Push To Multiple Remotes</h3>
 
-On my local device, where I originally push to <code>https://github.com/joyneop/pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:
+On my local device, where I originally push to <code>https://github.com/neruthes/pride.js.git</code>, I added another remote named <code>cdn</code> by running this command:
 
 <pre>
 $ git remote add cdn https://github.com/neopcdn/pride.js.git
@@ -131,7 +131,7 @@ Then I created a CNAME record to point <code>cdn.neop.me</code> to <code>neopcdn
 
 <h3>Conclusion</h3>
 
-Now, for a file like [https://github.com/JoyNeop/pride.js/blob/master/pride.js](https://github.com/JoyNeop/pride.js/blob/master/pride.js), anyone can access it through [https://cdn.neop.me/pride.js/pride.js](https://cdn.neop.me/pride.js/pride.js), with correct Contnet-Type and Access-Control-Allow-Origin.
+Now, for a file like [https://github.com/neruthes/pride.js/blob/master/pride.js](https://github.com/neruthes/pride.js/blob/master/pride.js), anyone can access it through [https://cdn.neop.me/pride.js/pride.js](https://cdn.neop.me/pride.js/pride.js), with correct Contnet-Type and Access-Control-Allow-Origin.
 
 
 

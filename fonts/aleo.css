@@ -2,37 +2,37 @@
 	font-family: 'Aleo';
 	font-style: normal;
 	font-weight: 300;
-	src: local('Aleo Light'), local('Aleo-Light'), url(//joyneop.github.io/fonts/aleo/Aleo-light.woff) format('woff'), url(//joyneop.xyz/fonts/aleo/Aleo-light.woff) format('woff'), url(/fonts/aleo/Aleo-light.woff) format('woff');
+	src: local('Aleo Light'), local('Aleo-Light'), url(//neruthes.github.io/fonts/aleo/Aleo-light.woff) format('woff'), url(//joyneop.xyz/fonts/aleo/Aleo-light.woff) format('woff'), url(/fonts/aleo/Aleo-light.woff) format('woff');
 }
 @font-face {
 	font-family: 'Aleo';
 	font-style: normal;
 	font-weight: 400;
-	src: local('Aleo Regular'), local('Aleo-Regular'), url(//joyneop.github.io/fonts/aleo/Aleo-regular.woff) format('woff'), url(//joyneop.xyz/fonts/aleo/Aleo-regular.woff) format('woff'), url(/fonts/aleo/Aleo-regular.woff) format('woff');
+	src: local('Aleo Regular'), local('Aleo-Regular'), url(//neruthes.github.io/fonts/aleo/Aleo-regular.woff) format('woff'), url(//joyneop.xyz/fonts/aleo/Aleo-regular.woff) format('woff'), url(/fonts/aleo/Aleo-regular.woff) format('woff');
 }
 @font-face {
 	font-family: 'Aleo';
 	font-style: normal;
 	font-weight: 600;
-	src: local('Aleo Bold'), local('Aleo-Bold'), url(//joyneop.github.io/fonts/aleo/Aleo-bold.woff) format('woff'), url(//joyneop.xyz/fonts/aleo/Aleo-bold.woff) format('woff'), url(/fonts/aleo/Aleo-bold.woff) format('woff');
+	src: local('Aleo Bold'), local('Aleo-Bold'), url(//neruthes.github.io/fonts/aleo/Aleo-bold.woff) format('woff'), url(//joyneop.xyz/fonts/aleo/Aleo-bold.woff) format('woff'), url(/fonts/aleo/Aleo-bold.woff) format('woff');
 }
 @font-face {
 	font-family: 'Aleo';
 	font-style: italic;
 	font-weight: 300;
-	src: local('Aleo Light Italic'), local('Aleo-LightItalic'), url(//joyneop.github.io/fonts/aleo/Aleo-lightitalic.woff) format('woff'), url(//joyneop.xyz/fonts/aleo/Aleo-lightitalic.woff) format('woff'), url(/fonts/aleo/Aleo-lightitalic.woff) format('woff');
+	src: local('Aleo Light Italic'), local('Aleo-LightItalic'), url(//neruthes.github.io/fonts/aleo/Aleo-lightitalic.woff) format('woff'), url(//joyneop.xyz/fonts/aleo/Aleo-lightitalic.woff) format('woff'), url(/fonts/aleo/Aleo-lightitalic.woff) format('woff');
 }
 @font-face {
 	font-family: 'Aleo';
 	font-style: italic;
 	font-weight: 400;
-	src: local('Aleo Italic'), local('Aleo-Italic'), url(//joyneop.github.io/fonts/aleo/Aleo-italic.woff) format('woff'), url(//joyneop.xyz/fonts/aleo/Aleo-italic.woff) format('woff'), url(/fonts/aleo/Aleo-italic.woff) format('woff');
+	src: local('Aleo Italic'), local('Aleo-Italic'), url(//neruthes.github.io/fonts/aleo/Aleo-italic.woff) format('woff'), url(//joyneop.xyz/fonts/aleo/Aleo-italic.woff) format('woff'), url(/fonts/aleo/Aleo-italic.woff) format('woff');
 }
 @font-face {
 	font-family: 'Aleo';
 	font-style: italic;
 	font-weight: 600;
-	src: local('Aleo Bold Italic'), local('Aleo-BoldItalic'), url(//joyneop.github.io/fonts/aleo/Aleo-bolditalic.woff) format('woff'), url(//joyneop.xyz/fonts/aleo/Aleo-bolditalic.woff) format('woff'), url(/fonts/aleo/Aleo-bolditalic.woff) format('woff');
+	src: local('Aleo Bold Italic'), local('Aleo-BoldItalic'), url(//neruthes.github.io/fonts/aleo/Aleo-bolditalic.woff) format('woff'), url(//joyneop.xyz/fonts/aleo/Aleo-bolditalic.woff) format('woff'), url(/fonts/aleo/Aleo-bolditalic.woff) format('woff');
 }
 
 @import url(/fonts/advanced.css);

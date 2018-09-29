@@ -8,7 +8,7 @@ Run on Node.js
 
 var fs = require('fs');
 
-var blogPath = '/Users/Neruthes/Developer/joyneop.github.io/blog';
+var blogPath = '/Users/Neruthes/Developer/neruthes.github.io/blog';
 var maxId = 106;
 var insertAs = process.argv[2];
 for (var i = maxId; i >= insertAs; i--) {

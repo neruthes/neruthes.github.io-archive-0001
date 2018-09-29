@@ -2,7 +2,7 @@
 	//
 	// @Author Joy Neop
 	// @Website http://www.joyneop.com/
-	// @GitHub https://github.com/JoyNeop
+	// @GitHub https://github.com/neruthes
 	// © 2014 Joy Neop. All rights reserved.
 	//
 	window.jnalert = {};
