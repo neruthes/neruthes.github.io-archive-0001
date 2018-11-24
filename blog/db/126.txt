@@ -19,7 +19,7 @@
 
 <ul>
     <li>The conjugation system in Francais is really annoying.</li>
-    <li>I do not speak Cantonais; let's speak Mandarien.</li>
+    <li>I do not speak Cantonais; speak Mandarien.</li>
 </ul>
 
 <p>The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un "s". For example, the people of Quebec will be called "Quebecoises" and un particular member of the Quebecoises will be called un "Quebecoise". Samples:</p>
@@ -40,7 +40,7 @@
 
 <ul>
     <li>Moreoften we drink black tea.</li>
-    <li>It is politically morecorrect to address the ethnicity concept of such un group of people with ancestry of the region covering western Eurasia and northern Africa by "Caucasian" or "Indo-European" than any word which indicates color.</li>
+    <li>It is politically morecorrect to address the ethnicity concept of such un group of people with ancestry of the region covering western Eurasia and northern Africa by "Caucasian" or "Indo-European" than any word which indicate color.</li>
 </ul>
 
 
