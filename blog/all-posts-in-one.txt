@@ -15,9 +15,146 @@
 
 
 
-# Introducing The Neoparian Dialect Of The English Language
+# My PGP Public Key (Since 2018)
 
-Post #126 / Date: Sep 26, 2018
+Post #127 / Date: December 4, 2018
+
+
+
+Now I have a new [Keybase account.](https://keybase.io/neruthes)
+<pre>
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+QfaYQhu+eQ==
+=2KHR
+-----END PGP PUBLIC KEY BLOCK-----
+</pre>
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+
+# The Neoparian Dialect Of The English Language
+
+Post #126 / Date: September 26, 2018
 
 
 
@@ -44,22 +181,26 @@ Un article will no longer vary according to the pronunciation of the word after 
 
 The adjectives indicating geo-national property of the items they modify, remain unchanged — the British way and the American way.
 
-The name of a language will be written in the French masculine adjective form. For example, the English language will be called "Anglais", and the French language will be called "Français". Samples:
+The name of un language will be written in the French masculine adjective form. For example, the English language will be called "Anglais", and the French language will be called "Français". Samples:
 
 
 <ul>
-    <li>The conjugation system in Français is really annoying.</li>
-    <li>I do not speak Cantonais; let's speak Mandarien.</li>
+    <li>The conjugation system in Francais is really annoying.</li>
+    <li>I do not speak Cantonais; speak Mandarien.</li>
 </ul>
 
 
-The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un "s". For example, the people of Québec will be called "Québecoises" and un particular member of the Québecoises will be called un "Québecoise". Samples:
+The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un "s". For example, the people of Quebec will be called "Quebecoises" and un particular member of the Quebecoises will be called un "Quebecoise". Samples:
 
 
 <ul>
-    <li>Two Québecoises had been there for un week.</li>
-    <li>The Américaines could not win independence without Monsieur de la Fayatte.</li>
+    <li>Two Quebecoises had been there for un week.</li>
+    <li>The Americaines could not win independence without Monsieur de la Fayatte.</li>
 </ul>
+
+
+The diacritics in their French spellings may be omitted per the preference of un user.
+
 
 
 <h3>Comparatives</h3>
@@ -67,12 +208,27 @@ The noun for the people collectively, or un person individually of such people, 
 
 The words which were considered semantically comparative but not grammatically comparative in previous dialects will be considered grammatically comparative. For example, "X is superior than Y" will be considered grammatically correct.
 
-When denoting comparatively greater or smaller number, "more", "most", "less", and "least" remain unchanged; but, when denoting "at un greater or smaller degree" of un adjective or un adverb, "more" will be incorporated into the word it remarks, forging a comparative case of the word. Samples:
+When denoting comparatively greater or smaller number, "more", "most", "less", and "least" remain unchanged; but, when denoting "at un greater or smaller degree" of un adjective or un adverb, "more" will be incorporated into the word it remarks, forging un comparative case of the word. Samples:
 
 
 <ul>
     <li>Moreoften we drink black tea.</li>
     <li>It is politically morecorrect to address the ethnicity concept of such un group of people with ancestry of the region covering western Eurasia and northern Africa by "Caucasian" or "Indo-European" than any word which indicate color.</li>
+</ul>
+
+
+<h3>Pronouns</h3>
+
+
+In the orthography of Neoparien, "will not" will not be conjured into "won't" by any chance.
+
+In order to distinguish receiver-including first-person plural pronouns and receiver-excluding first-person plural pronouns for imperative cases like "let's" and "let us", subjective receiver-including first-person plural pronoun will be "wir", objective receiver-including first-person plural pronoun will be "nous", possessive receiver-including first-person plural pronoun will be "notre". Samples:
+
+
+<ul>
+    <li>Workers and farmers, wir are the grand party of laborers. We are with you.</li>
+    <li>Let us die for nous.</li>
+    <li>It is not *our* country; it is *notre* country.</li>
 </ul>
 
 
@@ -85,7 +241,7 @@ When denoting comparatively greater or smaller number, "more", "most", "less", a
 
 # GitHub + CloudFlare = CDN
 
-Post #125 / Date: Aug 26, 2016
+Post #125 / Date: August 26, 2016
 
 
 
@@ -144,7 +300,7 @@ Now, for a file like [https://github.com/neruthes/pride.js/blob/master/pride.js]
 
 # To Boldly Live
 
-Post #124 / Date: Aug 16, 2016
+Post #124 / Date: August 16, 2016
 
 
 
@@ -215,7 +371,7 @@ My answer to the meaning of the life is that there is no meaning granted by a gr
 
 # Problems vs Solutions
 
-Post #123 / Date: Jul 31, 2016
+Post #123 / Date: July 31, 2016
 
 
 <blockquote>
@@ -281,7 +437,7 @@ This model might also be applied to other contexts, while more reseaches are nee
 
 # The Story Behind RandomFont
 
-Post #122 / Date: Jul 7, 2016
+Post #122 / Date: July 7, 2016
 
 
 
@@ -318,21 +474,21 @@ Thanks for all who visited, shared, and loved RandomFont.
 
 # From Joy Neop To Neruthes
 
-Post #121 / Date: Mar 10, 2016
+Post #121 / Date: March 10, 2016
 
 
 
 For half decade I have been using the name "Joy Neop", but I will hopefully get rid of it half decade later.
 
-*Selection of symbol is arbitrary.* When I was around 14, I happened to create an alias name for myself, to be different from my legal name which I couldn't say anything. And it was this one, an *[almost] English* name.
+*Selection of symbol is arbitrary.* When my age was around 14, I happened to create an alias name for myself, to be different from my legal name which was not in my control. And it was this one, a name with anglophone characteristics.
 
-As years past, the name happened to be a bit embarrassing. Not only because this first name is supposed to be exclusive for female users, but I am not really fond of the first-last convention. As I have noticed, the last name component is simply a mark of Y chromosome, and the origins of common last names are usually locations (e.g. Yamada), jobs (e.g. Smith), and objects (e.g. Einstein).
+As years past, the name happened to be a bit problematic. Not only because this first name is supposed to be exclusive for female users in the prejudice of certain arrogant anglophone people, but I am not really fond of the first-last convention. As I have noticed, the last name component is simply a mark of Y chromosome, and the origins of common last names are usually locations (e.g. Yamada), jobs (e.g. Smith), and objects (e.g. Einstein).
 
-I then started to be confused of the necessity of last names. And my conclusion is that the last name component has 0 necessity. I want good Greek days back; I want to follow great ancient spirits like Socrates, Plato, and Aristotle.
+I then started to examine the necessity of last names. And my conclusion is that the last name component has no necessity. I embrace great spirits like Socrates, Plato, and Aristotle.
 
-I respect no tradition; patriot no civilization; exemplify no species; acknowledge no origin. Per my existence, the first subjectivity *a priori*.
+I respect no tradition, patriot no civilization, exemplify no species, and acknowledge no origin. Per my dasein, the first subjectivity *a priori*.
 
-Now, my draft of desired name has become "Neruthes". And it is as same as the preceding one, in terms of absence of etymological origin.
+Now, my draft of desired name has become "Neruthes". The new name has no etymological origin, as same to the preceding one.
 
 
 
@@ -367,7 +523,7 @@ America, which was united on religious basis, is dead. America, which is entitle
 
 
 
-# Introducing My PGP Public Key (Since 2015)
+# My PGP Public Key (Since 2015)
 
 Post #116 / Date: January 26, 2015
 
@@ -695,39 +851,7 @@ Post #105 / Date: July 5, 2014
 
 
 
-# Rainy Lily
-
-Post #104 / Date: June 25, 2014
-
-
-<figure>
-<img src="./img/0000201406250001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Pink Wall
-
-Post #103 / Date: June 24, 2014
-
-
-<figure>
-<img src="./img/0000201406240001.jpg">
-</figure>
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Freshness
+# Vitality Lily
 
 Post #102 / Date: June 24, 2014
 
@@ -859,7 +983,8 @@ I shall have chance to change the world, but I do not have the fortune seemingly
 
 Life is a game, in which I have to make every effort to fight. What if I fail and get proved not talented enough? It will make no sense to talk about me, a nameless loser. What if I fail but with enough talent? Unaffordable shall such huge loss be.
 
-I must and shall try my best to make my ding in the universe, for not only myself but entire human race. Especially for I want to be next Prometheus.
+I must and shall try my best to make my ding in the universe, for not only myself but entire human race. Especially for I want to be the next Prometheus.
+
 
 
 
@@ -896,79 +1021,6 @@ Post #85 / Date: November 3, 2013
 
 
 
---------------------------------------------------------------------------------
-
-
-
-
-# The Second Day
-
-Post #83 / Date: October 16, 2013
-
-
-
-Today morning I got my report of the pretest, which indicates that my ability is fine and I can get 5.0 after these courses, and I have a high possibility to get 5.5 as well.
-
-Then I took the first speaking class and the first listening class. Liang Wang and Xiaoli Ma are my speaking teachers and Ou Lee is my listening teacher. In the listening test provided by Ou Lee, I worked out 29 out of 40, and got 6.5 in total. This is encouraging.
-
-And I got my room, and started to live with an international student from Tajikistan.
-
-The future is coming.
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Arrival
-
-Post #82 / Date: October 14, 2013
-
-
-
-Today, I have arrived at Shenyang. In the following two months, I will take a 160-hour English course for the IELTS. After having considered the situation, I finally decided to prepare for IELTS rather than TOEFL.
-
-At 10:00, we four students took a pretest intending to figure out our current abilities, which allows them to design the entire plan.
-
-The first section was speaking. A lady sat in front of me. She came up with the first question, or to say topic, the brand of my phone.
-
-We then took the listening section, reading section, and writing section. The listening section was a conversation between a student and a clerk in bookstore, discussing discount policy for students. The article was about the construction of Snowy Mountain Scheme, a hydro-electric power station in Australia. Finally the writing section was to describe a graph exposing the wheat exports of European Community, Australia, and Canada, from 1985 to 1990. It was not a good performance.
-
-After lunch, we got to the agency which had handled my applications. My mother and I talked with Mr Xing about my destinations, and chose several universities. I asked if it would be ok for me to apply for universities ranked such high, considering I won't take SAT, and seemingly my IELTS score won't be greater than 6. He convinced me that they could manage it. And I registered for the IELTS on Dec 14, 2013.
-
-Several years later, today will be considered as my most essential day in 2013, even in my entire lifetime.
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Every Day With You In Lifetime
-
-Post #80 / Date: September 2, 2013
-
-
-
-The eighteenth birthday is coming soon.
-
-Decades later, who shall drop tear aside whom, and who shall lay beneath whose flowers? Centuries later, humans remember me because of you, or remember you because of me? Millenniums later, our physical forms and information produced shall vanish in the history; how shall our influences fade?
-
-If you leave me alive alone, I don't know how can I live further than your death. Wandering at the busy yet spacious streetsides; listing your yasashii voice echoing. If I leave you alive alone, I cannot allow the pain ruling over you. Gazing at my *image* every day; scrolling from side to side on the bed where I don't exist every night.
-
-I am atheist. There's no god blessing me; no Jesus loving me. The heaven doesn't welcome me. By the time I cut and nullified them, I accepted to go nowhere after death.
-
-The order to die is not determined by us. The nature shall reserve the power.
-
-Death shall finally come; it's the ultimate ending. I feel so happy, to <strong>live</strong> with you.
-
-
-
 
 --------------------------------------------------------------------------------
 
@@ -999,65 +1051,26 @@ I live on the Internet. Virtual but real, abstract but exact, dramatical but rat
 
 
 
-# Starting
-
-Post #77 / Date: August 28, 2013
-
-
-
-The superposition of high and low mood state finally came. The dark skyrim tells something about some sort of uncertainty.
-
-Wearing the uniform which has been unfamiliar, I walked in the air washed by the rain in last night. Temperature fell down; it doesn't disagree with the green of the ground. Walk some streets. Sang some songs. I felt tired. Last night I slept early; it didn't help.
-
-I don't want to depict the rain; nor to sorrow about the past. I wrote something heavy enough last autumn. Maybe I will be sad like this again one year later. There was happiness in these years despite the pain, while the happy part was not in the school. However the pain engraves deeply along with aging. I tried to seize the time; they ran faster then.
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Senior Year
-
-Post #76 / Date: August 25, 2013
-
-
-
-In this month, I took TOEFL fundamentals course at XDF Dalian. Not sure about the result; it fulfilled me in the period anyway. I was living with cousins these days. In spare time I occasionally participated in the UI design of the web version of HumansMap. Had no time to read novels that I took there, predictably.
-
-It was a few days earlier than the original schedule to get back to Liaoyang. It was not idle. I was working on designs that with or without inspiration, and was preparing for post-vacation stuff. I don't know how will new head teacher react to my empty homework.
-
-The last year is coming. Who knows what shall the future be.
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
 # Betrayer
 
 Post #71 / Date: July 7, 2013
 
 
 
-After the tremendous controversy on iOS 7's changes on GUI, people eventually took another breath to care about OS X Mavericks. According to the public introduction and preview, the trend of flat design has also appeared on OS X. The background tile images of Notification Center, Dashboard and Launchpad folders, got replaced or removed. OS X is going to be flattened.
+After the tremendous controversy on the changes of GUI in iOS 7, people eventually took another breath to care about OS X Mavericks. According to the public introduction and preview, the trend of flat design has also appeared on OS X. The background tile images of Notification Center, Dashboard and Launchpad folders, got replaced or removed. OS X is going to be flattened.
 
-I hate it.
+The movement does not serve in my favor.
 
 What if interact with a machine without even at least one visual metaphor? What if touch a screen without even at least one familiar element? I cannot imagine it; neither can I accept it. What a nightmare.
 
-Then, what if OS X eventually gets as flat as iOS 7 or even more terrible? Beyond imagination. In case of that, I have to build my own OS, temporarily named NeOPSTEP.
+What if OS X eventually gets as flat as iOS 7, or even more terrible? Beyond imagination. In case of that, I have to build my own OS, temporarily named NeOPSTEP.
 
 Ideally, I hope that NeOPSTEP is a FreeBSD-based OS, or directly powered with OpenDarwin. However, I am not a professional programmer so I may or may not be able to create an OS only with these fundamental wheels. It will take time to investigate and find out the right wheels.
 
 Before creating my fork, I have got started to design the GUI. My purpose is to inherit the style from Mac OS X Tiger to OS X Mountain Lion, but I cannot simply copy those because of copyright issue. Right now I am working on the default desktop picture, which shall be similar to the Aqua Blue, which was shipped with Mac OS X Tiger.
 
-When we are destined to be betrayed, I stand out and fight for our faith.
+When we are destined to be betrayed, I stand out and fight for our faith. Only we can save ourselves.
+
 
 
 
