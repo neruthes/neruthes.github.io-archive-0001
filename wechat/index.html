@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Me</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/favicon.png">
+	<link rel="prefetch" href="./my-wechat.png">
+	<link rel="subresource" href="./my-wechat.png">
+    <style>
+    html, body {
+        overflow: hidden;
+    }
+    body {
+    	font-family: 'Seravek', 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #111;
+        padding: 0;
+        margin: 0;
+    }
+    /*------------*/
+    .fixed {
+        position: fixed;
+    }
+    .full-width {
+        width: 100vw;
+    }
+    .full-height {
+        height: 100vh;
+    }
+    .text-center {
+        text-align: center;
+    }
+    </style>
+</head>
+<body id="body">
+    <div id="cont">
+        <div class="slide" id="s-1" style="background: #FFF;">
+            <div class="fixed full-width full-height">
+				<img src="my-wechat.png" alt="" class="full-width">
+			</div>
+        </div>
+    </div>
+    <script>
+    window.addEventListener('scroll', function () {
+        return false;
+    });
+    </script>
+</body>
+</html>
