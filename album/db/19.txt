@@ -68,8 +68,7 @@ aside {
 
 <p>A foreign national would be able to apply for a Civil Service ID Card if they have permanent resident status of Neoparia Commonwealth.</p>
 
-<figure><img class="lg" src="/album/img/0000201808210031.jpg"><figcaption>Foreign Visitor Card</figcaption></figure>
-<figure><img class="lg" src="/album/img/0000201808210031.jpg"><figcaption>Civil Service ID Card</figcaption></figure>
+<figure><img class="lg" src="/album/img/0000201808210032.jpg"><figcaption>Foreign Visitor Card &amp; Civil Service ID Card</figcaption></figure>
 
 <!--
 
