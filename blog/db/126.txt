@@ -15,7 +15,7 @@
 
 <p>The adjectives indicating geo-national property of the items they modify, remain unchanged — the British way and the American way.</p>
 
-<p>The name of un language will be written in the French masculine adjective form. For example, the English language will be called "Anglais", and the French language will be called "Français". Samples:</p>
+<p>The name of un language will be written in the French masculine adjective form. For example, the English language will be called "Anglais", and the French language will be called "Francais". Samples:</p>
 
 <ul>
     <li>The conjugation system in Francais is really annoying.</li>
