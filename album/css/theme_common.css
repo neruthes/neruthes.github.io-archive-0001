@@ -1,6 +1,11 @@
 @import url(/fonts/seravek.css);
 @import url(/fonts/erato.css);
 
+* {
+	text-rendering: optimizeLegibility;
+	box-sizing: border-box !important;
+}
+
 html, body, pre, code {
 	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

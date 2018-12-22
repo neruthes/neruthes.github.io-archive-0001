@@ -135,7 +135,7 @@ app.main = function () {
 				stringInPortfolioContext += regularItemSectionTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, app.articlesList[String(i)].T ? app.articlesList[String(i)].T : '[Untitled Post]').replace(/__DATE__/g, app.articlesList[String(i)].D);
 			};
 		};
-		PortfolioContext.innerHTML = stringInPortfolioContext;
+		PortfolioContext.innerHTML = stringInPortfolioContext + '<div style="clear: both;"></div>';
 		window.setTimeout(function () {
 			var itemEntries = document.getElementsByClassName('entry');
 			for (var i = 0; i < itemEntries.length; i++) {
