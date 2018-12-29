@@ -40,11 +40,11 @@
 		padding-right: 0px;
 	}
 
-	body[page-mode="index"] #cont.cont {
+	body[data-page-mode="index"] #cont.cont {
 		margin: 0 15px;
 	}
 
-	body[page-mode="index"] .entry {
+	body[data-page-mode="index"] .entry {
 		font-size: 0px;
 		line-height: 0px;
 		display: block;
@@ -54,7 +54,7 @@
 		margin: 0px;
 	}
 
-	body[page-mode="single"] #cont.cont {
+	body[data-page-mode="single"] #cont.cont {
 		margin: 0 10px;
 	}
 

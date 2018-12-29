@@ -119,23 +119,23 @@ app.doesArticleExist = function (pid) {
 };
 
 app.main = function () {
-	window.PortfolioContext = document.getElementById('cont');
+	window.AlbumContext = document.getElementById('cont');
 
-	var regularItemEntryTemplate = '<section class="post" id="post__INDEX__"><div class="post-text" id="post__INDEX__text"></div></section>';
-	var regularItemSectionTemplate = '<li class="entry" id="entry__INDEX__"><a class="entry-anchor" id="entry__INDEX__anchor" href="./?p=__INDEX__"><img class="entry-img" src="./covers/__INDEX__.jpg"></a></li>';
-	var stringInPortfolioContext = '';
+	var regularItemSectionTemplate = '<section class="post" id="post__INDEX__"><div class="post-text" id="post__INDEX__text"></div></section>';
+	var regularItemEntryTemplate = '<li class="entry" id="entry__INDEX__"><a class="entry-anchor" id="entry__INDEX__anchor" href="./?p=__INDEX__"><img class="entry-img" src="./covers/__INDEX__.jpg"></a></li>';
+	var stringInAlbumContext = '';
 
 	if ( app.getPID() == null ) {
 		// This is the list of posts
-		document.body.setAttribute('page-mode', 'index');
-		var listInPortfolioContext = '';
+		document.body.setAttribute('data-page-mode', 'index');
+		var listInAlbumContext = '';
 
 		for (var i = app.articlesList.length-1; i >= 0; i--) {
 			if (app.doesArticleExist(i)) {
-				stringInPortfolioContext += regularItemSectionTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, app.articlesList[String(i)].T ? app.articlesList[String(i)].T : '[Untitled Post]').replace(/__DATE__/g, app.articlesList[String(i)].D);
+				stringInAlbumContext += regularItemEntryTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, app.articlesList[String(i)].T ? app.articlesList[String(i)].T : '[Untitled Post]').replace(/__DATE__/g, app.articlesList[String(i)].D);
 			};
 		};
-		PortfolioContext.innerHTML = stringInPortfolioContext + '<div style="clear: both;"></div>';
+		AlbumContext.innerHTML = stringInAlbumContext + '<div style="clear: both;"></div>';
 		window.setTimeout(function () {
 			var itemEntries = document.getElementsByClassName('entry');
 			for (var i = 0; i < itemEntries.length; i++) {
@@ -148,19 +148,27 @@ app.main = function () {
 		}, 900);
 	} else {
 		// This is a particular post
-		document.body.setAttribute('page-mode', 'single');
+		document.body.setAttribute('data-page-mode', 'single');
 		if ( 0 <= app.getPID() && app.getPID() < app.articlesList.length && app.doesArticleExist(app.getPID())) {
 			// This is a valid URL for a post
-			stringInPortfolioContext = regularItemEntryTemplate.replace(/__INDEX__/g, app.getPID()).replace(/__DATE__/g, app.articlesList[app.getPID()].D);
+			stringInAlbumContext = regularItemSectionTemplate.replace(/__INDEX__/g, app.getPID()).replace(/__DATE__/g, app.articlesList[app.getPID()].D);
 			document.title = app.articlesList[String(app.getPID())].T + ' — Joy Neop (a.k.a. Neruthes) Album';
-			PortfolioContext.innerHTML = stringInPortfolioContext;
+			AlbumContext.innerHTML = stringInAlbumContext;
 			app.loadCurrentPost(app.getPID());
 		} else {
 			// This post should not exist
-			stringInPortfolioContext = regularItemSectionTemplate.replace(/__INDEX__/g, app.getPID()).replace(/__TITLE__/g, '404 Not Found');
-			PortfolioContext.innerHTML = stringInPortfolioContext;
-			document.getElementById('post__PID__text'.replace(/__PID__/, app.getPID())).innerHTML = '<p>The post does not exist : (</p>';
-			document.getElementById('post__PID__link'.replace(/__PID__/, app.getPID())).remove();
+			stringInAlbumContext = regularItemSectionTemplate.replace(/__INDEX__/g, app.getPID()).replace(/__TITLE__/g, '404 Not Found');
+			AlbumContext.innerHTML = stringInAlbumContext;
+			document.getElementById('post__PID__text'.replace(/__PID__/, app.getPID())).innerHTML = '<h2>404 Not Found : (</h2><p>Going back in <span id="js-CountDown">6</span></p>';
+			window.setInterval(function () {
+				var cdspan = document.getElementById('js-CountDown');
+				if (Number(cdspan.innerText) === 0) {
+					location.assign('/album/');
+				} else {
+					cdspan.innerHTML = Number(cdspan.innerText) - 1;
+				}
+			}, 1000);
+			// document.getElementById('post__PID__link'.replace(/__PID__/, app.getPID())).remove();
 		};
 	};
 };

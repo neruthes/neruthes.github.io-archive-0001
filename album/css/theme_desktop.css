@@ -29,7 +29,7 @@
 
 	#global-footer {
 		text-align: left;
-		padding: 50px;
+		padding: 50px 0px;
 	}
 
 	.avatar {
@@ -37,23 +37,23 @@
 		height: 50px;
 	}
 
-	body[page-mode="index"] #cont.cont {
+	body[data-page-mode="index"] #cont.cont {
 		font-size: 0px;
 		width: 1030px;
 		margin: 30px auto 25px;
 	}
 
-	body[page-mode="single"] #cont.cont {
+	body[data-page-mode="single"] #cont.cont {
 		margin: 25px auto;
 	}
 
-	body[page-mode="index"] .entry {
+	body[data-page-mode="index"] .entry {
 		display: inline-block;
 		width: 200px;
 		margin: 3px 3px;
 	}
 
-	body[page-mode="index"] .entry:hover {
+	body[data-page-mode="index"] .entry:hover {
 		-webkit-filter: saturate(0.7) contrast(0.7) brightness(1.27);
 	}
 
