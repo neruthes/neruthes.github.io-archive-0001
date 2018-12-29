@@ -22,7 +22,7 @@ app.request = function (url, callback) {
 app.claimPrefetch = function (pid) {
 	var link = document.createElement('link');
 	link.setAttribute('rel', 'prefetch');
-	link.setAttribute('href', '/album/db/' + pid + '.txt');
+	link.setAttribute('href', '/album/db/' + pid + '.html');
 	document.head.appendChild(link);
 };
 
@@ -106,7 +106,7 @@ app.articleContentResponseEventHandler = function (e, targetPID) {
 };
 
 app.loadCurrentPost = function () {
-	app.request('./db/PID.txt'.replace(/PID/, app.getPID()), app.articleContentResponseEventHandlerConstructor(app.getPID()));
+	app.request('./db/PID.html'.replace(/PID/, app.getPID()), app.articleContentResponseEventHandlerConstructor(app.getPID()));
 };
 
 app.doesArticleExist = function (pid) {
