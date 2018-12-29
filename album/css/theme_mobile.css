@@ -14,7 +14,7 @@
 	}
 
 	#global-footer {
-		font-size: 0.8rem;
+		font-size: 1.4rem;
 	}
 
 	.global h1 {
@@ -85,7 +85,7 @@
 		padding: 0 10px 0;
 	}
 	nav.prevandnext {
-		margin: 30px 14px;
+		margin: 30px 20px;
 	}
 }
 
