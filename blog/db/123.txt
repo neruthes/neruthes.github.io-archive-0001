@@ -23,11 +23,11 @@
 </ul>
 <h3>Conclusion</h3>
 <p>In each round, three steps can be found:</p>
-<ol>
+<ul>
     <li>Understand the problem.</li>
     <li>Find possible solutions.</li>
     <li>Choose one.</li>
-</ol>
+</ul>
 <p>Sometimes the second and the third can be put together.</p>
 <p>Also, it is apparent that the <em>solution</em> of the <em>[N]th</em> round demonstrates the problem of the <em>[N+1]th</em> round.</p>
 <p>The example is quite simplified. In different phases of the product, the concentration differs as the product gets maturer. And multiple-to-multiple relations are not illustrated above.</p>

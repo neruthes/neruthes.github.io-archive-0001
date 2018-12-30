@@ -100,6 +100,6 @@ nav.prevandnext span.next {
 
 .post.more > ul.list > li > .post-date {
 	text-align: left;
-	padding: 0;
+	/* padding: 0; */
 	margin: 0 0;
 }
