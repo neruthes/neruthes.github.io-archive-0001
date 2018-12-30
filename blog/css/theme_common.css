@@ -7,7 +7,7 @@
 }
 
 html, body, pre, code {
-	font-family: Seravek, 'JAF Bernino Sans', 'Myriad Pro', Myriad, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Seravek', 'Myriad Pro', 'Myriad', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -77,7 +77,12 @@ a {
 .post-h2 {
 	font-size: 2.6rem;
 	font-weight: 400;
+	padding: 0 10px;
 	margin: 0 0 0;
+}
+
+.post-date {
+	padding: 0 10px;
 }
 
 .post-h2, .post-h2 a {
@@ -95,12 +100,13 @@ a {
 .post-text > h3 {
 	font-size: 2.6rem;
 	font-weight: 200;
-	/* color: #999; */
+	padding: 0 10px;
 	margin: 20px 0 20px;
 }
 
 .post-text > p, .post-text > ul > li, .post-text > ol > li, .post-text > pre, .post-text > aside {
 	line-height: 1.65em;
+	padding: 0 10px;
 	margin: 17px 0;
 }
 
@@ -192,7 +198,7 @@ p code {
 
 	box-sizing: content-box;
 	padding: 10px;
-	margin-left: -10px;
+	/* margin-left: -10px; */
 }
 
 .post-text > canvas {
