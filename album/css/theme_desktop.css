@@ -103,6 +103,10 @@
 		width: 210px;
 	}
 
+	.post-text figure img.shadow {
+		box-shadow: rgba(0, 0, 0, 0.05) 0 4px 17px 0px;
+	}
+
 	nav.prevandnext {
 		max-width: 612px;
 		margin: 0 auto;
