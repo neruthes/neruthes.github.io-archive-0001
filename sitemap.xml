@@ -37,6 +37,12 @@
 	
 	
 	<url>
+		<loc>https://joyneop.xyz/blog/?p=127</loc>
+		<lastmod>December 4, 2018</lastmod>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
 		<loc>https://joyneop.xyz/blog/?p=126</loc>
 		<lastmod>September 26, 2018</lastmod>
 		<priority>0.8</priority>
@@ -319,12 +325,6 @@
 	</url>
 	
 	<url>
-		<loc>https://joyneop.xyz/blog/?p=13</loc>
-		<lastmod>July 14, 2012</lastmod>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
 		<loc>https://joyneop.xyz/blog/?p=11</loc>
 		<lastmod>July 6, 2012</lastmod>
 		<priority>0.8</priority>
@@ -378,6 +378,41 @@
 		<priority>0.8</priority>
 	</url>
 	
+	
+	<url>
+		<loc>https://joyneop.xyz/album/?p=20</loc>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>https://joyneop.xyz/album/?p=19</loc>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>https://joyneop.xyz/album/?p=18</loc>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>https://joyneop.xyz/album/?p=17</loc>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>https://joyneop.xyz/album/?p=16</loc>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>https://joyneop.xyz/album/?p=15</loc>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>https://joyneop.xyz/album/?p=14</loc>
+		<priority>0.8</priority>
+	</url>
 	
 	<url>
 		<loc>https://joyneop.xyz/album/?p=13</loc>

@@ -31,6 +31,6 @@ for (var i = 0; i <= maxId && i < listJson.length; i++) {
 };
 
 
-fs.writeFileSync(thisDirPath + '/portfolio_sitemap.xml', accumulate);
+fs.writeFileSync(thisDirPath + '/album_sitemap.xml', accumulate);
 
 console.log('Done!');

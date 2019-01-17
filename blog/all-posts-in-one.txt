@@ -21,7 +21,7 @@ Post #127 / Date: December 4, 2018
 
 
 
-Now I have a new [Keybase account.](https://keybase.io/neruthes)
+Now I have un new [Keybase account.](https://keybase.io/neruthes)
 <pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
@@ -165,14 +165,14 @@ For years, my satisfaction of the English language have been ceasing. Since this
 <h3>Conjugations</h3>
 
 
-The only remaining special case in verb conjugations, namely the third-person present singular form, will no longer be any special. The variations of "be" remain unchanged.
+The only remaining special case in verb conjugations, namely the third-person present singular form, will non longer be any special. The variations of "be" remain unchanged.
 
 
 
 <h3>Articles</h3>
 
 
-Un article will no longer vary according to the pronunciation of the word after it. Regardless of pronunciation of the word after it, the singular indefinite article is always "un", and the definite article is always "the".
+Un article will non longer vary according to the pronunciation of the word after it. Regardless of pronunciation of the word after it, the singular indefinite article is always "un", and the definite article is always "the".
 
 
 
@@ -181,7 +181,7 @@ Un article will no longer vary according to the pronunciation of the word after 
 
 The adjectives indicating geo-national property of the items they modify, remain unchanged — the British way and the American way.
 
-The name of un language will be written in the French masculine adjective form. For example, the English language will be called "Anglais", and the French language will be called "Français". Samples:
+The name of un language will be written in the French masculine adjective form. For example, the English language will be called "Anglais", and the French language will be called "Francais". Samples:
 
 
 <ul>
@@ -217,19 +217,35 @@ When denoting comparatively greater or smaller number, "more", "most", "less", a
 </ul>
 
 
-<h3>Pronouns</h3>
+<h3>Orthography without Pronunciation</h3>
 
 
 In the orthography of Neoparien, "will not" will not be conjured into "won't" by any chance.
+
+
+
+<h3>Pronouns</h3>
+
 
 In order to distinguish receiver-including first-person plural pronouns and receiver-excluding first-person plural pronouns for imperative cases like "let's" and "let us", subjective receiver-including first-person plural pronoun will be "wir", objective receiver-including first-person plural pronoun will be "nous", possessive receiver-including first-person plural pronoun will be "notre". Samples:
 
 
 <ul>
-    <li>Workers and farmers, wir are the grand party of laborers. We are with you.</li>
+    <li>Workers and farmers, wir are the grand party of laborers. We are with thee.</li>
     <li>Let us die for nous.</li>
     <li>It is not *our* country; it is *notre* country.</li>
 </ul>
+
+
+<h3>Interlingual Ambiguity</h3>
+
+
+Because "no", which mean "nope" or "nil", cannot be distinguished from "no", the ASCII transliteration of <code title="の">U+306E</code> and <code title="ノ">U+30CE</code>, it shall be spelled as "non".
+
+Because "he", the subjective third-person singular pronoun, cannot be distinguished from "He", un common surname of the Chinoises, it shall be spelled as "il".
+
+Because "you", the second-person pronoun, cannot be distinguished from "You", un common surname of the Chinoises, it shall be spelled as "thou" (subjective) or "thee" (objective).
+
 
 
 
@@ -321,7 +337,7 @@ But I will climb to the light.
 
 
 
-I was wretched of the gutter but you kindled my flame of life.
+I was wretched of the gutter but thou kindled my flame of life.
 
 
 Even the darkest night has ended and the sun has risen.
@@ -337,17 +353,17 @@ In the joint future we'll create together.
 
 
 
-Do you hear the tears of mine,
+Do thou hear the tears of mine,
 
 
-Crying for the rebirth you gave me?
+Crying for the rebirth thou gave me?
 
 
 It is a music of a spirit who will not live deadly again!
 
 
 
-This I swear to you,
+This I swear to thee,
 
 
 That I will bravely live till the last moment of the life,
@@ -358,7 +374,7 @@ Either with or without your company.
 
 
 <aside>
-My answer to the meaning of the life is that there is no meaning granted by a greater being and thus one has to find his own way to satisfy his psychological demand for reason to live. And now I find my way can be exactly as sung, *to love another person*.
+My answer to the meaning of the life is that there is non meaning granted by a greater being and thus one has to find his own way to satisfy his psychological demand for reason to live. And now I find my way can be exactly as sung, *to love another person*.
 </aside>
 
 
@@ -412,11 +428,11 @@ The third round is to visualize the information structure, as exemplified:
 
 In each round, three steps can be found:
 
-<ol>
+<ul>
     <li>Understand the problem.</li>
     <li>Find possible solutions.</li>
     <li>Choose one.</li>
-</ol>
+</ul>
 
 Sometimes the second and the third can be put together.
 
@@ -445,11 +461,11 @@ Last year, I published a small [special page](https://joyneop.xyz/types/) on my 
 
 Then I have been thinking how could I make it more useful, and competitive among all products of typography theme, especially those developed by foundries and distributors.
 
-<ol>
+<ul>
     <li>For a utility product, I do not have sufficient technologies, compared with WhatTheFont by MyFonts.</li>
     <li>For a database product, I do not have sufficient data, compared with FontSquirrel.</li>
     <li>For a media product, I do not have sufficient influence, compared with FontInUse.</li>
-</ol>
+</ul>
 
 My resources were very limited, and I could hardly cut into the mature market.
 
@@ -484,11 +500,11 @@ For half decade I have been using the name "Joy Neop", but I will hopefully get 
 
 As years past, the name happened to be a bit problematic. Not only because this first name is supposed to be exclusive for female users in the prejudice of certain arrogant anglophone people, but I am not really fond of the first-last convention. As I have noticed, the last name component is simply a mark of Y chromosome, and the origins of common last names are usually locations (e.g. Yamada), jobs (e.g. Smith), and objects (e.g. Einstein).
 
-I then started to examine the necessity of last names. And my conclusion is that the last name component has no necessity. I embrace great spirits like Socrates, Plato, and Aristotle.
+I then started to examine the necessity of last names. And my conclusion is that the last name component has non necessity. I embrace great spirits like Socrates, Plato, and Aristotle.
 
-I respect no tradition, patriot no civilization, exemplify no species, and acknowledge no origin. Per my dasein, the first subjectivity *a priori*.
+I respect non tradition, patriot non civilization, exemplify non species, and acknowledge non origin. Per my dasein, the first subjectivity *a priori*.
 
-Now, my draft of desired name has become "Neruthes". The new name has no etymological origin, as same to the preceding one.
+Now, my draft of desired name has become "Neruthes". The new name has non etymological origin, as same to the preceding one.
 
 
 
@@ -507,7 +523,7 @@ Post #119 / Date: June 28, 2015
 
 Federal Supreme Court judged States' banning same-gender marriage unconstitutional; five Justices supported whereas four disagreed.
 
-There have been lots of debates about LGBT issues, however, religious forces are always so strong, that freedom and equality have never been done. The people are fond of morality. They hate whatever they are not. They respect no diversity.
+There have been lots of debates about LGBT issues, however, religious forces are always so strong, that freedom and equality have never been done. The people are fond of morality. They hate whatever they are not. They respect non diversity.
 
 I believe that laws should not be associated with morality, whereas humans usually do. A law/act/bill should be passed in order to solve one social problem or multiple. Here, the problem is that humans inevitably have a constant portion of non-heterosexual ones, which has proved that heterosexuality is not inherently correct, thus directly facing and then solving the problem is necessary. Otherwise we the non-heterosexual people will force other people to think so. However, there are people who believe that homosexuality is sin, according to some *fairy tales* which say that humans were created from *image* and *a snake could speak* etc, and then deny the freedom to marry with whatever gender and equality between sexual orientations, because they and their parents and some of their recursive parents are taught so.
 
@@ -723,11 +739,11 @@ Post #113 / Date: November 15, 2014
 
 
 
-The story came from a saying, "if you cannot describe something clearly with only a few words, you don't actually understand it".
+The story came from a saying, "if thou cannot describe something clearly with only a few words, thou don't actually understand it".
 
-When I describe protons to somebody, he should know atoms in advance. When I describe the difference between <code>document.getElementBy</code> series and <code>document.querySelectorAll</code>, he should know HTML and JavaScript in advance. People must have all common knowledge before talking about something. In the examples above, I mentioned several concepts, and I say the concept *proton* depends on the concept *atom*. Later, we will talk about *flavor* and *color*, and these concepts depend on *quark*, which depends on *proton*. In such a context, if I talk about *flavor* and *color*, I should explain what *atom* is, and then explain what *proton* is, based on *atom* which I just explained. For this, I say *quark* is dependency of *flavor* and *color*, and *atom* and *proton* are recursive dependencies of *flavor* and *color*. To reach *flavor* and *color*, I should explain all of its recursive dependencies reversely recursively, if the other one in the conversation don't know them. I say there is a dependency tree.
+When I describe protons to somebody, il should know atoms in advance. When I describe the difference between <code>document.getElementBy</code> series and <code>document.querySelectorAll</code>, il should know HTML and JavaScript in advance. People must have all common knowledge before talking about something. In the examples above, I mentioned several concepts, and I say the concept *proton* depends on the concept *atom*. Later, we will talk about *flavor* and *color*, and these concepts depend on *quark*, which depends on *proton*. In such a context, if I talk about *flavor* and *color*, I should explain what *atom* is, and then explain what *proton* is, based on *atom* which I just explained. For this, I say *quark* is dependency of *flavor* and *color*, and *atom* and *proton* are recursive dependencies of *flavor* and *color*. To reach *flavor* and *color*, I should explain all of its recursive dependencies reversely recursively, if the other one in the conversation don't know them. I say there is a dependency tree.
 
-If I come up with a concept which hasn't been added into the public concept library, it is a *private concept*. Snow might be a private concept around polar zones out of tropical zones several thousands of years ago, for residents in tropical zones might have no chance to see snow. If I come up a concept whose dependencies include at least one of my private concepts, it is a *recursive private concept*. I should recursively explain all my private concepts which are its dependencies, before explaining itself. Therefore the barriers in conversation may be resulted by others' lack in my private concepts, instead of my incomplete understanding.
+If I come up with a concept which hasn't been added into the public concept library, it is a *private concept*. Snow might be a private concept around polar zones out of tropical zones several thousands of years ago, for residents in tropical zones might have non chance to see snow. If I come up a concept whose dependencies include at least one of my private concepts, it is a *recursive private concept*. I should recursively explain all my private concepts which are its dependencies, before explaining itself. Therefore the barriers in conversation may be resulted by others' lack in my private concepts, instead of my incomplete understanding.
 
 
 
@@ -743,15 +759,16 @@ Post #112 / Date: October 2, 2014
 
 
 
-I had never imagined I could meet you at eighteen. Despite I wished and desired, you came to me so fast, before getting ready.
+I had never imagined I could meet thee at eighteen. Despite I wished and desired, thou came to me so fast, before getting ready.
 
 We, of this moment, are still young and still looking forward to far future, thus are not satisfied by each. Inevitably perhaps. Along with time flies by, we shall stop wandering mentally by then. We just should try hard jointly for the period of separate.
 
-In Hangzhou, you can't see the rain and the wind in Beijing. We appreciate and miss asynchronously; have no idea what will our shared life be like. We shall attract; shall try to be fit with. Life is not as easy as poetry.
+In Hangzhou, thou can't see the rain and the wind in Beijing. We appreciate and miss asynchronously; have non idea what will our shared life be like. We shall attract; shall try to be fit with. Life is not as easy as poetry.
 
 Our happiness shall intersect and unite.
 
-In you I trust.
+In thee I trust.
+
 
 
 
@@ -903,7 +920,7 @@ Sacrifice every individual's respective life, to redeem entire species' long liv
 
 
 
-# Macintosh, Thank You
+# Macintosh, Thank Thee
 
 Post #95 / Date: January 24, 2014
 
@@ -977,11 +994,11 @@ Post #88 / Date: November 9, 2013
 
 Perhaps I will fail my dream? But I decide not to give up. Perhaps my hard work will be proved useless? But I decide not to betray.
 
-I am a round peg in square holes, which means I have no typical options. I am a misfit among troublemakers, which means I have to be crazy. Because the people who are crazy enough to think they can change the world are the ones who do. Apparently, the probability of my success is unknown and presumably not high, but I have to go onto this way.
+I am a round peg in square holes, which means I have non typical options. I am a misfit among troublemakers, which means I have to be crazy. Because the people who are crazy enough to think they can change the world are the ones who do. Apparently, the probability of my success is unknown and presumably not high, but I have to go onto this way.
 
 I shall have chance to change the world, but I do not have the fortune seemingly. There shall be someone of my kind to change the world, but exactly who is chosen by fate remains unknown. I shall have every necessary virtue for my dream, but it has not been clear whether I will be the one. I have my destiny to meet, though undefined yet. I will have my destination to arrive, though unclear yet.
 
-Life is a game, in which I have to make every effort to fight. What if I fail and get proved not talented enough? It will make no sense to talk about me, a nameless loser. What if I fail but with enough talent? Unaffordable shall such huge loss be.
+Life is a game, in which I have to make every effort to fight. What if I fail and get proved not talented enough? It will make non sense to talk about me, a nameless loser. What if I fail but with enough talent? Unaffordable shall such huge loss be.
 
 I must and shall try my best to make my ding in the universe, for not only myself but entire human race. Especially for I want to be the next Prometheus.
 
@@ -1102,11 +1119,11 @@ Post #64 / Date: June 29, 2013
 
 
 
-I've watched WWDC 2013 Keynote, and found iOS 7 terrible, and found my being betrayed. Apple will no longer hold on its spirit, and the loss can hardly be repaired. I used to believe that I love Apple, but recently I learned that I love a team consist of Steve Jobs, Scott Forstall, and Jonathan Ive.
+I've watched WWDC 2013 Keynote, and found iOS 7 terrible, and found my being betrayed. Apple will non longer hold on its spirit, and the loss can hardly be repaired. I used to believe that I love Apple, but recently I learned that I love a team consist of Steve Jobs, Scott Forstall, and Jonathan Ive.
 
 After having swept out Steve Jobs, Apple still had an opportunity to recover, because it was the prologue era of computer industry's rising. Having left Apple, Steve Jobs founded NeXT and beat Macintoshes down. Eventually Steve Jobs got back to Apple through the acquirement.
 
-Perhaps Scott Forstall will create an epic as next NeXT, but now there isn't an opportunity like that. While video games are almost for Windows and PS and XBOX, professional creative productivity tools like Photoshop and AutoCAD are almost for Mac, and server softwares are almost for Linux and UNIX. There is no point left to cut in for Scott Forstall.
+Perhaps Scott Forstall will create an epic as next NeXT, but now there isn't an opportunity like that. While video games are almost for Windows and PS and XBOX, professional creative productivity tools like Photoshop and AutoCAD are almost for Mac, and server softwares are almost for Linux and UNIX. There is non point left to cut in for Scott Forstall.
 
 We are watching an invisible war between Scott Forstall and Jonathan Ive. After Scott Forstall's formally leaving Apple, it will be declared, also invisibly.
 
@@ -1203,7 +1220,7 @@ Post #60 / Date: May 17, 2013
 
 Under Miserdux's invitation, I have joined the dance club of our school and get started to work as a music master in a break dance project, whose leader is Miserdux. My job is casting and cutting music for tho dance, supposed to be suitable, regardless how far changed.
 
-Yet actually I had to join in their practicing or I could not understand what was demanded. I listened to my work and watch their practicing. They were supposed to give a formal show in middle May, but it was difficult. As is totally convinced, they should work as a team, but one often came late, or disappear for minutes during practicing at noon. I really wanted to spank him. Not only he, but also some others worked negatively on practicing. I worried about if they could complete practicing and get ready before deadline. But if I really had spanked one or have worked as a ruler, they would complain their getting an officious daddy besides a music master.
+Yet actually I had to join in their practicing or I could not understand what was demanded. I listened to my work and watch their practicing. They were supposed to give a formal show in middle May, but it was difficult. As is totally convinced, they should work as a team, but one often came late, or disappear for minutes during practicing at noon. I really wanted to spank him. Not only il, but also some others worked negatively on practicing. I worried about if they could complete practicing and get ready before deadline. But if I really had spanked one or have worked as a ruler, they would complain their getting an officious daddy besides a music master.
 
 These days I was busy on working. I mean, on editing music. When drawing near the deadline, I had almost completed my work. But unfortunately some minor problems still remained. However they were really minor.
 
@@ -1271,7 +1288,7 @@ Post #57 / Date: April 27, 2013
 
 
 
-After these unremarkable and worthless days, a piece of news about mid-semester exam was published today afternoon. And months later this semester will draw to its end, in the way how semesters did in history. So far I haven't started a new state of working, or picked up my lost energies yet, thus no good grade will be gained in foreseeable future.
+After these unremarkable and worthless days, a piece of news about mid-semester exam was published today afternoon. And months later this semester will draw to its end, in the way how semesters did in history. So far I haven't started a new state of working, or picked up my lost energies yet, thus non good grade will be gained in foreseeable future.
 
 Also, my 11th school-year would draw to its end. Couples of weeks later. But unfortunately the tempo in my mind of working is still so soft and slow like an ancient Chinese ballad, or a Beijing Opera. Lack of execution is still a terrible trouble for me, since more than one year ago, when the previous Class 12 was dismissed. I don't think I have any love to that community, but I haven't worked better so far from that.
 
@@ -1301,7 +1318,7 @@ Two years ago, I was in the last academic year of middle school. In that March, 
 
 Inside the memories, those desks, chairs, blackboard, playground, and people, appear somehow clearly and somehow blurry, among warm wind. The scenes were written in memory and are being read from memory. Such visual memory, beyond description.
 
-Different from previous experiences of reading scenes from memory. This time, no picture flow or play, only static frames, and not even colorful. Touching the memory, I want to recall the age, the last March we got together, the last Spring the people were still around me. The stream of time flows quickly or slowly from time to time, but far memories won't be recalled as same as the original version all the time.
+Different from previous experiences of reading scenes from memory. This time, non picture flow or play, only static frames, and not even colorful. Touching the memory, I want to recall the age, the last March we got together, the last Spring the people were still around me. The stream of time flows quickly or slowly from time to time, but far memories won't be recalled as same as the original version all the time.
 
 Combination of time's flowing and memories' recalling is always a sorrowful and painful topic, even reading previous diaries is. And mostly the weather is the catalyst. Today noon, invisible rain had come, made my mood blue. Voiceless chords are surrounding me, playing a wordless song.
 
@@ -1343,7 +1360,7 @@ Post #50 / Date: Mar 12, 2013
 
 Again, snow droped. But, differently, this time, sky was clear. However the color is, snow was always similar, though I get various emotions from snow. And the secrets inside, were buried in snow.
 
-Once more a time, I wrote chatacters on the snowed ground to the north of our class house, by feet. Before, I wrote words like "I love Sm抹茶", but this time I wrote "404 Not Found". It was easy to understand. If anyone asks me which is the one I love, I used to answer that he was Jiafan. But from sometime, the answer changed to "404 Not Found". The value of the variable, updated to NULL.
+Once more a time, I wrote chatacters on the snowed ground to the north of our class house, by feet. Before, I wrote words like "I love Sm抹茶", but this time I wrote "404 Not Found". It was easy to understand. If anyone asks me which is the one I love, I used to answer that il was Jiafan. But from sometime, the answer changed to "404 Not Found". The value of the variable, updated to NULL.
 
 Yet, snow is always merely snow, feelings are attached by people. In different cultures, symbols are similar. And however the cultures evolve, symbols would hardly change.
 
@@ -1401,9 +1418,9 @@ Although it was still able to be not lost in the crowd, the sensation of nature 
 
 
 
-I felt no loneliness without anyone in companion.
+I felt non loneliness without anyone in companion.
 
-The fantasies could extend and expand and connect and fuse, and turn into a beautiful picture. It came from me and only I could understand. It was my world and my emotions. From the objective world comes resonance, and turned into part of me. And there was no difference of inner and outer.
+The fantasies could extend and expand and connect and fuse, and turn into a beautiful picture. It came from me and only I could understand. It was my world and my emotions. From the objective world comes resonance, and turned into part of me. And there was non difference of inner and outer.
 
 I feel lost in people with little happiness.
 
@@ -1443,7 +1460,7 @@ I, of now, am walking through the snowing storm. The wind and the snow are pulli
 
 It is said that the trees seemingly dead would still revive if it can suffer the winter. Probably I am the same.
 
-With warmness in heart, I may advance one step more. I shall not give up no matter how slow am I. Look forward and see the image of the land of freedom. Even if at the end of dream only fakeness exists; even if I at the end will deny what I pursue now; I can only advance and advance and advance till it is realized, or is destructed.
+With warmness in heart, I may advance one step more. I shall not give up non matter how slow am I. Look forward and see the image of the land of freedom. Even if at the end of dream only fakeness exists; even if I at the end will deny what I pursue now; I can only advance and advance and advance till it is realized, or is destructed.
 
 
 
@@ -1495,7 +1512,7 @@ Post #24 / Date: September 14, 2012
 
 At the evening of yesterday, I was wandering around during the break, and noticed the street lamps and the shine.
 
-A light of yellow and old, sky tinted by the darkness, and grass field dimmed overlaid and fused. And, the air of subtle coldness. Objects created a scene; yet the scene would no longer be limited to objects.
+A light of yellow and old, sky tinted by the darkness, and grass field dimmed overlaid and fused. And, the air of subtle coldness. Objects created a scene; yet the scene would non longer be limited to objects.
 
 The rhythm of familiarity started to echo in my mind. Last autumn, the song echoing in my mind was this *Back To The Past*. Beneath the sky of even and night, steps went forward, slowly.
 
@@ -1544,7 +1561,7 @@ And I shall abandon the borrowed dreams and actualize my existence.
 
 
 
-# No Longer The Things, No Longer The People
+# No Longer The Things, Non Longer The People
 
 Post #22 / Date: September 7, 2012
 
@@ -1586,7 +1603,7 @@ From the gray sky the drops fall, not too fast, nor too slow; mixed up with unna
 
 From the rain I gain inspirations, always. The same mood could not be generated into graceful text in sunny days. Sunshine prevents creativity, probably.
 
-Not only rain the rain is; but also cleaner. When undertaking no interference, the internal realness emerges. Only pure souls can express themselves losslessly. Therefore, only in quiet environment can I write words that express myself.
+Not only rain the rain is; but also cleaner. When undertaking non interference, the internal realness emerges. Only pure souls can express themselves losslessly. Therefore, only in quiet environment can I write words that express myself.
 
 
 
@@ -1598,9 +1615,9 @@ Withered leaves covered live grass; in the rain silenced the wind.
 
 
 
-Cool brought heavy. Probably because of the campus. In such new a campus, no age subsides. Thus, the weight does not exist here.
+Cool brought heavy. Probably because of the campus. In such new a campus, non age subsides. Thus, the weight does not exist here.
 
-No emotion can be evoked by a campus that subsides no age. And because of emotionlessness it feels heavy.
+No emotion can be evoked by a campus that subsides non age. And because of emotionlessness it feels heavy.
 
 
 
@@ -1642,109 +1659,6 @@ In United States does my future reside.
 The will is my blade; cutting down thorns.
 
 The dream is my sheath; defending agains storms.
-
-
-
-
---------------------------------------------------------------------------------
-
-
-
-
-# Three Years
-
-Post #13 / Date: July 14, 2012
-
-
-
-Up to the sky it is blue
-
-Down to the ground pieces of chalk
-
-Those years have drawn over their ends
-
-I still remember the paper boat in the river
-
-
-
-
-In the desk there lied a few papers
-
-Playground there were lines of white chalks
-
-Every noon walking around three circles
-
-That was the song of our youth
-
-
-
-
-Still remember the three years
-
-Counting down to the day of end
-
-Recalling your face of the age
-
-As if the past presents
-
-At the time we were not alone
-
-Promised to climb the hill
-
-Although many years has passed
-
-You are always together with me
-
-
-
-
-
-
-Far away the horizon under skyline
-
-Written the memorial after separated
-
-Memory of the past has been dried
-
-I still remember rainbow after rain
-
-
-
-
-The eave we've be under when rain poured
-
-Playground fully covered by gingko leaves
-
-Shoulder with shoulder when school's over
-
-That was the picture can't show once more
-
-
-
-
-Still remember the three years
-
-Counting down to the day of end
-
-Recalling your face of the age
-
-As if the past presents
-
-At the time we were not alone
-
-Promised to climb the hill
-
-Although many years has passed
-
-You are always together with me
-
-
-
-
-Those three years we enjoyed together
-
-Now only memory retains its place
-
 
 
 
@@ -1816,7 +1730,7 @@ Post #10 / Date: June 28, 2012
 
 
 
-The galaxy enshrine memory of those three years; Street lamps fainted faces of you and me.
+The galaxy enshrine memory of those three years; Street lamps fainted faces of thee and me.
 
 I started to yearn the good old days.
 
@@ -1831,6 +1745,7 @@ Another year has past.
 We have been going different ways, from our mutual. Thanks for brightening my life in the years.
 
 In memory of the youth of us, and the time of us.
+
 
 
 
@@ -1898,7 +1813,7 @@ Post #5 / Date: April 27, 2012
 "Death is not opposite to life; it's part of life. Death leads life to eternal."
 —<cite>Huixin Yang</cite></blockquote>
 
-The death of Tassadar was not *death*; it was *transcend*. He was complete. He has been immortal in Khala, in every Khalai's presence. It's another way of *existence*.
+The death of Tassadar was not *death*; it was *transcend*. Il was complete. Il has been immortal in Khala, in every Khalai's presence. It's another way of *existence*.
 
 People who know Baolin is a network of information, where his presence shall exist upon death. Which is call, "*still lives in our minds*". Upon my death, my presence shall also exist longer in this way. The only pity is that it's not recursive.
 
@@ -1931,7 +1846,7 @@ People in cities cannot enjoy complete rainy days, as is said and believed. Howe
 
 The sky was masked grayscale; light and shadow turn and turn, restlessly. Sunless; moonless; starless.
 
-The rain reminded me of someone, who I used to be interested in for sex and relationship since fall of 2011; but unfortunately a straight guy. He must have heard of me, according to his reaction when associating my name and face.
+The rain reminded me of someone, who I used to be interested in for sex and relationship since fall of 2011; but unfortunately a straight guy. Il must have heard of me, according to his reaction when associating my name and face.
 
 The hand script of the lyric which was written to him was lost by him. Since then, I should have understood that I was just a stranger in his mind, for his absence of care.
 
