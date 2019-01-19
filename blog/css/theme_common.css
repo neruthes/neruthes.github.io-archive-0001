@@ -35,6 +35,7 @@ h1 {
 }
 
 header.global h2 {
+	font-variant-numeric: tabular-nums lining-nums;
 	padding: 10px 0;
 	margin: 0;
 }
