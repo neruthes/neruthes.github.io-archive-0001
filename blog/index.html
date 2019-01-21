@@ -25,9 +25,14 @@
 			<h1>Joy Neop</h1>
 		</a>
 		<h2>
-			<span>8069 0EBD 5991 1905 0EF9</span>
-			<span>43AF 037F 2FB3 D5E2 F043</span>
+			<span class="pgp-pubkey-fingerprint">8069 0EBD 5991 1905 0EF9</span>
+			<span class="pgp-pubkey-fingerprint">43AF 037F 2FB3 D5E2 F043</span>
 		</h2>
+		<script type="text/javascript">
+		document.querySelectorAll('.pgp-pubkey-fingerprint').forEach(function (node) {
+			node.innerHTML = node.innerText.replace(/(\w)/g, '<span style="width: 0.58em;">$1</span>');
+		})
+		</script>
 	</header>
 	<div id="cont" class="cont">
 	</div>

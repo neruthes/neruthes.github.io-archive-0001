@@ -1,6 +1,12 @@
-header.global h2 span {
+header.global h2 > span.pgp-pubkey-fingerprint {
 	display: inline-block;
 	padding: 0 1px;
+}
+
+header.global h2 > span.pgp-pubkey-fingerprint > span {
+	font-variant-numeric: tabular-nums lining-nums;
+	text-align: center;
+	display: inline-block;
 }
 
 #avatar {
