@@ -168,7 +168,7 @@
 
 	/* -------------------------------------- */
 
-	#nav {
+	section.nav {
 		text-align: center;
 	}
 	.circle {
@@ -194,6 +194,7 @@
 		display: block;
 		font-size: 30px;
 		color: #FFF;
+		text-align: center;
 		text-decoration: none;
 		width: 180px;
 		height: 180px;
@@ -285,6 +286,45 @@
 		color: inherit;
 		text-decoration: none;
 	}
+	section.keyring .keyring-key {
+		display: block;
+		float: left;
+		width: 50%;
+	}
+	section.keyring .keyring-key:nth-child(odd) {
+		padding: 0 5px 5px 0;
+	}
+	section.keyring .keyring-key:nth-child(even) {
+		padding: 0 0 5px 5px;
+	}
+	section.keyring .keyring-key-inner {
+		background: #F0F0F0;
+		border-radius: 5px;
+		padding: 15px 0;
+	}
+	.keyring-key-header {
+		text-align: center;
+		padding: 0 0 10px;
+	}
+	.keyring-key-content {
+		font-family: 'Inconsolata', 'Menlo', monospace;
+		font-size: 18px;
+		text-align: center;
+		padding: 0 0 10px;
+	}
+	section.keyring .keyring-key-content > span {
+		display: inline-block;
+	}
+	section.keyring .keyring-key-footer {
+		font-size: 16px;
+		text-align: center;
+	}
+	section.keyring .keyring-key-footer > a, section.keyring .keyring-key-footer > a:hover, section.keyring .keyring-key-footer > a:visited, section.keyring .keyring-key-footer > a:active {
+		color: #999;
+		text-decoration: none;
+	}
+	section.keyring .keyring-key-footer > a::before { content: "[" }
+	section.keyring .keyring-key-footer > a::after { content: "]" }
 	footer {
 		font-size: 14px;
 		line-height: 22px;
@@ -324,6 +364,46 @@
 					<a href="/album/">
 						<span>ALBUM</span>
 					</a>
+				</div>
+			</section>
+			<section class="keyring">
+				<h2>Keyring</h2>
+				<div class="keyring-keys-list">
+					<div class="keyring-key">
+						<div class="keyring-key-inner">
+							<div class="keyring-key-header">
+								<span class="key-class">Root Key</span>
+								<span class="key-name">D5E2F043</span>
+							</div>
+							<div class="keyring-key-content">
+								<span>80690EBD599119050EF9</span>
+								<span>43AF037F2FB3D5E2F043</span>
+							</div>
+							<div class="keyring-key-footer">
+								<a href="/_keyring/root_keys/0001_D5E2F043.asc">raw</a>
+	                            <a href="/_keyring/root_keys/replacement_chain/0001_D5E2F043.txt.asc">proof</a>
+							</div>
+						</div>
+					</div>
+					<div class="keyring-key">
+						<div class="keyring-key-inner">
+							<div class="keyring-key-header">
+								<span class="key-class">Agent Key</span>
+								<span class="key-name">095ED892</span>
+							</div>
+							<div class="keyring-key-content">
+								<span>68061AF0C1813884EF11</span>
+								<span>B50A2AFDC3A9095ED892</span>
+							</div>
+							<div class="keyring-key-footer">
+								<a href="/_keyring/agent_keys/0002_095ED892.asc">raw</a>
+	                            <a href="/_keyring/agent_keys/delegation_declarations/0002_095ED892.txt.asc">delegation</a>
+	                            <a href="/_keyring/agent_keys/delegation_declarations/0002_095ED892.txt.asc">ownership</a>
+							</div>
+						</div>
+					</div>
+					<div style="clear: both;">
+					</div>
 				</div>
 			</section>
 			<section class="contact">
