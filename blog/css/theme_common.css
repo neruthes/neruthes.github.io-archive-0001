@@ -7,8 +7,7 @@
 	box-sizing: border-box !important;
 }
 
-/* html, body, pre, code { */
-html, body, code {
+html, body {
 	font-family: 'Seravek', 'Myriad Pro', 'Myriad', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -156,7 +155,8 @@ a {
 	margin: 0 0 12px;
 }
 
-p code {
+.post-text code {
+	font-family: 'Inconsolata', 'Menlo', monospace;
 	background: #F9F9F9;
 	border-radius: 3px;
 	padding: 0 3px;
