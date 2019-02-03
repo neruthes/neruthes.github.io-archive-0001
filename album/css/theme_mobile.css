@@ -66,8 +66,8 @@
 		font-size: 1.5rem;
 	}
 
-	.post-text > img {
-		max-width: 100%;
+	.post-text figure img, .post-text figure img.custom {
+		max-width: 100% !important;
 	}
 
 	.post time {
