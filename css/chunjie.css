@@ -1,0 +1,37 @@
+body {
+    color: #FFC954;
+    background: #4E150F url(/JN-Lab/other-images/dark-red-bg-with-noise-tile-export.png) center repeat scroll;
+    background-size: 100px;
+}
+
+header {
+	color: #FFC954;
+}
+.avatar {
+	box-shadow: rgba(255, 201, 84, 0.5) 0 0 30px 0px !important;
+}
+.avatar:hover, .avatar:hover [data-avatar-index] {
+	box-shadow: rgba(255, 201, 84, 0.5) 0 0 80px 5px !important;
+}
+
+.content {
+    background: #E1320C url(/JN-Lab/other-images/fresh-red-bg-with-noise-tile-export.png) center repeat scroll;
+	box-shadow: rgba(255, 201, 84, 0.5) 0 0 40px 0px;
+}
+section h2 {
+	color: #FFC954;
+}
+section .circle {
+}
+section .circle a {
+}
+
+/* -------------------------------------- */
+
+.keyring-key {
+    color: #000;
+}
+
+section.keyring .keyring-key-inner {
+    background: #FFF !important;
+}
