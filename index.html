@@ -78,7 +78,7 @@
 	}
 	@media screen and (max-width: 619px) {
 		header {
-			padding: 80px 15px 30px;
+			padding: 80px 15px 50px;
 			margin: 0 auto;
 		}
 	}
@@ -109,6 +109,9 @@
 		-webkit-transition: box-shadow 270ms ease;
 		-moz-transition: box-shadow 270ms ease;
 		transition: box-shadow 270ms ease;
+	}
+	.avatar:hover {
+	    transform: scale(1.03);
 	}
 	.avatar:hover, .avatar:hover [data-avatar-index] {
 		border-radius: 50%;
@@ -176,7 +179,7 @@
 			width: 100%;
 		}
 		.circle-outer:first-child {
-			padding: 0 0 15px;
+			padding: 0 0 40px;
 		}
 	}
 	.circle {
@@ -215,6 +218,7 @@
 	}
 	.circle:hover {
 		box-shadow: rgba(0, 0, 0, 0.41322) 0 0 15px inset;
+		transform: scale(1.03);
 	}
 	.circle:hover a {
 		opacity: 1;
