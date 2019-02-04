@@ -17,10 +17,10 @@
 
             var makeElement = function (align) {
                 var div = document.createElement('div');
-                div.setAttribute('class', 'desktop-only chunlian');
+                div.setAttribute('class', 'desktop-only chunlian vertical');
                 div.setAttribute('style', `position: fixed; top: 2vh; height: 96vh; ${align}: 2vh;`)
                 var img = document.createElement('img');
-                img.setAttribute('src', `/JN-Lab/other-images/kotomatsu-chunlian-${align}.png`);
+                img.setAttribute('src', `/JN-Lab/other-images/kotomatsu-chunlian-${align}.jpg`);
                 img.setAttribute('style', `height: 100%; display: block; margin: 0 auto;`);
                 div.appendChild(img);
                 return div;
@@ -32,7 +32,7 @@
                 div.setAttribute('class', 'desktop-only chunlian hengpi');
                 div.setAttribute('style', `position: fixed; top: 2vh; width: calc(100vw - 42vh); height: 15.473977695vh; left: 21vh;`)
                 var img = document.createElement('img');
-                img.setAttribute('src', `/JN-Lab/other-images/kotomatsu-chunlian-hengpi.png`);
+                img.setAttribute('src', `/JN-Lab/other-images/kotomatsu-chunlian-hengpi.jpg`);
                 img.setAttribute('style', `height: 100%; display: block; margin: 0 auto;`);
                 div.appendChild(img);
                 return div;
@@ -41,16 +41,28 @@
             document.body.appendChild(xialian);
             document.body.appendChild(hengpi);
 
+            document.querySelectorAll('.chunlian.vertical > img').forEach(function (chunlian) {
+                chunlian.addEventListener('click', function (e) {
+                    var currentRotation = Number(e.target.getAttribute('data-rotation'));
+                    e.target.style.transform = `rotateY(${currentRotation+180}deg)`;
+                    e.target.setAttribute('data-rotation', currentRotation + 180);
+                });
+            });
+            document.querySelector('.chunlian.hengpi > img').addEventListener('click', function (e) {
+                var currentRotation = Number(e.target.getAttribute('data-rotation'));
+                e.target.style.transform = `rotateX(${currentRotation+180}deg)`;
+                e.target.setAttribute('data-rotation', currentRotation + 180);
+            });
+
             document.addEventListener('scroll', function () {
-                console.log('123');
                 if (window.pageYOffset > window.screen.availHeight * 0.8) {
                     document.body.setAttribute('data-should-hide-hengpi', 'true');
                 } else {
                     document.body.setAttribute('data-should-hide-hengpi', 'false');
                 };
-                var opacity = Math.max( 0, (1-(window.pageYOffset/window.screen.availHeight/0.8)) )
+                var opacity = Math.max( 0, (1-(window.pageYOffset/window.screen.availHeight/0.8)) );
                 document.querySelector('.chunlian.hengpi').style.opacity = opacity;
             });
         })();
-    }
+    };
 })(new Date());
