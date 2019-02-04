@@ -151,7 +151,7 @@ blog.main = function () {
 				};
 			};
 		};
-		for (var i = blog.articlesList.length-1-11; i > -1; i--) {
+		for (var i = blog.articlesList.length-1-12; i > -1; i--) {
 			if (blog.doesArticleExist(i)) {
 				listInBlogContext += listItemTemplate.replace(/__INDEX__/g, i).replace(/__TITLE__/g, blog.articlesList[String(i)].T ? blog.articlesList[String(i)].T : '[Untitled Post]').replace(/__DATE__/g, blog.articlesList[String(i)].D);
 			};
