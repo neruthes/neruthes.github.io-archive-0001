@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Joy Neop (a.k.a. Neruthes)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" href="/joyneop.png">
 	<link rel="subresource" href="/blog/list.json">
@@ -67,22 +68,19 @@
 		color: inherit;
 		text-decoration: inherit;
 	}
-	header {
-		position: absolute;
-		width: 100%;
-		height: 90vh;
-		min-height: 500px;
-		padding: 30px 0;
-		margin: 0 auto;
+	@media screen and (min-width: 620px) {
+		header {
+			min-height: 90vh;
+			height: 600px;
+			padding: 24vh 0 30px;
+			margin: 0 auto;
+		}
 	}
-	header #title {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		width: 680px;
-		margin: -200px 0 0 -340px;
-	}
-	#title-in {
+	@media screen and (max-width: 619px) {
+		header {
+			padding: 80px 15px 30px;
+			margin: 0 auto;
+		}
 	}
 	.avatar {
 		width: 180px;
@@ -117,15 +115,12 @@
 		box-shadow: rgba(0, 0, 0, 0.432222) 0 0 5px inset;
 	}
 	#main {
-		position: absolute;
-		top: 90%;
-		width: 100%;
-		padding: 0;
+		padding: 0 15px;
 	}
 	.content {
 		background: #FFF;
-		width: 720px;
-		padding: 60px 0 30px;
+		max-width: 720px;
+		padding: 60px 15px 30px;
 		margin: 0 auto 50px;
 		border-radius: 4px;
 		box-shadow: rgba(0, 0, 0, 0.024322) 0 0 4px;
@@ -146,7 +141,7 @@
 	}
 	section {
 		min-height: 100px;
-		width: 540px;
+		max-width: 540px;
 		padding: 30px 0;
 		margin: 0 auto 70px;
 		background-size: 100px;
@@ -171,11 +166,24 @@
 	section.nav {
 		text-align: center;
 	}
+	.circle-outer {
+		display: block;
+		float: left;
+		width: 50%;
+	}
+	@media screen and (max-width: 619px) {
+		.circle-outer {
+			width: 100%;
+		}
+		.circle-outer:first-child {
+			padding: 0 0 15px;
+		}
+	}
 	.circle {
-		display: inline-block;
+		display: block;
 		width: 180px;
 		height: 180px;
-		margin: 0 44px;
+		margin: 0 auto;
 		background: #FFF center no-repeat scroll;
 		background-size: contain;
 		border-radius: 50%;
@@ -239,6 +247,13 @@
 		width: 100%;
 		height: 260px;
 	}
+	@media screen and (max-width: 619px) {
+		section.links ul li, section.links ul li a {
+			display: block;
+			width: 100%;
+			height: 160px !important;
+		}
+	}
 	section.links ul {
 		padding: 5px 0 0;
 	}
@@ -248,7 +263,7 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: scroll;
-		border-radius: 3px;
+		border-radius: 4px;
 	}
 	section.links ul li a {
 		border-radius: inherit;
@@ -286,6 +301,7 @@
 		color: inherit;
 		text-decoration: none;
 	}
+	/* ------------------------------- */
 	section.keyring .keyring-key {
 		display: block;
 		float: left;
@@ -297,9 +313,15 @@
 	section.keyring .keyring-key:nth-child(even) {
 		padding: 0 0 5px 5px;
 	}
+	@media screen and (max-width: 619px) {
+		section.keyring .keyring-key {
+			width: 100%;
+			padding: 15px 0 0 !important;
+		}
+	}
 	section.keyring .keyring-key-inner {
 		background: #F0F0F0;
-		border-radius: 5px;
+		border-radius: 4px;
 		padding: 15px 0;
 	}
 	.keyring-key-header {
@@ -332,7 +354,6 @@
 		padding: 50px 0;
 	}
 	</style>
-	<link rel="stylesheet" href="/css/chunjie.css">
 </head>
 <body>
 	<header>
@@ -349,7 +370,7 @@
 					<h1>Joy Neop</h1>
 				</a>
 				<p>
-					A.k.a. Neruthes.<br />Male, 1995, Sino-Korean, Homosexual,<br />Existentialist, Nihilist, Communist, Skeuomorphist,<br />(Fake) Product Designer, (Half) Web Developer,<br />Resident of Cyberspace.
+					A.k.a. Neruthes.<br />Male, 1995, Sino-Korean, Homosexual,<br />Existentialist, Nihilist, Communist, Skeuomorphist,<br />(Fake)&nbsp;Product&nbsp;Designer, (Half)&nbsp;Web&nbsp;Developer,<br />Resident of Cyberspace.
 				</p>
 			</div>
 		</div>
@@ -357,14 +378,21 @@
 	<div id="main">
 		<div class="content">
 			<section id="nav">
-				<div class="circle blog">
-					<a href="/blog/">
-						<span>BLOG</span>
-					</a>
-				</div><div class="circle lab">
-					<a href="/album/">
-						<span>ALBUM</span>
-					</a>
+                <div class="circle-outer">
+					<div class="circle blog">
+						<a href="/blog/">
+							<span>BLOG</span>
+						</a>
+					</div>
+				</div>
+				<div class="circle-outer">
+					<div class="circle lab">
+						<a href="/album/">
+							<span>ALBUM</span>
+						</a>
+					</div>
+				</div>
+				<div style="clear: both;">
 				</div>
 			</section>
 			<section class="keyring">
@@ -525,5 +553,6 @@
 		x.send();
 	})();
 	</script>
+	<script type="text/javascript" src="/js/chunjie.js"></script>
 </body>
 </html>

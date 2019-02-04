@@ -1,11 +1,11 @@
 body {
-    color: #FFC954;
+    /* color: #FFC954; */
     background: #4E150F url(/JN-Lab/other-images/dark-red-bg-with-noise-tile-export.png) center repeat scroll;
     background-size: 100px;
 }
 
-header {
-	color: #FFC954;
+header, footer, header *, footer, h1, .prevandnext {
+	color: #FFC954 !important;
 }
 .avatar {
 	box-shadow: rgba(255, 201, 84, 0.5) 0 0 30px 0px !important;
@@ -13,9 +13,10 @@ header {
 .avatar:hover, .avatar:hover [data-avatar-index] {
 	box-shadow: rgba(255, 201, 84, 0.5) 0 0 80px 5px !important;
 }
-
 .content {
+    color: #FFC954;
     background: #E1320C url(/JN-Lab/other-images/fresh-red-bg-with-noise-tile-export.png) center repeat scroll;
+    background-size: 100px;
 	box-shadow: rgba(255, 201, 84, 0.5) 0 0 40px 0px;
 }
 section h2 {
@@ -31,7 +32,19 @@ section .circle a {
 .keyring-key {
     color: #000;
 }
-
 section.keyring .keyring-key-inner {
     background: #FFF !important;
+}
+
+/* -------------------------------------- */
+
+@media screen and (max-width: 1109px) {
+    .desktop-only {
+        display: none;
+        visibility: hidden;
+    }
+}
+body[data-should-always-hide-hengpi="true"] .hengpi,
+body[data-should-hide-hengpi="true"] .hengpi {
+    display: none;
 }
