@@ -15,6 +15,11 @@
 		padding-top: 50px;
 	}
 
+	#global-header a {
+		width: 240px;
+		margin: 0 auto;
+	}
+
 	.global h1 {
 		font-size: 4.8em;
 		margin: 35px 0;

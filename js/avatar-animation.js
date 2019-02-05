@@ -15,7 +15,7 @@ var currentAvatarIndex = {
     }
 };
 avatarsAllLoaded = function () {
-    if (window.theStyleForNow == "dark-moon.css") {
+    if (window.theStyleForNow && window.theStyleForNow === "dark-moon.css") {
         return 0;
     };
     for (var i = 0; i < 18; i++) {
@@ -25,7 +25,7 @@ avatarsAllLoaded = function () {
         document.getElementById('avatar').appendChild(myNode);
     };
     window.setInterval(function () {
-        if (document.getElementById('avatar').parentElement.querySelector(':hover')) {
+        if (document.querySelector('#avatar :hover')) {
             document.querySelectorAll('div[data-avatar-index="' + currentAvatarIndex.val + '"]')[0].style.opacity = '0';
             document.querySelectorAll('div[data-avatar-index="' + currentAvatarIndex.getNext() + '"]')[0].style.opacity = '1';
             document.getElementById('avatar').style.backgroundImage = 'url(/kotomatsu/MY.jpg)'.replace(/MY/, currentAvatarIndex.getNext()+1);
