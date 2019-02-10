@@ -1,8 +1,12 @@
 (function (d) {
     if (
-        d.getTime() > (new Date('Jan 15 ' + d.getFullYear())).getTime()
-        &&
-        d.getTime() < (new Date('Feb 25 ' + d.getFullYear())).getTime()
+        (
+            d.getTime() > (new Date('Jan 01 ' + d.getFullYear())).getTime()
+            &&
+            d.getTime() < (new Date('Mar 01 ' + d.getFullYear())).getTime()
+        )
+        ||
+        window.location.href.match(/\?theme=chunjie/)
     ) {
         // Enable Chunjie features
         (function () {
@@ -50,6 +54,7 @@
             document.body.appendChild(hengpi);
 
             var renderNodeTransformStyle = function (node) {
+                console.log(node.getAttribute('data-rotation'));
                 node.style.transform = [
                     `rotate${node.getAttribute('data-rotation')[0]}(${node.getAttribute('data-rotation').slice(1)}deg)`,
                     `scale(${node.getAttribute('data-scale')})`
