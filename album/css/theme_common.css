@@ -105,6 +105,12 @@ a {
 	/*color: #2B8CD2;*/
 }
 
+h1, h2, h3 {
+	-webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+}
+
 .post-text {
 	font-weight: 300;
 	-webkit-hyphens: auto;
