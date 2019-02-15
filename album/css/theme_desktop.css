@@ -37,6 +37,10 @@
 		height: 50px;
 	}
 
+	.avatar:hover {
+	    transform: scale(1.04);
+	}
+
 	body[data-page-mode="index"] #cont.cont {
 		font-size: 0px;
 		width: 1030px;
@@ -104,7 +108,7 @@
 	}
 
 	.post-text figure img.shadow {
-		box-shadow: rgba(0, 0, 0, 0.05) 0 4px 17px 0px;
+		box-shadow: rgba(0, 0, 0, 0.3) 0 1px 4px 0px;
 	}
 
 	nav.prevandnext {
