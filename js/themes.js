@@ -29,7 +29,7 @@ window.addEventListener('load', function () {
                     /^\/album\//
                 ],
                 preventedPaths: [
-                    /[?&]p=\d+/
+                    /album.+?[?&]p=\d+/
                 ],
                 dateRange: [ 'Jan 01', 'Mar 01' ],
                 action: function () {
