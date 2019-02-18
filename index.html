@@ -4,6 +4,7 @@
 	<meta charset="utf-8" />
 	<title>Joy Neop (a.k.a. Neruthes)</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="/js/themes.js" async></script>
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" href="/joyneop.png">
 	<link rel="subresource" href="/blog/list.json">
@@ -46,7 +47,6 @@
 	<link rel="prefetch" href="/kotomatsu/16.jpg">
 	<link rel="prefetch" href="/kotomatsu/17.jpg">
 	<link rel="prefetch" href="/kotomatsu/18.jpg">
-	<script src="/js/special.js"></script>
 	<style media="screen">
 	@import url(/fonts/seravek.css);
 	* {
@@ -555,12 +555,13 @@
 			};
 			var list = JSON.parse(ev.target.responseText);
 			Object.keys(list).map(function (key) {
-				_cache('/album/covers/' + key + '.jpg');
+				if (list[key].T !== 0) {
+					_cache('/album/covers/' + key + '.jpg');
+				};
 			});
 		};
 		x.send();
 	})();
 	</script>
-	<script type="text/javascript" src="/js/chunjie.js"></script>
 </body>
 </html>

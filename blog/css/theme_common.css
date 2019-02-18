@@ -178,6 +178,10 @@ h1, h2, h3 {
 	border-radius: 3px;
 }
 
+.post-text img.custom {
+	border-radius: 0px !important;
+}
+
 .post-text figure img {
 	margin-left: auto;
 	margin-right: auto;

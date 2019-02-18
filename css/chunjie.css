@@ -55,6 +55,9 @@ body[data-should-always-hide-hengpi="true"] .hengpi,
 body[data-should-hide-hengpi="true"] .hengpi {
     display: none;
 }
+.chunlian {
+    transition: all 400ms ease;
+}
 .chunlian > img {
     box-shadow: rgba(255, 201, 84, 0.5) 0 0 30px 0px !important;
     transition: all 400ms ease;
@@ -62,5 +65,8 @@ body[data-should-hide-hengpi="true"] .hengpi {
 }
 .chunlian > img:hover {
     box-shadow: rgba(255, 201, 84, 0.7) 0 0 80px 5px !important;
-    filter: brightness(1.08);
+    /* filter: brightness(1.08); */
+}
+body[data-chunlian-hover="true"] .chunlian img {
+    opacity: 0 !important;
 }

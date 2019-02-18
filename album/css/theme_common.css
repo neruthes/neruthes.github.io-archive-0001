@@ -51,6 +51,7 @@ header.global h2 {
 	margin: 0;
 	background: #FFF url(/joyneop.png) center no-repeat scroll;
 	background-size: contain;
+	box-shadow: rgba(0, 0, 0, 0.21322) 0 0 4px inset;
 	border-radius: 2000px;
 	-webkit-transition: all 360ms ease;
 	-moz-transition: all 360ms ease;

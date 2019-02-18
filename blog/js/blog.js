@@ -4,7 +4,7 @@ window.blog = {
 
 blog.getPID = function () {
 	var PID = null;
-	var loc = location.href.match(/\=(\d+)/);
+	var loc = location.search.match(/[?&]p=(\d+)/);
 	if (loc && loc.length > 0) {
 		PID = Number(loc[1]);
 		PID = isNaN(PID) ? null : PID;
