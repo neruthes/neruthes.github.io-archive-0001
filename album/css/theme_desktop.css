@@ -111,6 +111,20 @@
 		box-shadow: rgba(0, 0, 0, 0.25) 0 1px 3px 0;
 	}
 
+	.post-text figure img.custom.id3-s2-g { width: 222.51669mm; }
+	.post-text figure img.custom.id3-s2 { width: 208.22906mm; }
+	.post-text figure img.custom.id3-s1 { width: 104.77599mm; }
+	.post-text figure img.custom.id3-l1 { width: 148.1681mm; }
+
+	.post-text figure img.custom.id2-s2-g { width: 185.73926mm; }
+
+	.post-text figure img.custom.id1-l2-g { width: 211.66868mm; }
+	.post-text figure img.custom.id1-l1 { width: 100.0135mm; }
+
+	.post-text figure img.custom.a4-s1 { width: 243.41898mm; }
+
+	.post-text figure img.custom.iphone { width: 79.90492mm; }
+
 	nav.prevandnext {
 		max-width: 612px;
 		margin: 0 auto;
