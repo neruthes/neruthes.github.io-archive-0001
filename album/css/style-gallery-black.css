@@ -1,0 +1,10 @@
+body {
+    background: #000;
+}
+.global-text {
+    color: #FFF;
+}
+.post-text {
+    /* font-family: 'Erato', 'Erato-fallback', serif; */
+    color: #FFF;
+}
