@@ -39,7 +39,7 @@
 	}
 }
 
-@media screen and (min-width: 620px) and (max-width: 1099px) {
+@media screen and (min-width: 620px) and (max-width: 999px) {
 	.post, nav.prevandnext {
 		max-width: 600px;
 		margin-left: auto;
