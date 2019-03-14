@@ -1,7 +1,7 @@
 body {
     background: #000;
 }
-.global-text {
+.global * {
     color: #FFF;
 }
 .post-text {
