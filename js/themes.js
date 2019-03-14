@@ -1,10 +1,10 @@
 window.addEventListener('load', function () {
     (function () {
         if (location.href.match(/[?&]date=(\d{8})/)) {
-            window.madatoryDate = location.href.match(/[?&]date=(\d{8})/)[1];
-            var d = (new Date(`${madatoryDate.slice(0,4)}/${madatoryDate.slice(4,6)}/${madatoryDate.slice(6,8)} 12:31:00`));
+            window.mandatoryDate = location.href.match(/[?&]date=(\d{8})/)[1];
+            var d = (new Date(`${mandatoryDate.slice(0,4)}/${mandatoryDate.slice(4,6)}/${mandatoryDate.slice(6,8)} 12:31:00`));
         } else {
-            window.madatoryDate = false;
+            window.mandatoryDate = false;
             var d = new Date();
         };
         var yyyy = d.getFullYear();
@@ -147,9 +147,9 @@ window.addEventListener('load', function () {
                         return (location.pathname + location.search).match(reg) ? true : false;
                     }).filter(function (x) { return x; }).length === 0
                     &&
-                    !anyThemeApplied
+                    !window.anyThemeApplied
                 ) {
-                    anyThemeApplied = themeId;
+                    window.anyThemeApplied = themeId;
                     themes[themeId].action();
                 }
             });
@@ -179,13 +179,13 @@ window.addEventListener('load', function () {
                 [...document.querySelectorAll('a')].filter(function (a) {
                     return a.href.match('' + location.host) ? true : false;
                 }).map(function (a) {
-                    if (a.getAttribute('data-theme-link-done') !== 'true' && window.madatoryTheme) {
+                    if (a.getAttribute('data-theme-link-done') !== 'true' && window.anyThemeApplied) {
                         var qs = !!a.href.match(/\w+=[\w\d]+$/);
                         a.href += (qs ? '&' : '?') + 'theme=' + window.anyThemeApplied;
                         a.setAttribute('data-theme-link-done', 'true');
-                    } else if (a.getAttribute('data-theme-link-done') !== 'true' && window.madatoryDate) {
+                    } else if (a.getAttribute('data-theme-link-done') !== 'true' && window.mandatoryDate) {
                         var qs = !!a.href.match(/\w+=[\w\d]+$/);
-                        a.href += (qs ? '&' : '?') + 'date=' + window.madatoryDate;
+                        a.href += (qs ? '&' : '?') + 'date=' + window.mandatoryDate;
                         a.setAttribute('data-theme-link-done', 'true');
                     };
                 });
