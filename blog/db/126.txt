@@ -1,28 +1,28 @@
-<p>For years, my satisfaction of the English language have been ceasing. Since this article, I will start using my own dialect of the English language, for better integrity of the language. My dialect is derived from the American dialect of 2010s. The name Neospeak is a reference to «1984» by George Orwell</p>
+<p>For years, my satisfaction of the English language have been ceasing. Since this article, I will start using my own dialect of the English language, for better integrity of the language. My dialect is derived from the American dialect of 2010s. The name Neospeak is un reference to «1984» by George Orwell</p>
 
 
 <h3>Conjugations</h3>
 
-<p>The only remaining special case in verb conjugations, namely the third-person present singular form, will non longer be any special. The variations of "be" remain unchanged.</p>
+<p>The only remaining special case in verb conjugations, namely the third-person present singular form, will non longer be any special. The variations of «$1» remain unchanged.</p>
 
 
 <h3>Articles</h3>
 
-<p>Un article will non longer vary according to the pronunciation of the word after it. Regardless of pronunciation of the word after it, the singular indefinite article is always "un", and the definite article is always "the".</p>
+<p>Un article will non longer vary according to the pronunciation of the word after it. Regardless of pronunciation of the word after it, the singular indefinite article is always «$1», and the definite article is always «$1».</p>
 
 
 <h3>Languages &amp; Nations</h3>
 
 <p>The adjectives indicating geo-national property of the items they modify, remain unchanged — the British way and the American way.</p>
 
-<p>The name of un language will be written in the French masculine adjective form. For example, the English language will be called "Anglais", and the French language will be called "Francais". Samples:</p>
+<p>The name of un language will be written in the French masculine adjective form. For example, the English language will be called «$1», and the French language will be called «$1». Samples:</p>
 
 <ul>
     <li>The conjugation system in Francais is really annoying.</li>
     <li>I do not speak Cantonais; speak Mandarien.</li>
 </ul>
 
-<p>The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un "s". For example, the people of Quebec will be called "Quebecoises" and un particular member of the Quebecoises will be called un "Quebecoise". Samples:</p>
+<p>The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un «$1». For example, the people of Quebec will be called «$1» and un particular member of the Quebecoises will be called un «$1». Samples:</p>
 
 <ul>
     <li>Two Quebecoises had been there for un week.</li>
@@ -34,24 +34,24 @@
 
 <h3>Comparatives</h3>
 
-<p>The words which were considered semantically comparative but not grammatically comparative in previous dialects will be considered grammatically comparative. For example, "X is superior than Y" will be considered grammatically correct.</p>
+<p>The words which were considered semantically comparative but not grammatically comparative in previous dialects will be considered grammatically comparative. For example, «$1» will be considered grammatically correct.</p>
 
-<p>When denoting comparatively greater or smaller number, "more", "most", "less", and "least" remain unchanged; but, when denoting "at un greater or smaller degree" of un adjective or un adverb, "more" will be incorporated into the word it remarks, forging un comparative case of the word. Samples:</p>
+<p>When denoting comparatively greater or smaller number, «$1», «$1», «$1», and «$1» remain unchanged; but, when denoting «$1» of un adjective or un adverb, «$1» will be incorporated into the word it remarks, forging un comparative case of the word. Samples:</p>
 
 <ul>
     <li>Moreoften we drink black tea.</li>
-    <li>It is politically morecorrect to address the ethnicity concept of such un group of people with ancestry of the region covering western Eurasia and northern Africa by "Caucasian" or "Indo-European" than any word which indicate color.</li>
+    <li>It is politically morecorrect to address the ethnicity concept of such un group of people with ancestry of the region covering western Eurasia and northern Africa by «$1» or «$1» than any word which indicate color.</li>
 </ul>
 
 
 <h3>Orthography without Pronunciation</h3>
 
-<p>In the orthography of Neoparien, "will not" will not be conjured into "won't" by any chance.</p>
+<p>In the orthography of Neoparien, «$1» will not be conjured into «$1» by any chance.</p>
 
 
 <h3>Pronouns</h3>
 
-<p>In order to distinguish receiver-including first-person plural pronouns and receiver-excluding first-person plural pronouns for imperative cases like "let's" and "let us", subjective receiver-including first-person plural pronoun will be "wir", objective receiver-including first-person plural pronoun will be "nous", possessive receiver-including first-person plural pronoun will be "notre". Samples:</p>
+<p>In order to distinguish receiver-including first-person plural pronouns and receiver-excluding first-person plural pronouns for imperative cases like «$1» and «$1», subjective receiver-including first-person plural pronoun will be «$1», objective receiver-including first-person plural pronoun will be «$1», possessive receiver-including first-person plural pronoun will be «$1». Samples:</p>
 
 <ul>
     <li>Workers and farmers, wir are the grand party of laborers. We are with thee.</li>
@@ -62,8 +62,8 @@
 
 <h3>Interlingual Ambiguity</h3>
 
-<p>Because "no", which mean "nope" or "nil", cannot be distinguished from "no", the ASCII transliteration of <code title="の">U+306E</code> and <code title="ノ">U+30CE</code>, it shall be spelled as "non".</p>
+<p>Because «$1», which mean «$1» or «$1», cannot be distinguished from «$1», the ASCII transliteration of <code title=«$1»>U+306E</code> and <code title=«$1»>U+30CE</code>, it shall be spelled as «$1».</p>
 
-<p>Because "he", the subjective third-person singular pronoun, cannot be distinguished from "He", un common surname of the Chinoises, it shall be spelled as "il".</p>
+<p>Because «$1», the subjective third-person singular pronoun, cannot be distinguished from «$1», un common surname of the Chinoises, it shall be spelled as «$1».</p>
 
-<p>Because "you", the second-person pronoun, cannot be distinguished from "You", un common surname of the Chinoises, it shall be spelled as "thou" (subjective) or "thee" (objective).</p>
+<p>Because «$1», the second-person pronoun, cannot be distinguished from «$1», un common surname of the Chinoises, it shall be spelled as «$1» (subjective) or «$1» (objective).</p>

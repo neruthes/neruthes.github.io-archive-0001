@@ -1,7 +1,7 @@
 <p>A line on the first page of the notebook</p>
 <p>Opened the story of adolescence</p>
 <p>Time stopped, so suddenly</p>
-<p>Youth that never fades goes into a poem</p>
+<p>Youth that never fades goes into un poem</p>
 <br />
 <p>Look out at the land that we've grown on</p>
 <p>Memory of youth were preserved therein</p>
@@ -11,7 +11,7 @@
 <p>The age rewinded up by the good night</p>
 <p>Remember I said it'd never been forgot</p>
 <p>Old dairies inside my drawer</p>
-<p>There's a secret on every page</p>
+<p>There's un secret on every page</p>
 <br />
 <p>Midnight bell tone ringing everywhere</p>
 <p>Reminding me the promise to be redeemed</p>
