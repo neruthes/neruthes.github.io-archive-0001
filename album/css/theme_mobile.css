@@ -1,4 +1,4 @@
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 768px) {
 	html, body {
 		font-size: 12px;
 	}
@@ -59,7 +59,7 @@
 	}
 
 	.post {
-		margin: 0;
+		margin: 0 10px;
 	}
 
 	.post-text {
@@ -67,8 +67,29 @@
 	}
 
 	.post-text figure img {
-		max-width: 100% !important;
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
 	}
+
+	.post-text figure img.custom.id3-s2-g { width: 222.51669mm; }
+	.post-text figure img.custom.id3-s2 { width: 208.22906mm; }
+	.post-text figure img.custom.id3-s1 { width: 104.77599mm; }
+	.post-text figure img.custom.id3-l1 { width: 148.1681mm; }
+
+	.post-text figure img.custom.id2-s2-g { width: 185.73926mm; }
+
+	.post-text figure img.custom.id1-l2-g { width: 211.66868mm; }
+	.post-text figure img.custom.id1-s2-g { width: 138.64299mm; }
+	.post-text figure img.custom.id1-l1 { width: 100.0135mm; }
+
+	.post-text figure img.custom.coin-2-g { width: 78.3174116mm; }
+
+	.post-text figure img.custom.a4-s1 { width: 243.41898mm; }
+
+	.post-text figure img.custom.banknote-l1 { width: 186.79790mm; }
+
+	.post-text figure img.custom.iphone { width: 79.90492mm; }
 
 	.post time {
 	}
@@ -76,23 +97,5 @@
 	nav.prevandnext {
 		padding-left: 0px;
 		padding-right: 0px;
-	}
-}
-
-@media screen and (max-width: 619px) {
-	.post {
-		margin: 0 0 50px;
-		padding: 0 10px 0;
-	}
-	nav.prevandnext {
-		margin: 30px 20px;
-	}
-}
-
-@media screen and (min-width: 620px) and (max-width: 999px) {
-	.post, nav.prevandnext {
-		max-width: 600px;
-		margin-left: auto;
-		margin-right: auto;
 	}
 }
