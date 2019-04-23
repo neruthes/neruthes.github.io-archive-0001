@@ -1,4 +1,4 @@
-<p>Now I have un new <a href="https://keybase.io/neruthes">Keybase account.</a>
+<p>Now I have un new <a href="https://keybase.io/neruthes">Keybase account.</a></p>
 <pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
