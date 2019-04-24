@@ -8,20 +8,23 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
         <atom:link href="https://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />
         <link>https://joyneop.xyz/blog/</link>
         <description>8F45 D723 57EE B6C5 5666 2C8D 68A0 B4B6 EEF9 762A</description>
-        <lastBuildDate>December 4, 2018 09:41:00 +0000</lastBuildDate>
+        <lastBuildDate>2019-04-23 09:41:00 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
 	    <generator>https://joyneop.xyz/blog/</generator>
         <item>
-            <title>My PGP Public Key (Since 2018)</title>
-            <link>https://joyneop.xyz/blog/?p=127</link>
-            <pubDate>December 4, 2018 09:41:00 +0000</pubDate>
+            <title>My OpenPGP SECP256K1 Public Key (Since 2019)</title>
+            <link>https://joyneop.xyz/blog/?p=128</link>
+            <pubDate>2019-04-23 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
-            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=127</guid>
+            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=128</guid>
             <content:encoded>
 <![CDATA[
-<p>Now I have un new <a href="https://keybase.io/neruthes">Keybase account.</a>
+<p>The fingerprint of the new public key is <code>CB0A BC77 5644 0D12 915E 3F25 AFB3 373F 5200 DF38</code>.</p>
+
+<p>This algorithm of this key is SECP256K1.</p>
+
 <pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
@@ -148,38 +151,172 @@ QfaYQhu+eQ==
             </content:encoded>
         </item>
         <item>
-            <title>The Neoparian Dialect Of The English Language</title>
+            <title>My OpenPGP RSA Public Key (Since 2018)</title>
+            <link>https://joyneop.xyz/blog/?p=127</link>
+            <pubDate>2018-12-04 09:41:00 +0000</pubDate>
+            <dc:creator><![CDATA[Joy Neop]]></dc:creator>
+            <guid isPermaLink="false">https://joyneop.xyz/blog/?p=127</guid>
+            <content:encoded>
+<![CDATA[
+<p>Now I have un new <a href="https://keybase.io/neruthes">Keybase account.</a></p>
+<pre>
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+QfaYQhu+eQ==
+=2KHR
+-----END PGP PUBLIC KEY BLOCK-----
+</pre>
+
+]]>
+            </content:encoded>
+        </item>
+        <item>
+            <title>Neospeak, The Neoparian Dialect Of The English Language</title>
             <link>https://joyneop.xyz/blog/?p=126</link>
-            <pubDate>September 26, 2018 09:41:00 +0000</pubDate>
+            <pubDate>2018-11-26 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=126</guid>
             <content:encoded>
 <![CDATA[
-<p>For years, my satisfaction of the English language have been ceasing. Since this article, I will start using my own dialect of the English language, for better integrity of the language. My dialect is derived from the American dialect of 2010s.</p>
+<p>For years, my satisfaction of the English language have been ceasing. Since this article, I will start using my own dialect of the English language, for better integrity of the language. My dialect is derived from the American dialect of 2010s. The name Neospeak is un reference to «1984» by George Orwell</p>
 
 
 <h3>Conjugations</h3>
 
-<p>The only remaining special case in verb conjugations, namely the third-person present singular form, will non longer be any special. The variations of "be" remain unchanged.</p>
+<p>The only remaining special case in verb conjugations, namely the third-person present singular form, will non longer be any special. The variations of «be» remain unchanged.</p>
 
 
 <h3>Articles</h3>
 
-<p>Un article will non longer vary according to the pronunciation of the word after it. Regardless of pronunciation of the word after it, the singular indefinite article is always "un", and the definite article is always "the".</p>
+<p>Un article will non longer vary according to the pronunciation of the word after it. Regardless of pronunciation of the word after it, the singular indefinite article is always «un», and the definite article is always «the».</p>
 
 
 <h3>Languages &amp; Nations</h3>
 
 <p>The adjectives indicating geo-national property of the items they modify, remain unchanged — the British way and the American way.</p>
 
-<p>The name of un language will be written in the French masculine adjective form. For example, the English language will be called "Anglais", and the French language will be called "Francais". Samples:</p>
+<p>The name of un language will be written in the French masculine adjective form. For example, the English language will be called «Anglais», and the French language will be called «Francais». Samples:</p>
 
 <ul>
     <li>The conjugation system in Francais is really annoying.</li>
     <li>I do not speak Cantonais; speak Mandarien.</li>
 </ul>
 
-<p>The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un "s". For example, the people of Quebec will be called "Quebecoises" and un particular member of the Quebecoises will be called un "Quebecoise". Samples:</p>
+<p>The noun for the people collectively, or un person individually of such people, of un geo-national concept, will be written in the French feminine adjective form, and the pluralization will by default be the singular plus un «s». For example, the people of Quebec will be called «Quebecoises» and un particular member of the Quebecoises will be called un «Quebecoise». Samples:</p>
 
 <ul>
     <li>Two Quebecoises had been there for un week.</li>
@@ -193,11 +330,11 @@ QfaYQhu+eQ==
 
 <p>The words which were considered semantically comparative but not grammatically comparative in previous dialects will be considered grammatically comparative. For example, "X is superior than Y" will be considered grammatically correct.</p>
 
-<p>When denoting comparatively greater or smaller number, "more", "most", "less", and "least" remain unchanged; but, when denoting "at un greater or smaller degree" of un adjective or un adverb, "more" will be incorporated into the word it remarks, forging un comparative case of the word. Samples:</p>
+<p>When denoting comparatively greater or smaller number, «more», «most», «less», and «least» remain unchanged; but, when denoting "at un greater or smaller degree" of un adjective or un adverb, «more» will be incorporated into the word it remarks, forging un comparative case of the word. Samples:</p>
 
 <ul>
     <li>Moreoften we drink black tea.</li>
-    <li>It is politically morecorrect to address the ethnicity concept of such un group of people with ancestry of the region covering western Eurasia and northern Africa by "Caucasian" or "Indo-European" than any word which indicate color.</li>
+    <li>It is politically morecorrect to address the ethnicity concept of such un group of people with ancestry of the region covering western Eurasia and northern Africa by «Caucasian» or "Indo-European" than any word which indicate color.</li>
 </ul>
 
 
@@ -208,7 +345,7 @@ QfaYQhu+eQ==
 
 <h3>Pronouns</h3>
 
-<p>In order to distinguish receiver-including first-person plural pronouns and receiver-excluding first-person plural pronouns for imperative cases like "let's" and "let us", subjective receiver-including first-person plural pronoun will be "wir", objective receiver-including first-person plural pronoun will be "nous", possessive receiver-including first-person plural pronoun will be "notre". Samples:</p>
+<p>In order to distinguish receiver-including first-person plural pronouns and receiver-excluding first-person plural pronouns for imperative cases like "let's" and "let us", subjective receiver-including first-person plural pronoun will be «wir», objective receiver-including first-person plural pronoun will be «nous», possessive receiver-including first-person plural pronoun will be «notre». Samples:</p>
 
 <ul>
     <li>Workers and farmers, wir are the grand party of laborers. We are with thee.</li>
@@ -219,11 +356,11 @@ QfaYQhu+eQ==
 
 <h3>Interlingual Ambiguity</h3>
 
-<p>Because "no", which mean "nope" or "nil", cannot be distinguished from "no", the ASCII transliteration of <code title="の">U+306E</code> and <code title="ノ">U+30CE</code>, it shall be spelled as "non".</p>
+<p>Because «no», which mean «nope» or «nil», cannot be distinguished from «no», the ASCII transliteration of <code title="の">U+306E</code> and <code title="ノ">U+30CE</code>, it shall be spelled as «non».</p>
 
-<p>Because "he", the subjective third-person singular pronoun, cannot be distinguished from "He", un common surname of the Chinoises, it shall be spelled as "il".</p>
+<p>Because «he», the subjective third-person singular pronoun, cannot be distinguished from «He», un common surname of the Chinoises, it shall be spelled as «il».</p>
 
-<p>Because "you", the second-person pronoun, cannot be distinguished from "You", un common surname of the Chinoises, it shall be spelled as "thou" (subjective) or "thee" (objective).</p>
+<p>Because «you», the second-person pronoun, cannot be distinguished from «You», un common surname of the Chinoises, it shall be spelled as «thou» (subjective) or «thee» (objective).</p>
 
 ]]>
             </content:encoded>
@@ -231,19 +368,19 @@ QfaYQhu+eQ==
         <item>
             <title>GitHub + CloudFlare = CDN</title>
             <link>https://joyneop.xyz/blog/?p=125</link>
-            <pubDate>August 26, 2016 09:41:00 +0000</pubDate>
+            <pubDate>2016-08-26 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=125</guid>
             <content:encoded>
 <![CDATA[
-<p>Today I discovered a new way to serve JS and CSS publicly over GitHub.</p>
+<p>Today I discovered un new way to serve JS and CSS publicly over GitHub.</p>
 
-<h3>1. Create An Organization On GitHub</h3>
-<p>I created an organization on GitHub named <code>neopcdn</code>, and created a repository named <code>neopcdn.github.io</code>, in which a file <code>CNAME</code> is placed with single-line content <code>cdn.neop.me</code>. This would specify a custom domain name of the default GitHub Pages repository.</p>
+<h3>1. Create Un Organization On GitHub</h3>
+<p>I created un organization on GitHub named <code>neopcdn</code>, and created un repository named <code>neopcdn.github.io</code>, in which un file <code>CNAME</code> is placed with single-line content <code>cdn.neop.me</code>. This would specify un custom domain name of the default GitHub Pages repository.</p>
 <p>In addition, all other repositories owned by this organization with GitHub Pages feature enabled would share this domain name unless it has its own <code>CNAME</code> file. Usage of GitHub Pages can be found in the official help center.</p>
 
-<h3>2. Create An Empty Repository</h3>
-<p>I created an empty repository named <code>pride.js</code>, as same as the particular project that I would like to serve.</p>
+<h3>2. Create Un Empty Repository</h3>
+<p>I created un empty repository named <code>pride.js</code>, as same as the particular project that I would like to serve.</p>
 <p>In the settings of this repository, I changed source branch that generates GitHub Pages, from the default <code>gh-pages</code> to <code>master</code>.</p>
 
 <h3>3. Push To Multiple Remotes</h3>
@@ -259,10 +396,10 @@ $ git push cdn master
 <p>It is also possible to set two URLs as different destinations of the same remote, which would allow one to push to both by simply pushing to <code>origin</code>.</p>
 
 <h3>4. Set Up CloudFlare</h3>
-<p>Then I created a CNAME record to point <code>cdn.neop.me</code> to <code>neopcdn.github.io</code> on CloudFlare, and turned on CDN feature for this record. This would take advantage of free SSL by CloudFlare.</p>
+<p>Then I created un CNAME record to point <code>cdn.neop.me</code> to <code>neopcdn.github.io</code> on CloudFlare, and turned on CDN feature for this record. This would take advantage of free SSL by CloudFlare.</p>
 
 <h3>Conclusion</h3>
-<p>Now, for a file like <a href="https://github.com/neruthes/pride.js/blob/master/pride.js" target="_blank">https://github.com/neruthes/pride.js/blob/master/pride.js</a>, anyone can access it through <a href="https://cdn.neop.me/pride.js/pride.js" target="_blank">https://cdn.neop.me/pride.js/pride.js</a>, with correct Contnet-Type and Access-Control-Allow-Origin.</p>
+<p>Now, for un file like <a href="https://github.com/neruthes/pride.js/blob/master/pride.js" target="_blank">https://github.com/neruthes/pride.js/blob/master/pride.js</a>, anyone can access it through <a href="https://cdn.neop.me/pride.js/pride.js" target="_blank">https://cdn.neop.me/pride.js/pride.js</a>, with correct Contnet-Type and Access-Control-Allow-Origin.</p>
 
 ]]>
             </content:encoded>
@@ -270,7 +407,7 @@ $ git push cdn master
         <item>
             <title>To Boldly Live</title>
             <link>https://joyneop.xyz/blog/?p=124</link>
-            <pubDate>August 16, 2016 09:41:00 +0000</pubDate>
+            <pubDate>2016-08-16 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=124</guid>
             <content:encoded>
@@ -304,7 +441,7 @@ Do thou hear the tears of mine,
 <br />
 Crying for the rebirth thou gave me?
 <br />
-It is a music of a spirit who will not live deadly again!
+It is un music of un spirit who will not live deadly again!
 </p>
 
 <p>
@@ -316,7 +453,7 @@ Either with or without your company.
 </p>
 
 <aside>
-My answer to the meaning of the life is that there is non meaning granted by a greater being and thus one has to find his own way to satisfy his psychological demand for reason to live. And now I find my way can be exactly as sung, <em>to love another person</em>.
+My answer to the meaning of the life is that there is non meaning granted by un greater being and thus one has to find his own way to satisfy his psychological demand for reason to live. And now I find my way can be exactly as sung, <em>to love another person</em>.
 </aside>
 
 ]]>
@@ -325,7 +462,7 @@ My answer to the meaning of the life is that there is non meaning granted by a g
         <item>
             <title>Problems vs Solutions</title>
             <link>https://joyneop.xyz/blog/?p=123</link>
-            <pubDate>July 31, 2016 09:41:00 +0000</pubDate>
+            <pubDate>2016-07-31 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=123</guid>
             <content:encoded>
@@ -334,24 +471,24 @@ My answer to the meaning of the life is that there is non meaning granted by a g
 <p>Design is to solve problems.</p>
 </blockquote>
 <p>This definition is pretty general, and is often considered unhelpful for any particular usage of the term, by where only confusion is made. To be specific, the context of digital product design is needed.</p>
-<p>In the context of product design, it is easy and coherent to have a mindset, that first there is a problem and then there is a solution for the problem, and often it is necessary to pluralize one or both.</p>
+<p>In the context of product design, it is easy and coherent to have un mindset, that first there is un problem and then there is un solution for the problem, and often it is necessary to pluralize one or both.</p>
 <h3>Round 1: Product Problem &amp; Solution</h3>
-<p>The first round is to outline a product problem and introduce a product design, as exemplified:</p>
+<p>The first round is to outline un product problem and introduce un product design, as exemplified:</p>
 <ul>
-    <li><strong>Problem</strong>: Deliver a message to the users that the pricing will soon be changed (which may become statistically more expensive), introducing the new pricing model clear enough, avoiding them dismissing the message without reading carefully if they get bored after feeling it wordy, avoiding them complaining about perceived surcharge against their credit cards in the bill following the change coming into effect, comforting them from imaginable negative emotions after knowing this, avoiding interrupting their current tasks, holding as much retention as possible, satisfying upcoming complaints to support department, keeping the public discussion about this event on social media platforms in control.</li>
-    <li><strong>Solution</strong>: Having compared among displaying a modal when the user visits his dashboard, sending them a message in notification center, and displaying a banner in every page until the user clicks a "got it" button; we find that the second has insufficient visibility and the third may disturb the user's current task (even if reducing it to a weaker version that to display the banner in a subset of all pages), while the first has minimum drawback. Additionally, an email should be sent to the users separately, in order to notify those who do not use the web console of the product frequently.</li>
+    <li><strong>Problem</strong>: Deliver un message to the users that the pricing will soon be changed (which may become statistically more expensive), introducing the new pricing model clear enough, avoiding them dismissing the message without reading carefully if they get bored after feeling it wordy, avoiding them complaining about perceived surcharge against their credit cards in the bill following the change coming into effect, comforting them from imaginable negative emotions after knowing this, avoiding interrupting their current tasks, holding as much retention as possible, satisfying upcoming complaints to support department, keeping the public discussion about this event on social media platforms in control.</li>
+    <li><strong>Solution</strong>: Having compared among displaying un modal when the user visits his dashboard, sending them un message in notification center, and displaying un banner in every page until the user clicks un «got it» button; we find that the second has insufficient visibility and the third may disturb the user's current task (even if reducing it to un weaker version that to display the banner in un subset of all pages), while the first has minimum drawback. Additionally, un email should be sent to the users separately, in order to notify those who do not use the web console of the product frequently.</li>
 </ul>
 <h3>Round 2: Interaction Problem &amp; Solution</h3>
 <p>The second round is to turn the solution in the first round interactive, as exemplified:</p>
 <ul>
     <li><strong>Problem</strong>: Allow the users dismissing the message after it is believably read carefully.</li>
-    <li><strong>Solution</strong>: There should be a dismiss button at the bottom of the modal while the button text remains arguable. The logic of this modal should be coherent with other components of this product, that means, the decision of presence or absence of a close button on top-left or top-right corner should be made appropriately, referring to the established guidelines. If there is not one, it is time to create one.</li>
+    <li><strong>Solution</strong>: There should be un dismiss button at the bottom of the modal while the button text remains arguable. The logic of this modal should be coherent with other components of this product, that means, the decision of presence or absence of un close button on top-left or top-right corner should be made appropriately, referring to the established guidelines. If there is not one, it is time to create one.</li>
 </ul>
 <h3>Round 3: Visual Problem &amp; Solution</h3>
 <p>The third round is to visualize the information structure, as exemplified:</p>
 <ul>
     <li><strong>Problem</strong>: Let the users estimate the importance of this message correctly, presenting the changes effectively.</li>
-    <li><strong>Solution</strong>: Make a chart to illustrate the diff, and apply text styles and button styles correctly, while concerning the established guidelines (if they exist).</li>
+    <li><strong>Solution</strong>: Make un chart to illustrate the diff, and apply text styles and button styles correctly, while concerning the established guidelines (if they exist).</li>
 </ul>
 <h3>Conclusion</h3>
 <p>In each round, three steps can be found:</p>
@@ -371,23 +508,23 @@ My answer to the meaning of the life is that there is non meaning granted by a g
         <item>
             <title>The Story Behind RandomFont</title>
             <link>https://joyneop.xyz/blog/?p=122</link>
-            <pubDate>July 7, 2016 09:41:00 +0000</pubDate>
+            <pubDate>2016-07-07 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=122</guid>
             <content:encoded>
 <![CDATA[
-<p>Last year, I published a small <a href="https://joyneop.xyz/types/" target="_blank">special page</a> on my website, in which a few of my favorite fonts were displayed each with a specimen picture. However, this was not scalable, and was limited as an extension of my personality.</p>
+<p>Last year, I published un small <a href="https://joyneop.xyz/types/" target="_blank">special page</a> on my website, in which un few of my favorite fonts were displayed each with un specimen picture. However, this was not scalable, and was limited as un extension of my personality.</p>
 <p>Then I have been thinking how could I make it more useful, and competitive among all products of typography theme, especially those developed by foundries and distributors.</p>
 <ul>
-    <li>For a utility product, I do not have sufficient technologies, compared with WhatTheFont by MyFonts.</li>
-    <li>For a database product, I do not have sufficient data, compared with FontSquirrel.</li>
-    <li>For a media product, I do not have sufficient influence, compared with FontInUse.</li>
+    <li>For un utility product, I do not have sufficient technologies, compared with WhatTheFont by MyFonts.</li>
+    <li>For un database product, I do not have sufficient data, compared with FontSquirrel.</li>
+    <li>For un media product, I do not have sufficient influence, compared with FontInUse.</li>
 </ul>
 <p>My resources were very limited, and I could hardly cut into the mature market.</p>
-<p>At last, I thought, my product must be small-and-beautiful, for that was the only chance. Its value for the users must not rely on data coverage, cutting-edge technologies, or update frequency. And the concept of displaying a random font was almost obvious, as confronted these requirements.</p>
-<p><a href="https://randomfont.com/" target="_blank">RandomFont</a> came online in April 2016, but I hesitated to show on Designer News. Each sample image contains a purchase link to MyFonts and they are all under my referral link, it might subject to the risk of being considered spam. But not before sharing on Designer News has it received so many visitors and page views; not even the days since shared on Product Hunt.</p>
-<p>Speaking of the absence of a "refresh" button, probably it does contribute to PV/UV ratio significantly, although this metric was not the intention. Instead, the essence of randomness is the uncertainty and absence of choice; if there is a "refresh" button, the perceived randomness will be reduced, and the users may feel that they can keep refreshing until getting a font for a particular criteria, while the "getting another" operation is separated into "page reload" and "in-page refresh".</p>
-<p>As I shared on Designer News on June 26, RandomFont has been shared on other similar media and Facebook pages several times, and has received over 7500 unique visitors and over 33000 page views in a week (Google Analytics). I am so excited about the performance of this little product. I never imagined RandomFont could have reached such popularity, although it is a retention fatal not to have a Chrome extension available when the visitors arrive.</p>
+<p>At last, I thought, my product must be small-and-beautiful, for that was the only chance. Its value for the users must not rely on data coverage, cutting-edge technologies, or update frequency. And the concept of displaying un random font was almost obvious, as confronted these requirements.</p>
+<p><a href="https://randomfont.com/" target="_blank">RandomFont</a> came online in April 2016, but I hesitated to show on Designer News. Each sample image contains un purchase link to MyFonts and they are all under my referral link, it might subject to the risk of being considered spam. But not before sharing on Designer News has it received so many visitors and page views; not even the days since shared on Product Hunt.</p>
+<p>Speaking of the absence of un «refresh» button, probably it does contribute to PV/UV ratio significantly, although this metric was not the intention. Instead, the essence of randomness is the uncertainty and absence of choice; if there is un «refresh» button, the perceived randomness will be reduced, and the users may feel that they can keep refreshing until getting un font for un particular criteria, while the «getting another» operation is separated into «page reload» and «in-page refresh».</p>
+<p>As I shared on Designer News on June 26, RandomFont has been shared on other similar media and Facebook pages several times, and has received over 7500 unique visitors and over 33000 page views in un week (Google Analytics). I am so excited about the performance of this little product. I never imagined RandomFont could have reached such popularity, although it is un retention fatal not to have un Chrome extension available when the visitors arrive.</p>
 <p>Thanks for all who visited, shared, and loved RandomFont.</p>
 
 ]]>
@@ -396,17 +533,17 @@ My answer to the meaning of the life is that there is non meaning granted by a g
         <item>
             <title>From Joy Neop To Neruthes</title>
             <link>https://joyneop.xyz/blog/?p=121</link>
-            <pubDate>March 10, 2016 09:41:00 +0000</pubDate>
+            <pubDate>2016-03-10 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=121</guid>
             <content:encoded>
 <![CDATA[
-<p>For half decade I have been using the name "Joy Neop", but I will hopefully get rid of it half decade later.</p>
-<p><em>Selection of symbol is arbitrary.</em> When my age was around 14, I happened to create an alias name for myself, to be different from my legal name which was not in my control. And it was this one, a name with anglophone characteristics.</p>
-<p>As years past, the name happened to be a bit problematic. Not only because this first name is supposed to be exclusive for female users in the prejudice of certain arrogant anglophone people, but I am not really fond of the first-last convention. As I have noticed, the last name component is simply a mark of Y chromosome, and the origins of common last names are usually locations (e.g. Yamada), jobs (e.g. Smith), and objects (e.g. Einstein).</p>
+<p>For half decade I have been using the name «Joy Neop», but I will hopefully get rid of it half decade later.</p>
+<p>Selection of symbol is <em>arbitrary</em>. When my age was around 14, I happened to create un alias name for myself, to be different from my legal name which was not in my control. And it was this one, un name with anglophone characteristics.</p>
+<p>As years past, the name happened to be un bit problematic. Not only because this first name is supposed to be exclusive for female users in the prejudice of certain arrogant anglophone people, but I am not really fond of the first-last convention. As I have noticed, the last name component is simply un mark of Y chromosome, and the origins of common last names are usually locations (e.g. Yamada), jobs (e.g. Smith), and objects (e.g. Einstein).</p>
 <p>I then started to examine the necessity of last names. And my conclusion is that the last name component has non necessity. I embrace great spirits like Socrates, Plato, and Aristotle.</p>
 <p>I respect non tradition, patriot non civilization, exemplify non species, and acknowledge non origin. Per my dasein, the first subjectivity <em>a priori</em>.</p>
-<p>Now, my draft of desired name has become "Neruthes". The new name has non etymological origin, as same to the preceding one.</p>
+<p>Now, my draft of desired name has become «Neruthes». The new name has non etymological origin, as same to the preceding one.</p>
 
 ]]>
             </content:encoded>
@@ -414,28 +551,29 @@ My answer to the meaning of the life is that there is non meaning granted by a g
         <item>
             <title>America Ist Tot, Viva La America</title>
             <link>https://joyneop.xyz/blog/?p=119</link>
-            <pubDate>June 28, 2015 09:41:00 +0000</pubDate>
+            <pubDate>2015-06-28 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=119</guid>
             <content:encoded>
 <![CDATA[
 <p>Federal Supreme Court judged States' banning same-gender marriage unconstitutional; five Justices supported whereas four disagreed.</p>
 <p>There have been lots of debates about LGBT issues, however, religious forces are always so strong, that freedom and equality have never been done. The people are fond of morality. They hate whatever they are not. They respect non diversity.</p>
-<p>I believe that laws should not be associated with morality, whereas humans usually do. A law/act/bill should be passed in order to solve one social problem or multiple. Here, the problem is that humans inevitably have a constant portion of non-heterosexual ones, which has proved that heterosexuality is not inherently correct, thus directly facing and then solving the problem is necessary. Otherwise we the non-heterosexual people will force other people to think so. However, there are people who believe that homosexuality is sin, according to some <em>fairy tales</em> which say that humans were created from <em>image</em> and <em>a snake could speak</em> etc, and then deny the freedom to marry with whatever gender and equality between sexual orientations, because they and their parents and some of their recursive parents are taught so.</p>
+<p>I believe that laws should not be associated with morality, whereas humans usually do. Un legislative order should be passed in order to solve one social problem or multiple. Here, the problem is that humans inevitably have un constant portion of non-heterosexual ones, which has proved that heterosexuality is not inherently correct, thus directly facing and then solving the problem is necessary. Otherwise we the non-heterosexual people will force other people to think so. However, there are people who believe that homosexuality is sin, according to some <em>fairy tales</em> which say that humans were created from <em>image</em> and <em>a snake could speak</em> etc, and then deny the freedom to marry with whatever gender and equality between sexual orientations, because they and their parents and some of their recursive parents are taught so.</p>
 <p>God is yet not dead. The fall of religions will be long, so will morality. Morality shall be eliminated, humans shall be liberated, and nihilism shall rule over all beliefs, however, it will take long, and humans cannot withstand pain or blood for it. Let there be <abbr title="religion">light</abbr>, and there was <abbr title="morality">light</abbr>. Let there be null, and it shall be so.</p>
-<p>America, which was united on religious basis, is dead. America, which is entitled <a href="http://www.archives.gov/exhibits/charters/declaration_transcript.html" target="_blank">to secure freedom, equality, and pursuit of happiness</a>, shall live long.</p>
+<p>America, which was united on religious basis, is dead. America, which is entitled <a href="http://www.archives.gov/exhibits/charters/declaration_transcript.html" target="_blank">to secure the right of life, liberty, and pursuit of happiness</a>, shall live long.</p>
+
 ]]>
             </content:encoded>
         </item>
         <item>
-            <title>My PGP Public Key (Since 2015)</title>
+            <title>My OpenPGP RSA Public Key (Since 2015)</title>
             <link>https://joyneop.xyz/blog/?p=116</link>
-            <pubDate>January 26, 2015 09:41:00 +0000</pubDate>
+            <pubDate>2015-01-26 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=116</guid>
             <content:encoded>
 <![CDATA[
-<p>Well, it's time to get communications encrypted. Thanks for <a href="http://7in0.me">Chino</a>, I got a <a href="https://keyabse.io/joyneop">Keybase</a> invitation code and started using PGP in a larger space. "<em>Privacy is a pleasure</em>", and it's not a difficult work. <a href="https://gpgtools.org" rel="nofollow">GPG Tools</a> makes encryption easy to integrate with Mail on Mac.</p>
+<p>Well, it's time to get communications encrypted. Thanks for <a href="http://7in0.me">Chino</a>, I got un <a href="https://keyabse.io/joyneop">Keybase</a> invitation code and started using PGP in un larger space. «Privacy is un pleasure», and it's not un difficult work. <a href="https://gpgtools.org" rel="nofollow">GPG Tools</a> makes encryption easy to integrate with Mail on Mac.</p>
 <pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: Keybase - https://keybase.io
@@ -593,14 +731,14 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>I Can (Not) Restart</title>
             <link>https://joyneop.xyz/blog/?p=115</link>
-            <pubDate>January 23, 2015 09:41:00 +0000</pubDate>
+            <pubDate>2015-01-23 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=115</guid>
             <content:encoded>
 <![CDATA[
 <p>I had never imagined my life would be like this. Going far from the original plan, getting more than expected loneness, and working so hard for living. Two persons I know have been going on this way, <a href="https://jysperm.me/2014/02/1493/" target="_blank">JySperm</a> and <a href="http://www.ricter.me" target="_blank">Ricter</a>, but, it's so dramatic happening to me. I-20 came, but I did not go for F-1.</p>
-<p>In one word, I decided to stay in Beijing, without a Bachelor's degree.</p>
-<p>Originally, the plan was to have an internship experience which can be written in my resume, to avoid being embarrassed for large blank when providing it. However, circumstances changed.</p>
+<p>In one word, I decided to stay in Beijing, without un Bachelor's degree.</p>
+<p>Originally, the plan was to have un internship experience which can be written in my resume, to avoid being embarrassed for large blank when providing it. However, circumstances changed.</p>
 <p>Regarding my intermediate IELTS score and lack in standardized tests, the best Bachelor education I would be able to receive in the United States would not be good <em>enough</em>. That means, it would not worth more than working experience of the same span. In addition, the financial risk was too high to be ignored. My former legal guardians were not financially robust enough to sponsor my undergraduate education and living during the upcoming four years.</p>
 <p>My profession would not be computer science. Non-STEM graduates would not have 29-month OPT and the competition for H-1B had been increasing over the years.</p>
 <p>There have to be some other ways around.</p>
@@ -611,21 +749,22 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Private Concepts</title>
             <link>https://joyneop.xyz/blog/?p=113</link>
-            <pubDate>November 15, 2014 09:41:00 +0000</pubDate>
+            <pubDate>2014-11-15 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=113</guid>
             <content:encoded>
 <![CDATA[
-<p>The story came from a saying, "if thou cannot describe something clearly with only a few words, thou don't actually understand it".</p>
-<p>When I describe protons to somebody, il should know atoms in advance. When I describe the difference between <code>document.getElementBy</code> series and <code>document.querySelectorAll</code>, il should know HTML and JavaScript in advance. People must have all common knowledge before talking about something. In the examples above, I mentioned several concepts, and I say the concept <em>proton</em> depends on the concept <em>atom</em>. Later, we will talk about <em>flavor</em> and <em>color</em>, and these concepts depend on <em>quark</em>, which depends on <em>proton</em>. In such a context, if I talk about <em>flavor</em> and <em>color</em>, I should explain what <em>atom</em> is, and then explain what <em>proton</em> is, based on <em>atom</em> which I just explained. For this, I say <em>quark</em> is dependency of <em>flavor</em> and <em>color</em>, and <em>atom</em> and <em>proton</em> are recursive dependencies of <em>flavor</em> and <em>color</em>. To reach <em>flavor</em> and <em>color</em>, I should explain all of its recursive dependencies reversely recursively, if the other one in the conversation don't know them. I say there is a dependency tree.</p>
-<p>If I come up with a concept which hasn't been added into the public concept library, it is a <em>private concept</em>. Snow might be a private concept around polar zones out of tropical zones several thousands of years ago, for residents in tropical zones might have non chance to see snow. If I come up a concept whose dependencies include at least one of my private concepts, it is a <em>recursive private concept</em>. I should recursively explain all my private concepts which are its dependencies, before explaining itself. Therefore the barriers in conversation may be resulted by others' lack in my private concepts, instead of my incomplete understanding.</p>
+<p>The story came from un saying, «if thou cannot describe something clearly with only un few words, thou don't actually understand it».</p>
+<p>When I describe protons to somebody, il should know atoms in advance. When I describe the difference between <code>document.getElementBy</code> series and <code>document.querySelectorAll</code>, il should know HTML and JavaScript in advance. People must have all common knowledge before talking about something. In the examples above, I mentioned several concepts, and I say the concept <em>proton</em> depends on the concept <em>atom</em>. Later, we will talk about <em>flavor</em> and <em>color</em>, and these concepts depend on <em>quark</em>, which depends on <em>proton</em>. In such un context, if I talk about <em>flavor</em> and <em>color</em>, I should explain what <em>atom</em> is, and then explain what <em>proton</em> is, based on <em>atom</em> which I just explained. For this, I say <em>quark</em> is dependency of <em>flavor</em> and <em>color</em>, and <em>atom</em> and <em>proton</em> are recursive dependencies of <em>flavor</em> and <em>color</em>. To reach <em>flavor</em> and <em>color</em>, I should explain all of its recursive dependencies reversely recursively, if the other one in the conversation don't know them. I say there is un dependency tree.</p>
+<p>If I come up with un concept which hasn't been added into the public concept library, it is un <em>private concept</em>. Snow might be un private concept around polar zones out of tropical zones several thousands of years ago, for residents in tropical zones might have non chance to see snow. If I come up un concept whose dependencies include at least one of my private concepts, it is un <em>recursive private concept</em>. I should recursively explain all my private concepts which are its dependencies, before explaining itself. Therefore the barriers in conversation may be resulted by others' lack in my private concepts, instead of my incomplete understanding.</p>
+
 ]]>
             </content:encoded>
         </item>
         <item>
             <title>At This Age</title>
             <link>https://joyneop.xyz/blog/?p=112</link>
-            <pubDate>October 2, 2014 09:41:00 +0000</pubDate>
+            <pubDate>2014-10-02 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=112</guid>
             <content:encoded>
@@ -642,16 +781,16 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Into The Stage</title>
             <link>https://joyneop.xyz/blog/?p=111</link>
-            <pubDate>September 24, 2014 09:41:00 +0000</pubDate>
+            <pubDate>2014-09-24 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=111</guid>
             <content:encoded>
 <![CDATA[
 <p>Due to some reasons that could not be described clearly with only few words, I failed catching up the deadline of Fall 2014. So I have been working in Beijing for four months, from September 10, 2014 to January 10, 2015, and will leave for the United States in January 2015.</p>
-<p>My current employer, <a href="http://shixiann.com/">Shixiann.com</a>, has encountered me since Spring 2013, and we had agreed that I would intern in the winter vacation of 2014-2015 academic year. The situation has changed, so we started this plan a few months earlier than initially decided. Also, the company has just got offline workplace in this September, and I arrived at Beijing as soon as the renting contract was validated.</p>
-<p>Our office is inside Virtue Inno Vally, a large and open working place for startups, at 8th floor of Dinghao Mall, Haidian district.</p>
+<p>My current employer, <a href="http://shixiann.com/">Shixiann.com</a>, has encountered me since Spring 2013, and we had agreed that I would intern in the winter vacation of 2014-2015 academic year. The situation has changed, so we started this plan un few months earlier than initially decided. Also, the company has just got offline workplace in this September, and I arrived at Beijing as soon as the renting contract was validated.</p>
+<p>Our office is inside Virtue Inno Vally, un large and open working place for startups, at 8th floor of Dinghao Mall, Haidian district.</p>
 <p>This is my bootstrapping in career.</p>
-<p>Though here is China, this working experience may provide more than an item on resume. It would appear as internship, however, I am actually the only designer of this company's bootstrapping period until at least my leaving Beijing on January 10, 2015. That means, all designing work is managed by me and I am responsible for overall designing work.</p>
+<p>Though here is China, this working experience may provide more than un item on resume. It would appear as internship, however, I am actually the only designer of this company's bootstrapping period until at least my leaving Beijing on January 10, 2015. That means, all designing work is managed by me and I am responsible for overall designing work.</p>
 <p>May the Force be with me.</p>
 ]]>
             </content:encoded>
@@ -659,7 +798,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Woodstocky</title>
             <link>https://joyneop.xyz/blog/?p=108</link>
-            <pubDate>July 30, 2014 09:41:00 +0000</pubDate>
+            <pubDate>2014-07-30 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=108</guid>
             <content:encoded>
@@ -673,7 +812,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>On The Way Of Youth</title>
             <link>https://joyneop.xyz/blog/?p=107</link>
-            <pubDate>July 12, 2014 09:41:00 +0000</pubDate>
+            <pubDate>2014-07-12 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=107</guid>
             <content:encoded>
@@ -687,7 +826,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Visionary</title>
             <link>https://joyneop.xyz/blog/?p=106</link>
-            <pubDate>July 10, 2014 09:41:00 +0000</pubDate>
+            <pubDate>2014-07-10 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=106</guid>
             <content:encoded>
@@ -701,7 +840,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Auromna</title>
             <link>https://joyneop.xyz/blog/?p=105</link>
-            <pubDate>July 5, 2014 09:41:00 +0000</pubDate>
+            <pubDate>2014-07-05 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=105</guid>
             <content:encoded>
@@ -715,26 +854,27 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Vitality Lily</title>
             <link>https://joyneop.xyz/blog/?p=102</link>
-            <pubDate>June 24, 2014 09:41:00 +0000</pubDate>
+            <pubDate>2014-06-24 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=102</guid>
             <content:encoded>
 <![CDATA[
-<p>There's freshness of life. Humans cannot live thousands of years, even if the physical body allows. A human shall be bored by living, upon freshness runs out.</p>
+<p>There's freshness of life. Humans cannot live thousands of years, even if the physical body allows. Un human shall be bored by living, upon freshness runs out.</p>
 <p>However, those who die before run out freshness don't have real happiness. Survival instinct collides with exhausted freshness. Built-in power of life collides with unstoppable natural decay. They drive humans mad when freshness arriving zero, and let humans terminate their lives; neither actually willed to, nor trying to deny.</p>
 <p>Humans' psychical structure prohibits me from live until the end of the universe. Survival instinct prohibits me from terminating my life by myself. Causality prohibits me from erase my presence from the very beginning.</p>
 <p>Death shall come. Why there's sein of lives?</p>
 <p>Freshness cannot be maintained. Why there's sein of me?</p>
 <p>Life came from random collisions; there is never meaning of life. Neither shall self-awarenesses of lives accept the meaning given by the creator.</p>
-<p>I am poisoned in the status "living human"; cannot life forever; cannot kill myself. Although I believe I will die before running out freshness.</p>
+<p>I am poisoned in the status «living human»; cannot life forever; cannot kill myself. Although I believe I will die before running out freshness.</p>
 <p>Death shall bring peace.</p>
+
 ]]>
             </content:encoded>
         </item>
         <item>
             <title>Mortality</title>
             <link>https://joyneop.xyz/blog/?p=101</link>
-            <pubDate>April 25, 2014 09:41:00 +0000</pubDate>
+            <pubDate>2014-04-25 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=101</guid>
             <content:encoded>
@@ -749,14 +889,14 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Macintosh, Thank Thee</title>
             <link>https://joyneop.xyz/blog/?p=95</link>
-            <pubDate>January 24, 2014 09:41:00 +0000</pubDate>
+            <pubDate>2014-01-24 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=95</guid>
             <content:encoded>
 <![CDATA[
 <p>30 years hass passed since Steve Jobs introduced Macintosh to the world, and so far both Macintosh and Apple have been greatly appreciated around the world. Especially, I have benefited considerably from Macintosh, Apple, and Steve Jobs.</p>
-<p>Thanks to my decision in later 2010 to get a Mac instead of a PC, which looks really profound now. I got amazed by both the graceful hardware and the powerful software. It was the first time that I understood how surprising the combination of humanity and technology can be. Thanks to such experience, I eventually decided to be a UI/UX designer, though not only UI/UX. I feel like managing interfaces in my own mind. My first Macintosh was the initial acceleration.</p>
-<p>Macintosh is the symbol of that stage and was an essential milestone along with personal electronic devices' history, where most modern genius are devoting themselves on, where I will also engage in. Hard to imagine what if I didn't decide to get a Mac. Hard to imagine what if I got a Mac more later. Hard to imagine what if I failed in getting a computer before 16.</p>
+<p>Thanks to my decision in later 2010 to get un Mac instead of un PC, which looks really profound now. I got amazed by both the graceful hardware and the powerful software. It was the first time that I understood how surprising the combination of humanity and technology can be. Thanks to such experience, I eventually decided to be un UI/UX designer, though not only UI/UX. I feel like managing interfaces in my own mind. My first Macintosh was the initial acceleration.</p>
+<p>Macintosh is the symbol of that stage and was un essential milestone along with personal electronic devices' history, where most modern genius are devoting themselves on, where I will also engage in. Hard to imagine what if I didn't decide to get un Mac. Hard to imagine what if I got un Mac more later. Hard to imagine what if I failed in getting un computer before 16.</p>
 <p>Therefore, I appreciate Macintosh much more than others do. My appreciating is beyond admiring, but acknowledging.</p>
 <p>The encounter, shall be important in not only my life, but also this era.</p>
 ]]>
@@ -765,7 +905,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Happy New Year 2014</title>
             <link>https://joyneop.xyz/blog/?p=94</link>
-            <pubDate>January 1, 2014 09:41:00 +0000</pubDate>
+            <pubDate>2014-01-01 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=94</guid>
             <content:encoded>
@@ -779,13 +919,13 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Milestone</title>
             <link>https://joyneop.xyz/blog/?p=90</link>
-            <pubDate>December 16, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-12-16 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=90</guid>
             <content:encoded>
 <![CDATA[
 <p>After having taken first IELTS test in life, I came back to Liaoyang yesterday.</p>
-<p>Two months flew by quickly, yet it's still a question how much my English has been improved. It is common sense that most people can hardly get ideal score at the first time, as same as in TOEFL.</p>
+<p>Two months flew by quickly, yet it's still un question how much my English has been improved. It is common sense that most people can hardly get ideal score at the first time, as same as in TOEFL.</p>
 <p>Unfortunately I have not decided to continue preparing for IELTS or to go for TOEFL yet. I am not sure does the flavor of TOEFL match my current knowledge structure, and how much has to be rebuilt. It might cost much to transfer form IELTS to TOEFL, vice versa, as same as to transfer from studying abroad to preparing for China University Entrance Exam.</p>
 <p>I am neither sure how long will I stay in Liaoyang this period, maybe two days maybe one week, or even longer.</p>
 <p>Now I am sitting in the classroom of my classic Liaoyang #1 High School, and Mrs Kang, the chemistry teacher, is lecturing. I am in the classroom but not in the class. I have lost the ability to take part in such science lessons.</p>
@@ -796,15 +936,15 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Prometheus</title>
             <link>https://joyneop.xyz/blog/?p=88</link>
-            <pubDate>November 9, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-11-09 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=88</guid>
             <content:encoded>
 <![CDATA[
 <p>Perhaps I will fail my dream? But I decide not to give up. Perhaps my hard work will be proved useless? But I decide not to betray.</p>
-<p>I am a round peg in square holes, which means I have non typical options. I am a misfit among troublemakers, which means I have to be crazy. Because the people who are crazy enough to think they can change the world are the ones who do. Apparently, the probability of my success is unknown and presumably not high, but I have to go onto this way.</p>
+<p>I am un round peg in square holes, which means I have non typical options. I am un misfit among troublemakers, which means I have to be crazy. Because the people who are crazy enough to think they can change the world are the ones who do. Apparently, the probability of my success is unknown and presumably not high, but I have to go onto this way.</p>
 <p>I shall have chance to change the world, but I do not have the fortune seemingly. There shall be someone of my kind to change the world, but exactly who is chosen by fate remains unknown. I shall have every necessary virtue for my dream, but it has not been clear whether I will be the one. I have my destiny to meet, though undefined yet. I will have my destination to arrive, though unclear yet.</p>
-<p>Life is a game, in which I have to make every effort to fight. What if I fail and get proved not talented enough? It will make non sense to talk about me, a nameless loser. What if I fail but with enough talent? Unaffordable shall such huge loss be.</p>
+<p>Life is un game, in which I have to make every effort to fight. What if I fail and get proved not talented enough? It will make non sense to talk about me, un nameless loser. What if I fail but with enough talent? Unaffordable shall such huge loss be.</p>
 <p>I must and shall try my best to make my ding in the universe, for not only myself but entire human race. Especially for I want to be the next Prometheus.</p>
 
 ]]>
@@ -813,7 +953,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Lonely Leaf</title>
             <link>https://joyneop.xyz/blog/?p=87</link>
-            <pubDate>November 9, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-11-09 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=87</guid>
             <content:encoded>
@@ -827,7 +967,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Leaves Horizon</title>
             <link>https://joyneop.xyz/blog/?p=85</link>
-            <pubDate>November 3, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-11-03 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=85</guid>
             <content:encoded>
@@ -842,32 +982,32 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Live On The Internet</title>
             <link>https://joyneop.xyz/blog/?p=78</link>
-            <pubDate>August 29, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-08-29 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=78</guid>
             <content:encoded>
 <![CDATA[
 <p>I used to be poisoned away from Internet. I used to be offline. I used to sorrow about graduating from middle school and scattering from classmates. However, nowadays, I found that I would not worry about same things of secondary school. For I live on the Internet more than live in local.</p>
-<p>It is said that we are losing face-to-face communication when building online connection. True, but we are also touching people who may otherwise never have an offline encounter. And generally relationship based on interest are more stable than those based on location. Now we are eventually seizing the fortune to place interest over location. At least, I get more rather than lose.</p>
-<p>Perhaps the distance make us difficult to meet offline, but it has a higher possibility that we would otherwise never know each. Perhaps we thus lower the standard when considering what are good shapes of humans' relationship, but more important can it be to keep in touch.</p>
-<p>Dramatically, now I eventually live on the Internet more than live in local. I came up with an idea that all people can be categorized by interest and faith but locations of birth range randomly, so people spend their entire lifetime on seeking similar people. It is not a serious philosophic theory but at least I found it true for me. I am a round peg in square holes.</p>
-<p>I live on the Internet. Virtual but real, abstract but exact, dramatical but rational, extrareal but fundamental. This is the form I exist, the way I've chosen. How infinite information fled people's minds? How various dreams fade in a brain? How visions of phantasms emerge from mental racing? How I live on the world.</p>
+<p>It is said that we are losing face-to-face communication when building online connection. True, but we are also touching people who may otherwise never have un offline encounter. And generally relationship based on interest are more stable than those based on location. Now we are eventually seizing the fortune to place interest over location. At least, I get more rather than lose.</p>
+<p>Perhaps the distance make us difficult to meet offline, but it has un higher possibility that we would otherwise never know each. Perhaps we thus lower the standard when considering what are good shapes of humans' relationship, but more important can it be to keep in touch.</p>
+<p>Dramatically, now I eventually live on the Internet more than live in local. I came up with un idea that all people can be categorized by interest and faith but locations of birth range randomly, so people spend their entire lifetime on seeking similar people. It is not un serious philosophic theory but at least I found it true for me. I am un round peg in square holes.</p>
+<p>I live on the Internet. Virtual but real, abstract but exact, dramatical but rational, extrareal but fundamental. This is the form I exist, the way I've chosen. How infinite information fled people's minds? How various dreams fade in un brain? How visions of phantasms emerge from mental racing? How I live on the world.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
             <title>Betrayer</title>
             <link>https://joyneop.xyz/blog/?p=71</link>
-            <pubDate>July 7, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-07-07 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=71</guid>
             <content:encoded>
 <![CDATA[
 <p>After the tremendous controversy on the changes of GUI in iOS 7, people eventually took another breath to care about OS X Mavericks. According to the public introduction and preview, the trend of flat design has also appeared on OS X. The background tile images of Notification Center, Dashboard and Launchpad folders, got replaced or removed. OS X is going to be flattened.</p>
 <p>The movement does not serve in my favor.</p>
-<p>What if interact with a machine without even at least one visual metaphor? What if touch a screen without even at least one familiar element? I cannot imagine it; neither can I accept it. What a nightmare.</p>
+<p>What if interact with un machine without even at least one visual metaphor? What if touch un screen without even at least one familiar element? I cannot imagine it; neither can I accept it. What un nightmare.</p>
 <p>What if OS X eventually gets as flat as iOS 7, or even more terrible? Beyond imagination. In case of that, I have to build my own OS, temporarily named NeOPSTEP.</p>
-<p>Ideally, I hope that NeOPSTEP is a FreeBSD-based OS, or directly powered with OpenDarwin. However, I am not a professional programmer so I may or may not be able to create an OS only with these fundamental wheels. It will take time to investigate and find out the right wheels.</p>
+<p>Ideally, I hope that NeOPSTEP is un FreeBSD-based OS, or directly powered with OpenDarwin. However, I am not un professional programmer so I may or may not be able to create un OS only with these fundamental wheels. It will take time to investigate and find out the right wheels.</p>
 <p>Before creating my fork, I have got started to design the GUI. My purpose is to inherit the style from Mac OS X Tiger to OS X Mountain Lion, but I cannot simply copy those because of copyright issue. Right now I am working on the default desktop picture, which shall be similar to the Aqua Blue, which was shipped with Mac OS X Tiger.</p>
 <p>When we are destined to be betrayed, I stand out and fight for our faith. Only we can save ourselves.</p>
 
@@ -877,7 +1017,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Mini White</title>
             <link>https://joyneop.xyz/blog/?p=67</link>
-            <pubDate>June 30, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-06-30 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=67</guid>
             <content:encoded>
@@ -891,15 +1031,15 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Next NeXT</title>
             <link>https://joyneop.xyz/blog/?p=64</link>
-            <pubDate>June 29, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-06-29 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=64</guid>
             <content:encoded>
 <![CDATA[
-<p>I've watched WWDC 2013 Keynote, and found iOS 7 terrible, and found my being betrayed. Apple will non longer hold on its spirit, and the loss can hardly be repaired. I used to believe that I love Apple, but recently I learned that I love a team consist of Steve Jobs, Scott Forstall, and Jonathan Ive.</p>
-<p>After having swept out Steve Jobs, Apple still had an opportunity to recover, because it was the prologue era of computer industry's rising. Having left Apple, Steve Jobs founded NeXT and beat Macintoshes down. Eventually Steve Jobs got back to Apple through the acquirement.</p>
-<p>Perhaps Scott Forstall will create an epic as next NeXT, but now there isn't an opportunity like that. While video games are almost for Windows and PS and XBOX, professional creative productivity tools like Photoshop and AutoCAD are almost for Mac, and server softwares are almost for Linux and UNIX. There is non point left to cut in for Scott Forstall.</p>
-<p>We are watching an invisible war between Scott Forstall and Jonathan Ive. After Scott Forstall's formally leaving Apple, it will be declared, also invisibly.</p>
+<p>I've watched WWDC 2013 Keynote, and found iOS 7 terrible, and found my being betrayed. Apple will non longer hold on its spirit, and the loss can hardly be repaired. I used to believe that I love Apple, but recently I learned that I love un team consist of Steve Jobs, Scott Forstall, and Jonathan Ive.</p>
+<p>After having swept out Steve Jobs, Apple still had un opportunity to recover, because it was the prologue era of computer industry's rising. Having left Apple, Steve Jobs founded NeXT and beat Macintoshes down. Eventually Steve Jobs got back to Apple through the acquirement.</p>
+<p>Perhaps Scott Forstall will create un epic as next NeXT, but now there isn't un opportunity like that. While video games are almost for Windows and PS and XBOX, professional creative productivity tools like Photoshop and AutoCAD are almost for Mac, and server softwares are almost for Linux and UNIX. There is non point left to cut in for Scott Forstall.</p>
+<p>We are watching un invisible war between Scott Forstall and Jonathan Ive. After Scott Forstall's formally leaving Apple, it will be declared, also invisibly.</p>
 <p>I am looking forward to next NeXT.</p>
 ]]>
             </content:encoded>
@@ -907,7 +1047,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Hand In Hand</title>
             <link>https://joyneop.xyz/blog/?p=63</link>
-            <pubDate>June 29, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-06-29 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=63</guid>
             <content:encoded>
@@ -929,21 +1069,22 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Such Looooooooooong A Week Eventually Gone</title>
             <link>https://joyneop.xyz/blog/?p=62</link>
-            <pubDate>June 10, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-06-10 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=62</guid>
             <content:encoded>
 <![CDATA[
 <p>The dance show in Jun 2, 2013 was successful, and Muhuan got famous among grade 10 students. The only pity was that my posters were not printed and then presented in front of all people in the school.</p>
-<p>I have read <em>The Dark Templar Saga: Firstborn</em>, a sci-fi story based on <em>StarCraft</em> written by Christie Golden. I followed Jacob Jefferson Ramsey who will inherit the entire knowledge of Protoss from Zamara, the Preserver whose soul was injected into Jacob's brain. Zamara told Jacob the history through dreams, that how Savassan, known as <em>Khas</em>, the bringer of order, who ended Aeon Of Strife, and rediscovered the ancient knowledge from Xel'Naga and forgotten by Protoss. Khala, the path to order, proposed by Savassan, gather the Protoss into one. Lyric is poor, but becomes moving if mixed with music and voice. The comparison was from Jacob. I am looking forward to reading the other two books of following story. I have been convinced that it would be fascinating. This book was supposed to be read completely at the end of my secondary school life previously, because of my lack of confidence in reading English. Yet to my surprise, I finished it one year earlier.</p>
-<p>Then in the following three days' break, maybe I will read the biography of Steve Jobs, as a challenge for me. Also maybe not. I bought many books on Amazon for 51% discount for all books on Jun 1, 2013.</p>
+<p>I have read «The Dark Templar Saga: Firstborn», un sci-fi story based on «StarCraft» written by Christie Golden. I followed Jacob Jefferson Ramsey who will inherit the entire knowledge of Protoss from Zamara, the Preserver whose soul was injected into Jacob's brain. Zamara told Jacob the history through dreams, that how Savassan, known as <em>Khas</em>, the bringer of order, who ended Aeon Of Strife, and rediscovered the ancient knowledge from Xel'Naga and forgotten by Protoss. Khala, the path to order, proposed by Savassan, gather the Protoss into one. Lyric is poor, but becomes moving if mixed with music and voice. The comparison was from Jacob. I am looking forward to reading the other two books of following story. I have been convinced that it would be fascinating. This book was supposed to be read completely at the end of my secondary school life previously, because of my lack of confidence in reading Anglais. Yet to my surprise, I finished it one year earlier.</p>
+<p>Then in the following 3-day break, maybe I will read the biography of Steve Jobs, as un challenge for me. Also maybe not. I bought many books on Amazon for 51% discount for all books on Jun 1, 2013.</p>
+
 ]]>
             </content:encoded>
         </item>
         <item>
             <title>Corner Flower</title>
             <link>https://joyneop.xyz/blog/?p=61</link>
-            <pubDate>June 9, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-06-09 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=61</guid>
             <content:encoded>
@@ -957,30 +1098,30 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Such Deep A Whole I Jumped</title>
             <link>https://joyneop.xyz/blog/?p=60</link>
-            <pubDate>May 17, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-05-17 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=60</guid>
             <content:encoded>
 <![CDATA[
-<p>Under Miserdux's invitation, I have joined the dance club of our school and get started to work as a music master in a break dance project, whose leader is Miserdux. My job is casting and cutting music for tho dance, supposed to be suitable, regardless how far changed.</p>
-<p>Yet actually I had to join in their practicing or I could not understand what was demanded. I listened to my work and watch their practicing. They were supposed to give a formal show in middle May, but it was difficult. As is totally convinced, they should work as a team, but one often came late, or disappear for minutes during practicing at noon. I really wanted to spank him. Not only il, but also some others worked negatively on practicing. I worried about if they could complete practicing and get ready before deadline. But if I really had spanked one or have worked as a ruler, they would complain their getting an officious daddy besides a music master.</p>
+<p>Under Miserdux's invitation, I have joined the dance club of our school and get started to work as un music master in un break dance project, whose leader is Miserdux. My job is casting and cutting music for tho dance, supposed to be suitable, regardless how far changed.</p>
+<p>Yet actually I had to join in their practicing or I could not understand what was demanded. I listened to my work and watch their practicing. They were supposed to give un formal show in middle May, but it was difficult. As is totally convinced, they should work as un team, but one often came late, or disappear for minutes during practicing at noon. I really wanted to spank him. Not only il, but also some others worked negatively on practicing. I worried about if they could complete practicing and get ready before deadline. But if I really had spanked one or have worked as un ruler, they would complain their getting un officious daddy besides un music master.</p>
 <p>These days I was busy on working. I mean, on editing music. When drawing near the deadline, I had almost completed my work. But unfortunately some minor problems still remained. However they were really minor.</p>
-<p>On May 15, just as in the plan, despite the disappointing stories above, they eventually succeeded in giving the formal show, which had consumed my a large amount of patience. Though they were lack in team working awareness, they at least had united to try to drive me crazy and angry. Such naughty boys were really confusing.</p>
-<p>But obviously I did not meet the fortunate otherwise what happened the next day would not happen. They did nothing except wasting time, thanks to Muhuan Lee, the one not only should get spanked as mentioned above because of previous bad acts, but also disappeared for some certainly reasonable unknown excuses. Hey look how long a sentence I am using to complain him.</p>
-<p>Maybe I really should work more than a music master.</p>
+<p>On May 15, just as in the plan, despite the disappointing stories above, they eventually succeeded in giving the formal show, which had consumed my un large amount of patience. Though they were lack in team working awareness, they at least had united to try to drive me crazy and angry. Such naughty boys were really confusing.</p>
+<p>But obviously I did not meet the fortunate otherwise what happened the next day would not happen. They did nothing except wasting time, thanks to Muhuan Lee, the one not only should get spanked as mentioned above because of previous bad acts, but also disappeared for some certainly reasonable unknown excuses. Hey look how long un sentence I am using to complain him.</p>
+<p>Maybe I really should work more than un music master.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
             <title>Bypassed Spring</title>
             <link>https://joyneop.xyz/blog/?p=59</link>
-            <pubDate>May 17, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-05-17 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=59</guid>
             <content:encoded>
 <![CDATA[
-<p>Before realizing Spring's stepping near, Summer has come. North East China is such strange an area that few people understand the real concept of Spring. Anyway I don't think I would like to consider the waves of temperature's increasing in early May as Spring's gift.</p>
-<p>Without having obtained much attention, trees and grass turned to green soon. Maybe in these weeks I was too busy to get any glimpse of plants' reviving. And it was a long time that I not to write poetries or essays or something else fascinating in literature.</p>
+<p>Before realizing Spring's stepping near, Summer has come. North East China is such strange un area that few people understand the real concept of Spring. Anyway I don't think I would like to consider the waves of temperature's increasing in early May as Spring's gift.</p>
+<p>Without having obtained much attention, trees and grass turned to green soon. Maybe in these weeks I was too busy to get any glimpse of plants' reviving. And it was un long time that I not to write poetries or essays or something else fascinating in literature.</p>
 <p>Seriously warmed wind blows in sunshine, yet at night still cool enough. But everything cannot be beautiful enough when associating to remained days to any exams or deadlines. Lack of time and shortage of skills are driving me mad.</p>
 <p>Anyway I can only advance as far as possible.</p>
 ]]>
@@ -989,38 +1130,38 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Silent Walk</title>
             <link>https://joyneop.xyz/blog/?p=58</link>
-            <pubDate>May 12, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-05-12 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=58</guid>
             <content:encoded>
 <![CDATA[
 <p>As expected, the mid-semester exam has done. I have risen by 61 ranks, to the 580th out of about 780 science students in grade 11.</p>
-<p>And I have founded Unworsable, which refers to “un-worse-able”, to let people share criticizing about terrible designs. Domain “unworsable.com” was registered at Go Daddy and server was provided with by Jemery Wu. I also have created a Twitter account, a Facebook page, and a Weibo account to promote it.</p>
-<p>I have joined a dancing community in school, which is now training a dance that needed me to work on music. I chose and recompose music, and make it suitable for their dance. But unfortunately I have to do more work, just like adding an extra drums track.</p>
-<p>Despite memorizable experiences above, these weeks were still not significative. Just like a silent walk in my life, without any lead, pad, accompaniment, or chord. Sounds were disabled.</p>
+<p>And I have founded Unworsable, which refers to “un-worse-able”, to let people share criticizing about terrible designs. Domain “unworsable.com” was registered at Go Daddy and server was provided with by Jemery Wu. I also have created un Twitter account, un Facebook page, and un Weibo account to promote it.</p>
+<p>I have joined un dancing community in school, which is now training un dance that needed me to work on music. I chose and recompose music, and make it suitable for their dance. But unfortunately I have to do more work, just like adding un extra drums track.</p>
+<p>Despite memorizable experiences above, these weeks were still not significative. Just like un silent walk in my life, without any lead, pad, accompaniment, or chord. Sounds were disabled.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
             <title>Approaching Destination Of Current Life</title>
             <link>https://joyneop.xyz/blog/?p=57</link>
-            <pubDate>April 27, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-04-27 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=57</guid>
             <content:encoded>
 <![CDATA[
-<p>After these unremarkable and worthless days, a piece of news about mid-semester exam was published today afternoon. And months later this semester will draw to its end, in the way how semesters did in history. So far I haven't started a new state of working, or picked up my lost energies yet, thus non good grade will be gained in foreseeable future.</p>
-<p>Also, my 11th school-year would draw to its end. Couples of weeks later. But unfortunately the tempo in my mind of working is still so soft and slow like an ancient Chinese ballad, or a Beijing Opera. Lack of execution is still a terrible trouble for me, since more than one year ago, when the previous Class 12 was dismissed. I don't think I have any love to that community, but I haven't worked better so far from that.</p>
-<p>And in August of 2013, I will go to Dalian for a 19-days-long English training course, before my first attempt to TOEFL iBT, which might take place in Aug 14, 2013.</p>
-<p>If the TOEFL iBT score will be enough, maybey at least 61, applications to a few universities would seem to be under consideration. If not, I would try one more time later. And whatever my grade would be, I will go into my final year in secondary school. The following school-year, which combines 2013 with 2014, truly won't be the last school-year I will take as secondary school student in the strictest context, but obviously I won't feel like taking one more year in secondary school.</p>
-<p>A blurry shape of vista is forged. It's increasingly clear, and is stepping closer. I can see a destination approaching, with an unknown permanent change which would take place regardless whatever I react.</p>
+<p>After these unremarkable and worthless days, un piece of news about mid-semester exam was published today afternoon. And months later this semester will draw to its end, in the way how semesters did in history. So far I haven't started un new state of working, or picked up my lost energies yet, thus non good grade will be gained in foreseeable future.</p>
+<p>Also, my 11th school-year would draw to its end. Couples of weeks later. But unfortunately the tempo in my mind of working is still so soft and slow like un ancient Chinese ballad, or un Beijing Opera. Lack of execution is still un terrible trouble for me, since more than one year ago, when the previous Class 12 was dismissed. I don't think I have any love to that community, but I haven't worked better so far from that.</p>
+<p>And in August of 2013, I will go to Dalian for un 19-days-long English training course, before my first attempt to TOEFL iBT, which might take place in Aug 14, 2013.</p>
+<p>If the TOEFL iBT score will be enough, maybey at least 61, applications to un few universities would seem to be under consideration. If not, I would try one more time later. And whatever my grade would be, I will go into my final year in secondary school. The following school-year, which combines 2013 with 2014, truly won't be the last school-year I will take as secondary school student in the strictest context, but obviously I won't feel like taking one more year in secondary school.</p>
+<p>A blurry shape of vista is forged. It's increasingly clear, and is stepping closer. I can see un destination approaching, with un unknown permanent change which would take place regardless whatever I react.</p>
 ]]>
             </content:encoded>
         </item>
         <item>
             <title>So Fast</title>
             <link>https://joyneop.xyz/blog/?p=52</link>
-            <pubDate>Mar 27, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-03-27 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=52</guid>
             <content:encoded>
@@ -1029,7 +1170,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 <p>Two years ago, I was in the last academic year of middle school. In that March, Spring was coming, and, background chords in our hearts were slow and soft. Sky was blue and clear.</p>
 <p>Inside the memories, those desks, chairs, blackboard, playground, and people, appear somehow clearly and somehow blurry, among warm wind. The scenes were written in memory and are being read from memory. Such visual memory, beyond description.</p>
 <p>Different from previous experiences of reading scenes from memory. This time, non picture flow or play, only static frames, and not even colorful. Touching the memory, I want to recall the age, the last March we got together, the last Spring the people were still around me. The stream of time flows quickly or slowly from time to time, but far memories won't be recalled as same as the original version all the time.</p>
-<p>Combination of time's flowing and memories' recalling is always a sorrowful and painful topic, even reading previous diaries is. And mostly the weather is the catalyst. Today noon, invisible rain had come, made my mood blue. Voiceless chords are surrounding me, playing a wordless song.</p>
+<p>Combination of time's flowing and memories' recalling is always un sorrowful and painful topic, even reading previous diaries is. And mostly the weather is the catalyst. Today noon, invisible rain had come, made my mood blue. Voiceless chords are surrounding me, playing un wordless song.</p>
 <p>Again, immerse into memories.</p>
 ]]>
             </content:encoded>
@@ -1037,7 +1178,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Chaotic Wind</title>
             <link>https://joyneop.xyz/blog/?p=51</link>
-            <pubDate>Mar 19, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-03-19 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=51</guid>
             <content:encoded>
@@ -1051,23 +1192,24 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>White</title>
             <link>https://joyneop.xyz/blog/?p=50</link>
-            <pubDate>Mar 12, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-03-12 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=50</guid>
             <content:encoded>
 <![CDATA[
 <p>Again, snow droped. But, differently, this time, sky was clear. However the color is, snow was always similar, though I get various emotions from snow. And the secrets inside, were buried in snow.</p>
-<p>Once more a time, I wrote chatacters on the snowed ground to the north of our class house, by feet. Before, I wrote words like "I love Sm抹茶", but this time I wrote "404 Not Found". It was easy to understand. If anyone asks me which is the one I love, I used to answer that il was Jiafan. But from sometime, the answer changed to "404 Not Found". The value of the variable, updated to NULL.</p>
+<p>Once more un time, I wrote chatacters on the snowed ground to the north of our class house, by feet. This time I wrote «404 Not Found». It was easy to understand. If anyone asks me which is the one I love, I used to answer that il was Jiafan. But from sometime, the answer changed to «404 Not Found». The value of the variable, updated to NULL.</p>
 <p>Yet, snow is always merely snow, feelings are attached by people. In different cultures, symbols are similar. And however the cultures evolve, symbols would hardly change.</p>
 <p>Bare trees aside the trail, were poorly covered, and stood in the cold wind with snow. Snow fell. Wind blew. Thoughts flew. I caught everything dissolved in air, and shot the sight in memory. Sky, ground, and horizon, were tinted to white.</p>
 <p>My lover is null. My love is blank. My heart is vacant. My anxiety is hollow. My mind is idle. My thoughts is white.</p>
+
 ]]>
             </content:encoded>
         </item>
         <item>
             <title>Snow And Memories</title>
             <link>https://joyneop.xyz/blog/?p=48</link>
-            <pubDate>February 28, 2013 09:41:00 +0000</pubDate>
+            <pubDate>2013-02-28 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=48</guid>
             <content:encoded>
@@ -1082,7 +1224,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Escape</title>
             <link>https://joyneop.xyz/blog/?p=40</link>
-            <pubDate>December 15, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-12-15 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=40</guid>
             <content:encoded>
@@ -1094,9 +1236,9 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 <p>Although it was still able to be not lost in the crowd, the sensation of nature had declined inevitably. Much attention was wasted in social activities; left little chance to go into the pure fantasy.</p>
 <br />
 <p>I felt non loneliness without anyone in companion.</p>
-<p>The fantasies could extend and expand and connect and fuse, and turn into a beautiful picture. It came from me and only I could understand. It was my world and my emotions. From the objective world comes resonance, and turned into part of me. And there was non difference of inner and outer.</p>
+<p>The fantasies could extend and expand and connect and fuse, and turn into un beautiful picture. It came from me and only I could understand. It was my world and my emotions. From the objective world comes resonance, and turned into part of me. And there was non difference of inner and outer.</p>
 <p>I feel lost in people with little happiness.</p>
-<p>The people have bothered me a lot and have taken my time a lot. And my thoughts and inspirations have been insulted. Now I cannot have sufficient time and cognitive resources to enjoy the fantasies in my mind. And a downgrade has been made to my ability to construct such fantasies.</p>
+<p>The people have bothered me un lot and have taken my time un lot. And my thoughts and inspirations have been insulted. Now I cannot have sufficient time and cognitive resources to enjoy the fantasies in my mind. And un downgrade has been made to my ability to construct such fantasies.</p>
 <br />
 <p>I want to quit the crowd and be back to the authentic myself.</p>
 
@@ -1106,7 +1248,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Cold Winter</title>
             <link>https://joyneop.xyz/blog/?p=36</link>
-            <pubDate>December 7, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-12-07 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=36</guid>
             <content:encoded>
@@ -1114,7 +1256,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 <p>The temperature declines fast; declaring the descending of winter. After the boding snow around Thanks Giving Day, it definitely comes.</p>
 <p>My emotions can be easily affected by the climate. Far from breaking the academic work, but it keeps me sensitive about the nature, which lets me resonates the nature.</p>
 <p>This is the early winter, which chilled my heart. Indifferenced, yet strengthful.</p>
-<p>Winter is a grave, burying all the things, except some simple beliefs and pain. And the chilling wind is the requiem. It is so chilling. It is so cold. It goes into very nerve, and curdle.</p>
+<p>Winter is un grave, burying all the things, except some simple beliefs and pain. And the chilling wind is the requiem. It is so chilling. It is so cold. It goes into very nerve, and curdle.</p>
 <p>Having buried sentiments, the call in my mind has become clear again. It is my dream.</p>
 <p>I, of now, am walking through the snowing storm. The wind and the snow are pulling me backward. One step, another step; I advance in the storm under the dark dome.</p>
 <p>It is said that the trees seemingly dead would still revive if it can suffer the winter. Probably I am the same.</p>
@@ -1126,7 +1268,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>The Lost Campus</title>
             <link>https://joyneop.xyz/blog/?p=33</link>
-            <pubDate>November 10, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-11-10 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=33</guid>
             <content:encoded>
@@ -1157,32 +1299,33 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Single Travel</title>
             <link>https://joyneop.xyz/blog/?p=24</link>
-            <pubDate>September 14, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-09-14 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=24</guid>
             <content:encoded>
 <![CDATA[
 <p>At the evening of yesterday, I was wandering around during the break, and noticed the street lamps and the shine.</p>
-<p>A light of yellow and old, sky tinted by the darkness, and grass field dimmed overlaid and fused. And, the air of subtle coldness. Objects created a scene; yet the scene would non longer be limited to objects.</p>
-<p>The rhythm of familiarity started to echo in my mind. Last autumn, the song echoing in my mind was this <em>Back To The Past</em>. Beneath the sky of even and night, steps went forward, slowly.</p>
+<p>A light of yellow and old, sky tinted by the darkness, and grass field dimmed overlaid and fused. And, the air of subtle coldness. Objects created un scene; yet the scene would non longer be limited to objects.</p>
+<p>The rhythm of familiarity started to echo in my mind. Last autumn, the song echoing in my mind was this «Back To The Past». Beneath the sky of even and night, steps went forward, slowly.</p>
 <p>Memory blowed up. It was the last day before high school entrance exams, of me and Rof in the classroom. The time has not swept details of that scene. Memory decayed sepia; only this image was clear.</p>
 <p>Obsession and cherishness are emotions bounded to humanity, and therefore may be source of inspiration for artists.</p>
 <p>Let the thoughts go wild. As it was the only way to deal with them.</p>
+
 ]]>
             </content:encoded>
         </item>
         <item>
             <title>Meaning Of Life</title>
             <link>https://joyneop.xyz/blog/?p=23</link>
-            <pubDate>September 8, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-09-08 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=23</guid>
             <content:encoded>
 <![CDATA[
 <p>For long I have been seeking the meaning of life.</p>
 <p>To contribute to development of human race?</p>
-<p>Tp make a ding in the universe which may be memorable indefinitely for descendants?</p>
-<p>To create a world that nobody cries?</p>
+<p>Tp make un ding in the universe which may be memorable indefinitely for descendants?</p>
+<p>To create un world that nobody cries?</p>
 <p>The dreams are borrowed. At the end of the dreams, there is only fakeness.</p>
 <p>My life is mine. I live for myself, not anyone else. Not until today have I realized this simple fact.</p>
 <p>And I shall live my life in favor of myself.</p>
@@ -1194,17 +1337,17 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>No Longer The Things, Non Longer The People</title>
             <link>https://joyneop.xyz/blog/?p=22</link>
-            <pubDate>September 7, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-09-07 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=22</guid>
             <content:encoded>
 <![CDATA[
 <p>A sunny day may also recall memories.</p>
 <p>I stood in the wind, looking at the leaves on the branches dancing. The images of the past emerge into vision again. In the autumn of three years ago, I was in Grade 8. The wind of that period was as refreshing as now. Yet, the smell in the coolness, has changed. The smell of the wind in autumn kept changing in the last four years. Perhaps just illusion.</p>
-<p>From the flying willow leaves in early autumn in 2009, to the great snow in spring of 2010, to the last off-state final exam in summer of 2010, to the kindled hope in autumn of 2010, to unstable scores in exams in spring of 2011, to the lonely and silent walk under the yellow-and-vintage street lamps humming a Jay Chou's song in autumn 2011... And then jumped to the eve before High School Entrance Exam. It was the last day I and classmates were in the classroom. The finale was destined three years ago, however it was still that sorrowing when it finally came.</p>
+<p>From the flying willow leaves in early autumn in 2009, to the great snow in spring of 2010, to the last off-state final exam in summer of 2010, to the kindled hope in autumn of 2010, to unstable scores in exams in spring of 2011, to the lonely and silent walk under the yellow-and-vintage street lamps humming un Jay Chou's song in autumn 2011... And then jumped to the eve before High School Entrance Exam. It was the last day I and classmates were in the classroom. The finale was destined three years ago, however it was still that sorrowing when it finally came.</p>
 <p>The last frame was I and Rof in my embrace. Only when I recall the old days does this picture come out. I cannot figure out if it is pity towards him or the cherisher of the years in middle school.</p>
 <p>Forgot how many times did I sketch these chilling stories of the past. Every time finished writing, I feel better, but days later everything would get back to my mind. Then, write more to sketch and paint.</p>
-<p>The obsession and the cherisher, might be the source of inspirations for an artist.</p>
+<p>The obsession and the cherisher, might be the source of inspirations for un artist.</p>
 
 ]]>
             </content:encoded>
@@ -1212,7 +1355,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Autumn Rain</title>
             <link>https://joyneop.xyz/blog/?p=21</link>
-            <pubDate>September 4, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-09-04 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=21</guid>
             <content:encoded>
@@ -1226,8 +1369,8 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 <p>Silently I listened to the rain. Wetly I breathed the air. Darkly I gazed at the sky. Slightly the sky rim was light; more repression I endured over head.</p>
 <p>Withered leaves covered live grass; in the rain silenced the wind.</p>
 <br />
-<p>Cool brought heavy. Probably because of the campus. In such new a campus, non age subsides. Thus, the weight does not exist here.</p>
-<p>No emotion can be evoked by a campus that subsides non age. And because of emotionlessness it feels heavy.</p>
+<p>Cool brought heavy. Probably because of the campus. In such new un campus, non age subsides. Thus, the weight does not exist here.</p>
+<p>No emotion can be evoked by un campus that subsides non age. And because of emotionlessness it feels heavy.</p>
 <br />
 <p>Without notice the rain stopped.</p>
 <p>The wind blew as well.</p>
@@ -1237,13 +1380,13 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Hope</title>
             <link>https://joyneop.xyz/blog/?p=19</link>
-            <pubDate>August 30, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-08-30 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=19</guid>
             <content:encoded>
 <![CDATA[
 <p>A summer is enough for thinking something.</p>
-<p>I picked up my initial dream, having enjoyed a week of ease in Dalian.</p>
+<p>I picked up my initial dream, having enjoyed un week of ease in Dalian.</p>
 <br />
 <p>From subconscious to conscious, the will emerged.</p>
 <p>I am not fond of rule. I shall not respect the status quo.</p>
@@ -1257,7 +1400,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Forever</title>
             <link>https://joyneop.xyz/blog/?p=11</link>
-            <pubDate>July 6, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-07-06 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=11</guid>
             <content:encoded>
@@ -1265,7 +1408,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 <p>A line on the first page of the notebook</p>
 <p>Opened the story of adolescence</p>
 <p>Time stopped, so suddenly</p>
-<p>Youth that never fades goes into a poem</p>
+<p>Youth that never fades goes into un poem</p>
 <br />
 <p>Look out at the land that we've grown on</p>
 <p>Memory of youth were preserved therein</p>
@@ -1275,7 +1418,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 <p>The age rewinded up by the good night</p>
 <p>Remember I said it'd never been forgot</p>
 <p>Old dairies inside my drawer</p>
-<p>There's a secret on every page</p>
+<p>There's un secret on every page</p>
 <br />
 <p>Midnight bell tone ringing everywhere</p>
 <p>Reminding me the promise to be redeemed</p>
@@ -1288,7 +1431,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>The Eternal</title>
             <link>https://joyneop.xyz/blog/?p=10</link>
-            <pubDate>June 28, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-06-28 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=10</guid>
             <content:encoded>
@@ -1296,8 +1439,8 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 <p>The galaxy enshrine memory of those three years; Street lamps fainted faces of thee and me.</p>
 <p>I started to yearn the good old days.</p>
 <p>There were clouds over our heads, and I was sticked in memory and pain of the lost years. Six years of being together was terminated such suddenly; the exodus. The memory, that I tried to preserve indefinitely, finally decayed in the wind, in the time. The first year.</p>
-<p>We moved far west to the other campus. Before the beginning of the third semester, I stood in front of the gate and gazed at the green. People came here and left here every year. An ordinary yet special year in life would be spent there. There were more primitiveness than modernity; more quietness than noisiness. Every scene recalls me something. Ages engraved on walls; a ground of sadness. It was the feel of aging. Soon, another summer, I left there as well. Every tree, every desk, every step, every inch of ground, every square meter of hallways, every door and every window, engraved the year in my heart. The second year.</p>
-<p>We were back, in the main campus. I was fulfilled by <em>real</em> life. It was the climax and finale, by which I have been embraced. The third year.</p>
+<p>We moved far west to the other campus. Before the beginning of the third semester, I stood in front of the gate and gazed at the green. People came here and left here every year. Un ordinary yet special year in life would be spent there. There were more primitiveness than modernity; more quietness than noisiness. Every scene recalls me something. Ages engraved on walls; un ground of sadness. It was the feel of aging. Soon, another summer, I left there as well. Every tree, every desk, every step, every inch of ground, every square meter of hallways, every door and every window, engraved the year in my heart. The second year.</p>
+<p>We were back, in the main campus. I was fulfilled by «real» life. It was the climax and finale, by which I have been embraced. The third year.</p>
 <p>Another year has past.</p>
 <p>We have been going different ways, from our mutual. Thanks for brightening my life in the years.</p>
 <p>In memory of the youth of us, and the time of us.</p>
@@ -1308,7 +1451,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Cool Night, Nice Wind</title>
             <link>https://joyneop.xyz/blog/?p=9</link>
-            <pubDate>June 17, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-06-17 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=9</guid>
             <content:encoded>
@@ -1323,13 +1466,13 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>In Utter Darkness</title>
             <link>https://joyneop.xyz/blog/?p=7</link>
-            <pubDate>May 20, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-05-20 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=7</guid>
             <content:encoded>
 <![CDATA[
 <p>Age of youth was so short. All the dream, hope, love and fantasy of three years shall be sealed call be called memory in the future. When adolescence only remain in ink under pen, and youth only remain in tears with rain, everything would have lost.</p>
-<p>I'll keep fighting, in such dangerous and hopeless a society. A name in family tree, or a glorious story for decedents? A life of selling sugared water or change the world?</p>
+<p>I'll keep fighting, in such dangerous and hopeless un society. Un name in family tree, or un glorious story for decedents? Un life of selling sugared water or change the world?</p>
 <p>Life is short.</p>
 <p>Time shall wipe everything engraved. Also shall it prove everything. May my contribution be with in people's mind, before time erases my presence.</p>
 <p>The prophecy is uncertain; there is always hope.</p>
@@ -1339,15 +1482,15 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Life & Death</title>
             <link>https://joyneop.xyz/blog/?p=5</link>
-            <pubDate>April 27, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-04-27 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=5</guid>
             <content:encoded>
 <![CDATA[
-<blockquote><p>"I have never died. Neither shall I ever."</p>—<cite>Tassadar</cite></blockquote>
-<blockquote><p>"Death is not opposite to life; it's part of life. Death leads life to eternal."</p>—<cite>Huixin Yang</cite></blockquote>
+<blockquote><p>«I have never died. Neither shall I ever.»</p>—<cite>Tassadar</cite></blockquote>
+<blockquote><p>«Death is not opposite to life; it's part of life. Death leads life to eternal.»</p>—<cite>Yang Huixin</cite></blockquote>
 <p>The death of Tassadar was not <em>death</em>; it was <em>transcend</em>. Il was complete. Il has been immortal in Khala, in every Khalai's presence. It's another way of <em>existence</em>.</p>
-<p>People who know Baolin is a network of information, where his presence shall exist upon death. Which is call, "<em>still lives in our minds</em>". Upon my death, my presence shall also exist longer in this way. The only pity is that it's not recursive.</p>
+<p>People who know Baolin is un network of information, where his presence shall exist upon death. Which is call, «still lives in our minds». Upon my death, my presence shall also exist longer in this way. The only pity is that it's not recursive.</p>
 <p>Death extends life.</p>
 <p>Complex living forms consist of vast cells, which produces significant entropy. Life is ultimate order in the universe.</p>
 <p>However, the destiny of the universe is chaos. Limited by second law of thermodynamics, we are destined to go into chaos, regardless of our attempt to keep order. From the void goes the void. Inevitably.</p>
@@ -1359,7 +1502,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Today's Wind Is So Noisy</title>
             <link>https://joyneop.xyz/blog/?p=3</link>
-            <pubDate>April 25, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-04-25 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=3</guid>
             <content:encoded>
@@ -1367,8 +1510,8 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
 <p>It's raining. Again.</p>
 <p>People in cities cannot enjoy complete rainy days, as is said and believed. However, urban rains are stylish in another way. Tarmac streets are not as same ageful as slate ways, but they have something different. Buildings covered by buildings, shadows covered by shadows; it's what cannot be seen in suburban areas.</p>
 <p>The sky was masked grayscale; light and shadow turn and turn, restlessly. Sunless; moonless; starless.</p>
-<p>The rain reminded me of someone, who I used to be interested in for sex and relationship since fall of 2011; but unfortunately a straight guy. Il must have heard of me, according to his reaction when associating my name and face.</p>
-<p>The hand script of the lyric which was written to him was lost by him. Since then, I should have understood that I was just a stranger in his mind, for his absence of care.</p>
+<p>The rain reminded me of someone, who I used to be interested in for sex and relationship since fall of 2011; but unfortunately un straight guy. Il must have heard of me, according to his reaction when associating my name and face.</p>
+<p>The hand script of the lyric which was written to him was lost by him. Since then, I should have understood that I was just un stranger in his mind, for his absence of care.</p>
 <p>No more interest toward him, for now.</p>
 ]]>
             </content:encoded>
@@ -1376,7 +1519,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Earth Day 2012</title>
             <link>https://joyneop.xyz/blog/?p=2</link>
-            <pubDate>April 22, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-04-22 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=2</guid>
             <content:encoded>
@@ -1394,7 +1537,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Early In The Spring</title>
             <link>https://joyneop.xyz/blog/?p=1</link>
-            <pubDate>April 12, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-04-12 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=1</guid>
             <content:encoded>
@@ -1410,7 +1553,7 @@ pRs9EhtUHHd5TTTRVrTyCWnoAhU=
         <item>
             <title>Hello World!</title>
             <link>https://joyneop.xyz/blog/?p=0</link>
-            <pubDate>April 5, 2012 09:41:00 +0000</pubDate>
+            <pubDate>2012-04-05 09:41:00 +0000</pubDate>
             <dc:creator><![CDATA[Joy Neop]]></dc:creator>
             <guid isPermaLink="false">https://joyneop.xyz/blog/?p=0</guid>
             <content:encoded>
