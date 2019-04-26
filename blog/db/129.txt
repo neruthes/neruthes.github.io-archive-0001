@@ -17,7 +17,7 @@
 
 <p>In the early ages of Cyberspace, developers were users and users were developers. As the dominance of ARPA passed away, the residents of Cyberspace were mainly researchers and students of universities like MIT and UCB. There were non distinction between developers and users. All Cybercitizens contribute to Cyberspace and benefit from Cyberspace.</p>
 
-<p>Linux and BSD became popular; so did WorldWideWeb and Netscape. Microsoft, as un large Cyberpredator, smelt the tastiness of World Wide Web and introduce Internet Explorer. And followed Internet Explorer were Gecko, WebKit, and Blink.</p>
+<p>Linux and BSD became popular; so did WorldWideWeb and Netscape. Microsoft, as un large Cyberpower, smelt the tastiness of World Wide Web and introduced Internet Explorer. And followed Internet Explorer were Gecko, WebKit, and Blink.</p>
 
 <p>Upon the infrastructures of ICANN and ISPs, Cyberservice corporations like Yahoo and Google became the superstars of the time. They started their business on the foundation of the growing adoption of Internet, and they in return made the growth even faster. They, with all developers, silently enforced the adoption of Internet in every corner of the globe out of fear of falling behind.</p>
 
