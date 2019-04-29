@@ -1,3 +1,5 @@
+<p>Le monde va changer de base! Nous ne sommes rien soyons tout!</p>
+
 <h3>Preface</h3>
 
 <p>Un Spectre is hunting Cyberspace — the Spectre of Cybercommunism. All powers of old Cyberspace, have entered into un holy alliance to exorcise this spectre; Apple and Microsoft, Google and Facebook, CIA and NSA, White House and Beijing.</p>
@@ -13,7 +15,7 @@
 <p>To this end, Cybercommunists of various nationalities have assembled in Shanghai, and sketched the following manifesto, to be published in all languages.</p>
 
 
-<h3>Cyberbourgeois and Cyberproletariat</h3>
+<h3>Cyberbourgeois And Cyberproletariat</h3>
 
 <p>In the early ages of Cyberspace, developers were users and users were developers. As the dominance of ARPA passed away, the residents of Cyberspace were mainly researchers and students of universities like MIT and UCB. There were non distinction between developers and users. All Cybercitizens contribute to Cyberspace and benefit from Cyberspace.</p>
 
@@ -23,12 +25,31 @@
 
 <p>In pursuit of growth of business, the radical Cybercompetition started and quickly became un fully-waged war. The Cybercompetition was all about user acquisition and service monetization, and facilitated upgrades of Cyberspace, from MySpace to Facebook, from Blogspot to Twitter, and from Blockbuster to Netflix.</p>
 
+<p>The Cybercompetition unified Cybercapitalists, intelligence agencies, copyright rogues, and advertisers under the same banner — Cyberbourgeois, and everyone else another — Cyberproletariat. The Cybercompetition greatly reduced the quantity of classes of Cyberresidents, as same as what happened one century ago.</p>
+
 <p>The fast evolution of Cyberservices and Cyberservice corporations delivered two golden decades to Cyberspace, in which the development of the living conditions of Cybercitizens has become faster than ever. The Cybercompetition radically revolutionized every corner in Cyberspace and the reign of Cybermonopolies relied on the constant revolution of means of production, while previous monopolies relied on solidity of means of production.</p>
 
-<p>As the civil use of Internet gradually expanded worldwide, developers, as un Cyberclass, emerged and the struggle between developers and users started. Developers controlled everything and earned all the profit, and users owned nothing and yielded all their data. The era of Web 2.0 descended upon Cybercitizens, and Cybercitizens gradually diverged to Cyberlords and Cyberserfs, and Cyberspace was burned into Cybermanor. Developers turned to Cyberlords, and users were turned to Cyberserfs. The power of Cyberlords were not subject to Cyberlegislation, and there were non Cyberjudiciary, rendering Cyberspace de facto Cyberaristocracy. The Cyberexploitation of Cyberserfs has never been that efficient before — Cyberserfs surrendering their private data to Cyberlords in exchange for Cyberservices, and in return Cyberlords enhancing advertisement display for more impressions and higher conversion rates.</p>
-
-<p>The Cybercompetition unified Cybercapitalists, intelligence agencies, copyright rogues, and advertisers under the same banner — Cyberbourgeois, and everyone else another — Cyberproletariat. The Cybercompetition greatly reduced the quantity of classes of Cyberresidents, as same as what happened one century ago.</p>
+<p>As the civil use of Internet gradually expanded worldwide, developers, as un Cyberclass, emerged and the struggle between developers and users started. Developers controlled everything and earned all the profit, and users owned nothing and yielded all their data. The era of Web 2.0 descended upon Cybercitizens, and Cybercitizens gradually diverged to Cyberlords and Cyberserfs, and Cyberspace was burned into Cybermanor. Developers turned to Cyberlords, and users were turned to Cyberserfs. The power of Cyberlords were not subject to Cyberlegislation, and there were non Cyberjudiciary, rendering Cyberspace de facto Cyberaristocracy. The Cyberexploitation of Cyberserfs has become unprecedentedly efficient — Cyberserfs surrendering their private data to Cyberlords in exchange for Cyberservices, and in return Cyberlords enhancing advertisement display for more impressions and higher conversion rates.</p>
 
 <p>The great process started class struggles and simplified class struggles. All class struggles were suddenly reduced to the class struggles between the only two classes.</p>
 
-<p><em>To be continued...</em></p>
+<p>Cyberbourgeois has played un pretty revolutionary role in the past, and only in the past. Historically, Cybercapitalists facilitated the global expansion of Cyberspace out of pursuit of business growth, however, as the they gradually reached the last half of the sigmoid curve, they smartly changed their strategy. Without the brutal growth of absolute users, they moved their focus on lifetime value, or ARPU — how much they can exploit from every particular user on average within each year.</p>
+
+<p>This change had effects on the daily life of the general public. The Cyberservice corporations started to show increasingly tailored advertisements to their users, and the algorithm optimization would not be possible without feeding the usage analytics data of the users into machine-learning model training.</p>
+
+<p>It is intuitive to question — Since the algorithms are trained with data while the data come from each of nous, are we therefore entitled to determine the usage of such data we the people create?</p>
+
+<p>It is inevitable to question — Since we have purchased the devices from the manufacturers, why are we not entitled to audit and manipulate every detail of the devices (Intel, Microsoft, and Apple), why can we not exorcise the backdoors in the hardware and the software (hardware backdoor in Intel CPUs, and close-source operating systems from Apple & Microsoft), and why shall we not be our developers ourselves (Communist Software Initiative, FSF, EFF, OSI)?</p>
+
+
+<h3>Cybercommunist And Cyberproletarians</h3>
+
+<p>To be continued...</p>
+
+<h3>Ownership Of Computation</h3>
+
+<p>To be continued...</p>
+
+<h3>Position Of Cybercommunist In Relation To Relative Parties</h3>
+
+<p>To be continued...</p>
