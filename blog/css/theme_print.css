@@ -3,23 +3,46 @@
 		box-shadow: none !important;
 	}
 
+	@page {
+		size: auto;
+	}
+
 	body {
 		font-size: 12pt;
+		margin: 0pt auto;
 	}
 
 	.global {
 		display: none;
 	}
 
+	#cont {
+		margin: 0;
+	}
+
 	.post-h2 {
 		font-size: 18pt;
+		font-weight: 500;
 	}
 
 	.post-date {
 		font-size: 10pt;
+		letter-spacing: normal;
+	}
+	.post-date::after {
+		content: " · Neruthes (5200DF38)";
+		/* display: inline-block; */
+		/* margin-left: 30px; */
+	}
+
+	.post-text > h3 {
+		font-size: 18pt;
+		line-height: 1.25em;
+		margin: 0.75em 0;
 	}
 
 	.post-text > p {
+		font-size: 12pt;
 		line-height: 1.25em;
 		margin: 0.75em 0;
 	}
