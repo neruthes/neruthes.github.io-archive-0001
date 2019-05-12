@@ -15,7 +15,14 @@
 <p>To this end, Cybercommunists of various nationalities have assembled in Shanghai, and sketched the following manifesto, to be published in all languages.</p>
 
 
-<h3>Cyberbourgeois And Cyberproletariat</h3>
+<h3>Basic Arguments</h3>
+
+<p>The Cyberbourgeois interpretation of copyright is, something that may yield profit when incorporated into Cybercapitalistic Cyberexploitation.
+
+<p>The Cyberbourgeois implementation of intellectual property is actually prohibiting the creation of intellectual property of Cyberproletarians.</p>
+
+
+<h3>Cyberbourgeois &amp; Cyberproletariat</h3>
 
 <p>In the early ages of Cyberspace, developers were users and users were developers. As the dominance of ARPA passed away, the residents of Cyberspace were mainly researchers and students of universities like MIT and UCB. There were non distinction between developers and users. All Cybercitizens contribute to Cyberspace and benefit from Cyberspace.</p>
 
@@ -42,7 +49,7 @@
 <p>It is inevitable to question — Since we have purchased the devices from the manufacturers, why are we not entitled to audit and manipulate every detail of the devices (Intel, Microsoft, and Apple), why can we not exorcise the backdoors in the hardware and the software (hardware backdoor in Intel CPUs, and close-source operating systems from Apple & Microsoft), and why shall we not be our developers ourselves (Communist Software Initiative, FSF, EFF, OSI)?</p>
 
 
-<h3>Cyberproletarians And Cybercommunists</h3>
+<h3>Cyberproletarians &amp; Cybercommunists</h3>
 
 <p>Cybercommunists do not form a separate party opposed to other communist parties.</p>
 
