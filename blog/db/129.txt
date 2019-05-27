@@ -1,4 +1,4 @@
-<p>Le monde va changer de base! Nous ne sommes rien soyons tout!</p>
+<p>Le monde va changer de base. Nous ne sommes rien soyons tout.</p>
 
 <h3>Preface</h3>
 

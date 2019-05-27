@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+    	<title>NERUTHES (a.k.a. Joy Neop)</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<script type="text/javascript" src="/js/themes.js" async></script>
+    	<link rel="shortcut icon" href="/favicon.ico">
+    	<link rel="apple-touch-icon" href="/joyneop.png">
+    	<link rel="subresource" href="/blog/list.json">
+    	<link rel="subresource" href="/album/list.json">
+    	<link rel="subresource" href="/kotomatsu/1.jpg">
+    	<link rel="subresource" href="/kotomatsu/2.jpg">
+    	<link rel="subresource" href="/kotomatsu/3.jpg">
+    	<link rel="subresource" href="/kotomatsu/4.jpg">
+    	<link rel="subresource" href="/kotomatsu/5.jpg">
+    	<link rel="subresource" href="/kotomatsu/6.jpg">
+    	<link rel="subresource" href="/kotomatsu/7.jpg">
+    	<link rel="subresource" href="/kotomatsu/8.jpg">
+    	<link rel="subresource" href="/kotomatsu/9.jpg">
+    	<link rel="subresource" href="/kotomatsu/10.jpg">
+    	<link rel="subresource" href="/kotomatsu/11.jpg">
+    	<link rel="subresource" href="/kotomatsu/12.jpg">
+    	<link rel="subresource" href="/kotomatsu/13.jpg">
+    	<link rel="subresource" href="/kotomatsu/14.jpg">
+    	<link rel="subresource" href="/kotomatsu/15.jpg">
+    	<link rel="subresource" href="/kotomatsu/16.jpg">
+    	<link rel="subresource" href="/kotomatsu/17.jpg">
+    	<link rel="subresource" href="/kotomatsu/18.jpg">
+    	<link rel="prefetch" href="/blog/list.json">
+    	<link rel="prefetch" href="/album/list.json">
+    	<link rel="prefetch" href="/kotomatsu/1.jpg">
+    	<link rel="prefetch" href="/kotomatsu/2.jpg">
+    	<link rel="prefetch" href="/kotomatsu/3.jpg">
+    	<link rel="prefetch" href="/kotomatsu/4.jpg">
+    	<link rel="prefetch" href="/kotomatsu/5.jpg">
+    	<link rel="prefetch" href="/kotomatsu/6.jpg">
+    	<link rel="prefetch" href="/kotomatsu/7.jpg">
+    	<link rel="prefetch" href="/kotomatsu/8.jpg">
+    	<link rel="prefetch" href="/kotomatsu/9.jpg">
+    	<link rel="prefetch" href="/kotomatsu/10.jpg">
+    	<link rel="prefetch" href="/kotomatsu/11.jpg">
+    	<link rel="prefetch" href="/kotomatsu/12.jpg">
+    	<link rel="prefetch" href="/kotomatsu/13.jpg">
+    	<link rel="prefetch" href="/kotomatsu/14.jpg">
+    	<link rel="prefetch" href="/kotomatsu/15.jpg">
+    	<link rel="prefetch" href="/kotomatsu/16.jpg">
+    	<link rel="prefetch" href="/kotomatsu/17.jpg">
+    	<link rel="prefetch" href="/kotomatsu/18.jpg">
+        <style media="screen">
+        @import url(/fonts/advanced.css);
+        @import url(/fonts/realtimerounded.css);
+        * {
+    		text-rendering: optimizeLegibility;
+    		box-sizing: border-box;
+            transition: all 200ms ease;
+    	}
+        html, body {
+            font-family: 'RealtimeRounded', 'Seravek', 'Helvetica', 'Arial', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.5em;
+            background: #FAFAFA;
+            padding: 0;
+            margin: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20vh 0;
+        }
+        #title {
+            padding: 0 40px;
+        }
+        .avatar {
+    		width: 180px;
+    		height: 180px;
+    		margin: 0 auto;
+    		background: #FFF url(/joyneop.png) center no-repeat scroll;
+    		background-size: contain;
+    		border-radius: 50%;
+    		box-shadow: rgba(0, 0, 0, 0.21322) 0 0 5px inset;
+    		position: relative;
+    		overflow: hidden;
+    		-webkit-transition: all 270ms ease;
+    		-moz-transition: all 270ms ease;
+    		transition: all 270ms ease;
+    	}
+    	.avatar [data-avatar-index] {
+    		background-size: 180px;
+    		border-radius: 50%;
+    		box-shadow: rgba(0, 0, 0, 0.21322) 0 0 5px inset;
+    		opacity: 0;
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+    		width: 180px;
+    		height: 180px;
+    		-webkit-transition: box-shadow 270ms ease;
+    		-moz-transition: box-shadow 270ms ease;
+    		transition: box-shadow 270ms ease;
+    	}
+    	.avatar:hover {
+    	    transform: scale(1.03);
+    	}
+    	.avatar:hover, .avatar:hover [data-avatar-index] {
+    		border-radius: 50%;
+    		box-shadow: rgba(0, 0, 0, 0.432222) 0 0 5px inset;
+    	}
+        h1 {
+            font-size: 42px;
+            line-height: 1.5em;
+            font-weight: 300;
+            margin: 30px 0 20px;
+        }
+        section {
+            padding: 0 0 60px;
+        }
+        .section-header {
+            padding: 0 0 20px;
+        }
+        .section-header h2 {
+            font-size: 30px;
+            font-weight: 600;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .section-content {
+            font-size: 0px;
+            text-align: center;
+            max-width: 800px;
+            padding: 0 20px;
+            margin: 0 auto;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.5em;
+            margin: 0;
+        }
+        .col {
+            font-size: 18px;
+        }
+        #section--metalinks .col a {
+            font-size: 24px;
+            display: block;
+            padding: 50px 0;
+        }
+        #section--links .col a {
+            display: block;
+            padding: 15px 0;
+        }
+        #section--works .col a {
+            font-size: 24px;
+            background-size: contain !important;
+            display: block;
+            padding: 50px 0;
+            transition: all 200ms ease;
+        }
+        #section--works .col a:hover {
+            filter: brightness(110%);
+        }
+        #section--works .col a h3 {
+            font-size: 30px;
+            font-weight: 500;
+            text-transform: uppercase;
+            line-height: 1.5em;
+            padding: 0 0 10px;
+            margin: 0;
+        }
+        #section--works .col a p {
+            line-height: 1.5em;
+            margin: 0;
+        }
+        </style>
+        <style>
+        .shadow-inner {
+            box-shadow: rgba(0, 0, 0, 0.3) 0 1px 7px 1px inset;
+        }
+        .shadow-outer {
+            box-shadow: rgba(0, 0, 0, 0.05) 0 1px 10px 1px;
+        }
+        .shadow-inner:hover {
+            box-shadow: rgba(0, 0, 0, 0.5) 0 1px 14px 4px inset;
+        }
+        .shadow-outer.hover-to-lift:hover {
+            box-shadow: rgba(0, 0, 0, 0.09) 0 4px 20px 0px;
+            transform: translateY(-3px);
+        }
+        .hover-to-scale, .hover-to-lift {
+            transition: all 200ms ease;
+        }
+        .hover-to-scale:hover {
+            transform: scale(1.08) !important;
+        }
+        a {
+            text-decoration: none;
+        }
+        :hover {
+            z-index: 7000;
+        }
+        </style>
+        <style>
+        .col {
+            display: inline-block;
+            padding: 10px;
+        }
+        .col-in {
+            text-align: center;
+            background-position: center top;
+            background-size: cover;
+            border-radius: 5px !important;
+            overflow: hidden;
+        }
+        @media screen and (max-width: 767px) {
+            .col-25 { width: 25%; }
+            .col-50 { width: 50%; }
+            .col-100 { width: 100%; }
+        }
+        @media screen and (min-width: 768px) {
+            .col-lg-25 { width: 25%; }
+            .col-lg-50 { width: 50%; }
+            .col-lg-100 { width: 100%; }
+        }
+        </style>
+        <style>
+        a {
+            color: inherit;
+        }
+        #section--metalinks .col-in {
+            background: #222933;
+            background-image: linear-gradient(rgb(31, 97, 190), rgb(122, 164, 213));
+        }
+        #section--metalinks .col a {
+            color: #FFF;
+        }
+        #section--metalinks .col a[href="/blog/"] {
+            background-image: url(/JN-Lab/other-images/nav-blog-360px.jpg);
+            background-size: cover;
+        }
+        #section--links .col a {
+            background: #FFF;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="cont">
+            <header>
+                <div class="section-content">
+                    <div id="title">
+            			<div id="title-in">
+            				<a href="/">
+            					<div id="avatar" class="avatar"></div>
+            					<script>
+            					if (window.theStyleForNow == "general.css") {
+            						document.getElementById('avatar').style.backgroundImage = 'url(/kotomatsu/MY.jpg)'.replace(/MY/, Math.floor(Math.random()*17+1));
+            					};
+            					</script>
+            					<script src="/js/avatar-animation.js" async></script>
+            					<h1>NERUTHES</h1>
+            				</a>
+            				<p>
+            					A.k.a. Joy Neop<br />
+                                Male / 1995 / Sino-Korean / Homosexual<br />Existentialist / Nihilist / Communist / Skeuomorphist<br />(Fake)&nbsp;Product&nbsp;Designer / (Half)&nbsp;Web&nbsp;Developer<br />Citizen of Cyberspace<br />Cybercommunist Party Comrade<br />CB0A&nbsp;BC77&nbsp;5644&nbsp;0D12&nbsp;915E 3F25&nbsp;AFB3&nbsp;373F&nbsp;5200&nbsp;DF38
+            				</p>
+            			</div>
+            		</div>
+                </div>
+            </header>
+            <section id="section--metalinks">
+                <div class="section-content">
+                    <div class="col col-50 col-lg-50">
+                        <div class="col-in">
+                            <a class="shadow-inner" href="/blog/">BLOG</a>
+                        </div>
+                    </div>
+                    <div class="col col-50 col-lg-50">
+                        <div class="col-in">
+                            <a class="shadow-inner" href="/album/">ALBUM</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section--links">
+                <div class="section-header">
+                    <h2>LINKS</h2>
+                </div>
+                <div class="section-content">
+                    <div class="col col-50 col-lg-25"><div class="col-in shadow-outer hover-to-lift"><a class="" target="_blank" href="/email-public-key.txt">Public Key</a></div></div>
+                    <div class="col col-50 col-lg-25"><div class="col-in shadow-outer hover-to-lift"><a class="" target="_blank" href="mailto:i@neruthes.xyz">Email</a></div></div>
+                    <div class="col col-50 col-lg-25"><div class="col-in shadow-outer hover-to-lift"><a class="" target="_blank" href="https://github.com/neruthes">GitHub</a></div></div>
+                    <div class="col col-50 col-lg-25"><div class="col-in shadow-outer hover-to-lift"><a class="" target="_blank" href="https://keybase.io/neruthes">Keybase</a></div></div>
+                    <div class="col col-50 col-lg-25"><div class="col-in shadow-outer hover-to-lift"><a class="" target="_blank" href="https://twitter.com/neruthes">Twitter</a></div></div>
+                    <div class="col col-50 col-lg-25"><div class="col-in shadow-outer hover-to-lift"><a class="" target="_blank" href="https://www.zhihu.com/people/c3ea1d88feb5">Zhihu</a></div></div>
+                </div>
+            </section>
+            <section id="section--works">
+                <div class="section-header">
+                    <h2>WORKS</h2>
+                </div>
+                <div class="section-content">
+                    <div class="col col-100 col-lg-100"><div class="col-in shadow-outer hover-to-lift"><a class="" target="_blank" style="color: #FFF; background: #FE8A2B url(/pic/homepage-2019/kotomatsu.png) center no-repeat;" href="/kotomatsu/"><h3>Kotomatsu</h3><p>FELINITY SAIKO</p></a></div></div>
+                    <div class="col col-100 col-lg-100"><div class="col-in shadow-outer hover-to-lift"><a class="" target="_blank" style="color: #FFF; background: #0D447A url(/pic/homepage-2019/tessercube.png) center no-repeat;" href="https://tessercube.com"><h3>Tessercube</h3><p>Cryptographic Identity System</p></a></div></div>
+                    <div class="col col-100 col-lg-100"><div class="col-in shadow-outer hover-to-lift"><a class="" target="_blank" style="color: #FFF; background: #0F3780 url(/pic/homepage-2019/maskbook.png) center no-repeat;" href="https://maskbook.com"><h3>Maskbook</h3><p>Make Privacy Protect Again</p></a></div></div>
+                    <div class="col col-100 col-lg-100"><div class="col-in shadow-outer hover-to-lift"><a class="" target="_blank" style="color: #FFF; background: #4899C0 url(/pic/homepage-2019/randomfont.png) center no-repeat;" href="https://maskbook.com"><h3>RandomFont</h3><p>Random Inspiration with Random Font</p></a></div></div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
