@@ -196,7 +196,7 @@
             transform: translateY(-3px);
         }
         .shadow-outer-heavy.hover-to-lift:hover {
-            box-shadow: rgba(0, 0, 0, 0.35) 0 4px 20px 4px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0 4px 40px 4px;
             transform: translateY(-3px);
         }
         .hover-to-scale, .hover-to-lift {
@@ -323,9 +323,31 @@
             </section>
             <footer>
                 <div class="section-content">
-                    <p>Copyright 2014-2019 All Rights Reserved by Neruthes (a.k.a. Joy Neop)</p>
+                    <p>Copyright 2014-<script type="text/javascript">document.write((new Date()).getFullYear());</script> All Rights Reserved by Neruthes (a.k.a. Joy Neop)</p>
                 </div>
             </footer>
         </div>
+        <script src="https://cdn.neop.me/pride.js/pride.js"></script>
+    	<script>
+    	(function () {
+    		var x = new XMLHttpRequest();
+    		x.open('GET', '/album/list.json', true);
+    		x.onload = function (ev) {
+    			var _cache = function (_url) {
+    				var xhr = new XMLHttpRequest();
+    				xhr.open('GET', _url, true);
+    				xhr.onload = function (_ev) { return _ev.target.responseText; };
+    				xhr.send();
+    			};
+    			var list = JSON.parse(ev.target.responseText);
+    			Object.keys(list).map(function (key) {
+    				if (list[key].T !== 0) {
+    					_cache('/album/covers/' + key + '.jpg');
+    				};
+    			});
+    		};
+    		x.send();
+    	})();
+    	</script>
     </body>
 </html>
