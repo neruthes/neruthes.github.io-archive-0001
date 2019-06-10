@@ -165,7 +165,7 @@ h1, h2, h3 {
 }
 
 .post-text code {
-	font-family: 'Inconsolata', 'Menlo', monospace;
+	font-family: 'RealtimeRounded', 'Inconsolata', 'Menlo', monospace;
 	background: #F9F9F9;
 	border-radius: 3px;
 	padding: 0 3px;
@@ -208,7 +208,7 @@ h1, h2, h3 {
 }
 
 .post-text pre {
-	font-family: 'Inconsolata', 'Menlo', monospace;
+	font-family: 'RealtimeRounded', 'Inconsolata', 'Menlo', monospace;
 	line-height: 1.5em;
 	color: #333;
 	background: #F9F9F9;
