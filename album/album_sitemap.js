@@ -2,7 +2,7 @@
 
 Portfolio Sitemap Generator
 Run on Node.js
-(c) Copyright 2014 All Rights Reserved by Joy Neop
+(c) Copyright 2014 All Rights Reserved by Neruthes (a.k.a. Joy Neop)
 
 */
 

@@ -1,4 +1,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://joyneop.xyz/crypto-utils/</loc>
+		<priority>0.8</priority>
+	</url>
 	
 	<url>
 		<loc>https://joyneop.xyz/poetry-de-legacy/</loc>
@@ -35,6 +39,12 @@
 		<priority>0.1</priority>
 	</url>
 	
+	
+	<url>
+		<loc>https://joyneop.xyz/blog/?p=129</loc>
+		<lastmod>2019-04-26</lastmod>
+		<priority>0.8</priority>
+	</url>
 	
 	<url>
 		<loc>https://joyneop.xyz/blog/?p=128</loc>
@@ -384,6 +394,16 @@
 		<priority>0.8</priority>
 	</url>
 	
+	
+	<url>
+		<loc>https://joyneop.xyz/album/?p=24</loc>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>https://joyneop.xyz/album/?p=23</loc>
+		<priority>0.8</priority>
+	</url>
 	
 	<url>
 		<loc>https://joyneop.xyz/album/?p=22</loc>
