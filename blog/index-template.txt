@@ -1,7 +1,7 @@
-@author Joy Neop
-@url joyneop.xyz/blog
-@rss joyneop.xyz/blog/feed.rss
-@txt joyneop.xyz/blog/all-posts-in-one.txt
+@author Neruthes (0x5200DF38)
+@url https://joyneop.xyz/blog/
+@rss https://joyneop.xyz/blog/feed.rss
+@txt https://joyneop.xyz/blog/all-posts-in-one.txt
 
 
 
@@ -19,4 +19,4 @@
 
 
 
-(c) Copyright 2014 All Rights Reserved by Joy Neop
+(c) Copyright 2012-2019 All Rights Reserved by Joy Neop

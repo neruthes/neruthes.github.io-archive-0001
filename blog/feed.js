@@ -2,7 +2,7 @@
 
 Blog RSS Generator
 Run on Node.js
-(c) Copyright 2014 All Rights Reserved by Joy Neop
+(c) Copyright 2014-2019 All Rights Reserved by Neruthes (0x5200DF38)
 
 */
 
@@ -14,10 +14,10 @@ xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/el
 xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"\n\
 xmlns:slash="http://purl.org/rss/1.0/modules/slash/">\n\
     <channel>\n\
-        <title>Joy Neop (a.k.a. Neruthes)</title>\n\
+        <title>Neruthes (a.k.a. Joy Neop)</title>\n\
         <atom:link href="https://joyneop.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />\n\
         <link>https://joyneop.xyz/blog/</link>\n\
-        <description>8F45 D723 57EE B6C5 5666 2C8D 68A0 B4B6 EEF9 762A</description>\n\
+        <description>CB0A BC77 5644 0D12 915E 3F25 AFB3 373F 5200 DF38</description>\n\
         <lastBuildDate>__DATE__ 09:41:00 +0000</lastBuildDate>\n\
         <language>en-US</language>\n\
         <sy:updatePeriod>hourly</sy:updatePeriod>\n\
@@ -56,7 +56,7 @@ listJson.length = (function (list) {
 var maxId = listJson.length-1;
 for (var i = maxId; i >= 0; i--) {
 	if (listJson[i].D !== 0) {
-        accumulate += postTemplate.replace(/__AUTHOR__/g, 'Joy Neop')
+        accumulate += postTemplate.replace(/__AUTHOR__/g, 'Neruthes (a.k.a. Joy Neop)')
     	.replace(/__URL__/g, 'https://joyneop.xyz/blog/?p=' + i)
     	.replace(/__TITLE__/g, listJson[i]['T'])
     	.replace(/__DATE__/g, listJson[i]['D'])
